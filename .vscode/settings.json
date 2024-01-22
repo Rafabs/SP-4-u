@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "./Mapa dos Trilhos",
+        "./Mapa dos Trilhos/Linhas"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none"
+}
