@@ -3719,3 +3719,298 @@
 2024-01-22 18:29:40,763 - INFO - [1m[37mMapa da LINHA 15 - PRATA iniciado às [32m18:27:58[0m
 2024-01-22 18:29:42,515 - INFO - [1m[37mMapa da LINHA GUARAREMA iniciado às [32m18:27:58[0m
 2024-01-22 18:29:44,498 - INFO - [1m[37mMapa da LINHA PIRAPORA iniciado às [32m18:27:58[0m
+2024-01-23 15:51:40,093 - INFO - [1m[37mPrograma Iniciado às [31m15:51:40[0m
+2024-01-23 15:51:40,178 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-23 15:51:40,178 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-23 15:51:52,475 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM, 3-Vermelha do Metrô.
+2024-01-23 15:52:00,007 - INFO - [1m[37mMapa iniciado às [32m15:51:39[37m, aguarde[0m
+2024-01-23 15:52:00,486 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:52:00,543 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:52:11,412 - ERROR - Exception in Tkinter callback
+2024-01-23 15:52:11,443 - ERROR - Traceback (most recent call last):
+2024-01-23 15:52:11,444 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-01-23 15:52:11,444 - ERROR -     return self.func(*args)
+2024-01-23 15:52:11,444 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,444 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 566, in mapa_global
+2024-01-23 15:52:11,444 - ERROR -     adicionar_qualidade_ar(m, ar_group)
+2024-01-23 15:52:11,444 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 284, in adicionar_qualidade_ar
+2024-01-23 15:52:11,444 - ERROR -     response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+2024-01-23 15:52:11,444 - ERROR -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,444 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+2024-01-23 15:52:11,444 - ERROR -     return request("get", url, params=params, **kwargs)
+2024-01-23 15:52:11,444 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,444 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+2024-01-23 15:52:11,444 - ERROR -     return session.request(method=method, url=url, **kwargs)
+2024-01-23 15:52:11,444 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,445 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2024-01-23 15:52:11,445 - ERROR -     resp = self.send(prep, **send_kwargs)
+2024-01-23 15:52:11,445 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,445 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2024-01-23 15:52:11,445 - ERROR -     r = adapter.send(request, **kwargs)
+2024-01-23 15:52:11,445 - ERROR -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:11,445 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 458, in send
+2024-01-23 15:52:11,445 - ERROR -     self.cert_verify(conn, request.url, verify, cert)
+2024-01-23 15:52:11,445 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 261, in cert_verify
+2024-01-23 15:52:11,445 - ERROR -     raise OSError(
+2024-01-23 15:52:11,445 - ERROR - OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+2024-01-23 15:52:11,459 - INFO - [1m[37mMapa iniciado às [32m15:51:39[37m, aguarde[0m
+2024-01-23 15:52:11,474 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:52:11,513 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:52:24,082 - ERROR - Exception in Tkinter callback
+2024-01-23 15:52:24,095 - ERROR - Traceback (most recent call last):
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-01-23 15:52:24,095 - ERROR -     return self.func(*args)
+2024-01-23 15:52:24,095 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 566, in mapa_global
+2024-01-23 15:52:24,095 - ERROR -     adicionar_qualidade_ar(m, ar_group)
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 284, in adicionar_qualidade_ar
+2024-01-23 15:52:24,095 - ERROR -     response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+2024-01-23 15:52:24,095 - ERROR -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+2024-01-23 15:52:24,095 - ERROR -     return request("get", url, params=params, **kwargs)
+2024-01-23 15:52:24,095 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+2024-01-23 15:52:24,095 - ERROR -     return session.request(method=method, url=url, **kwargs)
+2024-01-23 15:52:24,095 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2024-01-23 15:52:24,095 - ERROR -     resp = self.send(prep, **send_kwargs)
+2024-01-23 15:52:24,095 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2024-01-23 15:52:24,095 - ERROR -     r = adapter.send(request, **kwargs)
+2024-01-23 15:52:24,095 - ERROR -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 458, in send
+2024-01-23 15:52:24,095 - ERROR -     self.cert_verify(conn, request.url, verify, cert)
+2024-01-23 15:52:24,095 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 261, in cert_verify
+2024-01-23 15:52:24,095 - ERROR -     raise OSError(
+2024-01-23 15:52:24,095 - ERROR - OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+2024-01-23 15:54:40,765 - INFO - [1m[37mMapa iniciado às [32m15:51:39[37m, aguarde[0m
+2024-01-23 15:54:40,832 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:54:40,898 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:54:52,971 - ERROR - Exception in Tkinter callback
+2024-01-23 15:54:52,971 - ERROR - Traceback (most recent call last):
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-01-23 15:54:52,972 - ERROR -     return self.func(*args)
+2024-01-23 15:54:52,972 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 566, in mapa_global
+2024-01-23 15:54:52,972 - ERROR -     adicionar_qualidade_ar(m, ar_group)
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 284, in adicionar_qualidade_ar
+2024-01-23 15:54:52,972 - ERROR -     response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+2024-01-23 15:54:52,972 - ERROR -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+2024-01-23 15:54:52,972 - ERROR -     return request("get", url, params=params, **kwargs)
+2024-01-23 15:54:52,972 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+2024-01-23 15:54:52,972 - ERROR -     return session.request(method=method, url=url, **kwargs)
+2024-01-23 15:54:52,972 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2024-01-23 15:54:52,972 - ERROR -     resp = self.send(prep, **send_kwargs)
+2024-01-23 15:54:52,972 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2024-01-23 15:54:52,972 - ERROR -     r = adapter.send(request, **kwargs)
+2024-01-23 15:54:52,972 - ERROR -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 458, in send
+2024-01-23 15:54:52,972 - ERROR -     self.cert_verify(conn, request.url, verify, cert)
+2024-01-23 15:54:52,972 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 261, in cert_verify
+2024-01-23 15:54:52,972 - ERROR -     raise OSError(
+2024-01-23 15:54:52,972 - ERROR - OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+2024-01-23 15:55:42,769 - INFO - [1m[37mMapa iniciado às [32m15:51:39[37m, aguarde[0m
+2024-01-23 15:55:42,783 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:55:42,813 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:55:55,679 - ERROR - Exception in Tkinter callback
+2024-01-23 15:55:55,679 - ERROR - Traceback (most recent call last):
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-01-23 15:55:55,680 - ERROR -     return self.func(*args)
+2024-01-23 15:55:55,680 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 566, in mapa_global
+2024-01-23 15:55:55,680 - ERROR -     adicionar_qualidade_ar(m, ar_group)
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 284, in adicionar_qualidade_ar
+2024-01-23 15:55:55,680 - ERROR -     response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+2024-01-23 15:55:55,680 - ERROR -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+2024-01-23 15:55:55,680 - ERROR -     return request("get", url, params=params, **kwargs)
+2024-01-23 15:55:55,680 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+2024-01-23 15:55:55,680 - ERROR -     return session.request(method=method, url=url, **kwargs)
+2024-01-23 15:55:55,680 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2024-01-23 15:55:55,680 - ERROR -     resp = self.send(prep, **send_kwargs)
+2024-01-23 15:55:55,680 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2024-01-23 15:55:55,680 - ERROR -     r = adapter.send(request, **kwargs)
+2024-01-23 15:55:55,680 - ERROR -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:55:55,680 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 458, in send
+2024-01-23 15:55:55,680 - ERROR -     self.cert_verify(conn, request.url, verify, cert)
+2024-01-23 15:55:55,681 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 261, in cert_verify
+2024-01-23 15:55:55,681 - ERROR -     raise OSError(
+2024-01-23 15:55:55,681 - ERROR - OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+2024-01-23 15:55:55,689 - INFO - [1m[37mMapa iniciado às [32m15:51:39[37m, aguarde[0m
+2024-01-23 15:55:55,702 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:55:55,734 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 15:56:09,457 - ERROR - Exception in Tkinter callback
+2024-01-23 15:56:09,458 - ERROR - Traceback (most recent call last):
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-01-23 15:56:09,458 - ERROR -     return self.func(*args)
+2024-01-23 15:56:09,458 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 566, in mapa_global
+2024-01-23 15:56:09,458 - ERROR -     adicionar_qualidade_ar(m, ar_group)
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Mapa dos Trilhos\mapa.py", line 284, in adicionar_qualidade_ar
+2024-01-23 15:56:09,458 - ERROR -     response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+2024-01-23 15:56:09,458 - ERROR -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+2024-01-23 15:56:09,458 - ERROR -     return request("get", url, params=params, **kwargs)
+2024-01-23 15:56:09,458 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+2024-01-23 15:56:09,458 - ERROR -     return session.request(method=method, url=url, **kwargs)
+2024-01-23 15:56:09,458 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2024-01-23 15:56:09,458 - ERROR -     resp = self.send(prep, **send_kwargs)
+2024-01-23 15:56:09,458 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,458 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2024-01-23 15:56:09,458 - ERROR -     r = adapter.send(request, **kwargs)
+2024-01-23 15:56:09,458 - ERROR -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-01-23 15:56:09,459 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 458, in send
+2024-01-23 15:56:09,459 - ERROR -     self.cert_verify(conn, request.url, verify, cert)
+2024-01-23 15:56:09,459 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 261, in cert_verify
+2024-01-23 15:56:09,459 - ERROR -     raise OSError(
+2024-01-23 15:56:09,459 - ERROR - OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\16\ssl\certs\ca-bundle.crt
+2024-01-23 16:02:29,439 - ERROR - Traceback (most recent call last):
+2024-01-23 16:02:29,440 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\main.py", line 418, in <module>
+2024-01-23 16:02:29,442 - ERROR - canvas.itemconfigure(temperatura, text=get_weather())
+2024-01-23 16:02:29,443 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2959, in itemconfigure
+2024-01-23 16:02:29,444 - ERROR - return self._configure(('itemconfigure', tagOrId), cnf, kw)
+2024-01-23 16:02:29,445 - ERROR - ^
+2024-01-23 16:02:29,445 - ERROR - ^
+2024-01-23 16:02:29,445 - ERROR - ^
+2024-01-23 16:02:29,445 - ERROR - ^
+2024-01-23 16:02:29,445 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,446 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,447 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR - ^
+2024-01-23 16:02:29,448 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-01-23 16:02:29,449 - ERROR - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-01-23 16:02:29,451 - ERROR - _tkinter
+2024-01-23 16:02:29,451 - ERROR - .
+2024-01-23 16:02:29,451 - ERROR - TclError
+2024-01-23 16:02:29,451 - ERROR - :
+2024-01-23 16:02:29,451 - ERROR - invalid command name ".!canvas"
+2024-01-23 16:03:26,323 - INFO - [1m[37mPrograma Iniciado às [31m16:03:26[0m
+2024-01-23 16:03:26,403 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-23 16:03:26,403 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-23 16:03:39,195 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM, 3-Vermelha do Metrô.
+2024-01-23 16:03:42,908 - INFO - [1m[37mMapa iniciado às [32m16:03:26[37m, aguarde[0m
+2024-01-23 16:03:43,083 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 16:03:43,126 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 16:11:04,862 - INFO - [1m[37mMapa iniciado às [32m16:03:26[37m, aguarde[0m
+2024-01-23 16:11:04,989 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 16:11:05,156 - ERROR - PROJ: proj_identify: Cannot find proj.db
+2024-01-23 16:12:16,778 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m16:03:26[0m
+2024-01-23 16:12:19,429 - INFO - [1m[37mGTFS da EMTU iniciado às [32m16:03:26[0m
+2024-01-23 16:12:25,466 - INFO - [1m[37mMapa da Rede iniciado às [32m16:03:25[0m
+2024-01-23 16:12:26,600 - ERROR - Traceback (most recent call last):
+2024-01-23 16:12:26,600 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\main.py", line 418, in <module>
+2024-01-23 16:12:26,601 - ERROR - canvas.itemconfigure(temperatura, text=get_weather())
+2024-01-23 16:12:26,601 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2959, in itemconfigure
+2024-01-23 16:12:26,603 - ERROR - return self._configure(('itemconfigure', tagOrId), cnf, kw)
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,603 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,604 - ERROR - ^
+2024-01-23 16:12:26,605 - ERROR - ^
+2024-01-23 16:12:26,605 - ERROR - ^
+2024-01-23 16:12:26,605 - ERROR - ^
+2024-01-23 16:12:26,605 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-01-23 16:12:26,605 - ERROR - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-01-23 16:12:26,605 - ERROR - _tkinter
+2024-01-23 16:12:26,605 - ERROR - .
+2024-01-23 16:12:26,605 - ERROR - TclError
+2024-01-23 16:12:26,605 - ERROR - :
+2024-01-23 16:12:26,605 - ERROR - invalid command name ".!canvas"
