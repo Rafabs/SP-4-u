@@ -11,6 +11,7 @@ import requests
 from datetime import datetime, timedelta
 from colorama import Fore, Back, Style, init
 from datetime import datetime
+import certifi
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
@@ -281,7 +282,10 @@ def mapa_global():
 
             # Obtém a qualidade do ar para a estação atual
             latitude, longitude = info['latitude'], info['longitude']
-            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6")
+
+            # Utiliza o certifi para apontar para o caminho do certificado
+            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6", 
+                                    verify=certifi.where())
             air_quality_data = response.json()
 
             # Função para obter a classificação com base no índice
