@@ -119,7 +119,7 @@ Se você deseja contribuir para este repositório, sinta-se à vontade para faze
 
 ## Agradecimentos
 
-Obrigado por visitar este repositório! Esperamos que os mapas de linhas de metrô criados com Tkinter sejam úteis e informativos. Sinta-se à vontade para explorar, aprender e contribuir. Se tiver alguma dúvida ou sugestão, não hesite em abrir uma issue neste repositório.
+Obrigado por visitar este repositório! Espero que os mapas de linhas de metrô criados com Tkinter sejam úteis e informativos. Sinta-se à vontade para explorar, aprender e contribuir. Se tiver alguma dúvida ou sugestão, não hesite em abrir uma issue neste repositório.
 
 Divirta-se explorando os mapas do transporte metropolitano de São Paulo!
 
