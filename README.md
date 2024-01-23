@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.5-blue.svg)
 ![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-11/01/2024-green.svg)
 
-<img align="right" src="https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
+<img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
 Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma coleção de códigos que geram mapas das linhas de Metrô, CPTM, Via Quatro Via Mobilidade, além de corredores da SPTrans/EMTU e informações sobre ciclovias e bicicletários usando a biblioteca Tkinter aliado com Folium em Python.
 
@@ -10,7 +10,7 @@ Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma
 
 Este repositório foi criado com o objetivo de demonstrar como criar visualizações simples de mapas de linhas de metrô, trens e ônibus usando a biblioteca Tkinter. Cada script contido neste repositório representa uma linha diferente e usa elementos gráficos para criar um mapa que mostra as estações, as conexões e os trajetos possíveis, além de verificar o trânsito no sentido Centro-Bairro ou Bairro-Centro, a hora e a temperatura na cidade de São Paulo, as linhas que estão em construção não constam no mapa de trajetos, porém consta no mapa global.
 
-Saiba mais sobre este projeto acessando o arquivo html em [SOBRE](https://github.com/Rafabs/Sampa-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/index.html)
+Saiba mais sobre este projeto acessando o arquivo html em [SOBRE](https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/index.html)
 
 Cada linha recebeu uma cor em hexadecimal, de acordo com o GFTS da [SPTRANS](https://www.sptrans.com.br/desenvolvedores/login-desenvolvedores/), em ordem numérica:
 - ![#0455A1](https://via.placeholder.com/15/0455A1/000000?text=+) `#0455A1` Linha 01 - Azul 
@@ -98,10 +98,10 @@ Observação: Certifique-se de que você possui o Python instalado no seu sistem
 ## Exibição
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
-![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/Sampa-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.5.jpg)
+![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.5.jpg)
 
 ## Diagrama da versão atual v1.0.5
-![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/Sampa-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
+![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
 - [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
