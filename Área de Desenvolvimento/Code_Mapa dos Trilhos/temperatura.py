@@ -17,3 +17,8 @@ def get_weather():
     weather_data = response.json()
     temperature = weather_data['main']['temp']
     return f'{temperature} °C'
+
+'''Para testes isolados nesse código, desmarque as 3 linhas abaixo.'''
+#get_weather() 
+#temperature = get_weather()
+#print(temperature)

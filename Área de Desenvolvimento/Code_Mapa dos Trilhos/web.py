@@ -37,3 +37,14 @@ def status():
         lista_mensagens.append(f"Nenhuma ocorrência no momento.")
 
     return linhas, status, lista_mensagens
+
+'''Para testes isolados nesse código, desmarque as 9 linhas abaixo.'''
+#status() 
+resultado_linhas, resultado_status, resultado_mensagens = status()
+# Imprime os resultados um abaixo do outro
+for i in range(len(resultado_linhas)):
+    print("Linhas:", resultado_linhas[i])
+    print("Status:", resultado_status[i])
+    if i < len(resultado_mensagens):
+        print("Mensagens:", resultado_mensagens[i])
+    print()

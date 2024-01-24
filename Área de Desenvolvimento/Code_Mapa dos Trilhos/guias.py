@@ -45,3 +45,11 @@ def guia_cptm_expresso_turistico():
     imagem_pil.show()
     # Imprime o texto formatado
     print(f"{Style.BRIGHT}{Fore.WHITE}Guia do Expresso Turístico iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")
+
+'''Para testes isolados nesse código, desmarque a função em que esteja trabalhando.'''
+
+#mapa_rede()
+#guia_pt_metro()
+#guia_en_metro()
+#guia_cptm()
+#guia_cptm_expresso_turistico()
