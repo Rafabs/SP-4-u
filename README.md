@@ -104,7 +104,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
-- [ ] ```Em desenvolvimento - Sem Previsão``` Melhorias de interface gráfica da tela inicial ```v1.0.6```.
+- [ ] ```Em desenvolvimento - Sem Previsão``` Exibição do mapa das linhas nas abas de index.html ```v1.0.6```.
+- [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir integração Linha 13 - Jade no mapa da Linha 4 - Amarela no Python e em linha_04.html
 - [ ] Inserir informações de horários previstos de chegada e saída no Mapa
 - [ ] Inserir informações de Operação no arquivo index.html

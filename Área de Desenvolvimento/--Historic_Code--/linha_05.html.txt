@@ -1,0 +1,23 @@
+>> 01:19 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
+TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
+de https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/imgs/linha_05.PNG 
+para https://github.com/Rafabs/SP-4-u/blob/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_05.PNG
+
+( ) SOLUCIONADO
+(X) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
