@@ -35,7 +35,8 @@ from Guararema import guararema
 init()
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa dos Trilhos\\log.txt', level=logging.INFO,
+'''ATENÇÃO: ESSE LOG É DE TESTE, O CAMINHO ORIGINAL DEVERÁ SER ALTERADO AO PASSAR PARA LANÇAMENTO'''
+logging.basicConfig(filename='Área de Desenvolvimento\\log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Redirecionamento de sys.stdout e sys.stderr para o logger
