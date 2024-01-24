@@ -1,10 +1,19 @@
 >> 01:42 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/Metrô_SP_L4.py
-INSERÇÃO da linha 13 - Jade 
-de https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Sobre/imgs/linha_15.PNG 
-para https://github.com/Rafabs/SP-4-u/blob/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_15.PNG
+INSERÇÃO integração Linha 13 - Jade no mapa da Linha 4 - Amarela no Python e em linha_04.html
 
-( ) SOLUCIONADO
-(X) EM DESENVOLVIMENTO
+de 
+para (linha 112)
+    linha13_jade_icon = canvas.create_text(
+        x1-3, y1+120, text="●", font="Helvetica 32", anchor="w", fill=jade)
+    l13_icon = canvas.create_text(
+        x1+3, y1+122, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
+
+para (linha 158)     
+    canvas.lift(l13_icon)
+
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
 ( ) SOLUCIONADO

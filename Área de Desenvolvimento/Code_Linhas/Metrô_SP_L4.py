@@ -109,6 +109,10 @@ def line4():
         x1-3, y1+100, text="●", font="Helvetica 32", anchor="w", fill=coral)
     l11_icon = canvas.create_text(
         x1+3, y1+102, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
+    linha13_jade_icon = canvas.create_text(
+        x1-3, y1+120, text="●", font="Helvetica 32", anchor="w", fill=jade)
+    l13_icon = canvas.create_text(
+        x1+3, y1+122, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
 
     # REPÚBLICA
     linha3_vermelha_icon = canvas.create_text(
@@ -151,6 +155,7 @@ def line4():
     canvas.lift(l9_icon)
     canvas.lift(l10_icon)
     canvas.lift(l11_icon)
+    canvas.lift(l13_icon)
 
     # Define as Estações
     LUZ = canvas.create_text(x1+8, y1-13, text="Luz",
@@ -177,7 +182,7 @@ def line4():
                              font="Helvetica 12", anchor="w", angle=60)
 
     dev = canvas.create_text(
-        960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 10/03/2023 | Revisado em 02/09/2023", font="Helvetica 12", anchor="c")
+        960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 10/03/2023 | Revisado em 24/01/2024", font="Helvetica 12", anchor="c")
 
     while True:
         root.update()
@@ -185,3 +190,6 @@ def line4():
             root.update()
         except TclError:
             break
+
+'''Para testes isolados nesse código, desmarque a função abaixo.'''
+line4() 
