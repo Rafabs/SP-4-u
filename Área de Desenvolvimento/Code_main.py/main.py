@@ -176,12 +176,6 @@ nome_usuario = os.getlogin()
 canvas.create_text(120, 20, text=('Olá, ' + nome_usuario),
                    font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
-# Temperatura + data + hora
-temperatura = canvas.create_text(
-    120, 40, text=get_weather(), font="Helvetica 12", anchor="w", fill='#FFFFFF')
-data_hora = canvas.create_text(120, 60, text=datetime.now().strftime(
-    "%d/%m/%Y %H:%M:%S"), font="Helvetica 12", anchor="w", fill='#FFFFFF')
-
 # Informações de Trânsito CET
 centro_bairro = canvas.create_text(120, 80, text=(
     "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
@@ -412,18 +406,32 @@ button_pirapora = tk.Button(
     layout, text="Pirapora", command=pirapora, bg="#7ed321", fg="black", width=11)
 button_pirapora.place(x=1830, y=355)
 
+def atualizar_temperatura(temperatura):
+    # Atualiza a temperatura
+    canvas.itemconfigure(temperatura, text=get_weather())
+
+    # Agenda a próxima atualização da temperatura após 1000 milissegundos (1 segundo)
+    layout.after(1000, atualizar_temperatura, temperatura)
+
+def atualizar_data_hora(data_hora):
+    # Atualiza a data e hora
+    canvas.itemconfigure(data_hora, text=datetime.now().strftime(
+        "%d/%m/%Y | %H:%M:%S | São Paulo"))
+
+    # Agenda a próxima atualização da data e hora após 1000 milissegundos (1 segundo)
+    layout.after(1000, atualizar_data_hora, data_hora)
+
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
 
-while True:
-    canvas.itemconfigure(temperatura, text=get_weather())
-    canvas.itemconfigure(data_hora, text=datetime.now().strftime(
-        "%d/%m/%Y | %H:%M:%S | São Paulo"))
-    try:
-        canvas.itemconfigure(temperatura, text=get_weather())
-        canvas.itemconfigure(data_hora, text=datetime.now().strftime(
-            "%d/%m/%Y | %H:%M:%S | São Paulo"))
-        layout.update()
-    except:
-        print("Ocorreu um erro de Tcl/Tkinter. Saindo do loop.")
-        break
+# Inicializa as variáveis para temperatura e data/hora
+temperatura = canvas.create_text(
+    120, 40, text=get_weather(), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+data_hora = canvas.create_text(120, 60, text=datetime.now().strftime(
+    "%d/%m/%Y %H:%M:%S"), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura, temperatura)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualização da data e hora
+
+layout.mainloop()

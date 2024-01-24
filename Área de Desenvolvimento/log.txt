@@ -58,3 +58,25 @@
 2024-01-24 02:34:32,826 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
 2024-01-24 02:34:32,826 - INFO - Linha 15 - Prata: Fora do Horário de Operação
 2024-01-24 02:34:37,540 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m02:34:21[0m
+2024-01-24 02:36:38,457 - INFO - [1m[37mPrograma Iniciado às [31m02:36:38[0m
+2024-01-24 02:36:38,506 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-24 02:36:38,506 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-24 02:36:49,101 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-01-24 02:36:49,101 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-01-24 02:36:49,101 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-01-24 02:36:49,102 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-01-24 02:36:54,993 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m02:36:38[0m
+2024-01-24 02:36:58,435 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m02:36:38[0m
+2024-01-24 02:37:57,426 - INFO - [1m[37mPrograma Iniciado às [31m02:37:57[0m
+2024-01-24 02:37:57,476 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-24 02:37:57,476 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-24 02:38:07,991 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-01-24 02:38:07,991 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-01-24 02:38:07,992 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-01-24 02:38:07,992 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-01-24 02:38:16,748 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m02:37:57[0m
+2024-01-24 02:38:21,572 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m02:37:57[0m
+2024-01-24 02:38:25,010 - INFO - [1m[37mMapa da LINHA PIRAPORA iniciado às [32m02:37:57[0m
+2024-01-24 02:38:36,441 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m02:37:57[0m
+2024-01-24 02:43:04,636 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m02:37:57[0m
+2024-01-24 02:43:08,856 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m02:37:57[0m
