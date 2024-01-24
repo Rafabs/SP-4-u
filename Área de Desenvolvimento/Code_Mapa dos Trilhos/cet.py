@@ -14,3 +14,9 @@ def transito():
         '.valor')[0].text, indicador_BairroCentro))
 
     return vel_CentroBairro, vel_BairroCentro
+
+'''Para testes isolados nesse código, desmarque as 4 linhas abaixo.'''
+#transito() 
+#resultado_CentroBairro, resultado_BairroCentro = transito()
+#print("Velocidades Centro para Bairro:", resultado_CentroBairro)
+#print("Velocidades Bairro para Centro:", resultado_BairroCentro)
