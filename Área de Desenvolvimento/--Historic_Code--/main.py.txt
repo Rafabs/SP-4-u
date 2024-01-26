@@ -1,3 +1,8 @@
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) Nﾃグ DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 02:47 24/01/2024 RB - Mapa dos Trilhos/ﾃ〉ea de Desenvolvimento/Code_main.py/main.py
 Melhorar soluﾃｧﾃｵes de loop do relﾃｳgio de main.py 
 
@@ -56,15 +61,10 @@ layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualizaﾃ
 
 layout.mainloop()     
 
-( ) SOLUCIONADO
-(X) EM DESENVOLVIMENTO
-( ) Nﾃグ DEU CERTO
----------------------------------------------------------------------------------------------------------------
-( ) SOLUCIONADO
+(X) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) Nﾃグ DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
-
 ( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) Nﾃグ DEU CERTO

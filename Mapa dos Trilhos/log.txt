@@ -4053,3 +4053,8 @@
 2024-01-24 01:54:04,033 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
 2024-01-24 01:54:04,033 - INFO - Linha 15 - Prata: Fora do Horário de Operação
 2024-01-24 01:54:09,510 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m01:53:50[0m
+2024-01-26 17:48:22,142 - INFO - [1m[37mPrograma Iniciado às [31m17:48:22[0m
+2024-01-26 17:48:22,192 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-26 17:48:22,192 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-26 17:48:35,820 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-01-26 17:48:42,011 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m17:48:22[0m
