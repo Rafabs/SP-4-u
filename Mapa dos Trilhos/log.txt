@@ -4058,3 +4058,4 @@
 2024-01-26 17:48:22,192 - ERROR -   warnings.warn("Image was not the expected size")
 2024-01-26 17:48:35,820 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
 2024-01-26 17:48:42,011 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m17:48:22[0m
+2024-01-26 17:48:49,827 - INFO - [1m[37mMapa da LINHA 11 - CORAL iniciado às [32m17:48:22[0m
