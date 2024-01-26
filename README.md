@@ -104,7 +104,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
-- [ ] ```Em desenvolvimento - Sem Previsão```Melhorar soluções de loop da CET de main.py 
+- [ ] ```Em desenvolvimento``` Melhorar soluções de loop da CET de main.py 
 - [ ] Definir itens de os.py em main.py
 - [ ] Corrigir informações apontadas no log com data e hora mais precisa de cada arquivo de linha em main.py
 - [ ] Corrigir erros apontados pelo log do projeto. 
