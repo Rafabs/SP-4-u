@@ -87,3 +87,57 @@
 2024-01-26 17:47:05,548 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m17:46:37[0m
 2024-01-26 17:47:10,083 - INFO - [1m[37mMapa da LINHA 13 - JADE iniciado às [32m17:46:37[0m
 2024-01-26 17:47:14,256 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m17:46:37[0m
+2024-01-26 18:13:57,589 - INFO - [1m[37mPrograma Iniciado às [31m18:13:57[0m
+2024-01-26 18:13:57,675 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-26 18:13:57,676 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-26 18:14:09,304 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-01-26 18:16:52,501 - INFO - [1m[37mPrograma Iniciado às [31m18:16:52[0m
+2024-01-26 18:16:52,552 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-26 18:16:52,552 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-26 18:17:04,030 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-01-26 18:32:54,515 - INFO - [1m[37mPrograma Iniciado às [31m18:32:54[0m
+2024-01-26 18:32:54,564 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-26 18:32:54,564 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-26 18:34:58,586 - ERROR - Traceback (most recent call last):
+2024-01-26 18:34:58,586 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 173, in <module>
+2024-01-26 18:34:58,587 - ERROR - vel_CentroBairro, vel_BairroCentro = transito()
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,588 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,589 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,590 - ERROR - ^
+2024-01-26 18:34:58,591 - ERROR - ^
+2024-01-26 18:34:58,591 - ERROR - ^
+2024-01-26 18:34:58,591 - ERROR - ^
+2024-01-26 18:34:58,591 - ERROR - ValueError
+2024-01-26 18:34:58,591 - ERROR - :
+2024-01-26 18:34:58,591 - ERROR - too many values to unpack (expected 2)
+2024-01-26 18:41:43,756 - INFO - [1m[37mPrograma Iniciado às [31m18:41:43[0m
+2024-01-26 18:41:43,819 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-26 18:41:43,820 - ERROR -   warnings.warn("Image was not the expected size")
