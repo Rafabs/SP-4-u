@@ -4094,3 +4094,84 @@
 2024-01-27 00:44:06,158 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
 2024-01-27 00:44:06,158 - INFO - Linha 15 - Prata: Fora do Horário de Operação
 2024-01-27 00:44:08,508 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m00:43:55[0m
+2024-01-27 00:47:16,719 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-01-27 00:47:16,719 - INFO - 27/01/2024 | 00:47:16
+2024-01-27 00:47:16,719 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-01-27 00:47:16,719 - INFO - nt
+2024-01-27 00:47:16,737 - INFO - <<<Informações sobre a Plataforma>>>
+2024-01-27 00:47:16,737 - INFO - Windows
+2024-01-27 00:47:16,737 - INFO - <<<Diretório Atual>>>
+2024-01-27 00:47:16,739 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-01-27 00:47:16,739 - INFO - <<<Usuário Atual>>>
+2024-01-27 00:47:16,739 - INFO - Rafael Barbosa
+2024-01-27 00:47:16,740 - INFO - <<<Versão do Sistema Operacional>>>
+2024-01-27 00:47:16,740 - INFO - 10.0.22621
+2024-01-27 00:47:16,740 - INFO - <<<Informações sobre a Máquina>>>
+2024-01-27 00:47:16,740 - INFO - AMD64
+2024-01-27 00:47:16,740 - INFO - <<<Arquitetura da Máquina>>>
+2024-01-27 00:47:16,740 - INFO - ('64bit', 'WindowsPE')
+2024-01-27 00:47:16,740 - INFO - <<<Versão do Python>>>
+2024-01-27 00:47:16,740 - INFO - 3.11.4
+2024-01-27 00:47:16,740 - INFO - <<<Distribuição do Python>>>
+2024-01-27 00:47:16,741 - INFO - 10.0.22621
+2024-01-27 00:47:16,741 - INFO - <<<Informações sobre o Processador>>>
+2024-01-27 00:47:16,741 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-01-27 00:47:16,741 - INFO - <<<Diretório Temporário>>>
+2024-01-27 00:47:16,742 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-01-27 00:47:16,742 - INFO - <<<Diretório do Usuário>>>
+2024-01-27 00:47:16,742 - INFO - C:\Users\Rafael Barbosa
+2024-01-27 00:47:16,742 - INFO - ====================================================================================
+2024-01-27 00:47:16,783 - INFO - [1m[37mPrograma Iniciado às [31m00:47:16[0m
+2024-01-27 00:47:16,831 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-27 00:47:16,832 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-27 00:47:30,226 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-01-27 00:47:30,227 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-01-27 00:47:30,227 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-01-27 00:47:30,228 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-01-27 00:48:38,869 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m00:47:16[0m
+2024-01-27 00:49:13,254 - INFO - [1m[37mMapa da LINHA PIRAPORA iniciado às [32m00:47:16[0m
+2024-01-27 00:49:18,974 - INFO - [1m[37mMapa da LINHA GUARAREMA iniciado às [32m00:47:16[0m
+2024-01-27 00:49:22,726 - INFO - [1m[37mMapa da LINHA 15 - PRATA iniciado às [32m00:47:16[0m
+2024-01-27 00:49:39,239 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m00:47:16[0m
+2024-01-27 00:49:43,638 - INFO - [1m[37mGTFS da EMTU iniciado às [32m00:47:16[0m
+2024-01-27 00:49:51,931 - INFO - [1m[37mMapa da Rede iniciado às [32m00:47:15[0m
+2024-01-27 00:50:08,574 - INFO - [1m[37mGuia do Metrô em PT/BR iniciado às [32m00:47:15[0m
+2024-01-27 00:50:20,303 - INFO - [1m[37mGuia do Metrô em EN/US iniciado às [32m00:47:15[0m
+2024-01-27 00:50:25,010 - INFO - [1m[37mGuia do Metrô em EN/US iniciado às [32m00:47:15[0m
+2024-01-27 00:50:29,095 - INFO - [1m[37mGuia da CPTM iniciado às [32m00:47:15[0m
+2024-01-27 00:50:33,185 - INFO - [1m[37mGuia do Expresso Turístico iniciado às [32m00:47:15[0m
+2024-01-27 00:57:52,052 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-01-27 00:57:52,052 - INFO - 27/01/2024 | 00:57:52
+2024-01-27 00:57:52,052 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-01-27 00:57:52,052 - INFO - nt
+2024-01-27 00:57:52,067 - INFO - <<<Informações sobre a Plataforma>>>
+2024-01-27 00:57:52,067 - INFO - Windows
+2024-01-27 00:57:52,067 - INFO - <<<Diretório Atual>>>
+2024-01-27 00:57:52,067 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-01-27 00:57:52,068 - INFO - <<<Usuário Atual>>>
+2024-01-27 00:57:52,068 - INFO - Rafael Barbosa
+2024-01-27 00:57:52,068 - INFO - <<<Versão do Sistema Operacional>>>
+2024-01-27 00:57:52,068 - INFO - 10.0.22621
+2024-01-27 00:57:52,068 - INFO - <<<Informações sobre a Máquina>>>
+2024-01-27 00:57:52,069 - INFO - AMD64
+2024-01-27 00:57:52,069 - INFO - <<<Arquitetura da Máquina>>>
+2024-01-27 00:57:52,069 - INFO - ('64bit', 'WindowsPE')
+2024-01-27 00:57:52,069 - INFO - <<<Versão do Python>>>
+2024-01-27 00:57:52,069 - INFO - 3.11.4
+2024-01-27 00:57:52,069 - INFO - <<<Distribuição do Python>>>
+2024-01-27 00:57:52,069 - INFO - 10.0.22621
+2024-01-27 00:57:52,069 - INFO - <<<Informações sobre o Processador>>>
+2024-01-27 00:57:52,069 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-01-27 00:57:52,070 - INFO - <<<Diretório Temporário>>>
+2024-01-27 00:57:52,071 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-01-27 00:57:52,071 - INFO - <<<Diretório do Usuário>>>
+2024-01-27 00:57:52,071 - INFO - C:\Users\Rafael Barbosa
+2024-01-27 00:57:52,071 - INFO - ====================================================================================
+2024-01-27 00:57:52,123 - INFO - [1m[37mPrograma Iniciado às [31m00:57:52[0m
+2024-01-27 00:57:52,188 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-27 00:57:52,188 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-27 00:58:03,069 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-01-27 00:58:03,069 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-01-27 00:58:03,069 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-01-27 00:58:03,070 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-01-27 00:58:22,238 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m00:57:52[0m

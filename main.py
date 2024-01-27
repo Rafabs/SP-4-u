@@ -175,41 +175,6 @@ hora_atual = datetime.now().strftime("%H:%M:%S")
 # Imprime o texto formatado
 print(f"{Style.BRIGHT}{Fore.WHITE}Programa Iniciado às {Fore.RED}{hora_atual}{Style.RESET_ALL}")
 
-'''
-# Obtém o nome do Sistema Operacional
-os_name = os.name
-print(f'{Fore.WHITE}{Style.BRIGHT}Nome do Sistema Operacional: {Fore.YELLOW}{os_name}')
-
-# Informações sobre a Plataforma
-os_platform = os.platform
-print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Plataforma: {Fore.YELLOW}{os_platform}')
-
-# Diretório Atual
-current_directory = os.directory
-print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Atual: {Fore.YELLOW}{current_directory}')
-
-# Usuário Atual
-current_user = os.user
-print(f'{Fore.WHITE}{Style.BRIGHT}Usuário Atual: {Fore.YELLOW}{current_user}')
-
-# Versão do Sistema Operacional
-os_version = os.version
-print(f'{Fore.WHITE}{Style.BRIGHT}Versão do Sistema Operacional: {Fore.YELLOW}{os_version}')
-
-# Informações sobre a Máquina
-machine_info = os.machine
-print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Máquina: {Fore.YELLOW}{machine_info}')
-
-# Variáveis de Ambiente
-env_variables = os.variable
-print(f'{Fore.WHITE}{Style.BRIGHT}Variáveis de Ambiente: {Fore.YELLOW}{env_variables}')
-
-# Diretório Temporário
-temp_dir = os.temp
-print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Temporário: {Fore.YELLOW}{temp_dir}')
-print(f'{Fore.WHITE}')
-'''
-
 canvas = tk.Canvas(layout, width=1920, height=1080)
 canvas.pack()
 canvas.configure(bg='#333333')

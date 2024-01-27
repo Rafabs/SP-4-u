@@ -1,1 +1,17 @@
-** Documente os registros de anotações realizadas em cada trecho de código abaixo **
+** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
+
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Definir itens de my_os.py em main.py
+# FOI INSERIDO O CÓDIGO COM AS BIBLIOTECAS RESPONSÁVEIS POR PUXAR INFORMAÇÃO DA MÁQUINA QUE ESTÁ EXECUTANDO O CÓDIGO E INSERIDO NO LOG.TXT, 
+TAMBÉM FOI FEITO AJUSTES NO ARQUIVO LOCALIZADO NA ÁREA DE DESENVOLVIMENTO
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 02:47 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Melhorar soluções de loop do relógio de main.py 
+# FOI REALIZADO A INSERÇÃO DE LÓGICA NO CÓDIGO PARA QUE O MESMO FICASSE EM LOOP E SENDO ATUALIZADO, AINDA POSSUI UNS BUGS DE CONTAR OS 
+SEGUNDOS DE 2 EM 2s, POIS O MESMO AGUARDA O RETORNO DA INFORMAÇÃO DA API DE TEMPERATURA PARA AMOSTRAGEM, AINDA NÃO FOI TESTADO SE A TEMPERATURA 
+ESTÁ SENDO ATUALIZADA CONFORME MODIFICA A TEMPERATURA DA API.
