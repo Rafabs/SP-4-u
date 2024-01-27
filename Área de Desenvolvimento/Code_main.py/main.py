@@ -1,7 +1,11 @@
 import sys
 import os
+import platform
+import tempfile
 sys.path.append('Mapa dos Trilhos')
 sys.path.append('Mapa dos Trilhos\\Linhas')
+sys.path.append('Área de Desenvolvimento') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
+sys.path.append('Área de Desenvolvimento\\Code_Mapa dos Trilhos') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
 from PIL import Image, ImageTk  # Manipular imagens
 from datetime import datetime
 from tkinter import ttk
@@ -34,6 +38,64 @@ from Guararema import guararema
 # Inicializa o colorama
 init()
 
+def dados_usuario():    
+    # Obtém a hora atual
+    hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
+
+    print("========================================== INFORMAÇÕES DO USUÁRIO ==========================================")
+    print(hora_atual)
+
+
+    # Obtém o nome do Sistema Operacional
+    os_name = os.name
+    print('<<<<<<Nome do Sistema Operacional>>>', os_name)
+
+    # Informações sobre a Plataforma
+    os_platform = platform.system()
+    print('<<<Informações sobre a Plataforma>>>', os_platform)
+
+    # Diretório Atual
+    current_directory = os.getcwd()
+    print('<<<Diretório Atual>>>', current_directory)
+
+    # Usuário Atual
+    current_user = os.getlogin()
+    print('<<<Usuário Atual>>>', current_user)
+
+    # Versão do Sistema Operacional (Não existe uma equivalência direta no Windows)
+    os_version = platform.version()
+    print('<<<Versão do Sistema Operacional>>>', os_version)
+
+    # Informações sobre a Máquina
+    machine_info = platform.machine()
+    print('<<<Informações sobre a Máquina>>>', machine_info)
+
+    # Arquitetura da Máquina (32 ou 64 bits)
+    machine_architecture = platform.architecture()
+    print('<<<Arquitetura da Máquina>>>', machine_architecture)
+
+    # Versão do Python
+    python_version = platform.python_version()
+    print('<<<Versão do Python>>>', python_version)
+
+    # Informações sobre a Distribuição do Python
+    python_distribution = platform.version()
+    print('<<<Distribuição do Python>>>', python_distribution)
+
+    # Informações sobre o Processador
+    processor_info = platform.processor()
+    print('<<<Informações sobre o Processador>>>', processor_info)
+
+    # Diretório Temporário
+    temp_dir = tempfile.gettempdir()
+    print('<<<Diretório Temporário>>>', temp_dir)
+
+    # Diretórios Especiais (pasta do usuário, diretório inicial, etc.)
+    user_home_directory = os.path.expanduser("~")
+    print('<<<Diretório do Usuário>>>', user_home_directory)
+
+    print("====================================================================================")
+
 # Configuração do logger
 '''ATENÇÃO: ESSE LOG É DE TESTE, O CAMINHO ORIGINAL DEVERÁ SER ALTERADO AO PASSAR PARA LANÇAMENTO'''
 logging.basicConfig(filename='Área de Desenvolvimento\\log.txt', level=logging.INFO,
@@ -64,6 +126,8 @@ def determinar_cor(status):
         return "yellow"
     elif "Paralisada" in status:
         return "red"
+
+dados_usuario()
 
 def atualizar_status():
     linhas, status_list, lista_mensagens = status()
@@ -113,41 +177,6 @@ hora_atual = datetime.now().strftime("%H:%M:%S")
 
 # Imprime o texto formatado
 print(f"{Style.BRIGHT}{Fore.WHITE}Programa Iniciado às {Fore.RED}{hora_atual}{Style.RESET_ALL}")
-
-'''
-# Obtém o nome do Sistema Operacional
-os_name = os.name
-print(f'{Fore.WHITE}{Style.BRIGHT}Nome do Sistema Operacional: {Fore.YELLOW}{os_name}')
-
-# Informações sobre a Plataforma
-os_platform = os.platform
-print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Plataforma: {Fore.YELLOW}{os_platform}')
-
-# Diretório Atual
-current_directory = os.directory
-print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Atual: {Fore.YELLOW}{current_directory}')
-
-# Usuário Atual
-current_user = os.user
-print(f'{Fore.WHITE}{Style.BRIGHT}Usuário Atual: {Fore.YELLOW}{current_user}')
-
-# Versão do Sistema Operacional
-os_version = os.version
-print(f'{Fore.WHITE}{Style.BRIGHT}Versão do Sistema Operacional: {Fore.YELLOW}{os_version}')
-
-# Informações sobre a Máquina
-machine_info = os.machine
-print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Máquina: {Fore.YELLOW}{machine_info}')
-
-# Variáveis de Ambiente
-env_variables = os.variable
-print(f'{Fore.WHITE}{Style.BRIGHT}Variáveis de Ambiente: {Fore.YELLOW}{env_variables}')
-
-# Diretório Temporário
-temp_dir = os.temp
-print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Temporário: {Fore.YELLOW}{temp_dir}')
-print(f'{Fore.WHITE}')
-'''
 
 canvas = tk.Canvas(layout, width=1920, height=1080)
 canvas.pack()

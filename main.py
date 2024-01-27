@@ -1,5 +1,7 @@
 import sys
 import os
+import platform
+import tempfile
 sys.path.append('Mapa dos Trilhos')
 sys.path.append('Mapa dos Trilhos\\Linhas')
 from PIL import Image, ImageTk  # Manipular imagens
@@ -34,6 +36,64 @@ from Guararema import guararema
 # Inicializa o colorama
 init()
 
+def dados_usuario():    
+    # Obtém a hora atual
+    hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
+
+    print("========================================== INFORMAÇÕES DO USUÁRIO ==========================================")
+    print(hora_atual)
+
+
+    # Obtém o nome do Sistema Operacional
+    os_name = os.name
+    print('<<<<<<Nome do Sistema Operacional>>>', os_name)
+
+    # Informações sobre a Plataforma
+    os_platform = platform.system()
+    print('<<<Informações sobre a Plataforma>>>', os_platform)
+
+    # Diretório Atual
+    current_directory = os.getcwd()
+    print('<<<Diretório Atual>>>', current_directory)
+
+    # Usuário Atual
+    current_user = os.getlogin()
+    print('<<<Usuário Atual>>>', current_user)
+
+    # Versão do Sistema Operacional (Não existe uma equivalência direta no Windows)
+    os_version = platform.version()
+    print('<<<Versão do Sistema Operacional>>>', os_version)
+
+    # Informações sobre a Máquina
+    machine_info = platform.machine()
+    print('<<<Informações sobre a Máquina>>>', machine_info)
+
+    # Arquitetura da Máquina (32 ou 64 bits)
+    machine_architecture = platform.architecture()
+    print('<<<Arquitetura da Máquina>>>', machine_architecture)
+
+    # Versão do Python
+    python_version = platform.python_version()
+    print('<<<Versão do Python>>>', python_version)
+
+    # Informações sobre a Distribuição do Python
+    python_distribution = platform.version()
+    print('<<<Distribuição do Python>>>', python_distribution)
+
+    # Informações sobre o Processador
+    processor_info = platform.processor()
+    print('<<<Informações sobre o Processador>>>', processor_info)
+
+    # Diretório Temporário
+    temp_dir = tempfile.gettempdir()
+    print('<<<Diretório Temporário>>>', temp_dir)
+
+    # Diretórios Especiais (pasta do usuário, diretório inicial, etc.)
+    user_home_directory = os.path.expanduser("~")
+    print('<<<Diretório do Usuário>>>', user_home_directory)
+
+    print("====================================================================================")
+
 # Configuração do logger
 logging.basicConfig(filename='Mapa dos Trilhos\\log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -63,6 +123,8 @@ def determinar_cor(status):
         return "yellow"
     elif "Paralisada" in status:
         return "red"
+
+dados_usuario()
 
 def atualizar_status():
     linhas, status_list, lista_mensagens = status()

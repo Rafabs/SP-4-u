@@ -1,7 +1,8 @@
 {
     "python.analysis.extraPaths": [
         "./Mapa dos Trilhos",
-        "./Mapa dos Trilhos/Linhas"
+        "./Mapa dos Trilhos/Linhas",
+        "./Área de Desenvolvimento/Code_Mapa dos Trilhos"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
