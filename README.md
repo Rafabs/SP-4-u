@@ -105,9 +105,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [ ] ```Em desenvolvimento``` Melhorar soluções de loop da CET de main.py 
-- [ ] Corrigir informações apontadas no log com data e hora mais precisa de cada arquivo de linha em main.py
 - [ ] Inserir mais funções do log de __init__.pyi em main.py > log.txt
-- [ ] Inserir no log.txt quando o programa for fechado, juntamente do horário
+- [ ] Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
 - [ ] Corrigir erros apontados pelo log do projeto. 
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 - [ ] Exibição do mapa das linhas nas abas de index.html ```v1.0.6```.
@@ -117,6 +116,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Desenvolver visualização do arquivo do mapa através do arquivo index.html
 - [x] Melhorar soluções de loop do relógio de main.py 
 - [x] Definir itens de my_os.py em main.py
+- [x] Corrigir informações apontadas no log com data e hora mais precisa de cada arquivo de linha em main.py
 
 ## Contribuição
 
