@@ -3,6 +3,146 @@
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
 
+>> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Definir itens de my_os.py em main.py
+
+de (Linha 117)
+'''
+# Obtém o nome do Sistema Operacional
+os_name = os.name
+print(f'{Fore.WHITE}{Style.BRIGHT}Nome do Sistema Operacional: {Fore.YELLOW}{os_name}')
+
+# Informações sobre a Plataforma
+os_platform = os.platform
+print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Plataforma: {Fore.YELLOW}{os_platform}')
+
+# Diretório Atual
+current_directory = os.directory
+print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Atual: {Fore.YELLOW}{current_directory}')
+
+# Usuário Atual
+current_user = os.user
+print(f'{Fore.WHITE}{Style.BRIGHT}Usuário Atual: {Fore.YELLOW}{current_user}')
+
+# Versão do Sistema Operacional
+os_version = os.version
+print(f'{Fore.WHITE}{Style.BRIGHT}Versão do Sistema Operacional: {Fore.YELLOW}{os_version}')
+
+# Informações sobre a Máquina
+machine_info = os.machine
+print(f'{Fore.WHITE}{Style.BRIGHT}Informações sobre a Máquina: {Fore.YELLOW}{machine_info}')
+
+# Variáveis de Ambiente
+env_variables = os.variable
+print(f'{Fore.WHITE}{Style.BRIGHT}Variáveis de Ambiente: {Fore.YELLOW}{env_variables}')
+
+# Diretório Temporário
+temp_dir = os.temp
+print(f'{Fore.WHITE}{Style.BRIGHT}Diretório Temporário: {Fore.YELLOW}{temp_dir}')
+print(f'{Fore.WHITE}')
+'''
+
+para (Linha 117)
+Vazio
+
+de (Linha 3)
+Vazio
+
+para (Linha 3)
+import platform
+
+de (Linha 4)
+Vazio
+
+para (Linha 4)
+import tempfile
+
+de (Linha 5)
+Vazio
+
+para (Linha 5)
+sys.path.append('Área de Desenvolvimento') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
+
+de (Linha 6)
+Vazio
+
+para (Linha 6)
+sys.path.append('Área de Desenvolvimento\\Code_Mapa dos Trilhos') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
+
+de (Linha 41)
+Vazio
+
+para (Linha 41)
+def dados_usuario():    
+    # Obtém a hora atual
+    hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
+
+    print("========================================== INFORMAÇÕES DO USUÁRIO ==========================================")
+    print(hora_atual)
+
+
+    # Obtém o nome do Sistema Operacional
+    os_name = os.name
+    print('<<<<<<Nome do Sistema Operacional>>>', os_name)
+
+    # Informações sobre a Plataforma
+    os_platform = platform.system()
+    print('<<<Informações sobre a Plataforma>>>', os_platform)
+
+    # Diretório Atual
+    current_directory = os.getcwd()
+    print('<<<Diretório Atual>>>', current_directory)
+
+    # Usuário Atual
+    current_user = os.getlogin()
+    print('<<<Usuário Atual>>>', current_user)
+
+    # Versão do Sistema Operacional (Não existe uma equivalência direta no Windows)
+    os_version = platform.version()
+    print('<<<Versão do Sistema Operacional>>>', os_version)
+
+    # Informações sobre a Máquina
+    machine_info = platform.machine()
+    print('<<<Informações sobre a Máquina>>>', machine_info)
+
+    # Arquitetura da Máquina (32 ou 64 bits)
+    machine_architecture = platform.architecture()
+    print('<<<Arquitetura da Máquina>>>', machine_architecture)
+
+    # Versão do Python
+    python_version = platform.python_version()
+    print('<<<Versão do Python>>>', python_version)
+
+    # Informações sobre a Distribuição do Python
+    python_distribution = platform.version()
+    print('<<<Distribuição do Python>>>', python_distribution)
+
+    # Informações sobre o Processador
+    processor_info = platform.processor()
+    print('<<<Informações sobre o Processador>>>', processor_info)
+
+    # Diretório Temporário
+    temp_dir = tempfile.gettempdir()
+    print('<<<Diretório Temporário>>>', temp_dir)
+
+    # Diretórios Especiais (pasta do usuário, diretório inicial, etc.)
+    user_home_directory = os.path.expanduser("~")
+    print('<<<Diretório do Usuário>>>', user_home_directory)
+
+    print("====================================================================================")
+
+de (Linha 130)
+Vazio
+
+para (Linha 130)
+dados_usuario()
+
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 02:47 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Melhorar soluções de loop do relógio de main.py 
 
@@ -62,10 +202,6 @@ layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualiza�
 layout.mainloop()     
 
 (X) SOLUCIONADO
-( ) EM DESENVOLVIMENTO
-( ) NÃO DEU CERTO
----------------------------------------------------------------------------------------------------------------
-( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
