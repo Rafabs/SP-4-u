@@ -4,7 +4,7 @@
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
-Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma coleção de códigos que geram mapas das linhas de Metrô, CPTM, Via Quatro Via Mobilidade, além de corredores da SPTrans/EMTU e informações sobre ciclovias e bicicletários usando a biblioteca Tkinter aliado com Folium em Python.
+Bem-vindo ao repositório de Sampa 4u! Neste repositório, você encontrará uma coleção de códigos que geram mapas das linhas de Metrô, CPTM, Via Quatro e Via Mobilidade, além de corredores da SPTrans/EMTU e informações sobre ciclovias e bicicletários usando a biblioteca Tkinter aliado com Folium em Python.
 
 ## Sobre
 
