@@ -3,6 +3,38 @@
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
 
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:40 28/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Melhorar soluções de loop da CET de main.py
+
+de (Linha 453)
+Vazio
+
+para (Linha 453)
+def atualizar_transito(transito):
+    # Atualiza a transito
+    canvas.itemconfigure(transito, text=transito())
+
+    # Agenda a próxima atualização da transito após 1000 milissegundos (1 min)
+    layout.after(60000, atualizar_transito, transito)
+    print('<<<Transito - Centro > Bairro>>>', vel_CentroBairro)
+    print('<<<Transito - Bairro > Centro>>>', vel_BairroCentro)
+
+de (Linha 474)
+Vazio
+
+para (Linha 474)
+layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualização do trânsito
+
+( ) SOLUCIONADO
+(X) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Definir itens de my_os.py em main.py
 
@@ -202,11 +234,6 @@ layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualiza�
 layout.mainloop()     
 
 (X) SOLUCIONADO
-( ) EM DESENVOLVIMENTO
-( ) NÃO DEU CERTO
----------------------------------------------------------------------------------------------------------------
-
-( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------

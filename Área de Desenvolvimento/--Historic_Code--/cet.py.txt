@@ -1,0 +1,27 @@
+>> 01:42 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Mapa dos Trilhos/cet.py
+Melhorar soluções de loop da CET de main.py
+
+O CÓDIGO COM A LÓGICA FOI INSERIDO EM MAIN.PY E ESTÁ EM APRIMORAMENTO.
+
+de 
+para
+
+
+( ) SOLUCIONADO
+(X) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------

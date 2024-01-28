@@ -438,7 +438,7 @@ button_pirapora.place(x=1830, y=355)
 def atualizar_temperatura(temperatura):
     # Atualiza a temperatura
     canvas.itemconfigure(temperatura, text=get_weather())
-
+    #print('<<<Temperatura>>>', temperatura)
     # Agenda a próxima atualização da temperatura após 1000 milissegundos (1 segundo)
     layout.after(1000, atualizar_temperatura, temperatura)
 
@@ -450,6 +450,15 @@ def atualizar_data_hora(data_hora):
     # Agenda a próxima atualização da data e hora após 1000 milissegundos (1 segundo)
     layout.after(1000, atualizar_data_hora, data_hora)
 
+def atualizar_transito(transito):
+    # Atualiza a transito
+    canvas.itemconfigure(transito, text=transito())
+
+    # Agenda a próxima atualização da transito após 1000 milissegundos (1 min)
+    layout.after(60000, atualizar_transito, transito)
+    print('<<<Transito - Centro > Bairro>>>', vel_CentroBairro)
+    print('<<<Transito - Bairro > Centro>>>', vel_BairroCentro)
+    
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
 
@@ -459,8 +468,9 @@ temperatura = canvas.create_text(
 data_hora = canvas.create_text(120, 60, text=datetime.now().strftime(
     "%d/%m/%Y %H:%M:%S"), font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
-# Inicie os loops principais do Tkinter para temperatura e data/hora
+# Inicie os loops principais do Tkinter para temperatura, data/hora e trânsito
 layout.after(0, atualizar_temperatura, temperatura)  # Agenda a primeira atualização da temperatura
 layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualização da data e hora
+layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualização do trânsito
 
 layout.mainloop()
