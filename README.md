@@ -106,6 +106,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## To Do
 - [ ] ```Em desenvolvimento/Monitoramento``` Melhorar soluções de loop da CET de main.py 
 - [ ] ```Em desenvolvimento``` Inserir mais funções do log de __init__.pyi em main.py > log.txt
+- [ ] Inserir L13 em linha_04.png em index.html
 - [ ] Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
 - [ ] Corrigir erros apontados pelo log do projeto. 
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
