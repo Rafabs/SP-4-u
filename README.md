@@ -111,7 +111,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Corrigir erros apontados pelo log do projeto. 
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 - [ ] Corrigir erros do terminal após fechamento do programa
-- [ ] Exibição do mapa das linhas nas abas de index.html ```v1.0.6```.
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html
 - [ ] Desenvolver visualização do arquivo do mapa através do arquivo index.html
