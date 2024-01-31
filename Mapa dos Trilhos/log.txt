@@ -4210,3 +4210,36 @@
 2024-01-27 01:07:26,267 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
 2024-01-27 01:07:26,267 - INFO - Linha 15 - Prata: Fora do Horário de Operação
 2024-01-27 01:07:30,854 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m01:07:14[0m
+2024-01-31 17:39:58,778 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-01-31 17:39:58,780 - INFO - 31/01/2024 | 17:39:58
+2024-01-31 17:39:58,780 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-01-31 17:39:58,780 - INFO - nt
+2024-01-31 17:39:58,860 - INFO - <<<Informações sobre a Plataforma>>>
+2024-01-31 17:39:58,862 - INFO - Windows
+2024-01-31 17:39:58,863 - INFO - <<<Diretório Atual>>>
+2024-01-31 17:39:58,864 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-01-31 17:39:58,867 - INFO - <<<Usuário Atual>>>
+2024-01-31 17:39:58,867 - INFO - Rafael Barbosa
+2024-01-31 17:39:58,868 - INFO - <<<Versão do Sistema Operacional>>>
+2024-01-31 17:39:58,869 - INFO - 10.0.22621
+2024-01-31 17:39:58,870 - INFO - <<<Informações sobre a Máquina>>>
+2024-01-31 17:39:58,870 - INFO - AMD64
+2024-01-31 17:39:58,871 - INFO - <<<Arquitetura da Máquina>>>
+2024-01-31 17:39:58,871 - INFO - ('64bit', 'WindowsPE')
+2024-01-31 17:39:58,871 - INFO - <<<Versão do Python>>>
+2024-01-31 17:39:58,872 - INFO - 3.11.4
+2024-01-31 17:39:58,872 - INFO - <<<Distribuição do Python>>>
+2024-01-31 17:39:58,872 - INFO - 10.0.22621
+2024-01-31 17:39:58,873 - INFO - <<<Informações sobre o Processador>>>
+2024-01-31 17:39:58,873 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-01-31 17:39:58,880 - INFO - <<<Diretório Temporário>>>
+2024-01-31 17:39:58,880 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-01-31 17:39:58,882 - INFO - <<<Diretório do Usuário>>>
+2024-01-31 17:39:58,883 - INFO - C:\Users\Rafael Barbosa
+2024-01-31 17:39:58,884 - INFO - ====================================================================================
+2024-01-31 17:39:59,916 - INFO - [1m[37mPrograma Iniciado às [31m17:39:59[0m
+2024-01-31 17:40:00,171 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-01-31 17:40:00,172 - ERROR -   warnings.warn("Image was not the expected size")
+2024-01-31 17:40:14,089 - INFO - CORAL: Por motivo de alagamento na via, os trens não estão circulando entre as Estações Ferraz De Vasconcelos e Poá . Agradecemos a sua compreensão.
+2024-01-31 17:40:14,090 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM, 3-Vermelha do Metrô
+2024-01-31 17:40:41,713 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m17:39:58[0m
