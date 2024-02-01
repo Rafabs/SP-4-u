@@ -4274,3 +4274,36 @@
 2024-02-01 16:49:39,363 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
 2024-02-01 16:49:39,363 - ERROR -   warnings.warn("Image was not the expected size")
 2024-02-01 16:49:51,390 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-01 20:19:05,444 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-01 20:19:05,460 - INFO - 01/02/2024 | 20:19:05
+2024-02-01 20:19:05,460 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-01 20:19:05,460 - INFO - nt
+2024-02-01 20:19:05,493 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-01 20:19:05,493 - INFO - Windows
+2024-02-01 20:19:05,493 - INFO - <<<Diretório Atual>>>
+2024-02-01 20:19:05,493 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-01 20:19:05,498 - INFO - <<<Usuário Atual>>>
+2024-02-01 20:19:05,498 - INFO - Rafael Barbosa
+2024-02-01 20:19:05,498 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-01 20:19:05,498 - INFO - 10.0.22621
+2024-02-01 20:19:05,498 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-01 20:19:05,498 - INFO - AMD64
+2024-02-01 20:19:05,498 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-01 20:19:05,498 - INFO - ('64bit', 'WindowsPE')
+2024-02-01 20:19:05,498 - INFO - <<<Versão do Python>>>
+2024-02-01 20:19:05,498 - INFO - 3.11.4
+2024-02-01 20:19:05,498 - INFO - <<<Distribuição do Python>>>
+2024-02-01 20:19:05,498 - INFO - 10.0.22621
+2024-02-01 20:19:05,503 - INFO - <<<Informações sobre o Processador>>>
+2024-02-01 20:19:05,503 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-01 20:19:05,503 - INFO - <<<Diretório Temporário>>>
+2024-02-01 20:19:05,503 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-01 20:19:05,507 - INFO - <<<Diretório do Usuário>>>
+2024-02-01 20:19:05,507 - INFO - C:\Users\Rafael Barbosa
+2024-02-01 20:19:05,507 - INFO - ====================================================================================
+2024-02-01 20:19:05,699 - INFO - [1m[37mPrograma Iniciado às [31m20:19:05[0m
+2024-02-01 20:19:05,865 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-01 20:19:05,865 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-01 20:19:18,431 - INFO - Linha 1 - Azul: Os trens da Linha 1 - Azul estão circulando com velocidade reduzida devido a restrições operacionais da Linha 3 - Vermelha
+2024-02-01 20:19:18,431 - INFO - Linha 3 - Vermelha: Devido Falha com trem em Belém 2 e passageiros na via de Belém a Anhangabaú a circulação de trens está paralisada. Acionado o PAESE SPTrans para o trecho Carrão a Barra Funda.
+2024-02-01 20:19:18,431 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
