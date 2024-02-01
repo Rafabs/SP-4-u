@@ -134,26 +134,26 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 
 ## Histórico das versões
 
-### Versão 1.0.5
+### Versão ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
 
 - Incrementação do mapa global, sendo um único mapa com todas as informações, câmadas e demais ferramentas.
 
-### Versão 1.0.4
+### Versão ![Version](https://img.shields.io/badge/1.0.4-yellow.svg)
 
 - Incrementação da malha de ciclovias, bicicletários públicos e dados de Origem e Destino 2007 e 2017.
   
-### Versão 1.0.3
+### Versão ![Version](https://img.shields.io/badge/1.0.3-yellow.svg)
 
 - Melhorias no design da tela inicial.
 
-### Versão 1.0.2
+### Versão ![Version](https://img.shields.io/badge/1.0.2-yellow.svg)
 
 - Incrementação do sistema de GFTS dos ônibus da SPTrans com o restante do projeto.
 
-### Versão 1.0.1
+### Versão ![Version](https://img.shields.io/badge/1.0.1-yellow.svg)
 
 - Incrementação do botão para acesso ao mapa da rede ferroviária e corredores de ônibus.
  
-### Versão 1.0.0
+### Versão ![Version](https://img.shields.io/badge/1.0.0-yellow.svg)
 
 - Descrição das linhas existentes ao lado em todos os mapas.
