@@ -1,10 +1,10 @@
 >> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
 TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
 de https://github.com/Rafabs/SP-4-u/blob/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_11.PNG
-para https://github.com/Rafabs/SP-4-u/tree/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_11.PNG
+para https://raw.githubusercontent.com/Rafabs/SP-4-u/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_11.PNG
 
-( ) SOLUCIONADO
-(X) EM DESENVOLVIMENTO
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 
 ---------------------------------------------------------------------------------------------------------------
