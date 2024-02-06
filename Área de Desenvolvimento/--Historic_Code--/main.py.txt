@@ -34,6 +34,72 @@ layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualizaç�
 (X) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
+>> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Inserir mais funções do log de __init__.pyi em main.py > log.txt
+
+de (Linha 99)
+# Configuração do logger
+'''ATENÇÃO: ESSE LOG É DE TESTE, O CAMINHO ORIGINAL DEVERÁ SER ALTERADO AO PASSAR PARA LANÇAMENTO'''
+logging.basicConfig(filename='Área de Desenvolvimento\\log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Redirecionamento de sys.stdout e sys.stderr para o logger
+class StreamToLogger:
+    def __init__(self, logger, log_level=logging.INFO):
+        self.logger = logger
+        self.log_level = log_level
+        self.linebuf = ''
+
+    def write(self, buf):
+        for line in buf.rstrip().splitlines():
+            # Mapeia os níveis de log de saída do sys.stdout e sys.stderr para os níveis apropriados do logger
+            if self.log_level == logging.WARNING:
+                self.logger.warning(line.rstrip())
+            elif self.log_level == logging.DEBUG:
+                self.logger.debug(line.rstrip())
+            elif self.log_level == logging.CRITICAL:
+                self.logger.critical(line.rstrip())
+            else:
+                self.logger.info(line.rstrip())  # Por padrão, usa INFO
+
+    def flush(self):
+        pass
+
+para (Linha 99)
+# Configuração do logger
+logging.basicConfig(filename='Área de Desenvolvimento\\log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Redirecionamento de sys.stdout e sys.stderr para o logger
+class StreamToLogger:
+    def __init__(self, logger, log_level=logging.INFO):
+        self.logger = logger
+        self.log_level = log_level
+        self.linebuf = ''
+
+    def write(self, buf):
+        for line in buf.rstrip().splitlines():
+            # Mapeia os níveis de log de saída do sys.stdout e sys.stderr para os níveis apropriados do logger
+            if self.log_level == logging.WARNING:
+                self.logger.warning(line.rstrip())
+            elif self.log_level == logging.DEBUG:
+                self.logger.debug(line.rstrip())
+            elif self.log_level == logging.CRITICAL:
+                self.logger.critical(line.rstrip())
+            else:
+                self.logger.info(line.rstrip())  # Por padrão, usa INFO
+
+    def flush(self):
+        pass
+
+#Configuração de sys.stdout e sys.stderr 
+sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
+sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
 
 >> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Definir itens de my_os.py em main.py

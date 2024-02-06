@@ -4417,3 +4417,508 @@
 2024-02-06 14:14:56,694 - INFO - [1m[37mPrograma Iniciado às [31m14:14:56[0m
 2024-02-06 14:14:56,750 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
 2024-02-06 14:14:56,751 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:21:36,003 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:21:36,003 - INFO - 06/02/2024 | 14:21:36
+2024-02-06 14:21:36,003 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:21:36,003 - INFO - nt
+2024-02-06 14:21:36,035 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:21:36,035 - INFO - Windows
+2024-02-06 14:21:36,035 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:21:36,035 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:21:36,036 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:21:36,037 - INFO - Rafael Barbosa
+2024-02-06 14:21:36,037 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:21:36,037 - INFO - 10.0.22621
+2024-02-06 14:21:36,037 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:21:36,037 - INFO - AMD64
+2024-02-06 14:21:36,037 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:21:36,037 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:21:36,037 - INFO - <<<Versão do Python>>>
+2024-02-06 14:21:36,037 - INFO - 3.11.4
+2024-02-06 14:21:36,037 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:21:36,038 - INFO - 10.0.22621
+2024-02-06 14:21:36,038 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:21:36,038 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:21:36,039 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:21:36,039 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:21:36,039 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:21:36,039 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:21:36,039 - INFO - ====================================================================================
+2024-02-06 14:21:36,078 - INFO - [1m[37mPrograma Iniciado às [31m14:21:36[0m
+2024-02-06 14:21:36,125 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:21:36,125 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:21:50,342 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:21:50,342 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:21:50,401 - ERROR - Exception in Tkinter callback
+2024-02-06 14:21:50,423 - ERROR - Traceback (most recent call last):
+2024-02-06 14:21:50,423 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-06 14:21:50,423 - ERROR -     return self.func(*args)
+2024-02-06 14:21:50,423 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-02-06 14:21:50,423 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 172, in atualizar_status
+2024-02-06 14:21:50,423 - ERROR -     centro_bairro.config(text=f"Centro/Bairro: {vel_CentroBairro}")
+2024-02-06 14:21:50,423 - ERROR -     ^^^^^^^^^^^^^^^^^^^^
+2024-02-06 14:21:50,423 - ERROR - AttributeError: 'int' object has no attribute 'config'
+2024-02-06 14:22:45,236 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:22:45,236 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:22:45,289 - ERROR - Exception in Tkinter callback
+2024-02-06 14:22:45,289 - ERROR - Traceback (most recent call last):
+2024-02-06 14:22:45,289 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-06 14:22:45,289 - ERROR -     return self.func(*args)
+2024-02-06 14:22:45,289 - ERROR -            ^^^^^^^^^^^^^^^^
+2024-02-06 14:22:45,289 - ERROR -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+2024-02-06 14:22:45,289 - ERROR -     func(*args)
+2024-02-06 14:22:45,289 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 172, in atualizar_status
+2024-02-06 14:22:45,289 - ERROR -     centro_bairro.config(text=f"Centro/Bairro: {vel_CentroBairro}")
+2024-02-06 14:22:45,289 - ERROR -     ^^^^^^^^^^^^^^^^^^^^
+2024-02-06 14:22:45,289 - ERROR - AttributeError: 'int' object has no attribute 'config'
+2024-02-06 14:27:23,927 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:27:23,927 - INFO - 06/02/2024 | 14:27:23
+2024-02-06 14:27:23,927 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:27:23,927 - INFO - nt
+2024-02-06 14:27:23,963 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:27:23,963 - INFO - Windows
+2024-02-06 14:27:23,963 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:27:23,963 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:27:23,964 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:27:23,964 - INFO - Rafael Barbosa
+2024-02-06 14:27:23,964 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:27:23,964 - INFO - 10.0.22621
+2024-02-06 14:27:23,964 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:27:23,964 - INFO - AMD64
+2024-02-06 14:27:23,964 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:27:23,964 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:27:23,964 - INFO - <<<Versão do Python>>>
+2024-02-06 14:27:23,964 - INFO - 3.11.4
+2024-02-06 14:27:23,964 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:27:23,964 - INFO - 10.0.22621
+2024-02-06 14:27:23,964 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:27:23,964 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:27:23,965 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:27:23,965 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:27:23,965 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:27:23,965 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:27:23,965 - INFO - ====================================================================================
+2024-02-06 14:27:24,006 - INFO - [1m[37mPrograma Iniciado às [31m14:27:24[0m
+2024-02-06 14:27:24,052 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:27:24,052 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:27:33,827 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:27:33,827 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:27:52,022 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:27:52,022 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:27:52,022 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:27:52,022 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:27:52,023 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:27:52,023 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:31:19,731 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:31:19,732 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:31:19,732 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:31:19,733 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:31:19,733 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:31:19,734 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:32:19,607 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:32:19,607 - INFO - 06/02/2024 | 14:32:19
+2024-02-06 14:32:19,607 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:32:19,607 - INFO - nt
+2024-02-06 14:32:19,643 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:32:19,644 - INFO - Windows
+2024-02-06 14:32:19,644 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:32:19,644 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:32:19,645 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:32:19,645 - INFO - Rafael Barbosa
+2024-02-06 14:32:19,645 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:32:19,645 - INFO - 10.0.22621
+2024-02-06 14:32:19,645 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:32:19,645 - INFO - AMD64
+2024-02-06 14:32:19,645 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:32:19,645 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:32:19,645 - INFO - <<<Versão do Python>>>
+2024-02-06 14:32:19,645 - INFO - 3.11.4
+2024-02-06 14:32:19,645 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:32:19,645 - INFO - 10.0.22621
+2024-02-06 14:32:19,645 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:32:19,645 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:32:19,646 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:32:19,646 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:32:19,646 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:32:19,646 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:32:19,646 - INFO - ====================================================================================
+2024-02-06 14:32:19,684 - INFO - [1m[37mPrograma Iniciado às [31m14:32:19[0m
+2024-02-06 14:32:19,732 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:32:19,732 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:32:30,700 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:32:30,701 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:33:09,845 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:33:09,845 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:33:40,816 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:33:40,816 - INFO - 06/02/2024 | 14:33:40
+2024-02-06 14:33:40,816 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:33:40,816 - INFO - nt
+2024-02-06 14:33:40,857 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:33:40,857 - INFO - Windows
+2024-02-06 14:33:40,857 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:33:40,857 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:33:40,858 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:33:40,858 - INFO - Rafael Barbosa
+2024-02-06 14:33:40,858 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:33:40,858 - INFO - 10.0.22621
+2024-02-06 14:33:40,858 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:33:40,858 - INFO - AMD64
+2024-02-06 14:33:40,858 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:33:40,858 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:33:40,858 - INFO - <<<Versão do Python>>>
+2024-02-06 14:33:40,859 - INFO - 3.11.4
+2024-02-06 14:33:40,859 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:33:40,859 - INFO - 10.0.22621
+2024-02-06 14:33:40,859 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:33:40,859 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:33:40,859 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:33:40,860 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:33:40,860 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:33:40,860 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:33:40,860 - INFO - ====================================================================================
+2024-02-06 14:33:40,903 - INFO - [1m[37mPrograma Iniciado às [31m14:33:40[0m
+2024-02-06 14:33:40,951 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:33:40,951 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:33:51,048 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:33:51,048 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:34:13,496 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:34:13,496 - INFO - 06/02/2024 | 14:34:13
+2024-02-06 14:34:13,496 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:34:13,496 - INFO - nt
+2024-02-06 14:34:13,528 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:34:13,529 - INFO - Windows
+2024-02-06 14:34:13,529 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:34:13,529 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:34:13,529 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:34:13,529 - INFO - Rafael Barbosa
+2024-02-06 14:34:13,529 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:34:13,529 - INFO - 10.0.22621
+2024-02-06 14:34:13,530 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:34:13,530 - INFO - AMD64
+2024-02-06 14:34:13,530 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:34:13,530 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:34:13,530 - INFO - <<<Versão do Python>>>
+2024-02-06 14:34:13,530 - INFO - 3.11.4
+2024-02-06 14:34:13,530 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:34:13,530 - INFO - 10.0.22621
+2024-02-06 14:34:13,530 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:34:13,530 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:34:13,530 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:34:13,530 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:34:13,530 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:34:13,530 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:34:13,530 - INFO - ====================================================================================
+2024-02-06 14:34:13,570 - INFO - [1m[37mPrograma Iniciado às [31m14:34:13[0m
+2024-02-06 14:34:13,621 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:34:13,621 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:34:22,736 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:34:22,736 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:34:22,778 - ERROR - Traceback (most recent call last):
+2024-02-06 14:34:22,778 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 467, in <module>
+2024-02-06 14:34:22,778 - ERROR - atualizar_status()
+2024-02-06 14:34:22,779 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 172, in atualizar_status
+2024-02-06 14:34:22,779 - ERROR - centro_bairro.config(text=f"Centro/Bairro: {vel_CentroBairro}")
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,779 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - ^
+2024-02-06 14:34:22,780 - ERROR - AttributeError
+2024-02-06 14:34:22,780 - ERROR - :
+2024-02-06 14:34:22,780 - ERROR - 'int' object has no attribute 'config'
+2024-02-06 14:34:30,792 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:34:30,792 - INFO - 06/02/2024 | 14:34:30
+2024-02-06 14:34:30,792 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:34:30,792 - INFO - nt
+2024-02-06 14:34:30,825 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:34:30,825 - INFO - Windows
+2024-02-06 14:34:30,825 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:34:30,825 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:34:30,825 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:34:30,826 - INFO - Rafael Barbosa
+2024-02-06 14:34:30,826 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:34:30,826 - INFO - 10.0.22621
+2024-02-06 14:34:30,826 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:34:30,826 - INFO - AMD64
+2024-02-06 14:34:30,826 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:34:30,826 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:34:30,826 - INFO - <<<Versão do Python>>>
+2024-02-06 14:34:30,826 - INFO - 3.11.4
+2024-02-06 14:34:30,826 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:34:30,826 - INFO - 10.0.22621
+2024-02-06 14:34:30,826 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:34:30,826 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:34:30,826 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:34:30,826 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:34:30,827 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:34:30,827 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:34:30,827 - INFO - ====================================================================================
+2024-02-06 14:34:30,868 - INFO - [1m[37mPrograma Iniciado às [31m14:34:30[0m
+2024-02-06 14:34:30,916 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:34:30,916 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:34:41,293 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:34:41,293 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:34:41,294 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:34:41,294 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:34:41,294 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:34:41,295 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:34:41,376 - ERROR - Traceback (most recent call last):
+2024-02-06 14:34:41,376 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 467, in <module>
+2024-02-06 14:34:41,376 - ERROR - atualizar_status()
+2024-02-06 14:34:41,376 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 172, in atualizar_status
+2024-02-06 14:34:41,377 - ERROR - centro_bairro.config(text=f"Centro/Bairro: {vel_CentroBairro}")
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - ^
+2024-02-06 14:34:41,377 - ERROR - AttributeError
+2024-02-06 14:34:41,377 - ERROR - :
+2024-02-06 14:34:41,377 - ERROR - 'int' object has no attribute 'config'
+2024-02-06 14:34:47,417 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:34:47,418 - INFO - 06/02/2024 | 14:34:47
+2024-02-06 14:34:47,418 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:34:47,418 - INFO - nt
+2024-02-06 14:34:47,449 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:34:47,449 - INFO - Windows
+2024-02-06 14:34:47,449 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:34:47,449 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:34:47,450 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:34:47,450 - INFO - Rafael Barbosa
+2024-02-06 14:34:47,450 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:34:47,450 - INFO - 10.0.22621
+2024-02-06 14:34:47,450 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:34:47,450 - INFO - AMD64
+2024-02-06 14:34:47,450 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:34:47,450 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:34:47,450 - INFO - <<<Versão do Python>>>
+2024-02-06 14:34:47,450 - INFO - 3.11.4
+2024-02-06 14:34:47,450 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:34:47,450 - INFO - 10.0.22621
+2024-02-06 14:34:47,450 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:34:47,450 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:34:47,451 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:34:47,451 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:34:47,451 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:34:47,451 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:34:47,451 - INFO - ====================================================================================
+2024-02-06 14:34:47,491 - INFO - [1m[37mPrograma Iniciado às [31m14:34:47[0m
+2024-02-06 14:34:47,537 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:34:47,537 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:34:57,665 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:34:57,665 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:34:57,665 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:34:57,666 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:34:57,666 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:34:57,666 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:35:13,002 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:35:13,002 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:35:13,002 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:35:13,003 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:35:13,003 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:35:13,003 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:35:23,665 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:35:23,665 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:35:23,665 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:35:23,665 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:35:23,666 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:35:23,666 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:35:27,665 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m14:34:47[0m
+2024-02-06 14:36:04,773 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:36:04,773 - INFO - 06/02/2024 | 14:36:04
+2024-02-06 14:36:04,773 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:36:04,773 - INFO - nt
+2024-02-06 14:36:04,810 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:36:04,810 - INFO - Windows
+2024-02-06 14:36:04,810 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:36:04,810 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:36:04,812 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:36:04,812 - INFO - Rafael Barbosa
+2024-02-06 14:36:04,812 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:36:04,812 - INFO - 10.0.22621
+2024-02-06 14:36:04,812 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:36:04,812 - INFO - AMD64
+2024-02-06 14:36:04,812 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:36:04,812 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:36:04,812 - INFO - <<<Versão do Python>>>
+2024-02-06 14:36:04,812 - INFO - 3.11.4
+2024-02-06 14:36:04,812 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:36:04,812 - INFO - 10.0.22621
+2024-02-06 14:36:04,812 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:36:04,812 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:36:04,813 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:36:04,813 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:36:04,813 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:36:04,813 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:36:04,813 - INFO - ====================================================================================
+2024-02-06 14:36:04,859 - INFO - [1m[37mPrograma Iniciado às [31m14:36:04[0m
+2024-02-06 14:36:04,909 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:36:04,909 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:36:14,012 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:36:14,012 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:36:14,012 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:36:14,012 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:36:14,012 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:36:14,012 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:36:29,387 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:36:29,387 - INFO - 06/02/2024 | 14:36:29
+2024-02-06 14:36:29,387 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:36:29,387 - INFO - nt
+2024-02-06 14:36:29,419 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:36:29,419 - INFO - Windows
+2024-02-06 14:36:29,419 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:36:29,420 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:36:29,420 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:36:29,420 - INFO - Rafael Barbosa
+2024-02-06 14:36:29,420 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:36:29,420 - INFO - 10.0.22621
+2024-02-06 14:36:29,420 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:36:29,421 - INFO - AMD64
+2024-02-06 14:36:29,421 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:36:29,421 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:36:29,421 - INFO - <<<Versão do Python>>>
+2024-02-06 14:36:29,421 - INFO - 3.11.4
+2024-02-06 14:36:29,421 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:36:29,421 - INFO - 10.0.22621
+2024-02-06 14:36:29,421 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:36:29,421 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:36:29,421 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:36:29,421 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:36:29,421 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:36:29,422 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:36:29,422 - INFO - ====================================================================================
+2024-02-06 14:36:29,464 - INFO - [1m[37mPrograma Iniciado às [31m14:36:29[0m
+2024-02-06 14:36:29,509 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:36:29,509 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:36:40,306 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:36:40,306 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:36:40,306 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:36:40,306 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:36:40,307 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:36:40,307 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:36:40,499 - ERROR - Traceback (most recent call last):
+2024-02-06 14:36:40,499 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 467, in <module>
+2024-02-06 14:36:40,499 - ERROR - atualizar_status()
+2024-02-06 14:36:40,499 - ERROR -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 172, in atualizar_status
+2024-02-06 14:36:40,499 - ERROR - centro_bairro.config(text=f"Centro/Bairro: {vel_CentroBairro}")
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - ^
+2024-02-06 14:36:40,499 - ERROR - AttributeError
+2024-02-06 14:36:40,499 - ERROR - :
+2024-02-06 14:36:40,499 - ERROR - 'int' object has no attribute 'config'
+2024-02-06 14:37:36,398 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:37:36,398 - INFO - 06/02/2024 | 14:37:36
+2024-02-06 14:37:36,398 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:37:36,398 - INFO - nt
+2024-02-06 14:37:36,428 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:37:36,429 - INFO - Windows
+2024-02-06 14:37:36,429 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:37:36,429 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:37:36,430 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:37:36,430 - INFO - Rafael Barbosa
+2024-02-06 14:37:36,430 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:37:36,430 - INFO - 10.0.22621
+2024-02-06 14:37:36,430 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:37:36,430 - INFO - AMD64
+2024-02-06 14:37:36,430 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:37:36,431 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:37:36,431 - INFO - <<<Versão do Python>>>
+2024-02-06 14:37:36,431 - INFO - 3.11.4
+2024-02-06 14:37:36,431 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:37:36,431 - INFO - 10.0.22621
+2024-02-06 14:37:36,431 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:37:36,431 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:37:36,432 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:37:36,432 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:37:36,432 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:37:36,432 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:37:36,432 - INFO - ====================================================================================
+2024-02-06 14:37:36,473 - INFO - [1m[37mPrograma Iniciado às [31m14:37:36[0m
+2024-02-06 14:37:36,521 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:37:36,521 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:37:46,564 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-06 14:37:46,565 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-06 14:37:46,565 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-06 14:37:46,565 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:37:46,565 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-06 14:37:46,565 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-06 14:39:23,362 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-06 14:39:23,362 - INFO - 06/02/2024 | 14:39:23
+2024-02-06 14:39:23,362 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-06 14:39:23,363 - INFO - nt
+2024-02-06 14:39:23,394 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-06 14:39:23,394 - INFO - Windows
+2024-02-06 14:39:23,394 - INFO - <<<Diretório Atual>>>
+2024-02-06 14:39:23,395 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-06 14:39:23,395 - INFO - <<<Usuário Atual>>>
+2024-02-06 14:39:23,395 - INFO - Rafael Barbosa
+2024-02-06 14:39:23,395 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-06 14:39:23,395 - INFO - 10.0.22621
+2024-02-06 14:39:23,395 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-06 14:39:23,395 - INFO - AMD64
+2024-02-06 14:39:23,396 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-06 14:39:23,396 - INFO - ('64bit', 'WindowsPE')
+2024-02-06 14:39:23,396 - INFO - <<<Versão do Python>>>
+2024-02-06 14:39:23,396 - INFO - 3.11.4
+2024-02-06 14:39:23,396 - INFO - <<<Distribuição do Python>>>
+2024-02-06 14:39:23,396 - INFO - 10.0.22621
+2024-02-06 14:39:23,396 - INFO - <<<Informações sobre o Processador>>>
+2024-02-06 14:39:23,396 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-06 14:39:23,397 - INFO - <<<Diretório Temporário>>>
+2024-02-06 14:39:23,397 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-06 14:39:23,397 - INFO - <<<Diretório do Usuário>>>
+2024-02-06 14:39:23,397 - INFO - C:\Users\Rafael Barbosa
+2024-02-06 14:39:23,397 - INFO - ====================================================================================
+2024-02-06 14:39:23,436 - INFO - [1m[37mPrograma Iniciado às [31m14:39:23[0m
+2024-02-06 14:39:23,480 - ERROR - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-06 14:39:23,480 - ERROR -   warnings.warn("Image was not the expected size")
+2024-02-06 14:39:33,897 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
+2024-02-06 14:39:33,897 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.

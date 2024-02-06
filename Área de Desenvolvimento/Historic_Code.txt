@@ -1,5 +1,9 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Inserir mais funções do log de __init__.pyi em main.py > log.txt
+# FOI INSERIDO O CÓDIGO COM A FUNÇÃO QUE INCLUI OS NÍVEIS DE LOG 'WARNING', 'DEBUG' E 'CRITICAL', QUE SERÃO INSERIDOS NO LOG.TXT QUANDO HOUVER 
+NECESSIADE.
 
 ---------------------------------------------------------------------------------------------------------------
 
