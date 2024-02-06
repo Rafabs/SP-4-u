@@ -107,14 +107,18 @@ class StreamToLogger:
 
     def write(self, buf):
         for line in buf.rstrip().splitlines():
-            self.logger.log(self.log_level, line.rstrip())
+            # Mapeia os níveis de log de saída do sys.stdout e sys.stderr para os níveis apropriados do logger
+            if self.log_level == logging.WARNING:
+                self.logger.warning(line.rstrip())
+            elif self.log_level == logging.DEBUG:
+                self.logger.debug(line.rstrip())
+            elif self.log_level == logging.CRITICAL:
+                self.logger.critical(line.rstrip())
+            else:
+                self.logger.info(line.rstrip())  # Por padrão, usa INFO
 
     def flush(self):
         pass
-
-#Configuração de sys.stdout e sys.stderr 
-sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
-sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 
 def determinar_cor(status):
     if "Operação Normal" in status:
