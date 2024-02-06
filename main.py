@@ -120,6 +120,10 @@ class StreamToLogger:
     def flush(self):
         pass
 
+# Configuração de sys.stdout e sys.stderr 
+sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
+sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
+
 def determinar_cor(status):
     if "Operação Normal" in status:
         return "green"
@@ -462,8 +466,19 @@ temperatura = canvas.create_text(
 data_hora = canvas.create_text(120, 60, text=datetime.now().strftime(
     "%d/%m/%Y %H:%M:%S"), font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
+# Funções auxiliares para chamar atualizar_temperatura e atualizar_data_hora sem argumentos
+def atualizar_temperatura_wrapper():
+    atualizar_temperatura(temperatura)
+
+def atualizar_data_hora_wrapper():
+    atualizar_data_hora(data_hora)
+
 # Inicie os loops principais do Tkinter para temperatura e data/hora
-layout.after(0, atualizar_temperatura, temperatura)  # Agenda a primeira atualização da temperatura
-layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualização da data e hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
 
 layout.mainloop()
