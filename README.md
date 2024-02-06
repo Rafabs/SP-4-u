@@ -111,8 +111,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
-- [x] Inserir mais funções do log de __init__.pyi em main.py > log.txt
-- [x] Corrigir erros apontados pelo log do projeto. 
 
 ## Contribuição
 
