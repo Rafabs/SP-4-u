@@ -107,13 +107,12 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] ```Em desenvolvimento/Monitoramento``` Melhorar soluções de loop da CET de main.py 
 - [ ] ```Em desenvolvimento``` Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
 - [ ] Inserir cores e demais informações de trânsito CET 
-- [ ] Corrigir erros apontados pelo log do projeto. 
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
-- [ ] Corrigir erros do terminal após fechamento do programa
 - [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [x] Inserir mais funções do log de __init__.pyi em main.py > log.txt
+- [x] Corrigir erros apontados pelo log do projeto. 
 
 ## Contribuição
 

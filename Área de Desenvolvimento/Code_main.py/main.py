@@ -123,7 +123,7 @@ class StreamToLogger:
     def flush(self):
         pass
 
-#Configuração de sys.stdout e sys.stderr 
+# Configuração de sys.stdout e sys.stderr 
 sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
 sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 
@@ -133,7 +133,7 @@ def determinar_cor(status):
     elif "Circulação de Trens" in status or "Operação Parcial" in status or "Velocidade Reduzida" in status:
         return "yellow"
     elif "Dados Indisponíveis" in status:
-        return "white"        
+        return "white"                
     elif "Paralisada" in status:
         return "red"
 
@@ -448,7 +448,7 @@ button_pirapora.place(x=1830, y=355)
 def atualizar_temperatura(temperatura):
     # Atualiza a temperatura
     canvas.itemconfigure(temperatura, text=get_weather())
-    #print('<<<Temperatura>>>', temperatura)
+
     # Agenda a próxima atualização da temperatura após 1000 milissegundos (1 segundo)
     layout.after(1000, atualizar_temperatura, temperatura)
 
@@ -460,15 +460,6 @@ def atualizar_data_hora(data_hora):
     # Agenda a próxima atualização da data e hora após 1000 milissegundos (1 segundo)
     layout.after(1000, atualizar_data_hora, data_hora)
 
-def atualizar_transito(transito):
-    # Atualiza a transito
-    canvas.itemconfigure(transito, text=transito())
-
-    # Agenda a próxima atualização da transito após 1000 milissegundos (1 min)
-    layout.after(60000, atualizar_transito, transito)
-    print('<<<Transito - Centro > Bairro>>>', vel_CentroBairro)
-    print('<<<Transito - Bairro > Centro>>>', vel_BairroCentro)
-    
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
 
@@ -478,9 +469,19 @@ temperatura = canvas.create_text(
 data_hora = canvas.create_text(120, 60, text=datetime.now().strftime(
     "%d/%m/%Y %H:%M:%S"), font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
-# Inicie os loops principais do Tkinter para temperatura, data/hora e trânsito
-layout.after(0, atualizar_temperatura, temperatura)  # Agenda a primeira atualização da temperatura
-layout.after(0, atualizar_data_hora, data_hora)    # Agenda a primeira atualização da data e hora
-layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualização do trânsito
+# Funções auxiliares para chamar atualizar_temperatura e atualizar_data_hora sem argumentos
+def atualizar_temperatura_wrapper():
+    atualizar_temperatura(temperatura)
+
+def atualizar_data_hora_wrapper():
+    atualizar_data_hora(data_hora)
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
 
 layout.mainloop()

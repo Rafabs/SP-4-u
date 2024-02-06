@@ -1,5 +1,12 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Corrigir erros apontados pelo log do projeto. 
+# O ERRO APONTADO ATÉ A DATA DO TO DO ERA SOBRE OS IDENTADORES 2316820713344 E 2316820710080, O TKINTER ESPERA OS COMANDOS COMO STRINGS, MAS 
+ESTÁ INTEPRETANDO COMO PARTE DO NOME DA FUNÇÃO, PARA ISSO FOI CRIADO FUNÇÕES AUXILIARES E SEM ARGUMENTOS. 
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir mais funções do log de __init__.pyi em main.py > log.txt
 # FOI INSERIDO O CÓDIGO COM A FUNÇÃO QUE INCLUI OS NÍVEIS DE LOG 'WARNING', 'DEBUG' E 'CRITICAL', QUE SERÃO INSERIDOS NO LOG.TXT QUANDO HOUVER 

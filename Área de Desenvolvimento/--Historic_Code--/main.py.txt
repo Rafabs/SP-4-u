@@ -33,6 +33,33 @@ layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualizaç�
 ( ) SOLUCIONADO
 (X) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+>> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Corrigir erros apontados pelo log do projeto. 
+de (Linha 472)
+Vazio
+
+para (Linha 472)
+# Funções auxiliares para chamar atualizar_temperatura e atualizar_data_hora sem argumentos
+def atualizar_temperatura_wrapper():
+    atualizar_temperatura(temperatura)
+
+def atualizar_data_hora_wrapper():
+    atualizar_data_hora(data_hora)
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
+
+# Inicie os loops principais do Tkinter para temperatura e data/hora
+layout.after(0, atualizar_temperatura_wrapper)  # Agenda a primeira atualização da temperatura
+layout.after(0, atualizar_data_hora_wrapper)    # Agenda a primeira atualização da data e hora
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
 ---------------------------------------------------------------------------------------------------------------
 >> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir mais funções do log de __init__.pyi em main.py > log.txt
