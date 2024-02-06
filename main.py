@@ -121,6 +121,8 @@ def determinar_cor(status):
         return "green"
     elif "Circulação de Trens" in status or "Operação Parcial" in status or "Velocidade Reduzida" in status:
         return "yellow"
+    elif "Dados Indisponíveis" in status:
+        return "white"                
     elif "Paralisada" in status:
         return "red"
 
