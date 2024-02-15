@@ -2,6 +2,7 @@ import sys
 import os
 import platform
 import tempfile
+import atexit
 sys.path.append('Mapa dos Trilhos')
 sys.path.append('Mapa dos Trilhos\\Linhas')
 sys.path.append('Área de Desenvolvimento') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
@@ -37,6 +38,12 @@ from Guararema import guararema
 
 # Inicializa o colorama
 init()
+
+def log_close_time():
+    logging.info(f"========================================== PROGRAMA FECHADO ==========================================")
+
+# Registra a função para ser chamada na saída
+atexit.register(log_close_time)
 
 def dados_usuario():    
     # Obtém a hora atual
