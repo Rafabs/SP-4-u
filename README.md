@@ -105,8 +105,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
 
 ## To Do
-- [ ] ```Em desenvolvimento/Monitoramento``` Melhorar soluções de loop da CET de main.py 
-- [ ] ```Em desenvolvimento``` Inserir cores e demais informações de trânsito CET 
+- [ ] ```Em desenvolvimento``` Verificar possibilidade de API's do Waze
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 - [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
