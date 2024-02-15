@@ -35,6 +35,29 @@ layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualizaç�
 ( ) NÃO DEU CERTO
 
 ---------------------------------------------------------------------------------------------------------------
+>> 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
+de (Linha 5)
+Vazio
+
+para (Linha 5)
+import atexit
+
+de (Linha 42)
+Vazio
+
+para (Linha 42)
+def log_close_time():
+    logging.info(f"========================================== PROGRAMA FECHADO ==========================================")
+
+# Registra a função para ser chamada na saída
+atexit.register(log_close_time)
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
 >> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros apontados pelo log do projeto. 
 de (Linha 472)

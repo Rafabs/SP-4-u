@@ -1,5 +1,11 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
+# FOI INSERIDO A LÓGICA COM UMA NOVA LIB ATEXIT, QUE AO PRESSIONAR O BOTÃO DE FECHAR JANELA, ACIONA A FUNÇÃO E REGISTRA QUE O PROJETO FOI FECHADO.
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros apontados pelo log do projeto. 
 # O ERRO APONTADO ATÉ A DATA DO TO DO ERA SOBRE OS IDENTADORES 2316820713344 E 2316820710080, O TKINTER ESPERA OS COMANDOS COMO STRINGS, MAS 

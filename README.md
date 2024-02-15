@@ -53,6 +53,7 @@ pip install pymupdf
 pip install selenium
 pip install colorama
 pip install logging
+pip install atexit
 ```
 
 ## Linguagens e IDE Utilizadas
@@ -105,15 +106,15 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [ ] ```Em desenvolvimento/Monitoramento``` Melhorar soluções de loop da CET de main.py 
-- [ ] ```Em desenvolvimento``` Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
-- [ ] Inserir cores e demais informações de trânsito CET 
+- [ ] ```Em desenvolvimento``` Inserir cores e demais informações de trânsito CET 
 - [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 - [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode)
-
+- [x] Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
+  
 ## Contribuição
 
 Se você deseja contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com suas alterações e, em seguida, enviar um pull request. Você pode adicionar novos mapas de linhas, melhorar as existentes ou fazer correções.

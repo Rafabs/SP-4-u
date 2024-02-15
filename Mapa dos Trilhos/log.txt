@@ -5054,3 +5054,36 @@
 2024-02-06 15:27:28,819 - INFO -   warnings.warn("Image was not the expected size")
 2024-02-06 15:27:38,690 - INFO - Linha 9-Esmeralda: Devido à manutenção programada na região da estação Autódromo, os trens da Linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Bruno Covas - Mendes Vila Natal.
 2024-02-06 15:27:38,690 - INFO - SAFIRA: Devido a obras de melhorias os trens da Linha 12 - Safira não estão circulando entre as estações Brás e Tatuapé, como alternativa utilize as Linhas 11-Coral da CPTM e 3-Vermelha do Metrô.
+2024-02-15 15:56:21,479 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-15 15:56:21,480 - INFO - 15/02/2024 | 15:56:21
+2024-02-15 15:56:21,480 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-15 15:56:21,480 - INFO - nt
+2024-02-15 15:56:21,525 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-15 15:56:21,525 - INFO - Windows
+2024-02-15 15:56:21,525 - INFO - <<<Diretório Atual>>>
+2024-02-15 15:56:21,526 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-15 15:56:21,527 - INFO - <<<Usuário Atual>>>
+2024-02-15 15:56:21,527 - INFO - Rafael Barbosa
+2024-02-15 15:56:21,527 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-15 15:56:21,527 - INFO - 10.0.22631
+2024-02-15 15:56:21,527 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-15 15:56:21,528 - INFO - AMD64
+2024-02-15 15:56:21,528 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-15 15:56:21,528 - INFO - ('64bit', 'WindowsPE')
+2024-02-15 15:56:21,528 - INFO - <<<Versão do Python>>>
+2024-02-15 15:56:21,528 - INFO - 3.11.4
+2024-02-15 15:56:21,528 - INFO - <<<Distribuição do Python>>>
+2024-02-15 15:56:21,528 - INFO - 10.0.22631
+2024-02-15 15:56:21,528 - INFO - <<<Informações sobre o Processador>>>
+2024-02-15 15:56:21,528 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-15 15:56:21,529 - INFO - <<<Diretório Temporário>>>
+2024-02-15 15:56:21,529 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-15 15:56:21,529 - INFO - <<<Diretório do Usuário>>>
+2024-02-15 15:56:21,529 - INFO - C:\Users\Rafael Barbosa
+2024-02-15 15:56:21,530 - INFO - ====================================================================================
+2024-02-15 15:56:21,576 - INFO - [1m[37mPrograma Iniciado às [31m15:56:21[0m
+2024-02-15 15:56:21,631 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-15 15:56:21,631 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-15 15:56:32,926 - INFO - Nenhuma ocorrência no momento.
+2024-02-15 15:56:48,937 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m15:56:21[0m
+2024-02-15 15:56:52,396 - INFO - ========================================== PROGRAMA FECHADO ==========================================
