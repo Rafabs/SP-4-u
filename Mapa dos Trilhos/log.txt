@@ -5087,3 +5087,108 @@
 2024-02-15 15:56:32,926 - INFO - Nenhuma ocorrência no momento.
 2024-02-15 15:56:48,937 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m15:56:21[0m
 2024-02-15 15:56:52,396 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:39:50,659 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:39:50,661 - INFO - 16/02/2024 | 01:39:50
+2024-02-16 01:39:50,661 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:39:50,661 - INFO - nt
+2024-02-16 01:39:50,697 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:39:50,697 - INFO - Windows
+2024-02-16 01:39:50,697 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:39:50,698 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:39:50,698 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:39:50,698 - INFO - Rafael Barbosa
+2024-02-16 01:39:50,699 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:39:50,699 - INFO - 10.0.22631
+2024-02-16 01:39:50,699 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:39:50,699 - INFO - AMD64
+2024-02-16 01:39:50,699 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:39:50,699 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:39:50,699 - INFO - <<<Versão do Python>>>
+2024-02-16 01:39:50,699 - INFO - 3.11.4
+2024-02-16 01:39:50,699 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:39:50,699 - INFO - 10.0.22631
+2024-02-16 01:39:50,699 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:39:50,699 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:39:50,701 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:39:50,701 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:39:50,701 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:39:50,701 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:39:50,701 - INFO - ====================================================================================
+2024-02-16 01:39:51,103 - INFO - [1m[37mPrograma Iniciado às [31m01:39:51[0m
+2024-02-16 01:39:51,244 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:39:51,244 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:40:02,573 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-16 01:40:02,573 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-16 01:40:02,573 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-16 01:40:02,574 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-16 01:40:23,299 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:40:38,586 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:40:38,586 - INFO - 16/02/2024 | 01:40:38
+2024-02-16 01:40:38,586 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:40:38,586 - INFO - nt
+2024-02-16 01:40:38,618 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:40:38,618 - INFO - Windows
+2024-02-16 01:40:38,618 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:40:38,618 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:40:38,619 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:40:38,619 - INFO - Rafael Barbosa
+2024-02-16 01:40:38,619 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:40:38,619 - INFO - 10.0.22631
+2024-02-16 01:40:38,619 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:40:38,619 - INFO - AMD64
+2024-02-16 01:40:38,619 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:40:38,619 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:40:38,619 - INFO - <<<Versão do Python>>>
+2024-02-16 01:40:38,619 - INFO - 3.11.4
+2024-02-16 01:40:38,619 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:40:38,619 - INFO - 10.0.22631
+2024-02-16 01:40:38,619 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:40:38,619 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:40:38,620 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:40:38,620 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:40:38,620 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:40:38,620 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:40:38,620 - INFO - ====================================================================================
+2024-02-16 01:40:38,672 - INFO - [1m[37mPrograma Iniciado às [31m01:40:38[0m
+2024-02-16 01:40:38,733 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:40:38,733 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:40:49,595 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-16 01:40:49,595 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-16 01:40:49,595 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-16 01:40:49,595 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-16 01:41:02,177 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:41:04,102 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:41:04,102 - INFO - 16/02/2024 | 01:41:04
+2024-02-16 01:41:04,102 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:41:04,102 - INFO - nt
+2024-02-16 01:41:04,133 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:41:04,133 - INFO - Windows
+2024-02-16 01:41:04,133 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:41:04,133 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:41:04,134 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:41:04,134 - INFO - Rafael Barbosa
+2024-02-16 01:41:04,134 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:41:04,134 - INFO - 10.0.22631
+2024-02-16 01:41:04,134 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:41:04,134 - INFO - AMD64
+2024-02-16 01:41:04,134 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:41:04,134 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:41:04,134 - INFO - <<<Versão do Python>>>
+2024-02-16 01:41:04,134 - INFO - 3.11.4
+2024-02-16 01:41:04,134 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:41:04,134 - INFO - 10.0.22631
+2024-02-16 01:41:04,134 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:41:04,134 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:41:04,135 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:41:04,135 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:41:04,135 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:41:04,135 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:41:04,135 - INFO - ====================================================================================
+2024-02-16 01:41:04,177 - INFO - [1m[37mPrograma Iniciado às [31m01:41:04[0m
+2024-02-16 01:41:04,222 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:41:04,222 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:41:14,303 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-02-16 01:41:14,303 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-02-16 01:41:14,304 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-02-16 01:41:14,304 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-02-16 01:41:37,776 - INFO - ========================================== PROGRAMA FECHADO ==========================================
