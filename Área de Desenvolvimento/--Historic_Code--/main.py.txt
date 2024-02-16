@@ -35,6 +35,20 @@ layout.after(0, atualizar_transito, transito)    # Agenda a primeira atualizaç�
 ( ) NÃO DEU CERTO
 
 ---------------------------------------------------------------------------------------------------------------
+
+>> 01:54 16/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
+de (Linha 183)
+        label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='center')
+
+para (Linha 183)
+        label_msg.config(text=mensagens, fg="yellow", bg="#333333", justify='left')
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
 >> 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
 de (Linha 5)

@@ -2645,3 +2645,475 @@
 2024-02-15 15:50:48,222 - INFO - Nenhuma ocorrência no momento.
 2024-02-15 15:50:51,609 - INFO - [1m[37mGTFS da EMTU iniciado às [32m15:50:37[0m
 2024-02-15 15:50:54,722 - INFO - O programa foi fechado em: 15/02/2024 | 15:50:54
+2024-02-16 01:46:08,030 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:46:08,031 - INFO - 16/02/2024 | 01:46:08
+2024-02-16 01:46:08,031 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:46:08,031 - INFO - nt
+2024-02-16 01:46:08,062 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:46:08,062 - INFO - Windows
+2024-02-16 01:46:08,062 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:46:08,062 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:46:08,063 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:46:08,063 - INFO - Rafael Barbosa
+2024-02-16 01:46:08,063 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:46:08,063 - INFO - 10.0.22631
+2024-02-16 01:46:08,063 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:46:08,063 - INFO - AMD64
+2024-02-16 01:46:08,063 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:46:08,063 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:46:08,063 - INFO - <<<Versão do Python>>>
+2024-02-16 01:46:08,063 - INFO - 3.11.4
+2024-02-16 01:46:08,064 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:46:08,064 - INFO - 10.0.22631
+2024-02-16 01:46:08,064 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:46:08,064 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:46:08,064 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:46:08,064 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:46:08,064 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:46:08,064 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:46:08,064 - INFO - ====================================================================================
+2024-02-16 01:46:08,105 - INFO - [1m[37mPrograma Iniciado às [31m01:46:08[0m
+2024-02-16 01:46:08,154 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:46:08,154 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:46:17,882 - INFO - Linha 1 - Azul: Dados Indisponíveis
+2024-02-16 01:46:17,882 - INFO - Linha 2 - Verde: Dados Indisponíveis
+2024-02-16 01:46:17,882 - INFO - Linha 3 - Vermelha: Dados Indisponíveis
+2024-02-16 01:46:17,882 - INFO - Linha 15 - Prata: Dados Indisponíveis
+2024-02-16 01:46:33,381 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:49:26,015 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:49:26,015 - INFO - 16/02/2024 | 01:49:26
+2024-02-16 01:49:26,015 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:49:26,016 - INFO - nt
+2024-02-16 01:49:26,054 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:49:26,054 - INFO - Windows
+2024-02-16 01:49:26,054 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:49:26,054 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:49:26,055 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:49:26,055 - INFO - Rafael Barbosa
+2024-02-16 01:49:26,055 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:49:26,055 - INFO - 10.0.22631
+2024-02-16 01:49:26,055 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:49:26,055 - INFO - AMD64
+2024-02-16 01:49:26,055 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:49:26,056 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:49:26,056 - INFO - <<<Versão do Python>>>
+2024-02-16 01:49:26,056 - INFO - 3.11.4
+2024-02-16 01:49:26,056 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:49:26,056 - INFO - 10.0.22631
+2024-02-16 01:49:26,056 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:49:26,056 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:49:26,057 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:49:26,057 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:49:26,057 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:49:26,057 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:49:26,057 - INFO - ====================================================================================
+2024-02-16 01:49:26,099 - INFO - [1m[37mPrograma Iniciado às [31m01:49:26[0m
+2024-02-16 01:49:26,154 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:49:26,155 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:49:35,719 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-02-16 01:49:35,719 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-02-16 01:49:42,885 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:50:54,106 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:50:54,107 - INFO - 16/02/2024 | 01:50:54
+2024-02-16 01:50:54,107 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:50:54,107 - INFO - nt
+2024-02-16 01:50:54,141 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:50:54,141 - INFO - Windows
+2024-02-16 01:50:54,141 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:50:54,141 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:50:54,143 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:50:54,143 - INFO - Rafael Barbosa
+2024-02-16 01:50:54,143 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:50:54,143 - INFO - 10.0.22631
+2024-02-16 01:50:54,143 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:50:54,143 - INFO - AMD64
+2024-02-16 01:50:54,143 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:50:54,144 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:50:54,144 - INFO - <<<Versão do Python>>>
+2024-02-16 01:50:54,144 - INFO - 3.11.4
+2024-02-16 01:50:54,144 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:50:54,144 - INFO - 10.0.22631
+2024-02-16 01:50:54,144 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:50:54,144 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:50:54,144 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:50:54,144 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:50:54,144 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:50:54,145 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:50:54,145 - INFO - ====================================================================================
+2024-02-16 01:50:54,186 - INFO - [1m[37mPrograma Iniciado às [31m01:50:54[0m
+2024-02-16 01:50:54,235 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:50:54,235 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:51:04,127 - INFO - Traceback (most recent call last):
+2024-02-16 01:51:04,127 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 471, in <module>
+2024-02-16 01:51:04,128 - INFO - atualizar_status()
+2024-02-16 01:51:04,129 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 183, in atualizar_status
+2024-02-16 01:51:04,129 - INFO - label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='left')
+2024-02-16 01:51:04,129 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1702, in configure
+2024-02-16 01:51:04,130 - INFO - return self._configure('configure', cnf, kw)
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,130 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO - ^
+2024-02-16 01:51:04,131 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-02-16 01:51:04,131 - INFO - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-02-16 01:51:04,131 - INFO - _tkinter
+2024-02-16 01:51:04,131 - INFO - .
+2024-02-16 01:51:04,131 - INFO - TclError
+2024-02-16 01:51:04,131 - INFO - :
+2024-02-16 01:51:04,131 - INFO - bad anchor "left": must be n, ne, e, se, s, sw, w, nw, or center
+2024-02-16 01:51:04,131 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:51:14,085 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:51:14,085 - INFO - 16/02/2024 | 01:51:14
+2024-02-16 01:51:14,085 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:51:14,085 - INFO - nt
+2024-02-16 01:51:14,115 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:51:14,115 - INFO - Windows
+2024-02-16 01:51:14,115 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:51:14,115 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:51:14,116 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:51:14,116 - INFO - Rafael Barbosa
+2024-02-16 01:51:14,116 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:51:14,116 - INFO - 10.0.22631
+2024-02-16 01:51:14,116 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:51:14,116 - INFO - AMD64
+2024-02-16 01:51:14,116 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:51:14,116 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:51:14,116 - INFO - <<<Versão do Python>>>
+2024-02-16 01:51:14,116 - INFO - 3.11.4
+2024-02-16 01:51:14,116 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:51:14,116 - INFO - 10.0.22631
+2024-02-16 01:51:14,116 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:51:14,116 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:51:14,117 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:51:14,117 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:51:14,117 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:51:14,117 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:51:14,117 - INFO - ====================================================================================
+2024-02-16 01:51:14,158 - INFO - [1m[37mPrograma Iniciado às [31m01:51:14[0m
+2024-02-16 01:51:14,205 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:51:14,205 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:51:23,772 - INFO - Traceback (most recent call last):
+2024-02-16 01:51:23,772 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 471, in <module>
+2024-02-16 01:51:23,773 - INFO - atualizar_status()
+2024-02-16 01:51:23,773 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 183, in atualizar_status
+2024-02-16 01:51:23,773 - INFO - label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='left')
+2024-02-16 01:51:23,773 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1702, in configure
+2024-02-16 01:51:23,774 - INFO - return self._configure('configure', cnf, kw)
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO - ^
+2024-02-16 01:51:23,774 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-02-16 01:51:23,775 - INFO - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-02-16 01:51:23,775 - INFO - _tkinter
+2024-02-16 01:51:23,775 - INFO - .
+2024-02-16 01:51:23,775 - INFO - TclError
+2024-02-16 01:51:23,775 - INFO - :
+2024-02-16 01:51:23,775 - INFO - bad anchor "left": must be n, ne, e, se, s, sw, w, nw, or center
+2024-02-16 01:51:23,775 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:51:29,926 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:51:29,926 - INFO - 16/02/2024 | 01:51:29
+2024-02-16 01:51:29,927 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:51:29,927 - INFO - nt
+2024-02-16 01:51:29,955 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:51:29,955 - INFO - Windows
+2024-02-16 01:51:29,955 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:51:29,955 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:51:29,956 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:51:29,956 - INFO - Rafael Barbosa
+2024-02-16 01:51:29,956 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:51:29,956 - INFO - 10.0.22631
+2024-02-16 01:51:29,956 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:51:29,956 - INFO - AMD64
+2024-02-16 01:51:29,956 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:51:29,956 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:51:29,956 - INFO - <<<Versão do Python>>>
+2024-02-16 01:51:29,956 - INFO - 3.11.4
+2024-02-16 01:51:29,956 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:51:29,956 - INFO - 10.0.22631
+2024-02-16 01:51:29,956 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:51:29,956 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:51:29,957 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:51:29,957 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:51:29,957 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:51:29,957 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:51:29,957 - INFO - ====================================================================================
+2024-02-16 01:51:29,999 - INFO - [1m[37mPrograma Iniciado às [31m01:51:29[0m
+2024-02-16 01:51:30,051 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:51:30,051 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:51:39,677 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-02-16 01:51:39,677 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-02-16 01:51:39,677 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-02-16 01:51:39,677 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-02-16 01:51:43,501 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:52:11,264 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:52:11,265 - INFO - 16/02/2024 | 01:52:11
+2024-02-16 01:52:11,265 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:52:11,265 - INFO - nt
+2024-02-16 01:52:11,294 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:52:11,294 - INFO - Windows
+2024-02-16 01:52:11,294 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:52:11,294 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:52:11,295 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:52:11,295 - INFO - Rafael Barbosa
+2024-02-16 01:52:11,295 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:52:11,295 - INFO - 10.0.22631
+2024-02-16 01:52:11,295 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:52:11,295 - INFO - AMD64
+2024-02-16 01:52:11,295 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:52:11,295 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:52:11,295 - INFO - <<<Versão do Python>>>
+2024-02-16 01:52:11,295 - INFO - 3.11.4
+2024-02-16 01:52:11,295 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:52:11,295 - INFO - 10.0.22631
+2024-02-16 01:52:11,295 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:52:11,295 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:52:11,296 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:52:11,296 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:52:11,296 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:52:11,296 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:52:11,296 - INFO - ====================================================================================
+2024-02-16 01:52:11,336 - INFO - [1m[37mPrograma Iniciado às [31m01:52:11[0m
+2024-02-16 01:52:11,382 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:52:11,382 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:52:21,289 - INFO - Traceback (most recent call last):
+2024-02-16 01:52:21,289 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 471, in <module>
+2024-02-16 01:52:21,289 - INFO - atualizar_status()
+2024-02-16 01:52:21,289 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 183, in atualizar_status
+2024-02-16 01:52:21,291 - INFO - label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='left')
+2024-02-16 01:52:21,291 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1702, in configure
+2024-02-16 01:52:21,291 - INFO - return self._configure('configure', cnf, kw)
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,291 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO - ^
+2024-02-16 01:52:21,292 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-02-16 01:52:21,292 - INFO - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-02-16 01:52:21,292 - INFO - _tkinter
+2024-02-16 01:52:21,292 - INFO - .
+2024-02-16 01:52:21,292 - INFO - TclError
+2024-02-16 01:52:21,292 - INFO - :
+2024-02-16 01:52:21,292 - INFO - bad anchor "left": must be n, ne, e, se, s, sw, w, nw, or center
+2024-02-16 01:52:21,292 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:52:29,556 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:52:29,556 - INFO - 16/02/2024 | 01:52:29
+2024-02-16 01:52:29,557 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:52:29,557 - INFO - nt
+2024-02-16 01:52:29,586 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:52:29,586 - INFO - Windows
+2024-02-16 01:52:29,586 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:52:29,586 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:52:29,588 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:52:29,588 - INFO - Rafael Barbosa
+2024-02-16 01:52:29,588 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:52:29,588 - INFO - 10.0.22631
+2024-02-16 01:52:29,588 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:52:29,588 - INFO - AMD64
+2024-02-16 01:52:29,588 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:52:29,588 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:52:29,588 - INFO - <<<Versão do Python>>>
+2024-02-16 01:52:29,588 - INFO - 3.11.4
+2024-02-16 01:52:29,588 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:52:29,588 - INFO - 10.0.22631
+2024-02-16 01:52:29,588 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:52:29,588 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:52:29,589 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:52:29,589 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:52:29,589 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:52:29,589 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:52:29,589 - INFO - ====================================================================================
+2024-02-16 01:52:29,627 - INFO - [1m[37mPrograma Iniciado às [31m01:52:29[0m
+2024-02-16 01:52:29,671 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:52:29,672 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:52:39,593 - INFO - Traceback (most recent call last):
+2024-02-16 01:52:39,593 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 471, in <module>
+2024-02-16 01:52:39,594 - INFO - atualizar_status()
+2024-02-16 01:52:39,594 - INFO -   File "c:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u\Área de Desenvolvimento\Code_main.py\main.py", line 183, in atualizar_status
+2024-02-16 01:52:39,594 - INFO - label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='top')
+2024-02-16 01:52:39,594 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1702, in configure
+2024-02-16 01:52:39,595 - INFO - return self._configure('configure', cnf, kw)
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,595 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO - ^
+2024-02-16 01:52:39,596 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1692, in _configure
+2024-02-16 01:52:39,596 - INFO - self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2024-02-16 01:52:39,596 - INFO - _tkinter
+2024-02-16 01:52:39,596 - INFO - .
+2024-02-16 01:52:39,596 - INFO - TclError
+2024-02-16 01:52:39,596 - INFO - :
+2024-02-16 01:52:39,596 - INFO - bad anchor "top": must be n, ne, e, se, s, sw, w, nw, or center
+2024-02-16 01:52:39,596 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-16 01:53:09,877 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-16 01:53:09,877 - INFO - 16/02/2024 | 01:53:09
+2024-02-16 01:53:09,877 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-16 01:53:09,877 - INFO - nt
+2024-02-16 01:53:09,909 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-16 01:53:09,909 - INFO - Windows
+2024-02-16 01:53:09,909 - INFO - <<<Diretório Atual>>>
+2024-02-16 01:53:09,909 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\SP-4-u
+2024-02-16 01:53:09,910 - INFO - <<<Usuário Atual>>>
+2024-02-16 01:53:09,910 - INFO - Rafael Barbosa
+2024-02-16 01:53:09,910 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-16 01:53:09,910 - INFO - 10.0.22631
+2024-02-16 01:53:09,910 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-16 01:53:09,910 - INFO - AMD64
+2024-02-16 01:53:09,910 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-16 01:53:09,910 - INFO - ('64bit', 'WindowsPE')
+2024-02-16 01:53:09,910 - INFO - <<<Versão do Python>>>
+2024-02-16 01:53:09,910 - INFO - 3.11.4
+2024-02-16 01:53:09,910 - INFO - <<<Distribuição do Python>>>
+2024-02-16 01:53:09,910 - INFO - 10.0.22631
+2024-02-16 01:53:09,910 - INFO - <<<Informações sobre o Processador>>>
+2024-02-16 01:53:09,910 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-16 01:53:09,911 - INFO - <<<Diretório Temporário>>>
+2024-02-16 01:53:09,911 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-16 01:53:09,911 - INFO - <<<Diretório do Usuário>>>
+2024-02-16 01:53:09,911 - INFO - C:\Users\Rafael Barbosa
+2024-02-16 01:53:09,911 - INFO - ====================================================================================
+2024-02-16 01:53:09,952 - INFO - [1m[37mPrograma Iniciado às [31m01:53:09[0m
+2024-02-16 01:53:10,017 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-16 01:53:10,017 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-16 01:53:19,942 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-02-16 01:53:19,942 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-02-16 01:53:19,942 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-02-16 01:53:19,942 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-02-16 01:53:35,941 - INFO - ========================================== PROGRAMA FECHADO ==========================================

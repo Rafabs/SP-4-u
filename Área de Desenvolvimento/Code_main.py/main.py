@@ -180,7 +180,7 @@ def atualizar_status():
 
     for mensagem in lista_mensagens:
         mensagens = '\n'.join(lista_mensagens)
-        label_msg.config(text=mensagens, fg="yellow", bg="#333333", anchor='center')
+        label_msg.config(text=mensagens, fg="yellow", bg="#333333", justify='left')
         print(mensagem)    
 
 # Criando a janela

@@ -106,13 +106,12 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [ ] ```Em desenvolvimento``` Verificar possibilidade de API's do Waze
-- [ ] Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 - [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode)
-  
+
 ## Contribuição
 
 Se você deseja contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com suas alterações e, em seguida, enviar um pull request. Você pode adicionar novos mapas de linhas, melhorar as existentes ou fazer correções.
