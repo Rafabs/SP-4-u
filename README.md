@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.5-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-15/02/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-16/02/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -106,7 +106,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [ ] ```Em desenvolvimento``` Verificar possibilidade de API's do Waze
-- [ ] Verificar possibilidade de variável para atualização de main, readme e index
 - [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
