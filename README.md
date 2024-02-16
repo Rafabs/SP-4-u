@@ -109,7 +109,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [ ] Inserir Notícias sobre o transporte público via API ou web scraping.
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
-- [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode)
+- [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.8```.
 
 ## Contribuição
 
