@@ -141,7 +141,7 @@ def determinar_cor(status):
         return "yellow"
     elif "Dados Indisponíveis" in status:
         return "white"                
-    elif "Paralisada" in status:
+    elif "Paralisada" in status or "Operação Encerrada" in status:
         return "red"
 
 dados_usuario()
