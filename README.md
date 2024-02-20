@@ -1,5 +1,5 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
-![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.5-blue.svg)
+![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.6-blue.svg)
 ![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-16/02/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
@@ -54,6 +54,8 @@ pip install selenium
 pip install colorama
 pip install logging
 pip install atexit
+pip install GoogleNews
+pip install re
 ```
 
 ## Linguagens e IDE Utilizadas
@@ -99,17 +101,21 @@ Observação: Certifique-se de que você possui o Python instalado no seu sistem
 ## Exibição
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
-![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.5.jpg)
+![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
 ## Diagrama da versão atual v1.0.5
-![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.5.png)
+![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
 ## To Do
-- [ ] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
-- [ ] Inserir Notícias sobre o transporte público via API ou web scraping.
+- [ ] Atualizar o diagrama v1.0.6
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
+- [ ] Atualizar o diagrama v1.0.7
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.8```.
+- [ ] Atualizar o diagrama v1.0.8 
+- [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
+- [x] Inserir Notícias sobre o transporte público via API ou web scraping.
+- [x] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
 
 ## Contribuição
 
@@ -129,6 +135,10 @@ Divirta-se explorando os mapas do transporte metropolitano de São Paulo!
 O projeto está em constante evolução e passa por diferentes fases de desenvolvimento. Abaixo estão listadas as versões principais e as fases atuais
 
 ## Histórico das versões
+
+### Versão ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
+
+- Incrementação das notícias na página principal.
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
 

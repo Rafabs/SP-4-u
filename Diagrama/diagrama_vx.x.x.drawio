@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-        <mxGraphModel dx="3780" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
+        <mxGraphModel dx="3981" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2439" pageHeight="1700" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1928,20 +1928,36 @@
                 <mxCell id="330" value="Arquivos de backup/testes antes de serem lançados" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="329" vertex="1">
                     <mxGeometry y="26" width="310" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="337" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="332" target="DLEIIGMAwjSktPikzDus-273">
+                <mxCell id="337" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;startArrow=block;startFill=1;" parent="1" source="332" target="DLEIIGMAwjSktPikzDus-273" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="480" y="34"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="332" value="Mapa dos Trilhos\\Obsoleto" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="332" value="Mapa dos Trilhos\\Obsoleto" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="530" y="8" width="310" height="52" as="geometry">
                         <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="333" value="Arquivos que foram descontinuados" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="332">
+                <mxCell id="333" value="Arquivos que foram descontinuados" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" parent="332" vertex="1">
                     <mxGeometry y="26" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" value="Mapa dos Trilhos\\noticia.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#1A1A1A;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry y="1582" width="274" height="56" as="geometry">
+                        <mxRectangle x="20" y="10" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="341" value="Função para exibir as Notícias sobre o transporte" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="340">
+                    <mxGeometry y="26" width="274" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="341">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="1270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="300" y="1620"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

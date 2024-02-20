@@ -3,6 +3,8 @@ import os
 import platform
 import tempfile
 import atexit
+import webbrowser
+import re
 sys.path.append('Mapa dos Trilhos')
 sys.path.append('Mapa dos Trilhos\\Linhas')
 sys.path.append('Área de Desenvolvimento') # <<<<<<< NÃO COPIAR PARA A ÁREA DE PRODUÇÃO
@@ -20,6 +22,7 @@ from gtfs_sptrans import sptrans
 from gtfs_emtu import emtu
 from mapa import mapa_global
 from web import status
+from noticia import notice_transp_sao_paulo
 from Metrô_SP_L1 import line1
 from Metrô_SP_L2 import line2
 from Metrô_SP_L3 import line3
@@ -180,8 +183,36 @@ def atualizar_status():
 
     for mensagem in lista_mensagens:
         mensagens = '\n'.join(lista_mensagens)
-        label_msg.config(text=mensagens, fg="yellow", bg="#333333", justify='left')
+        label_msg_status.config(text=mensagens, fg="yellow", bg="#333333", justify='left')
         print(mensagem)    
+
+def abrir_link(url):
+    # Remove qualquer fragmento indesejado da URL
+    url = re.sub(r'/[^/]*$', '', url)
+        
+    # Abre o link em um navegador externo
+    webbrowser.open_new(url)
+
+def exibir_noticias():
+    noticias = notice_transp_sao_paulo()
+    
+    if noticias is not None:
+        print(noticias)
+        # Itera sobre as notícias e exibe cada uma em uma label de mensagem
+        for index, row in noticias.iterrows():
+            title = row['title']
+            link = row['link']
+            
+            # Cria uma nova label de mensagem para exibir a notícia
+            label_noticia = tk.Message(layout, text=f"{title}", fg="green", bg="#333333", justify='left', width=1900, cursor="hand2")
+            label_noticia.place(x=10, y=520 + index * 20)  # Ajuste a posição y conforme necessário
+            
+            # Configura um evento de clique para abrir o link em um navegador externo
+            label_noticia.bind("<Button-1>", lambda event, url=link: abrir_link(url))
+    
+    else:
+        # Se não houver notícias, exibe uma mensagem indicando isso
+        label_msg_noticias.config(text="Nenhuma notícia encontrada.", fg="red", bg="#333333", justify='left')
 
 # Criando a janela
 layout = tk.Tk()
@@ -306,12 +337,19 @@ guia_en_metro_button = tk.Button(
     frame_guia_cptm, text="Guia do Usuário - Expresso Turístico", command=guia_cptm_expresso_turistico, fg="black", bg="#CA016B")
 guia_en_metro_button.pack(pady=5, fill='both', expand=True)
 
+# Notícias
+traço_noticia = canvas.create_line(0, 500, 500, 500, fill="#C0C0C0")
+noticia_ico = canvas.create_text(
+    10, 510, text="Notícias:", font="Helvetica 10 bold", anchor="w", fill=branco)
+label_msg_noticias = tk.Label(layout, text="", anchor="se")
+label_msg_noticias.place(x=10, y=520) 
+
 # Ocorrências
-traço = canvas.create_line(0, 790, 500, 790, fill="#C0C0C0")
+traço_ocorrencia = canvas.create_line(0, 790, 500, 790, fill="#C0C0C0")
 msg_ico = canvas.create_text(
     10, 800, text="Ocorrências:", font="Helvetica 10 bold", anchor="w", fill=branco)
-label_msg = tk.Label(layout, text="", anchor="se")
-label_msg.place(x=10, y=810) 
+label_msg_status = tk.Label(layout, text="", anchor="se")
+label_msg_status.place(x=10, y=810) 
 
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
 button_l1 = tk.Button(layout, text="Azul", command=line1,
@@ -469,6 +507,9 @@ def atualizar_data_hora(data_hora):
 
 # Chame a função para inicializar os textos ao iniciar o programa
 atualizar_status()
+
+# Exibir as notícias automaticamente ao abrir a janela
+exibir_noticias()
 
 # Inicializa as variáveis para temperatura e data/hora
 temperatura = canvas.create_text(

@@ -5227,3 +5227,89 @@
 2024-02-16 01:54:01,137 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
 2024-02-16 01:54:01,138 - INFO - Linha 15 - Prata: Fora do Horário de Operação
 2024-02-16 01:54:09,016 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-20 15:31:21,480 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-20 15:31:21,480 - INFO - 20/02/2024 | 15:31:21
+2024-02-20 15:31:21,480 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-20 15:31:21,480 - INFO - nt
+2024-02-20 15:31:21,517 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-20 15:31:21,517 - INFO - Windows
+2024-02-20 15:31:21,517 - INFO - <<<Diretório Atual>>>
+2024-02-20 15:31:21,517 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-20 15:31:21,518 - INFO - <<<Usuário Atual>>>
+2024-02-20 15:31:21,518 - INFO - Rafael Barbosa
+2024-02-20 15:31:21,518 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-20 15:31:21,518 - INFO - 10.0.22631
+2024-02-20 15:31:21,518 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-20 15:31:21,518 - INFO - AMD64
+2024-02-20 15:31:21,519 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-20 15:31:21,519 - INFO - ('64bit', 'WindowsPE')
+2024-02-20 15:31:21,519 - INFO - <<<Versão do Python>>>
+2024-02-20 15:31:21,519 - INFO - 3.11.4
+2024-02-20 15:31:21,519 - INFO - <<<Distribuição do Python>>>
+2024-02-20 15:31:21,519 - INFO - 10.0.22631
+2024-02-20 15:31:21,519 - INFO - <<<Informações sobre o Processador>>>
+2024-02-20 15:31:21,519 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-20 15:31:21,520 - INFO - <<<Diretório Temporário>>>
+2024-02-20 15:31:21,520 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-20 15:31:21,520 - INFO - <<<Diretório do Usuário>>>
+2024-02-20 15:31:21,520 - INFO - C:\Users\Rafael Barbosa
+2024-02-20 15:31:21,520 - INFO - ====================================================================================
+2024-02-20 15:31:21,576 - INFO - [1m[37mPrograma Iniciado às [31m15:31:21[0m
+2024-02-20 15:31:21,640 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-20 15:31:21,640 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-20 15:31:32,667 - INFO - Nenhuma ocorrência no momento.
+2024-02-20 15:31:33,638 - INFO -                                                title                                               link          date desc                 media  datetime                                                img
+2024-02-20 15:31:33,639 - INFO - 0  Eleição do CMTT de São Paulo acontece hoje - 2...  https://www1.folha.uol.com.br/blogs/ciclocosmo...  á 14 minutos           Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 1  Moradores de RJ e SP podem se despedir: Nova l...  https://www.otvfoco.com.br/lei-anunciada-do-bi...  á 31 minutos                    TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 2  Prefeitura paga R$ 827 milhões a empresas de ô...  https://www.estadao.com.br/politica/prefeitura...     á 2 horas                    Estadão       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 3                Governo propõe Bilhete Único na RMR  https://agorape.blog.br/2024/02/20/governo-pro...     á 4 horas                    AgoraPE       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 4  Transferência de trens e metrô na Luz fica sup...  https://diariodostrilhos.com/2024/02/20/transf...     á 4 horas         Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 5  Governo de Pernambuco propõe Bilhete Único na ...  https://www.edmarlyra.com/governo-de-pernambuc...     á 4 horas            Blog Edmar Lyra       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 6  Estudantes de cursos noturnos contam com ações...  https://pejornal.com.br/estudantes-de-cursos-n...     á 5 horas            Primeira Edição       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 7  Bilhete único nos ônibus: veja reação do sindi...  https://www.diariodepernambuco.com.br/noticia/...     á 5 horas       Diario de Pernambuco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 8  Artesp convoca empresas para operar linhas de ...  https://diariodotransporte.com.br/2024/02/20/a...     á 5 horas       Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:31:33,639 - INFO - 9  São Caetano lança linha circular gratuita para...  https://diariodostrilhos.com/2024/02/20/sao-ca...     á 6 horas         Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:32:08,724 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m15:31:21[0m
+2024-02-20 15:33:38,005 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-20 15:33:38,006 - INFO - 20/02/2024 | 15:33:38
+2024-02-20 15:33:38,006 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-20 15:33:38,006 - INFO - nt
+2024-02-20 15:33:38,042 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-20 15:33:38,043 - INFO - Windows
+2024-02-20 15:33:38,043 - INFO - <<<Diretório Atual>>>
+2024-02-20 15:33:38,043 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-20 15:33:38,044 - INFO - <<<Usuário Atual>>>
+2024-02-20 15:33:38,044 - INFO - Rafael Barbosa
+2024-02-20 15:33:38,044 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-20 15:33:38,044 - INFO - 10.0.22631
+2024-02-20 15:33:38,044 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-20 15:33:38,044 - INFO - AMD64
+2024-02-20 15:33:38,044 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-20 15:33:38,044 - INFO - ('64bit', 'WindowsPE')
+2024-02-20 15:33:38,045 - INFO - <<<Versão do Python>>>
+2024-02-20 15:33:38,045 - INFO - 3.11.4
+2024-02-20 15:33:38,045 - INFO - <<<Distribuição do Python>>>
+2024-02-20 15:33:38,045 - INFO - 10.0.22631
+2024-02-20 15:33:38,045 - INFO - <<<Informações sobre o Processador>>>
+2024-02-20 15:33:38,045 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-20 15:33:38,046 - INFO - <<<Diretório Temporário>>>
+2024-02-20 15:33:38,046 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-20 15:33:38,046 - INFO - <<<Diretório do Usuário>>>
+2024-02-20 15:33:38,046 - INFO - C:\Users\Rafael Barbosa
+2024-02-20 15:33:38,046 - INFO - ====================================================================================
+2024-02-20 15:33:38,105 - INFO - [1m[37mPrograma Iniciado às [31m15:33:38[0m
+2024-02-20 15:33:38,162 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-20 15:33:38,163 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-20 15:33:49,024 - INFO - Nenhuma ocorrência no momento.
+2024-02-20 15:33:49,870 - INFO -                                                title                                               link          date desc                 media  datetime                                                img
+2024-02-20 15:33:49,870 - INFO - 0  Eleição do CMTT de São Paulo acontece hoje - 2...  https://www1.folha.uol.com.br/blogs/ciclocosmo...  á 16 minutos           Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 1  Moradores de RJ e SP podem se despedir: Nova l...  https://www.otvfoco.com.br/lei-anunciada-do-bi...  á 33 minutos                    TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 2  Prefeitura paga R$ 827 milhões a empresas de ô...  https://www.estadao.com.br/politica/prefeitura...     á 2 horas                    Estadão       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 3                Governo propõe Bilhete Único na RMR  https://agorape.blog.br/2024/02/20/governo-pro...     á 4 horas                    AgoraPE       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 4  Transferência de trens e metrô na Luz fica sup...  https://diariodostrilhos.com/2024/02/20/transf...     á 4 horas         Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 5  Governo de Pernambuco propõe Bilhete Único na ...  https://www.edmarlyra.com/governo-de-pernambuc...     á 4 horas            Blog Edmar Lyra       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 6  Estudantes de cursos noturnos contam com ações...  https://pejornal.com.br/estudantes-de-cursos-n...     á 5 horas            Primeira Edição       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 7  Bilhete único nos ônibus: veja reação do sindi...  https://www.diariodepernambuco.com.br/noticia/...     á 5 horas       Diario de Pernambuco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 8  Artesp convoca empresas para operar linhas de ...  https://diariodotransporte.com.br/2024/02/20/a...     á 5 horas       Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:49,870 - INFO - 9  São Caetano lança linha circular gratuita para...  https://diariodostrilhos.com/2024/02/20/sao-ca...     á 6 horas         Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-20 15:33:54,797 - INFO - ========================================== PROGRAMA FECHADO ==========================================
