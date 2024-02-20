@@ -103,7 +103,7 @@ Observação: Certifique-se de que você possui o Python instalado no seu sistem
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
-## Diagrama da versão atual v1.0.5
+## Diagrama da versão atual v1.0.6
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
 ## To Do

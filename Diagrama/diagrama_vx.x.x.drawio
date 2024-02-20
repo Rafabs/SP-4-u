@@ -1951,7 +1951,7 @@
                 <mxCell id="341" value="Função para exibir as Notícias sobre o transporte" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="340">
                     <mxGeometry y="26" width="274" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="342" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="341">
+                <mxCell id="342" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="341">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="300" y="1270" as="targetPoint"/>
                         <Array as="points">
