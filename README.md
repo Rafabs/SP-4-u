@@ -108,7 +108,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do
 - [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
-- [ ] Atualizar o diagrama v1.0.6
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
 - [ ] Atualizar o diagrama v1.0.7
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.8```.
@@ -116,6 +115,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
 - [x] Inserir Notícias sobre o transporte público via API ou web scraping.
 - [x] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
+- [x] Atualizar o diagrama v1.0.6
 
 ## Contribuição
 
