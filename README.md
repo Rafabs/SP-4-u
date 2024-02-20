@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.6-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-16/02/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-20/02/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -54,7 +54,7 @@ pip install selenium
 pip install colorama
 pip install logging
 pip install atexit
-pip install GoogleNews
+pip install googlenews
 pip install re
 ```
 
