@@ -1,4 +1,4 @@
-# Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo usando Python (Folium-Tkinter)
+# Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.6-blue.svg)
 ![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-20/02/2024-green.svg)
 
