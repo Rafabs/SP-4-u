@@ -156,6 +156,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Inserir pdf's em index.html
 - [ ] Inserir status da linha em cada arquivo de linhas .html
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.9```.
+- [ ] Atualizar o diagrama v1.0.9
 
 ## Contribuição
 
