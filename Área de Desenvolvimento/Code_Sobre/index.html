@@ -7,6 +7,7 @@
     <title>Sampa 4u</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="server.js"></script>
     <link rel="icon"
         href="https://raw.githubusercontent.com/Rafabs/SP-4-u/main/Mapa%20dos%20Trilhos/Favicon/SP4U_LOGO.ico"
         type="image/x-icon">
@@ -23,8 +24,8 @@
             <h1>Sampa 4u</h1>
         </div>
         <div class="version-info">
-            <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.5-blue.svg" alt="Version">
-            <img src="https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-01/02/2024-green.svg" alt="Atualização">
+            <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.6-blue.svg" alt="Version">
+            <img src="https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-21/02/2024-green.svg" alt="Atualização">
         </div>
         <a href="https://github.com/Rafabs/Sampa-4-u" target="_blank">
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
@@ -46,18 +47,21 @@
         <div class="logo-container">
             <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"
                 alt="VSCode">
-                <br>
+            <br>
             <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"
                 alt="Python">
-                <br>
+            <br>
             <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
                 alt="HTML5">
-                <br>
+            <br>
             <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
                 alt="CSS3">
-                <br>
+            <br>
             <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
                 alt="JS">
+            <br>
+            <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+                alt="Node">
         </div>
     </section>
 
@@ -84,57 +88,58 @@
                 href="https://www.sptrans.com.br/desenvolvedores/login-desenvolvedores/" target="_blank">SPTRANS</a>, em
             ordem numérica:</p>
         <ul class="line-list">
-            <li><span style="background-color: #0455A1;"></span> <code>#0455A1</code> <a href="linha_01.html">Linha 01 -
+            <li>
+                <span style="background-color: #0455A1;"></span> <code>#0455A1</code> <a href="linha_01.html">Linha 01 -
                     Azul</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha01-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #007E5E;"></span> <code>#007E5E</code> <a href="linha_02.html">Linha 02 -
                     Verde</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha02-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #EE372F;"></span> <code>#EE372F</code> <a href="linha_03.html">Linha 03 -
                     Vermelha</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha03-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #FFF000;"></span> <code>#FFF000</code> <a href="linha_04.html">Linha 04 -
                     Amarela</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha04-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #9B3894;"></span> <code>#9B3894</code> <a href="linha_05.html">Linha 05 -
                     Lilás</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha05-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #CA016B;"></span> <code>#CA016B</code> <a href="linha_07.html">Linha 07 -
                     Rubi</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha07-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #97A098;"></span> <code>#97A098</code> <a href="linha_08.html">Linha 08 -
                     Diamante</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha08-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #01A9A7;"></span> <code>#01A9A7</code> <a href="linha_09.html">Linha 09 -
                     Esmeralda</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha09-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #049FC3;"></span> <code>#049FC3</code> <a href="linha_10.html">Linha 10 -
                     Turquesa</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha10-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #F68368;"></span> <code>#F68368</code> <a href="linha_11.html">Linha 11 -
                     Coral</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha11-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #133C8D;"></span> <code>#133C8D</code> <a href="linha_12.html">Linha 12 -
                     Safira</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha12-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #00B352;"></span> <code>#00B352</code> <a href="linha_13.html">Linha 13 -
                     Jade</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha13-info">Informações sobre a Operação - Carregando...</div>
             </li>
             <li><span style="background-color: #C0C0C0;"></span> <code>#C0C0C0</code> <a href="linha_15.html">Linha 15 -
                     Prata</a>
-                <div class="card">Informações sobre a Operação - Em Desenvolvimento</div>
+                <div class="card" id="linha15-info">Informações sobre a Operação - Carregando...</div>
             </li>
         </ul>
     </section>
@@ -247,14 +252,27 @@
                                     pip install pymupdf<br>
                                     pip install selenium<br>
                                     pip install colorama<br>
-                                    pip install logging</code>            
+                                    pip install logging<br>
+                                    pip install atexit<br>
+                                    pip install googlenews<br>
+                                    pip install re</code>
+        </div>
+
+        <div class="command-list">
+            <p>(No windows, copie e cole no terminal Node.js command prompt para instalar as bibliotecas)
+            </p>
+            <code class="copy-code">npm install express<br> 
+                                    npm install axios<br> 
+                                    npm install jsdom<br> 
+                                    npm install cors</code>
+
         </div>
     </section>
 
     <hr>
 
     <section class="execution">
-        <h2>Como Executar</h2>
+        <h2>Como Executar (Projeto Python)</h2>
         <h3>No Windows:</h3>
         <ol>
             <li>Abra o prompt de comando.</li>
@@ -276,14 +294,43 @@
         <p>Observação: Certifique-se de que você possui o Python instalado no seu sistema. Caso contrário, faça o
             download e a instalação a partir do site oficial do Python (<a href="https://www.python.org/"
                 target="_blank">https://www.python.org/</a>).</p>
-    </section>
 
-    <hr>
+        <hr>
 
-    <footer>
-        <p>&copy; 2023 | Sampa 4u</p>
-        <p>Desenvolvido por Rafael Barbosa</p>
-    </footer>
+        <h2>Como Executar (Projeto Web)</h2>
+        <h3>No Windows:</h3>
+        <ol>
+            <li>Abra o Node.js command prompt.</li>
+            <li>Navegue até o diretório onde está localizado o arquivo server.js usando o comando (por
+                exemplo <code>node "caminho/para/o/aquivo/server.js"</code>).</li>
+            <li>Deverá ser exibido no terminal a mensagem <code>Servidor funcionando normalmente na porta 3000</code>.
+            </li>
+            <li>Abre o arquivo html e navegue.</li>
+        </ol>
+
+        <h3>Linux e Mac:</h3>
+        <ol>
+            <li>Abra o Node.js command prompt</li>
+            <li>Navegue até o diretório onde está localizado o arquivo server.js usando o comando (por
+                exemplo <code>node "caminho/para/o/aquivo/server.js"</code>).</li>
+            <li>Deverá ser exibido no terminal a mensagem <code>Servidor funcionando normalmente na porta 3000</code>.
+            </li>
+            <li>Abre o arquivo html e navegue.</li>
+        </ol>
+
+        <p>O navegador com o projeto será aberta.</p>
+
+        <p>Observação: Certifique-se de que você possui o Node.js instalado no seu sistema. Caso contrário, faça o
+            download e a instalação a partir do site oficial
+            (<a href="https://nodejs.org/en" target="_blank">https://nodejs.org/en</a>).</p>
+
+        <hr>
+
+        <footer>
+            <p>&copy; 2023 | Sampa 4u</p>
+            <p>Desenvolvido por Rafael Barbosa</p>
+        </footer>
+
 </body>
 
 </html>

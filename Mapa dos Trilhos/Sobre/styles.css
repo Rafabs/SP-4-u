@@ -359,8 +359,48 @@ ul {
 
 .card {
     position: relative;
+    background-color: #000655; /* Amarelo escuro */
+    color: #00a6ff; /* Amarelo claro */    
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+}
+
+.amarelo_velocidade_reduzida {
+    position: relative;
     background-color: #554800; /* Amarelo escuro */
     color: #ffd900; /* Amarelo claro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+}
+
+.verde_operacao_normal {
+    position: relative;
+    background-color: #00550e; /* Verde escuro */
+    color: #00ff1e; /* Verde claro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+}
+
+.branco_dados_indisponiveis {
+    position: relative;
+    background-color: #000000; /* Branco escuro */
+    color: #ffffff; /* Branco claro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+}
+
+.vermelho_paralisada {
+    position: relative;
+    background-color: #550000; /* Vermelho escuro */
+    color: #ff0000; /* Vermelho claro */
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 12px; /* Tamanho da fonte */

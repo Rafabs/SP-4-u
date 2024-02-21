@@ -1,3 +1,23 @@
+>> 21:50 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.html
+Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
+
+de (Linha 1)
+document.addEventListener('DOMContentLoaded', function() {
+    let copyButtons = document.querySelectorAll('.copy-code');
+
+    copyButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            let codeText = this.innerText.trim();
+            navigator.clipboard.writeText(codeText).then(function() {
+                alert('Código copiado para a área de transferência!');
+            }, function() {
+                alert('Erro ao copiar o código.');
+            });
+        });
+    });
+});
+
+para (Linha 1)
 fetch('http://localhost:3000/linha1-status')
     .then(response => response.json())
     .then(data => {
@@ -329,3 +349,22 @@ fetch('http://localhost:3000/linha3-status')
         }
     })
     .catch(err => console.log(err));       
+    
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------

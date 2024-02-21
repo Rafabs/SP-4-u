@@ -58,10 +58,21 @@ pip install googlenews
 pip install re
 ```
 
+(No windows, copie e cole no terminal Node.js command prompt para instalar as bibliotecas)
+```node.js
+npm install express 
+npm install axios 
+npm install jsdom 
+npm install cors
+```
 ## Linguagens e IDE Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Fonte de dados
 
@@ -76,7 +87,7 @@ Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentado
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
 
-## Como Executar
+## Como Executar (Projeto Python)
 
 #### No Windows:
 
@@ -98,24 +109,53 @@ O projeto será iniciado e a interface gráfica será exibida.
 
 Observação: Certifique-se de que você possui o Python instalado no seu sistema. Caso contrário, faça o download e a instalação a partir do site oficial do Python (https://www.python.org/).
 
-## Exibição
+## Como Executar (Projeto Web)
+
+#### No Windows:
+
+1. Abra o Node.js command prompt
+
+2. digite node "caminho/para/o/aquivo/server.js"
+
+3. Deverá ser exibido no terminal a mensagem ```Servidor funcionando normalmente na porta 3000```
+
+4. Abre o arquivo html e navegue
+
+#### Linux e Mac:
+
+1. Abra o Node.js command prompt
+
+2. digite node "caminho/para/o/aquivo/server.js"
+
+3. Deverá ser exibido no terminal a mensagem ```Servidor funcionando normalmente na porta 3000```
+
+4. Abre o arquivo html e navegue
+
+Observação: Certifique-se de que você possui o Node.js instalado no seu sistema. Caso contrário, faça o download e a instalação a partir do site oficial (https://nodejs.org/en).
+
+## Exibição (Python)
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
+![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
+
+## Exibição (Web)
+
+Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
 ## Diagrama da versão atual v1.0.6
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
 ## To Do
-- [ ] Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
 - [ ] Atualizar o diagrama v1.0.7
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.8```.
 - [ ] Atualizar o diagrama v1.0.8 
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
-- [x] Inserir Notícias sobre o transporte público via API ou web scraping.
-- [x] Melhorias de interface gráfica da tela inicial ```v1.0.6```.
-- [x] Atualizar o diagrama v1.0.6
+- [ ] Atualizar para que index.html atualize periodicamente
+- [ ] Inserir pdf's em index.html
+- [ ] Inserir status da linha em cada arquivo de linhas .html
+- [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.9```.
 
 ## Contribuição
 
@@ -138,7 +178,7 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
 
-- Incrementação das notícias na página principal.
+- Incrementação das notícias na página principal do Projeto Python e do Projeto Web.
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
 
