@@ -5313,3 +5313,46 @@
 2024-02-20 15:33:49,870 - INFO - 8  Artesp convoca empresas para operar linhas de ...  https://diariodotransporte.com.br/2024/02/20/a...     á 5 horas       Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-20 15:33:49,870 - INFO - 9  São Caetano lança linha circular gratuita para...  https://diariodostrilhos.com/2024/02/20/sao-ca...     á 6 horas         Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-20 15:33:54,797 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-23 16:30:11,319 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-23 16:30:11,321 - INFO - 23/02/2024 | 16:30:11
+2024-02-23 16:30:11,321 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-23 16:30:11,322 - INFO - nt
+2024-02-23 16:30:11,360 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-23 16:30:11,361 - INFO - Windows
+2024-02-23 16:30:11,361 - INFO - <<<Diretório Atual>>>
+2024-02-23 16:30:11,362 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-23 16:30:11,364 - INFO - <<<Usuário Atual>>>
+2024-02-23 16:30:11,364 - INFO - Rafael Barbosa
+2024-02-23 16:30:11,364 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-23 16:30:11,364 - INFO - 10.0.22631
+2024-02-23 16:30:11,364 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-23 16:30:11,364 - INFO - AMD64
+2024-02-23 16:30:11,365 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-23 16:30:11,365 - INFO - ('64bit', 'WindowsPE')
+2024-02-23 16:30:11,365 - INFO - <<<Versão do Python>>>
+2024-02-23 16:30:11,365 - INFO - 3.11.4
+2024-02-23 16:30:11,365 - INFO - <<<Distribuição do Python>>>
+2024-02-23 16:30:11,365 - INFO - 10.0.22631
+2024-02-23 16:30:11,365 - INFO - <<<Informações sobre o Processador>>>
+2024-02-23 16:30:11,365 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-23 16:30:11,367 - INFO - <<<Diretório Temporário>>>
+2024-02-23 16:30:11,367 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-23 16:30:11,367 - INFO - <<<Diretório do Usuário>>>
+2024-02-23 16:30:11,368 - INFO - C:\Users\Rafael Barbosa
+2024-02-23 16:30:11,368 - INFO - ====================================================================================
+2024-02-23 16:30:12,086 - INFO - [1m[37mPrograma Iniciado às [31m16:30:12[0m
+2024-02-23 16:30:12,276 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-23 16:30:12,276 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-23 16:30:24,083 - INFO - Nenhuma ocorrência no momento.
+2024-02-23 16:30:24,725 - INFO -                                                title                                               link          date desc                    media  datetime                                                img
+2024-02-23 16:30:24,725 - INFO - 0  Governo de SP aumenta aporte financeiro às ves...  https://mobilidadesampa.com.br/2024/02/governo...   á 5 minutos              Mobilidade Sampa       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 1  CIOP - SP suspende cargos do Processo Seletivo...  https://www.pciconcursos.com.br/noticias/ciop-...   á 6 minutos                 PCI Concursos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 2  FedEx solicita permissão para voar para Quito,...  https://aeroin.net/fedex-solicita-permissao-pa...  á 44 minutos                        AEROIN       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 3  84% dos passageiros concordam que o ônibus enf...  https://netdiario.com.br/noticias/pesquisa-apo...      á 1 hora       O Diário de Teresópolis       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 4  Prefeitura de Niterói (RJ) aprova subsídio que...  https://diariodotransporte.com.br/2024/02/23/p...      á 1 hora          Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 5  Obras de revitalização do Corredor ABD na Rami...  https://diariodostrilhos.com/2024/02/23/obras-...      á 1 hora            Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 6  Rogério Cruz participa da entrega de 198 escri...  https://www.aredacao.com.br/noticias/204886/ro...      á 1 hora                     A Redação       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 7  Políticos pagam campanhas nas redes e organiza...  https://apublica.org/2024/02/politicos-pagam-c...      á 1 hora               Agência Pública       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 8     Politica & Murupi - O Brasil a caminho do caos  https://www.gentedeopiniao.com.br/leo-ladeia/p...     á 2 horas              Gente de Opinião       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:30:24,725 - INFO - 9  Lollapalooza Brasil 2024: Mapa do evento e ins...  https://hashtagpop.com.br/noticias/lollapalooz...     á 2 horas                   Hashtag Pop       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 16:31:04,293 - INFO - ========================================== PROGRAMA FECHADO ==========================================
