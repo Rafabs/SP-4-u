@@ -149,6 +149,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## To Do
 - [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
 - [ ] Atualizar o diagrama v1.0.7
+- [ ] Atualizar Readme.md e index.html e explicar que existem 2 projetos (py e web)
+- [ ] Verificar e inserir licença git
+- [ ] Inserir status linha nas outras pages do index.html
+- [ ] Inserir mensagens de falhas das linhas
+- [ ] Verificar possibilidade de inserir log no index.html
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.8```.
 - [ ] Atualizar o diagrama v1.0.8 
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
@@ -157,6 +162,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Inserir status da linha em cada arquivo de linhas .html
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.9```.
 - [ ] Atualizar o diagrama v1.0.9
+- [ ] Criar mapa no HTML via js pelos dados json existente ```v1.1.0```.
+- [ ] Confirmar se o server.js atualiza periodicamente
+- [ ] Atualizar o diagrama v1.1.0
 
 ## Contribuição
 
