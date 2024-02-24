@@ -1,3 +1,167 @@
+>> 01:23 24/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.js
+Inserir mensagens de falhas das linhas.
+
+de(Linha 26)
+Vazio
+
+para(Linha 26)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 61)
+Vazio
+
+para(Linha 61)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 95)
+Vazio
+
+para(Linha 95)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 128)
+Vazio
+
+para(Linha 128)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 161)
+Vazio
+
+para(Linha 161)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 194)
+Vazio
+
+para(Linha 194)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 227)
+Vazio
+
+para(Linha 227)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 260)
+Vazio
+
+para(Linha 260)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 297)
+Vazio
+
+para(Linha 297)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 326)
+Vazio
+
+para(Linha 326)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 359)
+Vazio
+
+para(Linha 359)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 392)
+Vazio
+
+para(Linha 392)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+de(Linha 425)
+Vazio
+
+para(Linha 425)
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 21:50 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.html
 Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 
@@ -354,11 +518,6 @@ fetch('http://localhost:3000/linha3-status')
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
-( ) SOLUCIONADO
-( ) EM DESENVOLVIMENTO
-( ) NÃO DEU CERTO
----------------------------------------------------------------------------------------------------------------
-
 ( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO

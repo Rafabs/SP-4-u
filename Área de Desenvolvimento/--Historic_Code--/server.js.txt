@@ -1,3 +1,32 @@
+>> 01:23 24/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
+Inserir mensagens de falhas das linhas.
+
+de(Linha 66)
+            const status = dom.window.document.querySelector(`.line-${lineNumber} .status`).textContent;
+            res.json({ linha: lineNumber, status: status });
+        })
+        .catch(err => res.status(500).json({ error: err.toString() }));
+}
+
+para(Linha 66)
+            const statusElement = dom.window.document.querySelector(`.line-${lineNumber} .status`);
+            const status = statusElement.textContent;
+            console.log('Status:', status);
+
+            const msgElement = dom.window.document.querySelector(`.line-${lineNumber} .msg`);
+            const msg = msgElement ? msgElement.textContent.trim() : ''; // Extrai a mensagem, se existir
+            console.log('Mensagem:', msg);
+
+            res.json({ linha: lineNumber, status: status, msg: msg });
+        })
+        .catch(err => res.status(500).json({ error: err.toString() }));
+}
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 21:50 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 
