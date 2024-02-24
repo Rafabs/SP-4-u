@@ -74,4 +74,4 @@ function getLineStatus(lineNumber, res) {
         .catch(err => res.status(500).json({ error: err.toString() }));
 }
 
-app.listen(3000, () => console.log('Servidor funcionando normalmente na porta 3000'));
+app.listen(3000, () => console.log('Servidor funcionando normalmente na porta 3000\nPressione Ctrl + C para sair'));
