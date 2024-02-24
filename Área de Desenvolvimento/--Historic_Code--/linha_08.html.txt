@@ -1,3 +1,36 @@
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+Inserir status linha nas outras pages do index.html
+
+de (Linha 10)
+Vazio
+
+para (Linha 10)
+    <script src="server.js"></script>
+
+de (Linha 15)
+<div class="lines">
+    <ul class="line-list">
+        <li><span style="background-color: #97A098;"></span> <a>Linha 08 - Diamante</a></li>
+    </ul>
+</div>
+
+para (Linha 15)
+<div class="lines">
+    <ul class="line-list">
+        <li>
+            <span style="background-color: #97A098;"></span> <a href="linha_08.html">Linha 08 -
+                Diamante</a>
+            <div class="card" id="linha08-info">Informações sobre a Operação - Carregando...</div>
+        </li>
+    </ul>
+</div>
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
 TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
 de https://github.com/Rafabs/SP-4-u/blob/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_08.PNG
