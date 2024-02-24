@@ -5356,3 +5356,76 @@
 2024-02-23 16:30:24,725 - INFO - 8     Politica & Murupi - O Brasil a caminho do caos  https://www.gentedeopiniao.com.br/leo-ladeia/p...     á 2 horas              Gente de Opinião       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-23 16:30:24,725 - INFO - 9  Lollapalooza Brasil 2024: Mapa do evento e ins...  https://hashtagpop.com.br/noticias/lollapalooz...     á 2 horas                   Hashtag Pop       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-23 16:31:04,293 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-02-23 22:29:52,288 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-23 22:29:52,288 - INFO - 23/02/2024 | 22:29:52
+2024-02-23 22:29:52,288 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-23 22:29:52,288 - INFO - nt
+2024-02-23 22:29:52,312 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-23 22:29:52,312 - INFO - Windows
+2024-02-23 22:29:52,312 - INFO - <<<Diretório Atual>>>
+2024-02-23 22:29:52,312 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-23 22:29:52,316 - INFO - <<<Usuário Atual>>>
+2024-02-23 22:29:52,316 - INFO - Rafael Barbosa
+2024-02-23 22:29:52,316 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-23 22:29:52,316 - INFO - 10.0.22631
+2024-02-23 22:29:52,316 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-23 22:29:52,316 - INFO - AMD64
+2024-02-23 22:29:52,316 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-23 22:29:52,316 - INFO - ('64bit', 'WindowsPE')
+2024-02-23 22:29:52,316 - INFO - <<<Versão do Python>>>
+2024-02-23 22:29:52,316 - INFO - 3.11.4
+2024-02-23 22:29:52,316 - INFO - <<<Distribuição do Python>>>
+2024-02-23 22:29:52,316 - INFO - 10.0.22631
+2024-02-23 22:29:52,316 - INFO - <<<Informações sobre o Processador>>>
+2024-02-23 22:29:52,316 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-23 22:29:52,316 - INFO - <<<Diretório Temporário>>>
+2024-02-23 22:29:52,316 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-23 22:29:52,316 - INFO - <<<Diretório do Usuário>>>
+2024-02-23 22:29:52,316 - INFO - C:\Users\Rafael Barbosa
+2024-02-23 22:29:52,316 - INFO - ====================================================================================
+2024-02-23 22:29:52,731 - INFO - [1m[37mPrograma Iniciado às [31m22:29:52[0m
+2024-02-23 22:29:52,847 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-23 22:29:52,847 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-23 22:30:04,863 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-23 22:30:04,863 - INFO - 23/02/2024 | 22:30:04
+2024-02-23 22:30:04,863 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-23 22:30:04,863 - INFO - nt
+2024-02-23 22:30:04,883 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-23 22:30:04,887 - INFO - Windows
+2024-02-23 22:30:04,887 - INFO - <<<Diretório Atual>>>
+2024-02-23 22:30:04,887 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-23 22:30:04,887 - INFO - <<<Usuário Atual>>>
+2024-02-23 22:30:04,887 - INFO - Rafael Barbosa
+2024-02-23 22:30:04,887 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-23 22:30:04,887 - INFO - 10.0.22631
+2024-02-23 22:30:04,887 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-23 22:30:04,887 - INFO - AMD64
+2024-02-23 22:30:04,887 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-23 22:30:04,887 - INFO - ('64bit', 'WindowsPE')
+2024-02-23 22:30:04,887 - INFO - <<<Versão do Python>>>
+2024-02-23 22:30:04,887 - INFO - 3.11.4
+2024-02-23 22:30:04,887 - INFO - <<<Distribuição do Python>>>
+2024-02-23 22:30:04,887 - INFO - 10.0.22631
+2024-02-23 22:30:04,887 - INFO - <<<Informações sobre o Processador>>>
+2024-02-23 22:30:04,887 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-23 22:30:04,887 - INFO - <<<Diretório Temporário>>>
+2024-02-23 22:30:04,887 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-23 22:30:04,887 - INFO - <<<Diretório do Usuário>>>
+2024-02-23 22:30:04,887 - INFO - C:\Users\Rafael Barbosa
+2024-02-23 22:30:04,887 - INFO - ====================================================================================
+2024-02-23 22:30:04,955 - INFO - [1m[37mPrograma Iniciado às [31m22:30:04[0m
+2024-02-23 22:30:05,040 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-23 22:30:05,040 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-23 22:30:16,009 - INFO - Nenhuma ocorrência no momento.
+2024-02-23 22:30:17,270 - INFO -                                                title                                               link          date desc                  media  datetime                                                img
+2024-02-23 22:30:17,270 - INFO - 0  friv futebol - Bacará ao vivo online: Experime...  https://www.portalp2.com/app/592007.html&ved=2...  á 55 minutos                   Portal P2       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 1  Procon-SP cobra do Uber explicação sobre tarif...  https://oantagonista.com.br/brasil/procon-sp-c...      á 1 hora               O Antagonista       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 2  como jogar slot mestre - Avaliações e comparaç...  https://www.portalp2.com/app/402059.html&ved=2...      á 1 hora                   Portal P2       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 3  Terminal Intermodal do Rio começa a operar nes...  https://www.mixvale.com.br/2024/02/23/terminal...     á 2 horas                    Mix Vale       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 4  DE NOVO: Após polêmica, Lula volta a dizer que...  https://terrabrasilnoticias.com/2024/02/de-nov...     á 2 horas       Terra Brasil Notícias       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 5  Trecho da Sapopemba será liberado após obras d...  https://www.gazetasp.com.br/estado/vias-interd...     á 2 horas         Gazeta de São Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 6  Motoristas da Uber vão virar funcionários? STF...  https://www.seudinheiro.com/2024/economia/moto...     á 3 horas                Seu Dinheiro       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 7  Procon-SP notifica Uber para explicar tarifa d...  https://www1.folha.uol.com.br/mercado/2024/02/...     á 3 horas            Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 8  Ônibus do transporte público de Gravataí (RS) ...  https://diariodotransporte.com.br/2024/02/23/o...     á 3 horas        Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:17,270 - INFO - 9  Vídeo: mulher é presa após jogar querosene e t...  https://www.itatiaia.com.br/brasil/2024/02/23/...     á 3 horas              Rádio Itatiaia       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-23 22:30:59,868 - INFO - PROGRAMA FECHADO:#^
