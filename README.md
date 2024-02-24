@@ -146,9 +146,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## Diagrama da versão atual v1.0.6
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
-## To Do
-- [ ] Inserir mensagens de falhas das linhas
+## To Do 
 - [ ] Verificar possibilidade de inserir log no index.html
+- [ ] Comentar todos os códigos
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.7```.
 - [ ] Atualizar o diagrama v1.0.7 
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
@@ -160,7 +160,10 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
 - [ ] Confirmar se o server.js atualiza periodicamente
 - [ ] Atualizar o diagrama v1.0.9
+- [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
+- [ ] Inserir informações sobre as empresas que operam as linhas em index.html
 - [x] Inserir status linha nas outras pages do index.html
+- [x] Inserir mensagens de falhas das linhas.
 
 ## Contribuição
 

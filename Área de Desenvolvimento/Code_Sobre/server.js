@@ -64,8 +64,12 @@ function getLineStatus(lineNumber, res) {
     axios.get('https://www.viamobilidade.com.br')
         .then(response => {
             const dom = new JSDOM(response.data);
-            const status = dom.window.document.querySelector(`.line-${lineNumber} .status`).textContent;
-            res.json({ linha: lineNumber, status: status });
+            const statusElement = dom.window.document.querySelector(`.line-${lineNumber} .status`);
+            const status = statusElement.textContent;
+            const msgElement = dom.window.document.querySelector(`.line-${lineNumber} .msg p`);
+            const msg = msgElement ? msgElement.textContent : ''; // Extrai a mensagem, se existir
+            res.json({ linha: lineNumber, status: status, msg: msg });
+            
         })
         .catch(err => res.status(500).json({ error: err.toString() }));
 }

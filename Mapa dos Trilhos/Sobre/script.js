@@ -22,9 +22,15 @@ fetch('http://localhost:3000/linha1-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
     .catch(err => console.log(err));
-
+     
 fetch('http://localhost:3000/linha2-status')
     .then(response => response.json())
     .then(data => {
@@ -49,8 +55,14 @@ fetch('http://localhost:3000/linha2-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));        
+    .catch(err => console.log(err));
 
 fetch('http://localhost:3000/linha3-status')
     .then(response => response.json())
@@ -76,10 +88,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
-    })
-    .catch(err => console.log(err));        
 
-    fetch('http://localhost:3000/linha4-status')
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
+    })
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha4-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha04-info');
@@ -102,9 +120,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha5-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha5-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha05-info');
@@ -127,9 +152,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha7-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha7-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha07-info');
@@ -152,9 +184,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha8-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha8-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha08-info');
@@ -177,9 +216,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha9-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha9-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha09-info');
@@ -202,9 +248,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha10-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha10-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha10-info');
@@ -227,9 +280,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha11-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha11-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha11-info');
@@ -252,9 +312,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha12-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha12-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha12-info');
@@ -277,9 +344,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha13-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha13-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha13-info');
@@ -302,9 +376,16 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
-    fetch('http://localhost:3000/linha15-status')
+    .catch(err => console.log(err));
+
+fetch('http://localhost:3000/linha15-status')
     .then(response => response.json())
     .then(data => {
         let card = document.getElementById('linha15-info');
@@ -327,5 +408,11 @@ fetch('http://localhost:3000/linha3-status')
                 card.classList.add('vermelho_paralisada');
                 break;
         }
+
+        // Adicionar evento de mouseover para exibir a mensagem
+        card.addEventListener('mouseover', () => {
+            card.setAttribute('title', data.msg); // Exibe a mensagem como um tooltip ao passar o mouse sobre a linha
+        });
+
     })
-    .catch(err => console.log(err));       
+    .catch(err => console.log(err));  
