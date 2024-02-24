@@ -149,21 +149,21 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## To Do 
 - [ ] Verificar possibilidade de inserir log no index.html
 - [ ] Comentar todos os códigos
+- [ ] Inserir informações sobre as empresas que operam as linhas em index.html 
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.7```.
-- [ ] Atualizar o diagrama v1.0.7 
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
+- [ ] Confirmar se o server.js atualiza periodicamente 
 - [ ] Atualizar para que index.html atualize periodicamente
 - [ ] Inserir pdf's em index.html
-- [ ] Inserir status da linha em cada arquivo de linhas .html
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
 - [ ] Atualizar o diagrama v1.0.8
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
-- [ ] Confirmar se o server.js atualiza periodicamente
 - [ ] Atualizar o diagrama v1.0.9
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
-- [ ] Inserir informações sobre as empresas que operam as linhas em index.html
+- [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [x] Inserir status linha nas outras pages do index.html
 - [x] Inserir mensagens de falhas das linhas.
+- [x] Inserir status da linha em cada arquivo de linhas .html
 
 ## Contribuição
 
