@@ -147,9 +147,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
 ## To Do
-- [ ] Introduzir no projeto o framework DJANGO/FASK ```v1.0.7```.
-- [ ] Atualizar o diagrama v1.0.7
-- [ ] Atualizar Readme.md e index.html e explicar que existem 2 projetos (py e web)
 - [ ] Verificar e inserir licença git
 - [ ] Inserir status linha nas outras pages do index.html
 - [ ] Inserir mensagens de falhas das linhas
@@ -212,3 +209,7 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 ### Versão ![Version](https://img.shields.io/badge/1.0.0-yellow.svg)
 
 - Descrição das linhas existentes ao lado em todos os mapas.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
