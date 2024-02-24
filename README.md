@@ -161,9 +161,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Atualizar o diagrama v1.0.9
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
-- [x] Inserir status linha nas outras pages do index.html
-- [x] Inserir mensagens de falhas das linhas.
-- [x] Inserir status da linha em cada arquivo de linhas .html
 
 ## Contribuição
 
