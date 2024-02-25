@@ -183,7 +183,7 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
 
-- Incrementação das notícias na página principal do Projeto Python e do Projeto Web.
+- Incrementação das notícias na página principal do Projeto Python e do Projeto Web, além de informação de status das linhas na versão web.
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
 
