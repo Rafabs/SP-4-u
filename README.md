@@ -33,6 +33,7 @@ Cada arquivo `.json` e `.geojson` na pasta `Mapa dos Trilhos/Data` corresponde a
 
 Cada arquivo `.png` na pasta `Mapa dos Trilhos/Icons` foram extraídos do [Flaticon](https://www.flaticon.com/), exceto os logotipos, que foram extraídos dos sites oficiais.
 
+Os arquivos de Fontes usados no CSS3 foram extraídos do GitHub do [Google](https://github.com/google/fonts/?tab=readme-ov-file)
 ## Bibliotecas Utilizadas
 
 Para executar os scripts, você precisará das seguintes bibliotecas Python:
@@ -148,7 +149,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] Verificar possibilidade de inserir log no index.html
-- [ ] Inserir informações sobre as empresas que operam as linhas em index.html 
 - [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.7```.
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
 - [ ] Confirmar se o server.js atualiza periodicamente 
@@ -161,7 +161,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Corrigir erros e alertas de main.py
+- [ ] Informar no status linha a última atualização do mesmo em index.html
 - [x] Comentar todos os códigos
+- [x] Inserir informações sobre as empresas que operam as linhas em index.html 
 
 ## Contribuição
 
