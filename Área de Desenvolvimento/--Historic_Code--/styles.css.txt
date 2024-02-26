@@ -1,3 +1,25 @@
+>> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/styles.css
+Inserir informações sobre as empresas que operam as linhas em index.html 
+
+de (Linha 409)
+Vazio
+
+para (Linha 409)
+.empresa {
+    position: relative;
+    padding: 1px 10px;
+    border-radius: 5px;
+    color: #a2a0a0; /* Cinza claro */
+    font-size: 16px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+    font-family: 'Arial Nova light', Arial, sans-serif; /* Use a Arial Nova, ou Arial, ou uma fonte sans-serif genérica como fallback */
+}
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 21:50 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 

@@ -1,3 +1,91 @@
+>> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+Inserir informações sobre as empresas que operam as linhas em index.html 
+
+de (Linha 95)
+Vazio
+
+para (Linha 95)
+                <div class="empresa">METRÔ</div>
+
+de (Linha 100)
+Vazio
+
+para (Linha 100)
+                <div class="empresa">METRÔ</div>
+
+de (Linha 105)
+Vazio
+
+para (Linha 105)
+                <div class="empresa">METRÔ</div>
+
+de (Linha 110)
+Vazio
+
+para (Linha 110)
+                <div class="empresa">VIAQUATRO</div>
+
+de (Linha 115)
+Vazio
+
+para (Linha 115)
+                <div class="empresa">VIAMOBILIDADE</div>
+
+de (Linha 120)
+Vazio
+
+para (Linha 120)
+                <div class="empresa">CPTM</div>
+
+de (Linha 125)
+Vazio
+
+para (Linha 125)
+                <div class="empresa">VIAMOBILIDADE</div>
+
+de (Linha 130)
+Vazio
+
+para (Linha 130)
+                <div class="empresa">VIAMOBILIDADE</div>
+
+de (Linha 135)
+Vazio
+
+para (Linha 135)
+                <div class="empresa">CPTM</div>
+
+de (Linha 140)
+Vazio
+
+para (Linha 140)
+                <div class="empresa">CPTM</div>
+
+de (Linha 145)
+Vazio
+
+para (Linha 145)
+                <div class="empresa">CPTM</div>
+
+de (Linha 150)
+Vazio
+
+para (Linha 150)
+                <div class="empresa">CPTM</div>
+
+de (Linha 155)
+Vazio
+
+para (Linha 155)
+
+                <div class="empresa">METRÔ</div>
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 21:50 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações de Operação no arquivo index.html  ```v1.0.6```.
 
@@ -8,10 +96,6 @@ para (Linha10)
     <script src="server.js"></script>
 
 (x) SOLUCIONADO
-( ) EM DESENVOLVIMENTO
-( ) NÃO DEU CERTO
----------------------------------------------------------------------------------------------------------------
-( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------

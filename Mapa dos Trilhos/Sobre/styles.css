@@ -406,7 +406,15 @@ ul {
     font-size: 12px; /* Tamanho da fonte */
     float: right; /* Alinha no lado direito */
 }
-
+.empresa {
+    position: relative;
+    padding: 1px 10px;
+    border-radius: 5px;
+    color: #a2a0a0; /* Cinza claro */
+    font-size: 16px; /* Tamanho da fonte */
+    float: right; /* Alinha no lado direito */
+    font-family: 'Arial Nova light', Arial, sans-serif; /* Use a Arial Nova, ou Arial, ou uma fonte sans-serif genérica como fallback */
+}
 hr {
     background-color: #363636; /* Cor de fundo da linha */
     height: 1px; /* Altura da linha */

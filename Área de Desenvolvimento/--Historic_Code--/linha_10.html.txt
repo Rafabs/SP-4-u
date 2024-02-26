@@ -1,4 +1,19 @@
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+>> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
+Inserir informações sobre as empresas que operam as linhas em index.html 
+
+de (Linha 21)
+Vazio
+
+para (Linha 21)
+            <div class="empresa">CPTM</div>
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
 Inserir status linha nas outras pages do index.html
 
 de (Linha 10)
@@ -31,7 +46,7 @@ para (Linha 15)
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+>> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
 TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
 de https://github.com/Rafabs/SP-4-u/blob/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_10.PNG
 para https://raw.githubusercontent.com/Rafabs/SP-4-u/1cfa0c3d64a3b0229961c6bb94983fbe4f0bbe87/Mapa%20dos%20Trilhos/Sobre/imgs/linha_10.PNG

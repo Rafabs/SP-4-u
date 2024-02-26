@@ -1,3 +1,18 @@
+>> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+Inserir informações sobre as empresas que operam as linhas em index.html 
+
+de (Linha 21)
+Vazio
+
+para (Linha 21)
+            <div class="empresa">METRÔ</div>
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
 Inserir status linha nas outras pages do index.html
 
