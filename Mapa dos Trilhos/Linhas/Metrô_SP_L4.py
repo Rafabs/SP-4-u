@@ -1,29 +1,29 @@
-import tkinter as tk  # Criação da Interface Gráfica
-from tkinter import *
-from PIL import Image, ImageTk  # Manipular imagens
-from colorama import Fore, Back, Style, init
-from datetime import datetime
+import tkinter as tk  # Importa a biblioteca Tkinter para criar a interface gráfica
+from tkinter import *  # Importa todas as classes e funções do módulo tkinter
+from PIL import Image, ImageTk  # Importa classes para manipular imagens
+from colorama import Fore, Back, Style, init  # Importa classes para cores de console
+from datetime import datetime  # Importa a classe datetime para trabalhar com datas e horas
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def line4():
-    # Imprime o texto formatado
+    # Imprime o texto formatado com informações sobre o início do mapa da Linha 4 - Amarela
     print(f"{Style.BRIGHT}{Fore.WHITE}Mapa da LINHA 4 - AMARELA iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")     
     # Criando a janela
     root = tk.Toplevel()
-    root.title("Linha 4 - Amarela")
-    # Define uma largura e altura específicas para a janela
-    root.geometry("1920x1080")
+    root.title("Linha 4 - Amarela") # Define o título da janela
+    root.geometry("1920x1080")  # Define as dimensões da janela
 
-    canvas = tk.Canvas(root, width=1920, height=1080)
-    canvas.pack()
+    # Define o ícone da janela
+    canvas = tk.Canvas(root, width=1920, height=1080)  # Cria um canvas na janela
+    canvas.pack()  # Empacota o canvas na janela
 
-    # Carrega a imagem usando o PIL
+    # Carrega uma imagem para o ícone da janela
     image = Image.open('Mapa dos Trilhos\\Favicon\\4_amarela.ico')
     photo = ImageTk.PhotoImage(image)
 
-    # Define o ícone
+    # Define o ícone da janela
     root.iconphoto(False, photo)
 
     # Carrega o logotipo do Metrô
@@ -32,10 +32,10 @@ def line4():
     viaquatro_logo = viaquatro_logo.resize((150, 40))
     viaquatro_logo_tk = ImageTk.PhotoImage(viaquatro_logo)
 
-    # Insere a imagem do logotipo do Metrô no canvas na posiçao x,y
-    canvas.create_image(40, 0, anchor="nw", image=viaquatro_logo_tk)
+     # Insere a imagem do logotipo no canvas
+    canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
 
-    # Código das cores do mapa (em ordem numérica)
+    # Definição das cores usadas no mapa
     azul = "#0455A1"
     verde = "#007E5E"
     vermelha = "#EE372F"
@@ -50,11 +50,12 @@ def line4():
     jade = "#00B352"
     prata = "#C0C0C0"
 
-    # Código das cores de background
+    # Cores de background
     preto = "#000000"
     branco = "#FFFFFF"
 
-    # Define as coordenadas para cada estação
+    # Definição das coordenadas para cada estação no canvas
+    # Aqui estão definidas as posições x e y de todas as estações no mapa
     x1, y1 = 760, 750
     x2, y2 = 810, 750
     x3, y3 = 860, 750
@@ -67,7 +68,7 @@ def line4():
     x10, y10 = 1210, 750
     x11, y11 = 1260, 750
 
-    # Desenha as estações
+    # Desenha as estações no canvas
     estacao_LUZ = canvas.create_text(
         x1-5, y1+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
     estacao_REP = canvas.create_text(
@@ -132,7 +133,7 @@ def line4():
     l9_icon = canvas.create_text(
         x8+6, y8+42, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
 
-    # Desenha a linha conectando as estações
+    # Desenha a linha que conecta as estações
     linha = canvas.create_line(
         x1-10, y1+12, x11+25, y11+12, fill=amarela, width=30)
 
@@ -157,7 +158,7 @@ def line4():
     canvas.lift(l11_icon)
     canvas.lift(l13_icon)
 
-    # Define as Estações
+    # Define os nomes das estações
     LUZ = canvas.create_text(x1+8, y1-13, text="Luz",
                              font="Helvetica 12", anchor="w", angle=60)
     REP = canvas.create_text(x2+8, y2-13, text="República",
@@ -181,12 +182,14 @@ def line4():
     VSN = canvas.create_text(x11+8, y11-13, text="Vila Sônia - Profª Elisabeth Terneiro",
                              font="Helvetica 12", anchor="w", angle=60)
 
+    # Cria um texto na parte inferior da tela indicando a autoria e data de desenvolvimento
     dev = canvas.create_text(
         960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 10/03/2023 | Revisado em 24/01/2024", font="Helvetica 12", anchor="c")
-
+    
+    # Loop principal para atualizar a janela
     while True:
         root.update()
         try:
             root.update()
         except TclError:
-            break
+            break # Sai do loop caso ocorra um erro

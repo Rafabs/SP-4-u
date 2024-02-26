@@ -5429,3 +5429,298 @@
 2024-02-23 22:30:17,270 - INFO - 8  Ônibus do transporte público de Gravataí (RS) ...  https://diariodotransporte.com.br/2024/02/23/o...     á 3 horas        Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-23 22:30:17,270 - INFO - 9  Vídeo: mulher é presa após jogar querosene e t...  https://www.itatiaia.com.br/brasil/2024/02/23/...     á 3 horas              Rádio Itatiaia       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
 2024-02-23 22:30:59,868 - INFO - PROGRAMA FECHADO:#^
+2024-02-25 20:44:11,622 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-25 20:44:11,622 - INFO - 25/02/2024 | 20:44:11
+2024-02-25 20:44:11,622 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-25 20:44:11,622 - INFO - nt
+2024-02-25 20:44:11,655 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-25 20:44:11,655 - INFO - Windows
+2024-02-25 20:44:11,655 - INFO - <<<Diretório Atual>>>
+2024-02-25 20:44:11,655 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-25 20:44:11,659 - INFO - <<<Usuário Atual>>>
+2024-02-25 20:44:11,659 - INFO - Rafael Barbosa
+2024-02-25 20:44:11,659 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-25 20:44:11,659 - INFO - 10.0.22631
+2024-02-25 20:44:11,659 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-25 20:44:11,659 - INFO - AMD64
+2024-02-25 20:44:11,659 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-25 20:44:11,659 - INFO - ('64bit', 'WindowsPE')
+2024-02-25 20:44:11,659 - INFO - <<<Versão do Python>>>
+2024-02-25 20:44:11,659 - INFO - 3.11.4
+2024-02-25 20:44:11,659 - INFO - <<<Distribuição do Python>>>
+2024-02-25 20:44:11,659 - INFO - 10.0.22631
+2024-02-25 20:44:11,659 - INFO - <<<Informações sobre o Processador>>>
+2024-02-25 20:44:11,659 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-25 20:44:11,659 - INFO - <<<Diretório Temporário>>>
+2024-02-25 20:44:11,659 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-25 20:44:11,659 - INFO - <<<Diretório do Usuário>>>
+2024-02-25 20:44:11,659 - INFO - C:\Users\Rafael Barbosa
+2024-02-25 20:44:11,659 - INFO - ====================================================================================
+2024-02-25 20:44:11,735 - INFO - [1m[37mPrograma Iniciado às [31m20:44:11[0m
+2024-02-25 20:44:11,868 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-25 20:44:11,868 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-25 20:44:29,076 - INFO - Nenhuma ocorrência no momento.
+2024-02-25 20:44:29,791 - INFO -                                                title                                               link       date desc                              media  datetime                                                img
+2024-02-25 20:44:29,791 - INFO - 0  Bolsonaro participa de ato na Paulista e exibe...  https://folhadoleste.com.br/bolsonaro-particip...  á 3 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 1  Com conclusão do BRT, imóveis terão salto de v...  https://www.rdnews.com.br/economia/com-conclus...  á 3 horas       RDNEWS - Portal de notícias de MT       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 2  Polícia identifica suspeitos pela morte de PM ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 3 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 3  Justiça manda Prefeitura de SP liberar 4 integ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 4  TJSP determina que Vale-Transporte volte a per...  https://www.cnnbrasil.com.br/nacional/tjsp-det...  á 5 horas                              CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 5  Flávio Bolsonaro: Equipe organizadora detecta ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 6 horas                           Gazeta Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 6  Projeto leva livro sobre crianças da Amazônia ...  https://folhadoleste.com.br/projeto-leva-livro...  á 6 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 7  VÍDEO: A duas horas de ato pró-Bolsonaro, metr...  https://www.grandeponto.com.br/noticia/video-a...  á 6 horas                            Grande Ponto       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 8  Decisão judicial obriga Prefeitura de São Paul...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 6 horas                           Gazeta Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:29,791 - INFO - 9  Manutenção Programada provoca alterações nas L...  https://diariodotransporte.com.br/2024/02/25/m...  á 7 horas                    Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:44:35,303 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m20:44:11[0m
+2024-02-25 20:44:35,323 - INFO - Exception in Tkinter callback
+2024-02-25 20:44:35,327 - INFO - Traceback (most recent call last):
+2024-02-25 20:44:35,327 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-25 20:44:35,327 - INFO -     return self.func(*args)
+2024-02-25 20:44:35,327 - INFO -            ^^^^^^^^^^^^^^^^
+2024-02-25 20:44:35,327 - INFO -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u\Mapa dos Trilhos\Linhas\Metrô_SP_L4.py", line 36, in line4
+2024-02-25 20:44:35,327 - INFO -     canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+2024-02-25 20:44:35,327 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2846, in create_image
+2024-02-25 20:44:35,327 - INFO -     return self._create('image', args, kw)
+2024-02-25 20:44:35,327 - INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-02-25 20:44:35,327 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2832, in _create
+2024-02-25 20:44:35,330 - INFO -     return self.tk.getint(self.tk.call(
+2024-02-25 20:44:35,330 - INFO -                           ^^^^^^^^^^^^^
+2024-02-25 20:44:35,330 - INFO - _tkinter.TclError: image "<PIL.Image.Image image mode=RGB size=150x40 at 0x28CC662CA90>" doesn't exist
+2024-02-25 20:44:42,107 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m20:44:11[0m
+2024-02-25 20:44:45,016 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m20:44:11[0m
+2024-02-25 20:44:47,421 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m20:44:11[0m
+2024-02-25 20:44:47,443 - INFO - Exception in Tkinter callback
+2024-02-25 20:44:47,443 - INFO - Traceback (most recent call last):
+2024-02-25 20:44:47,443 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-25 20:44:47,443 - INFO -     return self.func(*args)
+2024-02-25 20:44:47,443 - INFO -            ^^^^^^^^^^^^^^^^
+2024-02-25 20:44:47,443 - INFO -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u\Mapa dos Trilhos\Linhas\Metrô_SP_L4.py", line 36, in line4
+2024-02-25 20:44:47,443 - INFO -     canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+2024-02-25 20:44:47,443 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2846, in create_image
+2024-02-25 20:44:47,443 - INFO -     return self._create('image', args, kw)
+2024-02-25 20:44:47,443 - INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-02-25 20:44:47,443 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2832, in _create
+2024-02-25 20:44:47,443 - INFO -     return self.tk.getint(self.tk.call(
+2024-02-25 20:44:47,443 - INFO -                           ^^^^^^^^^^^^^
+2024-02-25 20:44:47,443 - INFO - _tkinter.TclError: image "<PIL.Image.Image image mode=RGB size=150x40 at 0x28CC6B2A7D0>" doesn't exist
+2024-02-25 20:44:52,407 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m20:44:11[0m
+2024-02-25 20:46:55,010 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-25 20:46:55,012 - INFO - 25/02/2024 | 20:46:55
+2024-02-25 20:46:55,012 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-25 20:46:55,012 - INFO - nt
+2024-02-25 20:46:55,054 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-25 20:46:55,054 - INFO - Windows
+2024-02-25 20:46:55,054 - INFO - <<<Diretório Atual>>>
+2024-02-25 20:46:55,054 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-25 20:46:55,058 - INFO - <<<Usuário Atual>>>
+2024-02-25 20:46:55,058 - INFO - Rafael Barbosa
+2024-02-25 20:46:55,058 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-25 20:46:55,058 - INFO - 10.0.22631
+2024-02-25 20:46:55,058 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-25 20:46:55,058 - INFO - AMD64
+2024-02-25 20:46:55,060 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-25 20:46:55,060 - INFO - ('64bit', 'WindowsPE')
+2024-02-25 20:46:55,060 - INFO - <<<Versão do Python>>>
+2024-02-25 20:46:55,060 - INFO - 3.11.4
+2024-02-25 20:46:55,060 - INFO - <<<Distribuição do Python>>>
+2024-02-25 20:46:55,060 - INFO - 10.0.22631
+2024-02-25 20:46:55,060 - INFO - <<<Informações sobre o Processador>>>
+2024-02-25 20:46:55,060 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-25 20:46:55,062 - INFO - <<<Diretório Temporário>>>
+2024-02-25 20:46:55,062 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-25 20:46:55,062 - INFO - <<<Diretório do Usuário>>>
+2024-02-25 20:46:55,062 - INFO - C:\Users\Rafael Barbosa
+2024-02-25 20:46:55,062 - INFO - ====================================================================================
+2024-02-25 20:46:55,142 - INFO - [1m[37mPrograma Iniciado às [31m20:46:55[0m
+2024-02-25 20:46:55,260 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-25 20:46:55,264 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-25 20:47:07,653 - INFO - Nenhuma ocorrência no momento.
+2024-02-25 20:47:08,339 - INFO -                                                title                                               link       date desc                              media  datetime                                                img
+2024-02-25 20:47:08,339 - INFO - 0  Procon-SP cobra do Uber explicação sobre tarif...  https://oantagonista.com.br/brasil/procon-sp-c...  á 2 horas                           O Antagonista       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 1  Campinas (SP) tem alteração no itinerário na l...  https://diariodotransporte.com.br/2024/02/25/c...  á 3 horas                    Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 2  Bolsonaro participa de ato na Paulista e exibe...  https://folhadoleste.com.br/bolsonaro-particip...  á 3 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 3  Com conclusão do BRT, imóveis terão salto de v...  https://www.rdnews.com.br/economia/com-conclus...  á 4 horas       RDNEWS - Portal de notícias de MT       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 4  Polícia identifica suspeitos pela morte de PM ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 5  Justiça manda Prefeitura de SP liberar 4 integ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 6  TJSP determina que Vale-Transporte volte a per...  https://www.cnnbrasil.com.br/nacional/tjsp-det...  á 6 horas                              CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 7  Flávio Bolsonaro: Equipe organizadora detecta ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 7 horas                           Gazeta Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 8  Projeto leva livro sobre crianças da Amazônia ...  https://folhadoleste.com.br/projeto-leva-livro...  á 7 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:08,339 - INFO - 9  VÍDEO: A duas horas de ato pró-Bolsonaro, metr...  https://www.grandeponto.com.br/noticia/video-a...  á 7 horas                            Grande Ponto       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:17,103 - INFO - [1m[37mMapa da LINHA PIRAPORA iniciado às [32m20:46:55[0m
+2024-02-25 20:47:20,175 - INFO - [1m[37mMapa da LINHA GUARAREMA iniciado às [32m20:46:55[0m
+2024-02-25 20:47:28,943 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-25 20:47:28,946 - INFO - 25/02/2024 | 20:47:28
+2024-02-25 20:47:28,946 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-25 20:47:28,946 - INFO - nt
+2024-02-25 20:47:28,989 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-25 20:47:28,989 - INFO - Windows
+2024-02-25 20:47:28,989 - INFO - <<<Diretório Atual>>>
+2024-02-25 20:47:28,989 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-25 20:47:28,989 - INFO - <<<Usuário Atual>>>
+2024-02-25 20:47:28,989 - INFO - Rafael Barbosa
+2024-02-25 20:47:28,989 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-25 20:47:28,989 - INFO - 10.0.22631
+2024-02-25 20:47:28,989 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-25 20:47:28,989 - INFO - AMD64
+2024-02-25 20:47:28,989 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-25 20:47:28,989 - INFO - ('64bit', 'WindowsPE')
+2024-02-25 20:47:28,989 - INFO - <<<Versão do Python>>>
+2024-02-25 20:47:28,989 - INFO - 3.11.4
+2024-02-25 20:47:28,989 - INFO - <<<Distribuição do Python>>>
+2024-02-25 20:47:28,989 - INFO - 10.0.22631
+2024-02-25 20:47:28,989 - INFO - <<<Informações sobre o Processador>>>
+2024-02-25 20:47:28,989 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-25 20:47:28,989 - INFO - <<<Diretório Temporário>>>
+2024-02-25 20:47:28,989 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-25 20:47:28,989 - INFO - <<<Diretório do Usuário>>>
+2024-02-25 20:47:28,989 - INFO - C:\Users\Rafael Barbosa
+2024-02-25 20:47:28,989 - INFO - ====================================================================================
+2024-02-25 20:47:29,058 - INFO - [1m[37mPrograma Iniciado às [31m20:47:29[0m
+2024-02-25 20:47:29,130 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-25 20:47:29,130 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-25 20:47:40,554 - INFO - Nenhuma ocorrência no momento.
+2024-02-25 20:47:41,218 - INFO -                                                title                                               link       date desc                              media  datetime                                                img
+2024-02-25 20:47:41,218 - INFO - 0  Procon-SP cobra do Uber explicação sobre tarif...  https://oantagonista.com.br/brasil/procon-sp-c...   á 1 hora                           O Antagonista       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 1  Bolsonaro participa de ato na Paulista e exibe...  https://folhadoleste.com.br/bolsonaro-particip...  á 3 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 2  Com conclusão do BRT, imóveis terão salto de v...  https://www.rdnews.com.br/economia/com-conclus...  á 3 horas       RDNEWS - Portal de notícias de MT       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 3  Polícia identifica suspeitos pela morte de PM ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 3 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 4  Justiça manda Prefeitura de SP liberar 4 integ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 5  Estação Trianon MASP da Linha 2-Verde é fechad...  https://diariodostrilhos.com/2024/02/25/estaca...  á 5 horas                      Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 6  TJSP determina que Vale-Transporte volte a per...  https://www.cnnbrasil.com.br/nacional/tjsp-det...  á 5 horas                              CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 7  Flávio Bolsonaro: Equipe organizadora detecta ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 6 horas                           Gazeta Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 8  Projeto leva livro sobre crianças da Amazônia ...  https://folhadoleste.com.br/projeto-leva-livro...  á 6 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:41,218 - INFO - 9  VÍDEO: A duas horas de ato pró-Bolsonaro, metr...  https://www.grandeponto.com.br/noticia/video-a...  á 6 horas                            Grande Ponto       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:47:46,274 - INFO - [1m[37mMapa da LINHA 13 - JADE iniciado às [32m20:47:28[0m
+2024-02-25 20:47:48,920 - INFO - [1m[37mMapa da LINHA 12 - SAFIRA iniciado às [32m20:47:28[0m
+2024-02-25 20:47:53,324 - INFO - [1m[37mMapa da LINHA 11 - CORAL iniciado às [32m20:47:28[0m
+2024-02-25 20:47:56,242 - INFO - [1m[37mMapa da LINHA 10 - TURQUESA iniciado às [32m20:47:28[0m
+2024-02-25 20:47:58,899 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m20:47:28[0m
+2024-02-25 20:48:01,130 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m20:47:28[0m
+2024-02-25 20:48:03,574 - INFO - [1m[37mMapa da LINHA 8 - DIAMANTE iniciado às [32m20:47:28[0m
+2024-02-25 20:48:05,796 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m20:47:28[0m
+2024-02-25 20:48:08,198 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m20:47:28[0m
+2024-02-25 20:48:09,677 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m20:47:28[0m
+2024-02-25 20:48:12,105 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m20:47:28[0m
+2024-02-25 20:48:12,126 - INFO - Exception in Tkinter callback
+2024-02-25 20:48:12,130 - INFO - Traceback (most recent call last):
+2024-02-25 20:48:12,130 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-25 20:48:12,130 - INFO -     return self.func(*args)
+2024-02-25 20:48:12,130 - INFO -            ^^^^^^^^^^^^^^^^
+2024-02-25 20:48:12,130 - INFO -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u\Mapa dos Trilhos\Linhas\Metrô_SP_L4.py", line 36, in line4
+2024-02-25 20:48:12,130 - INFO -     canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+2024-02-25 20:48:12,130 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2846, in create_image
+2024-02-25 20:48:12,130 - INFO -     return self._create('image', args, kw)
+2024-02-25 20:48:12,130 - INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-02-25 20:48:12,134 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2832, in _create
+2024-02-25 20:48:12,134 - INFO -     return self.tk.getint(self.tk.call(
+2024-02-25 20:48:12,134 - INFO -                           ^^^^^^^^^^^^^
+2024-02-25 20:48:12,134 - INFO - _tkinter.TclError: image "<PIL.Image.Image image mode=RGB size=150x40 at 0x140074B9E10>" doesn't exist
+2024-02-25 20:48:14,637 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m20:47:28[0m
+2024-02-25 20:48:16,702 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m20:47:28[0m
+2024-02-25 20:49:15,710 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-25 20:49:15,711 - INFO - 25/02/2024 | 20:49:15
+2024-02-25 20:49:15,711 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-25 20:49:15,711 - INFO - nt
+2024-02-25 20:49:15,735 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-25 20:49:15,735 - INFO - Windows
+2024-02-25 20:49:15,735 - INFO - <<<Diretório Atual>>>
+2024-02-25 20:49:15,735 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-25 20:49:15,739 - INFO - <<<Usuário Atual>>>
+2024-02-25 20:49:15,739 - INFO - Rafael Barbosa
+2024-02-25 20:49:15,739 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-25 20:49:15,739 - INFO - 10.0.22631
+2024-02-25 20:49:15,739 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-25 20:49:15,739 - INFO - AMD64
+2024-02-25 20:49:15,739 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-25 20:49:15,739 - INFO - ('64bit', 'WindowsPE')
+2024-02-25 20:49:15,739 - INFO - <<<Versão do Python>>>
+2024-02-25 20:49:15,739 - INFO - 3.11.4
+2024-02-25 20:49:15,742 - INFO - <<<Distribuição do Python>>>
+2024-02-25 20:49:15,742 - INFO - 10.0.22631
+2024-02-25 20:49:15,742 - INFO - <<<Informações sobre o Processador>>>
+2024-02-25 20:49:15,742 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-25 20:49:15,743 - INFO - <<<Diretório Temporário>>>
+2024-02-25 20:49:15,743 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-25 20:49:15,743 - INFO - <<<Diretório do Usuário>>>
+2024-02-25 20:49:15,743 - INFO - C:\Users\Rafael Barbosa
+2024-02-25 20:49:15,743 - INFO - ====================================================================================
+2024-02-25 20:49:15,813 - INFO - [1m[37mPrograma Iniciado às [31m20:49:15[0m
+2024-02-25 20:49:15,888 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-25 20:49:15,888 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-25 20:49:28,223 - INFO - Nenhuma ocorrência no momento.
+2024-02-25 20:49:29,119 - INFO -                                                title                                               link       date desc                              media  datetime                                                img
+2024-02-25 20:49:29,119 - INFO - 0  Procon-SP cobra do Uber explicação sobre tarif...  https://oantagonista.com.br/brasil/procon-sp-c...   á 1 hora                           O Antagonista       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 1  Bolsonaro participa de ato na Paulista e exibe...  https://folhadoleste.com.br/bolsonaro-particip...  á 3 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 2  Com conclusão do BRT, imóveis terão salto de v...  https://www.rdnews.com.br/economia/com-conclus...  á 3 horas       RDNEWS - Portal de notícias de MT       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 3  Polícia identifica suspeitos pela morte de PM ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 3 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 4  Justiça manda Prefeitura de SP liberar 4 integ...  https://www1.folha.uol.com.br/cotidiano/2024/0...  á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 5  Estação Trianon MASP da Linha 2-Verde é fechad...  https://diariodostrilhos.com/2024/02/25/estaca...  á 5 horas                      Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 6  TJSP determina que Vale-Transporte volte a per...  https://www.cnnbrasil.com.br/nacional/tjsp-det...  á 5 horas                              CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 7  Flávio Bolsonaro: Equipe organizadora detecta ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 6 horas                           Gazeta Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 8  Projeto leva livro sobre crianças da Amazônia ...  https://folhadoleste.com.br/projeto-leva-livro...  á 6 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:29,119 - INFO - 9  VÍDEO: A duas horas de ato pró-Bolsonaro, metr...  https://www.grandeponto.com.br/noticia/video-a...  á 6 horas                            Grande Ponto       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 20:49:36,606 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m20:49:15[0m
+2024-02-25 20:49:36,626 - INFO - Exception in Tkinter callback
+2024-02-25 20:49:36,630 - INFO - Traceback (most recent call last):
+2024-02-25 20:49:36,630 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-02-25 20:49:36,630 - INFO -     return self.func(*args)
+2024-02-25 20:49:36,630 - INFO -            ^^^^^^^^^^^^^^^^
+2024-02-25 20:49:36,630 - INFO -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u\Mapa dos Trilhos\Linhas\Metrô_SP_L4.py", line 36, in line4
+2024-02-25 20:49:36,630 - INFO -     canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+2024-02-25 20:49:36,630 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2846, in create_image
+2024-02-25 20:49:36,630 - INFO -     return self._create('image', args, kw)
+2024-02-25 20:49:36,630 - INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-02-25 20:49:36,630 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2832, in _create
+2024-02-25 20:49:36,630 - INFO -     return self.tk.getint(self.tk.call(
+2024-02-25 20:49:36,630 - INFO -                           ^^^^^^^^^^^^^
+2024-02-25 20:49:36,630 - INFO - _tkinter.TclError: image "<PIL.Image.Image image mode=RGB size=150x40 at 0x1F8D54D62D0>" doesn't exist
+2024-02-25 20:49:39,499 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m20:49:15[0m
+2024-02-25 20:49:43,010 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m20:49:15[0m
+2024-02-25 21:41:25,648 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-02-25 21:41:25,648 - INFO - 25/02/2024 | 21:41:25
+2024-02-25 21:41:25,648 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-02-25 21:41:25,648 - INFO - nt
+2024-02-25 21:41:25,648 - INFO - <<<Informações sobre a Plataforma>>>
+2024-02-25 21:41:25,648 - INFO - Windows
+2024-02-25 21:41:25,649 - INFO - <<<Diretório Atual>>>
+2024-02-25 21:41:25,649 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-02-25 21:41:25,649 - INFO - <<<Usuário Atual>>>
+2024-02-25 21:41:25,649 - INFO - Rafael Barbosa
+2024-02-25 21:41:25,650 - INFO - <<<Versão do Sistema Operacional>>>
+2024-02-25 21:41:25,650 - INFO - 10.0.22631
+2024-02-25 21:41:25,650 - INFO - <<<Informações sobre a Máquina>>>
+2024-02-25 21:41:25,650 - INFO - AMD64
+2024-02-25 21:41:25,650 - INFO - <<<Arquitetura da Máquina>>>
+2024-02-25 21:41:25,650 - INFO - ('64bit', 'WindowsPE')
+2024-02-25 21:41:25,650 - INFO - <<<Versão do Python>>>
+2024-02-25 21:41:25,650 - INFO - 3.11.4
+2024-02-25 21:41:25,650 - INFO - <<<Distribuição do Python>>>
+2024-02-25 21:41:25,650 - INFO - 10.0.22631
+2024-02-25 21:41:25,651 - INFO - <<<Informações sobre o Processador>>>
+2024-02-25 21:41:25,651 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-02-25 21:41:25,651 - INFO - <<<Diretório Temporário>>>
+2024-02-25 21:41:25,652 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-02-25 21:41:25,652 - INFO - <<<Diretório do Usuário>>>
+2024-02-25 21:41:25,652 - INFO - C:\Users\Rafael Barbosa
+2024-02-25 21:41:25,652 - INFO - ====================================================================================
+2024-02-25 21:41:25,866 - INFO - [1m[37mPrograma Iniciado às [31m21:41:25[0m
+2024-02-25 21:41:25,949 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-02-25 21:41:25,950 - INFO -   warnings.warn("Image was not the expected size")
+2024-02-25 21:41:36,670 - INFO - Nenhuma ocorrência no momento.
+2024-02-25 21:41:37,439 - INFO -                                                title                                               link          date desc                              media  datetime                                                img
+2024-02-25 21:41:37,439 - INFO - 0  Boulos critica Nunes por comparecer ao ato de ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...  á 17 minutos                           Gazeta Brasil       NaN
+2024-02-25 21:41:37,439 - INFO - 1  Procon-SP cobra do Uber explicação sobre tarif...  https://oantagonista.com.br/brasil/procon-sp-c...     á 2 horas                           O Antagonista       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 2  Bolsonaro participa de ato na Paulista e exibe...  https://folhadoleste.com.br/bolsonaro-particip...     á 4 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 3  Com conclusão do BRT, imóveis terão salto de v...  https://www.rdnews.com.br/economia/com-conclus...     á 4 horas       RDNEWS - Portal de notícias de MT       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 4  Polícia identifica suspeitos pela morte de PM ...  https://www1.folha.uol.com.br/cotidiano/2024/0...     á 4 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 5  Justiça manda Prefeitura de SP liberar 4 integ...  https://www1.folha.uol.com.br/cotidiano/2024/0...     á 5 horas                        Folha de S.Paulo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 6  Estação Trianon MASP da Linha 2-Verde é fechad...  https://diariodostrilhos.com/2024/02/25/estaca...     á 6 horas                      Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 7  TJSP determina que Vale-Transporte volte a per...  https://www.cnnbrasil.com.br/nacional/tjsp-det...     á 6 horas                              CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 8  Ministros de Finanças do G20 se reúnem em São ...  https://folhadoleste.com.br/ministros-de-finan...     á 7 horas                          Folha do Leste       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-02-25 21:41:37,439 - INFO - 9  Flávio Bolsonaro: Equipe organizadora detecta ...  https://gazetabrasil.com.br/brasil/sao-paulo-b...     á 7 horas                           Gazeta Brasil       NaN
+2024-02-25 21:41:41,882 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m21:41:25[0m
+2024-02-25 21:41:43,383 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m21:41:25[0m
+2024-02-25 21:41:45,768 - INFO - [1m[37mGTFS da SPTRANS iniciado às [32m21:41:13[0m
+2024-02-25 21:41:53,125 - INFO - [1m[37mGTFS da EMTU iniciado às [32m21:41:13[0m
+2024-02-25 21:41:59,875 - INFO - [1m[37mMapa da Rede iniciado às [32m21:41:12[0m
+2024-02-25 21:42:05,292 - INFO - [1m[37mGuia do Metrô em PT/BR iniciado às [32m21:41:12[0m

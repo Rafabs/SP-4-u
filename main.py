@@ -1,41 +1,41 @@
-import sys
-import os
-import platform
-import tempfile
-import atexit
-import webbrowser
-import re
-sys.path.append('Mapa dos Trilhos')
-sys.path.append('Mapa dos Trilhos\\Linhas')
-from PIL import Image, ImageTk  # Manipular imagens
-from datetime import datetime
-from tkinter import ttk
-import tkinter as tk
-import logging
-from colorama import Fore, Back, Style, init
-from guias import *
-from cet import transito
-from temperatura import get_weather
-from gtfs_sptrans import sptrans
-from gtfs_emtu import emtu
-from mapa import mapa_global
-from web import status
-from noticia import notice_transp_sao_paulo
-from Metrô_SP_L1 import line1
-from Metrô_SP_L2 import line2
-from Metrô_SP_L3 import line3
-from Metrô_SP_L4 import line4
-from Metrô_SP_L5 import line5
-from CPTM_SP_L7 import line7
-from CPTM_SP_L8 import line8
-from CPTM_SP_L9 import line9
-from CPTM_SP_L10 import line10
-from CPTM_SP_L11 import line11
-from CPTM_SP_L12 import line12
-from CPTM_SP_L13 import line13
-from Metrô_SP_L15 import line15
-from Pirapora import pirapora
-from Guararema import guararema
+import sys  # Importa o módulo sys para acessar funcionalidades do sistema
+import os  # Importa o módulo os para interagir com o sistema operacional
+import platform  # Importa o módulo platform para obter informações sobre a plataforma
+import tempfile  # Importa o módulo tempfile para trabalhar com arquivos temporários
+import atexit  # Importa o módulo atexit para registrar funções a serem chamadas na saída do programa
+import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegador
+import re  # Importa o módulo re para realizar operações com expressões regulares
+sys.path.append('Mapa dos Trilhos')  # Adiciona o diretório 'Mapa dos Trilhos' ao caminho de busca de módulos
+sys.path.append('Mapa dos Trilhos\\Linhas')  # Adiciona o diretório 'Mapa dos Trilhos\Linhas' ao caminho de busca de módulos
+from PIL import Image, ImageTk  # Importa classes específicas do módulo PIL para manipular imagens
+from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
+from tkinter import ttk  # Importa classes específicas do módulo tkinter para criar interfaces gráficas
+import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráficas
+import logging  # Importa o módulo logging para registrar mensagens de log
+from colorama import Fore, Back, Style, init  # Importa classes específicas do módulo colorama para colorir o terminal
+from guias import *  # Importa todas as funções do módulo guias
+from cet import transito  # Importa a função transito do módulo cet
+from temperatura import get_weather  # Importa a função get_weather do módulo temperatura
+from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
+from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
+from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
+from web import status  # Importa a função status do módulo web
+from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
+from Metrô_SP_L1 import line1  # Importa a função line1 do módulo Metrô_SP_L1
+from Metrô_SP_L2 import line2  # Importa a função line2 do módulo Metrô_SP_L2
+from Metrô_SP_L3 import line3  # Importa a função line3 do módulo Metrô_SP_L3
+from Metrô_SP_L4 import line4  # Importa a função line4 do módulo Metrô_SP_L4
+from Metrô_SP_L5 import line5  # Importa a função line5 do módulo Metrô_SP_L5
+from CPTM_SP_L7 import line7  # Importa a função line7 do módulo CPTM_SP_L7
+from CPTM_SP_L8 import line8  # Importa a função line8 do módulo CPTM_SP_L8
+from CPTM_SP_L9 import line9  # Importa a função line9 do módulo CPTM_SP_L9
+from CPTM_SP_L10 import line10  # Importa a função line10 do módulo CPTM_SP_L10
+from CPTM_SP_L11 import line11  # Importa a função line11 do módulo CPTM_SP_L11
+from CPTM_SP_L12 import line12  # Importa a função line12 do módulo CPTM_SP_L12
+from CPTM_SP_L13 import line13  # Importa a função line13 do módulo CPTM_SP_L13
+from Metrô_SP_L15 import line15  # Importa a função line15 do módulo Metrô_SP_L15
+from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
+from Guararema import guararema  # Importa a função guararema do módulo Guararema
 
 # Inicializa o colorama
 init()

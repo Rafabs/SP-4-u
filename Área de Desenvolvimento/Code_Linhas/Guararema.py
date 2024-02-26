@@ -1,41 +1,41 @@
-import tkinter as tk  # Criação da Interface Gráfica
-from tkinter import *
-from PIL import Image, ImageTk  # Manipular imagens
-from colorama import Fore, Back, Style, init
-from datetime import datetime
+import tkinter as tk  # Importa a biblioteca Tkinter para criar a interface gráfica
+from tkinter import *  # Importa todas as classes e funções do módulo tkinter
+from PIL import Image, ImageTk  # Importa classes para manipular imagens
+from colorama import Fore, Back, Style, init  # Importa classes para cores de console
+from datetime import datetime  # Importa a classe datetime para trabalhar com datas e horas
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def guararema():
-    # Imprime o texto formatado
+    # Imprime o texto formatado com informações sobre o início do mapa da Linha GUARAREMA
     print(f"{Style.BRIGHT}{Fore.WHITE}Mapa da LINHA GUARAREMA iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")     
-    # Criando a janela
+    # Cria uma nova janela
     root = tk.Toplevel()
-    root.title("Trem de Guararema (ABPF)")
-    # Define uma largura e altura específicas para a janela
-    root.geometry("1920x1080")
+    root.title("Linha GUARAREMA")  # Define o título da janela
+    root.geometry("1920x1080")  # Define as dimensões da janela
 
-    canvas = tk.Canvas(root, width=1920, height=1080)
-    canvas.pack()
+    # Define o ícone da janela
+    canvas = tk.Canvas(root, width=1920, height=1080)  # Cria um canvas na janela
+    canvas.pack()  # Empacota o canvas na janela
 
-    # Carrega a imagem usando o PIL
+    # Carrega uma imagem para o ícone da janela
     image = Image.open('Mapa dos Trilhos\\Favicon\\ABPF_LOGO.ico')
     photo = ImageTk.PhotoImage(image)
 
-    # Define o ícone
+    # Define o ícone da janela
     root.iconphoto(False, photo)
 
-    # Carrega o logotipo do Metrô
+    # Carrega o logotipo da ABPF
     metro_logo = Image.open("Mapa dos Trilhos\\Imgs\\ABPF_LOGO.jpg")
-    # Redimensiona a imagem para ajustar ao tamanho do canvas
+    # Redimensiona a imagem do logotipo para caber no canvas
     metro_logo = metro_logo.resize((120, 50))
     metro_logo_tk = ImageTk.PhotoImage(metro_logo)
 
-    # Insere a imagem do logotipo do Metrô no canvas na posiçao x,y
+    # Insere a imagem do logotipo no canvas
     canvas.create_image(0, 0, anchor="nw", image=metro_logo_tk)
 
-    # Código das cores do mapa (em ordem numérica)
+    # Definição das cores usadas no mapa
     azul = "#0455A1"
     verde = "#007E5E"
     vermelha = "#EE372F"
@@ -50,21 +50,22 @@ def guararema():
     jade = "#00B352"
     prata = "#C0C0C0"
 
-    # Código das cores de background
+    # Cores de background
     preto = "#000000"
     branco = "#FFFFFF"
 
-    # Define as coordenadas para cada estação
+    # Definição das coordenadas para cada estação no canvas
+    # Aqui estão definidas as posições x e y de todas as estações no mapa
     x1, y1 = 960, 750
     x2, y2 = 1010, 750
 
-    # Desenha as estações
+    # Desenha as estações no canvas
     estacao_GUARAREMA = canvas.create_text(
         x1-5, y1+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
     estacao_LUIS_CARLOS = canvas.create_text(
         x2-5, y2+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
 
-    # Desenha a linha conectando as estações
+    # Desenha a linha que conecta as estações
     linha = canvas.create_line(
         x1-10, y1+12, x2+25, y2+12, fill='#f8e71c', width=30)
 
@@ -78,12 +79,14 @@ def guararema():
     nome_LUIS_CARLOS = canvas.create_text(x2+8, y2-13, text="Luis Carlos",
                                           font="Helvetica 12", anchor="w", angle=60)
 
+    # Cria um texto na parte inferior da tela indicando a autoria e data de desenvolvimento
     dev = canvas.create_text(
         960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 15/09/2023 | Revisado em 15/09/2023", font="Helvetica 12", anchor="c")
 
+      # Loop principal para atualizar a janela
     while True:
         root.update()
         try:
             root.update()
         except TclError:
-            break
+            break # Sai do loop caso ocorra um erro
