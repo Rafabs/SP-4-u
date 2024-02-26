@@ -1,3 +1,35 @@
+>> 02:13 26/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
+Verificar possibilidade de inserir log no index.html
+
+de (Linha 12)
+Vazio
+
+para (Linha 12)
+const logFileName = 'Área de Desenvolvimento\\server_logs.txt'; // Define o nome do arquivo de log
+
+// Função para adicionar logs ao arquivo
+function addToLog(logData) {
+    fs.appendFile(logFileName, logData + '\n', (err) => {
+        if (err) {
+            console.error('Erro ao adicionar ao log:', err);
+        }
+    });
+}
+
+de (Linha 92)
+Vazio
+
+para (Linha 92)
+            // Log das informações com data e hora
+            const logData = `${new Date().toISOString()} - Linha ${lineNumber}: Status - ${status}, Mensagem - ${msg}`;
+            console.log(logData); // Exibe no terminal
+            addToLog(logData); // Adiciona ao arquivo de log
+
+( ) SOLUCIONADO
+(x) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:23 24/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
 Inserir mensagens de falhas das linhas.
 

@@ -1,2 +1,6 @@
 ** Utilize a seguinte anotação para descrever as operações em andamento e ações subsequentes em cada arquivo **
 ---------------------------------------------------------------------------------------------------------------
+
+>> 02:13 26/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
+Verificar possibilidade de inserir log no index.html
+# O CÓDIGO ESTÁ EM DESENVOLVIMENTO, FALTA FINALIZAR E TESTAR...
