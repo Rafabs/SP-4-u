@@ -9,10 +9,12 @@ const app = express(); // Cria uma instância do Express
 
 app.use(cors()); // Utiliza o middleware cors para permitir solicitações de origens diferentes
 
-const logFileName = 'Área de Desenvolvimento\\server_logs.txt'; // Define o nome do arquivo de log
+const path = require('path'); // Importa o módulo path
+const logFileName = path.join(__dirname, 'server_logs.txt'); // Define o nome do arquivo de log
 
 // Função para adicionar logs ao arquivo
 function addToLog(logData) {
+    console.log("Caminho do arquivo de log:", logFileName);
     fs.appendFile(logFileName, logData + '\n', (err) => {
         if (err) {
             console.error('Erro ao adicionar ao log:', err);
@@ -90,7 +92,7 @@ function getLineStatus(lineNumber, res) {
             // Obtém o texto da mensagem (ou uma string vazia se não houver mensagem)
             const msg = msgElement ? msgElement.textContent : '';
             // Log das informações com data e hora
-            const logData = `${new Date().toISOString()} - Linha ${lineNumber}: Status - ${status}, Mensagem - ${msg}`;
+           // const logData = `${new Date().toLocaleString()} - Linha ${lineNumber}: Status - ${status}, Mensagem - ${msg}`;
             console.log(logData); // Exibe no terminal
             addToLog(logData); // Adiciona ao arquivo de log
             // Retorna os dados como um objeto JSON
@@ -104,5 +106,6 @@ function getLineStatus(lineNumber, res) {
             res.status(500).json({ error: err.toString() });
         });
 }
+
 // Define a porta na qual o servidor irá ouvir as requisições
 app.listen(3000, () => console.log('Servidor funcionando normalmente na porta \x1b[33m3000\x1b[0m\nPressione Ctrl + C para sair'));

@@ -21,7 +21,7 @@ Vazio
 
 para (Linha 92)
             // Log das informações com data e hora
-            const logData = `${new Date().toISOString()} - Linha ${lineNumber}: Status - ${status}, Mensagem - ${msg}`;
+            const logData = `${new Date().toLocaleString()} - Linha ${lineNumber}: Status - ${status}, Mensagem - ${msg}`;
             console.log(logData); // Exibe no terminal
             addToLog(logData); // Adiciona ao arquivo de log
 

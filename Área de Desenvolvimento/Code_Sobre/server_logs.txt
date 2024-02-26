@@ -1,0 +1,1178 @@
+2024-02-26T06:00:31.106Z - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+2024-02-26T06:04:50.801Z - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+2024-02-26T06:06:59.080Z - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:08:25 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:33 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:33 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:34 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:34 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:35 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:35 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:35 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:36 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:37 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:37 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:37 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:37 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:38 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:38 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:38 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:38 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:38 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:38 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:39 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:39 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:40 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:40 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:41 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:41 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:42 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:42 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:42 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:42 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:42 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:43 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:43 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:44 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:44 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:45 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:45 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:46 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:46 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:47 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:47 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:48 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:48 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:49 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:49 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:50 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:50 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:51 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:51 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:52 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:53 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:54 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:54 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:54 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:58 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:58 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:14:59 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:14:59 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:17:49 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:17:49 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:17:49 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:17:49 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:17:49 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:52 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:52 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:52 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:52 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:54 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:19:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:57 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:19:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:34 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:34 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:34 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:34 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:34 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 11: Status - Operação Encerrada, Mensagem - 
+Erro ao obter status da Linha 1: AxiosError: Request failed with status code 500
+26/02/2024, 03:20:35 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:35 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:35 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:36 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:36 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:37 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:37 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:20:38 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:20:38 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:01 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:01 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:01 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:01 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:21:03 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:21:02 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:22 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:23 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:23 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:24 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:24 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:25 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:25 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:51 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:51 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:51 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:51 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:51 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:51 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:52 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:52 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:52 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:52 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:52 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:53 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:53 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:53 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:53 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:53 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:54 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:54 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:55 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:55 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:56 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:56 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:57 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:57 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:58 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:58 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:58 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:24:58 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 13: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:24:58 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:25 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:25 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:25 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:25 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:25 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:25 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:25 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 15: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 11: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 12: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 10: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:26 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:26 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:25:27 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:25:27 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:00 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:00 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:00 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:00 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:00 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:00 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:00 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:00 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:00 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:01 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:01 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 9: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 2: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 4: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 5: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 3: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 1: Status - Operação Encerrada, Mensagem - Fora do Horário de Operação
+26/02/2024, 03:26:02 - Linha 8: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 7: Status - Operação Encerrada, Mensagem - 
+26/02/2024, 03:26:02 - Linha 8: Status - Operação Encerrada, Mensagem - 
