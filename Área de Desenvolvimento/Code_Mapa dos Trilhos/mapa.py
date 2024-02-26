@@ -1,17 +1,16 @@
-import webbrowser
-import folium
-import geopandas as gpd
-import json
-from folium.plugins import MarkerCluster, Draw, MousePosition
-from datetime import datetime
-import csv
-from pyproj import Transformer
-import os
-import requests
-from datetime import datetime, timedelta
-from colorama import Fore, Back, Style, init
-from datetime import datetime
-import certifi
+import webbrowser  # Importa o módulo webbrowser para abrir páginas da web
+import folium  # Importa o módulo folium para criar mapas interativos
+import geopandas as gpd  # Importa o módulo geopandas para trabalhar com dados geoespaciais
+import json  # Importa o módulo json para trabalhar com dados no formato JSON
+from folium.plugins import MarkerCluster, Draw, MousePosition  # Importa algumas funcionalidades específicas do folium
+from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
+import csv  # Importa o módulo csv para trabalhar com arquivos CSV (Comma Separated Values)
+from pyproj import Transformer  # Importa a classe Transformer do módulo pyproj para realizar transformações de coordenadas
+import os  # Importa o módulo os para interagir com o sistema operacional
+import requests  # Importa o módulo requests para fazer requisições HTTP
+from datetime import datetime, timedelta  # Importa novamente a classe datetime e a classe timedelta para manipulação de datas
+from colorama import Fore, Back, Style, init  # Importa algumas funcionalidades para manipulação de cores no terminal
+import certifi  # Importa o módulo certifi para lidar com certificados SSL
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")

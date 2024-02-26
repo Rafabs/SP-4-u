@@ -1,33 +1,44 @@
+# Importa o módulo csv para trabalhar com arquivos CSV
 import csv
+# Importa o módulo webbrowser para abrir páginas da web
 import webbrowser
+# Importa o módulo tkinter como tk para criar interfaces gráficas
 import tkinter as tk
+# Importa ttk do tkinter para estilos de widgets
 from tkinter import ttk, PhotoImage
+# Importa ScrolledText do tkinter para uma caixa de texto com rolagem
 from tkinter.scrolledtext import ScrolledText
+# Importa folium para criar mapas interativos
 import folium
+# Importa MarkerCluster de folium.plugins para agrupar marcadores em clusters
 from folium.plugins import MarkerCluster
+# Importa Image e ImageTk do PIL para manipulação de imagens
 from PIL import Image, ImageTk
+# Importa as cores do módulo colorama para colorir o texto no console
 from colorama import Fore, Back, Style, init
+# Importa datetime do módulo datetime para obter a hora atual
 from datetime import datetime
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def sptrans():
-    # Imprime o texto formatado
+    # Imprime o texto formatado indicando o início do processo
     print(f"{Style.BRIGHT}{Fore.WHITE}GTFS da SPTRANS iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")
 
-    # Criando a janela
+    # Criando a janela principal do aplicativo
     root = tk.Toplevel()
     root.title("Consulta de Rotas SPTrans")
     root.geometry("1920x1080")
 
-    # Carrega a imagem usando o PIL
+    # Carrega a imagem do ícone usando o PIL
     image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_sptrans.ico')
     photo = ImageTk.PhotoImage(image)
 
-    # Define o ícone
+    # Define o ícone da janela
     root.iconphoto(False, photo)
 
+    # Função para exibir as rotas da SPTrans
     def exibir_rotas():
         try:
             with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
@@ -41,6 +52,7 @@ def sptrans():
                 tk.END, "Arquivo 'routes.txt' não encontrado.")
             return []
 
+    # Função para exibir as tarifas das linhas da SPTrans
     def exibir_tarifas():
         try:
             with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
@@ -54,6 +66,7 @@ def sptrans():
             tabela_tarifas.insert("", "end", values=(
                 "Arquivo 'fare_attributes.txt' não encontrado.", ""))
 
+    # Função para carregar e exibir o mapa das rotas da SPTrans
     def carregar_mapa():
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
@@ -80,6 +93,7 @@ def sptrans():
         m.save("Mapa dos Trilhos\\mapa_shapes.html")
         webbrowser.open("Mapa dos Trilhos\\mapa_shapes.html")
 
+    # Função para exibir os pontos de parada das rotas da SPTrans
     def pontos():
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
@@ -109,19 +123,20 @@ def sptrans():
         n.save("Mapa dos Trilhos\\mapa_paradas_cluster.html")
         webbrowser.open("Mapa dos Trilhos\\mapa_paradas_cluster.html")
 
+    # Função para filtrar as linhas com base no termo de pesquisa
     def filtrar_linhas():
         termo = campo_pesquisa.get().lower()
         linhas_filtradas = [linha for linha in rotas if termo in linha.lower()]
         resultado_text.delete(1.0, tk.END)
         resultado_text.insert(tk.END, "".join(linhas_filtradas))
 
-    # Estilos
+    # Estilos dos widgets
     estilo = ttk.Style()
     estilo.configure("TButton", font=("Arial", 12), width=30)
     estilo.configure("TLabel", font=("Arial", 14))
     estilo.configure("TEntry", font=("Arial", 12))
 
-    # Titulo
+    # Título da aplicação
     titulo_label = ttk.Label(root, text="Consulta de Rotas SPTrans")
     titulo_label.pack(pady=(20, 30))
 
@@ -139,7 +154,7 @@ def sptrans():
     frame_esquerdo = ttk.Frame(root)
     frame_esquerdo.pack(side=tk.LEFT, padx=20, fill=tk.BOTH, expand=True)
 
-    # Resultado
+    # Resultado da pesquisa
     resultado_text = ScrolledText(
         frame_esquerdo, width=80, height=20, wrap=tk.WORD)
     resultado_text.pack(pady=(0, 20), anchor='w', fill=tk.BOTH, expand=True)
@@ -157,7 +172,7 @@ def sptrans():
         frame_botoes, text="Visualizar Mapa com as Paradas", command=pontos)
     botao_stops.pack(side=tk.RIGHT, padx=10)
 
-    # Tabela de Linhas
+    # Exibição das rotas
     rotas = exibir_rotas()
 
     # Frame para Tabela de Tarifas
@@ -172,16 +187,18 @@ def sptrans():
     tabela_tarifas.column("Modalidade", width=150, anchor="w")
     tabela_tarifas.column("Tarifa", width=50, anchor="w")
 
-    # Definir a altura da tabela (por exemplo, 200 pixels)
+    # Definir a altura da tabela
     tabela_tarifas.config(height=200)
 
     # Empacotar a tabela dentro do frame
     tabela_tarifas.pack(pady=(0, 20), fill=tk.BOTH, expand=True)
 
+    # Exibir as tarifas das linhas
     exibir_tarifas()
 
+    # Iniciar o loop principal da aplicação
     root.mainloop()
 
-
+# Verifica se o script está sendo executado como o programa principal e chama a função sptrans
 if __name__ == "__main__":
     sptrans()

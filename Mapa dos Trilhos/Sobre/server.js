@@ -1,13 +1,15 @@
-const express = require('express');
-const axios = require('axios');
-const jsdom = require('jsdom');
-const cors = require('cors'); // Importando o pacote cors
-const { JSDOM } = jsdom;
+const express = require('express'); // Importa o Express
+const axios = require('axios'); // Importa o Axios para fazer requisições HTTP
+const jsdom = require('jsdom'); // Importa o JSDOM para manipulação do DOM em Node.js
+const cors = require('cors'); // Importa o pacote cors para lidar com requisições CORS
+const { JSDOM } = jsdom; // Extrai JSDOM da biblioteca jsdom
 
-const app = express();
+const app = express(); // Cria uma instância do Express
 
-app.use(cors()); // Usando o middleware cors
+app.use(cors()); // Utiliza o middleware cors para permitir solicitações de origens diferentes
 
+// Define rotas para obter o status de cada linha de transporte público
+// Cada rota chama a função getLineStatus com o número da linha e a resposta (res) como parâmetros
 app.get('/linha1-status', (req, res) => {
     getLineStatus(1, res);
 });
@@ -60,18 +62,27 @@ app.get('/linha15-status', (req, res) => {
     getLineStatus(15, res);
 });
 
+// Função para obter o status de uma linha específica
 function getLineStatus(lineNumber, res) {
+    // Faz uma requisição GET para o site da ViaMobilidade
     axios.get('https://www.viamobilidade.com.br')
         .then(response => {
+            // Cria uma instância do JSDOM para manipular o HTML retornado
             const dom = new JSDOM(response.data);
+            // Seleciona o elemento que contém o status da linha especificada
             const statusElement = dom.window.document.querySelector(`.line-${lineNumber} .status`);
+            // Obtém o texto do status
             const status = statusElement.textContent;
+            // Seleciona o elemento que contém a mensagem relacionada à linha (se houver)
             const msgElement = dom.window.document.querySelector(`.line-${lineNumber} .msg p`);
-            const msg = msgElement ? msgElement.textContent : ''; // Extrai a mensagem, se existir
+            // Obtém o texto da mensagem (ou uma string vazia se não houver mensagem)
+            const msg = msgElement ? msgElement.textContent : '';
+            // Retorna os dados como um objeto JSON
             res.json({ linha: lineNumber, status: status, msg: msg });
-            
         })
+        // Trata erros, se ocorrerem
         .catch(err => res.status(500).json({ error: err.toString() }));
 }
 
+// Define a porta na qual o servidor irá ouvir as requisições
 app.listen(3000, () => console.log('Servidor funcionando normalmente na porta \x1b[33m3000\x1b[0m\nPressione Ctrl + C para sair'));
