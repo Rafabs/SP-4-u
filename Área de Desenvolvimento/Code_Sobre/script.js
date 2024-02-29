@@ -8,7 +8,7 @@ fetch('http://localhost:3000/linha1-status')
         let card = document.getElementById('linha01-info');
         // Define o texto do elemento como o status retornado dos dados
         card.textContent = data.status;
-        console.log(data.status)
+
         // Adiciona uma classe CSS com base no status para estilização visual
         switch (data.status) {
             case 'Operação Normal':

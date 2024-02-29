@@ -26,8 +26,8 @@ para (Linha 92)
             addToLog(logData); // Adiciona ao arquivo de log
 
 ( ) SOLUCIONADO
-(x) EM DESENVOLVIMENTO
-( ) NÃO DEU CERTO
+( ) EM DESENVOLVIMENTO
+(x) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
 
 >> 01:23 24/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
