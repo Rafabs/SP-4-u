@@ -145,7 +145,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
 ## Diagrama da versão atual v1.0.7
-![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.7.png)
+![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.7.png)
 
 ## To Do 
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto. 
