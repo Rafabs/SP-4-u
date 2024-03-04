@@ -148,7 +148,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
 
 ## To Do 
-- [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```v1.0.7```.
+- [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```EM DESENVOLVIMENTO```.
 - [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
 - [ ] Confirmar se o server.js atualiza periodicamente 
 - [ ] Atualizar para que index.html atualize periodicamente
