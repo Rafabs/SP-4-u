@@ -144,15 +144,15 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
-## Diagrama da versão atual v1.0.6
-![Diagrama da versão atual v1.0.5](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.6.png)
+## Diagrama da versão atual v1.0.7
+![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/diagrama_v1.0.7.png)
 
 ## To Do 
-- [ ] Atualizar diagrama via FIGMA (realizar integração com VSCode) ```EM DESENVOLVIMENTO```.
-- [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto.
+- [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto. 
 - [ ] Confirmar se o server.js atualiza periodicamente 
 - [ ] Atualizar para que index.html atualize periodicamente
 - [ ] Inserir pdf's em index.html
+- [ ] Inserir imagens da execução no readme.md
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
 - [ ] Atualizar o diagrama v1.0.8
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
@@ -161,7 +161,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Corrigir erros e alertas de main.py
 - [ ] Informar no status linha a última atualização do mesmo em index.html
-- [x] Verificar possibilidade de inserir log no index.html
   
 ## Contribuição
 
@@ -182,6 +181,10 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 
 ## Histórico das versões
 
+### Versão ![Version](https://img.shields.io/badge/1.0.7-yellow.svg)
+
+- Incrementação do Figma ao escopo do projeto e dados na versão web.
+  
 ### Versão ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
 
 - Incrementação das notícias na página principal do Projeto Python e do Projeto Web, além de informação de status das linhas na versão web.
