@@ -144,8 +144,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
-## Diagrama da versão atual v1.0.7
-![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.7.png)
+## Diagrama da versão atual v1.0.8
+![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
 
 ## To Do 
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
