@@ -148,11 +148,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.7.png)
 
 ## To Do 
-- [ ] Providenciar algum programa de execução de .txt customizável com os padrões do projeto. 
-- [ ] Confirmar se o server.js atualiza periodicamente 
-- [ ] Atualizar para que index.html atualize periodicamente
-- [ ] Inserir pdf's em index.html
-- [ ] Inserir imagens da execução no readme.md
 - [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
 - [ ] Atualizar o diagrama v1.0.8
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
@@ -161,6 +156,13 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Corrigir erros e alertas de main.py
 - [ ] Informar no status linha a última atualização do mesmo em index.html
+- [ ] Ajustar favicon de index.html
+- [ ] Renomear as pastas com espaços no nome por (_)
+- [ ] Inserir imagens da execução no readme.md 
+- [x] Providenciar algum programa de execução de .txt customizável com os padrões do projeto. 
+- [x] Confirmar se o server.js atualiza periodicamente 
+- [x] Atualizar para que index.html atualize periodicamente
+- [x] Inserir pdf's em index.html
   
 ## Contribuição
 
