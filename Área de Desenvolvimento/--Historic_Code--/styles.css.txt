@@ -1,3 +1,27 @@
+>> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
+Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
+
+de (Linha 41)
+Vazio
+
+para (Linha 41)
+/* Estilo para a imagem das notícias */
+.news-item img {
+    max-width: 400px; /* Defina a largura máxima desejada para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior cinza */
+    padding-bottom: 20px; /* Adiciona um espaço entre cada notícia */
+    margin-bottom: 20px; /* Adiciona um espaço entre cada notícia */    
+}
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/styles.css
 Inserir informações sobre as empresas que operam as linhas em index.html 
 

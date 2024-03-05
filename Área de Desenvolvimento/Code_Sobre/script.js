@@ -505,3 +505,55 @@ fetch('http://localhost:3000/linha15-status')
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
     
+// Função para fazer uma solicitação HTTP GET para a API
+function fetchNews() {
+    const apiKey = '9d1db06d9c1f4b0fb13aaa227b173827';
+    const apiUrl = `https://newsapi.org/v2/everything?q=transporte%20p%C3%BAblico%20S%C3%A3o%20Paulo&apiKey=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const newsContainer = document.getElementById('news-container');
+            // Limpa o conteúdo anterior
+            newsContainer.innerHTML = '';
+
+            // Verifica se os dados retornados pela API estão no formato esperado
+            if (data && data.articles) {
+                // Itera sobre os resultados e cria elementos HTML para exibir as notícias
+                data.articles.forEach(newsItem => {
+                    const newsElement = document.createElement('div');
+                    newsElement.classList.add('news-item');
+
+                    const titleElement = document.createElement('h2');
+                    titleElement.textContent = newsItem.title;
+
+                    const descriptionElement = document.createElement('p');
+                    descriptionElement.textContent = newsItem.description;
+
+                    const linkElement = document.createElement('a');
+                    linkElement.textContent = 'Leia mais';
+                    linkElement.href = newsItem.url;
+                    linkElement.target = '_blank';
+
+                    const imageElement = document.createElement('img');
+                    imageElement.src = newsItem.urlToImage;
+                    imageElement.alt = newsItem.title;
+
+                    newsElement.appendChild(titleElement);
+                    newsElement.appendChild(descriptionElement);
+                    newsElement.appendChild(linkElement);
+                    newsElement.appendChild(imageElement);
+
+                    newsContainer.appendChild(newsElement);
+                });
+            } else {
+                console.error('Formato de dados inválido ou ausência de dados de notícias.');
+            }
+        })
+        .catch(error => {
+            console.error('Erro ao obter notícias:', error);
+        });
+}
+
+// Chama a função fetchNews quando a página é carregada
+window.onload = fetchNews;

@@ -1,3 +1,30 @@
+>> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
+
+de (linha 159)
+Vazio    
+
+para (linha 159)    
+    <hr>
+
+    <section class="data">
+        <h2>Notícias sobre o transporte público</h2>
+        <ul class="data-list">
+            <li>
+                <a href="news.html"
+                    target="_blank">Clique aqui para acessar as notícias</a>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações sobre as empresas que operam as linhas em index.html 
 

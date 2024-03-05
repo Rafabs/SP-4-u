@@ -1,5 +1,11 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
+Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
+# FOI CRIADO UM NOVO ITEM HTML CHAMADO NEWS E ALOCADO JUNTO AOS DEMAIS, FOI UTILIZADO API PARA RECEBER ATÉ 1000 REQUISIÇÕES POR SEMANA
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações sobre as empresas que operam as linhas em index.html 
 # FOI INSERIDO UM DIV COM AS EMRPESAS EM SUAS RESPECTIVAS LINHAS.
