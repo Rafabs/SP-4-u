@@ -145,8 +145,13 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
+<<<<<<< HEAD
 ## Diagrama da versão atual v1.0.7
 ![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
+=======
+## Diagrama da versão atual v1.0.8
+![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
+>>>>>>> e0d9b84219fe446ba972008914d512cc2d3fed58
 
 ## To Do 
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
