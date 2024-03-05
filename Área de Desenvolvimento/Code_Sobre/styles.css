@@ -93,40 +93,6 @@ ul {
     /* Define a largura máxima do conteúdo informativo */
 }
 
-.button_pdf {
-    align-items: center;
-    background-color: transparent;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 100;
-    line-height: .1;
-    text-decoration: none;
-    text-transform: uppercase;
-    outline: 0;
-    border: 0;
-    padding: 1rem;
-  }
-  
-
-.button_pdf:before {
-    background-color: #91ff00;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    margin-right: 10px;
-    transition: all .42s cubic-bezier(.25,.8,.25,1);
-    width: 0;
-  }
-  
-
-.button_pdf:hover:before {
-    background-color: #00e1ff;
-    width: 3rem;
-  }
-
 .note {
     border-left: 3px solid #0366d6;
     /* Cor azul usada nos blocos de nota do GitHub */
