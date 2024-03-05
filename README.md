@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
-![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.6-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-20/02/2024-green.svg)
+![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.8-blue.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-05/03/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -87,6 +87,7 @@ Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentado
 - ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [News API](https://newsapi.org/) - APi para exibição de notícias na versão Web
 
 ## Como Executar (Projeto Python)
 
@@ -145,11 +146,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.6.jpg)
 
 ## Diagrama da versão atual v1.0.7
-![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.7.png)
+![Diagrama da versão atual v1.0.7](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
 
 ## To Do 
-- [ ] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
-- [ ] Atualizar o diagrama v1.0.8
 - [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
 - [ ] Atualizar o diagrama v1.0.9
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
@@ -163,7 +162,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [x] Confirmar se o server.js atualiza periodicamente 
 - [x] Atualizar para que index.html atualize periodicamente
 - [x] Inserir pdf's em index.html
-  
+- [x] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
+- [x] Atualizar o diagrama v1.0.8
+
 ## Contribuição
 
 Se você deseja contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com suas alterações e, em seguida, enviar um pull request. Você pode adicionar novos mapas de linhas, melhorar as existentes ou fazer correções.

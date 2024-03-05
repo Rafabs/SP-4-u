@@ -33,8 +33,24 @@ a {
     /* Cor do texto dos títulos das seções */
 }
 
+p {
+    color: #a0a0a0;
+    /* Cor do texto dos títulos das seções */
+}
+
+/* Estilo para a imagem das notícias */
+.news-item img {
+    max-width: 400px; /* Defina a largura máxima desejada para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior cinza */
+    padding-bottom: 20px; /* Adiciona um espaço entre cada notícia */
+    margin-bottom: 20px; /* Adiciona um espaço entre cada notícia */    
+}
+
 h2 {
-    color: #FFF;
+    color: #ffffff;
     /* Cor do texto dos títulos das seções */
 }
 
