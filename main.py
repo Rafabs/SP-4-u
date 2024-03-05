@@ -300,7 +300,7 @@ emtu_button.pack(pady=5, fill='both', expand=True)
 
 # Criando o frame (Mapas da Rede)
 frame_mapa_guia = ttk.LabelFrame(
-    layout, text="Mapa da Rede - /Fev.23", labelanchor='n')
+    layout, text="Mapa da Rede - /Dez.23", labelanchor='n')
 frame_mapa_guia.place(relx=0.5, rely=0.175, anchor=tk.N)
 
 # Botões do frame (Mapas da Rede)
