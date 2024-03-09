@@ -158,12 +158,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Ajustar favicon de index.html
 - [ ] Renomear as pastas com espaços no nome por (_)
 - [ ] Inserir imagens da execução no readme.md 
-- [x] Providenciar algum programa de execução de .txt customizável com os padrões do projeto. 
-- [x] Confirmar se o server.js atualiza periodicamente 
-- [x] Atualizar para que index.html atualize periodicamente
-- [x] Inserir pdf's em index.html
-- [x] Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
-- [x] Atualizar o diagrama v1.0.8
 
 ## Contribuição
 
