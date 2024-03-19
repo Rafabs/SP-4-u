@@ -68,8 +68,8 @@ npm install cors
 ```
 ## Linguagens e IDE Utilizadas
 
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -149,7 +149,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
 
 ## To Do 
-- [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9```.
+- [ ] ```EMERGENCIAL``` CORRIGIR TRECHO DA CET DE MAIN.PY.
+- [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9``` ```EM ANDAMENTO```.
 - [ ] Atualizar o diagrama v1.0.9
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
