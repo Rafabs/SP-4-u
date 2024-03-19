@@ -150,10 +150,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] ```EMERGENCIAL``` CORRIGIR TRECHO DA CET DE MAIN.PY.
-- [ ] Criar mapa no HTML via js pelos dados json existente ```v1.0.9``` ```EM ANDAMENTO```.
-- [ ] Atualizar o diagrama v1.0.9
-- [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
+- [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK. ```v1.0.9```
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
+- [ ] Atualizar o diagrama v1.0.9
 - [ ] Corrigir erros e alertas de main.py
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 - [ ] Ajustar favicon de index.html

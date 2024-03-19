@@ -14,7 +14,7 @@ import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráfica
 import logging  # Importa o módulo logging para registrar mensagens de log
 from colorama import Fore, Back, Style, init  # Importa classes específicas do módulo colorama para colorir o terminal
 from guias import *  # Importa todas as funções do módulo guias
-from cet import transito  # Importa a função transito do módulo cet
+# from cet import transito  # Importa a função transito do módulo cet
 from temperatura import get_weather  # Importa a função get_weather do módulo temperatura
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
@@ -243,7 +243,7 @@ logo_label = ttk.Label(layout, image=logo_tk)
 logo_label.place(x=10, y=10)
 
 # Trânisto CET/SP
-vel_CentroBairro, vel_BairroCentro = transito()
+# vel_CentroBairro, vel_BairroCentro = transito()
 
 # Texto de saudação inicial
 nome_usuario = os.getlogin()
@@ -251,10 +251,10 @@ canvas.create_text(120, 20, text=('Olá, ' + nome_usuario),
                    font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
 # Informações de Trânsito CET
-centro_bairro = canvas.create_text(120, 80, text=(
-    "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
-bairro_centro = canvas.create_text(120, 100, text=(
-    "Bairro/Centro:", vel_BairroCentro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+# centro_bairro = canvas.create_text(120, 80, text=(
+#    "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+# bairro_centro = canvas.create_text(120, 100, text=(
+#    "Bairro/Centro:", vel_BairroCentro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
 # Código das cores do mapa (em ordem numérica)
 azul = "#0455A1"
