@@ -1,2 +1,7 @@
 ** Utilize a seguinte anotação para descrever as operações em andamento e ações subsequentes em cada arquivo **
 ---------------------------------------------------------------------------------------------------------------
+
+>> 01:41 20/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+CORRIGIR TRECHO DA CET DE MAIN.PY.
+
+- A PÁGINA INCIIAL DO SITE DA CET ATUALMENTE ESTÁ FORA DO AR, A FUNÇÃO CHAMADA PARA EXIBIÇÃO DE VELOCIDADE FOI COMENTADA E ISOLADA, QUANDO O SITE VOLTAR AO AR AS FUNÇÕES SERÃO REATIVADAS.

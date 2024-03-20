@@ -1,10 +1,40 @@
 ( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
----------------------------------------------------------------------------------------------------------------
 
 ( ) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+>> 01:41 20/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+CORRIGIR TRECHO DA CET DE MAIN.PY.
+
+de (Linha 19)
+from cet import transito  # Importa a função transito do módulo cet
+
+para (Linha 19)
+#from cet import transito  # Importa a função transito do módulo cet
+
+de (Linha 249)
+vel_CentroBairro, vel_BairroCentro = transito()
+
+para (Linha 249)
+#vel_CentroBairro, vel_BairroCentro = transito()
+
+de (Linha 257)
+centro_bairro = canvas.create_text(120, 80, text=(
+    "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+bairro_centro = canvas.create_text(120, 100, text=(
+    "Bairro/Centro:", vel_BairroCentro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+
+para (Linha 257)
+#centro_bairro = canvas.create_text(120, 80, text=(
+#    "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+#bairro_centro = canvas.create_text(120, 100, text=(
+#    "Bairro/Centro:", vel_BairroCentro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
+
+( ) SOLUCIONADO
+(X) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 
 ---------------------------------------------------------------------------------------------------------------
