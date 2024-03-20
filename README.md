@@ -149,7 +149,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
 
 ## To Do 
-- [ ] ```EMERGENCIAL``` CORRIGIR TRECHO DA CET DE MAIN.PY.
 - [ ] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK. ```v1.0.9```
 - [ ] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 - [ ] Atualizar o diagrama v1.0.9
@@ -158,6 +157,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Ajustar favicon de index.html
 - [ ] Renomear as pastas com espaços no nome por (_)
 - [ ] Inserir imagens da execução no readme.md 
+- [ ] Verificar se a página inicial da CET já retornou para finalização da ordem.
 
 ## Contribuição
 
