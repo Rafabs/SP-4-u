@@ -6915,3 +6915,49 @@
 2024-03-19 02:22:32,982 - ERROR - PROJ: proj_identify: Cannot find proj.db
 2024-03-19 02:22:33,027 - ERROR - PROJ: proj_identify: Cannot find proj.db
 2024-03-19 02:25:18,411 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-03-20 01:45:24,752 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-03-20 01:45:24,755 - INFO - 20/03/2024 | 01:45:24
+2024-03-20 01:45:24,755 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-03-20 01:45:24,755 - INFO - nt
+2024-03-20 01:45:24,755 - INFO - <<<Informações sobre a Plataforma>>>
+2024-03-20 01:45:24,755 - INFO - Windows
+2024-03-20 01:45:24,756 - INFO - <<<Diretório Atual>>>
+2024-03-20 01:45:24,756 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-03-20 01:45:24,757 - INFO - <<<Usuário Atual>>>
+2024-03-20 01:45:24,757 - INFO - Rafael Barbosa
+2024-03-20 01:45:24,757 - INFO - <<<Versão do Sistema Operacional>>>
+2024-03-20 01:45:24,757 - INFO - 10.0.22631
+2024-03-20 01:45:24,757 - INFO - <<<Informações sobre a Máquina>>>
+2024-03-20 01:45:24,757 - INFO - AMD64
+2024-03-20 01:45:24,758 - INFO - <<<Arquitetura da Máquina>>>
+2024-03-20 01:45:24,758 - INFO - ('64bit', 'WindowsPE')
+2024-03-20 01:45:24,758 - INFO - <<<Versão do Python>>>
+2024-03-20 01:45:24,758 - INFO - 3.11.4
+2024-03-20 01:45:24,758 - INFO - <<<Distribuição do Python>>>
+2024-03-20 01:45:24,758 - INFO - 10.0.22631
+2024-03-20 01:45:24,758 - INFO - <<<Informações sobre o Processador>>>
+2024-03-20 01:45:24,759 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-03-20 01:45:24,760 - INFO - <<<Diretório Temporário>>>
+2024-03-20 01:45:24,760 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-03-20 01:45:24,760 - INFO - <<<Diretório do Usuário>>>
+2024-03-20 01:45:24,760 - INFO - C:\Users\Rafael Barbosa
+2024-03-20 01:45:24,760 - INFO - ====================================================================================
+2024-03-20 01:45:24,803 - INFO - [1m[37mPrograma Iniciado às [31m01:45:24[0m
+2024-03-20 01:45:24,853 - INFO - C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\IcoImagePlugin.py:335: UserWarning: Image was not the expected size
+2024-03-20 01:45:24,854 - INFO -   warnings.warn("Image was not the expected size")
+2024-03-20 01:45:33,945 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-03-20 01:45:33,945 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-03-20 01:45:33,946 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-03-20 01:45:33,946 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-03-20 01:45:34,519 - INFO -                                                title                                               link          date desc                   media  datetime                                                img
+2024-03-20 01:45:34,519 - INFO - 0  Concursos Sudeste: os EDITAIS previstos nos pr...  https://www.estrategiaconcursos.com.br/blog/co...  á 17 minutos         Estratégia Concursos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 1                             forum gatapop - V6.3.4  http://www.portaldailha.com.br/news.php%3Fnews...  á 21 minutos       Portal da Ilha Digital       NaN
+2024-03-20 01:45:34,519 - INFO - 2  Nunes e Boulos comentam números da pesquisa Pa...  https://www.cnnbrasil.com.br/eleicoes/nunes-e-...     á 4 horas                   CNN Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 3            vagas de emprego upl ituverava - V8.8.9  http://www.portaldailha.com.br/news.php%3Fjogo...     á 5 horas       Portal da Ilha Digital       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 4  Mais de 75 lojas e dentro de metrô de SP: Novo...  https://www.otvfoco.com.br/dentro-de-metro-de-...     á 6 horas                      TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 5  Lollapalooza Brasil cria espaço exclusivo para...  https://rollingstone.uol.com.br/musica/lollapa...     á 7 horas                          UOL       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 6  Queda de árvore em carro e afeta linhas de ôni...  https://diariodostrilhos.com/2024/03/19/queda-...     á 8 horas           Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 7  Prefeitura de Pacaembu - SP abre novo Processo...  https://www.pciconcursos.com.br/noticias/prefe...     á 8 horas                PCI Concursos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 8  Fim da tarifa dinâmica e preço escolhido pelo ...  https://www.otvfoco.com.br/fim-da-tarifa-dinam...     á 8 horas                      TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:34,519 - INFO - 9  R$ 14 bilhões e vai salvar o Metrô e a CPTM: 4...  https://www.otvfoco.com.br/salvacao-do-metro-r...     á 8 horas                      TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-20 01:45:40,448 - INFO - ========================================== PROGRAMA FECHADO ==========================================
