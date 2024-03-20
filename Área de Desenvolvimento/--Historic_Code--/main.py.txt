@@ -2,9 +2,33 @@
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 
-( ) SOLUCIONADO
+>> 02:36 20/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
+Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
+
+de (Linha 23)
+Vazio
+
+para (Linha 23)
+from varredura import verificacao
+
+de (Linha 194)
+Vazio
+
+para (Linha 194)
+def fazer_varredura():
+    itens_arquivos = verificacao()
+
+de (Linha 515)
+Vazio
+
+para (Linha 515)
+# Exibir os itens de arquivos disponíveis ao abrir a janela
+fazer_varredura()
+
+(X) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
+
 ---------------------------------------------------------------------------------------------------------------
 >> 01:41 20/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 CORRIGIR TRECHO DA CET DE MAIN.PY.

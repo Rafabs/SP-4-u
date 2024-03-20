@@ -22,6 +22,7 @@ from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_s
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
 from web import status  # Importa a função status do módulo web
+from varredura import verificacao
 from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
 from Metrô_SP_L1 import line1  # Importa a função line1 do módulo Metrô_SP_L1
 from Metrô_SP_L2 import line2  # Importa a função line2 do módulo Metrô_SP_L2
@@ -192,6 +193,9 @@ def abrir_link(url):
         
     # Abre o link em um navegador externo
     webbrowser.open_new(url)
+
+def fazer_varredura():
+    itens_arquivos = verificacao()
 
 def exibir_noticias():
     noticias = notice_transp_sao_paulo()
@@ -510,6 +514,9 @@ atualizar_status()
 
 # Exibir as notícias automaticamente ao abrir a janela
 exibir_noticias()
+
+# Exibir os itens de arquivos disponíveis ao abrir a janela
+fazer_varredura()
 
 # Inicializa as variáveis para temperatura e data/hora
 temperatura = canvas.create_text(
