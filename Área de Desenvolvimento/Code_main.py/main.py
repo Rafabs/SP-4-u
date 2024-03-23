@@ -141,7 +141,7 @@ sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 def determinar_cor(status):
     if "Operação Normal" in status:
         return "green"
-    elif "Circulação de Trens" in status or "Operação Parcial" in status or "Velocidade Reduzida" in status:
+    elif "Circulação de Trens" in status or "Operação Parcial" in status or "Velocidade Reduzida" in status or "Operação Diferenciada" in status:
         return "yellow"
     elif "Dados Indisponíveis" in status:
         return "white"                
@@ -364,7 +364,7 @@ linha1_azul_icon = canvas.create_text(
 l1_icon = canvas.create_text(
     1809, 15, text="1", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l1 = tk.Label(layout, text="", anchor="se")
-label_l1.place(x=1680, y=5) 
+label_l1.place(x=1675, y=5) 
 
 button_l2 = tk.Button(layout, text="Verde", command=line2,
                       bg=verde, fg="white", width=11)
@@ -374,7 +374,7 @@ linha2_verde_icon = canvas.create_text(
 l2_icon = canvas.create_text(
     1809, 40, text="2", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l2 = tk.Label(layout, text="", anchor="se")
-label_l2.place(x=1680, y=30)  
+label_l2.place(x=1675, y=30)  
 
 button_l3 = tk.Button(layout, text="Vermelha", command=line3,
                       bg=vermelha, fg="black", width=11)
@@ -384,7 +384,7 @@ linha3_vermelha_icon = canvas.create_text(
 l3_icon = canvas.create_text(
     1809, 65, text="3", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l3 = tk.Label(layout, text="", anchor="se")
-label_l3.place(x=1680, y=55)  
+label_l3.place(x=1675, y=55)  
 
 button_l4 = tk.Button(layout, text="Amarela", command=line4,
                       bg=amarela, fg="black", width=11)
@@ -394,7 +394,7 @@ linha4_amarela_icon = canvas.create_text(
 l4_icon = canvas.create_text(
     1809, 90, text="4", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l4 = tk.Label(layout, text="", anchor="se")
-label_l4.place(x=1680, y=80)  
+label_l4.place(x=1675, y=80)  
 
 button_l5 = tk.Button(layout, text="Lilás", command=line5,
                       bg=lilás, fg="white", width=11)
@@ -404,7 +404,7 @@ linha5_lilas_icon = canvas.create_text(
 l5_icon = canvas.create_text(
     1809, 115, text="5", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l5 = tk.Label(layout, text="", anchor="se")
-label_l5.place(x=1680, y=105)  
+label_l5.place(x=1675, y=105)  
 
 button_l7 = tk.Button(layout, text="Rubi", command=line7,
                       bg=rubi, fg="white", width=11)
@@ -414,7 +414,7 @@ linha7_rubi_icon = canvas.create_text(
 l7_icon = canvas.create_text(
     1809, 140, text="7", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l7 = tk.Label(layout, text="", anchor="se")
-label_l7.place(x=1680, y=130)  
+label_l7.place(x=1675, y=130)  
 
 button_l8 = tk.Button(layout, text="Diamante", command=line8,
                       bg=diamante, fg="black", width=11)
@@ -424,7 +424,7 @@ linha8_diamante_icon = canvas.create_text(
 l8_icon = canvas.create_text(
     1809, 165, text="8", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l8 = tk.Label(layout, text="", anchor="se")
-label_l8.place(x=1680, y=155)  
+label_l8.place(x=1675, y=155)  
 
 button_l9 = tk.Button(layout, text="Esmeralda",
                       command=line9, bg=esmeralda, fg="black", width=11)
@@ -434,7 +434,7 @@ linha9_esmeralda_icon = canvas.create_text(
 l9_icon = canvas.create_text(
     1809, 190, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l9 = tk.Label(layout, text="", anchor="se")
-label_l9.place(x=1680, y=180)  
+label_l9.place(x=1675, y=180)  
 
 button_l10 = tk.Button(layout, text="Turquesa",
                        command=line10, bg=turquesa, fg="black", width=11)
@@ -444,7 +444,7 @@ linha10_turquesa_icon = canvas.create_text(
 l10_icon = canvas.create_text(
     1806, 215, text="10", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l10 = tk.Label(layout, text="", anchor="se")
-label_l10.place(x=1680, y=205)  
+label_l10.place(x=1675, y=205)  
 
 button_l11 = tk.Button(layout, text="Coral", command=line11,
                        bg=coral, fg="black", width=11)
@@ -454,7 +454,7 @@ linha11_coral_icon = canvas.create_text(
 l11_icon = canvas.create_text(
     1806, 240, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l11 = tk.Label(layout, text="", anchor="se")
-label_l11.place(x=1680, y=230)  
+label_l11.place(x=1675, y=230)  
 
 button_l12 = tk.Button(layout, text="Safira",
                        command=line12, bg=safira, fg="white", width=11)
@@ -464,7 +464,7 @@ linha12_safira_icon = canvas.create_text(
 l12_icon = canvas.create_text(
     1806, 265, text="12", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l12 = tk.Label(layout, text="", anchor="se")
-label_l12.place(x=1680, y=255)  
+label_l12.place(x=1675, y=255)  
 
 button_l13 = tk.Button(layout, text="Jade", command=line13,
                        bg=jade, fg="black", width=11)
@@ -474,7 +474,7 @@ linha13_jade_icon = canvas.create_text(
 l13_icon = canvas.create_text(
     1806, 290, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l13 = tk.Label(layout, text="", anchor="se")
-label_l13.place(x=1680, y=280)  
+label_l13.place(x=1675, y=280)  
 
 button_l15 = tk.Button(layout, text="Prata", command=line15,
                        bg=prata, fg="black", width=11)
@@ -484,7 +484,7 @@ linha15_prata_icon = canvas.create_text(
 l15_icon = canvas.create_text(
     1806, 315, text="15", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l15 = tk.Label(layout, text="", anchor="se")
-label_l15.place(x=1680, y=305)  
+label_l15.place(x=1675, y=305)  
 
 button_guararema = tk.Button(
     layout, text="Guararema", command=guararema, bg="#f8e71c", fg="black", width=11)

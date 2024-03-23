@@ -17,6 +17,7 @@ fetch('http://localhost:3000/linha1-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -36,7 +37,7 @@ fetch('http://localhost:3000/linha1-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 2
 fetch('http://localhost:3000/linha2-status')
     // Converte a resposta para JSON
@@ -56,6 +57,7 @@ fetch('http://localhost:3000/linha2-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -75,7 +77,7 @@ fetch('http://localhost:3000/linha2-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 3
 fetch('http://localhost:3000/linha3-status')
     // Converte a resposta para JSON
@@ -95,6 +97,7 @@ fetch('http://localhost:3000/linha3-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -114,7 +117,7 @@ fetch('http://localhost:3000/linha3-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 4
 fetch('http://localhost:3000/linha4-status')
     // Converte a resposta para JSON
@@ -134,6 +137,7 @@ fetch('http://localhost:3000/linha4-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -153,7 +157,7 @@ fetch('http://localhost:3000/linha4-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 5
 fetch('http://localhost:3000/linha5-status')
     // Converte a resposta para JSON
@@ -173,6 +177,7 @@ fetch('http://localhost:3000/linha5-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -192,7 +197,7 @@ fetch('http://localhost:3000/linha5-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 7
 fetch('http://localhost:3000/linha7-status')
     // Converte a resposta para JSON
@@ -212,6 +217,7 @@ fetch('http://localhost:3000/linha7-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -231,7 +237,7 @@ fetch('http://localhost:3000/linha7-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 8
 fetch('http://localhost:3000/linha8-status')
     // Converte a resposta para JSON
@@ -251,6 +257,7 @@ fetch('http://localhost:3000/linha8-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -270,7 +277,7 @@ fetch('http://localhost:3000/linha8-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 9
 fetch('http://localhost:3000/linha9-status')
     // Converte a resposta para JSON
@@ -290,6 +297,7 @@ fetch('http://localhost:3000/linha9-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -309,7 +317,7 @@ fetch('http://localhost:3000/linha9-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 10
 fetch('http://localhost:3000/linha10-status')
     // Converte a resposta para JSON
@@ -329,6 +337,7 @@ fetch('http://localhost:3000/linha10-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -348,7 +357,7 @@ fetch('http://localhost:3000/linha10-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 11
 fetch('http://localhost:3000/linha11-status')
     // Converte a resposta para JSON
@@ -368,6 +377,7 @@ fetch('http://localhost:3000/linha11-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -387,7 +397,7 @@ fetch('http://localhost:3000/linha11-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 12
 fetch('http://localhost:3000/linha12-status')
     // Converte a resposta para JSON
@@ -407,6 +417,7 @@ fetch('http://localhost:3000/linha12-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -426,7 +437,7 @@ fetch('http://localhost:3000/linha12-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 13
 fetch('http://localhost:3000/linha13-status')
     // Converte a resposta para JSON
@@ -446,6 +457,7 @@ fetch('http://localhost:3000/linha13-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -465,7 +477,7 @@ fetch('http://localhost:3000/linha13-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-     
+
 // Busca o status da linha 15
 fetch('http://localhost:3000/linha15-status')
     // Converte a resposta para JSON
@@ -485,6 +497,7 @@ fetch('http://localhost:3000/linha15-status')
             case 'Circulação de Trens':
             case 'Operação Parcial':
             case 'Velocidade Reduzida':
+            case 'Operação Diferenciada':
                 card.classList.add('amarelo_velocidade_reduzida');
                 break;
             case 'Dados Indisponíveis':
@@ -504,4 +517,56 @@ fetch('http://localhost:3000/linha15-status')
     })
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
-    
+
+// Função para fazer uma solicitação HTTP GET para a API
+function fetchNews() {
+    const apiKey = '9d1db06d9c1f4b0fb13aaa227b173827';
+    const apiUrl = `https://newsapi.org/v2/everything?q=transporte%20p%C3%BAblico%20S%C3%A3o%20Paulo&apiKey=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const newsContainer = document.getElementById('news-container');
+            // Limpa o conteúdo anterior
+            newsContainer.innerHTML = '';
+
+            // Verifica se os dados retornados pela API estão no formato esperado
+            if (data && data.articles) {
+                // Itera sobre os resultados e cria elementos HTML para exibir as notícias
+                data.articles.forEach(newsItem => {
+                    const newsElement = document.createElement('div');
+                    newsElement.classList.add('news-item');
+
+                    const titleElement = document.createElement('h2');
+                    titleElement.textContent = newsItem.title;
+
+                    const descriptionElement = document.createElement('p');
+                    descriptionElement.textContent = newsItem.description;
+
+                    const linkElement = document.createElement('a');
+                    linkElement.textContent = 'Leia mais';
+                    linkElement.href = newsItem.url;
+                    linkElement.target = '_blank';
+
+                    const imageElement = document.createElement('img');
+                    imageElement.src = newsItem.urlToImage;
+                    imageElement.alt = newsItem.title;
+
+                    newsElement.appendChild(titleElement);
+                    newsElement.appendChild(descriptionElement);
+                    newsElement.appendChild(linkElement);
+                    newsElement.appendChild(imageElement);
+
+                    newsContainer.appendChild(newsElement);
+                });
+            } else {
+                console.error('Formato de dados inválido ou ausência de dados de notícias.');
+            }
+        })
+        .catch(error => {
+            console.error('Erro ao obter notícias:', error);
+        });
+}
+
+// Chama a função fetchNews quando a página é carregada
+window.onload = fetchNews;
