@@ -149,7 +149,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
 
 ## To Do 
-- [ ] Atualizar o diagrama v1.0.9 ```EM ANDAMENTO```
 - [ ] Corrigir erros e alertas de main.py
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 - [ ] Ajustar favicon de index.html
@@ -160,7 +159,8 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Criar item para versões em página separada.
 - [x] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK. ```v1.0.9```
 - [x] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
-
+- [x] Atualizar o diagrama v1.0.9 
+- [ ] 
 ## Contribuição
 
 Se você deseja contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com suas alterações e, em seguida, enviar um pull request. Você pode adicionar novos mapas de linhas, melhorar as existentes ou fazer correções.
