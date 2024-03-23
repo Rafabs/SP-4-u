@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
-![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.8-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-05/03/2024-green.svg)
+![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.9-blue.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-23/03/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa%20dos%20Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -157,10 +157,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Verificar se a página inicial da CET já retornou para finalização da ordem.
 - [ ] Atualizar nome arquivos das linhas .py para "SPLxxx".
 - [ ] Criar item para versões em página separada.
-- [x] Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK. ```v1.0.9```
-- [x] Web: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
-- [x] Atualizar o diagrama v1.0.9 
-- [ ] 
+
 ## Contribuição
 
 Se você deseja contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com suas alterações e, em seguida, enviar um pull request. Você pode adicionar novos mapas de linhas, melhorar as existentes ou fazer correções.
