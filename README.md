@@ -143,10 +143,10 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## Exibição (Web)
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
-![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.8.jpg)
+![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.9.jpg)
 
-## Diagrama da versão atual v1.0.8
-![Diagrama da versão atual v1.0.8](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.8.png)
+## Diagrama da versão atual v1.0.9
+![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
 
 ## To Do 
 - [ ] Corrigir erros e alertas de main.py
