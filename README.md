@@ -149,7 +149,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
 
 ## To Do 
-- [ ] Corrigir erros e alertas de main.py
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 - [ ] Ajustar favicon de index.html
 - [ ] Renomear as pastas com espaços no nome por (_)
@@ -157,6 +156,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Verificar se a página inicial da CET já retornou para finalização da ordem.
 - [ ] Atualizar nome arquivos das linhas .py para "SPLxxx".
 - [ ] Criar item para versões em página separada.
+- [ ] Tornar o projeto responsível ```v1.1.0```
+- [ ] Criar arquivo/item histórico das versões.
+- [x] Corrigir erros e alertas de main.py
 
 ## Contribuição
 

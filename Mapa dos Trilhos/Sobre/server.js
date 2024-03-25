@@ -3,8 +3,8 @@ const axios = require('axios'); // Importa o Axios para fazer requisições HTTP
 const jsdom = require('jsdom'); // Importa o JSDOM para manipulação do DOM em Node.js
 const cors = require('cors'); // Importa o pacote cors para lidar com requisições CORS
 const { JSDOM } = jsdom; // Extrai JSDOM da biblioteca jsdom
-const path = require('path'); // Importando o módulo 'path' para lidar com caminhos de arquivos e diretórios
-const fs = require('fs'); // Importando o módulo 'fs' para operações de sistema de arquivos
+const fs = require('fs');
+const path = require('path');
 
 const app = express(); // Cria uma instância do Express
 
