@@ -150,7 +150,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] Informar no status linha a última atualização do mesmo em index.html
-- [ ] Ajustar favicon de index.html
 - [ ] Renomear as pastas com espaços no nome por (_)
 - [ ] Inserir imagens da execução no readme.md 
 - [ ] Verificar se a página inicial da CET já retornou para finalização da ordem.
@@ -159,6 +158,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Tornar o projeto responsível ```v1.1.0```
 - [ ] Criar arquivo/item histórico das versões.
 - [x] Corrigir erros e alertas de main.py
+- [x] Ajustar favicon de index.html
 
 ## Contribuição
 
