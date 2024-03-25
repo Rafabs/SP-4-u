@@ -33,8 +33,24 @@ a {
     /* Cor do texto dos títulos das seções */
 }
 
+p {
+    color: #a0a0a0;
+    /* Cor do texto dos títulos das seções */
+}
+
+/* Estilo para a imagem das notícias */
+.news-item img {
+    max-width: 400px; /* Defina a largura máxima desejada para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior cinza */
+    padding-bottom: 20px; /* Adiciona um espaço entre cada notícia */
+    margin-bottom: 20px; /* Adiciona um espaço entre cada notícia */    
+}
+
 h2 {
-    color: #FFF;
+    color: #ffffff;
     /* Cor do texto dos títulos das seções */
 }
 
@@ -56,34 +72,41 @@ ul {
 
 .logo-container {
     float: left;
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px;
+    /* Espaço entre a imagem e o texto */
 }
 
 .logo {
-    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
+    width: 100px;
+    /* Largura da imagem (ajuste conforme necessário) */
 }
 
 .version-info {
     float: center;
-    margin-top: 20px; /* Espaço entre a imagem e a informação de versão */
+    margin-top: 20px;
+    /* Espaço entre a imagem e a informação de versão */
 }
 
 .version-info img {
-    margin-right: 10px; /* Espaço entre os ícones de versão e atualização */
+    margin-right: 10px;
+    /* Espaço entre os ícones de versão e atualização */
 }
 
 .logo-container img {
     margin-right: 10px;
-    max-width: 1000px; /* Define a largura máxima do conteúdo informativo */
+    max-width: 1000px;
+    /* Define a largura máxima do conteúdo informativo */
 }
 
 .info-container {
-    max-width: 1000px; /* Define a largura máxima do conteúdo informativo */
+    max-width: 1000px;
+    /* Define a largura máxima do conteúdo informativo */
 }
 
 .version-info img {
     margin-left: 10px;
-    max-width: 1000px; /* Define a largura máxima do conteúdo informativo */
+    max-width: 1000px;
+    /* Define a largura máxima do conteúdo informativo */
 }
 
 .note {
@@ -119,7 +142,8 @@ ul {
 }
 
 .lines {
-    margin-bottom: 10px; /* Adicione margem na parte inferior */
+    margin-bottom: 10px;
+    /* Adicione margem na parte inferior */
 }
 
 .line-list {
@@ -224,7 +248,8 @@ ul {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 10px; /* Adicionamos margem na parte inferior para separar os códigos */
+    margin-bottom: 10px;
+    /* Adicionamos margem na parte inferior para separar os códigos */
 }
 
 .copy-code:hover {
@@ -234,12 +259,15 @@ ul {
 .command-list {
     list-style: none;
     padding: 0;
-    display: flex; /* Adicionamos um display flex para os códigos ficarem na mesma linha */
-    flex-wrap: wrap; /* Se houver muitos códigos, eles irão quebrar para a linha seguinte */
+    display: flex;
+    /* Adicionamos um display flex para os códigos ficarem na mesma linha */
+    flex-wrap: wrap;
+    /* Se houver muitos códigos, eles irão quebrar para a linha seguinte */
 }
 
 .command-list code {
-    margin: 0 10px 5px 0; /* Adicionamos margens para separar os códigos horizontalmente */
+    margin: 0 10px 5px 0;
+    /* Adicionamos margens para separar os códigos horizontalmente */
     display: block;
 }
 
@@ -260,7 +288,8 @@ ul {
 }
 
 .execution {
-    padding-bottom: 80px; /* Ou o valor que funcionar melhor para o seu layout */
+    padding-bottom: 80px;
+    /* Ou o valor que funcionar melhor para o seu layout */
 }
 
 .execution a {
@@ -317,22 +346,26 @@ ul {
 }
 
 .estacoes li {
-    flex: 0 0 30%; /* Define a largura das imagens */
+    flex: 0 0 30%;
+    /* Define a largura das imagens */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .estacoes img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse seu contêiner */
 }
 
 .centered-image {
     text-align: center;
-    margin-top: 50px; /* Espaço entre a imagem e o botão */
+    margin-top: 50px;
+    /* Espaço entre a imagem e o botão */
 }
 
 .centered-image img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
 }
 
 .centered-image button {
@@ -359,67 +392,96 @@ ul {
 
 .card {
     position: relative;
-    background-color: #000655; /* Amarelo escuro */
-    color: #00a6ff; /* Amarelo claro */    
+    background-color: #000655;
+    /* Amarelo escuro */
+    color: #00a6ff;
+    /* Amarelo claro */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
 }
 
 .amarelo_velocidade_reduzida {
     position: relative;
-    background-color: #554800; /* Amarelo escuro */
-    color: #ffd900; /* Amarelo claro */
+    background-color: #554800;
+    /* Amarelo escuro */
+    color: #ffd900;
+    /* Amarelo claro */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
 }
 
 .verde_operacao_normal {
     position: relative;
-    background-color: #00550e; /* Verde escuro */
-    color: #00ff1e; /* Verde claro */
+    background-color: #00550e;
+    /* Verde escuro */
+    color: #00ff1e;
+    /* Verde claro */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
 }
 
 .branco_dados_indisponiveis {
     position: relative;
-    background-color: #000000; /* Branco escuro */
-    color: #ffffff; /* Branco claro */
+    background-color: #000000;
+    /* Branco escuro */
+    color: #ffffff;
+    /* Branco claro */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
 }
 
 .vermelho_paralisada {
     position: relative;
-    background-color: #550000; /* Vermelho escuro */
-    color: #ff0000; /* Vermelho claro */
+    background-color: #550000;
+    /* Vermelho escuro */
+    color: #ff0000;
+    /* Vermelho claro */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
 }
+
 .empresa {
     position: relative;
     padding: 1px 10px;
     border-radius: 5px;
-    color: #a2a0a0; /* Cinza claro */
-    font-size: 16px; /* Tamanho da fonte */
-    float: right; /* Alinha no lado direito */
-    font-family: 'Arial Nova light', Arial, sans-serif; /* Use a Arial Nova, ou Arial, ou uma fonte sans-serif genérica como fallback */
+    color: #a2a0a0;
+    /* Cinza claro */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    float: right;
+    /* Alinha no lado direito */
+    font-family: 'Arial Nova light', Arial, sans-serif;
+    /* Use a Arial Nova, ou Arial, ou uma fonte sans-serif genérica como fallback */
 }
+
 hr {
-    background-color: #363636; /* Cor de fundo da linha */
-    height: 1px; /* Altura da linha */
-    border: none; /* Remove a borda padrão */
-  }
+    background-color: #363636;
+    /* Cor de fundo da linha */
+    height: 1px;
+    /* Altura da linha */
+    border: none;
+    /* Remove a borda padrão */
+}
 
 footer {
     background-color: #292929;

@@ -1,5 +1,11 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 00:54 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Corrigir erros e alertas de main.py
+# DURANTE A EXECUÇÃO DESSE ITEM, NÃO FOI RECONHECIDO NENHUM ERRO PELO TERMINAL OU PELO LOG.
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
 Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
 # FOI CRIADO UM NOVO ITEM HTML CHAMADO NEWS E ALOCADO JUNTO AOS DEMAIS, FOI UTILIZADO API PARA RECEBER ATÉ 1000 REQUISIÇÕES POR SEMANA
