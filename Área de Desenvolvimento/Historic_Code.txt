@@ -1,5 +1,11 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+>> 02:12 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+Verificar se a página inicial da CET já retornou para finalização da ordem.
+# SITE DA CET NORMALIZADO, FOI DESCOMENTADO AS LINHAS EM MAIN.PY QUE CHAMAVA A FUNÇÃO E ORDEM ENCERRADA.
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 00:54 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros e alertas de main.py
 # DURANTE A EXECUÇÃO DESSE ITEM, NÃO FOI RECONHECIDO NENHUM ERRO PELO TERMINAL OU PELO LOG.
