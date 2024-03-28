@@ -185,7 +185,7 @@ def line4():
     # Cria um texto na parte inferior da tela indicando a autoria e data de desenvolvimento
     dev = canvas.create_text(
         960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 10/03/2023 | Revisado em 24/01/2024", font="Helvetica 12", anchor="c")
-
+    
     # Loop principal para atualizar a janela
     while True:
         root.update()
@@ -193,6 +193,3 @@ def line4():
             root.update()
         except TclError:
             break # Sai do loop caso ocorra um erro
-
-'''Para testes isolados nesse código, desmarque a função abaixo.'''
-line4() 

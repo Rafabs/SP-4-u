@@ -9545,3 +9545,1055 @@
 2024-03-25 02:11:22,080 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
 2024-03-25 02:11:22,080 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
 2024-03-25 02:11:27,709 - INFO - ========================================== PROGRAMA FECHADO ==========================================
+2024-03-28 00:16:33,591 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-03-28 00:16:33,592 - INFO - 28/03/2024 | 00:16:33
+2024-03-28 00:16:33,592 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-03-28 00:16:33,592 - INFO - nt
+2024-03-28 00:16:33,592 - INFO - <<<Informações sobre a Plataforma>>>
+2024-03-28 00:16:33,592 - INFO - Windows
+2024-03-28 00:16:33,592 - INFO - <<<Diretório Atual>>>
+2024-03-28 00:16:33,592 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-03-28 00:16:33,592 - INFO - <<<Usuário Atual>>>
+2024-03-28 00:16:33,594 - INFO - Rafael Barbosa
+2024-03-28 00:16:33,594 - INFO - <<<Versão do Sistema Operacional>>>
+2024-03-28 00:16:33,594 - INFO - 10.0.22631
+2024-03-28 00:16:33,594 - INFO - <<<Informações sobre a Máquina>>>
+2024-03-28 00:16:33,594 - INFO - AMD64
+2024-03-28 00:16:33,594 - INFO - <<<Arquitetura da Máquina>>>
+2024-03-28 00:16:33,594 - INFO - ('64bit', 'WindowsPE')
+2024-03-28 00:16:33,594 - INFO - <<<Versão do Python>>>
+2024-03-28 00:16:33,594 - INFO - 3.11.4
+2024-03-28 00:16:33,594 - INFO - <<<Distribuição do Python>>>
+2024-03-28 00:16:33,595 - INFO - 10.0.22631
+2024-03-28 00:16:33,595 - INFO - <<<Informações sobre o Processador>>>
+2024-03-28 00:16:33,595 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-03-28 00:16:33,596 - INFO - <<<Diretório Temporário>>>
+2024-03-28 00:16:33,596 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-03-28 00:16:33,596 - INFO - <<<Diretório do Usuário>>>
+2024-03-28 00:16:33,596 - INFO - C:\Users\Rafael Barbosa
+2024-03-28 00:16:33,596 - INFO - ====================================================================================
+2024-03-28 00:16:33,902 - INFO - [1m[37mPrograma Iniciado às [31m00:16:33[0m
+2024-03-28 00:16:44,013 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-03-28 00:16:44,013 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-03-28 00:16:44,014 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-03-28 00:16:44,014 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-03-28 00:16:44,675 - INFO -                                                title                                               link          date desc                               media  datetime                                                img
+2024-03-28 00:16:44,675 - INFO - 0  como ganhar dinheiro com decoração de festa in...  http://www.portaldailha.com.br/news.php%3Fjogo...  á 13 minutos                   Portal da Ilha Digital       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 1  Feriado de Páscoa: saiba o que abre e o que fe...  https://g1.globo.com/sp/sao-paulo/noticia/2024...  á 17 minutos       g1 - O portal de notícias da Globo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 2  Concursos Sudeste: os EDITAIS previstos nos pr...  https://www.estrategiaconcursos.com.br/blog/co...     á 2 horas                     Estratégia Concursos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 3                     vagas de emprego java - V0.1.5  http://www.portaldailha.com.br/news.php%3Fjogo...     á 3 horas                   Portal da Ilha Digital       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 4  Adeus de cartão de ônibus e do metrô é oficial...  https://www.otvfoco.com.br/adeus-de-cartao-de-...     á 4 horas                                  TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 5                 bet365 historico de jogos - V4.1.8  http://www.portaldailha.com.br/news.php%3Fjogo...     á 4 horas                   Portal da Ilha Digital       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 6  Após veto da Justiça, Nunes adia inauguração d...  https://www.metropoles.com/sao-paulo/apos-veto...     á 4 horas                               Metrópoles       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 7  São Paulo está vacinando contra a gripe – Ipir...  https://ipiranganews.inf.br/sao-paulo-esta-vac...     á 4 horas                            Ipiranga News       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 8  Veja na íntegra o recurso da SPTrans para tent...  https://diariodotransporte.com.br/2024/03/27/v...     á 5 horas                     Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,676 - INFO - 9  FPM: municípios de São Paulo recebem R$ 601 mi...  https://brasil61.com/n/fpm-municipios-de-sao-p...     á 5 horas                                Brasil 61       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:16:44,678 - INFO - Verificando arquivos em Mapa dos Trilhos:
+2024-03-28 00:16:44,678 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,678 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,679 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM cet.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM gtfs_emtu.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM gtfs_sptrans.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM guias.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM log.txt ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,680 - INFO - - ITEM mapa.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM noticia.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM temperatura.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM web.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,681 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:16:44,682 - INFO - Verificando arquivos em Mapa dos Trilhos\Sobre:
+2024-03-28 00:16:44,682 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,682 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,684 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,685 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,686 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM index.html ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,687 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM script.js ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM server.js ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - - ITEM styles.css ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:16:44,688 - INFO - Verificando arquivos em Mapa dos Trilhos/Data/:
+2024-03-28 00:16:44,688 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,688 - INFO - - ITEM dados_estacoes_medicoes.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM mapa-da-rede-metro.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM Regulamento-Viagem.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM sao-paulo_sections.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM sao-paulo_stations.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,689 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM zonas97_region.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM ZonasOD87_region.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,690 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,691 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:16:44,692 - INFO - Verificando arquivos em Mapa dos Trilhos/Gtfs_EMTU/:
+2024-03-28 00:16:44,694 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,694 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM dataRef-10012024.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM feed_info.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM feed_info.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,695 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,696 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,697 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:16:44,698 - INFO - Verificando arquivos em Mapa dos Trilhos/Gtfs_SPTRANS/:
+2024-03-28 00:16:44,698 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,698 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,699 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,700 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,701 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:16:44,702 - INFO - Verificando arquivos em Mapa dos Trilhos/Linhas/:
+2024-03-28 00:16:44,702 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,702 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,704 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM Guararema.py ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,705 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM Pirapora.py ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,706 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:16:44,707 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:17:00,768 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m00:16:33[0m
+2024-03-28 00:17:04,603 - INFO - [1m[37mMapa da LINHA 5 - LILÁS iniciado às [32m00:16:33[0m
+2024-03-28 00:19:47,432 - INFO - ========================================== INFORMAÇÕES DO USUÁRIO ==========================================
+2024-03-28 00:19:47,432 - INFO - 28/03/2024 | 00:19:47
+2024-03-28 00:19:47,432 - INFO - <<<<<<Nome do Sistema Operacional>>>
+2024-03-28 00:19:47,432 - INFO - nt
+2024-03-28 00:19:47,433 - INFO - <<<Informações sobre a Plataforma>>>
+2024-03-28 00:19:47,433 - INFO - Windows
+2024-03-28 00:19:47,433 - INFO - <<<Diretório Atual>>>
+2024-03-28 00:19:47,433 - INFO - C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u
+2024-03-28 00:19:47,433 - INFO - <<<Usuário Atual>>>
+2024-03-28 00:19:47,433 - INFO - Rafael Barbosa
+2024-03-28 00:19:47,433 - INFO - <<<Versão do Sistema Operacional>>>
+2024-03-28 00:19:47,433 - INFO - 10.0.22631
+2024-03-28 00:19:47,433 - INFO - <<<Informações sobre a Máquina>>>
+2024-03-28 00:19:47,433 - INFO - AMD64
+2024-03-28 00:19:47,433 - INFO - <<<Arquitetura da Máquina>>>
+2024-03-28 00:19:47,434 - INFO - ('64bit', 'WindowsPE')
+2024-03-28 00:19:47,434 - INFO - <<<Versão do Python>>>
+2024-03-28 00:19:47,434 - INFO - 3.11.4
+2024-03-28 00:19:47,434 - INFO - <<<Distribuição do Python>>>
+2024-03-28 00:19:47,434 - INFO - 10.0.22631
+2024-03-28 00:19:47,434 - INFO - <<<Informações sobre o Processador>>>
+2024-03-28 00:19:47,434 - INFO - Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+2024-03-28 00:19:47,434 - INFO - <<<Diretório Temporário>>>
+2024-03-28 00:19:47,434 - INFO - C:\Users\RAFAEL~1\AppData\Local\Temp
+2024-03-28 00:19:47,434 - INFO - <<<Diretório do Usuário>>>
+2024-03-28 00:19:47,434 - INFO - C:\Users\Rafael Barbosa
+2024-03-28 00:19:47,434 - INFO - ====================================================================================
+2024-03-28 00:19:47,475 - INFO - [1m[37mPrograma Iniciado às [31m00:19:47[0m
+2024-03-28 00:19:57,782 - INFO - Linha 1 - Azul: Fora do Horário de Operação
+2024-03-28 00:19:57,782 - INFO - Linha 2 - Verde: Fora do Horário de Operação
+2024-03-28 00:19:57,782 - INFO - Linha 3 - Vermelha: Fora do Horário de Operação
+2024-03-28 00:19:57,782 - INFO - Linha 15 - Prata: Fora do Horário de Operação
+2024-03-28 00:19:58,596 - INFO -                                                title                                               link          date desc                               media  datetime                                                img
+2024-03-28 00:19:58,597 - INFO - 0  Feriado de Páscoa: saiba o que abre e o que fe...  https://g1.globo.com/sp/sao-paulo/noticia/2024...  á 20 minutos       g1 - O portal de notícias da Globo       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 1  Concursos Sudeste: os EDITAIS previstos nos pr...  https://www.estrategiaconcursos.com.br/blog/co...     á 2 horas                     Estratégia Concursos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 2  Adeus de cartão de ônibus e do metrô é oficial...  https://www.otvfoco.com.br/adeus-de-cartao-de-...     á 4 horas                                  TV Foco       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 3  250 mil veículos devem descer para a Baixada S...  https://diariodostrilhos.com/2024/03/27/250-mi...     á 4 horas                       Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 4  Após veto da Justiça, Nunes adia inauguração d...  https://www.metropoles.com/sao-paulo/apos-veto...     á 5 horas                               Metrópoles       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 5  São Paulo está vacinando contra a gripe – Ipir...  https://ipiranganews.inf.br/sao-paulo-esta-vac...     á 5 horas                            Ipiranga News       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 6  Veja na íntegra o recurso da SPTrans para tent...  https://diariodotransporte.com.br/2024/03/27/v...     á 5 horas                     Diário do Transporte       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 7  FPM: municípios de São Paulo recebem R$ 601 mi...  https://brasil61.com/n/fpm-municipios-de-sao-p...     á 5 horas                                Brasil 61       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 8  Suspenso novamente o início do 'Aquático SP' n...  https://www.mobilize.org.br/noticias/13987/sus...     á 6 horas                          Mobilize Brasil       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,597 - INFO - 9  Primeiro trem da Linha 17-Ouro está em fase fi...  https://diariodostrilhos.com/2024/03/27/primei...     á 6 horas                       Diario dos Trilhos       NaN  data:image/gif;base64,R0lGODlhAQABAIAAAP//////...
+2024-03-28 00:19:58,598 - INFO - Verificando arquivos em Mapa dos Trilhos:
+2024-03-28 00:19:58,599 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,599 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,600 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM cet.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM gtfs_emtu.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM gtfs_sptrans.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM guias.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM log.txt ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM mapa.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,601 - INFO - - ITEM noticia.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM temperatura.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM web.py ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,602 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,604 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos.
+2024-03-28 00:19:58,604 - INFO - Verificando arquivos em Mapa dos Trilhos\Sobre:
+2024-03-28 00:19:58,604 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,604 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,605 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,606 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,607 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM index.html ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,608 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM script.js ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM server.js ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - - ITEM styles.css ENCONTRAOD em Mapa dos Trilhos\Sobre.
+2024-03-28 00:19:58,609 - INFO - Verificando arquivos em Mapa dos Trilhos/Data/:
+2024-03-28 00:19:58,609 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,609 - INFO - - ITEM dados_estacoes_medicoes.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,609 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,609 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,609 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,609 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM mapa-da-rede-metro.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM Regulamento-Viagem.pdf ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM sao-paulo_sections.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM sao-paulo_stations.geojson ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM zonas97_region.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM ZonasOD87_region.json ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,610 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,611 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,612 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,613 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,614 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Data/.
+2024-03-28 00:19:58,614 - INFO - Verificando arquivos em Mapa dos Trilhos/Gtfs_EMTU/:
+2024-03-28 00:19:58,614 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,614 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM dataRef-10012024.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM feed_info.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM feed_info.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,615 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,616 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,617 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,618 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_EMTU/.
+2024-03-28 00:19:58,619 - INFO - Verificando arquivos em Mapa dos Trilhos/Gtfs_SPTRANS/:
+2024-03-28 00:19:58,619 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,619 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM agency.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM calendar.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM fare_attributes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,620 - INFO - - ITEM fare_rules.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM routes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM shapes.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM stops.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM trips.txt ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Guararema.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,621 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM Pirapora.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,622 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,623 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,623 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Gtfs_SPTRANS/.
+2024-03-28 00:19:58,623 - INFO - Verificando arquivos em Mapa dos Trilhos/Linhas/:
+2024-03-28 00:19:58,623 - INFO - - ITEM Mapa dos Trilhos/Data/caminho_icones.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM dados_estacoes_medicoes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM Desktop_Guide_abr_2022_v2.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM Guia_do_passageiro_abr_2022.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM LL_WGS84_KMZ_bicicletarioparaciclo.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM LL_WGS84_KMZ_redecicloviaria.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM mapa-da-rede-metro.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM Regulamento de Viagem Expresso Turístico.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM Regulamento-Viagem.pdf NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM sao-paulo_lines_systems_and_modes.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM sao-paulo_sections.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM sao-paulo_stations.geojson NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM SIRGAS_SHP_origemdestino_2007.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM SIRGAS_SHP_origemdestino_2017.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM zonas97_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM ZonasOD87_region.json NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM dataRef-10012024.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,623 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM agency.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM calendar.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM fare_attributes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM fare_rules.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM feed_info.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM routes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM shapes.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM stops.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM trips.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM CPTM_SP_L7.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM CPTM_SP_L8.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,625 - INFO - - ITEM CPTM_SP_L9.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM CPTM_SP_L10.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM CPTM_SP_L11.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM CPTM_SP_L12.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM CPTM_SP_L13.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Guararema.py ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L1.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L2.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L3.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L4.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L5.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Metrô_SP_L15.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM Pirapora.py ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM cet.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM gtfs_emtu.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM gtfs_sptrans.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM guias.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM log.txt NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,626 - INFO - - ITEM mapa.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM noticia.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM temperatura.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM web.py NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM index.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_01.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_02.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_03.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_04.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_05.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_07.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_08.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_09.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_10.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_11.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_12.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_13.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_14.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM linha_15.html NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM script.js NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,627 - INFO - - ITEM server.js NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:19:58,628 - INFO - - ITEM styles.css NÃO ENCONTRAOD em Mapa dos Trilhos/Linhas/.
+2024-03-28 00:20:02,002 - INFO - [1m[37mMapa da LINHA 1 - AZUL iniciado às [32m00:19:47[0m
+2024-03-28 00:20:03,327 - INFO - [1m[37mMapa da LINHA 2 - VERDE iniciado às [32m00:19:47[0m
+2024-03-28 00:20:04,579 - INFO - [1m[37mMapa da LINHA 3 - VERMELHA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:05,898 - INFO - [1m[37mMapa da LINHA 4 - AMARELA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:05,911 - INFO - Exception in Tkinter callback
+2024-03-28 00:20:05,912 - INFO - Traceback (most recent call last):
+2024-03-28 00:20:05,912 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+2024-03-28 00:20:05,912 - INFO -     return self.func(*args)
+2024-03-28 00:20:05,912 - INFO -            ^^^^^^^^^^^^^^^^
+2024-03-28 00:20:05,912 - INFO -   File "C:\Users\Rafael Barbosa\OneDrive\Área de Trabalho\Git_Lab\SP-4-u\Mapa dos Trilhos\Linhas\SP_L04.py", line 36, in line4
+2024-03-28 00:20:05,913 - INFO -     canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+2024-03-28 00:20:05,913 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2846, in create_image
+2024-03-28 00:20:05,913 - INFO -     return self._create('image', args, kw)
+2024-03-28 00:20:05,913 - INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-03-28 00:20:05,913 - INFO -   File "C:\Users\Rafael Barbosa\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2832, in _create
+2024-03-28 00:20:05,913 - INFO -     return self.tk.getint(self.tk.call(
+2024-03-28 00:20:05,913 - INFO -                           ^^^^^^^^^^^^^
+2024-03-28 00:20:05,913 - INFO - _tkinter.TclError: image "<PIL.Image.Image image mode=RGB size=150x40 at 0x27C5A37D790>" doesn't exist
+2024-03-28 00:20:07,727 - INFO - [1m[37mMapa da LINHA 7 - RUBI iniciado às [32m00:19:47[0m
+2024-03-28 00:20:09,389 - INFO - [1m[37mMapa da LINHA 8 - DIAMANTE iniciado às [32m00:19:47[0m
+2024-03-28 00:20:11,039 - INFO - [1m[37mMapa da LINHA 9 - ESMERALDA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:12,551 - INFO - [1m[37mMapa da LINHA 10 - TURQUESA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:14,159 - INFO - [1m[37mMapa da LINHA 11 - CORAL iniciado às [32m00:19:47[0m
+2024-03-28 00:20:15,796 - INFO - [1m[37mMapa da LINHA 12 - SAFIRA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:17,511 - INFO - [1m[37mMapa da LINHA 13 - JADE iniciado às [32m00:19:47[0m
+2024-03-28 00:20:19,656 - INFO - [1m[37mMapa da LINHA GUARAREMA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:21,232 - INFO - [1m[37mMapa da LINHA 15 - PRATA iniciado às [32m00:19:47[0m
+2024-03-28 00:20:23,762 - INFO - [1m[37mMapa da LINHA PIRAPORA iniciado às [32m00:19:47[0m
