@@ -24,19 +24,19 @@ from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
 from web import status  # Importa a função status do módulo web
 from varredura import verificacao
 from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
-from Metrô_SP_L1 import line1  # Importa a função line1 do módulo Metrô_SP_L1
-from Metrô_SP_L2 import line2  # Importa a função line2 do módulo Metrô_SP_L2
-from Metrô_SP_L3 import line3  # Importa a função line3 do módulo Metrô_SP_L3
-from Metrô_SP_L4 import line4  # Importa a função line4 do módulo Metrô_SP_L4
-from Metrô_SP_L5 import line5  # Importa a função line5 do módulo Metrô_SP_L5
-from CPTM_SP_L7 import line7  # Importa a função line7 do módulo CPTM_SP_L7
-from CPTM_SP_L8 import line8  # Importa a função line8 do módulo CPTM_SP_L8
-from CPTM_SP_L9 import line9  # Importa a função line9 do módulo CPTM_SP_L9
-from CPTM_SP_L10 import line10  # Importa a função line10 do módulo CPTM_SP_L10
-from CPTM_SP_L11 import line11  # Importa a função line11 do módulo CPTM_SP_L11
-from CPTM_SP_L12 import line12  # Importa a função line12 do módulo CPTM_SP_L12
-from CPTM_SP_L13 import line13  # Importa a função line13 do módulo CPTM_SP_L13
-from Metrô_SP_L15 import line15  # Importa a função line15 do módulo Metrô_SP_L15
+from SP_L01 import line1  # Importa a função line1 do módulo SP_L01
+from SP_L02 import line2  # Importa a função line2 do módulo SP_L02
+from SP_L03 import line3  # Importa a função line3 do módulo SP_L03
+from SP_L04 import line4  # Importa a função line4 do módulo SP_L04
+from SP_L05 import line5  # Importa a função line5 do módulo SP_L05
+from SP_L07 import line7  # Importa a função line7 do módulo SP_L07
+from SP_L08 import line8  # Importa a função line8 do módulo SP_L08
+from SP_L09 import line9  # Importa a função line9 do módulo SP_L09
+from SP_L10 import line10  # Importa a função line10 do módulo SP_L10
+from SP_L11 import line11  # Importa a função line11 do módulo SP_L11
+from SP_L12 import line12  # Importa a função line12 do módulo SP_L12
+from SP_L13 import line13  # Importa a função line13 do módulo SP_L13
+from SP_L15 import line15  # Importa a função line15 do módulo SP_L15
 from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
 from Guararema import guararema  # Importa a função guararema do módulo Guararema
 
