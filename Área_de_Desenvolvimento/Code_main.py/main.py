@@ -5,10 +5,10 @@ import tempfile  # Importa o módulo tempfile para trabalhar com arquivos tempor
 import atexit  # Importa o módulo atexit para registrar funções a serem chamadas na saída do programa
 import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegador
 import re  # Importa o módulo re para realizar operações com expressões regulares
-sys.path.append('Mapa dos Trilhos')  # Adiciona o diretório 'Mapa dos Trilhos' ao caminho de busca de módulos
-sys.path.append('Mapa dos Trilhos\\Linhas')  # Adiciona o diretório 'Mapa dos Trilhos\Linhas' ao caminho de busca de módulos
+sys.path.append('Mapa_dos_Trilhos')  # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
+sys.path.append('Mapa_dos_Trilhos\\Linhas')  # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
 sys.path.append('Área_de_Desenvolvimento')  # Adiciona o diretório 'Área_de_Desenvolvimento' ao caminho de busca de módulos
-sys.path.append('Área_de_Desenvolvimento\\Code_Mapa dos Trilhos')  # Adiciona o diretório 'Área_de_Desenvolvimento\Code_Mapa dos Trilhos' ao caminho de busca de módulos
+sys.path.append('Área_de_Desenvolvimento\\Code_Mapa_dos_Trilhos')  # Adiciona o diretório 'Área_de_Desenvolvimento\Code_Mapa_dos_Trilhos' ao caminho de busca de módulos
 from PIL import Image, ImageTk  # Importa classes específicas do módulo PIL para manipular imagens
 from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
 from tkinter import ttk  # Importa classes específicas do módulo tkinter para criar interfaces gráficas
@@ -235,14 +235,14 @@ canvas.pack()
 canvas.configure(bg='#333333')
 
 # Carrega a imagem usando o PIL
-image = Image.open('Mapa dos Trilhos\\Favicon\\SP4U_LOGO.ico')
+image = Image.open('Mapa_dos_Trilhos\\Favicon\\SP4U_LOGO.ico')
 photo = ImageTk.PhotoImage(image)
 
 # Define o ícone
 layout.iconphoto(False, photo)
 
 # Carrega o logotipo do SP4U
-logo = Image.open("Mapa dos Trilhos\\Imgs\\SP4U_LOGO.jpg")
+logo = Image.open("Mapa_dos_Trilhos\\Imgs\\SP4U_LOGO.jpg")
 # Redimensiona a imagem para ajustar ao tamanho do canvas
 logo = logo.resize((100, 100))
 logo_tk = ImageTk.PhotoImage(logo)
