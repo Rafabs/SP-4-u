@@ -8,7 +8,7 @@ hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def mapa_rede():
     # Abre o arquivo PDF do mapa da rede do metrô
-    pdf = fitz.open('Mapa dos Trilhos\\Data\\mapa-da-rede-metro.pdf')
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\mapa-da-rede-metro.pdf')
     # Obtém a imagem da primeira página do PDF
     imagem = pdf[0].get_pixmap()
     # Converte a imagem para o formato PIL
@@ -20,7 +20,7 @@ def mapa_rede():
 
 def guia_pt_metro():
     # Abre o arquivo PDF do guia do passageiro do metrô em PT/BR
-    pdf = fitz.open('Mapa dos Trilhos\\Data\\Guia_do_passageiro_abr_2022.pdf')
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Guia_do_passageiro_abr_2022.pdf')
     # Obtém a imagem da primeira página do PDF
     imagem = pdf[0].get_pixmap()
     # Converte a imagem para o formato PIL
@@ -32,7 +32,7 @@ def guia_pt_metro():
 
 def guia_en_metro():
     # Abre o arquivo PDF do guia do passageiro do metrô em EN/US
-    pdf = fitz.open('Mapa dos Trilhos\\Data\\Desktop_Guide_abr_2022_v2.pdf')
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Desktop_Guide_abr_2022_v2.pdf')
     # Obtém a imagem da primeira página do PDF
     imagem = pdf[0].get_pixmap()
     # Converte a imagem para o formato PIL
@@ -44,7 +44,7 @@ def guia_en_metro():
 
 def guia_cptm():
     # Abre o arquivo PDF do guia da CPTM
-    pdf = fitz.open('Mapa dos Trilhos\\Data\\Regulamento-Viagem.pdf')
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Regulamento-Viagem.pdf')
     # Obtém a imagem da primeira página do PDF
     imagem = pdf[0].get_pixmap()
     # Converte a imagem para o formato PIL
@@ -56,7 +56,7 @@ def guia_cptm():
 
 def guia_cptm_expresso_turistico():
     # Abre o arquivo PDF do guia do expresso turístico da CPTM
-    pdf = fitz.open('Mapa dos Trilhos\\Data\\Regulamento de Viagem Expresso Turístico.pdf')
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Regulamento de Viagem Expresso Turístico.pdf')
     # Obtém a imagem da primeira página do PDF
     imagem = pdf[0].get_pixmap()
     # Converte a imagem para o formato PIL

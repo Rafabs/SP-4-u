@@ -22,7 +22,7 @@ def emtu():
     root.geometry("1920x1080")
 
     # Carrega a imagem do ícone usando o PIL
-    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_EMTU.ico')
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\onibus_EMTU.ico')
     photo = ImageTk.PhotoImage(image)
 
     # Define o ícone da janela
@@ -31,7 +31,7 @@ def emtu():
     # Função para exibir as rotas da EMTU
     def exibir_rotas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 rotas = [f"{linha[1]} - {linha[2]}\n" for linha in leitor]
@@ -45,7 +45,7 @@ def emtu():
     # Função para exibir as tarifas das linhas da EMTU
     def exibir_tarifas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 linhas = []
@@ -70,7 +70,7 @@ def emtu():
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_EMTU\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -89,15 +89,15 @@ def emtu():
         for shape_id, coordenadas in shapes.items():
             folium.PolyLine(coordenadas, color='red').add_to(m)
 
-        m.save("Mapa dos Trilhos\\mapa_shapes.html")
-        webbrowser.open("Mapa dos Trilhos\\mapa_shapes.html")
+        m.save("Mapa_dos_Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_shapes.html")
 
     # Função para exibir os pontos de parada das rotas da EMTU
     def pontos():
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
 
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_EMTU\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
@@ -119,8 +119,8 @@ def emtu():
 
             ).add_to(marker_cluster)
 
-        n.save("Mapa dos Trilhos\\mapa_paradas_cluster.html")
-        webbrowser.open("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+        n.save("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
 
     # Função para filtrar as linhas com base no termo de pesquisa
     def filtrar_linhas():
