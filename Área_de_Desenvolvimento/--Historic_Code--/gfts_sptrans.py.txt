@@ -1,0 +1,54 @@
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_sptrans.py
+Renomear as pastas com espaços no nome por (_)
+
+de (Linha 35)
+    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_SPTRANS.ico')
+
+para (Linha 35)
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\onibus_SPTRANS.ico')
+
+de (Linha 44)
+            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
+
+para (Linha 44)
+            with open('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
+
+de (Linha 58)
+            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+
+para (Linha 58)
+            with open('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+
+de (Linha 74)
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+
+para (Linha 74)
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+
+de (Linha 93)
+        m.save("Mapa dos Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa dos Trilhos\\mapa_shapes.html")
+
+para (Linha 93)
+        m.save("Mapa_dos_Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_shapes.html")
+
+de (Linha 101)
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
+
+para (Linha 101)
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt"
+
+de (Linha 123)
+        n.save("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+
+para (Linha 123)
+        n.save("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,163 @@
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/mapa.py
+Renomear as pastas com espaços no nome por (_)
+
+de (linha 83)
+                caminho_icone = caminho_icones.get(line_info, 'Mapa dos Trilhos\\Icons\\default.png')
+
+para (linha 83)
+                caminho_icone = caminho_icones.get(line_info, 'Mapa_dos_Trilhos\\Icons\\default.png')
+
+de (linha 86)
+                caminho_icone = 'Mapa dos Trilhos\\Icons\\default.png'
+
+para (linha 86)
+                caminho_icone = 'Mapa_dos_Trilhos\\Icons\\default.png'
+
+de (linha 101)
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+
+para (linha 101)
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+
+de (linha 122)
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
+
+para (linha 122)
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_EMTU\\shapes.txt"
+
+de (linha 142)
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
+
+para (linha 142)
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_EMTU\\stops.txt"
+
+de (linha 158)
+                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_emtu.png'
+
+para (linha 158)
+                caminho_icone_personalizado = 'Mapa_dos_Trilhos\\Icons\\icone-terminais-pontos_emtu.png'
+
+de (linha 174)
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
+
+para (linha 174)
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt"
+
+de (linha 190)
+                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_sptrans.png'
+
+para (linha 190)
+                caminho_icone_personalizado = 'Mapa_dos_Trilhos\\Icons\\icone-terminais-pontos_sptrans.png'
+
+de (linha 206)
+        bicicletarios_geojson = 'Mapa dos Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
+
+para (linha 206)
+        bicicletarios_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
+
+de (linha 221)
+                    icon=folium.CustomIcon(icon_image='Mapa dos Trilhos\\Icons\\Bicicleta.png', icon_size=(30, 30))
+
+para (linha 221)
+                    icon=folium.CustomIcon(icon_image='Mapa_dos_Trilhos\\Icons\\Bicicleta.png', icon_size=(30, 30))
+
+de (linha 225)
+        ciclovias_geojson = 'Mapa dos Trilhos\\Data\\LL_WGS84_KMZ_redecicloviaria.json'
+
+para (linha 225)
+        ciclovias_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_redecicloviaria.json'
+
+de (linha 253)
+            "N1": "Mapa dos Trilhos\\Icons\\N1 - Boa.png",
+            "N2": "Mapa dos Trilhos\\Icons\\N2 - Moderada.png",
+            "N3": "Mapa dos Trilhos\\Icons\\N3 - Ruim.png",
+            "N4": "Mapa dos Trilhos\\Icons\\N4 - Muito Ruim.png",
+            "N5": "Mapa dos Trilhos\\Icons\\N5 - Péssima.png",
+
+para (linha 253)
+            "N1": "Mapa_dos_Trilhos\\Icons\\N1 - Boa.png",
+            "N2": "Mapa_dos_Trilhos\\Icons\\N2 - Moderada.png",
+            "N3": "Mapa_dos_Trilhos\\Icons\\N3 - Ruim.png",
+            "N4": "Mapa_dos_Trilhos\\Icons\\N4 - Muito Ruim.png",
+            "N5": "Mapa_dos_Trilhos\\Icons\\N5 - Péssima.png",
+
+de (linha 270)
+        with open('Mapa dos Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
+
+para (linha 270)
+        with open('Mapa_dos_Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
+
+de (linha 326)
+        with open('Mapa dos Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
+
+para (linha 326)
+        with open('Mapa_dos_Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
+
+de (linha 363)
+        with open('Mapa dos Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
+
+para (linha 363)
+        with open('Mapa_dos_Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
+
+de (linha 430)
+        with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
+
+para (linha 430)
+        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
+
+de (linha 471)
+        with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
+
+para (linha 471)
+        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
+
+de (linha 524)
+    mapa_trilhos_group = folium.FeatureGroup(name='Mapa dos Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
+
+para (linha 524)
+    mapa_trilhos_group = folium.FeatureGroup(name='Mapa_dos_Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
+
+de (linha 538)
+    cores_linhas = carregar_dados_arquivo('Mapa dos Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
+    caminho_icones = carregar_dados_arquivo('Mapa dos Trilhos\\Data\\caminho_icones.json')
+
+para (linha 538)
+    cores_linhas = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
+    caminho_icones = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\caminho_icones.json')
+
+de (linha 542)
+    geojson_file_sections = 'Mapa dos Trilhos\\Data\\sao-paulo_sections.geojson'
+
+para (linha 542)
+    geojson_file_sections = 'Mapa_dos_Trilhos\\Data\\sao-paulo_sections.geojson'
+
+de (linha 546)
+    geojson_file_stations = 'Mapa dos Trilhos\\Data\\sao-paulo_stations.geojson'
+
+para (linha 546)
+    geojson_file_stations = 'Mapa_dos_Trilhos\\Data\\sao-paulo_stations.geojson'
+
+de (linha 620)
+    map_file = "Mapa dos Trilhos\\mapa_global.html"
+
+para (linha 620)
+    map_file = "Mapa_dos_Trilhos\\mapa_global.html"
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------

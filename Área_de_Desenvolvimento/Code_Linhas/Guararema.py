@@ -20,14 +20,14 @@ def guararema():
     canvas.pack()  # Empacota o canvas na janela
 
     # Carrega uma imagem para o ícone da janela
-    image = Image.open('Mapa dos Trilhos\\Favicon\\ABPF_LOGO.ico')
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\ABPF_LOGO.ico')
     photo = ImageTk.PhotoImage(image)
 
     # Define o ícone da janela
     root.iconphoto(False, photo)
 
     # Carrega o logotipo da ABPF
-    metro_logo = Image.open("Mapa dos Trilhos\\Imgs\\ABPF_LOGO.jpg")
+    metro_logo = Image.open("Mapa_dos_Trilhos\\Imgs\\ABPF_LOGO.jpg")
     # Redimensiona a imagem do logotipo para caber no canvas
     metro_logo = metro_logo.resize((120, 50))
     metro_logo_tk = ImageTk.PhotoImage(metro_logo)

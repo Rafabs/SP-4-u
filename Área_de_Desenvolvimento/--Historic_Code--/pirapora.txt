@@ -1,0 +1,24 @@
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/pirapora.py
+Renomear as pastas com espaços no nome por (_)
+
+de (Linha 23)
+    image = Image.open('Mapa dos Trilhos\\Favicon\\IFPPC_LOGO.ico')
+
+para (Linha 23)
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\IFPPC_LOGO.ico')
+
+de (Linha 30)
+    metro_logo = Image.open("Mapa dos Trilhos\\Imgs\\IFPPC_LOGO.jpg")
+
+para (Linha 30)
+    metro_logo = Image.open("Mapa_dos_Trilhos\\Imgs\\IFPPC_LOGO.jpg")
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------

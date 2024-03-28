@@ -1,0 +1,54 @@
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_emtu.py
+Renomear as pastas com espaços no nome por (_)
+
+de (Linha 25)
+    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_EMTU.ico')
+
+para (Linha 25)
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\onibus_EMTU.ico')
+
+de (Linha 34)
+            with open('Mapa dos Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
+
+para (Linha 34)
+            with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
+
+de (Linha 48)
+            with open('Mapa dos Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+
+para (Linha 48)
+            with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+
+de (Linha 73)
+        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
+
+para (Linha 73)
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_EMTU\\shapes.txt"
+
+de (Linha 92)
+        m.save("Mapa dos Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa dos Trilhos\\mapa_shapes.html")
+
+para (Linha 92)
+        m.save("Mapa_dos_Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_shapes.html")
+
+de (Linha 100)
+        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
+
+para (Linha 100)
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_EMTU\\stops.txt"
+
+de (Linha 122)
+        n.save("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+
+para (Linha 122)
+        n.save("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------

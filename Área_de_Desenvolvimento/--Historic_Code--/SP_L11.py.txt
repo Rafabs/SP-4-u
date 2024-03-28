@@ -1,16 +1,17 @@
->> 01:42 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/Metrô_SP_L4.py
-INSERÇÃO integração Linha 13 - Jade no mapa da Linha 4 - Amarela no Python e em linha_04.html
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+Renomear as pastas com espaços no nome por (_)
 
-de 
-para (linha 112)
-    linha13_jade_icon = canvas.create_text(
-        x1-3, y1+120, text="●", font="Helvetica 32", anchor="w", fill=jade)
-    l13_icon = canvas.create_text(
-        x1+3, y1+122, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
+de (linha 23)
+    image = Image.open('Mapa dos Trilhos\\Favicon\\11_coral.ico')
 
-para (linha 158)     
-    canvas.lift(l13_icon)
+para (linha 23)
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\11_coral.ico')
 
+de (linha 30)
+    metro_logo = Image.open("Mapa dos Trilhos\\Imgs\\METRO_LOGO.jpg")
+
+para (linha 30)
+    metro_logo = Image.open("Mapa_dos_Trilhos\\Imgs\\METRO_LOGO.jpg")
 
 (X) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO

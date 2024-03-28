@@ -1,4 +1,32 @@
->> 02:36 20/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/server.js
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/varredura.py
+Renomear as pastas com espaços no nome por (_)
+
+de (linha 16)
+    pastas_verificadas = ["Mapa dos Trilhos",
+                        "Mapa dos Trilhos\\Sobre",
+                        "Mapa dos Trilhos/Data/",
+                        "Mapa dos Trilhos/Gtfs_EMTU/",  
+                        "Mapa dos Trilhos/Gtfs_SPTRANS/", 
+                        "Mapa dos Trilhos/Linhas/"]
+para (linha 16)
+    pastas_verificadas = ["Mapa_dos_Trilhos",
+                        "Mapa_dos_Trilhos\\Sobre",
+                        "Mapa_dos_Trilhos/Data/",
+                        "Mapa_dos_Trilhos/Gtfs_EMTU/",  
+                        "Mapa_dos_Trilhos/Gtfs_SPTRANS/", 
+                        "Mapa_dos_Trilhos/Linhas/"]
+de (linha 24)
+    lista_arquivos_verificados = ["Mapa dos Trilhos/Data/caminho_icones.json", 
+
+para (linha 24)
+    lista_arquivos_verificados = ["Mapa_dos_Trilhos/Data/caminho_icones.json", 
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+>> 02:36 20/03/2024 RB - Mapa dos Trilhos/varredura.py
 Python: Verificar possibilidade ao inicializar o programa, fazer uma varredura automática dos documentos disponíveis, exemplo: MAPA DAS LINHAS: OK.
 
 de (Linha 1)

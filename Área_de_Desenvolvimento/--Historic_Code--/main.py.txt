@@ -2,6 +2,30 @@
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+Renomear as pastas com espaços no nome por (_)
+
+de (Linha 8)
+sys.path.append('Mapa dos Trilhos')  # Adiciona o diretório 'Mapa dos Trilhos' ao caminho de busca de módulos
+sys.path.append('Mapa dos Trilhos\\Linhas')  # Adiciona o diretório 'Mapa dos Trilhos\Linhas' ao caminho de busca de módulos
+
+para (Linha 8)
+sys.path.append('Mapa_dos_Trilhos')  # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
+sys.path.append('Mapa_dos_Trilhos\\Linhas')  # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
+
+de (Linha 109)
+logging.basicConfig(filename='Mapa dos Trilhos\\log.txt', level=logging.INFO,
+
+para (Linha 109)
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', level=logging.INFO,
+
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 00:06 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 Atualizar nome arquivos das linhas .py para "SPLxxx".
 

@@ -1,0 +1,42 @@
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/guias.py
+Renomear as pastas com espaços no nome por (_)
+
+de (Linha 11)
+    pdf = fitz.open('Mapa dos Trilhos\\Data\\mapa-da-rede-metro.pdf')
+
+para (Linha 11)
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\mapa-da-rede-metro.pdf')
+
+de (Linha 23)
+    pdf = fitz.open('Mapa dos Trilhos\\Data\\Guia_do_passageiro_abr_2022.pdf')
+
+para (Linha 23)
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Guia_do_passageiro_abr_2022.pdf')
+
+de (Linha 35)
+    pdf = fitz.open('Mapa dos Trilhos\\Data\\Desktop_Guide_abr_2022_v2.pdf')
+
+para (Linha 35)
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Desktop_Guide_abr_2022_v2.pdf')
+
+de (Linha 47)
+    pdf = fitz.open('Mapa dos Trilhos\\Data\\Regulamento-Viagem.pdf')
+
+para (Linha 47)
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Regulamento-Viagem.pdf')
+
+de (Linha 59)
+    pdf = fitz.open('Mapa dos Trilhos\\Data\\Regulamento de Viagem Expresso Turístico.pdf')
+
+para (Linha 59)
+    pdf = fitz.open('Mapa_dos_Trilhos\\Data\\Regulamento de Viagem Expresso Turístico.pdf')
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------

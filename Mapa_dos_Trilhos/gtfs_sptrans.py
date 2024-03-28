@@ -32,7 +32,7 @@ def sptrans():
     root.geometry("1920x1080")
 
     # Carrega a imagem do ícone usando o PIL
-    image = Image.open('Mapa dos Trilhos\\Favicon\\onibus_sptrans.ico')
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\onibus_sptrans.ico')
     photo = ImageTk.PhotoImage(image)
 
     # Define o ícone da janela
@@ -41,7 +41,7 @@ def sptrans():
     # Função para exibir as rotas da SPTrans
     def exibir_rotas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\routes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 rotas = [f"{linha[2]} - {linha[3]}\n" for linha in leitor]
@@ -55,7 +55,7 @@ def sptrans():
     # Função para exibir as tarifas das linhas da SPTrans
     def exibir_tarifas():
         try:
-            with open('Mapa dos Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
+            with open('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
                 next(leitor)
                 for linha in leitor:
@@ -71,7 +71,7 @@ def sptrans():
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -90,15 +90,15 @@ def sptrans():
         for shape_id, coordenadas in shapes.items():
             folium.PolyLine(coordenadas, color='red').add_to(m)
 
-        m.save("Mapa dos Trilhos\\mapa_shapes.html")
-        webbrowser.open("Mapa dos Trilhos\\mapa_shapes.html")
+        m.save("Mapa_dos_Trilhos\\mapa_shapes.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_shapes.html")
 
     # Função para exibir os pontos de parada das rotas da SPTrans
     def pontos():
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
 
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
@@ -120,8 +120,8 @@ def sptrans():
 
             ).add_to(marker_cluster)
 
-        n.save("Mapa dos Trilhos\\mapa_paradas_cluster.html")
-        webbrowser.open("Mapa dos Trilhos\\mapa_paradas_cluster.html")
+        n.save("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
+        webbrowser.open("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
 
     # Função para filtrar as linhas com base no termo de pesquisa
     def filtrar_linhas():

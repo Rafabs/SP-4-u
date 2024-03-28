@@ -13,15 +13,15 @@ def verificacao():
 
 
     # Lista de pastas a serem verificadas
-    pastas_verificadas = ["Mapa dos Trilhos",
-                        "Mapa dos Trilhos\\Sobre",
-                        "Mapa dos Trilhos/Data/",
-                        "Mapa dos Trilhos/Gtfs_EMTU/",  
-                        "Mapa dos Trilhos/Gtfs_SPTRANS/", 
-                        "Mapa dos Trilhos/Linhas/"]
+    pastas_verificadas = ["Mapa_dos_Trilhos",
+                        "Mapa_dos_Trilhos\\Sobre",
+                        "Mapa_dos_Trilhos/Data/",
+                        "Mapa_dos_Trilhos/Gtfs_EMTU/",  
+                        "Mapa_dos_Trilhos/Gtfs_SPTRANS/", 
+                        "Mapa_dos_Trilhos/Linhas/"]
 
     # Lista de arquivos a serem verificados em todas as pastas
-    lista_arquivos_verificados = ["Mapa dos Trilhos/Data/caminho_icones.json", 
+    lista_arquivos_verificados = ["Mapa_dos_Trilhos/Data/caminho_icones.json", 
                                 "dados_estacoes_medicoes.json", 
                                 "Desktop_Guide_abr_2022_v2.pdf", 
                                 "Guia_do_passageiro_abr_2022.pdf", 

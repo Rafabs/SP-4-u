@@ -1,0 +1,33 @@
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+Renomear as pastas com espaços no nome por (_)
+
+de (linha 23)
+    image = Image.open('Mapa dos Trilhos\\Favicon\\13_jade.ico')
+
+para (linha 23)
+    image = Image.open('Mapa_dos_Trilhos\\Favicon\\13_jade.ico')
+
+de (linha 30)
+    metro_logo = Image.open("Mapa dos Trilhos\\Imgs\\METRO_LOGO.jpg")
+
+para (linha 30)
+    metro_logo = Image.open("Mapa_dos_Trilhos\\Imgs\\METRO_LOGO.jpg")
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
+( ) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
