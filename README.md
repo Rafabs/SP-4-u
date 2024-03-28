@@ -152,13 +152,13 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 - [ ] Informar no status linha a última atualização do mesmo em main.py
 - [ ] Renomear as pastas com espaços no nome por (_)
-- [ ] Atualizar nome arquivos das linhas .py para "SPLxxx".
-- [ ] Atualizar nome arquivos das linhas .html para "SPLxxx".
 - [ ] Inserir imagens da execução no readme.md 
 - [ ] Criar item para versões em página separada.
 - [ ] Tornar o projeto responsível ```v1.1.0```
 - [ ] Criar arquivo/item histórico das versões.
 - [ ] Corrigir exibição da L4 em main.py
+- [x] Atualizar nome arquivos das linhas .py para "SPLxxx".
+- [x] Atualizar nome arquivos das linhas .html para "SPLxxx
 
 ## Contribuição
 
