@@ -27,11 +27,11 @@ Cada linha recebeu uma cor em hexadecimal, de acordo com o GFTS da [SPTRANS](htt
 - ![#00B352](https://via.placeholder.com/15/00B352/000000?text=+) `#00B352` Linha 13 - Jade 
 - ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) `#C0C0C0` Linha 15 - Prata 
 
-Cada arquivo `.py` na pasta `Mapa dos Trilhos` corresponde a um mapa de uma linha específica. Você pode explorar cada arquivo para ver como os mapas estão sendo criados e personalizados usando o Tkinter.
+Cada arquivo `.py` na pasta `Mapa_dos_Trilhos` corresponde a um mapa de uma linha específica. Você pode explorar cada arquivo para ver como os mapas estão sendo criados e personalizados usando o Tkinter.
 
-Cada arquivo `.json` e `.geojson` na pasta `Mapa dos Trilhos/Data` corresponde a dados de toda a malha ferroviária e rodoviária EMTU/METRA/SPTRANS. 
+Cada arquivo `.json` e `.geojson` na pasta `Mapa_dos_Trilhos/Data` corresponde a dados de toda a malha ferroviária e rodoviária EMTU/METRA/SPTRANS. 
 
-Cada arquivo `.png` na pasta `Mapa dos Trilhos/Icons` foram extraídos do [Flaticon](https://www.flaticon.com/), exceto os logotipos, que foram extraídos dos sites oficiais.
+Cada arquivo `.png` na pasta `Mapa_dos_Trilhos/Icons` foram extraídos do [Flaticon](https://www.flaticon.com/), exceto os logotipos, que foram extraídos dos sites oficiais.
 
 Os arquivos de Fontes usados no CSS3 foram extraídos do GitHub do [Google](https://github.com/google/fonts/?tab=readme-ov-file)
 ## Bibliotecas Utilizadas
