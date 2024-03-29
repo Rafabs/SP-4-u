@@ -1,3 +1,18 @@
+>> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+- [ ] Informar no status linha a última atualização do mesmo em index.html
+
+de (linha 157)
+Vazio
+
+para (linha 157)    
+        <div class="empresa" id="ultima-atualizacao">Atualizado em DD/MM/AAAA HH:MM</div>
+
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:40 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Renomear as pastas com espaços no nome por (_)
 

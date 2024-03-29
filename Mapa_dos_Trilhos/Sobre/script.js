@@ -518,55 +518,85 @@ fetch('http://localhost:3000/linha15-status')
     // Captura erros, caso ocorram
     .catch(err => console.log(err));
 
-// Função para fazer uma solicitação HTTP GET para a API
-function fetchNews() {
-    const apiKey = '9d1db06d9c1f4b0fb13aaa227b173827';
-    const apiUrl = `https://newsapi.org/v2/everything?q=transporte%20p%C3%BAblico%20S%C3%A3o%20Paulo&apiKey=${apiKey}`;
+window.onload = function () {
+    // Função para obter a hora e data atual do sistema
+    function getHoraAtual() {
+        // Cria um objeto Date para obter a hora e data atual
+        var data = new Date();
+        // Extrai os componentes de data e hora
+        var dia = data.getDate();
+        var mes = data.getMonth() + 1; // Os meses começam do zero, então somamos 1
+        var ano = data.getFullYear();
+        var hora = data.getHours();
+        var minutos = data.getMinutes();
+        // Formata a data no formato DD/MM/AAAA
+        var dataFormatada = (dia < 10 ? '0' : '') + dia + '/' + (mes < 10 ? '0' : '') + mes + '/' + ano;
+        // Formata a hora no formato HH:MM
+        var horaFormatada = (hora < 10 ? '0' : '') + hora + ':' + (minutos < 10 ? '0' : '') + minutos;
+        // Retorna a data e hora formatadas como uma string
+        return dataFormatada + ' ' + horaFormatada;
+    }
 
-    fetch(apiUrl)
-        .then(response => response.json())
-        .then(data => {
-            const newsContainer = document.getElementById('news-container');
-            // Limpa o conteúdo anterior
-            newsContainer.innerHTML = '';
+    // Atualiza a hora e data atual a cada segundo
+    function atualizarHora() {
+        var horaAtual = getHoraAtual();
+        // Seleciona o elemento com o id "ultima-atualizacao" e atualiza seu conteúdo com a hora e data atual
+        document.getElementById('ultima-atualizacao').textContent = 'Atualizado em ' + horaAtual;
+    }
 
-            // Verifica se os dados retornados pela API estão no formato esperado
-            if (data && data.articles) {
-                // Itera sobre os resultados e cria elementos HTML para exibir as notícias
-                data.articles.forEach(newsItem => {
-                    const newsElement = document.createElement('div');
-                    newsElement.classList.add('news-item');
+    // Função para fazer uma solicitação HTTP GET para a API de notícias
+    function fetchNews() {
+        const apiKey = '9d1db06d9c1f4b0fb13aaa227b173827';
+        const apiUrl = `https://newsapi.org/v2/everything?q=transporte%20p%C3%BAblico%20S%C3%A3o%20Paulo&apiKey=${apiKey}`;
 
-                    const titleElement = document.createElement('h2');
-                    titleElement.textContent = newsItem.title;
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const newsContainer = document.getElementById('news-container');
+                // Limpa o conteúdo anterior
+                newsContainer.innerHTML = '';
 
-                    const descriptionElement = document.createElement('p');
-                    descriptionElement.textContent = newsItem.description;
+                // Verifica se os dados retornados pela API estão no formato esperado
+                if (data && data.articles) {
+                    // Itera sobre os resultados e cria elementos HTML para exibir as notícias
+                    data.articles.forEach(newsItem => {
+                        const newsElement = document.createElement('div');
+                        newsElement.classList.add('news-item');
 
-                    const linkElement = document.createElement('a');
-                    linkElement.textContent = 'Leia mais';
-                    linkElement.href = newsItem.url;
-                    linkElement.target = '_blank';
+                        const titleElement = document.createElement('h2');
+                        titleElement.textContent = newsItem.title;
 
-                    const imageElement = document.createElement('img');
-                    imageElement.src = newsItem.urlToImage;
-                    imageElement.alt = newsItem.title;
+                        const descriptionElement = document.createElement('p');
+                        descriptionElement.textContent = newsItem.description;
 
-                    newsElement.appendChild(titleElement);
-                    newsElement.appendChild(descriptionElement);
-                    newsElement.appendChild(linkElement);
-                    newsElement.appendChild(imageElement);
+                        const linkElement = document.createElement('a');
+                        linkElement.textContent = 'Leia mais';
+                        linkElement.href = newsItem.url;
+                        linkElement.target = '_blank';
 
-                    newsContainer.appendChild(newsElement);
-                });
-            } else {
-                console.error('Formato de dados inválido ou ausência de dados de notícias.');
-            }
-        })
-        .catch(error => {
-            console.error('Erro ao obter notícias:', error);
-        });
-}
+                        const imageElement = document.createElement('img');
+                        imageElement.src = newsItem.urlToImage;
+                        imageElement.alt = newsItem.title;
 
-// Chama a função fetchNews quando a página é carregada
-window.onload = fetchNews;
+                        newsElement.appendChild(titleElement);
+                        newsElement.appendChild(descriptionElement);
+                        newsElement.appendChild(linkElement);
+                        newsElement.appendChild(imageElement);
+
+                        newsContainer.appendChild(newsElement);
+                    });
+                } else {
+                    console.error('Formato de dados inválido ou ausência de dados de notícias.');
+                }
+            })
+            .catch(error => {
+                console.error('Erro ao obter notícias:', error);
+            });
+    }
+
+    // Chama a função atualizarHora quando a página é carregada pela primeira vez
+    atualizarHora();
+
+    // Chama a função fetchNews quando a página é carregada
+    fetchNews();
+};
