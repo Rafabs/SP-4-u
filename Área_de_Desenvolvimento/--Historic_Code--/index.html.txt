@@ -52,7 +52,8 @@ para (linha 253)
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 00:26 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.htmlAtualizar nome arquivos das linhas .html para "SPLxxx".
+>> 00:26 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+Atualizar nome arquivos das linhas .html para "SPLxxx".
 
 de (linha 92)
                 <span style="background-color: #0455A1;"></span> <code>#0455A1</code> <a href="linha_01.html">Linha 01 -
