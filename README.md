@@ -176,7 +176,7 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 ### Versão ![Version](https://img.shields.io/badge/1.0.9-yellow.svg)
 
 - Incrementação de varredura de arquivos nas pastas na versão Web e Python
-- 
+
 ### Versão ![Version](https://img.shields.io/badge/1.0.8-yellow.svg)
 
 Incrementação das notícias na página principal do Projeto Web, além de informação de status das linhas na versão web.
