@@ -153,10 +153,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 - [ ] Criar item para versões em página separada.
 - [ ] Tornar o projeto responsível ```v1.1.0```
 - [ ] Corrigir exibição da L4 em main.py
-- [x] Atualizar nome arquivos das linhas .py para "SPLxxx".
-- [x] Atualizar nome arquivos das linhas .html para "SPLxxx
-- [x] Renomear as pastas com espaços no nome por (_)
-- [x] Informar no status linha a última atualização do mesmo em index.html
 
 ## Contribuição
 
