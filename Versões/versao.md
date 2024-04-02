@@ -6,8 +6,8 @@
 
 ### Versão ![Version](https://img.shields.io/badge/1.0.8-yellow.svg)
 
-Incrementação das notícias na página principal do Projeto Web, além de informação de status das linhas na versão web.
-- 
+- Incrementação das notícias na página principal do Projeto Web, além de informação de status das linhas na versão web.
+
 ### Versão ![Version](https://img.shields.io/badge/1.0.7-yellow.svg)
 
 - Incrementação do Figma ao escopo do projeto e dados na versão web.
