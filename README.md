@@ -183,7 +183,7 @@ Divirta-se explorando os mapas do transporte metropolitano de São Paulo!
 
 ## Versões e Fases
 
-O projeto está em constante evolução e passa por diferentes fases de desenvolvimento. Abaixo estão listadas as versões principais e as fases atuais, saiba mais em ![Versões Anteriores](https://github.com/Rafabs/SP-4-u/tree/88acfd9d030c56f44776496af6f647b1a140efa0/Vers%C3%B5es)
+O projeto está em constante evolução e passa por diferentes fases de desenvolvimento. Abaixo estão listadas as versões principais e as fases atuais, saiba mais em ![Versões Anteriores](https://github.com/Rafabs/SP-4-u/blob/88acfd9d030c56f44776496af6f647b1a140efa0/Vers%C3%B5es/versao.md)
 
 
 ## Licença
