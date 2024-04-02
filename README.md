@@ -162,11 +162,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
 
 ## To Do 
-- [ ] Criar item para versões em página separada.
 - [ ] Tornar o projeto responsível ```v1.1.0```
 - [ ] Corrigir exibição da L4 em main.py
 - [ ] Codificar API's em subpastas.
 - [x] Inserir imagens da execução no readme.md 
+- [x] Criar item para versões em página separada.
 
 ## Contribuição
 
