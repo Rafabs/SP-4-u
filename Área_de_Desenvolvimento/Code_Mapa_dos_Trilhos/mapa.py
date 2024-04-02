@@ -80,10 +80,10 @@ def mapa_global():
 
             if lines_info:
                 line_info = lines_info[0]['line']
-                caminho_icone = caminho_icones.get(line_info, 'Mapa dos Trilhos\\Icons\\default.png')
+                caminho_icone = caminho_icones.get(line_info, 'Mapa_dos_Trilhos\\Icons\\default.png')
             else:
                 line_info = ''
-                caminho_icone = 'Mapa dos Trilhos\\Icons\\default.png'
+                caminho_icone = 'Mapa_dos_Trilhos\\Icons\\default.png'
 
             abertura = row.get('opening', '')
 
@@ -98,7 +98,7 @@ def mapa_global():
 
     def adicionar_shapes_sptrans(mapa, grupo):
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_SPTRANS\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -119,7 +119,7 @@ def mapa_global():
 
     def adicionar_shapes_emtu(mapa, grupo_emtu):
         shapes = {}
-        caminho_arquivo_shapes = "Mapa dos Trilhos\\Gtfs_EMTU\\shapes.txt"
+        caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_EMTU\\shapes.txt"
 
         with open(caminho_arquivo_shapes, 'r', encoding='utf-8') as arquivo_shapes:
             linhas = arquivo_shapes.readlines()
@@ -139,7 +139,7 @@ def mapa_global():
             folium.PolyLine(coordenadas, color='blue').add_to(grupo_emtu)
 
     def adicionar_pontos_emtu(mapa, paradas_emtu_group):
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_EMTU\\stops.txt"
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_EMTU\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
@@ -155,7 +155,7 @@ def mapa_global():
                 stop_lon = float(stop_lon)
 
                 # Define o caminho do ícone personalizado
-                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_emtu.png'
+                caminho_icone_personalizado = 'Mapa_dos_Trilhos\\Icons\\icone-terminais-pontos_emtu.png'
 
                 # Cria um ícone personalizado
                 icone_personalizado = folium.CustomIcon(
@@ -171,7 +171,7 @@ def mapa_global():
                 ).add_to(paradas_emtu_group)
 
     def adicionar_pontos_sptrans(mapa, paradas_sptrans_group):
-        caminho_arquivo_stops = "Mapa dos Trilhos\\Gtfs_SPTRANS\\stops.txt"
+        caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
         with open(caminho_arquivo_stops, 'r', encoding='utf-8') as arquivo_stops:
@@ -187,7 +187,7 @@ def mapa_global():
                 stop_lon = float(stop_lon)
 
                 # Define o caminho do ícone personalizado
-                caminho_icone_personalizado = 'Mapa dos Trilhos\\Icons\\icone-terminais-pontos_sptrans.png'
+                caminho_icone_personalizado = 'Mapa_dos_Trilhos\\Icons\\icone-terminais-pontos_sptrans.png'
 
                 # Cria um ícone personalizado
                 icone_personalizado = folium.CustomIcon(
@@ -203,7 +203,7 @@ def mapa_global():
                 ).add_to(paradas_sptrans_group)
 
     def adicionar_bicicletarios_no_mapa(mapa, bicicletarios_group):
-        bicicletarios_geojson = 'Mapa dos Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
+        bicicletarios_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
         with open(bicicletarios_geojson, 'r', encoding='utf-8') as f:
             bicicletarios_data = json.load(f)
             for feature in bicicletarios_data['features']:
@@ -218,11 +218,11 @@ def mapa_global():
                         f"<b>Órgão:</b> {bcp_orgao}<br><b>Local:</b> {bcp_local}<br><b>Vagas:</b> {bcp_vaga}<br>",
                         max_width=300
                     ),
-                    icon=folium.CustomIcon(icon_image='Mapa dos Trilhos\\Icons\\Bicicleta.png', icon_size=(30, 30))
+                    icon=folium.CustomIcon(icon_image='Mapa_dos_Trilhos\\Icons\\Bicicleta.png', icon_size=(30, 30))
                 ).add_to(bicicletarios_group)
 
     def adicionar_ciclovias_no_mapa(mapa, ciclovias_group):
-        ciclovias_geojson = 'Mapa dos Trilhos\\Data\\LL_WGS84_KMZ_redecicloviaria.json'
+        ciclovias_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_redecicloviaria.json'
 
         with open(ciclovias_geojson, 'r', encoding='utf-8') as f:
             ciclovias_data = json.load(f)
@@ -250,11 +250,11 @@ def mapa_global():
     def adicionar_qualidade_ar(mapa, ar_group):
         # Mapeamento de ícones
         icone_mapping = {
-            "N1": "Mapa dos Trilhos\\Icons\\N1 - Boa.png",
-            "N2": "Mapa dos Trilhos\\Icons\\N2 - Moderada.png",
-            "N3": "Mapa dos Trilhos\\Icons\\N3 - Ruim.png",
-            "N4": "Mapa dos Trilhos\\Icons\\N4 - Muito Ruim.png",
-            "N5": "Mapa dos Trilhos\\Icons\\N5 - Péssima.png",
+            "N1": "Mapa_dos_Trilhos\\Icons\\N1 - Boa.png",
+            "N2": "Mapa_dos_Trilhos\\Icons\\N2 - Moderada.png",
+            "N3": "Mapa_dos_Trilhos\\Icons\\N3 - Ruim.png",
+            "N4": "Mapa_dos_Trilhos\\Icons\\N4 - Muito Ruim.png",
+            "N5": "Mapa_dos_Trilhos\\Icons\\N5 - Péssima.png",
         }
 
         # Mapeamento de classificações
@@ -267,7 +267,7 @@ def mapa_global():
         }
 
         # Carrega o arquivo JSON
-        with open('Mapa dos Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
+        with open('Mapa_dos_Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         # Cria um mapa
@@ -323,7 +323,7 @@ def mapa_global():
 
     def od1987(mapa, od1987_group):
         # Carrega o arquivo JSON
-        with open('Mapa dos Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -360,7 +360,7 @@ def mapa_global():
 
     def od1997(mapa, od1997_group):
         # Carrega o arquivo JSON
-        with open('Mapa dos Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -427,7 +427,7 @@ def mapa_global():
 
     def od2007(mapa, od2007_group):
         # Carrega o arquivo JSON
-        with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -468,7 +468,7 @@ def mapa_global():
 
     def od2017(mapa, od2017_group):
         # Carrega o arquivo JSON
-        with open('Mapa dos Trilhos\\Data\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -521,7 +521,7 @@ def mapa_global():
     paradas_emtu_group = folium.FeatureGroup(name='Paradas de Ônibus - EMTU', show=False)
     area_atendida_sptrans = folium.FeatureGroup(name='Área Atendida - SPTrans', show=False)
     area_atendida_emtu = folium.FeatureGroup(name='Área Atendida - EMTU', show=False)
-    mapa_trilhos_group = folium.FeatureGroup(name='Mapa dos Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
+    mapa_trilhos_group = folium.FeatureGroup(name='Mapa_dos_Trilhos e Corredor Exclusivo SPTRANS/EMTU', show=False)
     bicicletarios_group = folium.FeatureGroup(name='Bicicletários', show=False)
     ciclovias_group = folium.FeatureGroup(name='Ciclovias', show=False)
     ar_group = folium.FeatureGroup(name='Qualidade do Ar', show=False)
@@ -535,15 +535,15 @@ def mapa_global():
     paradas_emtu_group = MarkerCluster(name='Paradas de Ônibus - EMTU', show=False).add_to(m)
 
     # Carrega os dados necessários
-    cores_linhas = carregar_dados_arquivo('Mapa dos Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
-    caminho_icones = carregar_dados_arquivo('Mapa dos Trilhos\\Data\\caminho_icones.json')
+    cores_linhas = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
+    caminho_icones = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\caminho_icones.json')
 
     # Carrega o arquivo GeoJSON com as seções
-    geojson_file_sections = 'Mapa dos Trilhos\\Data\\sao-paulo_sections.geojson'
+    geojson_file_sections = 'Mapa_dos_Trilhos\\Data\\sao-paulo_sections.geojson'
     gdf_sections = gpd.read_file(geojson_file_sections)
 
     # Carrega o arquivo GeoJSON com as estações
-    geojson_file_stations = 'Mapa dos Trilhos\\Data\\sao-paulo_stations.geojson'
+    geojson_file_stations = 'Mapa_dos_Trilhos\\Data\\sao-paulo_stations.geojson'
     gdf_stations = gpd.read_file(geojson_file_stations)
 
     # Adiciona as seções ao mapa
@@ -617,7 +617,7 @@ def mapa_global():
     ).add_to(m)
 
     # Define o caminho do arquivo HTML
-    map_file = "Mapa dos Trilhos\\mapa_global.html"
+    map_file = "Mapa_dos_Trilhos\\mapa_global.html"
 
     # Verifica se o arquivo já existe
     if os.path.exists(map_file):
