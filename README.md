@@ -138,12 +138,15 @@ Observação: Certifique-se de que você possui o Node.js instalado no seu siste
 ## Exibição (Python)
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
-![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.9.jpg)
+![Imagem 1](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(10).png)
+![Imagem 2](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(7).png)
+![Imagem 3](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(8).png)
+![Imagem 4](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(9).png)
 
 ## Exibição (Web)
 
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
-![PÁGINA EM DESENVOLVIMENTO](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.9.jpg)
+![Imagem 1](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Hist%C3%B3rico/app_v1.0.9.jpg)
 
 ## Diagrama da versão atual v1.0.9
 ![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
