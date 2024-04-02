@@ -137,18 +137,26 @@ Observação: Certifique-se de que você possui o Node.js instalado no seu siste
 
 ## Exibição (Python)
 
-Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```main.py```:
-![Imagem 1](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(10).png)
-![Imagem 2](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(7).png)
-![Imagem 3](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(8).png)
-![Imagem 4](https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(9).png)
+Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo `main.py`:
+
+<div style="display:flex; flex-direction:row;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(10).png" alt="Imagem 1" style="width:50%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(7).png" alt="Imagem 2" style="width:50%;">
+</div>
+<div style="display:flex; flex-direction:row;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(8).png" alt="Imagem 3" style="width:50%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(9).png" alt="Imagem 4" style="width:50%;">
+</div>
 
 ## Exibição (Web)
 
-Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo ```index.html```:
-![Imagem 1](https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(1).png)
-![Imagem 2](https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(2).png)
-![Imagem 3](https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(3).png)
+Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo `index.html`:
+
+<div style="display:flex; flex-direction:row;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(1).png" alt="Imagem 1" style="width:33.33%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(2).png" alt="Imagem 2" style="width:33.33%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(3).png" alt="Imagem 3" style="width:33.33%;">
+</div>
 
 ## Diagrama da versão atual v1.0.9
 ![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
