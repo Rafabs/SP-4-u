@@ -153,9 +153,9 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo `index.html`:
 
 <div style="display:flex; flex-direction:row;">
-    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(1).png" alt="Imagem 1" style="width:33.33%;">
-    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(2).png" alt="Imagem 2" style="width:33.33%;">
-    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(3).png" alt="Imagem 3" style="width:33.33%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(1).png" alt="Imagem 1" style="width:50%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(2).png" alt="Imagem 2" style="width:50%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(3).png" alt="Imagem 3" style="width:50%;">
 </div>
 
 ## Diagrama da versão atual v1.0.9
