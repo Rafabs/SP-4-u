@@ -188,4 +188,4 @@ O projeto está em constante evolução e passa por diferentes fases de desenvol
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE)
