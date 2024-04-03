@@ -1,3 +1,18 @@
+>> 02:26 03/04/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+Corrigir exibição da L4 em main.py
+
+de (linha 36)
+    canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+
+para (linha 36)
+    canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo_tk)
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
 Renomear as pastas com espaços no nome por (_)
 
