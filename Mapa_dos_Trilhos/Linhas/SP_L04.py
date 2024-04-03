@@ -33,7 +33,7 @@ def line4():
     viaquatro_logo_tk = ImageTk.PhotoImage(viaquatro_logo)
 
      # Insere a imagem do logotipo no canvas
-    canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo)
+    canvas.create_image(0, 0, anchor="nw", image=viaquatro_logo_tk)
 
     # Definição das cores usadas no mapa
     azul = "#0455A1"

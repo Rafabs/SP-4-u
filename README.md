@@ -163,11 +163,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] Tornar o projeto responsível ```v1.1.0```
-- [ ] Corrigir exibição da L4 em main.py
 - [ ] Codificar API's em subpastas.
 - [ ] Inserir detlhes de algumas ações no diagrama
 - [x] Inserir imagens da execução no readme.md 
 - [x] Criar item para versões em página separada.
+- [x] Corrigir exibição da L4 em main.py
 
 ## Contribuição
 
