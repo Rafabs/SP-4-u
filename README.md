@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
-![Version](https://img.shields.io/badge/Vers%C3%A3o-1.0.9-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-29/03/2024-green.svg)
+![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-08/04/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -158,12 +158,11 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
         <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibi%C3%A7%C3%A3o/WEB_%20(2).png" alt="Imagem 3" style="width:50%;">
 </div>
 
-## Diagrama da versão atual v1.0.9
-![Diagrama da versão atual v1.0.9](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.0.9.png)
+## Diagrama da versão atual v1.1.0
+![Diagrama da versão atual v1.1.0](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.1.0.png)
 
 ## To Do 
-- [ ] Tornar o projeto responsível ```v1.1.0```
-- [ ] Codificar API's em subpastas.
+- [ ] Tornar o projeto responsível 
 - [ ] Inserir detlhes de algumas ações no diagrama
 
 ## Contribuição

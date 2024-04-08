@@ -1,3 +1,23 @@
+>> 01:50 08/04/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Mapa_dos_Trilhos/config.py
+Codificar API's em subpastas.
+
+de (linha 14)
+Vazio        
+
+para (linha 14)
+from config import API_TOKEN_QUALLITY_AR  # Importa o token da API do arquivo de configuração
+
+de (linha 287)
+            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6",        
+
+para (linha 287)
+            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN_QUALLITY_AR}", 
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/mapa.py
 Renomear as pastas com espaços no nome por (_)
 

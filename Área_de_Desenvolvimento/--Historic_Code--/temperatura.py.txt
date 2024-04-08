@@ -1,0 +1,23 @@
+>> 01:50 08/04/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Mapa_dos_Trilhos/config.py
+Codificar API's em subpastas.
+
+de (linha 4)
+Vazio        
+
+para (linha 4)
+from config import api_key_temperatura  # Importa o token da API do arquivo de configuração
+
+de (linha 15)
+    # Chave de API para acessar os dados meteorológicos
+    api_key = '16771021c6dc278a8a9ebdb23e682e50'
+    # URL da API com a cidade (São Paulo), chave de API e unidades métricas
+    url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={api_key}&units=metric'
+
+para (linha 15)
+    # URL da API com a cidade (São Paulo), chave de API e unidades métricas
+    url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={api_key_temperatura}&units=metric'
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------

@@ -11,6 +11,7 @@ import requests  # Importa o módulo requests para fazer requisições HTTP
 from datetime import datetime, timedelta  # Importa novamente a classe datetime e a classe timedelta para manipulação de datas
 from colorama import Fore, Back, Style, init  # Importa algumas funcionalidades para manipulação de cores no terminal
 import certifi  # Importa o módulo certifi para lidar com certificados SSL
+from config import API_TOKEN_QUALLITY_AR  # Importa o token da API do arquivo de configuração
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
@@ -283,7 +284,7 @@ def mapa_global():
             latitude, longitude = info['latitude'], info['longitude']
 
             # Utiliza o certifi para apontar para o caminho do certificado
-            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token=f2eb70b865dd52272beeb0c724a8049f1fb785e6", 
+            response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN_QUALLITY_AR}", 
                                     verify=certifi.where())
             air_quality_data = response.json()
 
