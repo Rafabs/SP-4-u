@@ -1,5 +1,6 @@
 from selenium import webdriver # Importa o módulo WebDriver do Selenium para automação de navegador web
 from bs4 import BeautifulSoup # Importa a classe BeautifulSoup do módulo bs4 para fazer o parsing do HTML
+from config import URL_SITE  # Importa a URL desejada do arquivo de configuração
 
 # Define uma função para obter o status das linhas e operações de transporte
 def status():
@@ -7,7 +8,7 @@ def status():
     driver = webdriver.Chrome()
 
     # Abre a página desejada
-    driver.get("https://www.viamobilidade.com.br/")
+    driver.get(URL_SITE)
 
     # Obtém o HTML da página carregada
     html_content = driver.page_source
