@@ -490,7 +490,7 @@ footer {
     /* Cor de texto padrão do GitHub */
     text-align: center;
     padding: 0px;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
 }
