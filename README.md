@@ -162,6 +162,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ![Diagrama da versão atual v1.1.0](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.1.0.png)
 
 ## To Do 
+- [ ] Atualizar nome das estações MRB e JUR com os naming Right, na versão Py e na Web
 - [ ] Tornar o projeto responsível 
 - [ ] Inserir detlhes de algumas ações no diagrama
 
