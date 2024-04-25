@@ -198,7 +198,7 @@ def line9():
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_BRR = canvas.create_text(x10+8, y10-13, text="Berrini",
                                   font="Helvetica 12", anchor="w", angle=60)
-    nome_MRB = canvas.create_text(x11+8, y11-13, text="Morumbi",
+    nome_MRB = canvas.create_text(x11+8, y11-13, text="Morumbi - Claro",
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_GJT = canvas.create_text(x12+8, y12-13, text="Granja Julieta",
                                   font="Helvetica 12", anchor="w", angle=60)
@@ -208,7 +208,7 @@ def line9():
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_SOC = canvas.create_text(x15+8, y15-13, text="Socorro",
                                   font="Helvetica 12", anchor="w", angle=60)
-    nome_JUR = canvas.create_text(x16+8, y16-13, text="Jurubatuba",
+    nome_JUR = canvas.create_text(x16+8, y16-13, text="Jurubatuba - Senac",
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_AUT = canvas.create_text(x17+8, y17-13, text="Autódromo",
                                   font="Helvetica 12", anchor="w", angle=60)

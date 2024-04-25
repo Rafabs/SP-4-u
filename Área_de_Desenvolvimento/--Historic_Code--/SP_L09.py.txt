@@ -1,3 +1,23 @@
+>> 02:07 25/04/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+Atualizar nome das estações MRB e JUR com os naming Right, na versão Py e na Web
+
+de (linha 201)
+    nome_MRB = canvas.create_text(x11+8, y11-13, text="Morumbi",
+
+para (linha 201)
+    nome_MRB = canvas.create_text(x11+8, y11-13, text="Morumbi - Claro",
+
+de (linha 211)
+    nome_JUR = canvas.create_text(x16+8, y16-13, text="Jurubatuba",
+
+para (linha 211)
+    nome_JUR = canvas.create_text(x16+8, y16-13, text="Jurubatuba - Senac",
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
 Renomear as pastas com espaços no nome por (_)
 
