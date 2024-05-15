@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-22/04/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-15/05/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -34,6 +34,25 @@ Cada arquivo `.json` e `.geojson` na pasta `Mapa_dos_Trilhos/Data` corresponde a
 Cada arquivo `.png` na pasta `Mapa_dos_Trilhos/Icons` foram extraídos do [Flaticon](https://www.flaticon.com/), exceto os logotipos, que foram extraídos dos sites oficiais.
 
 Os arquivos de Fontes usados no CSS3 foram extraídos do GitHub do [Google](https://github.com/google/fonts/?tab=readme-ov-file)
+
+## Última Atualização - SPTrans
+
+Inclusão da(s) linha(s):
+- ![Linha](https://img.shields.io/badge/606C/10-blue.svg) Circular - Cantinho Do Céu 
+- ![Linha](https://img.shields.io/badge/626A/10-blue.svg) Cantinho Do Céu - Mar Paulista
+- ![Linha](https://img.shields.io/badge/627M/10-blue.svg) Mar Paulista - Term. Sto. Amaro
+
+Remoção da(s) linha(s):
+Nada para mostrar aqui.
+
+## Última Atualização - EMTU
+
+Inclusão da(s) linha(s):
+Nada para mostrar aqui.
+
+Remoção da(s) linha(s):
+Nada para mostrar aqui.
+
 ## Bibliotecas Utilizadas
 
 Para executar os scripts, você precisará das seguintes bibliotecas Python:
