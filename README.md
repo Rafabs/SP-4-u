@@ -42,12 +42,18 @@ Inclusão da(s) linha(s):
 - ![Linha](https://img.shields.io/badge/626A/10-blue.svg) Cantinho Do Céu - Mar Paulista
 - ![Linha](https://img.shields.io/badge/627M/10-blue.svg) Mar Paulista - Term. Sto. Amaro
 
+Modificação da(s) linha(s):
+Nada para mostrar aqui.
+
 Remoção da(s) linha(s):
 Nada para mostrar aqui.
 
 ## Última Atualização - EMTU
 
 Inclusão da(s) linha(s):
+Nada para mostrar aqui.
+
+Modificação da(s) linha(s):
 Nada para mostrar aqui.
 
 Remoção da(s) linha(s):
