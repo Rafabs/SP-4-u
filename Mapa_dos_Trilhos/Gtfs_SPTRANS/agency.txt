@@ -1,2 +1,2 @@
 "agency_id","agency_name","agency_url","agency_timezone","agency_lang"
-"1","SPTRANS","http://www.sptrans.com.br/?versao=020624","America/Sao_Paulo","pt"
+"1","SPTRANS","http://www.sptrans.com.br/?versao=090724","America/Sao_Paulo","pt"
