@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-15/05/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-09/07/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -210,6 +210,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 ## To Do 
 - [ ] Tornar o projeto responsível 
 - [ ] Incluir Ortofoto 2004, 2017 ou 2020
+- [ ] Criar Mapa Linhas 6 e 17 
 - [ ] Inserir detlhes de algumas ações no diagrama
 
 ## Contribuição
