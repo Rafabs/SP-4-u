@@ -35,6 +35,21 @@ Cada arquivo `.png` na pasta `Mapa_dos_Trilhos/Icons` foram extraídos do [Flati
 
 Os arquivos de Fontes usados no CSS3 foram extraídos do GitHub do [Google](https://github.com/google/fonts/?tab=readme-ov-file)
 
+
+## Última Atualização - METRÔ/CPTM/ViaMobilidade
+
+Inclusão da(s) linha(s):
+Nada para mostrar aqui.
+
+Modificação da(s) linha(s):
+Nada para mostrar aqui.
+
+Remoção da(s) linha(s):
+Nada para mostrar aqui.
+
+Alteração Tarifária:
+Nada para mostrar aqui.
+
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
@@ -48,6 +63,9 @@ Nada para mostrar aqui.
 Remoção da(s) linha(s):
 Nada para mostrar aqui.
 
+Alteração Tarifária:
+Nada para mostrar aqui.
+
 ## Última Atualização - EMTU
 
 Inclusão da(s) linha(s):
@@ -57,6 +75,9 @@ Modificação da(s) linha(s):
 Nada para mostrar aqui.
 
 Remoção da(s) linha(s):
+Nada para mostrar aqui.
+
+Alteração Tarifária:
 Nada para mostrar aqui.
 
 ## Bibliotecas Utilizadas
@@ -188,6 +209,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] Tornar o projeto responsível 
+- [ ] Incluir Ortofoto 2004, 2017 ou 2020
 - [ ] Inserir detlhes de algumas ações no diagrama
 
 ## Contribuição
