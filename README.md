@@ -53,12 +53,12 @@ Nada para mostrar aqui.
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/606C/10-blue.svg) Circular - Cantinho Do Céu 
-- ![Linha](https://img.shields.io/badge/626A/10-blue.svg) Cantinho Do Céu - Mar Paulista
-- ![Linha](https://img.shields.io/badge/627M/10-blue.svg) Mar Paulista - Term. Sto. Amaro
+- ![Linha](https://img.shields.io/badge/3789/51-DA291C.svg) Metalúrgicos - Circular
+- ![Linha](https://img.shields.io/badge/879A/10-002F6C.svg) Metrô Barra Funda - Ctn
 
 Modificação da(s) linha(s):
-Nada para mostrar aqui.
+- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/3722/10-DA291C.svg) Cohab José Bonifácio - Metrô Penha
+- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/3722/10-DA291C.svg) Cohab José Bonifácio - Metrô Itaquera
 
 Remoção da(s) linha(s):
 Nada para mostrar aqui.
