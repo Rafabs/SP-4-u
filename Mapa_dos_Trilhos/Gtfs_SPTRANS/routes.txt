@@ -570,7 +570,7 @@
 "5143-10","1","5143-10","Term. Sapopemba - Term. Pq. D. Pedro Ii","3","006341","FFFFFF"
 "5144-10","1","5144-10","Term. Sapopemba - Term. Princ. Isabel","3","006341","FFFFFF"
 "5145-10","1","5145-10","Term. Sapopemba - Pça. Almeida Jr.","3","006341","FFFFFF"
-"514T-10","1","514T-10","Term. Sacomã - Jd. Itápolis","3","006341","FFFFFF"
+"514T-10","1","514T-10","Term. Sacomã - Conj. Hab. Teotônio Vilela","3","006341","FFFFFF"
 "5154-10","1","5154-10","Term. Sto. Amaro - Term. Princ. Isabel","3","782F40","FFFFFF"
 "5164-10","1","5164-10","Vl. Sta. Catarina - Pq. Ibirapuera","3","0082BA","FFFFFF"
 "5164-21","1","5164-21","Cid. Leonor - Pq. Ibirapuera","3","0082BA","FFFFFF"

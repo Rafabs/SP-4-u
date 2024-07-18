@@ -53,12 +53,11 @@ Nada para mostrar aqui.
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/3789/51-DA291C.svg) Metalúrgicos - Circular
-- ![Linha](https://img.shields.io/badge/879A/10-002F6C.svg) Metrô Barra Funda - Ctn
+Nada para mostrar aqui.
 
 Modificação da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/3722/10-DA291C.svg) Cohab José Bonifácio - Metrô Penha
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/3722/10-DA291C.svg) Cohab José Bonifácio - Metrô Itaquera
+- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/514T/10-006341.svg) Term. Sacomã - Jd. Itápolis
+- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/514T/10-006341.svg) Term. Sacomã - Conj. Hab. Teotônio Vilela
 
 Remoção da(s) linha(s):
 Nada para mostrar aqui.
