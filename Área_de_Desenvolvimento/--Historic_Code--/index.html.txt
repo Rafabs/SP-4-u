@@ -1,3 +1,32 @@
+>> 00:12 27/07/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+- [ ] Desenvolver as linhas 6 e 17 no mapa global em html
+
+de (linha 117)
+Vazio
+
+para (linha 117)    
+            <li><span style="background-color: #000000;"></span> <code>#000000</code> <a href="SP_L06.html">Linha 06 -
+                Laranja</a>
+            <div class="card" id="linha06-info">Informações sobre a Operação - Carregando...</div>
+            <div class="empresa">ACCIONA</div>
+            </li>       
+
+de (linha 161)
+Vazio
+
+para (linha 161)  
+            </li>
+            <li><span style="background-color: #000000;"></span> <code>#000000</code> <a href="SP_L17.html">Linha 17 -
+                Ouro</a>
+            <div class="card" id="linha06-info">Informações sobre a Operação - Carregando...</div>
+            <div class="empresa">VIAMOBILIDADE</div>
+            
+(x) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 

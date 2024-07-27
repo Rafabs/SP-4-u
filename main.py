@@ -27,6 +27,7 @@ from SP_L02 import line2  # Importa a função line2 do módulo SP_L02
 from SP_L03 import line3  # Importa a função line3 do módulo SP_L03
 from SP_L04 import line4  # Importa a função line4 do módulo SP_L04
 from SP_L05 import line5  # Importa a função line5 do módulo SP_L05
+from SP_L06 import line6  # Importa a função line6 do módulo SP_L06
 from SP_L07 import line7  # Importa a função line7 do módulo SP_L07
 from SP_L08 import line8  # Importa a função line8 do módulo SP_L08
 from SP_L09 import line9  # Importa a função line9 do módulo SP_L09
@@ -35,6 +36,7 @@ from SP_L11 import line11  # Importa a função line11 do módulo SP_L11
 from SP_L12 import line12  # Importa a função line12 do módulo SP_L12
 from SP_L13 import line13  # Importa a função line13 do módulo SP_L13
 from SP_L15 import line15  # Importa a função line15 do módulo SP_L15
+from SP_L17 import line17  # Importa a função line6 do módulo SP_L17
 from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
 from Guararema import guararema  # Importa a função guararema do módulo Guararema
 
@@ -266,6 +268,7 @@ verde = "#007E5E"
 vermelha = "#EE372F"
 amarela = "#FFF000"
 lilás = "#9B3894"
+laranja = "#999999"    
 rubi = "#CA016B"
 diamante = "#97A098"
 esmeralda = "#01A9A7"
@@ -274,6 +277,7 @@ coral = "#F68368"
 safira = "#133C8D"
 jade = "#00B352"
 prata = "#C0C0C0"
+ouro = "#999999"    
 
 # Código das cores de background
 preto = "#000000"
@@ -403,93 +407,113 @@ l5_icon = canvas.create_text(
 label_l5 = tk.Label(layout, text="", anchor="se")
 label_l5.place(x=1675, y=105)  
 
+button_l6 = tk.Button(layout, text="Laranja", command=line6,
+                      bg=laranja, fg="white", width=11)
+button_l6.place(x=1830, y=130)
+linha6_laranja_icon = canvas.create_text(
+    1800, 138, text="●", font="Helvetica 32", anchor="w", fill=laranja)
+l6_icon = canvas.create_text(
+    1809, 140, text="6", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l6 = tk.Label(layout, text="", anchor="se")
+label_l6.place(x=1675, y=130)  
+
 button_l7 = tk.Button(layout, text="Rubi", command=line7,
                       bg=rubi, fg="white", width=11)
-button_l7.place(x=1830, y=130)
+button_l7.place(x=1830, y=155)
 linha7_rubi_icon = canvas.create_text(
-    1800, 138, text="●", font="Helvetica 32", anchor="w", fill=rubi)
+    1800, 163, text="●", font="Helvetica 32", anchor="w", fill=rubi)
 l7_icon = canvas.create_text(
-    1809, 140, text="7", font="Helvetica 10 bold", anchor="w", fill=branco)
+    1809, 165, text="7", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l7 = tk.Label(layout, text="", anchor="se")
-label_l7.place(x=1675, y=130)  
+label_l7.place(x=1675, y=155)  
 
 button_l8 = tk.Button(layout, text="Diamante", command=line8,
                       bg=diamante, fg="black", width=11)
-button_l8.place(x=1830, y=155)
+button_l8.place(x=1830, y=180)
 linha8_diamante_icon = canvas.create_text(
-    1800, 163, text="●", font="Helvetica 32", anchor="w", fill=diamante)
+    1800, 188, text="●", font="Helvetica 32", anchor="w", fill=diamante)
 l8_icon = canvas.create_text(
-    1809, 165, text="8", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1809, 190, text="8", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l8 = tk.Label(layout, text="", anchor="se")
-label_l8.place(x=1675, y=155)  
+label_l8.place(x=1675, y=180)  
 
 button_l9 = tk.Button(layout, text="Esmeralda",
                       command=line9, bg=esmeralda, fg="black", width=11)
-button_l9.place(x=1830, y=180)
+button_l9.place(x=1830, y=205)
 linha9_esmeralda_icon = canvas.create_text(
-    1800, 188, text="●", font="Helvetica 32", anchor="w", fill=esmeralda)
+    1800, 213, text="●", font="Helvetica 32", anchor="w", fill=esmeralda)
 l9_icon = canvas.create_text(
-    1809, 190, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1809, 215, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l9 = tk.Label(layout, text="", anchor="se")
-label_l9.place(x=1675, y=180)  
+label_l9.place(x=1675, y=205)  
 
 button_l10 = tk.Button(layout, text="Turquesa",
                        command=line10, bg=turquesa, fg="black", width=11)
-button_l10.place(x=1830, y=205)
+button_l10.place(x=1830, y=230)
 linha10_turquesa_icon = canvas.create_text(
-    1800, 213, text="●", font="Helvetica 32", anchor="w", fill=turquesa)
+    1800, 238, text="●", font="Helvetica 32", anchor="w", fill=turquesa)
 l10_icon = canvas.create_text(
-    1806, 215, text="10", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1806, 240, text="10", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l10 = tk.Label(layout, text="", anchor="se")
-label_l10.place(x=1675, y=205)  
+label_l10.place(x=1675, y=230)  
 
 button_l11 = tk.Button(layout, text="Coral", command=line11,
                        bg=coral, fg="black", width=11)
-button_l11.place(x=1830, y=230)
+button_l11.place(x=1830, y=255)
 linha11_coral_icon = canvas.create_text(
-    1800, 238, text="●", font="Helvetica 32", anchor="w", fill=coral)
+    1800, 263, text="●", font="Helvetica 32", anchor="w", fill=coral)
 l11_icon = canvas.create_text(
-    1806, 240, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1806, 265, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l11 = tk.Label(layout, text="", anchor="se")
-label_l11.place(x=1675, y=230)  
+label_l11.place(x=1675, y=255)  
 
 button_l12 = tk.Button(layout, text="Safira",
                        command=line12, bg=safira, fg="white", width=11)
-button_l12.place(x=1830, y=255)
+button_l12.place(x=1830, y=280)
 linha12_safira_icon = canvas.create_text(
-    1800, 263, text="●", font="Helvetica 32", anchor="w", fill=safira)
+    1800, 288, text="●", font="Helvetica 32", anchor="w", fill=safira)
 l12_icon = canvas.create_text(
-    1806, 265, text="12", font="Helvetica 10 bold", anchor="w", fill=branco)
+    1806, 290, text="12", font="Helvetica 10 bold", anchor="w", fill=branco)
 label_l12 = tk.Label(layout, text="", anchor="se")
-label_l12.place(x=1675, y=255)  
+label_l12.place(x=1675, y=280)  
 
 button_l13 = tk.Button(layout, text="Jade", command=line13,
                        bg=jade, fg="black", width=11)
-button_l13.place(x=1830, y=280)
+button_l13.place(x=1830, y=305)
 linha13_jade_icon = canvas.create_text(
-    1800, 288, text="●", font="Helvetica 32", anchor="w", fill=jade)
+    1800, 313, text="●", font="Helvetica 32", anchor="w", fill=jade)
 l13_icon = canvas.create_text(
-    1806, 290, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1806, 315, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l13 = tk.Label(layout, text="", anchor="se")
-label_l13.place(x=1675, y=280)  
+label_l13.place(x=1675, y=305)  
 
 button_l15 = tk.Button(layout, text="Prata", command=line15,
                        bg=prata, fg="black", width=11)
-button_l15.place(x=1830, y=305)
+button_l15.place(x=1830, y=330)
 linha15_prata_icon = canvas.create_text(
-    1800, 313, text="●", font="Helvetica 32", anchor="w", fill=prata)
+    1800, 338, text="●", font="Helvetica 32", anchor="w", fill=prata)
 l15_icon = canvas.create_text(
-    1806, 315, text="15", font="Helvetica 10 bold", anchor="w", fill=preto)
+    1806, 340, text="15", font="Helvetica 10 bold", anchor="w", fill=preto)
 label_l15 = tk.Label(layout, text="", anchor="se")
-label_l15.place(x=1675, y=305)  
+label_l15.place(x=1675, y=330)  
+
+button_l17 = tk.Button(layout, text="Ouro", command=line17,
+                      bg=ouro, fg="white", width=11)
+button_l17.place(x=1830, y=355)
+linha6_ouro_icon = canvas.create_text(
+    1800, 363, text="●", font="Helvetica 32", anchor="w", fill=ouro)
+l17_icon = canvas.create_text(
+    1806, 365, text="17", font="Helvetica 10 bold", anchor="w", fill=preto)
+label_l17 = tk.Label(layout, text="", anchor="se")
+label_l17.place(x=1675, y=355) 
 
 button_guararema = tk.Button(
     layout, text="Guararema", command=guararema, bg="#f8e71c", fg="black", width=11)
-button_guararema.place(x=1830, y=330)
+button_guararema.place(x=1830, y=380)
 
 button_pirapora = tk.Button(
     layout, text="Pirapora", command=pirapora, bg="#7ed321", fg="black", width=11)
-button_pirapora.place(x=1830, y=355)
+button_pirapora.place(x=1830, y=405)
 
 def atualizar_temperatura(temperatura):
     # Atualiza a temperatura
