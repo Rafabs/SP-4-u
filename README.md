@@ -286,13 +286,6 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
 
 ## To Do 
 - [ ] Tornar o projeto responsível 
-- [x] Desenvolver L6 em .py
-- [x] Desenvolver L6 em .html
-- [x] Desenvolver L17 em .py
-- [x] Desenvolver L17 em .html 
-- [x] Desenvolver as linhas 6 e 17 no mapa global em html
-- [x] Atualizar Área de desenvolvimento 
-- [ ] Atualizar diagrama
 - [ ] Incluir Ortofoto 2004, 2017 ou 2020
 - [ ] Atualizar diagrama
 - [ ] Ajustar Config com todas as API's
