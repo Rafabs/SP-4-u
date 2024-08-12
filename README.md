@@ -111,48 +111,7 @@ Modificação da(s) linha(s):
 - ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/822-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (METRO PARADA INGLESA)
   
 Remoção da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/911DV1-0455A1.svg) PRAIA GRANDE (TERMINAL RODOVIARIO E URBANO TATICO FRANCISCO GOMES DA SILVA) - CUBATAO (USIMINAS)
-- ![Linha](https://img.shields.io/badge/059-0455A1.svg) OSASCO (CONJUNTO DOS METALURGICOS) - SAO PAULO (METRO BUTANTA) 
-- ![Linha](https://img.shields.io/badge/059PR1-0455A1.svg) CARAPICUIBA (JARDIM NOVO HORIZONTE) - SAO PAULO (METRO BUTANTA)
-- ![Linha](https://img.shields.io/badge/060BI1-0455A1.svg) OSASCO (JARDIM SANTA MARIA) - SAO PAULO (METRO BUTANTA)
-- ![Linha](https://img.shields.io/badge/076-0455A1.svg) ITAQUAQUECETUBA (TERMINAL URBANO ENGENHEIRO MANOEL FEIO) - SAO PAULO (METRO BRAS)
-- ![Linha](https://img.shields.io/badge/093-0455A1.svg) GUARULHOS (TERMINAL METROPOLITANO VILA GALVAO) - SAO PAULO (METRO CARRAO)
-- ![Linha](https://img.shields.io/badge/116-0455A1.svg) BARUERI (CENTRO) - SAO PAULO (METRO ARMENIA)
-- ![Linha](https://img.shields.io/badge/121-0455A1.svg) GUARULHOS (TERMINAL METROPOLITANO TABOAO) - SAO PAULO (PENHA)
-- ![Linha](https://img.shields.io/badge/148EX1-0455A1.svg) SAO BERNARDO DO CAMPO (UFABC) - SAO BERNARDO DO CAMPO (AVENIDA KENNEDY)
-- ![Linha](https://img.shields.io/badge/165BI1-0455A1.svg) SANTO ANDRE (PARQUE REPRESA BILLINGS) - SAO BERNARDO DO CAMPO (TERMINAL PACO - SAO BERNARDO)
-- ![Linha](https://img.shields.io/badge/187-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (CAMPOS ELISEOS)
-- ![Linha](https://img.shields.io/badge/210-0455A1.svg) BIRITIBA MIRIM (CASA GRANDE) - MOGI DAS CRUZES (CENTRO)
-- ![Linha](https://img.shields.io/badge/214VP1-0455A1.svg) ITAQUAQUECETUBA (RANCHO GRANDE) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/227DV1-0455A1.svg) GUARULHOS (JARDIM LEBLON) - SAO PAULO (METRO ARMENIA)
-- ![Linha](https://img.shields.io/badge/278-0455A1.svg) OSASCO (CENTRO) - GUARULHOS (TERMINAL URBANO GUARULHOS)
-- ![Linha](https://img.shields.io/badge/302-0455A1.svg) ITAQUAQUECETUBA (TERMINAL URBANO ENGENHEIRO MANOEL FEIO) - ITAQUAQUECETUBA (JARDIM PINHEIRINHO)
-- ![Linha](https://img.shields.io/badge/337BI1-0455A1.svg) GUARULHOS (RECREIO SAO JORGE) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/470-0455A1.svg) SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE) - SAO PAULO (AEROPORTO DE CONGONHAS)
-- ![Linha](https://img.shields.io/badge/337478BI1BI1-0455A1.svg) GUARULHOS (JARDIM DAS NACOES) - SAO PAULO (METRO ARMENIA)
-- ![Linha](https://img.shields.io/badge/512-0455A1.svg) ITAQUAQUECETUBA (PARQUE PIRATININGA) - SAO PAULO (METRO ARMENIA)
-- ![Linha](https://img.shields.io/badge/5210-0455A1.svg) CAMPOS DO JORDAO (TERMINAL RODOVIARIO DE CAMPOS DO JORDAO) - SAO JOSE DOS CAMPOS (TERMINAL RODOVIARIO FREDERICO OZANAM)
-- ![Linha](https://img.shields.io/badge/5213-0455A1.svg) SAO BENTO DO SAPUCAI (TERMINAL RODOVIARIO DE SAO BENTO DO SAPUCAI) - SAO JOSE DOS CAMPOS (TERMINAL RODOVIARIO FREDERICO OZANAM)
-- ![Linha](https://img.shields.io/badge/5320-0455A1.svg) CANAS (CENTRO) - LORENA (TERMINAL RODOVIARIO DE LORENA)
-- ![Linha](https://img.shields.io/badge/540-0455A1.svg) BARUERI (ALDEIA DA SERRA) - COTIA (TERMINAL METROPOLITANO DE COTIA)
-- ![Linha](https://img.shields.io/badge/574-0455A1.svg) GUARULHOS (JARDIM CUMBICA) - SAO PAULO (METRO CARRAO)
-- ![Linha](https://img.shields.io/badge/605-0455A1.svg) PAULINIA (PAULINIA RODOVIARIA SHOPPING) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/6104-0455A1.svg) CAPELA DO ALTO (JARDIM NOVA CAPELA) - IPERO (CENTRO)
-- ![Linha](https://img.shields.io/badge/6108VP2-0455A1.svg) TATUI (CENTRO) - ARACOIABA DA SERRA (CENTRO)
-- ![Linha](https://img.shields.io/badge/6213EX2-0455A1.svg) TATUI (CENTRO) - BOITUVA (FACULDADE IFSP)
-- ![Linha](https://img.shields.io/badge/6216-0455A1.svg) MAIRINQUE (JARDIM CRUZEIRO) - SAO ROQUE (CATARINA FASHION OUTLET)
-- ![Linha](https://img.shields.io/badge/6225EX1-0455A1.svg) ARACARIGUAMA (CENTRO) - ITU (TERMINAL CIDADE NOVA - PIRAPITINGUI)
-- ![Linha](https://img.shields.io/badge/6301-0455A1.svg) PILAR DO SUL (BAIRRO CAMPO GRANDE) - PIEDADE (CENTRO)
-- ![Linha](https://img.shields.io/badge/6303-0455A1.svg) PIEDADE (CENTRO) - SOROCABA (CENTRO)
-- ![Linha](https://img.shields.io/badge/6330PR1-0455A1.svg) IPERO (G. OETTERER - INDUSTRIA DE ARTEFATOS) - SOROCABA (CENTRO)
-- ![Linha](https://img.shields.io/badge/6334EX1-0455A1.svg) PILAR DO SUL (TERMINAL RODOVIARIO ANTONIO JOSE DA SILVA) - SOROCABA (TERMINAL RODOVIARIO DE SOROCABA)
-- ![Linha](https://img.shields.io/badge/655DV1-0455A1.svg) SUMARE (TERMINAL RODOVIARIO DE SUMARE) - CAMPINAS (SHOPPING IGUATEMI)
-- ![Linha](https://img.shields.io/badge/689-0455A1.svg) VALINHOS (TERMINAL RODOVIARIO MARIO ROLIM TELLES) - VINHEDO (TERMINAL RODOVIARIO DE VINHEDO)
-- ![Linha](https://img.shields.io/badge/744-0455A1.svg) COSMOPOLIS (TERMINAL RODOVIARIO DE COSMOPOLIS) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/800-0455A1.svg) MOGI DAS CRUZES (TERMINAL RODOVIARIO GERALDO SCAVONE) - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)
-- ![Linha](https://img.shields.io/badge/828-0455A1.svg) JANDIRA (JARDIM NOSSA SENHORA DE FATIMA) - SANTANA DE PARNAIBA (TERMINAL RODOVIARIO ALPHAVILLE)
-- ![Linha](https://img.shields.io/badge/829-0455A1.svg) ITAPECERICA DA SERRA (PARQUE PARAISO) - TABOAO DA SERRA (CENTRO)
-- ![Linha](https://img.shields.io/badge/911DV1-0455A1.svg) PRAIA GRANDE (TERMINAL RODOVIARIO E URBANO TATICO FRANCISCO GOMES DA SILVA) - CUBATAO (USIMINAS)
+Nada para mostrar aqui.
 
 Alteração Tarifária:
 Nada para mostrar aqui.
@@ -208,7 +167,7 @@ Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentado
 - ![Download](https://img.shields.io/badge/Último_Download-11/01/2024-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
 - ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
 - ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
-- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [ViaMobilidade](https://www.viamobilidade.com.br/) - Extração de informações da operação e ocorrências (web scraping)
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) A DEFINIR - Extração de informações da operação e ocorrências (web scraping)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [News API](https://newsapi.org/) - APi para exibição de notícias na versão Web
 
