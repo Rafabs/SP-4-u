@@ -67,7 +67,7 @@ app.get('/linha15-status', (req, res) => {
 // Função para obter o status de uma linha específica
 function getLineStatus(lineNumber, res) {
     // Faz uma requisição GET para o site da ViaMobilidade
-    axios.get('https://www.viamobilidade.com.br')
+    axios.get('')
         .then(response => {
             // Cria uma instância do JSDOM para manipular o HTML retornado
             const dom = new JSDOM(response.data);
