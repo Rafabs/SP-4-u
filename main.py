@@ -18,7 +18,6 @@ from temperatura import get_weather  # Importa a função get_weather do módulo
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
-from web import status  # Importa a função status do módulo web
 from varredura import verificacao
 from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
 from SP_L01 import line1  # Importa a função line1 do módulo SP_L01
