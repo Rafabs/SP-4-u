@@ -14,7 +14,6 @@ import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráfica
 import logging  # Importa o módulo logging para registrar mensagens de log
 from colorama import Fore, Back, Style, init  # Importa classes específicas do módulo colorama para colorir o terminal
 from guias import *  # Importa todas as funções do módulo guias
-from cet import transito  # Importa a função transito do módulo cet
 from temperatura import get_weather  # Importa a função get_weather do módulo temperatura
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
