@@ -64,28 +64,6 @@ app.get('/linha15-status', (req, res) => {
     getLineStatus(15, res);
 });
 
-// Função para obter o status de uma linha específica
-function getLineStatus(lineNumber, res) {
-    // Faz uma requisição GET para o site da ViaMobilidade
-    axios.get('https://www.viamobilidade.com.br')
-        .then(response => {
-            // Cria uma instância do JSDOM para manipular o HTML retornado
-            const dom = new JSDOM(response.data);
-            // Seleciona o elemento que contém o status da linha especificada
-            const statusElement = dom.window.document.querySelector(`.line-${lineNumber} .status`);
-            // Obtém o texto do status
-            const status = statusElement.textContent;
-            // Seleciona o elemento que contém a mensagem relacionada à linha (se houver)
-            const msgElement = dom.window.document.querySelector(`.line-${lineNumber} .msg p`);
-            // Obtém o texto da mensagem (ou uma string vazia se não houver mensagem)
-            const msg = msgElement ? msgElement.textContent : '';
-            // Retorna os dados como um objeto JSON
-            res.json({ linha: lineNumber, status: status, msg: msg });
-        })
-        // Trata erros, se ocorrerem
-        .catch(err => res.status(500).json({ error: err.toString() }));
-}
-
 // Define a porta na qual o servidor irá ouvir as requisições
 app.listen(3000, () => console.log('Servidor funcionando normalmente na porta \x1b[33m3000\x1b[0m\nPressione Ctrl + C para sair'));
 
