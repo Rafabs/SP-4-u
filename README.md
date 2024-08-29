@@ -39,82 +39,58 @@ Os arquivos de Fontes usados no CSS3 foram extraídos do GitHub do [Google](http
 ## Última Atualização - METRÔ/CPTM/ViaMobilidade
 
 Inclusão da(s) linha(s):
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 Modificação da(s) linha(s):
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 Remoção da(s) linha(s):
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 Alteração Tarifária:
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
-Nada para mostrar aqui.
+
+![Linha](https://img.shields.io/badge/189L/10-509E2F.svg) Conexão Vl. Iório - Lapa
+
+![Linha](https://img.shields.io/badge/4087/10-DA291C.svg) E.t. Itaquera - Vl. Popular
 
 Modificação da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/514T/10-006341.svg) Term. Sacomã - Jd. Itápolis
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/514T/10-006341.svg) Term. Sacomã - Conj. Hab. Teotônio Vilela
+
+- Nada para mostrar aqui.
 
 Remoção da(s) linha(s):
-Nada para mostrar aqui.
+
+![Linha](https://img.shields.io/badge/879A/10-002F6C.svg) Metrô Barra Funda - Ctn
 
 Alteração Tarifária:
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 ## Última Atualização - EMTU
 
 Inclusão da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/VLT--Binário-0455A1.svg) SANTOS (ESTACAO VLT CONSELHEIRO NEBIAS) - SANTOS (ESTACAO VALONGO)
-- ![Linha](https://img.shields.io/badge/5113PR1-0455A1.svg) SANTA BRANCA (JARDIM ALBUQUERQUE) - JACAREI (TERMINAL RODOVIARIO DE JACAREI)
-- ![Linha](https://img.shields.io/badge/5311EX1-0455A1.svg) GUARATINGUETA (TERMINAL RODOVIARIO DE GUARATINGUETA) - PINDAMONHANGABA (CENTRO)
-- 
+
+- Nada para mostrar aqui.
+ 
 Modificação da(s) linha(s):
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/042VP1-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/042VP1-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/049-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - FRANCO DA ROCHA (CENTRO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/049-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - FRANCO DA ROCHA (CENTRO)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/064-0455A1.svg) MAUA (JARDIM GUAPITUBA) - SAO CAETANO DO SUL (BAIRRO SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/064-0455A1.svg) MAUA (JARDIM GUAPITUBA) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/158BI1-0455A1.svg) MAUA (JARDIM ZAIRA) - SAO CAETANO DO SUL (BAIRRO SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/158BI1-0455A1.svg) MAUA (JARDIM ZAIRA) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/160EX1-0455A1.svg) MAUA  (JARDIM ITAPEVA) - SAO CAETANO DO SUL (BAIRRO SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/160EX1-0455A1.svg) MAUA  (JARDIM ITAPEVA) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/240-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (TERMINAL RODOVIARIO DO TIETE)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/240-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (TERMINAL RODOVIARIO DO TIETE)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/271-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (PEDRA BRANCA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/271-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (PEDRA BRANCA)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/382-0455A1.svg) MAUA (BAIRRO FEITAL) - SAO CAETANO DO SUL ( BAIRRO SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/382-0455A1.svg) MAUA (BAIRRO FEITAL) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/382EX1-0455A1.svg) MAUA (JARDIM ITAPEVA) - SAO CAETANO DO SUL (BAIRRO SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/382EX1-0455A1.svg) MAUA (JARDIM ITAPEVA) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/403-0455A1.svg) MAUA (VILA NOVA MAUA) - SAO CAETANO DO SUL (SANTO ANTONIO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/403-0455A1.svg) MAUA (VILA NOVA MAUA) - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/454-0455A1.svg) JANDIRA (CONDOMINIO RESERVA DE SANTA MARIA) - BARUERI (TERMINAL RODOFERROVIARIO GUALBERTO TOLAINE)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/454-0455A1.svg) JANDIRA (CONDOMINIO RESERVA DE SANTA MARIA) - BARUERI (CENTRO)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/455-0455A1.svg) BARUERI (ALPHAVILLE) - CARAPICUIBA (ALDEIA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/455-0455A1.svg) CARAPICUIBA (ALDEIA) - BARUERI (ALPHAVILLE)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/566-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/566-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (TERMINAL RODOVIARIO TIETE)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/612-0455A1.svg) JAGUARIUNA (JOAO NASSIF) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/612-0455A1.svg) JAGUARIUNA (VARGEAO) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/612DV1-0455A1.svg) JAGUARIUNA (JOAO NASSIF) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/612DV1-0455A1.svg) JAGUARIUNA (VARGEAO) - CAMPINAS (TERMINAL METROPOLITANO PREFEITO MAGALHAES TEIXEIRA)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/6320BI1-0455A1.svg) ARACOIABA DA SERRA (BAIRRO FARIAS) - SOROCABA (CENTRO)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/6320BI1-0455A1.svg) ARACOIABA DA SERRA (MARIA PAULA ESPOSITO) - SOROCABA (TERMINAL SAO PAULO)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/736-0455A1.svg) ARTUR NOGUEIRA (CORACAO CRIANCA) - HOLAMBRA (PORTAL TURISTICO DE HOLAMBRA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/736-0455A1.svg) ARTUR NOGUEIRA (CORACAO CRIANCA) - HOLAMBRA (TREVO DA POSSE)
-- ![Linha](https://img.shields.io/badge/ANTES-red.svg) ![Linha](https://img.shields.io/badge/822-0455A1.svg) MAIRIPORA (ESPACO PAULO AMAURY SERRALVO) - SAO PAULO (METRO PARADA INGLESA)
-- ![Linha](https://img.shields.io/badge/AGORA-green.svg) ![Linha](https://img.shields.io/badge/822-0455A1.svg) MAIRIPORA (TERMINAL RODOVIARIO CIDADE BONITA SIGUEMI AIACYDA) - SAO PAULO (METRO PARADA INGLESA)
+
+- Nada para mostrar aqui.
   
 Remoção da(s) linha(s):
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 Alteração Tarifária:
-Nada para mostrar aqui.
+
+- Nada para mostrar aqui.
 
 ## Bibliotecas Utilizadas
 
