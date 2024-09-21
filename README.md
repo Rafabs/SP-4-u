@@ -58,17 +58,33 @@ Alteração Tarifária:
 
 Inclusão da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/189L/10-509E2F.svg) Conexão Vl. Iório - Lapa
+![Linha](https://img.shields.io/badge/1014/10-509E2F.svg) Morro Doce - Cptm Perus
 
-![Linha](https://img.shields.io/badge/4087/10-DA291C.svg) E.t. Itaquera - Vl. Popular
+![Linha](https://img.shields.io/badge/1022/10-509E2F.svg) Cptm Perus - Vl. Sta. Cruz
+
+![Linha](https://img.shields.io/badge/695Y/23-0082BA.svg) Est. Mendes/vl. Natal - Parelheiros
+
+![Linha](https://img.shields.io/badge/8082/10-FF671F.svg) Cid. Universitária - Metrô Butantã
+
+![Linha](https://img.shields.io/badge/8083/10-FF671F.svg) Cid. Universitária - Metrô Butantã
+
+![Linha](https://img.shields.io/badge/8084/10-FF671F.svg) Metrô Butantã - Cid. Universitária
+
+![Linha](https://img.shields.io/badge/8085/10-FF671F.svg) P3 - Circular Usp
 
 Modificação da(s) linha(s):
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/6028/10-782F40.svg) Riviera - Est. Sto. Amaro/guido Caloi
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/6028/10-782F40.svg) Riviera - Term. Sto. Amaro
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/N632/11-0082BA.svg) Term. Grajaú - Term. Sto. Amaro
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/N632/11-0082BA.svg) Term. Sto. Amaro - Term. Grajaú
 
 Remoção da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/879A/10-002F6C.svg) Metrô Barra Funda - Ctn
+![Linha](https://img.shields.io/badge/8032/10-FF671F.svg) Metrô Butantã - Cid. Universitária
 
 Alteração Tarifária:
 
