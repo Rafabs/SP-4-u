@@ -257,7 +257,7 @@ def line1():
                                   font="Helvetica 12", anchor="w", angle=60)
     nome_CON = canvas.create_text(x22+8, y22-13, text="Conceição",
                                   font="Helvetica 12", anchor="w", angle=60)
-    nome_JAB = canvas.create_text(x23+8, y23-13, text="Jabaquara",
+    nome_JAB = canvas.create_text(x23+8, y23-13, text="Jabaquara - Comitê Paralímpico Brasileiro",
                                   font="Helvetica 12", anchor="w", angle=60)
 
     # Cria um texto na parte inferior da tela indicando a autoria e data de desenvolvimento
