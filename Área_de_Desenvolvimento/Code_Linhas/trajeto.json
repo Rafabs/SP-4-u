@@ -1,0 +1,144 @@
+{
+    "SP_L01.py": {
+        "DESTINO": "TUCURUVI <<->> JABAQUARA",
+        "LINHA": "01 - AZUL",
+        "TRAJETO": [
+            "Tucuruvi",
+            "Parada Inglesa",
+            "Jardim São Paulo - Ayrton Senna",
+            "Santana",
+            "Carandiru",
+            "Portuguesa - Tietê",
+            "Armênia",
+            "Tiradentes",
+            {
+                "text": "Luz",
+                "image": "imgs/4.png",
+                "image_1": "imgs/4.png",
+                "image_2": "imgs/7.png",
+                "image_3": "imgs/10.png",
+                "image_4": "imgs/11png",
+                "image_5": "imgs/13.png"
+            },
+            "São Bento",
+            {
+                "text": "Sé",
+                "image": "imgs/3.png"
+            }, 
+            "Japão - Liberdade",
+            "São Joaquim",
+            "Vergueiro",
+            {
+                "text": "Paraíso",
+                "image": "imgs/2.png"
+            },      
+            {
+                "text": "Ana Rosa",
+                "image": "imgs/2.png"
+            },  
+            "Vila Mariana",
+            {
+                "text": "Santa Cruz",
+                "image": "imgs/5.png"
+            },  
+            "Praça da Árvore",
+            "Saúde - Ultrafarma",
+            "São Judas",
+            "Conceição",
+            "Jabaquara - Comitê Paralímpico Brasileiro"
+        ]
+    },
+    "SP_L02.py": {
+        "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
+        "LINHA": "02 - VERDE",
+        "TRAJETO": [
+            "Vila Madalena",
+            "Sumaré - Santuário N. Sra. de Fátima",
+            "Clínicas",
+            {
+                "text": "Consolação",
+                "image": "imgs/4.png"
+            },            
+            "Trianon - Masp",
+            "Brigadeiro",
+            {
+                "text": "Paraíso",
+                "image": "imgs/1.png"
+            },   
+            {
+                "text": "Ana Rosa",
+                "image": "imgs/1.png"
+            },     
+            {
+                "text": "Chácara Klabin",
+                "image": "imgs/5.png"
+            },   
+            "Imigrantes",
+            "Alto do Ipiranga",
+            "Sacomã",
+            {
+                "text": "Tamanduateí",
+                "image": "imgs/10.png"
+            },  
+            {
+                "text": "Vila Prudente",
+                "image": "imgs/15.png"
+            }  
+        ]
+    },    
+    "SP_L03.py": {
+        "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> CORINTHIANS - ITAQUERA",
+        "LINHA": "03 - VERMELHA",
+        "TRAJETO": [
+            {
+                "text": "Palmeiras - Barra Funda",
+                "image": "imgs/7.png",
+                "image_1": "imgs/8.png",
+                "image_2": "imgs/11.png",
+                "image_3": "imgs/13.png"
+            },                  
+            "Marechal Deodoro",
+            "Santa Cecília",
+            {
+                "text": "República",
+                "image": "imgs/4.png"
+            },            
+            "Anhangabaú",
+            {
+                "text": "Sé",
+                "image": "imgs/1.png"
+            },    
+            "Pedro ll",
+            {
+                "text": "Brás",
+                "image": "imgs/7.png",
+                "image_1": "imgs/10.png",
+                "image_2": "imgs/11.png",
+                "image_3": "imgs/12.png",
+                "image_4": "imgs/13.png"
+            },  
+            "Bresser - Mooca",
+            "Belém",
+            {
+                "text": "Tatuapé",
+                "image": "imgs/11.png",
+                "image_1": "imgs/12.png"
+
+            },   
+            "Carrão - Assaí Atacadista",
+            {
+                "text": "Penha - Lojas Besni",
+                "image": "imgs/2.png",
+                "image_1": "imgs/11.png"
+            },   
+            "Vila Matilde",
+            "Guilhermina - Esperança",
+            "Patriarca - Vila Ré",
+            "Artur Alvim",
+            {
+                "text": "Corinthians - Itaquera",
+                "image": "imgs/11.png"
+            }
+        ]
+    },        
+}
