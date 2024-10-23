@@ -218,7 +218,7 @@ Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida co
         <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(10).png" alt="Imagem 2" style="width:50%;" >
 </div>
 <div style="display:flex; flex-direction:row;">
-    <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.1.0.png" alt="Imagem 3" style="width:50%;">
+    <img src="https://github.com/Rafabs/SP-4-u/blob/140dd99deb98e2c1034b769a7e8320c282363690/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.1.0.png" alt="Imagem 3" style="width:50%;">
     <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(9).png" alt="Imagem 4" style="width:50%;">
 </div>
 
