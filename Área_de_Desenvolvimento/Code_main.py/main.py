@@ -146,43 +146,7 @@ def determinar_cor(status):
         return "red"
 
 dados_usuario()
-
-def atualizar_status():
-    linhas, status_list, lista_mensagens = status()
-
-    for linha, stat in zip(linhas, status_list):
-        texto = f"{stat}"
-        if linha == "Linha 1 - Azul":
-            label_l1.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 2 - Verde":
-            label_l2.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 3 - Vermelha":
-            label_l3.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 4-Amarela":
-            label_l4.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 5-Lilás":
-            label_l5.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "RUBI":
-            label_l7.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 8-Diamante":
-            label_l8.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 9-Esmeralda":
-            label_l9.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "TURQUESA":
-            label_l10.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "CORAL":
-            label_l11.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "SAFIRA":
-            label_l12.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "JADE":
-            label_l13.config(text=texto, fg=determinar_cor(stat), bg="#333333")
-        elif linha == "Linha 15 - Prata":
-            label_l15.config(text=texto, fg=determinar_cor(stat), bg="#333333")                                                                                                                                    
-
-    for mensagem in lista_mensagens:
-        mensagens = '\n'.join(lista_mensagens)
-        label_msg_status.config(text=mensagens, fg="yellow", bg="#333333", justify='left')
-        print(mensagem)    
+ 
 
 def abrir_link(url):
     # Remove qualquer fragmento indesejado da URL
@@ -246,19 +210,10 @@ logo_tk = ImageTk.PhotoImage(logo)
 logo_label = ttk.Label(layout, image=logo_tk)
 logo_label.place(x=10, y=10)
 
-# Trânisto CET/SP
-vel_CentroBairro, vel_BairroCentro = transito()
-
 # Texto de saudação inicial
 nome_usuario = os.getlogin()
 canvas.create_text(120, 20, text=('Olá, ' + nome_usuario),
                    font="Helvetica 12", anchor="w", fill='#FFFFFF')
-
-# Informações de Trânsito CET
-centro_bairro = canvas.create_text(120, 80, text=(
-    "Centro/Bairro:", vel_CentroBairro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
-bairro_centro = canvas.create_text(120, 100, text=(
-    "Bairro/Centro:", vel_BairroCentro), font="Helvetica 12", anchor="w", fill='#FFFFFF')
 
 # Código das cores do mapa (em ordem numérica)
 azul = "#0455A1"
@@ -527,9 +482,6 @@ def atualizar_data_hora(data_hora):
 
     # Agenda a próxima atualização da data e hora após 1000 milissegundos (1 segundo)
     layout.after(1000, atualizar_data_hora, data_hora)
-
-# Chame a função para inicializar os textos ao iniciar o programa
-atualizar_status()
 
 # Exibir as notícias automaticamente ao abrir a janela
 exibir_noticias()
