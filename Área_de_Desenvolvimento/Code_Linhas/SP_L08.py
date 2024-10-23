@@ -1,259 +1,199 @@
-import tkinter as tk  # Importa a biblioteca Tkinter para criar a interface gráfica
-from tkinter import *  # Importa todas as classes e funções do módulo tkinter
-from PIL import Image, ImageTk  # Importa classes para manipular imagens
-from colorama import Fore, Back, Style, init  # Importa classes para cores de console
-from datetime import datetime  # Importa a classe datetime para trabalhar com datas e horas
+import os
+import json
+import tkinter as tk
+from PIL import Image, ImageTk
+from datetime import datetime
+import locale
+from temperatura import get_weather
+from screeninfo import get_monitors
+import subprocess
 
-# Obtém a hora atual
-hora_atual = datetime.now().strftime("%H:%M:%S")
-
+# Função para executar o script SP_L01.py
 def line8():
-    # Imprime o texto formatado com informações sobre o início do mapa da Linha 8 - Diamante
-    print(f"{Style.BRIGHT}{Fore.WHITE}Mapa da LINHA 8 - DIAMANTE iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")     
-    # Cria uma nova janela
+    try:
+        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L08.py"], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao executar o script: {e}")
+        
+# Define o local para o idioma português do Brasil
+locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
+
+# Carrega os dados do arquivo JSON
+with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
+    dados_linhas = json.load(file)
+
+def get_destino_linha(script_name):
+    dados = dados_linhas.get(script_name, {})
+    destino = dados.get('DESTINO', 'DESTINO DESCONHECIDO')
+    linha = dados.get('LINHA', '0000/00')
+    trajeto = dados.get('TRAJETO', [])
+    cor_linha = dados.get('COR_LINHA', '#000000')  # Obtém a cor da linha, com um padrão branco se não existir
+    return destino, linha, trajeto, cor_linha
+
+def mapa_linha():
     root = tk.Toplevel()
-    root.title("Linha 8 - Diamante")  # Define o título da janela
-    root.geometry("1920x1080")  # Define as dimensões da janela
+    # Obtém as dimensões da tela do monitor
+    monitor = get_monitors()[0]
+    screen_width = monitor.width
+    screen_height = monitor.height
+    root.geometry(f"{screen_width}x{screen_height}")  # Define as dimensões da janela
+    root.attributes("-fullscreen", True)  # Deixa a janela em tela cheia
+    root.overrideredirect(True)  # Remove os botões de fechar, maximizar, minimizar
+    root.title("Linha 8 - Diamante") # Define o título da janela
+
+    def sair(event=None):
+        root.destroy()
+
+    root.bind("<Escape>", sair)  # Associa a tecla Esc ao fechamento da janela
 
     canvas = tk.Canvas(root, width=1920, height=1080)  # Cria um canvas na janela
     canvas.pack()  # Empacota o canvas na janela
 
-    # Carrega uma imagem para o ícone da janela
-    image = Image.open('Mapa_dos_Trilhos\\Favicon\\8_diamante.ico')
-    photo = ImageTk.PhotoImage(image)
-
-    # Define o ícone da janela
-    root.iconphoto(False, photo)
-
-    # Carrega o logotipo da ViaMobilidade
-    metro_logo = Image.open("Mapa_dos_Trilhos\\Imgs\\VM_LOGO.jpg")
-    # Redimensiona a imagem do logotipo para caber no canvas
-    metro_logo = metro_logo.resize((120, 50))
-    metro_logo_tk = ImageTk.PhotoImage(metro_logo)
-
-    # Insere a imagem do logotipo no canvas
-    canvas.create_image(0, 0, anchor="nw", image=metro_logo_tk)
-
-    # Definição das cores usadas no mapa
-    azul = "#0455A1"
-    verde = "#007E5E"
-    vermelha = "#EE372F"
-    amarela = "#FFF000"
-    lilás = "#9B3894"
-    rubi = "#CA016B"
-    diamante = "#97A098"
-    esmeralda = "#01A9A7"
-    turquesa = "#049FC3"
-    coral = "#F68368"
-    safira = "#133C8D"
-    jade = "#00B352"
-    prata = "#C0C0C0"
-
     # Cores de background
     preto = "#000000"
-    branco = "#FFFFFF"
+    azul = "#0455A1"
+    cinza = "#D3D3D3"  
 
-    # Definição das coordenadas para cada estação no canvas
-    # Aqui estão definidas as posições x e y de todas as estações no mapa
-    x1, y1 = 410, 750
-    x2, y2 = 460, 750
-    x3, y3 = 510, 750
-    x4, y4 = 560, 750
-    x5, y5 = 610, 750
-    x6, y6 = 660, 750
-    x7, y7 = 710, 750
-    x8, y8 = 760, 750
-    x9, y9 = 810, 750
-    x10, y10 = 860, 750
-    x11, y11 = 910, 750
-    x12, y12 = 960, 750
-    x13, y13 = 1010, 750
-    x14, y14 = 1060, 750
-    x15, y15 = 1110, 750
-    x16, y16 = 1160, 750
-    x17, y17 = 1210, 750
-    x18, y18 = 1260, 750
-    x19, y19 = 1310, 750
-    x20, y20 = 1360, 750
-    x21, y21 = 1410, 750
-    x22, y22 = 1460, 750
-    x23, y23 = 1510, 750
-    x24, y24 = 1560, 750
+    # Adiciona um retângulo cinza que cobre toda a tela
+    canvas.create_rectangle(0, 0, 1920, 1080, fill=cinza, outline=cinza)
 
-    # Desenha as estações no canvas
-    estacao_JPR = canvas.create_text(
-        x1-5, y1+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_BFU = canvas.create_text(
-        x2-5, y2+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_LAP = canvas.create_text(
-        x3-5, y3+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_DMO = canvas.create_text(
-        x4-5, y4+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_ILE = canvas.create_text(
-        x5-5, y5+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_PAL = canvas.create_text(
-        x6-5, y6+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_OSA = canvas.create_text(
-        x7-5, y7+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_CSA = canvas.create_text(
-        x8-5, y8+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_QTU = canvas.create_text(
-        x9-5, y9+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_GMC = canvas.create_text(
-        x10-5, y10+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_CPB = canvas.create_text(
-        x11-5, y11+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_STE = canvas.create_text(
-        x12-5, y12+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_AJO = canvas.create_text(
-        x13-5, y13+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_BRU = canvas.create_text(
-        x14-5, y14+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_JBE = canvas.create_text(
-        x15-5, y15+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_JSI = canvas.create_text(
-        x16-5, y16+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_JDI = canvas.create_text(
-        x17-5, y17+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_SCO = canvas.create_text(
-        x18-5, y18+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_ECD = canvas.create_text(
-        x19-5, y19+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_IPV = canvas.create_text(
-        x20-5, y20+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_SRT = canvas.create_text(
-        x21-5, y21+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_CMR = canvas.create_text(
-        x22-5, y22+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_AMB = canvas.create_text(
-        x23-5, y23+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
-    estacao_ABU = canvas.create_text(
-        x24-5, y24+8, text="●", font="Helvetica 36 bold", anchor="w", fill=branco)
+    # Obtém os dados de DESTINO, LINHA e TRAJETO para o script atual
+    script_name = os.path.basename(__file__)
+    destino_text, linha_text, trajeto_list, cor_linha = get_destino_linha(script_name)
 
-    # Inserindo as transferências
+    # Adiciona faixas azuis atrás dos textos, ocupando toda a largura da tela
+    canvas.create_rectangle(0, 0, 1920, 180, fill=cor_linha, outline=cor_linha)  
 
-    # BARRA FUNDA
-    linha3_vermelha_icon = canvas.create_text(
-        x2-3, y2+40, text="●", font="Helvetica 32", anchor="w", fill=vermelha)
-    l3_icon = canvas.create_text(
-        x2+6, y2+42, text="3", font="Helvetica 10 bold", anchor="w", fill=preto)
-    linha7_rubi_icon = canvas.create_text(
-        x2-3, y2+60, text="●", font="Helvetica 32", anchor="w", fill=rubi)
-    l7_icon = canvas.create_text(
-        x2+6, y2+62, text="7", font="Helvetica 10 bold", anchor="w", fill=branco)
-    linha11_coral_icon = canvas.create_text(
-        x2-3, y2+80, text="●", font="Helvetica 32", anchor="w", fill=coral)
-    l11_icon = canvas.create_text(
-        x2+3, y2+82, text="11", font="Helvetica 10 bold", anchor="w", fill=preto)
-    linha13_jade_icon = canvas.create_text(
-        x2-3, y2+100, text="●", font="Helvetica 32", anchor="w", fill=jade)
-    l13_icon = canvas.create_text(
-        x2+3, y2+102, text="13", font="Helvetica 10 bold", anchor="w", fill=preto)
+    # Função para obter a data em formato extenso
+    def data_extenso():
+        now = datetime.now()
+        return now.strftime("%d de %B de %Y")
 
-    # PRESIDENTE ALTINO
-    linha9_esmeralda_icon = canvas.create_text(
-        x6-3, y6+40, text="●", font="Helvetica 32", anchor="w", fill=esmeralda)
-    l9_icon = canvas.create_text(
-        x6+6, y6+42, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
+    # Inicializa as variáveis para temperatura e data/hora
+    temperatura = get_weather()
+    hora = datetime.now().strftime("%H:%M")
+    dia_semana = datetime.now().strftime("%A")
+    data_completa = data_extenso()
 
-    # OSASCO
-    linha9_esmeralda_icon = canvas.create_text(
-        x7-3, y7+40, text="●", font="Helvetica 32", anchor="w", fill=esmeralda)
-    l9_icon = canvas.create_text(
-        x7+6, y7+42, text="9", font="Helvetica 10 bold", anchor="w", fill=preto)
+    linha1 = canvas.create_text(
+        20, 20, text=f"{hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
+    linha2 = canvas.create_text(
+        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
+    destino = canvas.create_text(
+        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
+    linha = canvas.create_text(
+        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
 
-    # Desenha a linha que conecta as estações
-    linha = canvas.create_line(
-        x1-10, y1+12, x24+25, y24+12, fill=diamante, width=30)
+    # Exibir as informações do trajeto na horizontal, inclinadas em 60°
+    canvas_center_x = 960
+    total_items = len(trajeto_list)
+    item_spacing = 50  # Espaçamento entre os itens do trajeto
 
-    # Sobrepõe as estações sobre a linha
-    canvas.lift(estacao_JPR)
-    canvas.lift(estacao_BFU)
-    canvas.lift(estacao_LAP)
-    canvas.lift(estacao_DMO)
-    canvas.lift(estacao_ILE)
-    canvas.lift(estacao_PAL)
-    canvas.lift(estacao_OSA)
-    canvas.lift(estacao_CSA)
-    canvas.lift(estacao_QTU)
-    canvas.lift(estacao_GMC)
-    canvas.lift(estacao_CPB)
-    canvas.lift(estacao_STE)
-    canvas.lift(estacao_AJO)
-    canvas.lift(estacao_BRU)
-    canvas.lift(estacao_JBE)
-    canvas.lift(estacao_JSI)
-    canvas.lift(estacao_JDI)
-    canvas.lift(estacao_SCO)
-    canvas.lift(estacao_ECD)
-    canvas.lift(estacao_IPV)
-    canvas.lift(estacao_SRT)
-    canvas.lift(estacao_CMR)
-    canvas.lift(estacao_AMB)
-    canvas.lift(estacao_ABU)
-    canvas.lift(l7_icon)
-    canvas.lift(l9_icon)
-    canvas.lift(l11_icon)
-    canvas.lift(l13_icon)
+    images = []  # Lista para manter referências das imagens
 
-    # Define os nomes das estações
-    nome_JPR = canvas.create_text(x1+8, y1-13, text="Júlio Prestes",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_BFU = canvas.create_text(x2+8, y2-13, text="Palmeiras - Barra Funda",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_LAP = canvas.create_text(x3+8, y3-13, text="Lapa",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_DMO = canvas.create_text(x4+8, y4-13, text="Domingos de Moraes",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_ILE = canvas.create_text(x5+8, y5-13, text="Imperatriz Leopoldina",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_PAL = canvas.create_text(x6+8, y6-13, text="Presidente Altino",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_OSA = canvas.create_text(x7+8, y7-13, text="Osasco",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_CSA = canvas.create_text(x8+8, y8-13, text="Comandante Sampaio",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_QTU = canvas.create_text(x9+8, y9-13, text="Quitaúna",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_GMC = canvas.create_text(x10+8, y10-13, text="General Miguel Costa",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_CPB = canvas.create_text(x11+8, y11-13, text="Carapicuíba",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_STE = canvas.create_text(x12+8, y12-13, text="Santa Terezinha",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_AJO = canvas.create_text(x13+8, y13-13, text="Antônio João",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_BRU = canvas.create_text(x14+8, y14-13, text="Barueri",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_JBE = canvas.create_text(x15+8, y15-13, text="Jardim Belval",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_JSI = canvas.create_text(x16+8, y16-13, text="Jardim Silveira",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_JDI = canvas.create_text(x17+8, y17-13, text="Jandira",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_SCO = canvas.create_text(x18+8, y18-13, text="Sagrado Coração",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_ECD = canvas.create_text(x19+8, y19-13, text="Engenheiro Cardoso",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_IPV = canvas.create_text(x20+8, y20-13, text="Itapevi",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_SRT = canvas.create_text(x21+8, y21-13, text="Santa Rita",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_CMR = canvas.create_text(x22+8, y22-13, text="Cimenrita",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_AMB = canvas.create_text(x23+8, y23-13, text="Ambuitá",
-                                  font="Helvetica 12", anchor="w", angle=60)
-    nome_ABU = canvas.create_text(x24+8, y24-13, text="Amador Bueno",
-                                  font="Helvetica 12", anchor="w", angle=60)
+    for i, trajeto in enumerate(trajeto_list):
+        x_position = canvas_center_x + (i - total_items // 2) * item_spacing
+        y_position = 750
 
-    # Cria um texto na parte inferior da tela indicando a autoria e data de desenvolvimento
-    dev = canvas.create_text(
-        960, 900, text="⚡Desenvolvido por RAFAEL BARBOSA - 10/03/2023 | Revisado em 02/09/2023", font="Helvetica 12", anchor="c")
+        if isinstance(trajeto, dict):
+            text = trajeto.get("text", "")
+            image_paths = [
+                trajeto.get("image"),
+                trajeto.get("image_1"),
+                trajeto.get("image_2"),
+                trajeto.get("image_3"),
+                trajeto.get("image_4"),
+            ]  # Lista de caminhos das imagens
 
-    # Loop principal para atualizar a janela
-    while True:
-        root.update()
-        try:
-            root.update()
-        except TclError:
-            break # Sai do loop caso ocorra um erro
+            if text:
+                canvas.create_text(x_position, y_position, text=text, font="Helvetica 24", angle=60, anchor="w")
+                y_position += 30
+
+            # Adicionar retângulo colorido abaixo das bolinhas
+            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
+
+            # Exibir a bolinha branca acima do retângulo
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+            canvas.lift(ball)  # Levanta a bolinha branca acima de todos os outros objetos
+
+            # Exibir as imagens abaixo da bolinha branca
+            for image_path in image_paths:
+                if image_path and os.path.exists(image_path):
+                    img = Image.open(image_path)
+                    img = img.resize((30, 30), Image.LANCZOS)
+                    photo = ImageTk.PhotoImage(img)
+                    images.append(photo)  # Armazena a referência da imagem na lista
+                    canvas.create_image(x_position, y_position + 70, image=photo, anchor="c")
+                    y_position += 40  # Ajusta a posição `y` para a próxima imagem
+                else:
+                    print(f"Imagem não encontrada: {image_path}")
+        else:
+            canvas.create_text(x_position, y_position, text=trajeto, font="Helvetica 24", angle=60, anchor="w")
+            y_position += 30
+            # Adicionar retângulo colorido abaixo das bolinhas
+            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
+
+            # Exibir a bolinha branca acima do retângulo
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+            canvas.lift(ball)  # Levanta a bolinha branca acima de todos os outros objetos
+
+
+    def load_image(image_path, x, y, width, height):
+        if os.path.exists(image_path):
+            img = Image.open(image_path)
+            img = img.resize((width, height), Image.LANCZOS)  # Redimensiona a imagem
+            photo = ImageTk.PhotoImage(img)
+            images.append(photo)  # Armazena a referência da imagem na lista
+            canvas.create_image(x, y, image=photo, anchor="center")  # Adiciona a imagem ao canvas
+        else:
+            print(f"Imagem não encontrada: {image_path}")
+
+    # Função para atualizar a temperatura
+    def atualizar_temperatura():
+        global temperatura
+        temperatura = get_weather()
+        canvas.itemconfigure(linha1, text=f"{hora} | São Paulo | {temperatura}")
+        root.after(1000, atualizar_temperatura)  # Atualiza a temperatura a cada 1 segundo
+
+    # Função para atualizar a data e hora
+    def atualizar_data_hora():
+        global hora, dia_semana, data_completa
+        hora = datetime.now().strftime("%H:%M")
+        dia_semana = datetime.now().strftime("%A")
+        data_completa = data_extenso()
+        canvas.itemconfigure(linha1, text=f"{hora} | São Paulo | {temperatura}")
+        canvas.itemconfigure(linha2, text=f"{dia_semana}, {data_completa}")
+        root.after(1000, atualizar_data_hora)  # Atualiza a data e hora a cada 1 segundo
+
+    # Função para alternar as imagens
+    def alternar_imagens(index=1):
+        if index > 6:
+            index = 1
+        image_path = f"Mapa_dos_Trilhos/Imgs/{index}.png"
+        if os.path.exists(image_path):
+            img = Image.open(image_path)
+            img = img.resize((960, 180), Image.LANCZOS)  # Redimensiona a imagem para cobrir a faixa azul
+            photo = ImageTk.PhotoImage(img)
+            images.append(photo)  # Armazena a referência da imagem na lista
+            canvas.create_image(1440, 90, image=photo, anchor="center")  # Adiciona a imagem ao canvas
+        else:
+            print(f"Imagem não encontrada: {image_path}")
+        root.after(60000, alternar_imagens, index + 1)  # Alterna a imagem a cada 1 minuto
+
+    # Inicie os loops principais do Tkinter para temperatura, data/hora e alternar imagens
+    def atualizar_temperatura_wrapper():
+        atualizar_temperatura()
+
+    def atualizar_data_hora_wrapper():
+        atualizar_data_hora()
+
+    root.after(0, atualizar_temperatura_wrapper)  # Inicia a atualização da temperatura
+    root.after(0, atualizar_data_hora_wrapper)    # Inicia a atualização da data e hora
+    root.after(0, alternar_imagens)               # Inicia a alternância de imagens
+
+    root.mainloop()
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.withdraw()  # Esconde a janela principal
+    mapa_linha()

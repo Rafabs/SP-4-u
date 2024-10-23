@@ -1,5 +1,6 @@
 {
     "SP_L01.py": {
+        "COR_LINHA": "#0455A1",
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
         "TRAJETO": [
@@ -13,33 +14,32 @@
             "Tiradentes",
             {
                 "text": "Luz",
-                "image": "icons/4.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/10.png",
-                "image_4": "icons/11png",
-                "image_5": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png"
             },
             "São Bento",
             {
                 "text": "Sé",
-                "image": "icons/3.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png"
             }, 
             "Japão - Liberdade",
             "São Joaquim",
             "Vergueiro",
             {
                 "text": "Paraíso",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },      
             {
                 "text": "Ana Rosa",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },  
             "Vila Mariana",
             {
                 "text": "Santa Cruz",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/Icons/5.png"
             },  
             "Praça da Árvore",
             "Saúde - Ultrafarma",
@@ -49,6 +49,7 @@
         ]
     },
     "SP_L02.py": {
+        "COR_LINHA": "#007E5E",
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
         "TRAJETO": [
@@ -57,79 +58,80 @@
             "Clínicas",
             {
                 "text": "Consolação",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/Icons/4.png"
             },            
             "Trianon - Masp",
             "Brigadeiro",
             {
                 "text": "Paraíso",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png"
             },   
             {
                 "text": "Ana Rosa",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png"
             },     
             {
                 "text": "Chácara Klabin",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/Icons/5.png"
             },   
             "Imigrantes",
             "Alto do Ipiranga",
             "Sacomã",
             {
                 "text": "Tamanduateí",
-                "image": "icons/10.png"
+                "image": "Mapa_dos_Trilhos/Icons/10.png"
             },  
             {
                 "text": "Vila Prudente",
-                "image": "icons/15.png"
+                "image": "Mapa_dos_Trilhos/Icons/15.png"
             }  
         ]
     },    
     "SP_L03.py": {
+        "COR_LINHA": "#EE372F",
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> CORINTHIANS - ITAQUERA",
         "LINHA": "03 - VERMELHA",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/7.png",
-                "image_1": "icons/8.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
             },                  
             "Marechal Deodoro",
             "Santa Cecília",
             {
                 "text": "República",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/Icons/4.png"
             },            
             "Anhangabaú",
             {
                 "text": "Sé",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png"
             },    
             "Pedro ll",
             {
                 "text": "Brás",
-                "image": "icons/7.png",
-                "image_1": "icons/10.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/12.png",
-                "image_4": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png"
             },  
             "Bresser - Mooca",
             "Belém",
             {
                 "text": "Tatuapé",
-                "image": "icons/11.png",
-                "image_1": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/12.png"
 
             },   
             "Carrão - Assaí Atacadista",
             {
                 "text": "Penha - Lojas Besni",
-                "image": "icons/2.png",
-                "image_1": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png"
             },   
             "Vila Matilde",
             "Guilhermina - Esperança",
@@ -137,36 +139,37 @@
             "Artur Alvim",
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/11.png"
             }
         ]
     },        
     "SP_L04.py": {
+        "COR_LINHA": "#FFF000",
         "DESTINO": "LUZ <<->> VILA SÔNIA",
         "LINHA": "04 - AMARELA",
         "TRAJETO": [
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png"
             },                  
             {
                 "text": "República",
-                "image": "icons/3.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png"
             },            
             "Higienópolis - Mackenzie",
             {
                 "text": "Paulista - Pernambucanas",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },    
             "Oscar Freire",
             "Fradique Coutinho",
             "Faria Lima",
             {
                 "text": "Pinheiros",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             },  
             "Butantã",
             "São Paulo - Morumbi",
@@ -174,16 +177,17 @@
         ]
     }, 
     "SP_L05.py": {
-        "DESTINO": "CHPACARA KLABIN <<->> CAPÃO REDONDO",
+        "COR_LINHA": "#9B3894",
+        "DESTINO": "CHÁCARA KLABIN <<->> CAPÃO REDONDO",
         "LINHA": "05 - LILÁS",
         "TRAJETO": [
             {
                 "text": "Chácara Klabin",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },                  
             {
                 "text": "Santa Cruz",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png"
             },            
             "Hospital São Paulo",
             "AACD - Servidor",
@@ -197,7 +201,7 @@
             "Largo Treze",
             {
                 "text": "Santo Amaro",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             },    
             "Giovanni Gronchi",
             "Vila das Belezas",
@@ -206,70 +210,72 @@
         ]
     },     
     "SP_L07.py": {
-        "DESTINO": "BRÁS <<->> JUNDIAÍ",
+        "COR_LINHA": "#CA016B",
+        "DESTINO": "JUNDIAÍ <<->> BRÁS",
         "LINHA": "07 - RUBI",
         "TRAJETO": [
-            {
-                "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png",
-                "image_2": "icons/12.png",
-                "image_3": "icons/13.png"
-            },                  
-            {
-                "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
-            },      
+            "Jundiaí",
+            "Várzea Paulista",
+            "Campo Limpo Paulista",
+            "Botujuru",
+            "Francisco Morato",
+            "Baltazar Fidélis",
+            "Franco da Rocha",
+            "Caieiras",
+            "Perus",
+            "Vila Aurora",
+            "Jaraguá",
+            "Vila Clarice",
+            "Pirituba",
+            "Piqueri",
+            "Lapa",
+            "Água Branca",
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/8.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
-            },           
-            "Água Branca",
-            "Lapa",
-            "Piqueri",
-            "Pirituba",
-            "Vila Clarice",  
-            "Jaraguá",  
-            "Vila Aurora",  
-            "Perus",  
-            "Caieiras",  
-            "Franco da Rocha",  
-            "Baltazar Fidélis",  
-            "Francisco Morato",  
-            "Botujuru",  
-            "Campo Limpo Paulista",  
-            "Várzea Paulista",  
-            "Jundiaí"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
+            },
+            {
+                "text": "Luz",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
+            },
+            {
+                "text": "Brás",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
+            }                    
         ]
     },      
     "SP_L08.py": {
+        "COR_LINHA": "#97A098",
         "DESTINO": "JÚLIO PRESTES <<->> AMADOR BUENO",
         "LINHA": "08 - DIAMANTE",
         "TRAJETO": [
             "Júlio Prestes",  
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
             },           
             "Lapa",
             "Domingo de Moraes",
             "Imperatriz Leopoldina",
             {
                 "text": "Presidente Altino",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             },  
             {
                 "text": "Osasco",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             }, 
             "Comandante Sampaio",
             "Quitaúna",
@@ -291,23 +297,24 @@
         ]
     },   
     "SP_L09.py": {
+        "COR_LINHA": "#01A9A7",
         "DESTINO": "OSASCO <<->> VARGINHA",
         "LINHA": "09 - ESMERALDA",
         "TRAJETO": [
             {
                 "text": "Osasco",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             }, 
             {
                 "text": "Presidente Altino",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/Icons/9.png"
             },  
             "Ceasa",
             "Vila Lobos - Jaguaré",
             "Cidade Universitária",
             {
                 "text": "Pinheiros",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/Icons/4.png"
             },  
             "Hebraica - Rebouças",
             "Cidade Jardim",
@@ -318,7 +325,7 @@
             "João Dias",
             {
                 "text": "Santo Amaro",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/Icons/5.png"
             },  
             "Socorro",
             "Jurubatuba - Senac",
@@ -330,6 +337,7 @@
         ]
     },          
     "SP_L10.py": {
+        "COR_LINHA": "#049FC3",
         "DESTINO": "BRÁS <<->> RIO GRANDE DA SERRA",
         "LINHA": "10 - TURQUESA",
         "TRAJETO": [
@@ -344,53 +352,54 @@
             "São Caetano do Sul - Prefeito Walter Braido",
             {
                 "text": "Tamanduateí",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },  
             "Ipiranga",
             "Juventus - Mooca",
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png",
-                "image_2": "icons/12.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
             }   
         ]
     },     
     "SP_L11.py": {
+        "COR_LINHA": "#F68368",
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> ESTUDANTES",
         "LINHA": "11 - CORAL",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/8.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
             }, 
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png"
             },    
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/10.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/12.png",
-                "image_4": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png"
             },
             {
                 "text": "Tatuapé",
-                "image": "icons/3.png",
-                "image_1": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/12.png"
             },
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/3.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png"
             },
             "Dom Bosco",
             "José Bonifácio",
@@ -400,7 +409,7 @@
             "Poá",
             {
                 "text": "Calmon Viana",
-                "image": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/Icons/12.png"
             },            
             "Suzano",
             "Jundiapeba",
@@ -410,25 +419,26 @@
         ]
     },    
     "SP_L12.py": {
+        "COR_LINHA": "#133C8D",
         "DESTINO": "BRÁS <<->> CALMON VIANA",
         "LINHA": "12 - SAFIRA",
         "TRAJETO": [ 
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png",
-                "image_4": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png"
             },
             {
                 "text": "Tatuapé",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png"
             },
             {
                 "text": "Engenheiro Goularte",
-                "image": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/Icons/13.png"
             },
             "USP Leste",
             "Ermelino Matarazzo",
@@ -441,51 +451,53 @@
             "Aracaré",
             {
                 "text": "Calmon Viana",
-                "image": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/11.png"
             }
         ]
     },    
     "SP_L13.py": {
+        "COR_LINHA": "#00B352",
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
         "LINHA": "13 - JADE",
         "TRAJETO": [ 
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/8.png",
-                "image_3": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png"
             }, 
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png"
             },  
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png",
-                "image_4": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/12.png"
             },    
             {
-                "text": "Engenheiro Goularte",
-                "image": "icons/12.png"
+                "text": "Engenheiro Goulart",
+                "image": "Mapa_dos_Trilhos/Icons/12.png"
             },       
             "Guarulhos - CECAP",
             "Aeroporto - Guarulhos"             
         ]
     }, 
     "SP_L15.py": {
+        "COR_LINHA": "#C0C0C0",
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",
         "TRAJETO": [ 
             {
                 "text": "Vila Prudente",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/Icons/2.png"
             },
             "Oratório",
             "São Lucas",
