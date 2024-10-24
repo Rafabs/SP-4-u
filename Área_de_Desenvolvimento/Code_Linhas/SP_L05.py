@@ -11,7 +11,7 @@ import subprocess
 # Função para executar o script SP_L01.py
 def line5():
     try:
-        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L05.py"], check=True)
+        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L01.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
         
@@ -39,7 +39,7 @@ def mapa_linha():
     root.geometry(f"{screen_width}x{screen_height}")  # Define as dimensões da janela
     root.attributes("-fullscreen", True)  # Deixa a janela em tela cheia
     root.overrideredirect(True)  # Remove os botões de fechar, maximizar, minimizar
-    root.title("Linha 5 - Lilás") # Define o título da janela
+    root.title("Linha 1 - Azul") # Define o título da janela
 
     def sair(event=None):
         root.destroy()
@@ -63,7 +63,7 @@ def mapa_linha():
 
     # Adiciona faixas azuis atrás dos textos, ocupando toda a largura da tela
     canvas.create_rectangle(0, 0, 1920, 180, fill=cor_linha, outline=cor_linha)  
-
+    
     # Função para obter a data em formato extenso
     def data_extenso():
         now = datetime.now()
@@ -103,6 +103,7 @@ def mapa_linha():
                 trajeto.get("image_2"),
                 trajeto.get("image_3"),
                 trajeto.get("image_4"),
+                trajeto.get("image_5"),
             ]  # Lista de caminhos das imagens
 
             if text:
