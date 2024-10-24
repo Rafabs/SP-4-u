@@ -3,13 +3,25 @@
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
         "TRAJETO": [
-            "Tucuruvi",
-            "Parada Inglesa",
+            {
+                "text": "Tucuruvi",
+                "image": "icons/onibus_emtu.png"
+            },       
+            {
+                "text": "Parada Inglesa",
+                "image": "icons/onibus_emtu.png"
+            },       
             "Jardim São Paulo - Ayrton Senna",
             "Santana",
             "Carandiru",
-            "Portuguesa - Tietê",
-            "Armênia",
+            {
+                "text": "Portguuesa - Tietê",
+                "image": "icons/onibus_emtu.png"
+            },       
+            {
+                "text": "Armênia",
+                "image": "icons/onibus_emtu.png"
+            },    
             "Tiradentes",
             {
                 "text": "Luz",
@@ -52,7 +64,10 @@
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
         "TRAJETO": [
-            "Vila Madalena",
+            {
+                "text": "Vila Madalena",
+                "image": "icons/onibus_emtu.png"
+            },   
             "Sumaré - Santuário N. Sra. de Fátima",
             "Clínicas",
             {
@@ -75,7 +90,10 @@
             },   
             "Imigrantes",
             "Alto do Ipiranga",
-            "Sacomã",
+            {
+                "text": "Sacomã",
+                "image": "icons/onibus_emtu.png"
+            },   
             {
                 "text": "Tamanduateí",
                 "image": "icons/10.png"
