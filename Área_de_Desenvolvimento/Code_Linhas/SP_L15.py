@@ -11,7 +11,7 @@ import subprocess
 # Função para executar o script SP_L01.py
 def line15():
     try:
-        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L15.py"], check=True)
+        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L01.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
         
@@ -39,7 +39,7 @@ def mapa_linha():
     root.geometry(f"{screen_width}x{screen_height}")  # Define as dimensões da janela
     root.attributes("-fullscreen", True)  # Deixa a janela em tela cheia
     root.overrideredirect(True)  # Remove os botões de fechar, maximizar, minimizar
-    root.title("Linha 15 - Prata") # Define o título da janela
+    root.title("Linha 1 - Azul") # Define o título da janela
 
     def sair(event=None):
         root.destroy()
@@ -63,7 +63,7 @@ def mapa_linha():
 
     # Adiciona faixas azuis atrás dos textos, ocupando toda a largura da tela
     canvas.create_rectangle(0, 0, 1920, 180, fill=cor_linha, outline=cor_linha)  
-
+    
     # Função para obter a data em formato extenso
     def data_extenso():
         now = datetime.now()
@@ -76,13 +76,13 @@ def mapa_linha():
     data_completa = data_extenso()
 
     linha1 = canvas.create_text(
-        20, 20, text=f"{hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill=preto)
+        20, 20, text=f"{hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
     linha2 = canvas.create_text(
-        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill=preto)
+        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
     destino = canvas.create_text(
-        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill=preto)
+        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
     linha = canvas.create_text(
-        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill=preto)
+        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
 
     # Exibir as informações do trajeto na horizontal, inclinadas em 60°
     canvas_center_x = 960
@@ -103,6 +103,7 @@ def mapa_linha():
                 trajeto.get("image_2"),
                 trajeto.get("image_3"),
                 trajeto.get("image_4"),
+                trajeto.get("image_5"),
             ]  # Lista de caminhos das imagens
 
             if text:

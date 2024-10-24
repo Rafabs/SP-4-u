@@ -103,6 +103,7 @@ def mapa_linha():
                 trajeto.get("image_2"),
                 trajeto.get("image_3"),
                 trajeto.get("image_4"),
+                trajeto.get("image_5"),
             ]  # Lista de caminhos das imagens
 
             if text:

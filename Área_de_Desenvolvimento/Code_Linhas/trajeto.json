@@ -113,7 +113,9 @@
                 "image": "icons/7.png",
                 "image_1": "icons/8.png",
                 "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
+
             },                  
             "Marechal Deodoro",
             "Santa Cecília",
@@ -133,21 +135,26 @@
                 "image_1": "icons/10.png",
                 "image_2": "icons/11.png",
                 "image_3": "icons/12.png",
-                "image_4": "icons/13.png"
+                "image_4": "icons/13.png",
+                "image_5": "icons/onibus_emtu.png"
             },  
             "Bresser - Mooca",
             "Belém",
             {
                 "text": "Tatuapé",
                 "image": "icons/11.png",
-                "image_1": "icons/12.png"
-
+                "image_1": "icons/12.png",
+                "image_2": "icons/onibus_emtu.png"
             },   
-            "Carrão - Assaí Atacadista",
+            {
+                "text": "Carrão - Assaí Atacadista",
+                "image": "icons/onibus_emtu.png"
+            },               
             {
                 "text": "Penha - Lojas Besni",
                 "image": "icons/2.png",
-                "image_1": "icons/11.png"
+                "image_1": "icons/11.png",
+                "image_3": "icons/onibus_emtu.png"
             },   
             "Vila Matilde",
             "Guilhermina - Esperança",
@@ -155,7 +162,8 @@
             "Artur Alvim",
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/11.png"
+                "image": "icons/11.png",
+                "image_1": "icons/onibus_emtu.png"
             }
         ]
     },        
@@ -187,8 +195,14 @@
                 "image": "icons/9.png"
             },  
             "Butantã",
-            "São Paulo - Morumbi",
-            "Vila Sônia"            
+            {
+                "text": "São Paulo - Morumbi",
+                "image": "icons/onibus_emtu.png"
+            },               
+            {
+                "text": "Vila Sônia",   
+                "image": "icons/onibus_emtu.png"
+            }                                     
         ]
     }, 
     "SP_L05.py": {
@@ -219,8 +233,14 @@
             },    
             "Giovanni Gronchi",
             "Vila das Belezas",
-            "Campo Limpo",
-            "Capão Redondo"         
+            {
+                "text": "Campo Limpo", 
+                "image": "icons/onibus_emtu.png"
+            },                 
+            {
+                "text": "Capão Redondo",         
+                "image": "icons/onibus_emtu.png"
+            }                              
         ]
     },     
     "SP_L07.py": {
@@ -246,7 +266,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/8.png",
                 "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             },           
             "Água Branca",
             "Lapa",
@@ -256,10 +277,19 @@
             "Jaraguá",  
             "Vila Aurora",  
             "Perus",  
-            "Caieiras",  
-            "Franco da Rocha",  
-            "Baltazar Fidélis",  
-            "Francisco Morato",  
+            {
+                "text": "Caieiras",        
+                "image": "icons/onibus_emtu.png"
+            },                
+            {
+                "text": "Franco da Rocha",         
+                "image": "icons/onibus_emtu.png"
+            },                          
+            "Baltazar Fidélis", 
+            {
+                "text": "Francisco Morato",          
+                "image": "icons/onibus_emtu.png"
+            },                           
             "Botujuru",  
             "Campo Limpo Paulista",  
             "Várzea Paulista",  
@@ -276,7 +306,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/7.png",
                 "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             },           
             "Lapa",
             "Domingo de Moraes",
@@ -287,7 +318,8 @@
             },  
             {
                 "text": "Osasco",
-                "image": "icons/9.png"
+                "image": "icons/9.png",
+                "image_1": "icons/onibus_emtu.png"
             }, 
             "Comandante Sampaio",
             "Quitaúna",
@@ -314,7 +346,10 @@
         "TRAJETO": [
             "Varginha",
             "Bruno Covas / Mendes - Vila Natal",
-            "Grajaú",
+            {
+                "text": "Grajaú",
+                "image": "icons/onibus_emtu.png"
+            },                        
             "Primavera - Interlagos",
             "Autódromo",
             "Jurubatuba - Senac",
@@ -343,7 +378,8 @@
             },
             {
                 "text": "Osasco",
-                "image": "icons/8.png"
+                "image": "icons/8.png",
+                "image_1": "icons/onibus_emtu.png"
             }
         ]
     },          
@@ -351,15 +387,24 @@
         "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
         "TRAJETO": [
-            "Rio Grande da Serra",
-            "Ribeirão Pires",
+            "Rio Grande da Serra",            
+            {
+                "text": "Ribeirão Pires",
+                "image": "icons/onibus_emtu.png"
+            },               
             "Guapituba",
             "Mauá",
             "Capuava",
-            "Prefeito Celso Daniel - Santo André",
-            "Prefeito Saladino",
-            "Utinga",
-            "São Caetano do Sul - Prefeito Walter Braido",
+            "Prefeito Celso Daniel - Santo André",            
+            {
+                "text": "Prefeito Saladino",
+                "image": "icons/onibus_emtu.png"
+            },              
+            "Utinga",            
+            {
+                "text": "São Caetano do Sul - Prefeito Walter Braido",
+                "image": "icons/onibus_emtu.png"
+            },  
             {
                 "text": "Tamanduateí",
                 "image": "icons/2.png"
@@ -371,7 +416,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/11.png",
                 "image_2": "icons/12.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             }   
         ]
     },     
@@ -399,7 +445,8 @@
                 "image_1": "icons/10.png",
                 "image_2": "icons/11.png",
                 "image_3": "icons/12.png",
-                "image_4": "icons/13.png"
+                "image_4": "icons/13.png",
+                "image_5": "icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
@@ -408,23 +455,33 @@
             },
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/3.png"
+                "image": "icons/3.png",
+                "image_1": "icons/onibus_emtu.png"
             },
             "Dom Bosco",
             "José Bonifácio",
-            "Guaianazes",
+            {
+                "text": "Guaianazes",
+                "image": "icons/onibus_emtu.png"
+            },            
             "Antônio Gianetti Neto",
             "Ferraz de Vasconcelos",
             "Poá",
             {
                 "text": "Calmon Viana",
                 "image": "icons/12.png"
-            },            
-            "Suzano",
+            },                        
+            {
+                "text": "Suzano",
+                "image": "icons/onibus_emtu.png"
+            },              
             "Jundiapeba",
             "Braz Cubas",
-            "Mogi das Cruzes",
-            "Estudantes"
+            "Mogi das Cruzes",            
+            {
+                "text": "Estudantes",
+                "image": "icons/onibus_emtu.png"
+            }            
         ]
     },    
     "SP_L12.py": {
@@ -437,7 +494,8 @@
                 "image_1": "icons/7.png",
                 "image_2": "icons/10.png",
                 "image_3": "icons/11.png",
-                "image_4": "icons/13.png"
+                "image_4": "icons/13.png",
+                "image_5": "icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
@@ -454,7 +512,11 @@
             "Jardim Helena - Vila Marta",
             "Itaim Paulista",
             "Jardim Romano",
-            "Engenheiro Manoel Feio",
+            
+            {
+                "text": "Engenheiro Manoel Feio",
+                "image": "icons/onibus_emtu.png"
+            },            
             "Itaquaquecetuba",
             "Aracaré",
             {
@@ -472,7 +534,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/7.png",
                 "image_2": "icons/8.png",
-                "image_3": "icons/11.png"
+                "image_3": "icons/11.png",
+                "image_4": "icons/onibus_emtu.png"
             }, 
             {
                 "text": "Luz",
@@ -487,7 +550,8 @@
                 "image_1": "icons/7.png",
                 "image_2": "icons/10.png",
                 "image_3": "icons/11.png",
-                "image_4": "icons/12.png"
+                "image_4": "icons/12.png",
+                "image_5": "icons/onibus_emtu.png"
             },    
             {
                 "text": "Engenheiro Goularte",
