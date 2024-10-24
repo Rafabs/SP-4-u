@@ -274,7 +274,7 @@ def mapa_global():
         # Cria um mapa
         m = folium.Map(location=[-23.5505205, -46.6333083], zoom_start=10)
 
-    # Itera sobre os dados
+        # Itera sobre os dados
         for local, info in data['base_medicoes'].items():
             lat, lon = info['latitude'], info['longitude']
             estacao = local
@@ -285,46 +285,42 @@ def mapa_global():
 
             # Utiliza o certifi para apontar para o caminho do certificado
             response = requests.get(f"https://api.waqi.info/feed/geo:{latitude};{longitude}/?token={API_TOKEN_QUALLITY_AR}", 
-                            verify=certifi.where())
+                                    verify=certifi.where())
             air_quality_data = response.json()
 
-            # Verifica se 'data' é um dicionário
-            if isinstance(air_quality_data.get('data'), dict):
-                # Obtém o índice de qualidade do ar
-                indice = air_quality_data['data']['aqi']
+            # Função para obter a classificação com base no índice
+            def obter_classificacao(indice):
+                if indice <= 40:
+                    return "N1"
+                elif 41 <= indice <= 80:
+                    return "N2"
+                elif 81 <= indice <= 120:
+                    return "N3"
+                elif 121 <= indice <= 200:
+                    return "N4"
+                else:
+                    return "N5"
+
+            # Obtém o índice de qualidade do ar
+            indice = air_quality_data['data']['aqi']
         
-                # Função para obter a classificação com base no índice
-                def obter_classificacao(indice):
-                    if indice <= 40:
-                        return "N1"
-                    elif 41 <= indice <= 80:
-                        return "N2"
-                    elif 81 <= indice <= 120:
-                        return "N3"
-                    elif 121 <= indice <= 200:
-                        return "N4"
-                    else:
-                        return "N5"
+            # Obtém a classificação correspondente
+            classificacao = obter_classificacao(indice)
 
-                # Obtém a classificação correspondente
-                classificacao = obter_classificacao(indice)
+            # Obtém o ícone correspondente com base na classificação
+            icone = icone_mapping[classificacao]
 
-                # Obtém o ícone correspondente com base na classificação
-                icone = icone_mapping[classificacao]
-
-                # Adiciona marcador com o índice e classificação como popup
-                folium.Marker([lat, lon], 
-                    icon=folium.CustomIcon(icon_image=icone, icon_size=(30,30)),
-                    popup=folium.Popup(
-                        f"<b>Estação: </b>{estacao}<br>"
-                        f"<b>Endereço: </b>{endereco}<br>"
-                        f"<b>Índice: </b>{indice}<br>"
-                        f"<b>Qualidade do Ar: </b>{classificacao_mapping[classificacao]}<br>",
-                        max_width=300
-                    )
-                ).add_to(ar_group)
-            else:
-                print(f"Erro: 'data' não é um dicionário para a estação {estacao}.")
+            # Adiciona marcador com o índice e classificação como popup
+            folium.Marker([lat, lon], 
+                icon=folium.CustomIcon(icon_image=icone, icon_size=(30,30)),
+                popup=folium.Popup(
+                    f"<b>Estação: </b>{estacao}<br>"
+                    f"<b>Endereço: </b>{endereco}<br>"
+                    f"<b>Índice: </b>{indice}<br>"
+                    f"<b>Qualidade do Ar: </b>{classificacao_mapping[classificacao]}<br>",
+                    max_width=300
+                )
+            ).add_to(ar_group)
 
     def od1987(mapa, od1987_group):
         # Carrega o arquivo JSON
