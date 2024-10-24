@@ -1,5 +1,90 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 
+---------------------------------------------------------------------------------------------------------------
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI CRIADO ARQUIVO COM OS DADOS QUE ALIMENTARÃO OS ARQUIVOS DE LINHAS.
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L15.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L13.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L12.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L11.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L10.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L09.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L08.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L07.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L05.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L04.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L03.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L02.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
+# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L01.py, PUXAR OS DADOS DE TRAJETO.JSON
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 # FOI CRIADO UMA FUNÇÃO PARA INSERIR O HORÁRIO DA MÁQUINA SEMPRE QUE FOR ATUALIZADO
