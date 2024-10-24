@@ -6,53 +6,53 @@
         "TRAJETO": [
             {
                 "text": "Tucuruvi",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },       
             {
                 "text": "Parada Inglesa",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },       
             "Jardim São Paulo - Ayrton Senna",
             "Santana",
             "Carandiru",
             {
                 "text": "Portguuesa - Tietê",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },       
             {
                 "text": "Armênia",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },    
             "Tiradentes",
             {
                 "text": "Luz",
-                "image": "icons/4.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/10.png",
-                "image_4": "icons/11png",
-                "image_5": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/4.png",
+                "image_1": "Mapa_dos_Trilhos/icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/icons/10.png",
+                "image_4": "Mapa_dos_Trilhos/icons/11png",
+                "image_5": "Mapa_dos_Trilhos/icons/13.png"
             },
             "São Bento",
             {
                 "text": "Sé",
-                "image": "icons/3.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png"
             }, 
             "Japão - Liberdade",
             "São Joaquim",
             "Vergueiro",
             {
                 "text": "Paraíso",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },      
             {
                 "text": "Ana Rosa",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },  
             "Vila Mariana",
             {
                 "text": "Santa Cruz",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/icons/5.png"
             },  
             "Praça da Árvore",
             "Saúde - Ultrafarma",
@@ -68,41 +68,41 @@
         "TRAJETO": [
             {
                 "text": "Vila Madalena",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },   
             "Sumaré - Santuário N. Sra. de Fátima",
             "Clínicas",
             {
                 "text": "Consolação",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/icons/4.png"
             },            
             "Trianon - Masp",
             "Brigadeiro",
             {
                 "text": "Paraíso",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png"
             },   
             {
                 "text": "Ana Rosa",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png"
             },     
             {
                 "text": "Chácara Klabin",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/icons/5.png"
             },   
             "Imigrantes",
             "Alto do Ipiranga",
             {
                 "text": "Sacomã",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },   
             {
                 "text": "Tamanduateí",
-                "image": "icons/10.png"
+                "image": "Mapa_dos_Trilhos/icons/10.png"
             },  
             {
                 "text": "Vila Prudente",
-                "image": "icons/15.png"
+                "image": "Mapa_dos_Trilhos/icons/15.png"
             }  
         ]
     },    
@@ -113,51 +113,51 @@
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/7.png",
-                "image_1": "icons/8.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png",
-                "image_4": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
 
             },                  
             "Marechal Deodoro",
             "Santa Cecília",
             {
                 "text": "República",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/icons/4.png"
             },            
             "Anhangabaú",
             {
                 "text": "Sé",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png"
             },    
             "Pedro ll",
             {
                 "text": "Brás",
-                "image": "icons/7.png",
-                "image_1": "icons/10.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/12.png",
-                "image_4": "icons/13.png",
-                "image_5": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },  
             "Bresser - Mooca",
             "Belém",
             {
                 "text": "Tatuapé",
-                "image": "icons/11.png",
-                "image_1": "icons/12.png",
-                "image_2": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/11.png",
+                "image_1": "Mapa_dos_Trilhos/icons/12.png",
+                "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },   
             {
                 "text": "Carrão - Assaí Atacadista",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },               
             {
                 "text": "Penha - Lojas Besni",
-                "image": "icons/2.png",
-                "image_1": "icons/11.png",
-                "image_3": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image_1": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },   
             "Vila Matilde",
             "Guilhermina - Esperança",
@@ -165,8 +165,8 @@
             "Artur Alvim",
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/11.png",
-                "image_1": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/11.png",
+                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }
         ]
     },        
@@ -177,35 +177,35 @@
         "TRAJETO": [
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png"
             },                  
             {
                 "text": "República",
-                "image": "icons/3.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png"
             },            
             "Higienópolis - Mackenzie",
             {
                 "text": "Paulista - Pernambucanas",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },    
             "Oscar Freire",
             "Fradique Coutinho",
             "Faria Lima",
             {
                 "text": "Pinheiros",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/icons/9.png"
             },  
             "Butantã",
             {
                 "text": "São Paulo - Morumbi",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },               
             {
                 "text": "Vila Sônia",   
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }                                     
         ]
     }, 
@@ -216,11 +216,11 @@
         "TRAJETO": [
             {
                 "text": "Chácara Klabin",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },                  
             {
                 "text": "Santa Cruz",
-                "image": "icons/1.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png"
             },            
             "Hospital São Paulo",
             "AACD - Servidor",
@@ -234,17 +234,17 @@
             "Largo Treze",
             {
                 "text": "Santo Amaro",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/icons/9.png"
             },    
             "Giovanni Gronchi",
             "Vila das Belezas",
             {
                 "text": "Campo Limpo", 
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },                 
             {
                 "text": "Capão Redondo",         
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }                              
         ]
     },     
@@ -255,25 +255,25 @@
         "TRAJETO": [
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png",
-                "image_2": "icons/12.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/11.png",
+                "image_2": "Mapa_dos_Trilhos/icons/12.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png"
             },                  
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png"
             },      
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/8.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png",
-                "image_4": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },           
             "Água Branca",
             "Lapa",
@@ -285,16 +285,16 @@
             "Perus",  
             {
                 "text": "Caieiras",        
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },                
             {
                 "text": "Franco da Rocha",         
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },                          
             "Baltazar Fidélis", 
             {
                 "text": "Francisco Morato",          
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },                           
             "Botujuru",  
             "Campo Limpo Paulista",  
@@ -310,23 +310,23 @@
             "Júlio Prestes",  
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/13.png",
-                "image_4": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },           
             "Lapa",
             "Domingo de Moraes",
             "Imperatriz Leopoldina",
             {
                 "text": "Presidente Altino",
-                "image": "icons/9.png"
+                "image": "Mapa_dos_Trilhos/icons/9.png"
             },  
             {
                 "text": "Osasco",
-                "image": "icons/9.png",
-                "image_1": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/9.png",
+                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }, 
             "Comandante Sampaio",
             "Quitaúna",
@@ -356,7 +356,7 @@
             "Bruno Covas / Mendes - Vila Natal",
             {
                 "text": "Grajaú",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },                        
             "Primavera - Interlagos",
             "Autódromo",
@@ -364,7 +364,7 @@
             "Socorro",
             {
                 "text": "Santo Amaro",
-                "image": "icons/5.png"
+                "image": "Mapa_dos_Trilhos/icons/5.png"
             },
             "João Dias",
             "Granja Julieta",
@@ -375,19 +375,19 @@
             "Hebraica - Rebouças",
             {
                 "text": "Pinheiros",
-                "image": "icons/4.png"
+                "image": "Mapa_dos_Trilhos/icons/4.png"
             },
             "Cidade Universitária",
             "Vila Lobos - Jaguaré",
             "Ceasa",
             {
                 "text": "Presidente Altino",
-                "image": "icons/8.png"
+                "image": "Mapa_dos_Trilhos/icons/8.png"
             },
             {
                 "text": "Osasco",
-                "image": "icons/8.png",
-                "image_1": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/8.png",
+                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }
         ]
     },          
@@ -399,7 +399,7 @@
             "Rio Grande da Serra",            
             {
                 "text": "Ribeirão Pires",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },               
             "Guapituba",
             "Mauá",
@@ -407,26 +407,26 @@
             "Prefeito Celso Daniel - Santo André",            
             {
                 "text": "Prefeito Saladino",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },              
             "Utinga",            
             {
                 "text": "São Caetano do Sul - Prefeito Walter Braido",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },  
             {
                 "text": "Tamanduateí",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },  
             "Ipiranga",
             "Juventus - Mooca",
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png",
-                "image_2": "icons/12.png",
-                "image_3": "icons/13.png",
-                "image_4": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/11.png",
+                "image_2": "Mapa_dos_Trilhos/icons/12.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }   
         ]
     },     
@@ -437,60 +437,60 @@
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/8.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png"
             }, 
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png"
             },    
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/10.png",
-                "image_2": "icons/11.png",
-                "image_3": "icons/12.png",
-                "image_4": "icons/13.png",
-                "image_5": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
-                "image": "icons/3.png",
-                "image_1": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/12.png"
             },
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/3.png",
-                "image_1": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },
             "Dom Bosco",
             "José Bonifácio",
             {
                 "text": "Guaianazes",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },            
             "Antônio Gianetti Neto",
             "Ferraz de Vasconcelos",
             "Poá",
             {
                 "text": "Calmon Viana",
-                "image": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/icons/12.png"
             },                        
             {
                 "text": "Suzano",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },              
             "Jundiapeba",
             "Braz Cubas",
             "Mogi das Cruzes",            
             {
                 "text": "Estudantes",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }            
         ]
     },    
@@ -501,21 +501,21 @@
         "TRAJETO": [ 
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png",
-                "image_4": "icons/13.png",
-                "image_5": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
-                "image": "icons/3.png",
-                "image_1": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/11.png"
             },
             {
                 "text": "Engenheiro Goularte",
-                "image": "icons/13.png"
+                "image": "Mapa_dos_Trilhos/icons/13.png"
             },
             "USP Leste",
             "Ermelino Matarazzo",
@@ -526,13 +526,13 @@
             
             {
                 "text": "Engenheiro Manoel Feio",
-                "image": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },            
             "Itaquaquecetuba",
             "Aracaré",
             {
                 "text": "Calmon Viana",
-                "image": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/icons/11.png"
             }
         ]
     },    
@@ -543,31 +543,31 @@
         "TRAJETO": [ 
             {
                 "text": "Palmeiras - Barra Funda",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/8.png",
-                "image_3": "icons/11.png",
-                "image_4": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }, 
             {
                 "text": "Luz",
-                "image": "icons/1.png",
-                "image_1": "icons/4.png",
-                "image_2": "icons/7.png",
-                "image_3": "icons/11.png"
+                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png"
             },  
             {
                 "text": "Brás",
-                "image": "icons/3.png",
-                "image_1": "icons/7.png",
-                "image_2": "icons/10.png",
-                "image_3": "icons/11.png",
-                "image_4": "icons/12.png",
-                "image_5": "icons/onibus_emtu.png"
+                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/icons/12.png",
+                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },    
             {
                 "text": "Engenheiro Goularte",
-                "image": "icons/12.png"
+                "image": "Mapa_dos_Trilhos/icons/12.png"
             },       
             "Guarulhos - CECAP",
             "Aeroporto - Guarulhos"             
@@ -580,7 +580,7 @@
         "TRAJETO": [ 
             {
                 "text": "Vila Prudente",
-                "image": "icons/2.png"
+                "image": "Mapa_dos_Trilhos/icons/2.png"
             },
             "Oratório",
             "São Lucas",
