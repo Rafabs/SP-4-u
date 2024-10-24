@@ -2,6 +2,7 @@
     "SP_L01.py": {
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
+        "COR_LINHA": "#0455A1",
         "TRAJETO": [
             {
                 "text": "Tucuruvi",
@@ -63,6 +64,7 @@
     "SP_L02.py": {
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
+        "COR_LINHA": "#007E5E",
         "TRAJETO": [
             {
                 "text": "Vila Madalena",
@@ -107,6 +109,7 @@
     "SP_L03.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> CORINTHIANS - ITAQUERA",
         "LINHA": "03 - VERMELHA",
+        "COR_LINHA": "#EE372F",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -143,14 +146,18 @@
             {
                 "text": "Tatuapé",
                 "image": "icons/11.png",
-                "image_1": "icons/12.png"
-
+                "image_1": "icons/12.png",
+                "image_2": "icons/onibus_emtu.png"
             },   
-            "Carrão - Assaí Atacadista",
+            {
+                "text": "Carrão - Assaí Atacadista",
+                "image": "icons/onibus_emtu.png"
+            },               
             {
                 "text": "Penha - Lojas Besni",
                 "image": "icons/2.png",
-                "image_1": "icons/11.png"
+                "image_1": "icons/11.png",
+                "image_3": "icons/onibus_emtu.png"
             },   
             "Vila Matilde",
             "Guilhermina - Esperança",
@@ -158,13 +165,15 @@
             "Artur Alvim",
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/11.png"
+                "image": "icons/11.png",
+                "image_1": "icons/onibus_emtu.png"
             }
         ]
     },        
     "SP_L04.py": {
         "DESTINO": "LUZ <<->> VILA SÔNIA",
         "LINHA": "04 - AMARELA",
+        "COR_LINHA": "#FFF000",
         "TRAJETO": [
             {
                 "text": "Luz",
@@ -190,13 +199,20 @@
                 "image": "icons/9.png"
             },  
             "Butantã",
-            "São Paulo - Morumbi",
-            "Vila Sônia"            
+            {
+                "text": "São Paulo - Morumbi",
+                "image": "icons/onibus_emtu.png"
+            },               
+            {
+                "text": "Vila Sônia",   
+                "image": "icons/onibus_emtu.png"
+            }                                     
         ]
     }, 
     "SP_L05.py": {
         "DESTINO": "CHPACARA KLABIN <<->> CAPÃO REDONDO",
         "LINHA": "05 - LILÁS",
+        "COR_LINHA": "#9B3894",
         "TRAJETO": [
             {
                 "text": "Chácara Klabin",
@@ -222,13 +238,20 @@
             },    
             "Giovanni Gronchi",
             "Vila das Belezas",
-            "Campo Limpo",
-            "Capão Redondo"         
+            {
+                "text": "Campo Limpo", 
+                "image": "icons/onibus_emtu.png"
+            },                 
+            {
+                "text": "Capão Redondo",         
+                "image": "icons/onibus_emtu.png"
+            }                              
         ]
     },     
     "SP_L07.py": {
         "DESTINO": "BRÁS <<->> JUNDIAÍ",
         "LINHA": "07 - RUBI",
+        "COR_LINHA": "#CA016B",
         "TRAJETO": [
             {
                 "text": "Brás",
@@ -249,7 +272,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/8.png",
                 "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             },           
             "Água Branca",
             "Lapa",
@@ -259,10 +283,19 @@
             "Jaraguá",  
             "Vila Aurora",  
             "Perus",  
-            "Caieiras",  
-            "Franco da Rocha",  
-            "Baltazar Fidélis",  
-            "Francisco Morato",  
+            {
+                "text": "Caieiras",        
+                "image": "icons/onibus_emtu.png"
+            },                
+            {
+                "text": "Franco da Rocha",         
+                "image": "icons/onibus_emtu.png"
+            },                          
+            "Baltazar Fidélis", 
+            {
+                "text": "Francisco Morato",          
+                "image": "icons/onibus_emtu.png"
+            },                           
             "Botujuru",  
             "Campo Limpo Paulista",  
             "Várzea Paulista",  
@@ -272,6 +305,7 @@
     "SP_L08.py": {
         "DESTINO": "JÚLIO PRESTES <<->> AMADOR BUENO",
         "LINHA": "08 - DIAMANTE",
+        "COR_LINHA": "#97A098",
         "TRAJETO": [
             "Júlio Prestes",  
             {
@@ -279,7 +313,8 @@
                 "image": "icons/3.png",
                 "image_1": "icons/7.png",
                 "image_2": "icons/11.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             },           
             "Lapa",
             "Domingo de Moraes",
@@ -290,7 +325,8 @@
             },  
             {
                 "text": "Osasco",
-                "image": "icons/9.png"
+                "image": "icons/9.png",
+                "image_1": "icons/onibus_emtu.png"
             }, 
             "Comandante Sampaio",
             "Quitaúna",
@@ -314,10 +350,14 @@
     "SP_L09.py": {
         "DESTINO": "VARGINHA <<->> OSACO",
         "LINHA": "09 - ESMERALDA",
+        "COR_LINHA": "#01A9A7",
         "TRAJETO": [
             "Varginha",
             "Bruno Covas / Mendes - Vila Natal",
-            "Grajaú",
+            {
+                "text": "Grajaú",
+                "image": "icons/onibus_emtu.png"
+            },                        
             "Primavera - Interlagos",
             "Autódromo",
             "Jurubatuba - Senac",
@@ -346,23 +386,34 @@
             },
             {
                 "text": "Osasco",
-                "image": "icons/8.png"
+                "image": "icons/8.png",
+                "image_1": "icons/onibus_emtu.png"
             }
         ]
     },          
     "SP_L10.py": {
         "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
+        "COR_LINHA": "#049FC3",
         "TRAJETO": [
-            "Rio Grande da Serra",
-            "Ribeirão Pires",
+            "Rio Grande da Serra",            
+            {
+                "text": "Ribeirão Pires",
+                "image": "icons/onibus_emtu.png"
+            },               
             "Guapituba",
             "Mauá",
             "Capuava",
-            "Prefeito Celso Daniel - Santo André",
-            "Prefeito Saladino",
-            "Utinga",
-            "São Caetano do Sul - Prefeito Walter Braido",
+            "Prefeito Celso Daniel - Santo André",            
+            {
+                "text": "Prefeito Saladino",
+                "image": "icons/onibus_emtu.png"
+            },              
+            "Utinga",            
+            {
+                "text": "São Caetano do Sul - Prefeito Walter Braido",
+                "image": "icons/onibus_emtu.png"
+            },  
             {
                 "text": "Tamanduateí",
                 "image": "icons/2.png"
@@ -374,13 +425,15 @@
                 "image": "icons/3.png",
                 "image_1": "icons/11.png",
                 "image_2": "icons/12.png",
-                "image_3": "icons/13.png"
+                "image_3": "icons/13.png",
+                "image_4": "icons/onibus_emtu.png"
             }   
         ]
     },     
     "SP_L11.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> ESTUDANTES",
         "LINHA": "11 - CORAL",
+        "COR_LINHA": "#F68368",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -402,7 +455,8 @@
                 "image_1": "icons/10.png",
                 "image_2": "icons/11.png",
                 "image_3": "icons/12.png",
-                "image_4": "icons/13.png"
+                "image_4": "icons/13.png",
+                "image_5": "icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
@@ -411,28 +465,39 @@
             },
             {
                 "text": "Corinthians - Itaquera",
-                "image": "icons/3.png"
+                "image": "icons/3.png",
+                "image_1": "icons/onibus_emtu.png"
             },
             "Dom Bosco",
             "José Bonifácio",
-            "Guaianazes",
+            {
+                "text": "Guaianazes",
+                "image": "icons/onibus_emtu.png"
+            },            
             "Antônio Gianetti Neto",
             "Ferraz de Vasconcelos",
             "Poá",
             {
                 "text": "Calmon Viana",
                 "image": "icons/12.png"
-            },            
-            "Suzano",
+            },                        
+            {
+                "text": "Suzano",
+                "image": "icons/onibus_emtu.png"
+            },              
             "Jundiapeba",
             "Braz Cubas",
-            "Mogi das Cruzes",
-            "Estudantes"
+            "Mogi das Cruzes",            
+            {
+                "text": "Estudantes",
+                "image": "icons/onibus_emtu.png"
+            }            
         ]
     },    
     "SP_L12.py": {
         "DESTINO": "BRÁS <<->> CALMON VIANA",
         "LINHA": "12 - SAFIRA",
+        "COR_LINHA": "#133C8D",
         "TRAJETO": [ 
             {
                 "text": "Brás",
@@ -440,7 +505,8 @@
                 "image_1": "icons/7.png",
                 "image_2": "icons/10.png",
                 "image_3": "icons/11.png",
-                "image_4": "icons/13.png"
+                "image_4": "icons/13.png",
+                "image_5": "icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
@@ -457,7 +523,11 @@
             "Jardim Helena - Vila Marta",
             "Itaim Paulista",
             "Jardim Romano",
-            "Engenheiro Manoel Feio",
+            
+            {
+                "text": "Engenheiro Manoel Feio",
+                "image": "icons/onibus_emtu.png"
+            },            
             "Itaquaquecetuba",
             "Aracaré",
             {
@@ -469,13 +539,15 @@
     "SP_L13.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
         "LINHA": "13 - JADE",
+        "COR_LINHA": "#00B352",
         "TRAJETO": [ 
             {
                 "text": "Palmeiras - Barra Funda",
                 "image": "icons/3.png",
                 "image_1": "icons/7.png",
                 "image_2": "icons/8.png",
-                "image_3": "icons/11.png"
+                "image_3": "icons/11.png",
+                "image_4": "icons/onibus_emtu.png"
             }, 
             {
                 "text": "Luz",
@@ -490,7 +562,8 @@
                 "image_1": "icons/7.png",
                 "image_2": "icons/10.png",
                 "image_3": "icons/11.png",
-                "image_4": "icons/12.png"
+                "image_4": "icons/12.png",
+                "image_5": "icons/onibus_emtu.png"
             },    
             {
                 "text": "Engenheiro Goularte",
@@ -503,6 +576,7 @@
     "SP_L15.py": {
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",
+        "COR_LINHA": "#C0C0C0",
         "TRAJETO": [ 
             {
                 "text": "Vila Prudente",

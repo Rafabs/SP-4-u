@@ -11,7 +11,7 @@ import subprocess
 # Função para executar o script SP_L01.py
 def line15():
     try:
-        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L01.py"], check=True)
+        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L15.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
         
