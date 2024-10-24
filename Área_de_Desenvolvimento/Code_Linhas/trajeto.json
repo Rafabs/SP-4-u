@@ -291,46 +291,46 @@
         ]
     },   
     "SP_L09.py": {
-        "DESTINO": "OSASCO <<->> VARGINHA",
+        "DESTINO": "VARGINHA <<->> OSACO",
         "LINHA": "09 - ESMERALDA",
         "TRAJETO": [
-            {
-                "text": "Osasco",
-                "image": "icons/9.png"
-            }, 
-            {
-                "text": "Presidente Altino",
-                "image": "icons/9.png"
-            },  
-            "Ceasa",
-            "Vila Lobos - Jaguaré",
-            "Cidade Universitária",
-            {
-                "text": "Pinheiros",
-                "image": "icons/4.png"
-            },  
-            "Hebraica - Rebouças",
-            "Cidade Jardim",
-            "Vila Olímpia",
-            "Berrini",
-            "Morumbi - Claro",
-            "Granja Julieta",
-            "João Dias",
+            "Varginha",
+            "Bruno Covas / Mendes - Vila Natal",
+            "Grajaú",
+            "Primavera - Interlagos",
+            "Autódromo",
+            "Jurubatuba - Senac",
+            "Socorro",
             {
                 "text": "Santo Amaro",
                 "image": "icons/5.png"
-            },  
-            "Socorro",
-            "Jurubatuba - Senac",
-            "Autódromo",
-            "Primavera - Interlagos",
-            "Grajaú",
-            "Bruno Covas / Mendes - Vila Natal",
-            "Varginha"
+            },
+            "João Dias",
+            "Granja Julieta",
+            "Morumbi - Claro",
+            "Berrini",
+            "Vila Olímpia",
+            "Cidade Jardim",
+            "Hebraica - Rebouças",
+            {
+                "text": "Pinheiros",
+                "image": "icons/4.png"
+            },
+            "Cidade Universitária",
+            "Vila Lobos - Jaguaré",
+            "Ceasa",
+            {
+                "text": "Presidente Altino",
+                "image": "icons/8.png"
+            },
+            {
+                "text": "Osasco",
+                "image": "icons/8.png"
+            }
         ]
     },          
     "SP_L10.py": {
-        "DESTINO": "BRÁS <<->> RIO GRANDE DA SERRA",
+        "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
         "TRAJETO": [
             "Rio Grande da Serra",
