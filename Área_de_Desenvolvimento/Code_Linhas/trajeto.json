@@ -2,6 +2,7 @@
     "SP_L01.py": {
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
+        "COR_LINHA": "#0455A1",
         "TRAJETO": [
             {
                 "text": "Tucuruvi",
@@ -63,6 +64,7 @@
     "SP_L02.py": {
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
+        "COR_LINHA": "#007E5E",
         "TRAJETO": [
             {
                 "text": "Vila Madalena",
@@ -107,6 +109,7 @@
     "SP_L03.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> CORINTHIANS - ITAQUERA",
         "LINHA": "03 - VERMELHA",
+        "COR_LINHA": "#EE372F",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -170,6 +173,7 @@
     "SP_L04.py": {
         "DESTINO": "LUZ <<->> VILA SÔNIA",
         "LINHA": "04 - AMARELA",
+        "COR_LINHA": "#FFF000",
         "TRAJETO": [
             {
                 "text": "Luz",
@@ -208,6 +212,7 @@
     "SP_L05.py": {
         "DESTINO": "CHPACARA KLABIN <<->> CAPÃO REDONDO",
         "LINHA": "05 - LILÁS",
+        "COR_LINHA": "#9B3894",
         "TRAJETO": [
             {
                 "text": "Chácara Klabin",
@@ -246,6 +251,7 @@
     "SP_L07.py": {
         "DESTINO": "BRÁS <<->> JUNDIAÍ",
         "LINHA": "07 - RUBI",
+        "COR_LINHA": "#CA016B",
         "TRAJETO": [
             {
                 "text": "Brás",
@@ -299,6 +305,7 @@
     "SP_L08.py": {
         "DESTINO": "JÚLIO PRESTES <<->> AMADOR BUENO",
         "LINHA": "08 - DIAMANTE",
+        "COR_LINHA": "#97A098",
         "TRAJETO": [
             "Júlio Prestes",  
             {
@@ -343,6 +350,7 @@
     "SP_L09.py": {
         "DESTINO": "VARGINHA <<->> OSACO",
         "LINHA": "09 - ESMERALDA",
+        "COR_LINHA": "#01A9A7",
         "TRAJETO": [
             "Varginha",
             "Bruno Covas / Mendes - Vila Natal",
@@ -386,6 +394,7 @@
     "SP_L10.py": {
         "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
+        "COR_LINHA": "#049FC3",
         "TRAJETO": [
             "Rio Grande da Serra",            
             {
@@ -424,6 +433,7 @@
     "SP_L11.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> ESTUDANTES",
         "LINHA": "11 - CORAL",
+        "COR_LINHA": "#F68368",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -487,6 +497,7 @@
     "SP_L12.py": {
         "DESTINO": "BRÁS <<->> CALMON VIANA",
         "LINHA": "12 - SAFIRA",
+        "COR_LINHA": "#133C8D",
         "TRAJETO": [ 
             {
                 "text": "Brás",
@@ -528,6 +539,7 @@
     "SP_L13.py": {
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
         "LINHA": "13 - JADE",
+        "COR_LINHA": "#00B352",
         "TRAJETO": [ 
             {
                 "text": "Palmeiras - Barra Funda",
@@ -564,6 +576,7 @@
     "SP_L15.py": {
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",
+        "COR_LINHA": "#C0C0C0",
         "TRAJETO": [ 
             {
                 "text": "Vila Prudente",
