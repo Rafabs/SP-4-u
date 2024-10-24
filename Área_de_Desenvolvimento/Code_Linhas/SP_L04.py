@@ -76,13 +76,13 @@ def mapa_linha():
     data_completa = data_extenso()
 
     linha1 = canvas.create_text(
-        20, 20, text=f"{hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
+        20, 20, text=f"{hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill=preto)
     linha2 = canvas.create_text(
-        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
+        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill=preto)
     destino = canvas.create_text(
-        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
+        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill=preto)
     linha = canvas.create_text(
-        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
+        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill=preto)
 
     # Exibir as informações do trajeto na horizontal, inclinadas em 60°
     canvas_center_x = 960
@@ -114,7 +114,7 @@ def mapa_linha():
             rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
 
             # Exibir a bolinha branca acima do retângulo
-            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill=preto, outline=preto)
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
             canvas.lift(ball)  # Levanta a bolinha branca acima de todos os outros objetos
 
             # Exibir as imagens abaixo da bolinha branca
@@ -135,7 +135,7 @@ def mapa_linha():
             rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
 
             # Exibir a bolinha branca acima do retângulo
-            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill=preto, outline=preto)
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
             canvas.lift(ball)  # Levanta a bolinha branca acima de todos os outros objetos
 
 
