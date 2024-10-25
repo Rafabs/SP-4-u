@@ -179,7 +179,7 @@ def mapa_linha():
             canvas.create_image(1440, 90, image=photo, anchor="center")  # Adiciona a imagem ao canvas
         else:
             print(f"Imagem não encontrada: {image_path}")
-        root.after(60000, alternar_imagens, index + 1)  # Alterna a imagem a cada 1 minuto
+        root.after(20000, alternar_imagens, index + 1)  # Alterna a imagem a cada 1 minuto
 
     # Inicie os loops principais do Tkinter para temperatura, data/hora e alternar imagens
     def atualizar_temperatura_wrapper():

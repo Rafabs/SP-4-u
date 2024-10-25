@@ -27,11 +27,10 @@
             {
                 "text": "Luz",
                 "image": "Mapa_dos_Trilhos/icons/4.png",
-                "image_1": "Mapa_dos_Trilhos/icons/4.png",
-                "image_2": "Mapa_dos_Trilhos/icons/7.png",
-                "image_3": "Mapa_dos_Trilhos/icons/10.png",
-                "image_4": "Mapa_dos_Trilhos/icons/11png",
-                "image_5": "Mapa_dos_Trilhos/icons/13.png"
+                "image_1": "Mapa_dos_Trilhos/icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/icons/13.png"
             },
             "São Bento",
             {
@@ -440,7 +439,8 @@
                 "image": "Mapa_dos_Trilhos/icons/3.png",
                 "image_1": "Mapa_dos_Trilhos/icons/7.png",
                 "image_2": "Mapa_dos_Trilhos/icons/8.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png"
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             }, 
             {
                 "text": "Luz",
