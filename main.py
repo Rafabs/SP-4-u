@@ -106,7 +106,7 @@ def dados_usuario():
     print("====================================================================================")
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', level=logging.INFO,
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Redirecionamento de sys.stdout e sys.stderr para o logger
