@@ -7,6 +7,25 @@
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
 ---------------------------------------------------------------------------------------------------------------
+>> 02:04 30/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+MELHORAR ALINHAMENTO DAS BOLINHAS BRANCAS E DISTANCIA DO TEXTO DAS ESTAÇÕES
+
+de (linha 109)
+                y_position += 30
+
+para (linha 109)
+                y_position += 5
+
+de (linha 131)
+            y_position += 30
+
+para (linha 131)
+            y_position += 5
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+---------------------------------------------------------------------------------------------------------------
 >> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 Atualizar funções para que o traçado seja exibido a partir de arquivos .json
 
