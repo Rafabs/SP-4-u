@@ -5,8 +5,8 @@ import tempfile  # Importa o módulo tempfile para trabalhar com arquivos tempor
 import atexit  # Importa o módulo atexit para registrar funções a serem chamadas na saída do programa
 import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegador
 import re  # Importa o módulo re para realizar operações com expressões regulares
-sys.path.append('Mapa_dos_Trilhos')  # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
-sys.path.append('Mapa_dos_Trilhos\\Linhas')  # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
+sys.path.append('Área_de_Desenvolvimento')  # Adiciona o diretório 'Área_de_Desenvolvimento' ao caminho de busca de módulos
+sys.path.append('Área_de_Desenvolvimento\\Code_Linhas')  # Adiciona o diretório 'Área_de_Desenvolvimento\Linhas' ao caminho de busca de módulos
 from PIL import Image, ImageTk  # Importa classes específicas do módulo PIL para manipular imagens
 from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
 from tkinter import ttk  # Importa classes específicas do módulo tkinter para criar interfaces gráficas
@@ -106,7 +106,7 @@ def dados_usuario():
     print("====================================================================================")
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', level=logging.INFO,
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Redirecionamento de sys.stdout e sys.stderr para o logger
@@ -145,8 +145,7 @@ def determinar_cor(status):
     elif "Paralisada" in status or "Operação Encerrada" in status:
         return "red"
 
-dados_usuario()
- 
+dados_usuario() 
 
 def abrir_link(url):
     # Remove qualquer fragmento indesejado da URL
@@ -261,7 +260,7 @@ emtu_button.pack(pady=5, fill='both', expand=True)
 
 # Criando o frame (Mapas da Rede)
 frame_mapa_guia = ttk.LabelFrame(
-    layout, text="Mapa da Rede - /Dez.23", labelanchor='n')
+    layout, text="Mapa da Rede - /Out.24", labelanchor='n')
 frame_mapa_guia.place(relx=0.5, rely=0.175, anchor=tk.N)
 
 # Botões do frame (Mapas da Rede)
