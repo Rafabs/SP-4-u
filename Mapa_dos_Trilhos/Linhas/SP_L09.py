@@ -39,7 +39,7 @@ def mapa_linha():
     root.geometry(f"{screen_width}x{screen_height}")  # Define as dimensões da janela
     root.attributes("-fullscreen", True)  # Deixa a janela em tela cheia
     root.overrideredirect(True)  # Remove os botões de fechar, maximizar, minimizar
-    root.title("Linha 1 - Azul") # Define o título da janela
+    root.title("Linha 9 - Esmeralda") # Define o título da janela
 
     def sair(event=None):
         root.destroy()
@@ -50,8 +50,6 @@ def mapa_linha():
     canvas.pack()  # Empacota o canvas na janela
 
     # Cores de background
-    preto = "#000000"
-    azul = "#0455A1"
     cinza = "#D3D3D3"  
 
     # Adiciona um retângulo cinza que cobre toda a tela
