@@ -1,1 +1,2 @@
-A pasta Área de Desenvolvimento em SP-4-u\Área de Desenvolvimento serve para realização dos testes dos códigos antes de serem inseridos na página principal de exeução, nessa área os códigos podem ser editados e modificados para melhorias antes de serem lançados.
+A pasta Área de Desenvolvimento em SP-4-u\Área de Desenvolvimento serve para realização dos testes dos códigos antes de serem inseridos na página principal de exeução, 
+nessa área os códigos podem ser editados e modificados para melhorias antes de serem lançados.

@@ -1,6 +1,19 @@
-( ) SOLUCIONADO
+>> 21:32 29/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+CORRIGIR LOG.TXT PARA QUE INCREMENTE OS DADOS DO LOG SEM APAGAR OS ANTIGOS DE LOG.TXT
+
+de (Linha 109)
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+para (Linha 109)
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+(X) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
 
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 Renomear as pastas com espaços no nome por (_)
