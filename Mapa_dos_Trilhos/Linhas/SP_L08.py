@@ -106,7 +106,7 @@ def mapa_linha():
 
             if text:
                 canvas.create_text(x_position, y_position, text=text, font="Helvetica 24", angle=60, anchor="w")
-                y_position += 30
+                y_position += 5
 
             # Adicionar retângulo colorido abaixo das bolinhas
             rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
@@ -128,7 +128,7 @@ def mapa_linha():
                     print(f"Imagem não encontrada: {image_path}")
         else:
             canvas.create_text(x_position, y_position, text=trajeto, font="Helvetica 24", angle=60, anchor="w")
-            y_position += 30
+            y_position += 5
             # Adicionar retângulo colorido abaixo das bolinhas
             rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
 

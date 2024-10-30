@@ -7,6 +7,7 @@ import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegado
 import re  # Importa o módulo re para realizar operações com expressões regulares
 sys.path.append('Área_de_Desenvolvimento')  # Adiciona o diretório 'Área_de_Desenvolvimento' ao caminho de busca de módulos
 sys.path.append('Área_de_Desenvolvimento\\Code_Linhas')  # Adiciona o diretório 'Área_de_Desenvolvimento\Linhas' ao caminho de busca de módulos
+sys.path.append('Área_de_Desenvolvimento\\Code_Mapa_dos_Trilhos')  # Adiciona o diretório 'Área_de_Desenvolvimento\Linhas' ao caminho de busca de módulos
 from PIL import Image, ImageTk  # Importa classes específicas do módulo PIL para manipular imagens
 from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
 from tkinter import ttk  # Importa classes específicas do módulo tkinter para criar interfaces gráficas
