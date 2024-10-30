@@ -50,8 +50,6 @@ def mapa_linha():
     canvas.pack()  # Empacota o canvas na janela
 
     # Cores de background
-    preto = "#000000"
-    azul = "#0455A1"
     cinza = "#D3D3D3"  
 
     # Adiciona um retângulo cinza que cobre toda a tela
