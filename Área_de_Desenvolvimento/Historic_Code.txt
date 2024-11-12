@@ -7,95 +7,25 @@ DE ACRÉSCIMO ("APPEND MODE"), ONDE NOVOS LOGS SÃO ADICIONADOS AO FINAL DO ARQU
 
 ---------------------------------------------------------------------------------------------------------------
 >> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
 # FOI CRIADO ARQUIVO COM OS DADOS QUE ALIMENTARÃO OS ARQUIVOS DE LINHAS.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L15.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L13.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L12.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L11.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L10.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L09.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L08.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L07.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L05.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L04.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L03.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L02.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
-- [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
-# FOI ATUALIZADO A FUNÇÃO CHAMADA POR MAIN.PY PARA QUANDO AICONAR SP_L01.py, PUXAR OS DADOS DE TRAJETO.JSON
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
-- [ ] Informar no status linha a última atualização do mesmo em index.html
-# FOI CRIADO UMA FUNÇÃO PARA INSERIR O HORÁRIO DA MÁQUINA SEMPRE QUE FOR ATUALIZADO
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.js
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 # FOI CRIADO UMA FUNÇÃO PARA INSERIR O HORÁRIO DA MÁQUINA SEMPRE QUE FOR ATUALIZADO
@@ -115,132 +45,28 @@ Atualizar nome arquivos das linhas .py para "SPLxxx".
 ---------------------------------------------------------------------------------------------------------------
 
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/varredura.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
+>> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L06.py
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/pirapora.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/mapa.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:40 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/guias.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/guararema.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_sptrans.py
-Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_emtu.py
+
 Renomear as pastas com espaços no nome por (_)
 # DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
 
@@ -271,156 +97,40 @@ Inserir informações sobre as empresas que operam as linhas em index.html
 ---------------------------------------------------------------------------------------------------------------
 
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
-Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
-
----------------------------------------------------------------------------------------------------------------
-
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
+
 Inserir status linha nas outras pages do index.html
 # FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
+>> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
 
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
-TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
-# FOI CORRIGIDO O LINK DA IMAGEM
-
----------------------------------------------------------------------------------------------------------------
-
->> 17:10 01/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
 TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
 # FOI CORRIGIDO O LINK DA IMAGEM
 
