@@ -1,9 +1,29 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+- [ ] COLOCAR IMGS DA LINHA NA FRENTE DO NOME NO CANTO SUP ESQ EM TODOS OS ARQUIVOS .PY
+# FOI ADICIONADO A IMAGEM NOS ARQUIVOS .PY PARA QUE A MESMA SEJA EXIBIDA, FOI NECESSÁRIO AJUSTAR E 
+CRIAR UMA NOVA LINHA RETANGULAR NO CABEÇALHO DA APLICAÇÃO, FOI ADICIONADO PRÉVIAMENTE OS CAMINHOS DAS 
+IMAGENS NO ARQUIVO .JSON
+---------------------------------------------------------------------------------------------------------------
 >> 21:32 29/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 - [ ] CORRIGIR LOG.TXT PARA QUE INCREMENTE OS DADOS DO LOG SEM APAGAR OS ANTIGOS DE LOG.TXT
 # FOI ADICIONADO FILEMODE='A'. ESSE PARÂMETRO INDICA QUE O ARQUIVO SERÁ ABERTO NO MODO 
-DE ACRÉSCIMO ("APPEND MODE"), ONDE NOVOS LOGS SÃO ADICIONADOS AO FINAL DO ARQUIVO EXISTENTE ('A' SIGNIFICA "APPEND"). 
+DE ACRÉSCIMO ("APPEND MODE"), ONDE NOVOS LOGS SÃO ADICIONADOS AO FINAL DO ARQUIVO EXISTENTE ('A' SIGNIFICA 
+"APPEND"). 
 
 ---------------------------------------------------------------------------------------------------------------
 >> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
@@ -33,14 +53,10 @@ DE ACRÉSCIMO ("APPEND MODE"), ONDE NOVOS LOGS SÃO ADICIONADOS AO FINAL DO ARQU
 ---------------------------------------------------------------------------------------------------------------
 
 >> 00:26 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
-Atualizar nome arquivos das linhas .html para "SPLxxx".
-# DEVIDO AO RENOMEAMENTO DOS ARQUIVOS, AS FUNÇÕES QUE SÃO LINKS DOS ARQUIVOS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
-
----------------------------------------------------------------------------------------------------------------
-
 >> 00:06 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
-Atualizar nome arquivos das linhas .py para "SPLxxx".
-# DEVIDO AO RENOMEAMENTO DOS ARQUIVOS, AS FUNÇÕES QUE SÃO LINKS DOS ARQUIVOS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
+Atualizar nome arquivos das linhas .html para "SPLxxx".
+# DEVIDO AO RENOMEAMENTO DOS ARQUIVOS, AS FUNÇÕES QUE SÃO LINKS DOS ARQUIVOS RENOMEADAS PRECISARAM SER 
+ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -68,7 +84,8 @@ Atualizar nome arquivos das linhas .py para "SPLxxx".
 >> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_emtu.py
 
 Renomear as pastas com espaços no nome por (_)
-# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
+# DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER 
+ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -86,7 +103,8 @@ Corrigir erros e alertas de main.py
 
 >> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
 Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
-# FOI CRIADO UM NOVO ITEM HTML CHAMADO NEWS E ALOCADO JUNTO AOS DEMAIS, FOI UTILIZADO API PARA RECEBER ATÉ 1000 REQUISIÇÕES POR SEMANA
+# FOI CRIADO UM NOVO ITEM HTML CHAMADO NEWS E ALOCADO JUNTO AOS DEMAIS, FOI UTILIZADO API PARA RECEBER 
+ATÉ 1000 REQUISIÇÕES POR SEMANA
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -112,7 +130,8 @@ Inserir informações sobre as empresas que operam as linhas em index.html
 >> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
 
 Inserir status linha nas outras pages do index.html
-# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE INFORMAÇÃO DO STATUS DA LINHA
+# FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE 
+INFORMAÇÃO DO STATUS DA LINHA
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -138,45 +157,51 @@ TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA
 
 >> 01:11 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir Notícias sobre o transporte público via API ou web scraping.
-# FOI INSERIDO A LÓGICA COM UMA NOVA LIB RE E WEBBROWSER, QUE AO ABRIR O PROJETO, VARRE NOTÍCIAS DO GOOGLENEWS E EXIBEM AS 10 PRIMEIRAS.
+# FOI INSERIDO A LÓGICA COM UMA NOVA LIB RE E WEBBROWSER, QUE AO ABRIR O PROJETO, VARRE NOTÍCIAS DO 
+GOOGLENEWS E EXIBEM AS 10 PRIMEIRAS.
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 01:54 16/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
-# FOI CORRIGIDO A FUNÇÃO DENTRO DE LABEL.MSG(CONFIG) ONDE ESTAVA ANCHOR, FOI PASSADO A CLASSE JUSTIFY E ALINHADO NO LADO ESQUERDO
+# FOI CORRIGIDO A FUNÇÃO DENTRO DE LABEL.MSG(CONFIG) ONDE ESTAVA ANCHOR, FOI PASSADO A CLASSE JUSTIFY 
+E ALINHADO NO LADO ESQUERDO
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
-# FOI INSERIDO A LÓGICA COM UMA NOVA LIB ATEXIT, QUE AO PRESSIONAR O BOTÃO DE FECHAR JANELA, ACIONA A FUNÇÃO E REGISTRA QUE O PROJETO FOI FECHADO.
+# FOI INSERIDO A LÓGICA COM UMA NOVA LIB ATEXIT, QUE AO PRESSIONAR O BOTÃO DE FECHAR JANELA, ACIONA A 
+FUNÇÃO E REGISTRA QUE O PROJETO FOI FECHADO.
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros apontados pelo log do projeto. 
-# O ERRO APONTADO ATÉ A DATA DO TO DO ERA SOBRE OS IDENTADORES 2316820713344 E 2316820710080, O TKINTER ESPERA OS COMANDOS COMO STRINGS, MAS 
-ESTÁ INTEPRETANDO COMO PARTE DO NOME DA FUNÇÃO, PARA ISSO FOI CRIADO FUNÇÕES AUXILIARES E SEM ARGUMENTOS. 
+# O ERRO APONTADO ATÉ A DATA DO TO DO ERA SOBRE OS IDENTADORES 2316820713344 E 2316820710080, O TKINTER 
+ESPERA OS COMANDOS COMO STRINGS, MAS ESTÁ INTEPRETANDO COMO PARTE DO NOME DA FUNÇÃO, PARA ISSO FOI CRIADO 
+FUNÇÕES AUXILIARES E SEM ARGUMENTOS. 
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir mais funções do log de __init__.pyi em main.py > log.txt
-# FOI INSERIDO O CÓDIGO COM A FUNÇÃO QUE INCLUI OS NÍVEIS DE LOG 'WARNING', 'DEBUG' E 'CRITICAL', QUE SERÃO INSERIDOS NO LOG.TXT QUANDO HOUVER 
+# FOI INSERIDO O CÓDIGO COM A FUNÇÃO QUE INCLUI OS NÍVEIS DE LOG 'WARNING', 'DEBUG' E 'CRITICAL', QUE 
+SERÃO INSERIDOS NO LOG.TXT QUANDO HOUVER 
 NECESSIADE.
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Definir itens de my_os.py em main.py
-# FOI INSERIDO O CÓDIGO COM AS BIBLIOTECAS RESPONSÁVEIS POR PUXAR INFORMAÇÃO DA MÁQUINA QUE ESTÁ EXECUTANDO O CÓDIGO E INSERIDO NO LOG.TXT, 
-TAMBÉM FOI FEITO AJUSTES NO ARQUIVO LOCALIZADO NA ÁREA DE DESENVOLVIMENTO
+# FOI INSERIDO O CÓDIGO COM AS BIBLIOTECAS RESPONSÁVEIS POR PUXAR INFORMAÇÃO DA MÁQUINA QUE ESTÁ 
+EXECUTANDO O CÓDIGO E INSERIDO NO LOG.TXT, TAMBÉM FOI FEITO AJUSTES NO ARQUIVO LOCALIZADO NA ÁREA DE DESENVOLVIMENTO
 
 ---------------------------------------------------------------------------------------------------------------
 
 >> 02:47 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Melhorar soluções de loop do relógio de main.py 
-# FOI REALIZADO A INSERÇÃO DE LÓGICA NO CÓDIGO PARA QUE O MESMO FICASSE EM LOOP E SENDO ATUALIZADO, AINDA POSSUI UNS BUGS DE CONTAR OS 
-SEGUNDOS DE 2 EM 2s, POIS O MESMO AGUARDA O RETORNO DA INFORMAÇÃO DA API DE TEMPERATURA PARA AMOSTRAGEM, AINDA NÃO FOI TESTADO SE A TEMPERATURA 
+# FOI REALIZADO A INSERÇÃO DE LÓGICA NO CÓDIGO PARA QUE O MESMO FICASSE EM LOOP E SENDO ATUALIZADO, AINDA 
+POSSUI UNS BUGS DE CONTAR OS SEGUNDOS DE 2 EM 2s, POIS O MESMO AGUARDA O RETORNO DA INFORMAÇÃO DA API DE 
+TEMPERATURA PARA AMOSTRAGEM, AINDA NÃO FOI TESTADO SE A TEMPERATURA 
 ESTÁ SENDO ATUALIZADA CONFORME MODIFICA A TEMPERATURA DA API.
