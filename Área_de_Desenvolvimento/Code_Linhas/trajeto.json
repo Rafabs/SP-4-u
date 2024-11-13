@@ -3,6 +3,7 @@
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
         "COR_LINHA": "#0455A1",
+        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
         "TRAJETO": [
             {
                 "text": "Tucuruvi",
@@ -64,6 +65,7 @@
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
         "COR_LINHA": "#007E5E",
+        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
         "TRAJETO": [
             {
                 "text": "Vila Madalena",
@@ -106,9 +108,10 @@
         ]
     },    
     "SP_L03.py": {
-        "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> CORINTHIANS - ITAQUERA",
+        "DESTINO": "BARRA FUNDA <<->> ITAQUERA",
         "LINHA": "03 - VERMELHA",
         "COR_LINHA": "#EE372F",
+        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -173,6 +176,7 @@
         "DESTINO": "LUZ <<->> VILA SÔNIA",
         "LINHA": "04 - AMARELA",
         "COR_LINHA": "#FFF000",
+        "LOGO": "Mapa_dos_Trilhos/icons/4_amarela.png",
         "TRAJETO": [
             {
                 "text": "Luz",
@@ -209,9 +213,10 @@
         ]
     }, 
     "SP_L05.py": {
-        "DESTINO": "CHPACARA KLABIN <<->> CAPÃO REDONDO",
+        "DESTINO": "CHÁCARA KLABIN <<->> CAPÃO REDONDO",
         "LINHA": "05 - LILÁS",
         "COR_LINHA": "#9B3894",
+        "LOGO": "Mapa_dos_Trilhos/icons/5_lilas.png",
         "TRAJETO": [
             {
                 "text": "Chácara Klabin",
@@ -251,6 +256,7 @@
         "DESTINO": "BRÁS <<->> JUNDIAÍ",
         "LINHA": "07 - RUBI",
         "COR_LINHA": "#CA016B",
+        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
         "TRAJETO": [
             {
                 "text": "Brás",
@@ -305,6 +311,7 @@
         "DESTINO": "JÚLIO PRESTES <<->> AMADOR BUENO",
         "LINHA": "08 - DIAMANTE",
         "COR_LINHA": "#97A098",
+        "LOGO": "Mapa_dos_Trilhos/icons/8_diamante.png",
         "TRAJETO": [
             "Júlio Prestes",  
             {
@@ -350,6 +357,7 @@
         "DESTINO": "VARGINHA <<->> OSACO",
         "LINHA": "09 - ESMERALDA",
         "COR_LINHA": "#01A9A7",
+        "LOGO": "Mapa_dos_Trilhos/icons/9_esmeralda.png",
         "TRAJETO": [
             "Varginha",
             "Bruno Covas / Mendes - Vila Natal",
@@ -394,6 +402,7 @@
         "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
         "COR_LINHA": "#049FC3",
+        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
         "TRAJETO": [
             "Rio Grande da Serra",            
             {
@@ -433,6 +442,7 @@
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> ESTUDANTES",
         "LINHA": "11 - CORAL",
         "COR_LINHA": "#F68368",
+        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
         "TRAJETO": [
             {
                 "text": "Palmeiras - Barra Funda",
@@ -453,10 +463,9 @@
                 "text": "Brás",
                 "image": "Mapa_dos_Trilhos/icons/3.png",
                 "image_1": "Mapa_dos_Trilhos/icons/10.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/12.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
+                "image_2": "Mapa_dos_Trilhos/icons/12.png",
+                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png"
             },
             {
                 "text": "Tatuapé",
@@ -498,6 +507,7 @@
         "DESTINO": "BRÁS <<->> CALMON VIANA",
         "LINHA": "12 - SAFIRA",
         "COR_LINHA": "#133C8D",
+        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
         "TRAJETO": [ 
             {
                 "text": "Brás",
@@ -537,9 +547,10 @@
         ]
     },    
     "SP_L13.py": {
-        "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
+        "DESTINO": "BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
         "LINHA": "13 - JADE",
         "COR_LINHA": "#00B352",
+        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
         "TRAJETO": [ 
             {
                 "text": "Palmeiras - Barra Funda",
@@ -577,6 +588,7 @@
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",
         "COR_LINHA": "#C0C0C0",
+        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
         "TRAJETO": [ 
             {
                 "text": "Vila Prudente",
