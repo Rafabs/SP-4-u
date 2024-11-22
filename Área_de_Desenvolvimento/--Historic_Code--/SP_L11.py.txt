@@ -1,6 +1,109 @@
-( ) SOLUCIONADO
+>> 01:51 22/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.py
+AJUSTAR NOME SECUNDÁRIO DE ALGUMAS ESTAÇÕES
+
+de (Linha 96)
+    item_spacing = 50
+
+para (Linha 96)
+    item_spacing = 55
+
+de (Linha 103)
+            text = trajeto.get("text", "")
+
+para (Linha 103)
+            primary = trajeto.get("primary", "")
+            secondary = trajeto.get("secondary", "")
+            bold_secondary = trajeto.get("bold_secondary", False)
+
+de (Linha 113)
+            if text:
+                canvas.create_text(x_position, y_position, text=text, font="Helvetica 24", angle=60, anchor="w")
+                y_position += 5
+
+            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+            canvas.lift(ball)
+
+            for image_path in image_paths:
+                if image_path and os.path.exists(image_path):
+                    load_image(image_path, x_position, y_position + 70, 30, 30, canvas, images)
+                    y_position += 40
+        else:
+            canvas.create_text(x_position, y_position, text=trajeto, font="Helvetica 24", angle=60, anchor="w")
+            y_position += 5
+            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
+            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+
+para (Linha 115)
+            # Renderiza a estação com `primary` e `secondary`
+            if primary and secondary:
+                if bold_secondary:
+                    # Renderiza `secondary` maior
+                    canvas.create_text(
+                        x_position, y_position, text=secondary,
+                        font="Helvetica 20", angle=60, anchor="w"
+                    )
+                    # Renderiza `primary` menor
+                    canvas.create_text(
+                        x_position - 23, y_position, text=primary,
+                        font="Helvetica 14", angle=60, anchor="w"
+                    )
+                else:
+                    # Renderiza `primary` maior
+                    canvas.create_text(
+                        x_position, y_position, text=primary,
+                        font="Helvetica 20", angle=60, anchor="w"
+                    )
+                    # Renderiza `secondary` menor
+                    canvas.create_text(
+                        x_position + 23, y_position, text=secondary,
+                        font="Helvetica 14", angle=60, anchor="w"
+                    )
+
+            elif primary:  # Apenas `primary`
+                canvas.create_text(
+                    x_position, y_position, text=primary,
+                    font="Helvetica 20", angle=60, anchor="w"
+                )
+            elif secondary:  # Apenas `secondary`
+                canvas.create_text(
+                    x_position, y_position, text=secondary,
+                    font="Helvetica 20", angle=60, anchor="w"
+                )
+
+            # Desenha os círculos e imagens
+            rect = canvas.create_rectangle(
+                x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
+                fill=cor_linha, outline=cor_linha
+            )
+            ball = canvas.create_oval(
+                x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
+                fill="#FFFFFF", outline="#FFFFFF"
+            )
+            canvas.lift(ball)
+            for image_path in image_paths:
+                if image_path and os.path.exists(image_path):
+                    load_image(image_path, x_position, y_position + 70, 30, 30, canvas, images)
+                    y_position += 40            
+        else:
+            # Renderiza itens simples
+            canvas.create_text(
+                x_position, y_position, text=trajeto,
+                font="Helvetica 20", angle=60, anchor="w"
+            )
+            rect = canvas.create_rectangle(
+                x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
+                fill=cor_linha, outline=cor_linha
+            )
+            ball = canvas.create_oval(
+                x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
+                fill="#FFFFFF", outline="#FFFFFF"
+            )
+
+(X) SOLUCIONADO
 ( ) EM DESENVOLVIMENTO
 ( ) NÃO DEU CERTO
+
 ---------------------------------------------------------------------------------------------------------------
 >> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 COLOCAR IMGS DA LINHA NA FRENTE DO NOME NO CANTO SUP ESQ EM TODOS OS ARQUIVOS .PY

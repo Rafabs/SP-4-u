@@ -1,5 +1,24 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L51.22
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+- [ ] AJUSTAR NOME SECUNDÁRIO DE ALGUMAS ESTAÇÕES
+# FOI REALIZADO O AJUSTE DE ALGUMAS FUNÇÕES E A CRIAÇÃO DE NOVOS ITENS NO ARQUIVO .JSON PARA SEPARAR OS NOMES PRIMÁRIOS DOS SECUNDÁRIOS
+E SUAS RESPECTIVAS FORMATAÇÕES PARA EXIBIÇÃO.
+
+---------------------------------------------------------------------------------------------------------------
 >> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
 >> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 >> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
@@ -18,6 +37,7 @@
 # FOI ADICIONADO A IMAGEM NOS ARQUIVOS .PY PARA QUE A MESMA SEJA EXIBIDA, FOI NECESSÁRIO AJUSTAR E 
 CRIAR UMA NOVA LINHA RETANGULAR NO CABEÇALHO DA APLICAÇÃO, FOI ADICIONADO PRÉVIAMENTE OS CAMINHOS DAS 
 IMAGENS NO ARQUIVO .JSON
+
 ---------------------------------------------------------------------------------------------------------------
 >> 21:32 29/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 - [ ] CORRIGIR LOG.TXT PARA QUE INCREMENTE OS DADOS DO LOG SEM APAGAR OS ANTIGOS DE LOG.TXT
