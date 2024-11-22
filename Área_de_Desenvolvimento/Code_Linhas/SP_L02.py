@@ -8,6 +8,7 @@ from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
 
+# Função para executar o script SP_L01.py
 def line2():
     try:
         subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L02.py"], check=True)
@@ -66,7 +67,6 @@ def mapa_linha():
 
     canvas.create_rectangle(0, 0, 1920, 60, fill="#000000", outline="#000000")
     canvas.create_rectangle(0, 60, 1920, 180, fill=cor_linha, outline=cor_linha)
-    
     def data_extenso():
         now = datetime.now()
         return now.strftime("%d de %B de %Y")
@@ -92,14 +92,16 @@ def mapa_linha():
     # Exibir as informações do trajeto na horizontal, inclinadas em 60°
     canvas_center_x = 960
     total_items = len(trajeto_list)
-    item_spacing = 50
+    item_spacing = 55
 
     for i, trajeto in enumerate(trajeto_list):
         x_position = canvas_center_x + (i - total_items // 2) * item_spacing
         y_position = 750
 
         if isinstance(trajeto, dict):
-            text = trajeto.get("text", "")
+            primary = trajeto.get("primary", "")
+            secondary = trajeto.get("secondary", "")
+            bold_secondary = trajeto.get("bold_secondary", False)
             image_paths = [
                 trajeto.get("image"),
                 trajeto.get("image_1"),
@@ -107,25 +109,72 @@ def mapa_linha():
                 trajeto.get("image_3"),
                 trajeto.get("image_4"),
                 trajeto.get("image_5"),
-            ]
+            ]            
 
-            if text:
-                canvas.create_text(x_position, y_position, text=text, font="Helvetica 24", angle=60, anchor="w")
-                y_position += 5
+            # Renderiza a estação com `primary` e `secondary`
+            if primary and secondary:
+                if bold_secondary:
+                    # Renderiza `secondary` maior
+                    canvas.create_text(
+                        x_position, y_position, text=secondary,
+                        font="Helvetica 20", angle=60, anchor="w"
+                    )
+                    # Renderiza `primary` menor
+                    canvas.create_text(
+                        x_position - 23, y_position, text=primary,
+                        font="Helvetica 14", angle=60, anchor="w"
+                    )
+                else:
+                    # Renderiza `primary` maior
+                    canvas.create_text(
+                        x_position, y_position, text=primary,
+                        font="Helvetica 20", angle=60, anchor="w"
+                    )
+                    # Renderiza `secondary` menor
+                    canvas.create_text(
+                        x_position + 23, y_position, text=secondary,
+                        font="Helvetica 14", angle=60, anchor="w"
+                    )
 
-            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
-            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+            elif primary:  # Apenas `primary`
+                canvas.create_text(
+                    x_position, y_position, text=primary,
+                    font="Helvetica 20", angle=60, anchor="w"
+                )
+            elif secondary:  # Apenas `secondary`
+                canvas.create_text(
+                    x_position, y_position, text=secondary,
+                    font="Helvetica 20", angle=60, anchor="w"
+                )
+
+            # Desenha os círculos e imagens
+            rect = canvas.create_rectangle(
+                x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
+                fill=cor_linha, outline=cor_linha
+            )
+            ball = canvas.create_oval(
+                x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
+                fill="#FFFFFF", outline="#FFFFFF"
+            )
             canvas.lift(ball)
-
             for image_path in image_paths:
                 if image_path and os.path.exists(image_path):
                     load_image(image_path, x_position, y_position + 70, 30, 30, canvas, images)
-                    y_position += 40
+                    y_position += 40            
         else:
-            canvas.create_text(x_position, y_position, text=trajeto, font="Helvetica 24", angle=60, anchor="w")
-            y_position += 5
-            rect = canvas.create_rectangle(x_position - 20, y_position + 15, x_position + 40, y_position + 50, fill=cor_linha, outline=cor_linha)
-            ball = canvas.create_oval(x_position - 10, y_position + 20, x_position + 10, y_position + 40, fill="#FFFFFF", outline="#FFFFFF")
+            # Renderiza itens simples
+            canvas.create_text(
+                x_position, y_position, text=trajeto,
+                font="Helvetica 20", angle=60, anchor="w"
+            )
+            rect = canvas.create_rectangle(
+                x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
+                fill=cor_linha, outline=cor_linha
+            )
+            ball = canvas.create_oval(
+                x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
+                fill="#FFFFFF", outline="#FFFFFF"
+            )
 
     # Funções para atualizar temperatura, data e alternar imagens
     def atualizar_temperatura():
