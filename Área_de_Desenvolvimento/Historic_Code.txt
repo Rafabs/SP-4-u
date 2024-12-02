@@ -1,5 +1,24 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+- [ ] INSERIR LEGENDA EM TODOS ARQUIVOS .PY E INSERIR NOVOS ICONES
+# FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY QUE EXIBIRÁ A LEGENDA ABAIXO DO MAPA DE LINHA, QUE PRECISOU SER REAJUSTADO
+VERTICALMENTE, TAMBÉM FOI INSERIDO NOVOS ÍCONES NOS MAPAS DE LINHAS, CONFORME MAPA DO METROPOLITANO ATUALIZADO.
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
@@ -10,7 +29,7 @@
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L51.22
+>> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
 >> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
