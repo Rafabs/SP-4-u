@@ -273,6 +273,7 @@ def mapa_linha():
         if isinstance(trajeto, dict):
             primary = trajeto.get("primary", "")
             secondary = trajeto.get("secondary", "")
+            free_access = trajeto.get("free_access", False)  
             bold_secondary = trajeto.get("bold_secondary", False)
             image_paths = [
                 trajeto.get("image"),
@@ -324,9 +325,11 @@ def mapa_linha():
                 x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
                 fill=cor_linha, outline=cor_linha
             )
+            ball_color = "#000000" if free_access else "#FFFFFF"  # Preto se `free_access`, caso contrário Branco
+            ball_color_outline = "#000000"
             ball = canvas.create_oval(
                 x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
-                fill="#FFFFFF", outline="#FFFFFF"
+                fill=ball_color, outline=ball_color_outline
             )
             canvas.lift(ball)
             for image_path in image_paths:
