@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-24/10/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-05/12/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -58,13 +58,11 @@ Alteração Tarifária:
 
 Inclusão da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/606Z/10-0082BA.svg) Circular - Baln. Mar Paulista
-
 Modificação da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/4025/10-006341.svg) Vl. Califórnia - Metrô Tatuapé
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-002F6C.svg) Jd. Campo Limpo - Metrô Santana
 
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/4025/10-006341.svg) Sítio Das Figueiras - Metrô Tatuapé
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-002F6C.svg) Jd. Fontalis - Metrô Santana
 
 Remoção da(s) linha(s):
 
