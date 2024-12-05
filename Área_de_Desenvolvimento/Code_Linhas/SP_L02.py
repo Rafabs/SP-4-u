@@ -28,7 +28,8 @@ def get_destino_linha(script_name):
     linha = dados.get('LINHA', '0000/00')
     trajeto = dados.get('TRAJETO', [])
     cor_linha = dados.get('COR_LINHA', '#000000')  # Obtém a cor da linha, com um padrão branco se não existir
-    return destino, linha, trajeto, cor_linha
+    logo_operador = dados.get('LOGO', None)  # Obtém o caminho do logo, ou None se não existir
+    return destino, linha, trajeto, cor_linha, logo_operador
 
 # Função para carregar imagens
 def load_image(image_path, x, y, width, height, canvas, images):
@@ -63,7 +64,7 @@ def mapa_linha():
     canvas.create_rectangle(0, 0, 1920, 1080, fill=cinza, outline=cinza)
 
     script_name = os.path.basename(__file__)
-    destino_text, linha_text, trajeto_list, cor_linha = get_destino_linha(script_name)
+    destino_text, linha_text, trajeto_list, cor_linha, logo_operador = get_destino_linha(script_name)
 
     canvas.create_rectangle(0, 0, 1920, 60, fill="#000000", outline="#000000")
     canvas.create_rectangle(0, 60, 1920, 180, fill=cor_linha, outline=cor_linha)
@@ -86,8 +87,9 @@ def mapa_linha():
     linha = canvas.create_text(
         20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
 
-    images = []  # Lista para manter referências das imagens
-    load_image("Mapa_dos_Trilhos/Icons/metro.png", 30, 37, 25, 25, canvas, images)
+    if logo_operador and os.path.exists(logo_operador):
+        images = []  # Lista para armazenar as referências de imagem
+        load_image(logo_operador, 30, 37, 25, 25, canvas, images)  # Ajuste de posição e tamanho do logo
 
     # Exibir as informações do trajeto na horizontal, inclinadas em 60°
     canvas_center_x = 960
