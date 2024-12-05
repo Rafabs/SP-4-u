@@ -96,7 +96,7 @@
 "1786-10","1","1786-10","Vl. Albertina - Metrô Santana","3","002F6C","FFFFFF"
 "1787-10","1","1787-10","Vl. Marieta - Metrô Santana","3","002F6C","FFFFFF"
 "1788-10","1","1788-10","Jd. Fontális - Metrô Santana","3","002F6C","FFFFFF"
-"1788-51","1","1788-51","Jd. Campo Limpo - Metrô Santana","3","002F6C","FFFFFF"
+"1788-31","1","1788-31","Jd. Fontalis - Metrô Santana","3","002F6C","FFFFFF"
 "178A-10","1","178A-10","Metrô Santana - Lapa","3","002F6C","FFFFFF"
 "178L-10","1","178L-10","Lauzane Paulista - Hosp. Das Clínicas","3","002F6C","FFFFFF"
 "178T-10","1","178T-10","Metrô Santana - Ceasa","3","002F6C","FFFFFF"
