@@ -1,3 +1,44 @@
+>> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+- [ ] CRIAR ESTAÇÕES COM ACESSO LIVRE VIA CODE - L8 e ATUALIZAR LEGENDA com ESTAÇÃO E ACESSO LIVRE
+
+de (Linha 233)
+    Vazio
+
+para (Linha 233)
+    canvas.create_oval(870, 1030, 890, 1050, fill="#ffffff", outline="#000000")
+    canvas.create_text(905, 1025, text="Estação", font="Helvetica 12 bold", anchor="nw", fill="#000000")
+    canvas.create_text(905, 1040, text="Station", font="Helvetica 10 italic bold", anchor="nw", fill="#686868")
+
+    canvas.create_oval(1070, 1030, 1090, 1050, fill="#000000", outline="#000000")
+    canvas.create_text(1100, 1025, text="Acesso Livre", font="Helvetica 12 bold", anchor="nw", fill="#000000")
+    canvas.create_text(1100, 1040, text="Free access", font="Helvetica 10 italic bold", anchor="nw", fill="#686868")
+
+de (Linha 285)
+    Vazio
+    
+para (Linha 285)
+            free_access = trajeto.get("free_access", False)  
+
+de (Linha 336)
+    Vazio
+    
+para (Linha 336)
+            ball_color = "#000000" if free_access else "#FFFFFF"  # Preto se `free_access`, caso contrário Branco
+            ball_color_outline = "#000000"
+
+de (Linha 340)
+                fill="#FFFFFF", outline="#FFFFFF"
+    
+para (Linha 340)
+                fill=ball_color, outline=ball_color_outline
+
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 00:10 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L06.py
 - [ ] INSERIR LEGENDA EM TODOS ARQUIVOS .PY E INSERIR NOVOS ICONES
 

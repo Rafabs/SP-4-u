@@ -230,6 +230,14 @@ def mapa_linha():
     canvas.create_text(1260, 1000, text="EMTU", font="Helvetica 13", anchor="e", fill="#000000")
     canvas.create_line(860, 1020, 1260, 1020, fill="#000000", width=1)
 
+    canvas.create_oval(870, 1030, 890, 1050, fill="#ffffff", outline="#000000")
+    canvas.create_text(905, 1025, text="Estação", font="Helvetica 12 bold", anchor="nw", fill="#000000")
+    canvas.create_text(905, 1040, text="Station", font="Helvetica 10 italic bold", anchor="nw", fill="#686868")
+
+    canvas.create_oval(1070, 1030, 1090, 1050, fill="#000000", outline="#000000")
+    canvas.create_text(1100, 1025, text="Acesso Livre", font="Helvetica 12 bold", anchor="nw", fill="#000000")
+    canvas.create_text(1100, 1040, text="Free access", font="Helvetica 10 italic bold", anchor="nw", fill="#686868")
+    
     canvas.create_text(1375, 789, text="CPTM", font="Helvetica 14", anchor="nw", fill="#000000")
     canvas.create_text(1540, 789, text="www.cptm.sp.gov.br", font="Helvetica 14", anchor="nw", fill="#000000")
     canvas.create_text(1910, 800, text="0800 055 0121", font="Helvetica 14 bold", anchor="e", fill="#000000")
@@ -273,6 +281,7 @@ def mapa_linha():
         if isinstance(trajeto, dict):
             primary = trajeto.get("primary", "")
             secondary = trajeto.get("secondary", "")
+            free_access = trajeto.get("free_access", False)  
             bold_secondary = trajeto.get("bold_secondary", False)
             image_paths = [
                 trajeto.get("image"),
@@ -334,14 +343,16 @@ def mapa_linha():
                     load_image(image_path, x_position, y_position + 70, 30, 30, canvas, images)
                     y_position += 40            
         else:
-            # Renderiza itens simples
-            canvas.create_text(
-                x_position, y_position, text=trajeto,
-                font="Helvetica 20", angle=60, anchor="w"
-            )
+            # Desenha os círculos e imagens
             rect = canvas.create_rectangle(
                 x_position - 20, y_position + 15, x_position + 40, y_position + 50, 
                 fill=cor_linha, outline=cor_linha
+            )
+            ball_color = "#000000" if free_access else "#FFFFFF"  # Preto se `free_access`, caso contrário Branco
+            ball_color_outline = "#000000"
+            ball = canvas.create_oval(
+                x_position - 10, y_position + 20, x_position + 10, y_position + 40, 
+                fill=ball_color, outline=ball_color_outline
             )
             ball = canvas.create_oval(
                 x_position - 10, y_position + 20, x_position + 10, y_position + 40, 

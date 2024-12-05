@@ -10,32 +10,37 @@
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "TUC"
+                "TAG": "TUC",
+                "free_access": false
             },       
             {
                 "primary": "Parada Inglesa",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "PIG"
+                "TAG": "PIG",
+                "free_access": false
             },       
             {
                 "primary": "Jardim São Paulo",
                 "secondary": "Ayrton Senna",
                 "bold_secondary": false,
-                "TAG": "JPA"
+                "TAG": "JPA",
+                "free_access": false
             },
             {
                 "primary": "Santana",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SAN"
+                "TAG": "SAN",
+                "free_access": false
             },            
             {
                 "primary": "Carandiru",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CDU"
+                "TAG": "CDU",
+                "free_access": false
             },                            
             {
                 "primary": "Portuguesa",
@@ -43,20 +48,23 @@
                 "bold_secondary": true,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "TTE"
+                "TAG": "TTE",
+                "free_access": false
             },       
             {
                 "primary": "Armênia",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "PPQ"
+                "TAG": "PPQ",
+                "free_access": false
             },    
             {
                 "primary": "Tiradentes",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "TRD"
+                "TAG": "TRD",
+                "free_access": false
             },                         
             {
                 "primary": "Luz",
@@ -67,89 +75,103 @@
                 "image_2": "Mapa_dos_Trilhos/icons/10.png",
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "TAG": "LUZ"
+                "TAG": "LUZ",
+                "free_access": false
             },
             {
                 "primary": "São Bento",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BTO"
+                "TAG": "BTO",
+                "free_access": false
             },                
             {
                 "primary": "Sé",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/3.png",
-                "TAG": "PSE"
+                "TAG": "PSE",
+                "free_access": false
             }, 
             {
                 "primary": "Japão",
                 "secondary": "Liberdade",
                 "bold_secondary": true,
-                "TAG": "LIB"
+                "TAG": "LIB",
+                "free_access": false
             },
             {
                 "primary": "São Joaquim",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JQM"
+                "TAG": "JQM",
+                "free_access": false
             },      
             {
                 "primary": "Vergueiro",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VGO"
+                "TAG": "VGO",
+                "free_access": false
             },                                          
             {
                 "primary": "Paraíso",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "PSO"
+                "TAG": "PSO",
+                "free_access": false
             },      
             {
                 "primary": "Ana Rosa",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "ANR"
+                "TAG": "ANR",
+                "free_access": false
             },  
             {
                 "primary": "Vila Mariana",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VMN"
+                "TAG": "VMN",
+                "free_access": false
             },                                
             {
                 "primary": "Santa Cruz",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/5.png",
-                "TAG": "SCZ"
+                "TAG": "SCZ",
+                "free_access": false
             },  
             {
                 "primary": "Praça da Árvore",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ARV"
+                "TAG": "ARV",
+                "free_access": false
             },    
             {
                 "primary": "Saúde",
                 "secondary": "Ultrafarma",
                 "bold_secondary": false,
-                "TAG": "SAU"
+                "TAG": "SAU",
+                "free_access": false
             },               
             {
                 "primary": "São Judas",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JUD"
+                "TAG": "JUD",
+                "free_access": false
             },   
             {
                 "primary": "Conceição",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CON"
+                "TAG": "CON",
+                "free_access": false
             },   
             {
                 "primary": "Jabaquara",
@@ -158,7 +180,8 @@
                 "image": "Mapa_dos_Trilhos/icons/zoo.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
                 "image_2": "Mapa_dos_Trilhos/icons/A.png",
-                "TAG": "JAB"
+                "TAG": "JAB",
+                "free_access": false
             }                                     
         ]
             },
@@ -173,92 +196,106 @@
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "VMD"
+                "TAG": "VMD",
+                "free_access": false
             },   
             {
                 "primary": "Santuário N. Sra. de Fátima",
                 "secondary": "Sumaré",
                 "bold_secondary": true,
-                "TAG": "SUM"
+                "TAG": "SUM",
+                "free_access": false
             },
             {
                 "primary": "Clínicas",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CLI"
+                "TAG": "CLI",
+                "free_access": false
             },
             {
                 "primary": "Consolação",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/4.png",
-                "TAG": "CNS"
+                "TAG": "CNS",
+                "free_access": false
             },            
             {
                 "primary": "Trianon • Masp",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "TRI"
+                "TAG": "TRI",
+                "free_access": false
             },
             {
                 "primary": "Brigadeiro",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BGD"
+                "TAG": "BGD",
+                "free_access": false
             },
             {
                 "primary": "Paraíso",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/1.png",
-                "TAG": "PSO"
+                "TAG": "PSO",
+                "free_access": false
             },   
             {
                 "primary": "Ana Rosa",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/1.png",
-                "TAG": "ANR"
+                "TAG": "ANR",
+                "free_access": false
             },     
             {
                 "primary": "Chácara Klabin",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/5.png",
-                "TAG": "CKB"
+                "TAG": "CKB",
+                "free_access": false
             },   
             {
                 "primary": "Santos • Imigrantes",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "IMG"
+                "TAG": "IMG",
+                "free_access": false
             },
             {
                 "primary": "Alto do Ipiranga",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "AIP"
+                "TAG": "AIP",
+                "free_access": false
             },
             {
                 "primary": "Sacomã",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "SAC"
+                "TAG": "SAC",
+                "free_access": false
             },   
             {
                 "primary": "Tamanduateí",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/10.png",
-                "TAG": "TTI"
+                "TAG": "TTI",
+                "free_access": false
             },  
             {
                 "primary": "Vila Prudente",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/15.png",
-                "TAG": "VPT"
+                "TAG": "VPT",
+                "free_access": false
             }  
         ]                    
             },    
@@ -278,45 +315,52 @@
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
                 "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "BFU"
+                "TAG": "BFU",
+                "free_access": false
             },     
             {             
             "primary": "Marechal Deodoro",
             "secondary": "",
             "bold_secondary": false,
-                "TAG": "DEO"
+                "TAG": "DEO",
+                "free_access": false
             },     
             {
             "primary": "Santa Cecília",
             "secondary": "",
             "bold_secondary": false,
-                "TAG": "CEC"
+                "TAG": "CEC",
+                "free_access": false
             },     
             {
                 "primary": "República",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/4.png",
-                "TAG": "REP"
+                "TAG": "REP",
+                "free_access": false
             },     
             {           
                 "primary": "Anhangabaú",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GBU"
+                "TAG": "GBU",
+                "free_access": false
             },     
             {
                 "primary": "Sé",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/1.png",
-                "TAG": "PSE"
+                "TAG": "PSE",
+                "free_access": false
             },     
             { 
                 "primary": "Pedro ll",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "PDS"
+                "TAG": "PDS",
+                "free_access": false
             },     
             {
                 "primary": "Brás",
@@ -328,19 +372,22 @@
                 "image_3": "Mapa_dos_Trilhos/icons/12.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             },     
             {
                 "primary": "Bresser • Mooca",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BRE"
+                "TAG": "BRE",
+                "free_access": false
             },     
             {
                 "primary": "Belém",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BEL"
+                "TAG": "BEL",
+                "free_access": false
             },     
             {
                 "primary": "Tatuapé",
@@ -349,14 +396,16 @@
                 "image": "Mapa_dos_Trilhos/icons/11.png",
                 "image_1": "Mapa_dos_Trilhos/icons/12.png",
                 "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "TAT"
+                "TAG": "TAT",
+                "free_access": false
             },   
             {
                 "primary": "Carrão",
                 "secondary": "Assaí Atacadista",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "CAR"
+                "TAG": "CAR",
+                "free_access": false
             },               
             {
                 "primary": "Penha",
@@ -365,31 +414,36 @@
                 "image": "Mapa_dos_Trilhos/icons/2.png",
                 "image_1": "Mapa_dos_Trilhos/icons/11.png",
                 "image_3": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "PEN"
+                "TAG": "PEN",
+                "free_access": false
             },     
             {
                 "primary": "Vila Matilde",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VTD"
+                "TAG": "VTD",
+                "free_access": false
             },     
             {
                 "primary": "Guilhermina",
                 "secondary": "Esperança",
                 "bold_secondary": false,
-                "TAG": "VPA"
+                "TAG": "VPA",
+                "free_access": false
             },     
             {
                 "primary": "Patriarca • Vila Ré",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "PCA"
+                "TAG": "PCA",
+                "free_access": false
             },     
             {
                 "primary": "Artur Alvim",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ART"
+                "TAG": "ART",
+                "free_access": false
             },     
             {
                 "primary": "Corinthians",
@@ -397,7 +451,8 @@
                 "bold_secondary": true,
                 "image": "Mapa_dos_Trilhos/icons/11.png",
                 "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "ITQ"
+                "TAG": "ITQ",
+                "free_access": false
             }
         ]
             },        
@@ -415,72 +470,83 @@
                 "image_1": "Mapa_dos_Trilhos/icons/7.png",
                 "image_2": "Mapa_dos_Trilhos/icons/10.png",
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "TAG": "LUZ"
+                "TAG": "LUZ",
+                "free_access": false
             },                  
             {
                 "primary": "República",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/3.png",
-                "TAG": "REP"
+                "TAG": "REP",
+                "free_access": false
             },    
             {
                 "primary": "Higienópolis",
                 "secondary": "Mackenzie",
                 "bold_secondary": false,
-                "TAG": "HIG"
+                "TAG": "HIG",
+                "free_access": false
             },    
             {
                 "primary": "Paulista",
                 "secondary": "Pernambucanas",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "PTA"
+                "TAG": "PTA",
+                "free_access": false
             }, 
             {               
                 "primary": "Oscar Freire",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "FRE"
+                "TAG": "FRE",
+                "free_access": false
             },
             {
                 "primary": "Fradique Coutinho",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "FRA"
+                "TAG": "FRA",
+                "free_access": false
             },
             {
                 "primary": "Faria Lima",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "FAL"
+                "TAG": "FAL",
+                "free_access": false
             },
             {
                 "primary": "Pinheiros",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/9.png",
-                "TAG": "PIN"
+                "TAG": "PIN",
+                "free_access": false
             },  
             {
                 "primary": "Butantã",
                 "secondary": "",
                 "bold_secondary": false,   
-                "TAG": "BUT"
+                "TAG": "BUT",
+                "free_access": false
             }, 
             {
                 "primary": "São Paulo • Morumbi",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "MBI"
+                "TAG": "MBI",
+                "free_access": false
             },               
             {
                 "primary": "Vila Sônia",   
                 "secondary": "Profº Elisabeth Tenreiro",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "VSO"
+                "TAG": "VSO",
+                "free_access": false
             }                                     
         ]
             }, 
@@ -495,107 +561,124 @@
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "CKB"
+                "TAG": "CKB",
+                "free_access": false
             },                  
             {
                 "primary": "Santa Cruz",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/1.png",
-                "TAG": "SCZ"
+                "TAG": "SCZ",
+                "free_access": false
             },                  
             {        
                 "primary": "Hospital São Paulo",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "HSP"
+                "TAG": "HSP",
+                "free_access": false
             },                  
             {
                 "primary": "AACD • Servidor",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SER"
+                "TAG": "SER",
+                "free_access": false
             },                  
             {
                 "primary": "Moema",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "MOE"
+                "TAG": "MOE",
+                "free_access": false
             },                  
             {
                 "primary": "Eucaliptos",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ECT"
+                "TAG": "ECT",
+                "free_access": false
             },                  
             {
                 "primary": "Campo Belo",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CPB"
+                "TAG": "CPB",
+                "free_access": false
             },                  
             {
                 "primary": "Brooklin",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BRK"
+                "TAG": "BRK",
+                "free_access": false
             },                  
             {
                 "primary": "Borba Gato",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BGA"
+                "TAG": "BGA",
+                "free_access": false
             },                  
             {
                 "primary": "Alto da Boa Vista",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ABV"
+                "TAG": "ABV",
+                "free_access": false
             },                  
             {
                 "primary": "Adolfo Pinheiro",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "APN"
+                "TAG": "APN",
+                "free_access": false
             },                  
             {
                 "primary": "Largo Treze",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "LTR"
+                "TAG": "LTR",
+                "free_access": false
             },                  
             {
                 "primary": "Santo Amaro",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/9.png",
-                "TAG": "STA"
+                "TAG": "STA",
+                "free_access": false
             },                  
             { 
                 "primary": "Giovanni Gronchi",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GGR"
+                "TAG": "GGR",
+                "free_access": false
             },                  
             {            
                 "primary": "Vila das Belezas",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VBE"
+                "TAG": "VBE",
+                "free_access": false
             },                  
             {
                 "primary": "Campo Limpo", 
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "CPL"
+                "TAG": "CPL",
+                "free_access": false
             },                 
             {
                 "primary": "Capão Redondo",
                 "secondary": "",
                 "bold_secondary": false,         
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "CPR"
+                "TAG": "CPR",
+                "free_access": false
             }                              
         ]
             },     
@@ -615,7 +698,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/12.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             },                  
             {
                 "primary": "Luz",
@@ -625,7 +709,8 @@
                 "image_1": "Mapa_dos_Trilhos/icons/4.png",
                 "image_2": "Mapa_dos_Trilhos/icons/11.png",
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "TAG": "LUZ"
+                "TAG": "LUZ",
+                "free_access": false
             },      
             {
                 "primary": "Palmeiras",
@@ -637,100 +722,117 @@
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
                 "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "BFU"
+                "TAG": "BFU",
+                "free_access": false
             },                  
             {         
                 "primary": "Água Branca",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ABR"
+                "TAG": "ABR",
+                "free_access": false
             },                  
             {
                 "primary": "Lapa",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "LPA"
+                "TAG": "LPA",
+                "free_access": false
             },                  
             {
                 "primary": "Piqueri",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "PQR"
+                "TAG": "PQR",
+                "free_access": false
             },                  
             {
                 "primary": "Pirituba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "PRT"
+                "TAG": "PRT",
+                "free_access": false
             },                  
             {
                 "primary": "Vila Clarice",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VCL"
+                "TAG": "VCL",
+                "free_access": false
             },                  
             {
                 "primary": "Jaraguá",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JRG"
+                "TAG": "JRG",
+                "free_access": false
             },                  
             {
                 "primary": "Vila Aurora",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VAU"
+                "TAG": "VAU",
+                "free_access": false
             },                  
             {
                 "primary": "Perus",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "PRU"
+                "TAG": "PRU",
+                "free_access": false
             },                  
             {
                 "primary": "Caieiras",        
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "CAI"
+                "TAG": "CAI",
+                "free_access": false
             },                
             {
                 "primary": "Franco da Rocha",         
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "FDR"
+                "TAG": "FDR",
+                "free_access": false
             },                  
             {                        
                 "primary": "Baltazar Fidélis", 
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BFI"
+                "TAG": "BFI",
+                "free_access": false
             },                  
             {
                 "primary": "Francisco Morato",          
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "FMO"
+                "TAG": "FMO",
+                "free_access": false
             },                  
             {                          
                 "primary": "Botujuru",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BTJ"
+                "TAG": "BTJ",
+                "free_access": false
             },                 
             {
                 "primary": "Campo Limpo Pta.",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CLP"
+                "TAG": "CLP",
+                "free_access": false
             },                  
             {
                 "primary": "Várzea Paulista",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VPL"
+                "TAG": "VPL",
+                "free_access": false
             },                  
             {
                 "primary": "Jundiaí",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JUN"
+                "TAG": "JUN",
+                "free_access": false
             }   
         ]
             },      
@@ -743,7 +845,8 @@
             {   "primary": "Júlio Prestes",  
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JPR"
+                "TAG": "JPR",
+                "free_access": false
             },  
             {
                 "primary": "Palmeiras",
@@ -755,32 +858,37 @@
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
                 "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",                
-                "TAG": "BFU"
+                "TAG": "BFU",
+                "free_access": false
             },  
             {          
                 "primary": "Lapa",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "LAB"
+                "TAG": "LAB",
+                "free_access": false
             },  
             {
                 "primary": "Domingo de Moraes",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "DMO"
+                "TAG": "DMO",
+                "free_access": false
             },  
             {
                 "primary": "Imperatriz Leopoldina",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ILE"
+                "TAG": "ILE",
+                "free_access": false
             },  
             {
                 "primary": "Presidente Altino",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/9.png",
-                "TAG": "PAL"
+                "TAG": "PAL",
+                "free_access": false
             },  
             {
                 "primary": "Osasco",
@@ -789,111 +897,129 @@
                 "image": "Mapa_dos_Trilhos/icons/9.png",
                 "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_2": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "OSA"
+                "TAG": "OSA",
+                "free_access": false
             },  
             {
                 "primary": "Comandante Sampaio",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CSA"
+                "TAG": "CSA",
+                "free_access": false
             },  
             {
                 "primary": "Quitaúna",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "QTU"
+                "TAG": "QTU",
+                "free_access": false
             },  
             {
                 "primary": "General Miguel Costa",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GMC"
+                "TAG": "GMC",
+                "free_access": false
             }, 
             {
                 "primary": "Carapicuíba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CPB"
+                "TAG": "CPB",
+                "free_access": false
             },  
             {
                 "primary": "Santa Terezinha",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "STE"
+                "TAG": "STE",
+                "free_access": false
             }, 
             {
                 "primary": "Antônio João",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "AJO"
+                "TAG": "AJO",
+                "free_access": false
             },  
             {
                 "primary": "Barueri",
                 "secondary": "",
                 "image": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
                 "bold_secondary": false,
-                "TAG": "BRU"
+                "TAG": "BRU",
+                "free_access": false
             },  
             {
                 "primary": "Jardim Belval",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JBE"
+                "TAG": "JBE",
+                "free_access": false
             },  
             {
                 "primary": "Jardim Silveira",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JSI"
+                "TAG": "JSI",
+                "free_access": false
             }, 
             {
                 "primary": "Jandira",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JDI"
+                "TAG": "JDI",
+                "free_access": false
             },  
             {
                 "primary": "Sagrado Coração",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SCO"
+                "TAG": "SCO",
+                "free_access": false
             }, 
             {
                 "primary": "Eng° Cardoso",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ECD"
+                "TAG": "ECD",
+                "free_access": false
             },  
             {
                 "primary": "Itapevi",
                 "secondary": "",
                 "image": "Mapa_dos_Trilhos/icons/C.png",
                 "bold_secondary": false,
-                "TAG": "IPV"
+                "TAG": "IPV",
+                "free_access": false
             },  
             {
                 "primary": "Santa Rita",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SRT"
+                "TAG": "SRT",
+                "free_access": true
             },  
             {
                 "primary": "Cimenrita",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": ""
+                "TAG": "",
+                "free_access": false
             },  
             {
                 "primary": "Ambuitá",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "AMB"
+                "TAG": "AMB",
+                "free_access": false
             },  
             {
                 "primary": "Amador Bueno",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ABU"
+                "TAG": "ABU",
+                "free_access": true
             }    
         ]
             },   
@@ -907,123 +1033,143 @@
                 "primary": "Varginha",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VAR"
+                "TAG": "VAR",
+                "free_access": false
             },  
             {
                 "primary": "Bruno Covas",
                 "secondary": "Mendes • Vila Natal",
                 "bold_secondary": true,
-                "TAG": "MVN"
+                "TAG": "MVN",
+                "free_access": false
             },  
             {
                 "primary": "Grajaú",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "GRA"
+                "TAG": "GRA",
+                "free_access": false
             },  
             {                      
                 "primary": "Primavera • Interlagos",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "INT"
+                "TAG": "INT",
+                "free_access": false
             },  
             {
                 "primary": "Autódromo",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "AUT"
+                "TAG": "AUT",
+                "free_access": false
             },  
             {
                 "primary": "Jurubatuba",
                 "secondary": "SENAC",
-                "TAG": "JUR"
+                "TAG": "JUR",
+                "free_access": false
             },  
             {
                 "primary": "Socorro",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SOC"
+                "TAG": "SOC",
+                "free_access": false
             },  
             {
                 "primary": "Santo Amaro",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/5.png",
-                "TAG": "SAM"
+                "TAG": "SAM",
+                "free_access": false
             },  
             {
                 "primary": "João Dias",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JOD"
+                "TAG": "JOD",
+                "free_access": false
             }, 
             {
                 "primary": "Granja Julieta",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GJT"
+                "TAG": "GJT",
+                "free_access": false
             },  
             {
                 "primary": "Morumbi",
                 "secondary": "Claro",
-                "TAG": "MRB"
+                "TAG": "MRB",
+                "free_access": false
             },  
             {
                 "primary": "Berrini",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BRR"
+                "TAG": "BRR",
+                "free_access": false
             }, 
             {
                 "primary": "Vila Olímpia",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VOL"
+                "TAG": "VOL",
+                "free_access": false
             },  
             {
                 "primary": "Cidade Jardim",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CJD"
+                "TAG": "CJD",
+                "free_access": false
             },  
             {
                 "primary": "Hebraica • Rebouças",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "HBR"
+                "TAG": "HBR",
+                "free_access": false
             },  
             {
                 "primary": "Pinheiros",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/4.png",
-                "TAG": "PIN"
+                "TAG": "PIN",
+                "free_access": false
             },  
             {
                 "primary": "Cidade Universitária",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "USP"
+                "TAG": "USP",
+                "free_access": false
             },  
             {
                 "primary": "Vila Lobos • Jaguaré",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JAG"
+                "TAG": "JAG",
+                "free_access": false
             },  
             {
                 "primary": "Ceasa",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CEA"
+                "TAG": "CEA",
+                "free_access": false
             },  
             {
                 "primary": "Presidente Altino",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/8.png",
-                "TAG": "PAL"
+                "TAG": "PAL",
+                "free_access": false
             },
             {
                 "primary": "Osasco",
@@ -1032,7 +1178,8 @@
                 "image": "Mapa_dos_Trilhos/icons/8.png",
                 "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_2": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "OSA"
+                "TAG": "OSA",
+                "free_access": false
             }
         ]
             },          
@@ -1046,38 +1193,44 @@
                 "primary": "Rio Grande da Serra",   
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "RGS"
+                "TAG": "RGS",
+                "free_access": false
             },
             {
                 "primary": "Ribeirão Pires",
                 "secondary": "Antônio Bespalec",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "RPI"
+                "TAG": "RPI",
+                "free_access": false
             },
             {            
                 "primary": "Guapituba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GPT"
+                "TAG": "GPT",
+                "free_access": false
             },
             {
                 "primary": "Mauá",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "MAU"
+                "TAG": "MAU",
+                "free_access": false
             },
             {
                 "primary": "Capuava",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CPV"
+                "TAG": "CPV",
+                "free_access": false
             },
             {
                 "primary": "Prefeito Celso Daniel",    
                 "secondary": "Santo André",
                 "bold_secondary": true,
-                "TAG": "SAN"
+                "TAG": "SAN",
+                "free_access": false
             },
             {
                 "primary": "Prefeito Saladino",
@@ -1085,39 +1238,45 @@
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "PSA"
+                "TAG": "PSA",
+                "free_access": false
             },
             {             
                 "primary": "Utinga",     
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "UTG"
+                "TAG": "UTG",
+                "free_access": false
             },
             {
                 "primary": "São Caetano do Sul",
                 "secondary": "Prefeito Walter Braido",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "SCT"
+                "TAG": "SCT",
+                "free_access": false
             },
             {
                 "primary": "Tamanduateí",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "TMD"
+                "TAG": "TMD",
+                "free_access": false
             },
             {
                 "primary": "Ipiranga",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "IPG"
+                "TAG": "IPG",
+                "free_access": false
             },
             {
                 "primary": "Juventus • Mooca",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "MOC"
+                "TAG": "MOC",
+                "free_access": false
             },
             {
                 "primary": "Brás",
@@ -1129,7 +1288,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/12.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             }   
         ]
             },     
@@ -1149,7 +1309,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
                 "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",                
-                "TAG": "BFU"
+                "TAG": "BFU",
+                "free_access": false
             }, 
             {
                 "primary": "Luz",
@@ -1159,7 +1320,8 @@
                 "image_1": "Mapa_dos_Trilhos/icons/4.png",
                 "image_2": "Mapa_dos_Trilhos/icons/7.png",
                 "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "TAG": "LUZ"
+                "TAG": "LUZ",
+                "free_access": false
             },    
             {
                 "primary": "Brás",
@@ -1171,7 +1333,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/12.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             },
             {
                 "primary": "Tatuapé",
@@ -1180,7 +1343,8 @@
                 "image": "Mapa_dos_Trilhos/icons/3.png",
                 "image_1": "Mapa_dos_Trilhos/icons/12.png",
                 "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "TAT"
+                "TAG": "TAT",
+                "free_access": false
             },
             {
                 "primary": "Corinthians",
@@ -1188,70 +1352,82 @@
                 "image": "Mapa_dos_Trilhos/icons/3.png",
                 "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "bold_secondary": true,
-                "TAG": "ITQ"
+                "TAG": "ITQ",
+                "free_access": false
             },    
             {
                 "primary": "Dom Bosco",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "DOB"
+                "TAG": "DOB",
+                "free_access": false
             },    
             {                
                 "primary": "José Bonifácio",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JBO"
+                "TAG": "JBO",
+                "free_access": false
             },    
             {
                 "primary": "Guaianazes",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "GUA"
+                "TAG": "GUA",
+                "free_access": false
             },    
             {         
                 "primary": "Antônio Gianetti Neto",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "AGN"
+                "TAG": "AGN",
+                "free_access": false
             },    
             {                
                 "primary": "Ferraz de Vasconcelos",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "FVC"
+                "TAG": "FVC",
+                "free_access": false
             },   
             {                
                 "primary": "Poá",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "POA"
+                "TAG": "POA",
+                "free_access": false
             },    
             {
                 "primary": "Calmon Viana",
                 "image": "Mapa_dos_Trilhos/icons/12.png",
-                "TAG": "CMV"
+                "TAG": "CMV",
+                "free_access": false
             },                        
             {
                 "primary": "Suzano",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "SUZ"
+                "TAG": "SUZ",
+                "free_access": false
             },    
             {
                 "primary": "Jundiapeba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JPB"
+                "TAG": "JPB",
+                "free_access": false
             },    
             {                
                 "primary": "Braz Cubas",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "BCB"
+                "TAG": "BCB",
+                "free_access": false
             },    
             {                
                 "primary": "Mogi das Cruzes",            
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "MDC"
+                "TAG": "MDC",
+                "free_access": false
             },    
             {
                 "primary": "Estudantes",
@@ -1259,7 +1435,8 @@
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "TAG": "EST"
+                "TAG": "EST",
+                "free_access": false
             }            
         ]
             },    
@@ -1279,7 +1456,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
                 "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             },
             {
                 "primary": "Tatuapé",
@@ -1288,71 +1466,83 @@
                 "image": "Mapa_dos_Trilhos/icons/3.png",
                 "image_1": "Mapa_dos_Trilhos/icons/11.png",
                 "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "TAT"
+                "TAG": "TAT",
+                "free_access": false
             },
             {
                 "primary": "Eng° Goularte",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/13.png",
-                "TAG": "EGO"
+                "TAG": "EGO",
+                "free_access": false
             },
             {
                 "primary": "USP Leste",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "USL"
+                "TAG": "USL",
+                "free_access": false
             },
             {
                 "primary": "Ermelino Matarazzo",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ERM"
+                "TAG": "ERM",
+                "free_access": false
             },
             {
                 "primary": "São Miguel Paulista",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SMP"
+                "TAG": "SMP",
+                "free_access": false
             },
             {
                 "primary": "Jardim Helena",
                 "secondary": "Vila Marta",
-                "TAG": "JHE"
+                "TAG": "JHE",
+                "free_access": false
             },
             {
                 "primary": "Itaim Paulista",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ITI"
+                "TAG": "ITI",
+                "free_access": false
             },
             {
                 "primary": "Jardim Romano",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JRO"
+                "TAG": "JRO",
+                "free_access": false
             },
             {
                 "primary": "Eng° Manoel Feio",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "EMF"
+                "TAG": "EMF",
+                "free_access": false
             },
             {            
                 "primary": "Itaquaquecetuba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "IQC"
+                "TAG": "IQC",
+                "free_access": false
             },
             {
                 "primary": "Aracaré",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ARC"
+                "TAG": "ARC",
+                "free_access": false
             },
             {
                 "primary": "Calmon Viana",
                 "image": "Mapa_dos_Trilhos/icons/11.png",
-                "TAG": "CMV"
+                "TAG": "CMV",
+                "free_access": false
             }
         ]
             },    
@@ -1372,7 +1562,8 @@
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
                 "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
                 "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",               
-                "TAG": "BFU"
+                "TAG": "BFU",
+                "free_access": false
             }, 
             {
                 "primary": "Luz",
@@ -1382,7 +1573,8 @@
                 "image_1": "Mapa_dos_Trilhos/icons/4.png",
                 "image_2": "Mapa_dos_Trilhos/icons/7.png",
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "TAG": "LUZ"
+                "TAG": "LUZ",
+                "free_access": false
             },  
             {
                 "primary": "Brás",
@@ -1394,20 +1586,23 @@
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
                 "image_4": "Mapa_dos_Trilhos/icons/12.png",
                 "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "TAG": "BAS"
+                "TAG": "BAS",
+                "free_access": false
             },    
             {
                 "primary": "Eng° Goularte",
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/12.png",
-                "TAG": "EGO"
+                "TAG": "EGO",
+                "free_access": false
             },    
             {      
                 "primary": "Guarulhos • CECAP",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "GCE"
+                "TAG": "GCE",
+                "free_access": false
             },    
             {
                 "primary": "Aeroporto • Guarulhos",  
@@ -1415,7 +1610,8 @@
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/aeroporto_GRU.png",
                 "image_1": "Mapa_dos_Trilhos/icons/B.png",
-                "TAG": "AGU"
+                "TAG": "AGU",
+                "free_access": false
             }  
         ]
             }, 
@@ -1430,67 +1626,78 @@
                 "secondary": "",
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/icons/2.png",
-                "TAG": "VPM"
+                "TAG": "VPM",
+                "free_access": false
             },    
             {
                 "primary": "Oratório",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "ORT"
+                "TAG": "ORT",
+                "free_access": false
             },    
             {
                 "primary": "São Lucas",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SLU"
+                "TAG": "SLU",
+                "free_access": false
             },    
             {
                 "primary": "Camilo Haddad",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "CAD"
+                "TAG": "CAD",
+                "free_access": false
             },    
             {
                 "primary": "Vila Tolstói",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VTL"
+                "TAG": "VTL",
+                "free_access": false
             },    
             {
                 "primary": "Vila União",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "VUN"
+                "TAG": "VUN",
+                "free_access": false
             },   
             {
                 "primary": "Jardim Planalto",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "JPL"
+                "TAG": "JPL",
+                "free_access": false
             },    
             {
                 "primary": "Sapopemba",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "SAP"
+                "TAG": "SAP",
+                "free_access": false
             },    
             {
                 "primary": "Fazenda da Juta",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "FJT"
+                "TAG": "FJT",
+                "free_access": false
             },    
             {
                 "primary": "São Mateus",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "MAT"
+                "TAG": "MAT",
+                "free_access": false
             },    
             {
                 "primary": "Jardim Colonial",
                 "secondary": "",
                 "bold_secondary": false,
-                "TAG": "IGT"
+                "TAG": "IGT",
+                "free_access": false
             }
         ]
     }               
