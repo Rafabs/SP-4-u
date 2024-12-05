@@ -1,3 +1,39 @@
+>> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+- [ ] PUXAR LOGO DAS LINHAS ATRAVÉS DE TRAJETO.JSON
+
+de (Linha 31)
+    Vazio
+
+para (Linha 31)
+    logo_operador = dados.get('LOGO', None)  # Obtém o caminho do logo, ou None se não existir
+
+de (Linha 32)
+    return destino, linha, trajeto, cor_linha
+    
+para (Linha 32)
+    return destino, linha, trajeto, cor_linha, logo_operador
+
+de (Linha 67)
+    destino_text, linha_text, trajeto_list, cor_linha = get_destino_linha(script_name)
+    
+para (Linha 67)
+    destino_text, linha_text, trajeto_list, cor_linha, logo_operador = get_destino_linha(script_name)
+
+de (Linha 91)
+    images = []  # Lista para manter referências das imagens
+    load_image("Mapa_dos_Trilhos/Icons/cptm.png", 30, 37, 25, 25, canvas, images)
+        
+para (Linha 91)
+    if logo_operador and os.path.exists(logo_operador):
+        images = []  # Lista para armazenar as referências de imagem
+        load_image(logo_operador, 30, 37, 25, 25, canvas, images)  # Ajuste de posição e tamanho do logo
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
 - [ ] CRIAR ESTAÇÕES COM ACESSO LIVRE VIA CODE - L8 e ATUALIZAR LEGENDA com ESTAÇÃO E ACESSO LIVRE
 
