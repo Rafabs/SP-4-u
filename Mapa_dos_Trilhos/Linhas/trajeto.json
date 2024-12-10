@@ -4,6 +4,7 @@
         "LINHA": "01 - AZUL",
         "COR_LINHA": "#0455A1",
         "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Tucuruvi",
@@ -190,6 +191,7 @@
         "LINHA": "02 - VERDE",
         "COR_LINHA": "#007E5E",
         "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Vila Madalena",
@@ -304,6 +306,7 @@
         "LINHA": "03 - VERMELHA",
         "COR_LINHA": "#EE372F",
         "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Palmeiras",
@@ -461,6 +464,7 @@
         "LINHA": "04 - AMARELA",
         "COR_LINHA": "#FFF000",
         "LOGO": "Mapa_dos_Trilhos/icons/4_amarela.png",
+        "OPERADORA": "VIAQUATRO",
         "TRAJETO": [
             {
                 "primary": "Luz",
@@ -470,6 +474,7 @@
                 "image_1": "Mapa_dos_Trilhos/icons/7.png",
                 "image_2": "Mapa_dos_Trilhos/icons/10.png",
                 "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/icons/13.png",
                 "TAG": "LUZ",
                 "free_access": false
             },                  
@@ -555,6 +560,7 @@
         "LINHA": "05 - LILÁS",
         "COR_LINHA": "#9B3894",
         "LOGO": "Mapa_dos_Trilhos/icons/5_lilas.png",
+        "OPERADORA": "VIAMOBILIDADE_L5",
         "TRAJETO": [
             {
                 "primary": "Chácara Klabin",
@@ -687,6 +693,7 @@
         "LINHA": "07 - RUBI",
         "COR_LINHA": "#CA016B",
         "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "OPERADORA": "CPTM",
         "TRAJETO": [
             {
                 "primary": "Brás",
@@ -841,6 +848,7 @@
         "LINHA": "08 - DIAMANTE",
         "COR_LINHA": "#97A098",
         "LOGO": "Mapa_dos_Trilhos/icons/8_diamante.png",
+        "OPERADORA": "VIAMOBILIDADE_L8",
         "TRAJETO": [ 
             {   "primary": "Júlio Prestes",  
                 "secondary": "",
@@ -1028,6 +1036,7 @@
         "LINHA": "09 - ESMERALDA",
         "COR_LINHA": "#01A9A7",
         "LOGO": "Mapa_dos_Trilhos/icons/9_esmeralda.png",
+        "OPERADORA": "VIAMOBILIDADE_L9",
         "TRAJETO": [
             {
                 "primary": "Varginha",
@@ -1188,6 +1197,7 @@
         "LINHA": "10 - TURQUESA",
         "COR_LINHA": "#049FC3",
         "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "OPERADORA": "CPTM",
         "TRAJETO": [
             {
                 "primary": "Rio Grande da Serra",   
@@ -1298,6 +1308,7 @@
         "LINHA": "11 - CORAL",
         "COR_LINHA": "#F68368",
         "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "OPERADORA": "CPTM",
         "TRAJETO": [
             {
                 "primary": "Palmeiras",
@@ -1445,6 +1456,7 @@
         "LINHA": "12 - SAFIRA",
         "COR_LINHA": "#133C8D",
         "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "OPERADORA": "CPTM",
         "TRAJETO": [ 
             {
                 "primary": "Brás",
@@ -1551,6 +1563,7 @@
         "LINHA": "13 - JADE",
         "COR_LINHA": "#00B352",
         "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "OPERADORA": "CPTM",
         "TRAJETO": [ 
             {
                 "primary": "Palmeiras",
@@ -1620,6 +1633,7 @@
         "LINHA": "15 - PRATA",
         "COR_LINHA": "#C0C0C0",
         "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "OPERADORA": "METRÔ",
         "TRAJETO": [ 
             {
                 "primary": "Vila Prudente",

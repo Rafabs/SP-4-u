@@ -1,5 +1,24 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+
+- [ ] AJUSTAR IMAGENS DO CANTO SUP DIR. COM BASE NAS OPERADORAS E ATUALIZAR DIAGRAMA
+# FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY PARA PUXAR AS IMAGENS DAS OPERADORAS, IMAGENS EM .PNG
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 >> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
 >> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py

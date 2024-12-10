@@ -1,3 +1,64 @@
+>> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+- [ ] AJUSTAR IMAGENS DO CANTO SUP DIR. COM BASE NAS OPERADORAS E ATUALIZAR DIAGRAMA
+
+de (Linha 34)
+    return destino, linha, trajeto, cor_linha, logo_operador
+
+para (Linha 34)
+    operadora = dados.get('OPERADORA', None)
+    return destino, linha, trajeto, cor_linha, logo_operador, operadora
+
+de (Linha 70)
+    destino_text, linha_text, trajeto_list, cor_linha, logo_operador = get_destino_linha(
+        script_name)
+
+para (Linha 70)
+    destino_text, linha_text, trajeto_list, cor_linha, logo_operador, operadora = get_destino_linha(
+        script_name)
+
+de (Linha 498)
+    def alternar_imagens(index=1):
+        if index > 6:
+            index = 1
+        image_path = f"Mapa_dos_Trilhos/Imgs/{index}.png"
+        load_image(image_path, 1440, 90, 960, 180, canvas, images)
+        root.after(60000, alternar_imagens, index + 1)
+
+para (Linha 498)
+    def alternar_imagens(index=1):
+        if index > 6:
+            index = 1
+            
+        # Define o caminho da imagem com base na operadora
+        if operadora == "METRÔ":
+            image_path = f"Mapa_dos_Trilhos/Imgs/METRÔ/{index}.png"
+        elif operadora == "CPTM":
+            image_path = f"Mapa_dos_Trilhos/Imgs/CPTM/{index}.png"
+        elif operadora == "VIAQUATRO":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAQUATRO/{index}.png"
+        elif operadora == "VIAMOBILIDADE_L5":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L5/{index}.png"
+        elif operadora == "VIAMOBILIDADE_L8":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L8/{index}.png"
+        elif operadora == "VIAMOBILIDADE_L9":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L9/{index}.png"                                                
+        else:
+            print(f"Operadora desconhecida: {operadora}")
+            return  # Sai da função se a operadora for desconhecida
+
+        # Carrega a imagem no canvas
+        if os.path.exists(image_path):
+            load_image(image_path, 1440, 90, 960, 180, canvas, images)
+        else:
+            print(f"Imagem não encontrada: {image_path}")        
+        root.after(10000, alternar_imagens, index + 1)
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] PUXAR LOGO DAS LINHAS ATRAVÉS DE TRAJETO.JSON
 
