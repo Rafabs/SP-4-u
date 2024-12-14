@@ -1,0 +1,411 @@
+{
+  "lines": [
+    {
+      "line": {"x1": 0, "y1": 740, "x2": 1920, "y2": 740, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 1060, "x2": 1920, "y2": 1060, "color": "#000000", "width": 1}
+    },  
+    {
+      "line": {"x1": 1375, "y1": 780, "x2": 1910, "y2": 780, "color": "#000000", "width": 1}
+    },          
+    {
+      "line": {"x1": 1375, "y1": 820, "x2": 1910, "y2": 820, "color": "#000000", "width": 1}
+    },              
+    {
+      "line": {"x1": 1375, "y1": 860, "x2": 1910, "y2": 860, "color": "#000000", "width": 1}
+    },   
+    {
+      "line": {"x1": 1375, "y1": 900, "x2": 1910, "y2": 900, "color": "#000000", "width": 1}
+    },                         
+    {
+      "line": {"x1": 1375, "y1": 940, "x2": 1910, "y2": 940, "color": "#000000", "width": 1}
+    },          
+    {
+      "line": {"x1": 1375, "y1": 980, "x2": 1910, "y2": 980, "color": "#000000", "width": 1}
+    },    
+    {
+      "line": {"x1": 0, "y1": 780, "x2": 400, "y2": 780, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 820, "x2": 400, "y2": 820, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 860, "x2": 400, "y2": 860, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 900, "x2": 400, "y2": 900, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 940, "x2": 400, "y2": 940, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 980, "x2": 400, "y2": 980, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 1020, "x2": 400, "y2": 1020, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 0, "y1": 1060, "x2": 400, "y2": 1060, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 430, "y1": 780, "x2": 830, "y2": 780, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 430, "y1": 820, "x2": 830, "y2": 820, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 430, "y1": 860, "x2": 830, "y2": 860, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 430, "y1": 900, "x2": 830, "y2": 900, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 430, "y1": 940, "x2": 830, "y2": 940, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 780, "x2": 1260, "y2": 780, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 820, "x2": 1260, "y2": 820, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 860, "x2": 1260, "y2": 860, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 900, "x2": 1260, "y2": 900, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 940, "x2": 1260, "y2": 940, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 980, "x2": 1260, "y2": 980, "color": "#000000", "width": 1}
+    },
+    {
+      "line": {"x1": 860, "y1": 1020, "x2": 1260, "y2": 1020, "color": "#000000", "width": 1}        
+    },
+    {
+      "texts": [
+        {"text": "Legenda", "position": {"x": 5, "y": 715}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+        {"text": "Subtitle", "position": {"x": 90, "y": 718}, "font": "Helvetica 13 italic bold", "anchor": "nw", "color": "#686868"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Informações úteis", "position": {"x": 1375, "y": 745}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+        {"text": "Useful Information", "position": {"x": 1535, "y": 748}, "font": "Helvetica 13 italic bold", "anchor": "nw", "color": "#686868"}
+      ]
+    },       
+    {
+      "texts": [
+        {"text": "Linha 1 • Azul", "position": {"x": 45, "y": 745}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 1-Blue", "position": {"x": 45, "y": 760}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "METRÔ", "position": {"x": 400, "y": 760}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },  
+    {
+      "texts": [
+        {"text": "Linha 2 • Verde", "position": {"x": 45, "y": 785}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 2-Green", "position": {"x": 45, "y": 800}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "METRÔ", "position": {"x": 400, "y": 800}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 3 • Vermelha", "position": {"x": 45, "y": 825}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 3-Red", "position": {"x": 45, "y": 840}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "METRÔ", "position": {"x": 400, "y": 840}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 4 • Amarela", "position": {"x": 45, "y": 865}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 4-Yellow", "position": {"x": 45, "y": 880}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "VIQUATRO", "position": {"x": 400, "y": 880}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 5 • Lilás", "position": {"x": 45, "y": 905}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 5-Lilac", "position": {"x": 45, "y": 920}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "VIAMOBILIDADE", "position": {"x": 400, "y": 920}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 7 • Rubi", "position": {"x": 45, "y": 945}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 7-Ruby", "position": {"x": 45, "y": 960}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "CPTM", "position": {"x": 400, "y": 960}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 8 • Diamante", "position": {"x": 45, "y": 985}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 8-Diamond", "position": {"x": 45, "y": 1000}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "VIAMOBILIDADE", "position": {"x": 400, "y": 1000}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 9 • Esmeralda", "position": {"x": 45, "y": 1025}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 9-Emerald", "position": {"x": 45, "y": 1040}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "VIAMOBILIDADE", "position": {"x": 400, "y": 1040}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 10 • Turquesa", "position": {"x": 475, "y": 745}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 10-Turquoise", "position": {"x": 475, "y": 760}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "CPTM", "position": {"x": 830, "y": 760}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 11 • Coral", "position": {"x": 475, "y": 785}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 11-Coral", "position": {"x": 475, "y": 800}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "CPTM", "position": {"x": 830, "y": 800}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 12 • Safira", "position": {"x": 475, "y": 825}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 12-Sapphire", "position": {"x": 475, "y": 840}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "CPTM", "position": {"x": 830, "y": 840}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 13 • Jade", "position": {"x": 475, "y": 865}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 13-Jade", "position": {"x": 475, "y": 880}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "CPTM", "position": {"x": 830, "y": 880}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Linha 15 • Prata", "position": {"x": 475, "y": 905}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Line 15-Silver", "position": {"x": 475, "y": 920}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "METRÔ", "position": {"x": 830, "y": 920}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+    {
+      "texts": [
+        {"text": "Corredor São Mateus-Jabaquara", "position": {"x": 905, "y": 745}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "São Mateus-Jabaquara Corridor", "position": {"x": 905, "y": 760}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "EMTU", "position": {"x": 1260, "y": 760}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },       
+    {
+      "texts": [
+        {"text": "Corredor Guarulhos-SP", "position": {"x": 905, "y": 785}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Guarulhos-SP Corridor", "position": {"x": 905, "y": 800}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "EMTU", "position": {"x": 1260, "y": 800}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },            
+    {
+      "texts": [
+          {"text": "Corredor Itapevi-SP", "position": {"x": 905, "y": 825}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+          {"text": "Itapevi-SP Corridor", "position": {"x": 905, "y": 840}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+          {"text": "EMTU", "position": {"x": 1260, "y": 840}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },    
+    {
+      "texts": [
+          {"text": "Terminal Rodoviário", "position": {"x": 905, "y": 865}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+          {"text": "Long Distance Bus Terminal", "position": {"x": 905, "y": 880}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"}
+      ]
+    },         
+    {
+      "texts": [
+          {"text": "Aeroporto", "position": {"x": 905, "y": 905}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+          {"text": "Airport", "position": {"x": 905, "y": 920}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"}
+      ]
+    },                                                                                                        
+    {
+      "texts": [
+          {"text": "Ponte Orca ao Zoológico", "position": {"x": 905, "y": 945}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+          {"text": "Orca Shuttle to the Zoo", "position": {"x": 905, "y": 960}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+          {"text": "EMTU", "position": {"x": 1260, "y": 960}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    },     
+    {
+      "texts": [
+          {"text": "Terminal de Ônibus Integrado", "position": {"x": 905, "y": 985}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
+          {"text": "Integrated Bus Terminal", "position": {"x": 905, "y": 1000}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+          {"text": "EMTU", "position": {"x": 1260, "y": 1000}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+      ]
+    }, 
+    {
+      "texts": [
+          {"text": "CPTM", "position": {"x": 1375, "y": 789}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.cptm.sp.gov.br", "position": {"x": 1540, "y": 789}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 055 0121", "position": {"x": 1910, "y": 800}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },    
+    {
+      "texts": [
+          {"text": "EMTU", "position": {"x": 1375, "y": 829}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.emtu.sp.gov.br", "position": {"x": 1540, "y": 829}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 724 0555", "position": {"x": 1910, "y": 840}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },  
+    {
+      "texts": [
+          {"text": "METRÔ", "position": {"x": 1375, "y": 869}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.metro.sp.gov.br", "position": {"x": 1540, "y": 869}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 770 7722", "position": {"x": 1910, "y": 880}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },    
+    {
+      "texts": [
+          {"text": "VIAQUATRO", "position": {"x": 1375, "y": 909}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.viaquatro.com.br", "position": {"x": 1540, "y": 909}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 770 7100", "position": {"x": 1910, "y": 920}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },       
+    {
+      "texts": [
+          {"text": "VIAMOBILIDADE", "position": {"x": 1375, "y": 949}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.viamobilidade.com.br", "position": {"x": 1540, "y": 949}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 770 7106", "position": {"x": 1910, "y": 960}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },   
+                                  
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/1.png",
+      "coordinates": {"x": 20, "y": 760},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/2.png",
+      "coordinates": {"x": 20, "y": 800},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/3.png",
+      "coordinates": {"x": 20, "y": 840},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/4.png",
+      "coordinates": {"x": 20, "y": 880},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/5.png",
+      "coordinates": {"x": 20, "y": 920},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/7.png",
+      "coordinates": {"x": 20, "y": 960},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/8.png",
+      "coordinates": {"x": 20, "y": 1000},
+      "size": {"width": 25, "height": 25}
+    },
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/9.png",
+      "coordinates": {"x": 20, "y": 1040},
+      "size": {"width": 25, "height": 25}
+    },         
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/10.png",
+      "coordinates": {"x": 450, "y": 760},
+      "size": {"width": 25, "height": 25}
+    },  
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/11.png",
+      "coordinates": {"x": 450, "y": 800},
+      "size": {"width": 25, "height": 25}
+    },          
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/12.png",
+      "coordinates": {"x": 450, "y": 840},
+      "size": {"width": 25, "height": 25}
+    },    
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/13.png",
+      "coordinates": {"x": 450, "y": 880},
+      "size": {"width": 25, "height": 25}
+    },  
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/15.png",
+      "coordinates": {"x": 450, "y": 920},
+      "size": {"width": 25, "height": 25}
+    },          
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/A.png",
+      "coordinates": {"x": 880, "y": 760},
+      "size": {"width": 25, "height": 25}
+    },                                       
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/B.png",
+      "coordinates": {"x": 880, "y": 800},
+      "size": {"width": 25, "height": 25}
+    },      
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/C.png",
+      "coordinates": {"x": 880, "y": 840},
+      "size": {"width": 25, "height": 25}
+    },       
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
+      "coordinates": {"x": 880, "y": 880},
+      "size": {"width": 25, "height": 25}
+    },              
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/aeroporto_GRU.png",
+      "coordinates": {"x": 880, "y": 920},
+      "size": {"width": 25, "height": 25}
+    },      
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/zoo.png",
+      "coordinates": {"x": 880, "y": 960},
+      "size": {"width": 25, "height": 25}
+    },     
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+      "coordinates": {"x": 880, "y": 1000},
+      "size": {"width": 25, "height": 25}
+    },      
+    [
+      {"type": "oval", "position": {"x1": 870, "y1": 1030, "x2": 890, "y2": 1050}, "fill": "#ffffff", "outline": "#000000"},
+      {"type": "text", "text": "Estação", "position": {"x": 905, "y": 1025}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+      {"type": "text", "text": "Station", "position": {"x": 905, "y": 1040}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
+      {"type": "oval", "position": {"x1": 1070, "y1": 1030, "x2": 1090, "y2": 1050}, "fill": "#000000", "outline": "#000000"},
+      {"type": "text", "text": "Acesso Livre", "position": {"x": 1100, "y": 1025}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
+      {"type": "text", "text": "Free access", "position": {"x": 1100, "y": 1040}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"}
+    ],        
+         
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/Cptm_logo_completo.png",
+      "coordinates": {"x": 1427, "y": 1000},
+      "size": {"width": 106, "height": 31}
+    },   
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/EMTU_logo.png",
+      "coordinates": {"x": 1650, "y": 1000},
+      "size": {"width": 106, "height": 31}
+    },  
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/Sao_Paulo_Metro_Logo.png",
+      "coordinates": {"x": 1850, "y": 1000},
+      "size": {"width": 126, "height": 41}
+    },  
+    {
+      "icon": "Mapa_dos_Trilhos/Icons/qr_code.png",
+      "coordinates": {"x": 1397, "y": 1040},
+      "size": {"width": 40, "height": 40}
+    },        
+    {
+      "texts": [
+        {"text": "Utilize o código ao lado para obter a versão mais atual deste mapa. Consulte nos sites das empresas", "position": {"x": 1430, "y": 1020}, "font": "Helvetica 7 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "os horários de funcionamento das estações e transferências entre linhas e outros conteúdos.", "position": {"x": 1430, "y": 1030}, "font": "Helvetica 7 bold", "anchor": "nw", "color": "#000000"},
+        {"text": "Please use the QR Code to get the latest version of this map. Address the websites of the metropolitan", "position": {"x": 1430, "y": 1040}, "font": "Helvetica 7 italic bold", "anchor": "nw", "color": "#686868"},
+        {"text": "transport companies for stations service hours, line interchange information and other contents.", "position": {"x": 1430, "y": 1050}, "font": "Helvetica 7 italic bold", "anchor": "nw", "color": "#686868"}
+      ]
+    }                                   
+  ]
+}  
