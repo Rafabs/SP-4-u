@@ -49,6 +49,37 @@ def load_image(image_path, x, y, width, height, canvas, images):
     else:
         print(f"Imagem não encontrada: {image_path}")
 
+'''
+# Função para ajustar tamanho com parâmetro
+def ajustar_tamanho(escala):
+    return
+'''
+
+# INSERIR TRECHO ABAIXO ANTES DE >>>script_name = os.path.basename(__file__)
+'''
+    # Adicionando os botões na janela
+    button_width = 5  # Largura fixa para todos os botões
+    button_height = 1  # Altura fixa para todos os botões
+    button_style = {
+        "bg": "#D3D3D3",  # Cor de fundo azul
+        "fg": "#000000",    # Cor do texto branco
+        "font": ("Arial", 10, "bold"),  # Fonte Arial, tamanho 10, negrito
+        "relief": "raised",  # Borda elevada
+        "bd": 1.5,  # Largura da borda
+    }
+
+    button_25 = tk.Button(root, text="25%", command=lambda: ajustar_tamanho(0.25), width=button_width, height=button_height, **button_style)
+    button_50 = tk.Button(root, text="50%", command=lambda: ajustar_tamanho(0.50), width=button_width, height=button_height, **button_style)
+    button_75 = tk.Button(root, text="75%", command=lambda: ajustar_tamanho(0.75), width=button_width, height=button_height, **button_style)
+    button_100 = tk.Button(root, text="100%", command=lambda: ajustar_tamanho(1), width=button_width, height=button_height, **button_style)
+
+    # Posicionando os botões
+    button_25.place(x=777, y=30)
+    button_50.place(x=822, y=30)
+    button_75.place(x=867, y=30)
+    button_100.place(x=912, y=30)
+'''
+
 def mapa_linha():
     root = tk.Toplevel()
     monitor = get_monitors()[0]
