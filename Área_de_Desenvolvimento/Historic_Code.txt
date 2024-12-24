@@ -1,5 +1,11 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
+>> 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+
+- [ ] RETROFIT LINHAS E TITULARIDADES EM MAIN.PY E ATUALIZAÇÃO DO DIAGRAMA
+FEITO AJUSTE DOS ITENS NA JANELA, EXIBIÇÃO DA LEGENDA, INFORMAÇÕES EM TEXTO DAS LINHAS E AMPLIAÇÃO DO CAMPO DE NOTÍCIAS.
+
+---------------------------------------------------------------------------------------------------------------
 >> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/subtitle.json
 >> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 >> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
