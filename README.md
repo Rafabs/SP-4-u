@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-05/12/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-06/01/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -52,17 +52,33 @@ Remoção da(s) linha(s):
 
 Alteração Tarifária:
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,00
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,20
 
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
 
+![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
+
+![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/695T/01-782F40.svg) Term. Capelinha - Metrô Vl. Mariana
+
+![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/695V/01-782F40.svg) Term. Capelinha - Metrô Ana Rosa
+
+![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
+
+![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/8086/10-FF671F.svg) Jaguaré - Pinheiros
+
 Modificação da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-002F6C.svg) Jd. Campo Limpo - Metrô Santana
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-DA291C.svg) Jd. Sto. André - Metrô Carrão
 
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-002F6C.svg) Jd. Fontalis - Metrô Santana
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-DA291C.svg) Jd. São Francisco (via Jd. Sto. André) - Metrô Carrão
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-0082BA.svg) Jd. Jd. Selma - Lgo. São Francisco
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-0082BA.svg) Mar Paulista - Lgo. São Francisco
 
 Remoção da(s) linha(s):
 
@@ -70,7 +86,9 @@ Remoção da(s) linha(s):
 
 Alteração Tarifária:
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 4,40
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,00
 
 ## Última Atualização - EMTU
 
@@ -134,13 +152,13 @@ npm install cors
 ## Fonte de dados
 
 Todos os dados utilizados nesse projeto são em sua maioria abertos e alimentados pela comunidade, são eles:
-- ![Download](https://img.shields.io/badge/Último_Download-23/10/2023-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
-- ![Download](https://img.shields.io/badge/Último_Download-03/01/2024-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
-- ![Download](https://img.shields.io/badge/Último_Download-11/01/2024-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
-- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
-- ![Download](https://img.shields.io/badge/Último_Download-11/01/2024-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
-- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
-- ![Download](https://img.shields.io/badge/Último_Download-20/10/2023-white.svg) [CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [Citylines](https://www.citylines.co/data?city=sao-paulo#city) - Dados utilizados para plotagem do mapa.
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [SPTrans](https://www.sptrans.com.br/desenvolvedores/perfil-desenvolvedor/) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [EMTU](https://www.emtu.sp.gov.br/emtu/dados-abertos/dados-abertos-principal/acesse-os-dados-abertos.fss) - Dados utilizados para buscar linhas.
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg)[GEOSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx) - Dados utilizados para buscar traçados e pontos de bicicletários e ciclovias. 
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [METRÔ](https://www.metro.sp.gov.br/) - Extração do Mapa da Rede e do Guia do Usuário (em .PDF)
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg)[METRÔ](http://catalogo.governoaberto.sp.gov.br/dataset/869-pesquisa-origem-e-destino) - Acesso às bases de dados da Pesquisa Origem e Destino dos anos de 1977, 1987, 1997 e 2007
+- ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg)[CPTM](https://www.cptm.sp.gov.br/Pages/Home.aspx) - Extração do Guia do Usuário (em .PDF)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) A DEFINIR - Extração de informações da operação e ocorrências (web scraping)
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [World's Air Pollution](https://waqi.info/) - APi para amostragem da qualidade do ar
 - ![Download](https://img.shields.io/badge/Último_Download-Não_Aplicável-white.svg) [News API](https://newsapi.org/) - APi para exibição de notícias na versão Web
