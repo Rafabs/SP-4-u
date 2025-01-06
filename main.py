@@ -20,21 +20,21 @@ from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
 from varredura import verificacao
 from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
-from SP_L01 import line1  # Importa a função line1 do módulo SP_L01
-from SP_L02 import line2  # Importa a função line2 do módulo SP_L02
-from SP_L03 import line3  # Importa a função line3 do módulo SP_L03
-from SP_L04 import line4  # Importa a função line4 do módulo SP_L04
-from SP_L05 import line5  # Importa a função line5 do módulo SP_L05
-from SP_L06 import line6  # Importa a função line6 do módulo SP_L06
-from SP_L07 import line7  # Importa a função line7 do módulo SP_L07
-from SP_L08 import line8  # Importa a função line8 do módulo SP_L08
-from SP_L09 import line9  # Importa a função line9 do módulo SP_L09
-from SP_L10 import line10  # Importa a função line10 do módulo SP_L10
-from SP_L11 import line11  # Importa a função line11 do módulo SP_L11
-from SP_L12 import line12  # Importa a função line12 do módulo SP_L12
-from SP_L13 import line13  # Importa a função line13 do módulo SP_L13
-from SP_L15 import line15  # Importa a função line15 do módulo SP_L15
-from SP_L17 import line17  # Importa a função line6 do módulo SP_L17
+from SP_L01 import line1, line_command   # Importa a função line1 do módulo SP_L01
+from SP_L02 import line2, line_command   # Importa a função line2 do módulo SP_L02
+from SP_L03 import line3, line_command   # Importa a função line3 do módulo SP_L03
+from SP_L04 import line4, line_command   # Importa a função line4 do módulo SP_L04
+from SP_L05 import line5, line_command   # Importa a função line5 do módulo SP_L05
+from SP_L06 import line6, line_command   # Importa a função line6 do módulo SP_L06
+from SP_L07 import line7, line_command   # Importa a função line7 do módulo SP_L07
+from SP_L08 import line8, line_command   # Importa a função line8 do módulo SP_L08
+from SP_L09 import line9, line_command   # Importa a função line9 do módulo SP_L09
+from SP_L10 import line10, line_command    # Importa a função line10 do módulo SP_L10
+from SP_L11 import line11, line_command    # Importa a função line11 do módulo SP_L11
+from SP_L12 import line12, line_command    # Importa a função line12 do módulo SP_L12
+from SP_L13 import line13, line_command    # Importa a função line13 do módulo SP_L13
+from SP_L15 import line15, line_command    # Importa a função line15 do módulo SP_L15
+from SP_L17 import line17, line_command    # Importa a função line6 do módulo SP_L17
 from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
 from Guararema import guararema  # Importa a função guararema do módulo Guararema
 import json
@@ -378,8 +378,60 @@ linha12_safira_icon = tk.PhotoImage(file=linha12_safira_icon_path)
 linha13_jade_icon = tk.PhotoImage(file=linha13_jade_icon_path)
 linha15_prata_icon = tk.PhotoImage(file=linha15_prata_icon_path)
 
+def execute_line1_and_command():
+    line1()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 1 - Azul")  # Registra a execução
+
+def execute_line2_and_command():
+    line2()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 2 - Verde")  # Registra a execução
+
+def execute_line3_and_command():
+    line3()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 3 - Vermelha")  # Registra a execução
+
+def execute_line4_and_command():
+    line4()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 4 - Amarela")  # Registra a execução
+
+def execute_line5_and_command():
+    line5()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 5 - Lilás")  # Registra a execução
+
+def execute_line7_and_command():
+    line7()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 7 - Rubi")  # Registra a execução
+
+def execute_line8_and_command():
+    line8()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 8 - Diamante")  # Registra a execução
+
+def execute_line9_and_command():
+    line9()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 9 - Esmeralda")  # Registra a execução
+
+def execute_line10_and_command():
+    line10()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 10 - Turquesa")  # Registra a execução
+
+def execute_line11_and_command():
+    line11()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 11 - Coral")  # Registra a execução
+
+def execute_line12_and_command():
+    line12()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 12 - Safira")  # Registra a execução
+
+def execute_line13_and_command():
+    line13()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 13 - Jade")  # Registra a execução
+
+def execute_line15_and_command():
+    line15()  # Chama a função que executa o script SP_L01.py
+    line_command("Linha 15 - Prata")  # Registra a execução
+                                            
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
-button_l1 = tk.Button(root, text="Azul", command=line1,
+button_l1 = tk.Button(root, text="Azul", command=execute_line1_and_command,
                       fg="white", bg=azul, width=15)
 button_l1.place(x=1650, y=5)
 canvas.create_image(1630, 18, image=linha1_icon) 
@@ -389,7 +441,7 @@ tp_l1 = canvas.create_text(1910, 13, text="TUCURUVI", font="Helvetica 8", anchor
 ts_l1 = canvas.create_text(1910, 23, text="JABAQUARA", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 30, 1920, 30, width=1)
 
-button_l2 = tk.Button(root, text="Verde", command=line2,
+button_l2 = tk.Button(root, text="Verde", command=execute_line2_and_command,
                       bg=verde, fg="white", width=15)
 button_l2.place(x=1650, y=32)
 canvas.create_image(1630, 45, image=linha2_icon) 
@@ -399,7 +451,7 @@ tp_l2 = canvas.create_text(1910, 40, text="VILA MADALENA", font="Helvetica 8", a
 ts_l2 = canvas.create_text(1910, 50, text="VILA PRUDENTE", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 57, 1920, 57, width=1)
 
-button_l3 = tk.Button(root, text="Vermelha", command=line3,
+button_l3 = tk.Button(root, text="Vermelha", command=execute_line3_and_command,
                       bg=vermelha, fg="black", width=15)
 button_l3.place(x=1650, y=59)
 canvas.create_image(1630, 72, image=linha3_icon) 
@@ -409,7 +461,7 @@ tp_l3 = canvas.create_text(1910, 67, text="PALMEIRAS - BARRA FUNDA", font="Helve
 ts_l3 = canvas.create_text(1910, 77, text="CORINTHIANS - ITAQUERA", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 84, 1920, 84, width=1)
 
-button_l4 = tk.Button(root, text="Amarela", command=line4,
+button_l4 = tk.Button(root, text="Amarela", command=execute_line4_and_command,
                       bg=amarela, fg="black", width=15)
 button_l4.place(x=1650, y=86)
 canvas.create_image(1630, 99, image=linha4_icon) 
@@ -419,7 +471,7 @@ tp_l4 = canvas.create_text(1910, 94, text="VILA SÔNIA", font="Helvetica 8", anc
 ts_l4 = canvas.create_text(1910, 104, text="LUZ", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 111, 1920, 111, width=1)
 
-button_l5 = tk.Button(root, text="Lilás", command=line5,
+button_l5 = tk.Button(root, text="Lilás", command=execute_line5_and_command,
                       bg=lilás, fg="white", width=15)
 button_l5.place(x=1650, y=113)
 canvas.create_image(1630, 126, image=linha5_icon) 
@@ -436,7 +488,7 @@ tp_l6 = canvas.create_text(1910, 148, text="BRASILÂNDIA", font="Helvetica 8", a
 ts_l6 = canvas.create_text(1910, 158, text="SÃO JOAQUIM", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 165, 1920, 165, width=1)
 
-button_l7 = tk.Button(root, text="Rubi", command=line7,
+button_l7 = tk.Button(root, text="Rubi", command=execute_line7_and_command,
                       bg=rubi, fg="white", width=15)
 button_l7.place(x=1650, y=167)
 canvas.create_image(1630, 180, image=linha7_icon) 
@@ -446,7 +498,7 @@ tp_l7 = canvas.create_text(1910, 175, text="JUNDIAÍ", font="Helvetica 8", ancho
 ts_l7 = canvas.create_text(1910, 185, text="BRÁS", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 192, 1920, 192, width=1)
 
-button_l8 = tk.Button(root, text="Diamante", command=line8,
+button_l8 = tk.Button(root, text="Diamante", command=execute_line8_and_command,
                       bg=diamante, fg="black", width=15)
 button_l8.place(x=1650, y=194)
 canvas.create_image(1630, 207, image=linha8_icon) 
@@ -457,7 +509,7 @@ ts_l8 = canvas.create_text(1910, 212, text="JÚLIO PRESTES", font="Helvetica 8",
 canvas.create_line(1425, 219, 1920, 219, width=1)
 
 button_l9 = tk.Button(root, text="Esmeralda",
-                      command=line9, bg=esmeralda, fg="black", width=15)
+                      command=execute_line9_and_command, bg=esmeralda, fg="black", width=15)
 button_l9.place(x=1650, y=221)
 canvas.create_image(1630, 234, image=linha9_icon) 
 canvas.create_image(1600, 234, image=linha9_esmeralda_icon) 
@@ -467,7 +519,7 @@ ts_l9 = canvas.create_text(1910, 239, text="VARGINHA", font="Helvetica 8", ancho
 canvas.create_line(1425, 246, 1920, 246, width=1)
 
 button_l10 = tk.Button(root, text="Turquesa",
-                       command=line10, bg=turquesa, fg="black", width=15)
+                       command=execute_line10_and_command, bg=turquesa, fg="black", width=15)
 button_l10.place(x=1650, y=248)
 canvas.create_image(1630, 261, image=linha10_icon) 
 canvas.create_image(1600, 261, image=linha10_turquesa_icon) 
@@ -476,7 +528,7 @@ tp_l10 = canvas.create_text(1910, 256, text="BRÁS", font="Helvetica 8", anchor=
 ts_l10 = canvas.create_text(1910, 266, text="RIO GRANDE DA SERRA", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 273, 1920, 273, width=1)
 
-button_l11 = tk.Button(root, text="Coral", command=line11,
+button_l11 = tk.Button(root, text="Coral", command=execute_line11_and_command,
                        bg=coral, fg="black", width=15)
 button_l11.place(x=1650, y=275)
 canvas.create_image(1630, 288, image=linha11_icon) 
@@ -487,7 +539,7 @@ ts_l11 = canvas.create_text(1910, 293, text="ESTUDANTES", font="Helvetica 8", an
 canvas.create_line(1425, 300, 1920, 300, width=1)
 
 button_l12 = tk.Button(root, text="Safira",
-                       command=line12, bg=safira, fg="white", width=15)
+                       command=execute_line12_and_command, bg=safira, fg="white", width=15)
 button_l12.place(x=1650, y=302)
 canvas.create_image(1630, 315, image=linha12_icon) 
 canvas.create_image(1600, 315, image=linha12_safira_icon) 
@@ -496,7 +548,7 @@ tp_l12 = canvas.create_text(1910, 310, text="BRÁS", font="Helvetica 8", anchor=
 ts_l12 = canvas.create_text(1910, 320, text="CALMON VIANA", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 327, 1920, 327, width=1)
 
-button_l13 = tk.Button(root, text="Jade", command=line13,
+button_l13 = tk.Button(root, text="Jade", command=execute_line13_and_command,
                        bg=jade, fg="black", width=15)
 button_l13.place(x=1650, y=329)
 canvas.create_image(1630, 342, image=linha13_icon) 
@@ -506,7 +558,7 @@ tp_l13 = canvas.create_text(1910, 337, text="BRÁS", font="Helvetica 8", anchor=
 ts_l13 = canvas.create_text(1910, 347, text="AEROPORTO - GUARULHOS", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 354, 1920, 354, width=1)
 
-button_l15 = tk.Button(root, text="Prata", command=line15,
+button_l15 = tk.Button(root, text="Prata", command=execute_line15_and_command,
                        bg=prata, fg="black", width=15)
 button_l15.place(x=1650, y=356)
 canvas.create_image(1630, 369, image=linha15_icon) 

@@ -8,6 +8,10 @@ from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
 
+# Função para registrar a execução de comandos
+def line_command(description):
+    print(f"Abrindo Mapa - {description}")
+    
 def line4():
     try:
         subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L04.py"], check=True)
