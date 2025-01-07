@@ -1,208 +1,208 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
->> 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+>> [0175] 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 
 - [ ] RETROFIT LINHAS E TITULARIDADES EM MAIN.PY E ATUALIZAÇÃO DO DIAGRAMA
 FEITO AJUSTE DOS ITENS NA JANELA, EXIBIÇÃO DA LEGENDA, INFORMAÇÕES EM TEXTO DAS LINHAS E AMPLIAÇÃO DO CAMPO DE NOTÍCIAS.
 
 ---------------------------------------------------------------------------------------------------------------
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/subtitle.json
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0162] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/subtitle.json
+>> [0163] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0164] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0165] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0166] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0167] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0168] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0169] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0170] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0171] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0172] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0173] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0174] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0175] 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 
 - [ ] AJUSTAR PARA QUE A LEGENDA SEJA INSERIDO VIA NOVO ARQUIVO .JSON E ATUALIZAR DIAGRAMA
 CRIADO ARQUIVO .JSON E COMUNICANDO COM OS SCRIPT DA L1 E L4, ATUALIZADO DIAGRAMA E DOCUMENTAÇÃO.
 
 ---------------------------------------------------------------------------------------------------------------
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0149] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0150] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0151] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0152] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0153] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0154] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0155] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0156] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0157] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0158] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0159] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0160] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0161] 17:44 10/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 
 - [ ] AJUSTAR IMAGENS DO CANTO SUP DIR. COM BASE NAS OPERADORAS E ATUALIZAR DIAGRAMA
 # FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY PARA PUXAR AS IMAGENS DAS OPERADORAS, IMAGENS EM .PNG
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0136] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0137] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0138] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0139] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0140] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0141] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0142] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0143] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0144] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0145] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0146] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0147] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0148] 18:27 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 
 - [ ] PUXAR LOGO DAS LINHAS ATRAVÉS DE TRAJETO.JSON
 # FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY PARA PUXAR A LOGO DAS OPERADORAS ATRAVÉS DO ARQUIVO TRAJETO.JSON
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0123] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0124] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0125] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0126] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0127] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0128] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0129] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0130] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0131] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0132] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0133] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0134] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0135] 17:02 05/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
 
 - [ ] CRIAR ESTAÇÕES COM ACESSO LIVRE VIA CODE - L8 e ATUALIZAR LEGENDA com ESTAÇÃO E ACESSO LIVRE
 # FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY QUE EXIBIRÁ A LEGENDA COM ESTAÇÃO E ACESSO LIVRE EM TODAS AS LINHAS
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0110] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0111] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0112] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0113] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0114] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0115] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0116] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0117] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0118] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0119] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0120] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0121] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0122] 00:02 02/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] INSERIR LEGENDA EM TODOS ARQUIVOS .PY E INSERIR NOVOS ICONES
 # FOI REALIZADO O CÓDIGO DENTRO DE CADA SCRIPT .PY QUE EXIBIRÁ A LEGENDA ABAIXO DO MAPA DE LINHA, QUE PRECISOU SER REAJUSTADO
 VERTICALMENTE, TAMBÉM FOI INSERIDO NOVOS ÍCONES NOS MAPAS DE LINHAS, CONFORME MAPA DO METROPOLITANO ATUALIZADO.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0096] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> [0097] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0098] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0099] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0100] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0101] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0102] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0103] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0104] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0105] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0106] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0107] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0108] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0109] 01:51 22/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] AJUSTAR NOME SECUNDÁRIO DE ALGUMAS ESTAÇÕES
 # FOI REALIZADO O AJUSTE DE ALGUMAS FUNÇÕES E A CRIAÇÃO DE NOVOS ITENS NO ARQUIVO .JSON PARA SEPARAR OS NOMES PRIMÁRIOS DOS SECUNDÁRIOS
 E SUAS RESPECTIVAS FORMATAÇÕES PARA EXIBIÇÃO.
 
 ---------------------------------------------------------------------------------------------------------------
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0082] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> [0083] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0084] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0085] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0086] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0087] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0088] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0089] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0090] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0091] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0092] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0093] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0094] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0095] 00:04 13/11/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] COLOCAR IMGS DA LINHA NA FRENTE DO NOME NO CANTO SUP ESQ EM TODOS OS ARQUIVOS .PY
 # FOI ADICIONADO A IMAGEM NOS ARQUIVOS .PY PARA QUE A MESMA SEJA EXIBIDA, FOI NECESSÁRIO AJUSTAR E 
 CRIAR UMA NOVA LINHA RETANGULAR NO CABEÇALHO DA APLICAÇÃO, FOI ADICIONADO PRÉVIAMENTE OS CAMINHOS DAS 
 IMAGENS NO ARQUIVO .JSON
 
 ---------------------------------------------------------------------------------------------------------------
->> 21:32 29/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+>> [0081] 21:32 29/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 - [ ] CORRIGIR LOG.TXT PARA QUE INCREMENTE OS DADOS DO LOG SEM APAGAR OS ANTIGOS DE LOG.TXT
 # FOI ADICIONADO FILEMODE='A'. ESSE PARÂMETRO INDICA QUE O ARQUIVO SERÁ ABERTO NO MODO 
 DE ACRÉSCIMO ("APPEND MODE"), ONDE NOVOS LOGS SÃO ADICIONADOS AO FINAL DO ARQUIVO EXISTENTE ('A' SIGNIFICA 
 "APPEND"). 
 
 ---------------------------------------------------------------------------------------------------------------
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0067] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/trajeto.json
+>> [0068] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0069] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0070] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0071] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0072] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0073] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0074] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0075] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0076] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0077] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0078] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0079] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0080] 18:44 20/10/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 - [ ] Atualizar funções para que o traçado seja exibido a partir de arquivos .json
 # FOI CRIADO ARQUIVO COM OS DADOS QUE ALIMENTARÃO OS ARQUIVOS DE LINHAS.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
->> 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.js
+>> [0065] 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+>> [0066] 01:20 29/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/script.js
 - [ ] Informar no status linha a última atualização do mesmo em index.html
 # FOI CRIADO UMA FUNÇÃO PARA INSERIR O HORÁRIO DA MÁQUINA SEMPRE QUE FOR ATUALIZADO
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 00:26 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
->> 00:06 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+>> [0063] 00:26 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+>> [0064] 00:06 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 Atualizar nome arquivos das linhas .html para "SPLxxx".
 # DEVIDO AO RENOMEAMENTO DOS ARQUIVOS, AS FUNÇÕES QUE SÃO LINKS DOS ARQUIVOS RENOMEADAS PRECISARAM SER 
 ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/varredura.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L06.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/pirapora.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/mapa.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
->> 01:40 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/guias.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/guararema.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_sptrans.py
->> 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_emtu.py
+>> [0040] 01:44 28/03/2024 RB - Mapa dos Trilhos/varredura.py
+>> [0041] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0042] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0043] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0044] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0045] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L05.py
+>> [0046] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L06.py
+>> [0047] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0048] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0049] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0050] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0051] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0052] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0053] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+>> [0054] 01:44 28/03/2024 RB - Mapa dos Trilhos/pirapora.py
+>> [0055] 01:44 28/03/2024 RB - Mapa dos Trilhos/mapa.py
+>> [0056] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+>> [0057] 01:40 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+>> [0058] 01:44 28/03/2024 RB - Mapa dos Trilhos/guias.py
+>> [0059] 01:44 28/03/2024 RB - Mapa dos Trilhos/guararema.py
+>> [0060] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_sptrans.py
+>> [0061] 01:44 28/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/gfts_emtu.py
 
 Renomear as pastas com espaços no nome por (_)
 # DEVIDO AO RENOMEAMENTO DAS PASTAS, AS FUNÇÕES QUE SÃO LINKS DAS PASTAS RENOMEADAS PRECISARAM SER 
@@ -210,45 +210,45 @@ ATUALIZADAS PARA FUNCIONAMENTO DAS FUNÇÕES
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 02:12 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0039] 02:12 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Verificar se a página inicial da CET já retornou para finalização da ordem.
 # SITE DA CET NORMALIZADO, FOI DESCOMENTADO AS LINHAS EM MAIN.PY QUE CHAMAVA A FUNÇÃO E ORDEM ENCERRADA.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 00:54 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0038] 00:54 25/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros e alertas de main.py
 # DURANTE A EXECUÇÃO DESSE ITEM, NÃO FOI RECONHECIDO NENHUM ERRO PELO TERMINAL OU PELO LOG.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
+>> [0037] 16:44 05/03/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/news.html
 Desenvolver uma page de notícias com imagens, fontes e links em html, o index deverá encaminhar para lá ```v1.0.8```.
 # FOI CRIADO UM NOVO ITEM HTML CHAMADO NEWS E ALOCADO JUNTO AOS DEMAIS, FOI UTILIZADO API PARA RECEBER 
 ATÉ 1000 REQUISIÇÕES POR SEMANA
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
+>> [0036] 23:10 25/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/index.html
 Inserir informações sobre as empresas que operam as linhas em index.html 
 # FOI INSERIDO UM DIV COM AS EMRPESAS EM SUAS RESPECTIVAS LINHAS.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
+>> [0022] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+>> [0023] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
+>> [0024] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
+>> [0025] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
+>> [0026] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
+>> [0027] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
+>> [0028] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
+>> [0029] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
+>> [0030] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
+>> [0031] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
+>> [0032] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
+>> [0033] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
+>> [0034] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
+>> [0035] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
 
 Inserir status linha nas outras pages do index.html
 # FOI INTRODUZIDO O ACESSO AO SERVIDOR NODE.JS NAS OUTRAS JANELAS HTML E LINKADO A VARIÁVEL QUE RECEBE 
@@ -256,48 +256,48 @@ INFORMAÇÃO DO STATUS DA LINHA
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
->> 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
+>> [0008] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_01.html
+>> [0009] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_02.html
+>> [0010] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_03.html
+>> [0011] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_04.html
+>> [0012] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_05.html
+>> [0013] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_06.html
+>> [0014] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_07.html
+>> [0015] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_08.html
+>> [0016] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_09.html
+>> [0017] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_10.html
+>> [0018] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_11.html
+>> [0019] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_12.html
+>> [0020] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_13.html
+>> [0021] 23:03 23/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/linha_15.html
 
 TENTANDO INSERÇÃO DOS ARQUIVOS .PNG DO MAPA 
 # FOI CORRIGIDO O LINK DA IMAGEM
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 01:11 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0007] 01:11 20/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir Notícias sobre o transporte público via API ou web scraping.
 # FOI INSERIDO A LÓGICA COM UMA NOVA LIB RE E WEBBROWSER, QUE AO ABRIR O PROJETO, VARRE NOTÍCIAS DO 
 GOOGLENEWS E EXIBEM AS 10 PRIMEIRAS.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 01:54 16/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0006] 01:54 16/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir itens de Ocorrências para que exiba mais de uma na mesma tela de forma centralizada. 
 # FOI CORRIGIDO A FUNÇÃO DENTRO DE LABEL.MSG(CONFIG) ONDE ESTAVA ANCHOR, FOI PASSADO A CLASSE JUSTIFY 
 E ALINHADO NO LADO ESQUERDO
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0005] 15:53 15/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir no log.txt quando o programa for fechado, juntamente do horário, temperatura e dados de cet
 # FOI INSERIDO A LÓGICA COM UMA NOVA LIB ATEXIT, QUE AO PRESSIONAR O BOTÃO DE FECHAR JANELA, ACIONA A 
 FUNÇÃO E REGISTRA QUE O PROJETO FOI FECHADO.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0004] 15:23 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Corrigir erros apontados pelo log do projeto. 
 # O ERRO APONTADO ATÉ A DATA DO TO DO ERA SOBRE OS IDENTADORES 2316820713344 E 2316820710080, O TKINTER 
 ESPERA OS COMANDOS COMO STRINGS, MAS ESTÁ INTEPRETANDO COMO PARTE DO NOME DA FUNÇÃO, PARA ISSO FOI CRIADO 
@@ -305,7 +305,7 @@ FUNÇÕES AUXILIARES E SEM ARGUMENTOS.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0003] 14:50 06/02/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Inserir mais funções do log de __init__.pyi em main.py > log.txt
 # FOI INSERIDO O CÓDIGO COM A FUNÇÃO QUE INCLUI OS NÍVEIS DE LOG 'WARNING', 'DEBUG' E 'CRITICAL', QUE 
 SERÃO INSERIDOS NO LOG.TXT QUANDO HOUVER 
@@ -313,14 +313,14 @@ NECESSIADE.
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0002] 23:44 26/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Definir itens de my_os.py em main.py
 # FOI INSERIDO O CÓDIGO COM AS BIBLIOTECAS RESPONSÁVEIS POR PUXAR INFORMAÇÃO DA MÁQUINA QUE ESTÁ 
 EXECUTANDO O CÓDIGO E INSERIDO NO LOG.TXT, TAMBÉM FOI FEITO AJUSTES NO ARQUIVO LOCALIZADO NA ÁREA DE DESENVOLVIMENTO
 
 ---------------------------------------------------------------------------------------------------------------
 
->> 02:47 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
+>> [0001] 02:47 24/01/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_main.py/main.py
 Melhorar soluções de loop do relógio de main.py 
 # FOI REALIZADO A INSERÇÃO DE LÓGICA NO CÓDIGO PARA QUE O MESMO FICASSE EM LOOP E SENDO ATUALIZADO, AINDA 
 POSSUI UNS BUGS DE CONTAR OS SEGUNDOS DE 2 EM 2s, POIS O MESMO AGUARDA O RETORNO DA INFORMAÇÃO DA API DE 
