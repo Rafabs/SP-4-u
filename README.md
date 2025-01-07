@@ -114,6 +114,7 @@ Para executar os scripts, você precisará das seguintes bibliotecas Python:
 (No windows, copie e cole no terminal CMD para instalar as bibliotecas)
 ```python
 pip install tk
+pip install customtkinter
 pip install requests
 pip install beautifulsoup4
 pip install pillow
