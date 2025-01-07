@@ -25,7 +25,7 @@ from SP_L02 import line2, line_command   # Importa a função line2 do módulo S
 from SP_L03 import line3, line_command   # Importa a função line3 do módulo SP_L03
 from SP_L04 import line4, line_command   # Importa a função line4 do módulo SP_L04
 from SP_L05 import line5, line_command   # Importa a função line5 do módulo SP_L05
-from SP_L06 import line6, line_command   # Importa a função line6 do módulo SP_L06
+from SP_L06 import line6   # Importa a função line6 do módulo SP_L06
 from SP_L07 import line7, line_command   # Importa a função line7 do módulo SP_L07
 from SP_L08 import line8, line_command   # Importa a função line8 do módulo SP_L08
 from SP_L09 import line9, line_command   # Importa a função line9 do módulo SP_L09
@@ -34,7 +34,7 @@ from SP_L11 import line11, line_command    # Importa a função line11 do módul
 from SP_L12 import line12, line_command    # Importa a função line12 do módulo SP_L12
 from SP_L13 import line13, line_command    # Importa a função line13 do módulo SP_L13
 from SP_L15 import line15, line_command    # Importa a função line15 do módulo SP_L15
-from SP_L17 import line17, line_command    # Importa a função line6 do módulo SP_L17
+from SP_L17 import line17    # Importa a função line6 do módulo SP_L17
 from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
 from Guararema import guararema  # Importa a função guararema do módulo Guararema
 import json
