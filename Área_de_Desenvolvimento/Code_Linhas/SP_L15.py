@@ -7,10 +7,16 @@ import locale
 from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
+import logging  # Importa o módulo logging para registrar mensagens de log
+    
+# Configuração do logger
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Função para executar o script SP_L01.py
 def line15():
     try:
+        logging.info(f"Abrindo Linha 15 - Prata")
         subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L15.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
@@ -93,6 +99,7 @@ def mapa_linha():
 
     def sair(event=None):
         root.destroy()
+        logging.info(f"Fechando Linha 15 - Prata")
 
     root.bind("<Escape>", sair)
 
