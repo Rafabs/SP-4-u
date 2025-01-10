@@ -1,6 +1,25 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
->> [0175] 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+
+>> [0177] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
+>> [0178] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
+>> [0179] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py
+>> [0180] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L04.py
+>> [0181] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0182] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L07.py
+>> [0183] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L08.py
+>> [0184] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L09.py
+>> [0185] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L10.py
+>> [0186] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L11.py
+>> [0187] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+>> [0188] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L13.py
+>> [0189] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L15.py
+
+- [ ] INSERIR FUNÇÃO PARA EXTRAIR LOGS ATRAVÉS DOS ARQUIVOS DE LINHAS
+INSERIDO FUNÇÃO EM CONJUNTO COM A LIB LOGGING PARA GERAR INFO DOS ARQUIVOS ABERTOS E FECHADOS DE LINHA
+
+---------------------------------------------------------------------------------------------------------------
+>> [0176] 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 
 - [ ] RETROFIT LINHAS E TITULARIDADES EM MAIN.PY E ATUALIZAÇÃO DO DIAGRAMA
 FEITO AJUSTE DOS ITENS NA JANELA, EXIBIÇÃO DA LEGENDA, INFORMAÇÕES EM TEXTO DAS LINHAS E AMPLIAÇÃO DO CAMPO DE NOTÍCIAS.

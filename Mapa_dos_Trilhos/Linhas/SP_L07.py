@@ -7,14 +7,16 @@ import locale
 from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
-
-# Função para registrar a execução de comandos
-def line_command(description):
-    print(f"Abrindo Mapa - {description}")
+import logging  # Importa o módulo logging para registrar mensagens de log
     
+# Configuração do logger
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 # Função para executar o script SP_L01.py
 def line7():
     try:
+        logging.info(f"Abrindo Linha 7 - Rubi")
         subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L07.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
@@ -95,6 +97,7 @@ def mapa_linha():
 
     def sair(event=None):
         root.destroy()
+        logging.info(f"Fechando Linha 7 - Rubi")
 
     root.bind("<Escape>", sair)
 

@@ -1,3 +1,38 @@
+>> [0177] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
+- [ ] INSERIR FUNÇÃO PARA EXTRAIR LOGS ATRAVÉS DOS ARQUIVOS DE LINHAS
+
+de (Linha 10)
+Vazio
+
+para (Linha 10)
+import logging  # Importa o módulo logging para registrar mensagens de log
+
+de (Linha 12)
+Vazio
+
+para (Linha 12)
+# Configuração do logger
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+de (Linha 19)
+Vazio
+
+para (Linha 19)
+        logging.info(f"Abrindo Linha 12 - Safira")
+
+de (Linha 102)
+Vazio
+
+para (Linha 102)
+        logging.info(f"Fechando Linha 12 - Safira")
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 02:45 14/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L12.py
 - [ ] AJUSTAR POR ESCALA - 25% - 50% - 75% - 100%
 
