@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-06/01/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-13/02/2024-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -52,43 +52,29 @@ Remoção da(s) linha(s):
 
 Alteração Tarifária:
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,00
-
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,20
+- Nada para mostrar aqui.
 
 ## Última Atualização - SPTrans
 
 Inclusão da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
-
-![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/695T/01-782F40.svg) Term. Capelinha - Metrô Vl. Mariana
-
-![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/695V/01-782F40.svg) Term. Capelinha - Metrô Ana Rosa
-
-![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
-
-![Linha](https://img.shields.io/badge/NOVA-green.svg)![Linha](https://img.shields.io/badge/8086/10-FF671F.svg) Jaguaré - Pinheiros
+- Nada para mostrar aqui.
 
 Modificação da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-DA291C.svg) Jd. Sto. André - Metrô Carrão
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
 
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-DA291C.svg) Jd. São Francisco (via Jd. Sto. André) - Metrô Carrão
-
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/1788/51-0082BA.svg) Jd. Jd. Selma - Lgo. São Francisco
-
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/1788/31-0082BA.svg) Mar Paulista - Lgo. São Francisco
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Metrô Santana
 
 Remoção da(s) linha(s):
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/3766/51-DA291C.svg) Cohab Ii - Metrô Itaquera
+
+![Linha](https://img.shields.io/badge/695V/01-782F40.svg) Term. Capelinha - Metrô Ana Rosa
 
 Alteração Tarifária:
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 4,40
-
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/R$-002F6C.svg) 5,00
+- Nada para mostrar aqui.
 
 ## Última Atualização - EMTU
 

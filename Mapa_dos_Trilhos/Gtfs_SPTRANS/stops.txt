@@ -480,6 +480,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 810604,"Av. Cdssa. Elisabeth De Robiano, 1256","Ref.: Rua João Jorge -- Senai",-23.527320,-46.565489
 810605,"R. Behring, 236","Ref.: Rua Julio Cesar Da Silva/rua Joaquim Carlos",-23.536282,-46.605720
 810606,"R. Pimenta Bueno, 70","Ref.: Av Celso Garcia/ R Conselheiro Cotegipe",-23.537352,-46.588048
+810607,"R. Ulisses Cruz, 85","",-23.534620,-46.584707
 810608,"R. Cons. Cotegipe, 101","",-23.538411,-46.592581
 810610,"R. Pe. Adelino, 273","Ref.: Largo Ubirajara",-23.545368,-46.591179
 910689,"R. Barra Do Tibagi, 1090","Ref.: Vd Engorlando Murgel",-23.525761,-46.647656
@@ -517,8 +518,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1010101,"Av. Do Estado","Ref.: Av. Mercúrio / R. Sta. Rosa",-23.540113,-46.627476
 1010102,"Av. Do Estado, 2269","Ref.: Rua Joao Teodoro",-23.534749,-46.625052
 1010103,"R. Do Hipódromo, 39","Ref.: Av. Rangel Pestana",-23.540900,-46.612637
-1010104,"Av. Alcântara Machado, 35","Ref.: Lateral Do Viaduto De Ligação Leste/oeste X Rua Da Figueira",-23.551570,-46.624632
 1010105,"R. João Teodoro, 808","Ref.: Avenida Do Estado / Rua Canindé",-23.534377,-46.624791
+1010107,"Av. Alcântara Machado, 91","",-23.551551,-46.624211
 1113263,"R. Inácio Xavier De Carvalho, 269","Ref.: R Mario De Lima",-23.475250,-46.677243
 1113267,"Av. Dep. Cantidio Sampaio, 140","Ref.: R. Dep.fernando Ferrari",-23.473512,-46.671080
 1113437,"Av. Inajar De Souza, 5476","Ref.: R Montes Pirineus / R. Déia De Campos Lemos",-23.462746,-46.672820
@@ -538,7 +539,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1114085,"R. Domingos Vega, 718","Ref.: Oposto Ao Numeral 715",-23.463160,-46.701279
 1114089,"R. Rodolfo Pereira Lima, 156","Ref.: R Domingos F De Medeiros",-23.458250,-46.697494
 1114115,"Estr. Lázaro Amâncio De Barros, 309","",-23.466635,-46.694673
-1114173,"R. Aparecida Do Tabuado","R. Aparecida Do Tabuado Ref.: R. Pe. Achilles Silvestre",-23.461900,-46.713199
+1114173,"R. Aparecida Do Taboado","R. Aparecida Do Taboado Ref.: R. Pe. Achilles Silvestre",-23.461900,-46.713199
 1114189,"R. Raimundo Carneiro, 194","Ref.: R. Eduardo Silva",-23.456102,-46.700521
 1114190,"R. Aurélio Brasil Ribeiro, 352","Ref.: R. Raimundo Carneiro",-23.456442,-46.702133
 1114208,"R. Rodolfo Pereira Lima, 521","R. Rodolfo Pereira Lima, 521 Ref.: R. Paulo Limoeiro",-23.457514,-46.696333
@@ -556,7 +557,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1114257,"R. Lagoa Da Serra, 90","",-23.458966,-46.709415
 1114258,"R. Sítio D'abadia, 160","",-23.459512,-46.709792
 1114259,"R. Sítio D'abadia, 78","Ref.: R. Aparecida Do Taboado",-23.460389,-46.708628
-1114260,"R. Aparecida Do Tabuado, 297","Ref.: Ceu Jardim Paulistano",-23.461272,-46.711172
+1114260,"R. Aparecida Do Taboado, 297","Ref.: Ceu Jardim Paulistano",-23.461272,-46.711172
 1114261,"R. Alto Tocantins, 133","",-23.460789,-46.710816
 1114262,"R. Pe. Achilles Silvestre, 14","",-23.460799,-46.712544
 1114263,"Av. Guilherme De Almeida, 258","Ref.: Emei Theo Dutra / R. Manuel Antônio Fonseca",-23.467164,-46.681042
@@ -586,8 +587,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1114300,"R. Daniel Cerri, 304","Ref.: R. Francisco Margall",-23.447262,-46.698691
 1114301,"R. Emílio Castro, 307","Ref.: R. Delfim Gallo / R. Donato Alvarez",-23.449186,-46.699261
 1114303,"R. Domingos Vega, 88","Ref.: R. Manoel Algante",-23.467654,-46.697961
-1114304,"R. Aparecida Do Tabuado, 1096","Ref.: Estrada Da Cachoeira",-23.457405,-46.705718
-1114305,"R. Aparecida Do Tabuado, 1019","Ref.: Estrada Da Cachoeira",-23.457607,-46.705822
+1114304,"R. Aparecida Do Taboado, 1096","Ref.: Estrada Da Cachoeira",-23.457405,-46.705718
+1114305,"R. Aparecida Do Taboado, 1109","Ref.: Estrada Da Cachoeira",-23.457270,-46.705610
 1114306,"Estr. Da Cachoeira, 500","Ref.: Praça Sem Denominação",-23.455771,-46.706198
 1114308,"Estr. Da Cachoeira, 131","Ref.: Rua Aparecida Do Tabuado",-23.457012,-46.705823
 1114309,"Estr. Da Cachoeira, 79","",-23.456675,-46.706011
@@ -705,7 +706,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1211418,"Av. Afrânio Peixoto, 424","Ref.: Praça Vicente Rodrigues",-23.567229,-46.708880
 1211419,"Pça. Vicente Rodrigues","Ref.: Rua Coronel Palimércio De Rezende",-23.568559,-46.708164
 1211421,"Av. Afrânio Peixoto, 401","Ref.: Rua Modesto Tavares De Lima",-23.566916,-46.708737
-1211422,"Parada Da Rua Da Biblioteca","R. Do Anfiteatro Ref.: Rua Da Biblioteca -- Oposto À Biblioteca Mindlin",-23.561479,-46.723713
+1211422,"Rua Da Biblioteca","R. Do Anfiteatro Ref.: Rua Da Biblioteca -- Oposto À Biblioteca Mindlin",-23.561479,-46.723713
+1211423,"Estação Hidrogênio","Av. Prof. Almeida Prado, 3 Ref.: EpUSP-engenharia Civil",-23.553469,-46.732390
+1211424,"Metalurgia","Av. Prof. Almeida Prado",-23.552224,-46.731491
 1313272,"Av. Dep. Emílio Carlos, 3747","Ref.: R Maresias",-23.476019,-46.669985
 1313284,"Av. Imirim, 4353","Ref.: Ruavalquiria/rua Verônica",-23.475241,-46.665108
 1313286,"Ac. Acesso, 399","Ac. Acesso, 399 Ref.: Cemitério Vila Nova Cachoeirinha",-23.476636,-46.667505
@@ -771,6 +774,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1313568,"Terminal Vila Nova Cachoeirinha","",-23.475390,-46.670275
 1313569,"Ac. Acesso","Ac. Acesso Ref.: Paralelo À Av João Marcelino Branco - Rua Valquíria / Acesso Ao Cemitério Vl Nova C",-23.476579,-46.667581
 1313570,"Ac. Acesso","Ac. Acesso Ref.: Paralelo À Av. João Marcelino Branco - Rua Valquíria / Acesso Ao Cem. Vl Nova Cacho",-23.476574,-46.667489
+1313571,"R. Dos Patis, 740","",-23.474264,-46.659008
 1405614,"R. Pres. Soares Brandão, 250","",-23.566527,-46.606035
 1405624,"R. Clímaco Barbosa, 659","Ref.: Rua Alexandrino Da Silva Bueno",-23.565965,-46.614604
 1405646,"R. Eng. Prudente, 35","Ref.: Rua Dr. José Maria Azevedo",-23.571646,-46.616507
@@ -835,6 +839,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1603300,"R. David Eid, 1057","Ref.: Rua Do Shopping Interlagos",-23.678613,-46.670648
 1603302,"R. Eng. Domicio De L. Pacheco E Silva, 501","Ref.: Rua Estanislau",-23.683427,-46.678523
 1603305,"Pça. Camafeu","Pça. Camafeu Ref.: Estação Jurubatuba",-23.677866,-46.701592
+1603306,"R. Eng. Alyrio Hugueney De Mattos, 195","R. Eng. Alyrio Hugueney De Mattos, 195 Ref.: Rua Sgto. Geraldo Santana -- Colégio Santa Maria",-23.662636,-46.680864
 1603307,"Av. Nsa. Sra. Do Sabará, 4090","Ref.: Rua Tabaré / Rua Cárida",-23.689087,-46.679918
 1603308,"R. Sg. Geraldo Sant´ana, 683","Ref.: Rua Sg. Manoel Barbosa Da Silva",-23.663284,-46.684545
 1603309,"R. Sg. Geraldo Sant´ana, 766","Ref.: Rua Brazil Ferreira Martins",-23.663422,-46.683944
@@ -856,7 +861,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1603329,"R. Miguel Yunes, 1030","Ref.: Rua Zacarias D'aca",-23.693292,-46.684405
 1603330,"R. Miguel Yunes, 823","Ref.: Rua Zacarias D'aca",-23.691803,-46.685213
 1603331,"R. Miguel Yunes, 485","Ref.: Av Interlagos",-23.687118,-46.689365
-1603332,"R. Galeno De Castro, 660","Ref.: Rua Álvaro Gomes Dos Reis",-23.667495,-46.704608
+1603332,"R. Galeno De Castro, 589","Ref.: Rua Álvaro Gomes Dos Reis",-23.667500,-46.704581
 1603334,"Av. João Peixoto Viegas, 535","Ref.: R. Manoel Vaz / R. João Rocha -- Emef Conde Pereira Carneiro",-23.672654,-46.675278
 1603335,"R. Miguel Yunes, 116","Ref.: Av. Interlagos - Sentido C/B",-23.685701,-46.690978
 1603336,"R. Miguel Yunes, 85","Ref.: Av. Interlagos - Sentido B/C",-23.685229,-46.690966
@@ -997,7 +1002,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1812111,"R. Olho D'água Do Borges, 842","Ref.: Praça Felix",-23.498702,-46.502250
 1812114,"R. Olho D'água Do Borges, 888","Ref.: Pça Félix / R Ibirajuba",-23.499380,-46.501578
 1814565,"R. Entre Rios, 190","Ref.: Rua Favânia",-23.510012,-46.517500
-1814568,"R. Entre Rios, 450","Ref.: Rua Marcos Juarez",-23.508537,-46.518108
+1814568,"R. Entre Rios, 450","Ref.: Rua Marcos Juarez",-23.508536,-46.518108
 1814571,"R. Entre Rios, 680","Ref.: Av Cangaiba",-23.505925,-46.518403
 1814575,"R. Jequeri, 298","Ref.: Rua Ibirajuba",-23.499240,-46.499819
 1814577,"R. Jequeri, 94","Ref.: Rua Olho D Agua Do Borges",-23.500723,-46.500987
@@ -1108,6 +1113,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1903747,"Estr. De Itapecerica, 4730","Ref.: Entre As R. Guateque E Carlos Lacerda",-23.659665,-46.773938
 1903755,"R. Integrada, 25","Ref.: R. Marmeleira Da India",-23.666794,-46.774313
 1903757,"R. Integrada, 184","Ref.: Rua Jasmim Laranja/travessa Final Feliz",-23.665653,-46.776158
+1903764,"R. Antônio Forlenza, 370","",-23.673370,-46.793551
 1903768,"R. Integrada, 240","Ref.: Travessa Jasmim De Veneza",-23.665336,-46.776994
 1903786,"R. Luar Do Sertão, 2192","Ref.: Rua Antônio Felicio Da Cruz",-23.687631,-46.800897
 1903787,"R. Luar Do Sertão, 622","",-23.690223,-46.795393
@@ -1133,6 +1139,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1903911,"R. Cortegaça, 420","Ref.: Igreja Congregação Cristã Do Brasil",-23.688745,-46.791814
 1903912,"R. Cortegaça, 307","",-23.688847,-46.792096
 1903914,"R. Feitiço Da Vila, 765","Ref.: Rua Borabora/passagem S/n",-23.686909,-46.799292
+1903915,"R. Da Safra, 180","Ref.: Rua Cachoeira Do Acará/estrada De Itapecerica",-23.671725,-46.786592
 1903916,"R. Sebastião Advíncola Da Cunha, 115","Ref.: Rua Diogenes Taborda",-23.652128,-46.784587
 1903919,"R. Abílio Cesar, 516","Ref.: Rua Abigail Maia",-23.683070,-46.778410
 1903920,"R. Abílio Cesar, 1042","Ref.: Rua Gagliano Netto",-23.683019,-46.778232
@@ -1208,7 +1215,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1903997,"Terminal Capelinha - Desemb. Plat 6, 1","Term. Capelinha - Desemb. Plat 6, 1 Ref.: Tcp - Plat. 6 - Pmd 36 (ts 6818-10)",-23.654598,-46.763290
 1903998,"Av. Antônio José Bentes, 627","Ref.: R. Dos Saveiros",-23.665194,-46.789234
 1903999,"R. Henrique Sam Mindlin, 1857","Ref.: Rua Esmoriz",-23.680056,-46.782305
-1904000,"R. Atos Tomás Ferraciu, 318","Ref.: Rua Antônio Faria",-23.670932,-46.770172
+1904000,"R. Atos Tomás Ferraciu, 330","Ref.: Rua Antônio Faria",-23.671007,-46.769899
 1904001,"R. Nicola Aracri, 904","Ref.: Rua Antônio Forlenza",-23.673090,-46.793635
 1904002,"Av. D. Rodrigo Sanches, 1283","Ref.: Rua Leça",-23.661223,-46.791291
 2009049,"R. Taubaté, 336","Ref.: R Renato Rinaldi",-23.554339,-46.531699
@@ -1312,6 +1319,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 2202547,"R. Samuel Arnold, 1100","Ref.: Rua Bruno Taut",-23.686828,-46.668640
 2202548,"R. Bruno Taut, 35","Ref.: Rua Telma Ritter",-23.686886,-46.666805
 2202549,"R. Bruno Taut, 10","Ref.: Rua Telma Ritter",-23.687067,-46.667031
+2202610,"R. Do Mar, 84","Ref.: R Manuel Murguia",-23.659825,-46.675901
 2202990,"Av. Cupece, 4174","Ref.: Rua Derville Alegretti - Sentido C/B",-23.671903,-46.645646
 2202997,"Av. Yervant Kissajikian, 2332","Ref.: Rua Dr. Nicolino Falci",-23.677289,-46.658696
 2203020,"R. Sg. Geraldo Sant´ana, 160","Ref.: Rua José Jardim Da Silveira",-23.663605,-46.689722
@@ -1809,6 +1817,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 2702685,"Av. Miguel Estefno, 1992","Ref.: Rua Barreto Muniz",-23.630535,-46.627671
 2702692,"Sérgio Cardoso","R. Cel. Silvério Magalhães, 710 Ref.: Rua Sergio Cardoso",-23.629827,-46.625367
 2702694,"Yoshio Takata","Av. Miguel Estefno, 2510 Ref.: R Shermogenes",-23.635141,-46.627375
+2702696,"Av. Miguel Estefno, 2836","Ref.: R Dr.jose Bento Ferreira",-23.638966,-46.627500
 2705083,"Macaxãs","R. Vergueiro, 7760 Ref.: R Macaxas",-23.609627,-46.608959
 2705117,"R. Filipe Cardoso, 258","Ref.: R Gil Fernandes",-23.616312,-46.619591
 2705123,"Av. Bosque Da Saúde, 2043","Ref.: R Manoel Coelho Da Silva",-23.612497,-46.619019
@@ -1840,7 +1849,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 2705995,"R. Jean De La Huerta, 22","Ref.: Rua Orfília",-23.624723,-46.614722
 2705996,"Av. Do Cursino, 817","Ref.: Rua Dr. Malta Cardoso",-23.609778,-46.617248
 2705997,"R. Tiquatira, 201","Ref.: Rua Samambaia",-23.611418,-46.624238
-2705998,"Ac. Baia, 4241","Ref.: Zoológico",-23.650704,-46.621007
+2705998,"Av. Miguel Estefno, 4507","Ref.: Zoológico",-23.650704,-46.621007
 2705999,"R. Sta. Cruz, 2279","Ref.: Rua Assungui",-23.602688,-46.616669
 2808791,"Av. Paranaguá, 100","Ref.: R Belem De Sao Francisco",-23.504677,-46.475277
 2808794,"R. Prof. Antônio De Castro Lopes, 42","Ref.: R Fábio José Bezerra / Av Sao Miguel",-23.506128,-46.476588
@@ -2252,6 +2261,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3015029,"R. Henrique Muzzio, 520","Ref.: Rua Dos Arribenhos/rua Raimunda Pereira De Alencar Da Silva",-23.784215,-46.682882
 3015030,"R. Tadao Inoue, 2245","Ref.: Rua São Manuel",-23.826457,-46.696553
 3015031,"R. Tadao Inoue, 2240","Ref.: Rua São Manuel",-23.826546,-46.696689
+3015032,"R. Manuel Canales, 35","",-23.775227,-46.691504
 3107513,"Av. Miguel Achiole Da Fonseca, 1231","Ref.: R Jose Da Silva Santos",-23.559046,-46.401219
 3107537,"R. Bernardo Da Mota, 5","Ref.: Estde Poa",-23.548340,-46.401866
 3107539,"Estr. De Poa, 25","Ref.: R Clarinia",-23.544863,-46.407995
@@ -2360,6 +2370,10 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3115337,"R. Pires De Ávila, 413","Ref.: Rua Otelo Augusto Ribeiro",-23.557943,-46.406791
 3115338,"R. Pires De Ávila, 67","Ref.: Rua Fernão Carrilho",-23.559999,-46.409216
 3115339,"R. Luís Matheus, 103","Ref.: R Tapuraiba/ R Professora Joana Fagundes",-23.543519,-46.425306
+3115340,"R. Antônio Colaco, 9","Ref.: Ru Pedro Aragones",-23.562403,-46.401765
+3115341,"R. Antônio Colaco, 29","Ref.: Rua Pedro Aragones",-23.562448,-46.401695
+3115342,"R. Moreira Neto, 500","Ref.: Rua João Batista Cramer",-23.558848,-46.397324
+3115343,"R. Pires De Ávila, 233","Ref.: Rua Manuel Mainard",-23.558868,-46.408149
 3203689,"Av. Ragueb Chohfi, 7614","Ref.: 7613 R Erico Semer",-23.594401,-46.424216
 3203690,"Av. Ragueb Chohfi, 6300","Ref.: Garagem Vip",-23.594809,-46.426986
 3203691,"Av. Ragueb Chohfi, 5789","Ref.: Lado Oposto Garagem Vip",-23.594686,-46.427351
@@ -2497,10 +2511,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3214714,"Av. Ragueb Chohfi, 4567","Ref.: Rua Alessandro Melani",-23.594622,-46.441644
 3214715,"R. Recanto Do Sol, 73","Ref.: Rua Pedro Ramazzani / Rua Tauro",-23.613325,-46.421023
 3214716,"R. Da Engrenagem, 59","",-23.620801,-46.430456
-3214717,"Av. Ragueb Chohfi, 4610","Ref.: Rua Abner Ribeiro Borges / Rua José Lima",-23.594980,-46.441290
 3214718,"R. Prof. Pedro Antônio Pimentel, 98","Ref.: Rua Lucas Fildes",-23.596799,-46.436880
 3214719,"Tr. Flamínio Bellini Carri, 284","Ref.: Rua Edmundo Demolins",-23.612905,-46.415826
-3214720,"R. De Servidão, 530","Ref.: Marginal Projetada",-23.615380,-46.441730
+3214720,"R. De Servidão, 530","Ref.: Marginal Projetada",-23.615468,-46.441730
 3214721,"Marginal Projetada Do Rodoanel, 124","",-23.613488,-46.440383
 3214722,"Marginal Projetada Do Rodoanel, 13","Ref.: Acesso",-23.613030,-46.440458
 3214723,"Av. Bento Guelfi, 2823","",-23.617823,-46.423217
@@ -2634,7 +2647,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3407083,"Parada 2 - Tabapuã","R. Brig. Haroldo Veloso Ref.: R. Tabapuã",-23.586071,-46.687056
 3407085,"R. Tabapuã, 1386","",-23.585300,-46.683938
 3407086,"R. Gomes De Carvalho, 1587","Ref.: R. Fidencio Ramos/r. Tenerife",-23.595929,-46.687865
-3407087,"R. Michel Milan","Ref.: R. Quata/r. Michel Milan",-23.595377,-46.683326
+3407087,"R. Michel Milan","Ref.: R. Quata/r. Michel Milan -- Próximo A R. Fiandeiras",-23.595377,-46.683326
 3407114,"R. Prof. José Leite Oiticica, 434","Ref.: Rua Henrique Fischer/avenida Chucri Zaidan",-23.620453,-46.697495
 3407115,"Parada Flórida C/B","Av. Eng. Luiz Carlos Berrini, 1178 Ref.: Rua Florida",-23.606864,-46.693433
 3407116,"Parada Baltazar Fernandes - B/C","Av. Dr. Chucri Zaidan, 246 Ref.: Rua Baltazar Fernandes",-23.617329,-46.697247
@@ -2689,13 +2702,13 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3407206,"Av. Eng. Luiz Carlos Berrini, 1500","Ref.: R Arizona / R Heinrich Hertz",-23.609815,-46.694700
 3407209,"Elvira Ferraz","Av. Brig. Faria Lima, 4252 Ref.: R. Chilon / R. Cel. Joaquim Ferreira Lobo",-23.593712,-46.680691
 3407210,"Av. Brig. Faria Lima, 3015","Ref.: Rua Jorge Coelho",-23.582938,-46.683627
-3407211,"R. Sta. Justina, 667","Ref.: Rua Prof. Atílio Innocenti",-23.595941,-46.679167
 3407212,"R. Prof. Atílio Inocenti, 642","Ref.: Rua Chilon",-23.592952,-46.679688
 3407213,"R. Prof. Atílio Inocenti, 420","Ref.: Rua Vizeu",-23.590986,-46.680311
 3407214,"R. Kansas, 856","Ref.: Rua Guaraiúva",-23.604716,-46.683450
 3407215,"Afonso Braz C/B2","Av. Sto. Amaro, 1215 Ref.: Rua Santa Justina / Rua Afonso Braz",-23.594375,-46.673018
 3407216,"Parada Afonso Braz-B/C2","Av. Sto. Amaro, 1047 Ref.: Rua Baltazar Da Veiga",-23.594640,-46.673018
 3407217,"Av. Dr. Cardoso De Melo, 1365","Ref.: Rua Bramantino",-23.597644,-46.686632
+3407218,"R. Elvira Ferraz, 68","Ref.: Rua Professor Atilio Innocenti",-23.594329,-46.679711
 3511784,"R. Jorge Rodrigues De Niza, 146","",-23.498706,-46.370093
 3511785,"R. Jorge Rodrigues De Niza, 705","",-23.498503,-46.369934
 3511818,"R. Dr. José Pereira Gomes, 748","Ref.: R Antonio D'anin",-23.492341,-46.379604
@@ -2832,7 +2845,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3515417,"R. Lourenço Franco Do Prado, 267","Ref.: Oposto Ao Condomínio Certto Metais Nº 267",-23.509509,-46.379894
 3515418,"R. Barra Do Capara, 24","Ref.: Rua Anastacio De Trancoso/rua Itajuibe",-23.509922,-46.385629
 3515419,"R. Dr. Humberto Cerruti, 297","Ref.: Rua Francisco Banelli",-23.505650,-46.378302
-3515420,"R. Francisco Banelli, 155","Ref.: Rua Lourençofranco Do Prado",-23.508107,-46.380425
 3515421,"R. Pierre Varney, 235","Ref.: Rua Estêvão Livolsi",-23.507128,-46.380306
 3515422,"R. Lourenço Franco Do Prado, 213","Ref.: R Eugenio Grieco",-23.509573,-46.380012
 3515423,"R. Des. Dimas Rodrigues De Almeida, 31","Ref.: Ruaantônio Maria Escudeiro Rivas",-23.507561,-46.369541
@@ -2842,6 +2854,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3515427,"R. Alpoim, 21","Ref.: Rua Visconde De Aljezur/rua Brão Do Alto Muriaé",-23.509007,-46.373516
 3515428,"R. Visc. De Aljezur, 385","Ref.: Rua Barão De Almeida Valim/rua Alpoim",-23.509395,-46.374124
 3515430,"R. Dr. Humberto Cerruti, 241","Ref.: Rua Francisco Banelli/rua Doutor Cesar Cortes Sigaud",-23.505507,-46.378777
+3515431,"R. Lourenço Franco Do Prado, 5","Ref.: Rua Alberto Evaristo Genastera/rua Eugenio Grieco",-23.510301,-46.379280
+3515432,"R. Soares De Bulhões, 472","Ref.: Rua Antônio Vieira De Lima/rua Pierre Varney",-23.508810,-46.381605
+3515433,"R. Francisco Banelli, 5","Ref.: Rua Soares De Bulhões/rua Lourenço Franco Do Prado",-23.509019,-46.380888
 3607641,"Estr. Itaquera-guaianases, 1124","Ref.: Rua Ibirajara",-23.532456,-46.434526
 3607948,"R. Damásio Pinto, 2042","Ref.: Tv Anibal Quirino Xavier",-23.531410,-46.430967
 3608036,"R. Baltazar Nunes, 569","Ref.: R Sao Teodoro",-23.556253,-46.447258
@@ -3278,7 +3293,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4011403,"Av. Kenkiti Simonoto, 666","",-23.552517,-46.738838
 4011404,"Av. Escola Politécnica","Av. Escola Politécnica Ref.: Esquina Com R. Paulino Baptista Conti",-23.575925,-46.765295
 4011405,"Av. Escola Politécnica, 82","Ref.: Av. Professor Mello Moraes",-23.550953,-46.732909
-4011406,"Av. Alexandre Mackenzie, 69","",-23.539023,-46.753389
+4011406,"Av. Alexandre Mackenzie, 69","Av. Alexandre Mackenzie, 69 Ref.: Garagem Da V. Gato Preto",-23.539023,-46.753389
+4011407,"Av. Alexandre Mackenzie, 950","Ref.: Rua Diogo Pires",-23.538011,-46.746956
+4011408,"Av. Alexandre Mackenzie, 950","Ref.: Rua Diogo Pires",-23.537855,-46.748226
 4101041,"Av. Chica Luisa, 1086","Ref.: R Mauro Dalay",-23.440813,-46.759416
 4101042,"Av. Chica Luisa, 1086","Ref.: Rua Mauro Dalay",-23.441016,-46.759183
 4101045,"Av. Chica Luisa, 900","Ref.: Estrde Ligacao",-23.444929,-46.757556
@@ -3432,6 +3449,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4114595,"R. Gregório Tagle, 301","Ref.: Portaria Blocos 01 A 09",-23.441819,-46.755369
 4114596,"Av. Chica Luisa, 1062","Ref.: R. Antonio Candeia Filho ( Conjunto Bandeirantes)",-23.442864,-46.758449
 4114597,"Av. Chica Luisa, 1068","Ref.: R. Antonio Candeia Filho (r. Delfim Moreira)/ ( Conjunto Bandeirantes)",-23.442623,-46.758587
+4114598,"R. Ilha Dos Sete Engenhos, 26","Ref.: R. Guiomar Novaes",-23.447350,-46.746339
+4114599,"Estr. S. Paulo/jundiaí","Ref.: R. Curruíra",-23.431306,-46.755044
 4200922,"R. Gagliano Neto, 363","Ref.: Rua Leonor Teles",-23.682010,-46.775598
 4200946,"Parada Mathias Araújo B/C","Estr. Do M Boi Mirim, 3453 Ref.: Rua Jose Mathias De Araujo/rua Luiz Melendez",-23.679142,-46.763625
 4200950,"Estr. Do M Boi Mirim, 2667","Ref.: R Paulo Rodrigues Jr",-23.676350,-46.757409
@@ -3450,6 +3469,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4203453,"R. Dos Minuetos, 127","Ref.: R Dos Menestreis",-23.690390,-46.761426
 4203473,"Av. Dos Funcionários Públicos, 1210","Ref.: Ponto A Ser Reinstalado",-23.741844,-46.782357
 4203484,"Estr. Cumbica, 18","Ref.: Op R Prof. Amicis Brundi Bertolotti",-23.720187,-46.757946
+4203486,"R. Antônio Ribeiro Pina, 225","",-23.666404,-46.761980
 4203503,"Ponto 1 - C/B","Estr. Do M Boi Mirim, 5788 Ref.: Rua Alvaro Ferreira",-23.694417,-46.779839
 4203549,"Av. Moenda Velha, 261","Ref.: Rua Feitiço Da Vila",-23.685999,-46.790834
 4203559,"Av. Taquandava, 225","Ref.: Rua Itacuré",-23.722222,-46.764562
@@ -3764,7 +3784,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4503915,"R. Raimunda Franklin De Melo, 199","",-23.660330,-46.754514
 4503918,"Av. Inácio Dias Da Silva, 12","Av. Inácio Dias Da Silva, 12 Ref.: Esquina Com A Estrada Do M'boi Mirim",-23.672453,-46.742675
 4503920,"Est. Sto. Amaro","Est. Sto. Amaro Ref.: Estação Santo Amaro - Externo Estação Guido Caloi",-23.655483,-46.722834
-4503923,"Terminal João Dias","",-23.643855,-46.733968
+4503923,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 13 (6805-10 E N742-11)",-23.643855,-46.733968
 4503924,"Parada Frederico Grotte - Centro/bairro","Av. Luiz Gushiken Ref.: Rua Frederico Grotte",-23.663800,-46.729854
 4503925,"Frederico Grotte  B/C","Av. Luiz Gushiken Ref.: Rua Frederico Grotte",-23.663925,-46.729999
 4503926,"Parada Guilherme Valente - Centro/bairro","Av. Luiz Gushiken Ref.: Rua Guilherme Valente",-23.666167,-46.733383
@@ -3896,6 +3916,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4504105,"R. Deocleciano De Oliveira Filho, 360","Ref.: Rua Antônio Lopes Iniesta",-23.667162,-46.755002
 4504106,"R. Deocleciano De Oliveira Filho, 495","Ref.: Rua Qta Da Cornaria",-23.668338,-46.755657
 4504108,"Av. Guarapiranga, 4431","Ref.: Rua Martinho Jacob Kremer",-23.685931,-46.739509
+4504109,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 11 (tp 5119-22)",-23.643870,-46.733656
 4604154,"R. Tomoichi Shimizu, 463","",-23.577467,-46.438759
 4604155,"R. Tomoichi Shimizu, 79","Ref.: Av. Jacú Pêssego",-23.577944,-46.442445
 4604163,"Av. Jacu-pêssego/nova Trabalhadores, 3787","Ref.: Ruaguichi Shigueta",-23.589768,-46.442762
@@ -4065,9 +4086,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4715155,"R. Pe. Nildo Do Amaral Júnior, 435","Ref.: Rua Paolo Fabrizi",-23.521836,-46.425036
 4715156,"R. Francisco De Soutomaior, 11","Ref.: Rua Francisco Gil De Araújo",-23.528265,-46.392985
 4715157,"R. Prof. Cosme Deodato Tadeu, 242","Ref.: R Flechilha",-23.543937,-46.407976
-4715159,"R. Francisco Nunes Cubas, 517","Ref.: R Gonçalo Lopes De Camargo",-23.547287,-46.391488
 4715160,"R. Francisco Nunes Cubas, 598","Ref.: R Francisco Capara",-23.547289,-46.391287
-4715161,"R. Gaspar Sardinha, 200","Ref.: R Freitas De Azevedo/ R Inácio De Oliveira Campos - Mercado Barreto",-23.545703,-46.393062
+4715161,"R. Gaspar Sardinha, 222","Ref.: R Freitas De Azevedo/ R Inácio De Oliveira Campos - Mercado Barreto",-23.545513,-46.393054
 4715162,"R. Inácio De Oliveira Campos, 342","",-23.546869,-46.396484
 4715163,"R. Prof. Cosme Deodato Tadeu, 89","Ref.: R Capitão Pucci",-23.543356,-46.409381
 4715164,"R. Prof. Cosme Deodato Tadeu, 90","Ref.: U B S Guaianases I",-23.543399,-46.409406
@@ -4083,6 +4103,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4715177,"R. Serra Da Queimada, 438","Ref.: R. Milton Santos/ R. Rio Acima",-23.528836,-46.411734
 4715178,"R. Pe. Nildo Do Amaral Júnior, 985","Ref.: R. Daniel Norcombe",-23.520876,-46.428867
 4715179,"R. Jurandir Pais Leme, 289","",-23.524288,-46.419261
+4715180,"R. Manuel Da Mota Coutinho, 135","",-23.544001,-46.400931
 4715183,"R. João De Siqueira Afonso, 529","Ref.: Rua Capitão-mor Francisco Falcão / Atrás Do Tp Da Linha 2755/10",-23.540087,-46.394513
 4715184,"R. Maciço Do Urucum, 814","Ref.: R. Catarina Cubas",-23.543077,-46.401937
 4715186,"R. Serra Das Araras, 165","Ref.: R. Da Capitação / E.e Araci Zebral Teixeira",-23.538568,-46.400890
@@ -4090,7 +4111,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4715189,"R. Francisco Fernandes Frazão, 1311","Ref.: Rua João Da Silva Águiar",-23.536438,-46.398562
 4715190,"R. Serra Das Araras, 156","Ref.: Rua Cabo José Teixeira / R. Arara Úna",-23.538696,-46.400853
 4715192,"R. Maciço Do Urucum, 795","Ref.: R. Catarina Cubas / Mercadinho Semidelites",-23.542964,-46.401867
-4715193,"R. Cb. Das Tormentas, 254","Ref.: Rua Inês De Souza",-23.530413,-46.395936
+4715193,"R. Cb. Das Tormentas, 254","Ref.: Rua Inês De Souza",-23.530340,-46.395830
 4715194,"R. Guedes De Brito, 38","Ref.: Rua Rio Bonito",-23.529439,-46.394791
 4715195,"R. Antônio Januário Ferraz, 310","Ref.: Av. Nordestina",-23.528697,-46.417776
 4715197,"R. Paulo Osorio Flores, 616","Ref.: Rua Agreste Potiguar",-23.529532,-46.419568
@@ -4131,6 +4152,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4715237,"R. Chapada Da Diamantina, 267","Ref.: Rua Antônio Thadeo/rua Particular Dalmo",-23.543488,-46.404938
 4715238,"R. Serra Das Araras, 39","Ref.: Rua Francisco Ferraz Cardoso/rua Luis Alvares De Espinha",-23.539485,-46.400381
 4715239,"R. Serra Das Araras, 34","Ref.: Rua Francisco Ferraz Cardoso/rua Luis Alvares De Espinha",-23.539591,-46.400174
+4715240,"R. Francisco Nunes Cubas, 450","Ref.: Rua Ramon Palacios",-23.547511,-46.392611
+4715241,"R. Francisco Nunes Cubas, 592","Ref.: Rua Francisco Capara",-23.547286,-46.391388
+4715242,"R. Gaspar Sardinha, 116","Ref.: Rua Jeronimo Veloso Cubas",-23.546685,-46.392911
 4811067,"R. Vespasiano, 1136","Ref.: R Silveira Rodrigues",-23.532961,-46.695218
 4811080,"R. Marco Aurélio, 772","Ref.: Pça. Claudio Galeno / R Aurelia",-23.533891,-46.698256
 4811081,"R. Marco Aurélio, 578","Ref.: R Catao",-23.532522,-46.699252
@@ -4273,6 +4297,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5013422,"Av. Monte Celeste, 399","Av. Monte Celeste, 399 Ref.: Praça Adriano Ribeiro Cardoso",-23.492896,-46.674060
 5013423,"R. Mto. Gabriel Migliori, 510","",-23.505513,-46.679945
 5013424,"Av. Nsa. Sra. Do Ó, 1225","Ref.: R. Dr. Heleno Claudio Fragoso",-23.503920,-46.684904
+5013425,"R. S. Leandro, 1","",-23.495658,-46.682997
 5112581,"Av. Daniel Malettini, 447","Ref.: R. Joao De Laert / R. Albertina Vieira Da Silva Gordo",-23.475775,-46.623326
 5112585,"Av. Daniel Malettini, 545","Ref.: R Joao De Laert",-23.474319,-46.625173
 5112817,"Av. Ultramarino, 1063","Ref.: R. Herisan",-23.470707,-46.644355
@@ -4306,6 +4331,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5113480,"Av. José Da Rocha Viana, 209","Ref.: Rua Aureliano Da Silva Rosário/rua Carlos Balestrini",-23.457781,-46.644943
 5113481,"Av. Direitos Humanos","Ref.: R. Alberto Savoy",-23.477737,-46.643142
 5113482,"R. Itabira, 236","Ref.: R. José De Paula Ferreira / R. Ita (oposto)",-23.456092,-46.645497
+5113483,"R. Quirinópolis, 61","Ref.: R. Virgílio Ravelli/garagem Sambaíba",-23.482612,-46.653877
 5201239,"Estr. Eng. Marsilac, 13136","",-23.901643,-46.717970
 5201240,"Estr. Eng. Marsilac, 13136","",-23.901643,-46.717970
 5201247,"Estr. Eng. Marsilac, 11811","Ref.: Estr. Ponte Seca",-23.899615,-46.726571
@@ -4348,9 +4374,12 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5306703,"Av. Hélio Pellegrino, 194","Ref.: Rua Diogo Jacome",-23.597330,-46.667679
 5306704,"Av. Hélio Pellegrino, 524","Ref.: Rua Artur De Paula Ferreira",-23.597832,-46.670013
 5306705,"R. Afonso Braz, 876","Ref.: Av. Santo Amaro",-23.595073,-46.672574
+5306708,"Parada Provisória Fiandeiras","Av. Sto. Amaro, 1599 Ref.: Rua Periquito",-23.598165,-46.673884
+5306709,"Av. Hélio Pellegrino, 792","",-23.598343,-46.672448
 5405448,"R. Tabajaras, 650","Ref.: R Jumana",-23.566273,-46.599190
 5405607,"R. Sarapuí, 277","Ref.: R Joao Antonio De Oliveira",-23.566193,-46.601665
 5405608,"R. Tabajaras, 362","Ref.: R Ezequiel Ramos / R Visc De Inhomerim",-23.563906,-46.600369
+5409609,"R. Donatários, 114","Ref.: R Campineiros",-23.555662,-46.593607
 5409611,"R. Da Mooca, 3358","Ref.: R Tobias Barreto/ R Pires De Campos",-23.557394,-46.592950
 5409615,"R. Dos Trilhos, 2183","Ref.: Rua Itaqueri / Rua Dos Pássaros",-23.556887,-46.589491
 5409999,"R. Dr. Guilherme Elis, 165","Ref.: R Dr Fomm / R Siqueira Cardoso",-23.546780,-46.595504
@@ -4391,6 +4420,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5410200,"R. Jumana, 313","Ref.: Rua Came",-23.564720,-46.597155
 5410201,"R. Jumana, 370","Ref.: Av. Paes De Barros",-23.564475,-46.596640
 5410202,"R. Tamarataca, 335","Ref.: Rua Me. De Deus",-23.565555,-46.592534
+5410203,"R. Guaimbê, 228","Ref.: Rua Pe. Raposo",-23.563156,-46.593844
+5410204,"R. Guaimbê, 414","Ref.: Av. Paes De Barros",-23.564607,-46.594740
 5506671,"Av. Morumbi, 5595","Ref.: R Gen.almerio De Moura",-23.612631,-46.712968
 5506680,"Av. Morumbi, 4501","Ref.: R Pe.lebret/palácio Do Governo-C/B",-23.604450,-46.712416
 5506682,"Av. Morumbi, 3941","Ref.: R Adalivia De Toledo",-23.599904,-46.708690
@@ -4528,7 +4559,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5614741,"Estr. Eng. Marsilac, 5008","",-23.859706,-46.751383
 5614742,"Estr. Eng. Marsilac, 5515","Ref.: Rua Jose Motta",-23.862447,-46.749090
 5614743,"Estr. Eng. Marsilac, 5528","Ref.: Rua Braga",-23.867671,-46.743148
-5614744,"Estr. Eng. Marsilac, 7048","",-23.870410,-46.739404
+5614744,"Estr. Eng. Marsilac, 7048","Ref.: Estrada Santa Clara",-23.870410,-46.739404
 5614747,"Av. Paulo Guilguer Reimberg, 9034","Ref.: Rua Rogério Bento Mendes",-23.812079,-46.666950
 5614748,"Av. Do Paiol, 1413","",-23.785979,-46.759806
 5614751,"R. Amélia Petrella Zuanazzi","Ref.: Antigo Tp Da Linha 6075/21 -- Rua Adão Cabral Neto",-23.795949,-46.741724
@@ -4578,7 +4609,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5614811,"Av. Jaceguava, 4758","Ref.: Av. Do Paiol",-23.782831,-46.756396
 5614812,"Av. Jaceguava, 4758","Ref.: Av. Do Paiol",-23.782939,-46.756455
 5614813,"R. Adao Glasser Bueno, 26","Ref.: Rua Pedro Roman",-23.851596,-46.695370
-5614814,"R. Amélia Petrella Zuanazzi, 23","",-23.796266,-46.744208
+5614814,"R. Amélia Petrella Zuanazzi, 23","Ref.: R. Irene Pedroso Cataldo",-23.796266,-46.744208
 5614815,"Av. Prof. Hermann Von Ihering, 36","Ref.: Av. Jaceguava",-23.773793,-46.740630
 5614816,"R. Amélia Petrella Zuanazzi, 31","Ref.: Alameda Perobas/rua Adão Cabral Neto",-23.794406,-46.739004
 5709858,"R. Paraíba, 276","",-23.532082,-46.615884
@@ -4602,6 +4633,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5804230,"Av. Maria Luiza Americano, 99","Ref.: Av Afonso De Sampaio E Sousa",-23.578237,-46.481648
 5804244,"R. Venâncio Lisboa, 150","Ref.: Rua Mateus Mendes Pereira",-23.567824,-46.471541
 5804246,"R. Venâncio Lisboa, 123","Ref.: R Marcondes Homem De Melo",-23.567682,-46.472024
+5808037,"R. S. Teodoro, 1380","Ref.: R Tome Alvares De Castro",-23.556560,-46.447898
 5808086,"Av. Antônio De Souza Queiroz, 657","Ref.: Rua Francisco Lucena",-23.558401,-46.469244
 5808088,"Av. Dr. Francisco Munhoz Filho, 379","Ref.: Ubs Cidade Lider",-23.554227,-46.465410
 5808106,"Av. Jacu-pêssego/nova Trabalhadores, 0","Ref.: Av Joao Batista Conti",-23.550869,-46.446013
@@ -4834,7 +4866,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6009743,"R. Dr. Heládio, 183","Ref.: Rua Otília",-23.530613,-46.524556
 6009745,"Viad. Domingos  Franciulli  Netto, 5200","Ref.: Av. Gen. Milton Taváres De Souza",-23.517380,-46.554859
 6009746,"R. Irapucara, 157","Ref.: R Pérsio Azevedo",-23.529905,-46.545430
-6009748,"R. Alarco, 21","Ref.: Rua Serra Da Prata",-23.526992,-46.515195
 6009749,"R. Alarco, 297","Ref.: Rua Filipe Galvão/ Rua Tequici",-23.524541,-46.515980
 6009751,"R. Impata, 319","",-23.526514,-46.502396
 6009752,"R. Impata, 300","Ref.: Lateral Ao Nº 320",-23.526540,-46.502387
@@ -4904,6 +4935,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6114508,"R. Cardoso De Almeida, 457","Ref.: Rua Paraguaçu",-23.535443,-46.666354
 6114510,"R. Caiowaa, 549","Ref.: R. Bartira / R. Caiubi",-23.533800,-46.680195
 6114512,"R. Vanderlei, 1250","Ref.: Rua Iperoig",-23.537834,-46.678329
+6114513,"R. Luminárias, 33","Ref.: R. João Moura / R. Heitor Penteado",-23.547951,-46.688156
 6201170,"R. Eng. Augusto Durante, 539","",-23.408497,-46.746370
 6201192,"R. Ernesto Bottoni, 886","Ref.: R Sorano",-23.412532,-46.739686
 6201193,"R. Ernesto Bottoni, 880","",-23.412677,-46.739471
@@ -4990,7 +5022,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6311288,"R. Ofélia, 114","R. Ofélia, 114 Ref.: Tp - 857r/41 'estação Hebraica Rebouças - Metrô Paraíso'",-23.573012,-46.698425
 6311292,"Terminal Metrô Vila Madalena","Term. Metrô Vila Madalena Ref.: Metrô Vila Madalena",-23.546992,-46.690250
 6311297,"Parada 1 - Faria Lima B/C","Av. Eusébio Matoso Ref.: Cruzamento Av. Eusébio Matoso E Av. Brig. Faria Lima",-23.571166,-46.691140
-6311298,"Parada 1 - Faria Lima C/B","Ac. Acesso A, 3215 Ref.: Cruzamento Av. Rebouças E Av. Brig. Faria Lima",-23.570678,-46.690359
+6311298,"Parada 1 - Faria Lima C/B","Av. Rebouças, 3215 Ref.: Cruzamento Av. Rebouças E Av. Brig. Faria Lima",-23.570846,-46.690525
 6311306,"Largo Da Batata","Av. Brig. Faria Lima, 850 Ref.: Próximo À Estação Do Metrô Faria Lima",-23.566131,-46.694298
 6311316,"1 - Faria Lima","Av. Brig. Faria Lima, 940 Ref.: Metro Faria Lima",-23.567121,-46.694065
 6311317,"Terminal Pinheiros - Pl 7","",-23.566696,-46.701869
@@ -5018,7 +5050,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6311348,"Parada 1 - Dr. Manoel C. F. De Almeida","R. Teodoro Sampaio, 2559",-23.566518,-46.692452
 6311351,"Parada 2 - Ferreira De Araújo","R. Sumidouro, 236 Ref.: Rua Ferreira De Araújo / Rua Pe. Carvalho",-23.565303,-46.697918
 6311354,"Parada Marina Cintra - C/B","Av. Nove De Julho, 4877",-23.577020,-46.672455
-6311355,"Parada Dr. Renato Paes De Barros - C/B","Av. Nove De Julho, 5342",-23.579022,-46.676639
+6311355,"Dr. Renato Paes De Barros - C/B","Av. Nove De Julho, 5342",-23.579022,-46.676639
 6311356,"Parada João Cachoeira - C/B","Av. Nove De Julho, 5740",-23.580499,-46.679797
 6311357,"Pça. Sem Nome","",-23.565572,-46.693951
 6311358,"Terminal Pinheiros - Pl 1","Term. Pinheiros - Pl 1 Ref.: Term. Pinheiros - Pl 1",-23.566116,-46.701530
@@ -5053,6 +5085,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6311410,"R. Gilberto Sabino, 135","Ref.: Rua Conselheiro Pereira Pinto",-23.566512,-46.701066
 6311411,"R. Mourato Coelho, 520","Ref.: Rua Cardeal Arcoverde",-23.562689,-46.688056
 6311412,"Viad. Paulo Vi","Ref.: R. Cristiano Viana",-23.554597,-46.680200
+6311413,"R. Dos Pinheiros, 1033","Ref.: Rua Antônio Bicudo",-23.567709,-46.687649
 6401013,"R. Fidelis Alves Da Costa, 181","",-23.482294,-46.751566
 6411568,"R. Sílvio Bonilha, 26","Ref.: R. Pedro Bonilha",-23.502693,-46.711100
 6411571,"Av. Raimundo Pereira De Magalhães, 1881","Ref.: Ponte Ferroviária",-23.506585,-46.713377
@@ -5121,7 +5154,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6415328,"R. Manoel De Carvalho, 319","Ref.: R. Antônio De Proença",-23.505302,-46.709998
 6415329,"R. Des. Joaquim Bandeira De Mello, 20","Ref.: R. Mj.alfredo Romão",-23.471472,-46.750721
 6415330,"R. Manoel Barbosa","",-23.487580,-46.714282
-6415331,"Av. Inácia De Toledo, 499","Av. Inácia De Toledo, 499 Ref.: Rua Manuel Bento Da Cruz",-23.469237,-46.751801
 6415332,"R. Adele Zarzur, 319","R. Adele Zarzur, 319 Ref.: Praça Monsenhor Escrivá",-23.485214,-46.710801
 6415333,"R. Silvino De Godoy, 110","Ref.: Av. Com.feiz Zarzur",-23.480403,-46.719222
 6415334,"R. Adele Zarzur, 203","Ref.: Pça. Mons.escriva",-23.486034,-46.711346
@@ -5252,6 +5284,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6509521,"R. Eduardo Kiyoshi Shimuta, 87","Ref.: Rua Rio Carioca/ Rua Sonho Gaucho",-23.525765,-46.481448
 6509522,"R. João José De Queiroz, 1105","Ref.: Praça Ary Francisco De Paulo",-23.523095,-46.492483
 6509523,"Pça. Dr. Toloza De Oliveira, 30","Ref.: Rua General Ferreira Azevedo/rua Pacheco Jordão",-23.519724,-46.494203
+6509525,"R. Raimundo Lúlio, 423","Ref.: Rua José Ferreira De Andrade",-23.523824,-46.479000
 6607151,"Av. Francisco Mont Alverne, 653","Ref.: R Jeronimo Fernandes",-23.598342,-46.765198
 6607158,"R. Rev. Jorge Bertolaso Stella, 270","Ref.: R. Teodorico Guimarães",-23.594811,-46.766130
 6607186,"R. Pe. Juan De Solorzano, 128","Ref.: R. Nicola Ciola",-23.602376,-46.792134
@@ -5406,6 +5439,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6811375,"Av. Pablo Casals, 827","Ref.: Rua Lili Boulanger",-23.563404,-46.762863
 6811376,"Av. Pablo Casals, 827","Ref.: Rua Lili Boulanger",-23.563554,-46.762873
 6811378,"R. Pantaleão Brás, 321","Ref.: Rua Deolinda Rodrigues",-23.581937,-46.763965
+6811379,"R. Pe. Paulo Canelle, 373","Ref.: Rua Lili Boulanger",-23.565618,-46.762515
 6902027,"Av. Patente, 396","Ref.: Rua Francisco Sella",-23.625816,-46.586661
 6902028,"Av. Patente, 425","Ref.: Rua Antônio Da Silva Batista Júnior",-23.626039,-46.586509
 6902029,"Av. Patente, 600","Ref.: Rua Domenico Venturi",-23.627688,-46.586754
@@ -5521,6 +5555,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6905531,"R. Prof. Zeferino Vaz, 428","",-23.636208,-46.589212
 6905532,"R. Prof. Zeferino Vaz, 320","",-23.636551,-46.590018
 6905533,"R. John Audubon, 23","Ref.: Rua Pedro Padovani",-23.648944,-46.610858
+6905534,"R. Prof. Arnaldo João Semeraro, 937","Ref.: Av. Francesco Del Cossa",-23.651832,-46.601545
+6905535,"R. Prof. Arnaldo João Semeraro, 937","Ref.: Av. Francesco Del Cossa",-23.651664,-46.601616
 7000005,"Av. Angélica, 160","Ref.: Pc Maldeodoro",-23.534259,-46.653605
 7000007,"Al. Eduardo Prado, 854","Ref.: R Barra Funda",-23.532839,-46.652857
 7000012,"R. Das Palmeiras, 457","Ref.: R Br De Tatui",-23.536064,-46.653027
@@ -5670,7 +5706,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7206922,"Terminal Sto. Amaro, 4","",-23.654021,-46.711989
 7206926,"Av. Alfredo Egídio De Souza Aranha, 305","Ref.: Rua Sousa Noschese",-23.631969,-46.714115
 7206929,"R. Braganca Paulista, 536","",-23.641747,-46.714816
-7206931,"Plat. Lat. Terminal Joao Dias, 3578","Ref.: Rua Vitalina Grassman -- Terminal João Dias",-23.644166,-46.733747
+7206931,"Tjd Plat. 4 - Lateral","Plat. Lat. Term. Joao Dias, 3578 Ref.: Tjd - Plat. 4 - Pmd 17 (ponto De Passagem Sent. Centro)",-23.644166,-46.733747
 7206935,"Parada Bragança Paulista B/C","Av. Arq. Carlos Bratke Ref.: Rua Bragança Paulista",-23.641863,-46.715758
 7206936,"Parada Bragança Paulista C/B","Av. Arq. Carlos Bratke Ref.: Rua Bragança Paulista",-23.642683,-46.716032
 7206937,"Parada 2 - Sabesp (B/C)","Av. Adolfo Pinheiro, 2223 Ref.: Rua Américo Brasiliense/rua Da Paz",-23.635000,-46.693452
@@ -5707,6 +5743,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7206974,"Av. João Carlos Da Silva Borges, 173","Ref.: Rua Joaquim Dos Réis",-23.644240,-46.711638
 7206977,"Av. Cecília Lottenberg, 130","Ref.: Rua Alexandre Dumas",-23.629658,-46.708761
 7206978,"R. Américo Brasiliense, 2201","Ref.: Rua José Vicente Cavalheiro",-23.628450,-46.707132
+7206980,"Tjd Plat. 1 - Pmd 1 (lateral - Sent. Bairro)","Plat. Lat. Term. Joao Dias, 5118 Ref.: Rua Manoel Homem De Andrade",-23.643508,-46.733871
 7206981,"Pça. Floriano Peixoto, 471","Ref.: Av. Mário Lopes Leão",-23.650951,-46.707958
 7206982,"João Dias","",-23.639836,-46.723488
 7206983,"R. José Abrantes, 462","Ref.: Rua José Abrantes",-23.649023,-46.717130
@@ -5762,6 +5799,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7313959,"R. Jair Afonso Inácio, 550","Ref.: Av. Mutinga",-23.503911,-46.752812
 7313961,"Av. Do Anastácio, 1235","Ref.: R. Paulo Felippeti",-23.498000,-46.735689
 7313962,"Av. Do Anastácio, 859","Ref.: R. Pedro Sernagiotti - Cer III Pirituba",-23.500784,-46.733768
+7313963,"Pça. Vila Esperança","Pça. Vila Esperança Ref.: Rua Leina Krespi",-23.474903,-46.756938
+7313964,"Pça. Vila Esperança","Pça. Vila Esperança Ref.: R. Licia Magna",-23.475255,-46.757045
+7313965,"Pça. Vila Esperança","Pça. Vila Esperança Ref.: R. Dirce Migliaccio",-23.475252,-46.756254
 7404318,"Av. Morais Costa, 29","Ref.: Av. Do Oratório",-23.603221,-46.529518
 7404319,"Av. Morais Costa, 108","",-23.603895,-46.529821
 7404413,"R. Ana Clara, 708","Ref.: Rua Francisco Bueno Luis",-23.612362,-46.526971
@@ -5800,6 +5840,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7405471,"R. Costa Barros, 2769","Ref.: Rua Erva Imperial",-23.601983,-46.543067
 7405472,"R. Nova Timboteua, 100","Ref.: Rua Rosicler",-23.600326,-46.530321
 7405473,"R. Nova Timboteua, 39","Ref.: Rua Rosicler",-23.599796,-46.530230
+7405475,"R. Santana De Mangueira, 91","Ref.: Rua Luís Pereira Da Silva",-23.599833,-46.532949
 7405481,"R. Solidônio Leite, 2315","Ref.: Rua Edmundo Juventino Fuentes",-23.585918,-46.536594
 7405483,"R. Secundino Domingues, 701","Ref.: Rua Natividade Saldanha",-23.592718,-46.555909
 7405484,"R. Pascoal Ranieri Mazzilli, 82","Ref.: Travessa Giuseppe Amendola",-23.604489,-46.525316
@@ -5807,7 +5848,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7405487,"R. João Rodrigues Pires, 305","Ref.: Rua Edmundo Juventino Fuentes",-23.583653,-46.536324
 7405488,"Av. Do Oratório, 2635","Ref.: Rua Eng. Francisco Bicalho",-23.593507,-46.544448
 7405489,"Av. Do Oratório, 2710","Ref.: Rua Dr. Nogueira De Noronha",-23.595358,-46.543203
-7405491,"R. Ana Clara, 503","Ref.: Rua Pascoal Ranieri Mazzilli",-23.611568,-46.528625
 7405492,"R. Ana Clara, 284","Ref.: Rua Santa Zita",-23.611028,-46.530484
 7405493,"Oratorio","",-23.582144,-46.561877
 7405494,"R. S. José Das Espinharas, 363","Ref.: Ubs Reunidas 1",-23.603774,-46.532718
@@ -5837,6 +5877,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7405531,"R. Prof. Zeferino Do Amaral, 138","Ref.: Rua Maria Graham",-23.609496,-46.534443
 7405534,"R. Murta-do-campo","R. Murta-do-campo Ref.: Rua Costa Barros",-23.603060,-46.544866
 7405535,"Av. Eng. Thomaz Magalhães, 88","Ref.: Rua Francisco Rossano",-23.605815,-46.551797
+7405536,"R. Ielmo Marinho, 735","Ref.: Rua Xavier De Assis",-23.598372,-46.549005
+7405537,"R. Ana Clara, 546","Ref.: Rua Bernardo Pedroso",-23.611792,-46.528274
 7503748,"R. Forte Do Triunfo, 120","Ref.: Av. Ragueb Chohfi",-23.599257,-46.463413
 7503770,"Av. Andrômeda, 355","Ref.: Rua Das Estrelas",-23.608397,-46.457595
 7503771,"Av. Andrômeda, 482","Ref.: Rua Urso Maior",-23.608415,-46.457262
@@ -5933,7 +5975,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7504908,"R. Sol, 448","Ref.: Rua Perseu",-23.608608,-46.461565
 7504909,"Av. Min. José Américo De Almeida, 401","Ref.: Rua Cabo José Vieira Da Silva",-23.603711,-46.487596
 7504911,"R. Mto. João Balam, 240","Ref.: Rua Dr. Edmur Whitaker",-23.608414,-46.479902
-7504912,"R. Sen. Nilo Coelho, 823","Ref.: Rua Genaro Garcia",-23.605314,-46.489145
 7504913,"Av. Claudio Augusto Fernandes, 121","Ref.: Av Mateo Bei",-23.605970,-46.480663
 7504915,"R. Sen. Mainard Gomes, 850","Ref.: R Conego Antonio Dias Pequeno / R Cel Ernesto Duprat",-23.593694,-46.489787
 7504916,"R. Sen. Mainard Gomes, 835","Ref.: R Cel Ernesto Duprat / R Osvaldo Nevola",-23.593455,-46.489717
@@ -5986,11 +6027,12 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7504980,"Av. Riacho Dos Machados, 403","Ref.: Rua Vercínio Pereira De Souza",-23.602841,-46.488395
 7504981,"Av. Aricanduva, 11100","Ref.: Rua Noeli Alves Gomes",-23.591873,-46.476137
 7504982,"R. Sen. Nilo Coelho, 777","Ref.: Rua Genaro Garcia",-23.605188,-46.489583
+7504983,"R. Galáxia, 155","Ref.: Rua Nebulosas",-23.609462,-46.458081
 7607963,"R. Criúva, 857","Ref.: R Praia De Cantibao",-23.522261,-46.432201
 7607964,"R. Suzana De Melo, 807","Ref.: Trav. Eugenio Melara / Avjacatirao Da Serra",-23.519879,-46.433218
 7607967,"R. Suzana De Melo, 368","Ref.: Rmoisés Maimoniades/ Rerva Galega",-23.520336,-46.437392
 7607969,"R. Criúva, 345","Ref.: Rua Albertina Medeiros / Ruaardisia",-23.519073,-46.432411
-7607983,"R. Moacir Dantas Itapicuru, 803","Ref.: Rua João De Moraes Lima",-23.506547,-46.435148
+7607983,"R. Moacir Dantas Itapicuru, 773","Ref.: Rua João De Moraes Lima",-23.506557,-46.435134
 7607984,"R. Moacir Dantas Itapicuru, 814","Ref.: Rua João De Moraes Lima",-23.506342,-46.434753
 7607986,"R. Mohamed Ibrahin Saleh, 249","Ref.: R Georgina Sá Leite Orcessi",-23.506140,-46.437254
 7608514,"R. Cândida De Carvalho, 125","Ref.: Rua Amasisa",-23.511626,-46.441652
@@ -6005,6 +6047,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7612099,"Terminal S. Miguel - Plat 03","",-23.491610,-46.435216
 7612100,"Terminal S. Miguel - Plat 04","",-23.491504,-46.435175
 7612124,"São Miguel Paulista","",-23.490494,-46.443699
+7612125,"R. José Augusto Da Silveira, 54","Ref.: R. Ana Rita De Freitas",-23.496385,-46.454987
 7612135,"R. Cardon, 87","Ref.: Rua Música Leve",-23.514011,-46.433361
 7612136,"R. Catleias, 26","Ref.: Rua Nazaré",-23.489412,-46.454404
 7612137,"R. Catleias, 25","Ref.: Rua Nazaré",-23.489418,-46.454453
@@ -6653,7 +6696,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8506722,"Av. Hebe Camargo","Av. Hebe Camargo Ref.: Rua Herbert Spencer -- Ama Ubs Paraisópolis",-23.617605,-46.720949
 8506723,"Av. Hebe Camargo, 73","Ref.: R. Herbet Spencer",-23.616606,-46.720965
 8506724,"R. Dr. José Gustavo Bush, 310","Ref.: Rua Chibata Miyakoshi",-23.625647,-46.720561
-8506728,"Av. Hebe Camargo, 41","",-23.615990,-46.721029
 8506731,"R. José Ramon Urtiza, 44","Ref.: Av. Giovanni Gronchi",-23.637462,-46.736319
 8506734,"R. Chapada De Minas, 3","Ref.: Rua Maiçoba",-23.625444,-46.747940
 8506736,"R. Nelson Gama De Oliveira","Ref.: Rua Castelhano",-23.631083,-46.737426
@@ -6712,6 +6754,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8506813,"R. Chapada De Minas","",-23.625840,-46.746260
 8506814,"R. Antônio Ferreira De Castilho, 129","Ref.: R. Dr. Jerônimo De Campos Freire",-23.621411,-46.727284
 8506815,"Ac. Acesso A","",-23.641986,-46.727482
+8506817,"Av. Hebe Camargo","",-23.617361,-46.721068
 8607804,"R. Melchiades Neres De Campos, 277","Ref.: R Faveira Pequena",-23.509474,-46.413550
 8607807,"R. Melchiades Neres De Campos, 10","Ref.: Avdos Ipes",-23.508674,-46.416093
 8607809,"R. Dos Igarapés, 579","Ref.: Rapiranga/rguabirobinha",-23.506598,-46.413006
@@ -6840,6 +6883,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8709709,"R. Nsa. Sra. Das Dores, 502","Ref.: Av. Homero Batista",-23.570887,-46.533320
 8709713,"R. Carvalho Dos Santos, 223","Ref.: Rua Manoel Ferreira Pires",-23.579117,-46.525864
 8709720,"R. Joaquim Peixoto, 22","Ref.: Rua Santa Terezinha",-23.579449,-46.528694
+8709725,"R. Antônio Alves Barril, 145","Ref.: Artem",-23.560682,-46.561973
 8709748,"R. Templários, 39","",-23.564715,-46.558472
 8709751,"R. Arapoca, 153","Ref.: Próximo A Pç.a Dr. Sampaio Vidal",-23.566055,-46.541704
 8709757,"Av. Dr. Eduardo Cotching, 126","Ref.: Rua Ápio Cláudio / Rua Jorge Bittar",-23.562744,-46.558566
@@ -6863,6 +6907,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8709780,"R. Maria Francisca Do Nascimento, 240","Ref.: Rua Manoel Ferreira Pires",-23.582670,-46.527630
 8709781,"R. Maria Otília, 210","",-23.553203,-46.567783
 8709782,"R. Arapacu","Ref.: Rua Chagu / Praça Monsenhor Heladio Laurini",-23.566445,-46.552049
+8709783,"R. Chagu, 530","Ref.: Rua Dona Victoria Speers",-23.567307,-46.553702
+8709784,"R. Acurui, 118","Ref.: Praça Bela Lorena",-23.557029,-46.553465
+8709785,"R. Chagu, 463","Ref.: Rua Ituri",-23.567110,-46.553381
 8810351,"R. S. Quirino, 1090","Ref.: Rua Canhoneira Belmonte",-23.515593,-46.595981
 8810358,"R. José Bernardo Pinto, 350","Ref.: R Doze De Setembro",-23.514167,-46.608079
 8810541,"Ac. Acesso A","Ref.: Avenida Guilherme Cotching/avenida Morvan Dias Figueiredo",-23.525487,-46.596634
@@ -6950,7 +6997,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8914794,"R. Catleias, 47","Ref.: Rua Servaia",-23.491105,-46.453934
 8914796,"R. Arareva, 12","",-23.506829,-46.459178
 8914797,"R. Da. Ana Flora Pinheiro De Souza, 76","Ref.: Subprefeitura De São Miguel Paulista",-23.500267,-46.451016
-8914799,"Av. Cesar Augusto Romaro, 698","",-23.508267,-46.470867
+8914799,"Av. Cesar Augusto Romano, 698","",-23.508267,-46.470867
 8914803,"R. S. Bertoldo, 219","",-23.495966,-46.456879
 8914804,"R. S. Bertoldo, 481","Ref.: Rua Maciel Viana/rua Frei Fidelis Mota",-23.494311,-46.456487
 8914805,"Av. Maria Santana, 936","Av. Maria Santana, 936 Ref.: Na Baia Da Praça, Proximo A Rua Dríades",-23.510542,-46.447304
@@ -7011,7 +7058,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 9011772,"R. Mergenthaler, 1100","Ref.: Av. Mofarrej",-23.533049,-46.743293
 9011773,"Av. Impz. Leopoldina, 447","Ref.: Rua Mergenthaler",-23.526798,-46.734675
 9011774,"Av. Impz. Leopoldina, 707","Ref.: Rua Dolores Valentim De Souza",-23.528583,-46.733061
-9011777,"Av. Dr. Gastão Vidigal","Ref.: Av. Engenheiro Roberto Zuccolo",-23.523401,-46.741216
 9011778,"Av. Dr. Gastão Vidigal","Ref.: Rua Hayden",-23.532715,-46.735933
 9011780,"R. Hungria","Ref.: Rua Ofélia",-23.573307,-46.698251
 9110109,"Av. Morvan Dias De Figueiredo, 897","Ref.: R. Mateus Jose [joli]",-23.528235,-46.588209
@@ -7330,6 +7376,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 9412709,"Av. Júlio Buono, 3236","Ref.: R. Maria Guimarães / Av. Ramiz Galvão",-23.476020,-46.580829
 9412710,"Av. Jardim Japão, 153","Ref.: Oposto A R. José Anildo Da Mata",-23.488264,-46.576529
 9412711,"R. Francisco Franco Machado, 150","Ref.: R. Crisciuma / R. Jacy Toledo",-23.492214,-46.572774
+9412712,"R. Canápolis, 483","",-23.491523,-46.578201
+9504452,"R. Gaspar Barreto, 439","Ref.: R Costa Barros",-23.600243,-46.551231
 9504453,"R. Gaspar Barreto, 649","Ref.: R Hermeto Lima/ R. Caruso",-23.602604,-46.552399
 9504477,"R. Mata Machado, 681","Ref.: Rua Araripe",-23.610644,-46.556722
 9504480,"R. Mata Machado, 229","Ref.: Rua Pentecostes",-23.606833,-46.558144
@@ -8611,11 +8659,11 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 110003341,"R. Encruzilhada Do Sul","Ref.: R Trinta E Dois (j. Paulistano)/ R D (v. Siqueira-brasi)",-23.461360,-46.705446
 110003342,"R. Encruzilhada Do Sul","Ref.: R Joaquim De Souza Brito/ R Oliria Faria De Lima",-23.461469,-46.707072
 110003343,"R. Encruzilhada Do Sul","Ref.: R Trinta E Dois (j. Paulistano)/ R D (v. Siqueira-brasi)",-23.461559,-46.707175
-110003347,"R. Aparecida Do Tabuado, 571","R. Aparecida Do Tabuado, 571 Ref.: R Braco Do Norte/ R Joaquim De Souza Brito",-23.461072,-46.708981
-110003348,"R. Aparecida Do Tabuado, 590","Ref.: R Encruzilhada Do Sul/ R Braco Do Norte",-23.461307,-46.709277
-110003349,"R. Aparecida Do Tabuado, 521","R. Aparecida Do Tabuado, 521 Ref.: R Encruzilhada Do Sul/ R Braco Do Norte",-23.461191,-46.709045
-110003350,"R. Aparecida Do Tabuado, 841","Ref.: R Joaquim De Souza Brito/ R Braco Do Norte",-23.458858,-46.707772
-110003351,"R. Aparecida Do Tabuado, 378","Ref.: R Flores De Goias/ R Sitio D Abadia",-23.458831,-46.707839
+110003347,"R. Aparecida Do Taboado, 571","R. Aparecida Do Taboado, 571 Ref.: R Braco Do Norte/ R Joaquim De Souza Brito",-23.461072,-46.708981
+110003348,"R. Aparecida Do Taboado, 590","Ref.: R Encruzilhada Do Sul/ R Braco Do Norte",-23.461307,-46.709277
+110003349,"R. Aparecida Do Taboado, 521","R. Aparecida Do Taboado, 521 Ref.: R Encruzilhada Do Sul/ R Braco Do Norte",-23.461191,-46.709045
+110003350,"R. Aparecida Do Taboado, 841","Ref.: R Joaquim De Souza Brito/ R Braco Do Norte",-23.458858,-46.707772
+110003351,"R. Aparecida Do Taboado, 378","Ref.: R Flores De Goias/ R Sitio D Abadia",-23.458831,-46.707839
 110003352,"R. Alberto Burity, 45","Ref.: R Rosalvo Jose Da Silva/ R Sem Nome",-23.457846,-46.703057
 110003353,"R. Alberto Burity, 58","Ref.: R Ubaldo Mendes De Oliveira/ R Rosalvo Jose Da Silva",-23.457712,-46.703179
 110003356,"Estr. Da Cachoeira, 500","Ref.: R Sem Nome/ R Sem Nome",-23.455861,-46.706241
@@ -8882,7 +8930,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 130001624,"Av. Dep. Emílio Carlos, 3902","Ref.: R Maresias/ Av Imirim",-23.474806,-46.668063
 130001626,"Av. João Marcelino Branco, 172","Ref.: R Veronica/ Pça. Lions Clube-imirim",-23.476302,-46.665166
 130001627,"Av. João Marcelino Branco, 140","Ref.: Pc Lions Clube Imirim/ R Veronica",-23.476205,-46.664896
-130001628,"R. Franklin Do Amaral, 299","Ref.: R Paulo Carabet/ R Pires De Almeida",-23.476419,-46.661088
+130001628,"R. Franklin Do Amaral, 243","Ref.: R Paulo Carabet/ R Pires De Almeida",-23.476419,-46.661088
 130001629,"R. Franklin Do Amaral, 233","Ref.: R Pires De Almeida/ R Paulo Carabet",-23.476336,-46.661175
 130001630,"R. Franklin Do Amaral, 501","Ref.: R Joao Lopes De Amorim/ R Dos Patis",-23.475342,-46.658904
 130001631,"R. Franklin Do Amaral, 487","Ref.: R Joao Lopes De Amorim/ R Dos Patis",-23.475347,-46.659142
@@ -8934,7 +8982,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 130001855,"Terminal Vila Nova Cachoeirinha","Term. Vila Nova Cachoeirinha Ref.: Av Inajar De Souza/ Terminal Vila Nova Cachoeirinha",-23.474698,-46.670005
 130001856,"Terminal Vila Nova Cachoeirinha","Term. Vila Nova Cachoeirinha Ref.: Av Inajar De Souza/ Terminal Vila Nova Cachoeirinha",-23.474611,-46.669976
 130001858,"Av. Itaberaba, 5102","Ref.: R Juliao Ferreira Da Silva/ R Francisco Calado",-23.474322,-46.668385
-130001859,"R. Mendonca Júnior","Ref.: Av Joao Marcelino Branco/ R Mendonca Junior",-23.476597,-46.663377
 130001860,"R. Mendonca Júnior, 444","Ref.: R Da. Luiza De Andrade/ R Diogenes Giunchetti Rosin",-23.478136,-46.663772
 130001861,"R. Mendonca Júnior, 404","Ref.: R Diogenes Giunchetti Rosin/ R Da. Luiza De Andrade",-23.478442,-46.663682
 130001862,"R. Mendonca Júnior, 224","Ref.: Rua Santa Rita Do Araguaia",-23.479806,-46.662636
@@ -9748,11 +9795,15 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 190013434,"R. Domingos Peixoto Da Silva, 50","Ref.: Est De Itapecerica/ R Canhamo Da India",-23.660730,-46.776698
 190013435,"R. Domingos Peixoto Da Silva, 246","Ref.: R Castanha Do Para/ R Caju Do Campo",-23.662465,-46.776858
 190013436,"R. Dos Mutirantes, 187","Ref.: Tr Sempre Verde/ Tr Saragaca",-23.669967,-46.778584
+190013437,"R. Da Safra, 360","Ref.: R Raiz De Cedro/ R Dos Mutirantes/emei Paulo Zingg",-23.669672,-46.780880
+190013438,"R. Da Safra, 381","Ref.: R Louro Da Beira/ R Raiz De Cedro",-23.669869,-46.781109
+190013439,"R. Da Safra, 574","Ref.: Tr Casca Preciosa/ R Doce Lima",-23.670394,-46.782901
+190013440,"R. Da Safra, 573","Ref.: Tr Casca Preciosa/ R Doce Lima",-23.670486,-46.782904
+190013441,"R. Da Safra, 940","Ref.: Rua Cachoeira Do Acara/rua Cachoeira Do Airi",-23.671649,-46.786113
 190013442,"R. Masatak Matsumoto, 10","Ref.: R Valter Airosa Flaquer/ R Fernando Marinho Falcao",-23.675451,-46.789223
 190013444,"R. Antônio Forlenza, 46","Ref.: R Valter Ayrosa Flaquer / R Capitao Jose Cerqueira Leite",-23.676066,-46.792905
 190013445,"R. Antônio Forlenza, 65","Ref.: R Valter Ayrosa Flaquer / R Capitao Jose Cerqueira Leite",-23.676049,-46.792982
 190013446,"R. Antônio Forlenza, 7","Ref.: R Valter Ayrosa Flaquer / R Capitao Jose Cerqueira Leite",-23.673729,-46.793509
-190013447,"R. Antônio Forlenza, 339","Ref.: R Valter Ayrosa Flaquer / R Capitao Jose Cerqueira Leite",-23.673643,-46.793611
 190013448,"R. Francisco Pinto Miguel, 447","Ref.: R Floriano Peixoto Lisboa/ R Moacir Tavares De Paiva",-23.672970,-46.794795
 190013449,"R. Francisco Pinto Miguel, 564","Ref.: R Floriano Peixoto Lisboa/ Av Doutor Salvador Rocco",-23.672535,-46.795026
 190013450,"R. Francisco Pinto Miguel, 608","Ref.: R Floriano Peixoto Lisboa/ Av Doutor Salvador Rocco",-23.673126,-46.794628
@@ -10451,6 +10502,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 230009580,"Av. Interlagos, 7001","Ref.: Rua Leonor Alvim",-23.707378,-46.702652
 230009590,"R. Rubem Souto De Araújo, 1077","Ref.: R Viriato Leao De Moura/ Av Carlos Oberhuber",-23.741092,-46.706931
 230009591,"R. Geraldo Do Brumado, 530","R. Geraldo Do Brumado, 530 Ref.: R Baianopolis/ R Jose Bocchiglieri",-23.737568,-46.709369
+230009593,"Av. Carlos Oberhuber, 273","Av. Carlos Oberhuber, 273 Ref.: R Nei Jose Borges/ R Elvira Garrelli Wafae",-23.741073,-46.707869
 230009594,"R. Gonçalo Soares De Franca, 70","Ref.: Av. Carlos Oberhuber",-23.740642,-46.708843
 230009595,"R. Gonçalo Soares De Franca, 295","Ref.: Rua Gustavo Adolfo Becquer",-23.738376,-46.709658
 230009596,"R. Gonçalo Soares De Franca, 112","Ref.: Rua Gustavo Adolfo Becquer",-23.738446,-46.709716
@@ -11023,7 +11075,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 250008162,"Av. Paulo Gracindo, 551","Ref.: Rv Celia Helena/ R Geraldo Vietri",-23.566170,-46.419410
 250008163,"Av. Paulo Gracindo","Ref.: Rv Celia Helena/ R Geraldo Vietri",-23.566298,-46.419364
 250008168,"R. Francisco Cardoso Júnior, 2","Ref.: R Joaquim De Sa/ R Luis Mateus",-23.563733,-46.417897
-250008170,"R. Luís Matheus, 2546","Ref.: R Gabriel Abreu/ R Francisco Cardoso Junior",-23.563568,-46.417376
+250008170,"R. Luís Matheus, 2481","Ref.: R Gabriel Abreu/ R Francisco Cardoso Junior",-23.563568,-46.417376
 250012242,"Estr. Iguatemi, 2016","Ref.: Rua Nascer Do Sol - Ponto 05 B",-23.590201,-46.416527
 250012248,"Estr. Iguatemi, 1070","Ref.: Rua Coração Sertanejo / Rua Inácio Monteiro Ponto 16 A",-23.569478,-46.415835
 250012249,"Estr. Iguatemi, 2745","Ref.: Rua Inácio Monteiro - Ponto 20",-23.565120,-46.415683
@@ -11138,9 +11190,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 270011031,"R. Cel. Silvério Magalhães, 448","Ref.: R Antonio Monteiro/ R Coronel Silverio Antonio De Morais",-23.629128,-46.622749
 270011033,"R. Cel. Silvério Magalhães, 227","Ref.: Complexo Viario Maria Maluf/ Complexo Viario Maria Maluf",-23.627615,-46.621360
 270011125,"Av. Do Cursino, 6625","Ref.: Av Miguel Estefano/ R Angelo Bertini",-23.657763,-46.616908
-270011128,"Av. Miguel Estefno, 4241","Ref.: Zoológico",-23.651098,-46.620907
-270011129,"Av. Miguel Estefno, 4200","Ref.: R Doutor Jose Bento Ferreira/ Av Do Cursino -- Oposto Pque Ciência E Tec.",-23.649071,-46.622719
-270011130,"Av. Miguel Estefno, 4200","Ref.: R Doutor Jose Bento Ferreira/ Av Do Cursino -- Parque Ciência E Tecnol.",-23.648903,-46.623047
+270011128,"Av. Miguel Estefno, 4507","Ref.: Zoológico",-23.651098,-46.620907
+270011129,"Av. Miguel Estefno, 4241","Ref.: Lado Oposto Ao Parque Cientec Da USP",-23.649071,-46.622719
+270011130,"Av. Miguel Estefno, 4241","Ref.: Lateral Ao Parque Cientec Da USP",-23.648903,-46.623047
 270011134,"Av. Miguel Estefno, 3687","Ref.: R Doutor Jose Bento Ferreira/ Av Do Cursino",-23.645617,-46.625725
 270011135,"Av. Miguel Estefno, 3688","Ref.: R Doutor Jose Bento Ferreira/ Av Do Cursino",-23.645216,-46.626106
 270011136,"Av. Miguel Estefno, 3031","Ref.: R Doutor Jose Bento Ferreira/ Av Do Cursino",-23.639639,-46.627399
@@ -12044,7 +12096,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 320005818,"Estr. Vovó Dona Carolina, 992","Ref.: Est Do Palanque/ Est Saturnino Pereira",-23.602861,-46.412671
 320005819,"Estr. Vovó Dona Carolina, 137","Ref.: R Jonas Barbosa Filho/ R Jose Eduardo De Almeida",-23.594687,-46.418596
 320005823,"Estr. Vovó Dona Carolina, 1003","Ref.: Est Do Palanque/ R Jose Eduardo De Almeida",-23.602803,-46.412873
-320005824,"R. Érico Semer, 261","Ref.: R Genaro Olavide/ R Gaspar Becerra",-23.596557,-46.422930
+320005824,"R. Érico Semer, 265","Ref.: R Genaro Olavide/ R Gaspar Becerra",-23.596557,-46.422930
 320005825,"R. Érico Semer, 479","Ref.: R Genaro Olavide/ R Gaspar Becerra",-23.598201,-46.423094
 320005826,"R. Gaspar Becerra, 1050","Ref.: Rua Erico Semer",-23.599203,-46.421244
 320005827,"R. Gaspar Becerra, 296","Ref.: R Clotilde Gianoli/ R Genaro Olavide",-23.600295,-46.423439
@@ -12100,7 +12152,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 320007590,"R. Celso Betim, 125","Ref.: R Felipe Bonani/ R Bernardo Antunes Rolim",-23.602724,-46.434699
 320007591,"R. Celso Betim, 423","Ref.: R Anecy Rocha/ R Felix Bernardelli",-23.601317,-46.437832
 320007598,"R. Cubas De Mendonca, 216","Ref.: R Garcia Paes/ R Arnaldo Aguiar Barbosa",-23.599097,-46.441688
-320007604,"R. Confederação Dos Tamoios, 586","Ref.: R Cubas De Mendonca/ Vel Um",-23.600173,-46.443388
+320007604,"R. Confederação Dos Tamoios, 600","Ref.: R Cubas De Mendonca/ Vel Um",-23.600173,-46.443388
 320007605,"Tr. Somos Todos Iguais, 818","Ref.: Tr Raios De Luz/ Tr Pombinha Branca",-23.607389,-46.445627
 320007669,"Tr. Pe De Manacá, 161","Ref.: Tr Tropicana/ Tr Tantos Caminhos",-23.611469,-46.444328
 320007670,"Tr. Pe De Manacá, 158","Ref.: Tr Tropicana/ Tr Tantos Caminhos",-23.611560,-46.444282
@@ -12371,16 +12423,13 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 340015030,"Av. Brig. Faria Lima, 3477","Av. Brig. Faria Lima, 3477 Ref.: R Aspasia/ Av Horacio Lafer",-23.586955,-46.682227
 340015323,"São Gabriel B/C","Av. S. Gabriel, 640 Ref.: R Maestro Elias Lobo/ Av Nove De Julho",-23.577492,-46.671072
 340015324,"São Gabriel C/B","Av. S. Gabriel, 569 Ref.: R. Maestro Elias Lobo / Av. Nove De Julho",-23.578215,-46.671075
-340015333,"Afonso Braz C/B1","Av. Sto. Amaro, 1340 Ref.: R Doutora Maria Augusta Saraiva/ R Natividade",-23.595720,-46.673285
 340015337,"Fiandeiras C/B 1","Av. Sto. Amaro, 1662 Ref.: R Grauna/ R Antonio Pontes Camara",-23.598724,-46.673932
 340015339,"Fiandeiras C/B 2","Av. Sto. Amaro, 1632 Ref.: R Helion Povoa/ R Antonio Pontes Camara",-23.598197,-46.673955
-340015340,"Fiandeiras B/C 2","Av. Sto. Amaro, 1525 Ref.: R Silvania/ Av Helio Pellegrino",-23.597695,-46.673763
 340015344,"Parada 2 - Eucaliptos C/B","Av. Sto. Amaro, 2280 Ref.: R Doutor Andrade Pertence/ R Professor Vahia De Abreu",-23.604300,-46.675004
 340015346,"Parada 1 - Eucaliptos C/B","Av. Sto. Amaro, 2362 Ref.: R Doutor Andrade Pertence/ R Professor Vahia De Abreu",-23.604642,-46.675139
 340015356,"R. Ribeirão Claro, 525","Ref.: Av Doutor Cardoso De Melo/ R Professor Vahia De Abreu",-23.601174,-46.679346
 340015359,"Av. Dr. Cardoso De Melo, 767","Ref.: R Nova Cidade/ R Marcelo Campos Marques",-23.600056,-46.681333
 340015360,"Av. Dr. Cardoso De Melo, 563","Ref.: R Ribeirao Claro/ R Nova Cidade",-23.600858,-46.679595
-340015364,"Av. Dr. Cardoso De Melo, 1283","Ref.: R Lourenco Marques/ R Bramantino",-23.597985,-46.685795
 340015365,"Av. Dr. Cardoso De Melo, 1046","Ref.: R Julio Diniz/ R Ponta Delgada",-23.598910,-46.683812
 340015366,"R. Gomes De Carvalho, 560","Ref.: R Ribeirao Claro/ R Elizabeth Trovao Usui",-23.599860,-46.679075
 340015374,"R. Olímpiadas","Ref.: R Ramos Batista/ R Das Fiandeiras",-23.595181,-46.683383
@@ -13628,7 +13677,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 410003516,"R. Francisco Da Cunha Menezes, 148","Ref.: R Sem Nome",-23.445454,-46.743402
 410003517,"R. Francisco Da Cunha Menezes, 39","Ref.: R Gabriele Fattorini/ R Sem Nome - Número 39b",-23.445290,-46.743416
 410003518,"R. Ilha Dos Sete Engenhos, 25","Ref.: Oposto À R. Guiomar Novaes",-23.447302,-46.746126
-410003519,"R. Ilha Dos Sete Engenhos, 22","Ref.: R Guiomar Novaes/ R Sem Nome",-23.447402,-46.745993
 410003520,"R. Pst. Alcebíades Pereira Vasconcelos, 40","Ref.: Av Alexios Jafet/ R Sem Nome",-23.445894,-46.747601
 410003521,"R. Pst. Alcebíades Pereira Vasconcelos, 295","Ref.: R Balsamo Da Horta/ R Vale Das Flores",-23.445774,-46.746013
 410003522,"R. Pst. Alcebíades Pereira Vasconcelos, 235","Ref.: R Balsamo Da Horta/ R Vale Das Flores",-23.445576,-46.746043
@@ -13959,6 +14007,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 420013322,"R. Sebastian Bodinus, 9","Ref.: R Cabral Do Nascimento/ R Henri Barbuse",-23.701458,-46.763076
 420013323,"R. Sebastian Bodinus, 19","Ref.: R Cabral Do Nascimento/ R Henri Barbuse",-23.700674,-46.762768
 420013324,"R. Paulo Simões Da Costa, 22","Ref.: Av Professor Mario Mazagao/ R Francisco Matias De Lima",-23.699214,-46.762595
+420013325,"Estr. Da Baronesa, 2034","Estr. Da Baronesa, 2034 Ref.: Av Nova Arcadia/ Oposto Ao Ceu Guarapiranga",-23.697377,-46.766619
 420013326,"Estr. Da Baronesa, 1717","Ref.: Av Nova Arcadia/ R Bonifacio Pasquali/ceu Guarapiranga",-23.696382,-46.765120
 420013329,"Estr. Da Baronesa, 50","Ref.: R Do Cromatismo/ R Do Contraponto",-23.692008,-46.762125
 420013330,"Estr. Da Baronesa, 72","Ref.: R Das Modulacoes/ R Dos Temas",-23.690849,-46.760133
@@ -14186,17 +14235,16 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 440016922,"Av. Paulista, 1578","Ref.: R Plinio Figueiredo/ Tunel Daher Elias Cutait (op Ao Masp)",-23.561459,-46.656550
 440016923,"Av. Paulista, 901","Ref.: Al Joaquim Eugenio De Lima/ Al Campinas",-23.565789,-46.651451
 450011164,"Parada Itapaiúna 1 - C/B","Av. João Dias, 4996 Ref.: R Afonso Vidal/ R Joao De Araujo Cabral",-23.643711,-46.732349
-450011541,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves - Plataforma 2",-23.643633,-46.734412
-450011543,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643659,-46.734157
-450011545,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643686,-46.733857
-450011546,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643721,-46.733552
-450011547,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643741,-46.733278
-450011548,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643777,-46.732793
-450011549,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643800,-46.732563
-450011550,"Terminal João Dias","Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643876,-46.733341
-450011551,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643862,-46.733775
-450011552,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643842,-46.734141
-450011553,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643826,-46.734285
+450011541,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 2 (6041-21)",-23.643633,-46.734412
+450011543,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 4 (7021-10)",-23.643659,-46.734157
+450011545,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 6 (6801-10 E 6801-51)",-23.643686,-46.733857
+450011547,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 7 (675i-10 / N744-11)",-23.643741,-46.733278
+450011548,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 8 (6403-10 E N837-11)",-23.643777,-46.732793
+450011549,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 9 (6400-10)",-23.643800,-46.732563
+450011550,"Tjd - Desembarque","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 10 (desembarque)",-23.643876,-46.733341
+450011551,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 12 (5119-23 E N743-11)",-23.643862,-46.733775
+450011552,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 14 (6804-10)",-23.643842,-46.734141
+450011553,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 15 (6806-10)",-23.643826,-46.734285
 450011565,"Amaro Velho 1","Av. Guarapiranga, 1834 Ref.: R Felipe Veras/ R Joao Da Veiga",-23.667467,-46.730129
 450011566,"Amaro Velho 2","Av. Guarapiranga, 1878 Ref.: R Antonio Vaz/ R Joao Da Veiga",-23.667547,-46.730610
 450011567,"Francisco Xavier","Av. Guarapiranga, 1878 Ref.: R Antonio Vaz/ R Joao Da Veiga",-23.667594,-46.730589
@@ -14258,6 +14306,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 450011771,"R. Sebastião Muniz De Sousa, 234","Ref.: R Fontes De Roma/ R Fausto De Gounod",-23.665777,-46.750425
 450011772,"R. Sebastião Muniz De Sousa, 235","Ref.: R Fontes De Roma/ R Fausto De Gounod",-23.665889,-46.750555
 450011773,"R. Sebastião Muniz De Sousa, 421","Ref.: R Fausto De Gounod/ Av Raquel Alves Moreira",-23.666491,-46.751597
+450011774,"R. Sebastião Muniz De Sousa, 676","R. Sebastião Muniz De Sousa, 676 Ref.: Av Raquel Alves Moreira/ R Fausto De Gounod",-23.667360,-46.752747
 450011775,"Av. Raquel Alves Moreira, 354","Ref.: R Sebastiao Muniz De Sousa/ Vel Quarenta E Dois",-23.667484,-46.752621
 450011777,"Av. Raquel Alves Moreira, 1099","Ref.: R Valdomiro Dos Santos Pereira/ R Expedito De Oliveira Santos",-23.666332,-46.753208
 450011778,"Pça. Manoel Maiotti","Pça. Manoel Maiotti Ref.: Pc Manoel Maiotti/ R Altino Alves De Abreu",-23.664846,-46.753142
@@ -14698,7 +14747,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 480012863,"R. Conrado Moreschi, 105","R. Conrado Moreschi, 105 Ref.: R Herbart/ R John Harrison",-23.519348,-46.702151
 480012864,"R. Conrado Moreschi, 101","R. Conrado Moreschi, 101 Ref.: R Herbart/ R John Harrison",-23.519451,-46.702083
 480012867,"R. Conrado Moreschi, 55","R. Conrado Moreschi, 55 Ref.: R Herbart/ R John Harrison",-23.519915,-46.701748
-480012868,"R. Herbart","Ref.: R Doutor Cincinato Pomponet/ Pc Miguel Dell Erba -- Praça Melvim Jones",-23.519970,-46.701516
+480012868,"R. Herbart","R. Herbart Ref.: R Doutor Cincinato Pomponet/ Pc Miguel Dell Erba -- Praça Melvim Jones",-23.519970,-46.701516
 480012869,"R. Herbart, 212","R. Herbart, 212 Ref.: R Doutor Cincinato Pomponet/ Pc Miguel Dell Erba",-23.520066,-46.701667
 480012870,"R. Albion, 176","Ref.: R Doze De Outubro/ R Domingos Rodrigues",-23.523452,-46.706271
 480012872,"R. Brig. Gavião Peixoto, 758","Ref.: Pc Euclides De Araujo Costa/ R Eleuterio Prado",-23.524198,-46.717038
@@ -15346,7 +15395,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 530015320,"Republica Do Libano B/C","Av. Ibirapuera, 1599 Ref.: Av Indianopolis/ R Prestes Joao",-23.599261,-46.658076
 530015321,"Av. Ibirapuera, 901","Ref.: Pc Meste De Aviz/ Largo Meste De Aviz",-23.595082,-46.654019
 530015327,"Parada J.k.  B/C (acesso Ao Itaim)","Av. Sto. Amaro Ref.: Lateral Tunel Takeharu Akagawa B/C",-23.585198,-46.670511
-530015342,"Fiandeiras B/C1","Av. Sto. Amaro, 1481 Ref.: R Natividade/ R Das Fiandeiras",-23.597141,-46.673646
 530015348,"Eucaliptos B/C","Av. Sto. Amaro, 2283 Ref.: R Doutor Andrade Pertence/ Av Joao Castaldi",-23.604788,-46.675035
 530015350,"R. Araguari, 753","Ref.: Av Pavao/ Av Santo Amaro",-23.602448,-46.673963
 530015351,"Av. Rouxinol, 630","Ref.: R Gaivota/ Al Jauaperi",-23.604504,-46.669075
@@ -15388,7 +15436,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 530015432,"Al. Dos Arapanes, 100","Ref.: Av Agami/ R Dos Aracuitas",-23.599833,-46.660637
 530015433,"Al. Dos Arapanes, 276","Ref.: Av Juriti/ R Ministro Gabriel Rezende Passos",-23.601102,-46.661784
 530015434,"Av. Juriti, 19","Ref.: R Tuim/ R Inhambu",-23.598012,-46.666614
-530015437,"Av. Hélio Pellegrino, 836","Ref.: R Dr Ernani Pereira / Av Santo Amaro",-23.598074,-46.673097
 530015442,"Av. Hélio Pellegrino, 619","Ref.: Rua Quicaba",-23.598492,-46.670907
 530015445,"R. Dos Açores, 305","Ref.: R Dom Diniz/ R Dom Joao Vi",-23.596897,-46.660717
 530015497,"Av. Brig. Luís Antônio, 5012","Ref.: R Oliveira Dias/ Av Santo Amaro",-23.583612,-46.669339
@@ -15501,7 +15548,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 540014406,"R. Leocádia Cintra, 15","Ref.: R Orville Derby/ R Tijuguacu",-23.556932,-46.603245
 540014407,"R. Orville Derby, 25","Ref.: R Olimpio Portugal/ R Da Mooca",-23.555519,-46.603270
 540014451,"R. Lituânia, 249","Ref.: R Doutor Francisco Eugenio/ R Pascoal Moreira",-23.563054,-46.589842
-540014452,"R. Tamarataca, 57","R. Tamarataca, 57 Ref.: R Dias Leme/ R Do Oratorio",-23.563530,-46.591297
+540014452,"R. Tamarataca, 57","Ref.: Rua Do Oratório",-23.563530,-46.591297
 540014454,"R. Pe. Adelino, 71","Ref.: Pc Barao De Tiete/ R Siqueira Bueno",-23.546072,-46.593176
 540014456,"R. Jaibarás, 300","Ref.: R Doutor Guilherme Elis/ R Doutor Guilherme Elis",-23.548134,-46.597157
 540014457,"R. Jaibarás, 299","Ref.: R Doutor Guilherme Elis/ R Doutor Guilherme Elis",-23.548241,-46.597028
@@ -15550,7 +15597,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 550011402,"R. Br. Do Melgaço, 360","Ref.: R Barao De Campos Gerais/ Av Duquesa De Goias",-23.609659,-46.705735
 550011404,"R. Br. Do Melgaço, 20","Ref.: R Adalivia De Toledo/ R Barao De Campos Gerais",-23.608831,-46.707079
 550011406,"Av. Dqa. De Goiás","Ref.: R. Américo Alves Pereira Filho / Av. Boaventura José Rodrigues Neto",-23.611078,-46.703523
-550011407,"Av. Dqa. De Goiás, 391","Ref.: R Americo Alves Pereira Filho/ R Ministro Nelson Hungria",-23.611653,-46.703272
+550011407,"Av. Dqa. De Goiás, 571","Ref.: R Americo Alves Pereira Filho/ R Ministro Nelson Hungria",-23.611653,-46.703272
 550011408,"Av. Dqa. De Goiás, 670","Ref.: R Ulysses Reis De Mattos/ R George Eastman",-23.613165,-46.702864
 550011409,"Av. Dqa. De Goiás, 675","Ref.: R Ulysses Reis De Mattos/ R George Eastman",-23.613430,-46.702691
 550011410,"Av. Dqa. De Goiás, 832","Ref.: R Ulysses Reis De Mattos/ R George Eastman",-23.614525,-46.702490
@@ -16744,6 +16791,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 640000115,"Av. Sta. Mônica, 21","Ref.: R Ribeirao Vermelho / R Rose Mari",-23.482169,-46.748904
 640000116,"Av. Sta. Mônica, 204","Ref.: R Rose Mari/ R Sta Albina",-23.480997,-46.748639
 640000118,"R. Manuel Bento Da Cruz, 144","Ref.: Est Turistica Do Jaragua/ Av Inacia De Toledo",-23.469089,-46.753036
+640000122,"Av. Inácia De Toledo, 379","Av. Inácia De Toledo, 379 Ref.: R. Padre Vicente Gaudineri",-23.469779,-46.751895
 640000123,"R. Manuel Antônio Carvalho, 209","Ref.: R Maj. Alfredo Romao/ R Jose Tomas De Souza",-23.470134,-46.750157
 640000124,"R. Manuel Antônio Carvalho, 224","Ref.: R Jose Tomas De Souza/ R Maj. Alfredo Romao",-23.470228,-46.750206
 640000126,"Av. Sta. Mônica, 1104","Ref.: R Francisco Henriques/ R Des. Joaquim Bandeira De Mello",-23.474509,-46.749483
@@ -17213,6 +17261,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 660010670,"R. José Porfírio De Souza, 996","R. José Porfírio De Souza, 996 Ref.: R Jose Fioravante/ R Engenheiro Hugo Takahashi",-23.600469,-46.784179
 660010671,"R. José Porfírio De Souza","R. José Porfírio De Souza Ref.: R Jose Fioravante/ R Engenheiro Hugo Takahashi -- Mercado Mini Preço",-23.600350,-46.784242
 660010672,"Av. Circular, 116","Ref.: R A/ R B",-23.595633,-46.776909
+660010673,"Av. Circular","Av. Circular Ref.: Rua A/ Rua B -- Rua D",-23.598962,-46.776117
 660010674,"Av. Circular","Ref.: Rua C/ R D",-23.598678,-46.774672
 660010675,"Av. Circular","Ref.: Rua D/ R A",-23.596244,-46.776397
 660010676,"Pça. Festa Das Luzes, 4415","Pça. Festa Das Luzes, 4415 Ref.: Av Engenheiro Heitor Antonio Eiras Garcia/ R Pascoal Zullino",-23.590015,-46.770024
@@ -17313,6 +17362,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 670012978,"Pça. Do Correio","Pça. Do Correio Ref.: Vdto Santa Ifigenia/ Av Prestes Maia -- Rua Do Seminário",-23.543150,-46.635721
 670012980,"Pça. Do Correio","Pça. Do Correio Ref.: Vdto Santa Ifigenia -- Av. Prestes Maia",-23.542836,-46.635553
 670012983,"R. Riskallah Jorge, 80","R. Riskallah Jorge, 80 Ref.: R Brigadeiro Tobias/ Av Prestes Maia",-23.541937,-46.635080
+670012984,"Av. Prestes Maia, 481","Av. Prestes Maia, 481 Ref.: R Dom Francisco De Sousa/ Pas Subterranea Tom Jobim",-23.540871,-46.634233
 670012986,"Av. Sen. Queiros","Ref.: R Brigadeiro Tobias/ R Dom Francisco De Sousa",-23.539240,-46.634803
 670012996,"Av. Câsper Líbero, 45","Ref.: R Coronel Batista Da Luz/ R Antonio De Godoi",-23.541189,-46.636676
 670012997,"R. Cap. Salomão, 27","Ref.: R Do Seminario/ Largo Paissandu",-23.543016,-46.636654
@@ -18674,6 +18724,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 750006125,"Av. Adélia Chohfi, 704","Ref.: Av Sapopemba/ R Dirceu Coelho",-23.613353,-46.476750
 750006126,"Av. Mateo Bei, 3484","Ref.: R Doutor Felice Buscaglia/ R Ernesto Manograsso",-23.610864,-46.476386
 750006127,"Av. Mateo Bei, 3419","Ref.: R Doutor Felice Buscaglia/ R Ernesto Manograsso",-23.610315,-46.476571
+750006128,"Av. Mateo Bei, 3371","Av. Mateo Bei, 3371 Ref.: R Doutor Felice Buscaglia/ R Ernesto Manograsso",-23.610011,-46.476786
 750006129,"Av. Mateo Bei, 3244","Ref.: R Doutor Felice Buscaglia/ R Doutor Edmur Whitaker",-23.609144,-46.477522
 750006130,"Av. Mateo Bei, 3247","Ref.: R Doutor Felice Buscaglia/ R Doutor Edmur Whitaker",-23.609027,-46.477473
 750006131,"Av. Mateo Bei, 3096","Ref.: R Doutor Edmur Whitaker/ R Francisco Cordelli",-23.607854,-46.478384
@@ -18745,7 +18796,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 750006774,"Terminal S. Mateus - Plat. B","Term. S. Mateus - Plat. B Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.612759,-46.476282
 750006775,"Terminal S. Mateus - Plat. B","Term. S. Mateus - Plat. B Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.612880,-46.476322
 750006776,"Terminal S. Mateus - Plat. B","Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613025,-46.476348
-750006777,"Terminal S. Mateus - Plat. B","Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613166,-46.476383
+750006777,"Terminal S. Mateus - Plat. B","Term. S. Mateus - Plat. B Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613166,-46.476383
 750006778,"Terminal S. Mateus - Plat. B","Term. S. Mateus - Plat. B Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613301,-46.476426
 750006779,"Terminal S. Mateus - Plat. B","Term. S. Mateus - Plat. B Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613425,-46.476464
 750006782,"Terminal S. Mateus - Plat. B","Ref.: Av Sapopemba/ Pc Felisberto Fernandes Da Silva",-23.613560,-46.476498
@@ -19766,7 +19817,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 820012541,"Parada 1/2/3 - Hospital Cristo Rei","Av. Celso Garcia, 5019 Ref.: R Dom Aquino Correa/ R São Jorge",-23.533157,-46.564222
 820012542,"Parada 2 - Hosp. Munic. Tatuapé","Av. Celso Garcia, 4677 Ref.: R José Tavares Siqueira/ R Santo Elias",-23.534106,-46.567485
 820012544,"Parada 1/3 - Hosp. Munic. Do Tatuapé","Av. Celso Garcia, 4722 Ref.: R Coronel Souza Reis/ R Santo Elias",-23.534240,-46.567060
-820012545,"Parada 2- Hosp. Municipal Tatuapé","Av. Celso Garcia, 4658 Ref.: R José Tavares De Siqueira/ R Coronel Sousa Reis",-23.534413,-46.567550
+820012545,"Parada 2 - Hosp. Municipal Tatuapé","Av. Celso Garcia, 4658 Ref.: R José Tavares De Siqueira/ R Coronel Sousa Reis",-23.534413,-46.567550
 820012549,"Parada 1/2/3 - Biblioteca","Av. Celso Garcia, 4076 Ref.: R Dom Andres Lamas/ R Coronel Carlos Oliva",-23.535857,-46.572975
 820012550,"Parada 1/2/3 - Tuiuti","Av. Celso Garcia, 4043 Ref.: R Dom Andres Lamas/ R Coronel Carlos Oliva",-23.535614,-46.573228
 820012552,"Parada 1/2/3 - Tuiuti","Av. Celso Garcia, 3750 Ref.: R Tanquinho/ R Tuiuti",-23.535177,-46.576183
@@ -20091,15 +20142,10 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 840000704,"R. Ladário, 263","Ref.: R Barra Da Jangada/ R Isaura",-23.485695,-46.602151
 840002040,"Av. Luís Dumont Vilares","Ref.: R Vinte E Quatro De Dezembro/ R Silvio Rodine",-23.489467,-46.609821
 840002042,"Terminal Metrô Parada Inglesa","Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486684,-46.608124
-840002044,"Terminal Metrô Parada Inglesa","Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486705,-46.608222
-840002045,"Terminal Metrô Parada Inglesa","Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486722,-46.608331
 840002046,"Terminal Metrô Parada Inglesa","Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486802,-46.608075
-840002047,"Terminal Metrô Parada Inglesa","Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486817,-46.608199
 840002049,"Terminal Metrô Parada Inglesa","Term. Metrô Parada Inglesa Ref.: R Prf. Marcondes Domingues/ R Inglesa",-23.486857,-46.608417
 840002050,"Av. Luís Dumont Vilares, 2212","Ref.: R Ponte Pensa/ Av Alvaro Machado Pedrosa",-23.483404,-46.606380
 840002051,"Parada Juncal","R. Domingos Calheiros, 220 Ref.: R Tome De Lara/ R Juncal",-23.479375,-46.609816
-840002053,"R. Dr. Natalino Righeto","Ref.: R Paulo Maldi/ R Pe. Lourenco Craveiro",-23.482430,-46.612026
-840002054,"R. Inglesa","Ref.: Av Mal. Eurico Gaspar Dutra/ R Do Tramway",-23.485625,-46.610291
 840002055,"Av. Luís Dumont Vilares, 2074","Ref.: Av Mal. Eurico Gaspar Dutra/ R Prf. Marcondes Domingues",-23.484319,-46.607679
 840002056,"Av. Luís Dumont Vilares, 1721","Ref.: R Inglesa/ R Tome Portes",-23.487256,-46.609153
 840003864,"R. Cte. Antônio Paiva Sampaio, 760","Ref.: R Rademaquer/ Tv Piteu",-23.470921,-46.595820
@@ -20257,9 +20303,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 850011321,"Av. Giovanni Gronchi, 3567","Ref.: R Major Jose Marioto Ferreira/ R Manoel Antonio Pinto",-23.612630,-46.729181
 850011436,"R. Charles D'aviler, 48","Ref.: R Jose Maria Pinto Zilli/ R Francisco De Sales",-23.621735,-46.745439
 850011437,"R. Charles D'aviler, 47","Ref.: R Jose Maria Pinto Zilli/ R Francisco De Sales",-23.621726,-46.745388
-850011542,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643646,-46.734277
-850011544,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643672,-46.733999
-850011554,"Terminal João Dias","Term. João Dias Ref.: Vdto Honestino Monteiro Guimaraes/ Av Alberto Augusto Alves",-23.643817,-46.734454
+850011542,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 3 (6805-31)",-23.643646,-46.734277
+850011544,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 2 - Pmd 5 (6836-10)",-23.643672,-46.733999
+850011554,"Terminal João Dias","Term. João Dias Ref.: Tjd - Plat. 3 - Pmd 16 (6803-10)",-23.643817,-46.734454
 850011930,"Av. Carlos Caldeira Filho","Ref.: Av Giovanni Gronchi/ R Joaquim Nunes Teixeira",-23.640319,-46.737296
 850011931,"Av. Carlos Caldeira Filho, 80","Ref.: R Joao Calixto/ R Joaquim Nunes Teixeira",-23.638630,-46.741876
 850011932,"Av. Carlos Caldeira Filho, 5722","Ref.: R Joao Calixto/ R Joaquim Nunes Teixeira",-23.638187,-46.741102
@@ -20548,7 +20594,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 870012168,"R. Lucília De Queiroz, 65","Ref.: R Eleonora Cintra/ Av Emilia Marengo",-23.554232,-46.562221
 870012170,"R. Emília Marengo, 856","Ref.: R Joaquim Sabino/ Tr Anezio Collepicolo",-23.554782,-46.559576
 870012172,"R. Emília Marengo, 1261","Ref.: R Antonio Pizzoli/ R Francisco Marengo",-23.555807,-46.555700
-870012173,"R. Acurui, 72","Ref.: R Antonio De Barros/ Pc Bela Lorena",-23.556802,-46.553616
 870012174,"R. Acurui","Ref.: R Antonio De Barros/ Pc Bela Lorena",-23.557163,-46.553294
 870012175,"R. Acurui, 292","Ref.: Pc Bela Lorena/ R Curupa",-23.558302,-46.553164
 870012176,"R. Acurui, 493","Ref.: R Curupa/ Pc Santo Atanasio",-23.559913,-46.552890
@@ -20704,7 +20749,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 890004493,"R. Jaime Barcelos, 535","Ref.: R Auri De Carin/ Av Afonso Lopes De Baiao - Ee. Tide Setubal",-23.501436,-46.448866
 890004542,"R. El Rey, 375","Ref.: R Equatorial/ R Clarear",-23.510681,-46.472786
 890004543,"R. El Rey, 376","Ref.: R Lua Cheia/ R Equatorial",-23.510485,-46.472632
-890004544,"Av. Cesar Augusto Romaro, 724","Ref.: R Cristiano Otoni/ Av Manoel Dos Santos Braga",-23.508086,-46.470556
+890004544,"Av. Cesar Augusto Romano, 724","Ref.: R Cristiano Otoni/ Av Manoel Dos Santos Braga",-23.508086,-46.470556
 890004545,"Av. Augusto Antunes, 128","Ref.: R Elias Bedran/ R Mario Pati",-23.508756,-46.468294
 890004546,"Av. Manoel Dos Santos Braga, 1223","Av. Manoel Dos Santos Braga, 1223 Ref.: R Conceicao De Itagua/ Av Augusto Antunes",-23.507905,-46.468218
 890004547,"Av. Augusto Antunes, 334","Ref.: R Elias Bedran/ Av Henrique Franco",-23.510447,-46.468401
@@ -20836,7 +20881,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 900014768,"Av. Impz. Leopoldina, 189","Ref.: R Carneiro Da Silva/ R Sebastiao Bach",-23.524997,-46.736321
 900014769,"Av. Impz. Leopoldina, 180","Ref.: R Carneiro Da Silva/ R Sebastiao Bach",-23.524851,-46.736577
 900014770,"R. Belmonte, 600","Ref.: R Barao Da Passagem/ R Racine",-23.524167,-46.721566
-900014771,"R. Br. Da Passagem, 461","Ref.: R Racine/ R Belmonte",-23.525038,-46.722467
 900014772,"R. Br. Da Passagem, 478","Ref.: R Racine/ R Belmonte",-23.524946,-46.722654
 900014773,"R. Br. Da Passagem, 584","Ref.: R Visconde De Pelotas/ R Racine",-23.524682,-46.724040
 900014774,"R. Cordilheiras, 48","Ref.: R Peribebui/ R Aquidaba",-23.526140,-46.724182
@@ -21130,7 +21174,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 920015232,"R. Sena Madureira, 70","Ref.: R Domingos De Morais/ R Nuporanga",-23.592448,-46.636993
 920015233,"R. Sena Madureira, 450","Ref.: R Marselhesa/ R Coronel Lisboa",-23.593596,-46.640456
 920015234,"Pça. Kenichi Nakagawa, 980","Ref.: Pc Kenichi Nakagawa/ R Paulo Francis",-23.593055,-46.646125
-920015235,"Av. Cons. Rodrigues Alves, 1247","Ref.: R Joaquim Tavora/ R Morgado De Mateus",-23.588238,-46.648127
+920015235,"Av. Cons. Rodrigues Alves, 1213","Ref.: R Joaquim Tavora/ R Morgado De Mateus",-23.588238,-46.648127
 920015236,"Av. Cons. Rodrigues Alves, 1274","Ref.: R Joaquim Tavora/ R Morgado De Mateus",-23.588094,-46.648184
 920015237,"Av. Cons. Rodrigues Alves, 1081","Ref.: R Morgado De Mateus/ Av Doutor Dante Pazzanese",-23.586390,-46.647854
 920015240,"Av. Cons. Rodrigues Alves, 575","Ref.: R Hidebrando Thomaz De Carvalho",-23.584586,-46.643601
