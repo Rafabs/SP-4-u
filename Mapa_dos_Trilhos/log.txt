@@ -5620,3 +5620,4 @@
 2025-02-24 00:31:22,910 - INFO - Fechando Linha 4 - Amarela
 2025-02-24 00:39:37,569 - INFO - Fechando Linha 8 - Diamante
 2025-02-24 00:39:52,274 - INFO - Fechando Linha 9 - Esmeralda
+2025-02-24 00:40:19,811 - INFO - Fechando Linha 9 - Esmeralda
