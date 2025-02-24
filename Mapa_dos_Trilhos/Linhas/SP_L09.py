@@ -295,7 +295,7 @@ def mapa_linha():
         root.after(1000, atualizar_data_hora)
 
     def alternar_imagens(index=1):
-        if index > 6:
+        if index > 17:
             index = 1
 
         # Define o caminho da imagem com base na operadora
