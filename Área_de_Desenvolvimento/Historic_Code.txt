@@ -1,6 +1,14 @@
 ** Documente os registros de anotações realizadas em cada trecho de código abaixo (APÓS SOLUCIONADO) **
 ---------------------------------------------------------------------------------------------------------------
 
+>> [0190] 00:10 24/02/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+>> [0191] 00:10 24/02/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/pesquisa_od.py
+
+- [ ] PESQUISA ORIGEM E DESTINO - REFORMULAR POR INTEIRO TODOS OS ANOS ANTERIORES
+INSERIDO FUNÇÃO E CRIADO NOVA APLICAÇÃO PARA EXIBIÇÃO DE DADOS DA PESQUISA ORIGEM E DESTINO 1997, 2007 E 2017
+
+---------------------------------------------------------------------------------------------------------------
+
 >> [0177] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L01.py
 >> [0178] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L02.py
 >> [0179] 18:27 10/01/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/SP_L03.py

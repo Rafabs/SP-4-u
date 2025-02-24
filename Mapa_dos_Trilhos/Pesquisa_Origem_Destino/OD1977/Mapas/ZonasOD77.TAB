@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 3
+    Zona Integer Index 1 ;
+    NomeZona Char (20) ;
+    area_ha Decimal (8, 2) ;

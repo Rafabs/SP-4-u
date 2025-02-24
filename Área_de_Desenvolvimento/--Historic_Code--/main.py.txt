@@ -1,3 +1,29 @@
+>> 00:10 24/02/2025 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
+- [ ] PESQUISA ORIGEM E DESTINO - REFORMULAR POR INTEIRO TODOS OS ANOS ANTERIORES
+
+de (Linha 21)
+Vazio
+
+para (Linha 21)
+from pesquisa_od import pesquisa_od_metro
+
+de (Linha 319)
+Vazio
+
+para (Linha 319)
+# Frame Pesquisas
+frame_pesquisas_metro = ttk.LabelFrame(root, text="Pesquisas", labelanchor='n', padding=10)
+frame_pesquisas_metro.place(relx=0.611, rely=0.01, anchor=tk.N)
+criar_botao(frame_pesquisas_metro, "Pesquisa Origem e Destino", pesquisa_od_metro, "black", "#00c9c4", "#007875", width=26)
+criar_botao(frame_pesquisas_metro, "Entrada de Passageiro por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", width=26)
+
+
+(X) SOLUCIONADO
+( ) EM DESENVOLVIMENTO
+( ) NÃO DEU CERTO
+
+---------------------------------------------------------------------------------------------------------------
+
 >> 00:37 24/12/2024 RB - Mapa dos Trilhos/Área de Desenvolvimento/Code_Sobre/main.py
 - [ ] RETROFIT LINHAS E TITULARIDADES EM MAIN.PY E ATUALIZAÇÃO DO DIAGRAMA
 

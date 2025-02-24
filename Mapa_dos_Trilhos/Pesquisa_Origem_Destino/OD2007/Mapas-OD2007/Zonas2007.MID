@@ -1,0 +1,460 @@
+1,"Sé",36,"São Paulo",56.46
+2,"Parque Dom Pedro",36,"São Paulo",113.39
+3,"Praça João Mendes",36,"São Paulo",48.65
+4,"Ladeira da Memória",36,"São Paulo",73.14
+5,"República",36,"São Paulo",75.24
+6,"Santa Efigênia",36,"São Paulo",82.93
+7,"Luz",36,"São Paulo",153.27
+8,"Bom Retiro",36,"São Paulo",140.91
+9,"Ponte Pequena",36,"São Paulo",129.33
+10,"Canindé",36,"São Paulo",81.28
+11,"Bom Jardim",36,"São Paulo",49.89
+12,"Pari",36,"São Paulo",139.95
+13,"João Teodoro",36,"São Paulo",39.99
+14,"Oriente",36,"São Paulo",69.94
+15,"Bresser",36,"São Paulo",78.29
+16,"Brás",36,"São Paulo",109.40
+17,"Gasômetro",36,"São Paulo",67.66
+18,"Independência",36,"São Paulo",254.78
+19,"Cambuci",36,"São Paulo",140.18
+20,"Glicério",36,"São Paulo",107.95
+21,"Aclimação",36,"São Paulo",113.52
+22,"Pires da Mota",36,"São Paulo",50.59
+23,"Centro Cultural",36,"São Paulo",31.99
+24,"Liberdade",36,"São Paulo",62.79
+25,"Treze de Maio",36,"São Paulo",43.51
+26,"Bexiga",36,"São Paulo",52.34
+27,"Bela Vista",36,"São Paulo",93.02
+28,"São Carlos do Pinhal",36,"São Paulo",31.26
+29,"Masp",36,"São Paulo",57.16
+30,"Higienópolis",36,"São Paulo",67.80
+31,"Vila Buarque",36,"São Paulo",89.58
+32,"Consolação",36,"São Paulo",57.02
+33,"Pacaembu",36,"São Paulo",90.34
+34,"FAAP",36,"São Paulo",74.40
+35,"Santa Cecília",36,"São Paulo",145.71
+36,"Marechal Deodoro",36,"São Paulo",141.91
+37,"Rudge",36,"São Paulo",84.69
+38,"Catumbi",36,"São Paulo",80.71
+39,"Belém",36,"São Paulo",159.43
+40,"Quarta Parada",36,"São Paulo",126.93
+41,"Belenzinho",36,"São Paulo",182.98
+42,"Celso Garcia",36,"São Paulo",63.74
+43,"Moóca",36,"São Paulo",268.11
+44,"Alto da Moóca",36,"São Paulo",141.28
+45,"Parque da Moóca",36,"São Paulo",381.52
+46,"Água Rasa",36,"São Paulo",317.73
+47,"Vila Bertioga",36,"São Paulo",189.08
+48,"Regente Feijó",36,"São Paulo",209.53
+49,"Ana Rosa",36,"São Paulo",94.19
+50,"Jardim da Glória",36,"São Paulo",88.97
+51,"Chácara Klabin",36,"São Paulo",97.92
+52,"Vila Mariana",36,"São Paulo",59.44
+53,"Santa Cruz",36,"São Paulo",108.22
+54,"Vila Clementino",36,"São Paulo",93.97
+55,"França Pinto",36,"São Paulo",111.67
+56,"Rodrigues Alves",36,"São Paulo",103.89
+57,"Paraíso",36,"São Paulo",95.61
+58,"Bosque da Saúde",36,"São Paulo",169.36
+59,"Saúde",36,"São Paulo",261.06
+60,"Planalto Paulista",36,"São Paulo",320.08
+61,"Mirandópolis",36,"São Paulo",174.93
+62,"Parque Ibirapuera",36,"São Paulo",283.98
+63,"Jardim Luzitânia",36,"São Paulo",103.07
+64,"Moema",36,"São Paulo",280.64
+65,"Bandeirantes",36,"São Paulo",132.67
+66,"Vila Nova Conceição",36,"São Paulo",112.36
+67,"Chácara Itaim",36,"São Paulo",202.75
+68,"Vila Olimpia",36,"São Paulo",89.71
+69,"Hélio Pelegrino",36,"São Paulo",103.53
+70,"Brooklin",36,"São Paulo",236.07
+71,"Vila Cordeiro",36,"São Paulo",177.32
+72,"Berrini",36,"São Paulo",200.66
+73,"Campinas",36,"São Paulo",48.93
+74,"Pamplona",36,"São Paulo",51.31
+75,"Jardins",36,"São Paulo",237.55
+76,"Clínicas",36,"São Paulo",130.85
+77,"Oscar Freire",36,"São Paulo",99.12
+78,"Trianon",36,"São Paulo",59.37
+79,"Jardim Paulistano",36,"São Paulo",98.52
+80,"Jardim Europa",36,"São Paulo",308.09
+81,"Pinheiros",36,"São Paulo",203.02
+82,"Vila Madalena",36,"São Paulo",219.70
+83,"PUC",36,"São Paulo",73.23
+84,"Cardoso de Almeida",36,"São Paulo",63.34
+85,"Zéquinha de Abreu",36,"São Paulo",49.54
+86,"Sumaré",36,"São Paulo",138.91
+87,"Perdizes",36,"São Paulo",168.44
+88,"Vila Anglo Brasileira",36,"São Paulo",79.50
+89,"Pompéia",36,"São Paulo",60.25
+90,"Santa Marina",36,"São Paulo",291.45
+91,"Barra Funda",36,"São Paulo",116.59
+92,"Francisco Matarazzo",36,"São Paulo",105.54
+93,"Água Branca",36,"São Paulo",72.60
+94,"Vila Beatriz",36,"São Paulo",183.33
+95,"Alto de Pinheiros",36,"São Paulo",254.21
+96,"Boaçava",36,"São Paulo",316.08
+97,"Vila Anastácio",36,"São Paulo",166.14
+98,"Lapa de Baixo",36,"São Paulo",239.85
+99,"Lapa",36,"São Paulo",226.00
+100,"Vila Ipojuca",36,"São Paulo",169.07
+101,"Alto da Lapa",36,"São Paulo",160.06
+102,"Gavião Peixoto",36,"São Paulo",68.46
+103,"Bela Aliança",36,"São Paulo",79.48
+104,"Vila Hamburguesa",36,"São Paulo",151.99
+105,"CEASA",36,"São Paulo",193.42
+106,"Vila Leopoldina",36,"São Paulo",93.24
+107,"Emissário",36,"São Paulo",181.78
+108,"Vila Zatt",36,"São Paulo",1216.86
+109,"Pirituba",36,"São Paulo",486.21
+110,"São Domingos",36,"São Paulo",584.47
+111,"Jardim Mutinga",36,"São Paulo",429.45
+112,"Vila Jaguara",36,"São Paulo",456.49
+113,"Jaraguá",36,"São Paulo",529.31
+114,"Nova Jaraguá",36,"São Paulo",789.78
+115,"Parada de Taipas",36,"São Paulo",1554.06
+116,"Parque Morro Doce",36,"São Paulo",1527.16
+117,"Anhanguera",36,"São Paulo",1810.08
+118,"Perus",36,"São Paulo",2359.55
+119,"Vista Alegre",36,"São Paulo",750.61
+120,"Jardim Damasceno",36,"São Paulo",570.86
+121,"Vila Terezinha",36,"São Paulo",474.09
+122,"Brasilândia",36,"São Paulo",316.57
+123,"Vila Morro Grande",36,"São Paulo",416.75
+124,"Itaberaba",36,"São Paulo",205.02
+125,"Freguesia do Ó",36,"São Paulo",486.34
+126,"Carandiru",36,"São Paulo",38.25
+127,"Santana",36,"São Paulo",58.04
+128,"Zaki Narchi",36,"São Paulo",71.20
+129,"Tietê",36,"São Paulo",79.23
+130,"Parque Anhembi",36,"São Paulo",316.54
+131,"Alfredo Pujol",36,"São Paulo",213.03
+132,"Santa Terezinha",36,"São Paulo",252.22
+133,"Jardim São Paulo",36,"São Paulo",289.16
+134,"Casa Verde",36,"São Paulo",330.14
+135,"Parque Peruche",36,"São Paulo",392.31
+136,"Limão",36,"São Paulo",170.80
+137,"Casa Verde Alta",36,"São Paulo",471.29
+138,"Cachoeirinha",36,"São Paulo",479.20
+139,"Jardim Peri",36,"São Paulo",423.43
+140,"Reserva da Cantareira",36,"São Paulo",449.97
+141,"Mandaqui",36,"São Paulo",551.37
+142,"Horto Florestal",36,"São Paulo",342.43
+143,"ETA Guaraú",36,"São Paulo",433.08
+144,"Parque Palmas do Tremembé",36,"São Paulo",407.02
+145,"Tremembé",36,"São Paulo",331.14
+146,"Cantareira",36,"São Paulo",2834.91
+147,"Jardim das Pedras",36,"São Paulo",1637.24
+148,"Jardim Guapira",36,"São Paulo",549.52
+149,"Parada Inglesa",36,"São Paulo",242.77
+150,"Tucuruvi",36,"São Paulo",356.00
+151,"Vila Gustavo",36,"São Paulo",345.61
+152,"Cohab Jova Real",36,"São Paulo",251.02
+153,"Jaçanã",36,"São Paulo",388.30
+154,"Parque Edu Chaves",36,"São Paulo",110.58
+155,"Vila Medeiros",36,"São Paulo",335.47
+156,"Jardim Brasil",36,"São Paulo",452.11
+157,"Jardim Japão",36,"São Paulo",392.36
+158,"Parque Novo Mundo",36,"São Paulo",556.96
+159,"Vila Maria",36,"São Paulo",232.32
+160,"Vila Isolina Mazzei",36,"São Paulo",378.29
+161,"Vila Guilherme",36,"São Paulo",171.86
+162,"Corôa",36,"São Paulo",175.99
+163,"Gomes Cardim",36,"São Paulo",243.62
+164,"Tatuapé",36,"São Paulo",158.42
+165,"Chácara do Piqueri",36,"São Paulo",197.82
+166,"Parque São Jorge",36,"São Paulo",252.28
+167,"Penha",36,"São Paulo",384.77
+168,"Ticoatira",36,"São Paulo",329.29
+169,"Vila Esperança",36,"São Paulo",435.28
+170,"Rui Barbosa",36,"São Paulo",463.87
+171,"Cangaíba",36,"São Paulo",328.64
+172,"Engenheiro Goulart",36,"São Paulo",559.42
+173,"USP Leste I",36,"São Paulo",37.20
+174,"USP Leste II",36,"São Paulo",125.61
+175,"Ermelino Matarazzo",36,"São Paulo",441.82
+176,"Parque Buturussu",36,"São Paulo",371.94
+177,"Ponte Rasa",36,"São Paulo",366.36
+178,"Águia de Haia",36,"São Paulo",292.53
+179,"Limoeiro",36,"São Paulo",615.69
+180,"Vila Jacuí",36,"São Paulo",209.67
+181,"Parada XV",36,"São Paulo",321.19
+182,"Itaquera",36,"São Paulo",423.51
+183,"Vila Campanela",36,"São Paulo",493.22
+184,"Rio Verde",36,"São Paulo",236.41
+185,"Saudade",36,"São Paulo",205.87
+186,"São Miguel Paulista",36,"São Paulo",299.97
+187,"Cidade Nitro-Operária",36,"São Paulo",359.59
+188,"Jardim Helena",36,"São Paulo",687.88
+189,"Jardim Romano",36,"São Paulo",231.71
+190,"Vila Curuçá",36,"São Paulo",500.10
+191,"Jardim Robru",36,"São Paulo",448.71
+192,"Lageado",36,"São Paulo",282.70
+193,"Fabrica Bandeirantes",36,"São Paulo",614.12
+194,"Fazenda Itaim",36,"São Paulo",458.80
+195,"Itaim Paulista",36,"São Paulo",300.78
+196,"Jardim das Oliveiras",36,"São Paulo",463.81
+197,"Vila California",36,"São Paulo",340.87
+198,"Vila Carrão",36,"São Paulo",441.14
+199,"Jardim Anália Franco",36,"São Paulo",331.99
+200,"Vila Formosa",36,"São Paulo",408.29
+201,"Sapopemba",36,"São Paulo",279.20
+202,"Aricanduva",36,"São Paulo",401.40
+203,"Vila Matilde",36,"São Paulo",557.25
+204,"Vila Guilhermina",36,"São Paulo",333.11
+205,"Cidade A.E.Carvalho",36,"São Paulo",269.00
+206,"Artur Alvim",36,"São Paulo",384.03
+207,"Cidade Lider",36,"São Paulo",348.48
+208,"Santa Marcelina",36,"São Paulo",268.51
+209,"Parque Savoy",36,"São Paulo",448.71
+210,"Vila Carmosina",36,"São Paulo",342.06
+211,"Fazenda Caguaçú",36,"São Paulo",438.47
+212,"Parque do Carmo",36,"São Paulo",784.65
+213,"Gleba do Pessêgo",36,"São Paulo",1031.91
+214,"José Bonifácio",36,"São Paulo",417.08
+215,"Guaianazes",36,"São Paulo",469.94
+216,"Juscelino Kubitschek",36,"São Paulo",418.03
+217,"Cidade Tiradentes",36,"São Paulo",1488.26
+218,"Terceira Divisão",36,"São Paulo",1143.28
+219,"Iguatemi",36,"São Paulo",832.58
+220,"Parque São Rafael",36,"São Paulo",739.67
+221,"Rodolfo Pirani",36,"São Paulo",565.65
+222,"Ipiranga",36,"São Paulo",92.48
+223,"Sacomã",36,"São Paulo",89.65
+224,"Alto do Ipiranga",36,"São Paulo",160.88
+225,"Vila São josé",36,"São Paulo",177.14
+226,"Vila Monumento",36,"São Paulo",165.62
+227,"Vila Independência",36,"São Paulo",170.42
+228,"Vila Carioca",36,"São Paulo",248.40
+229,"Moinho Velho",36,"São Paulo",347.69
+230,"São João Clímaco",36,"São Paulo",427.24
+231,"Anchieta",36,"São Paulo",686.91
+232,"Parque do Estado",36,"São Paulo",461.23
+233,"Água Funda",36,"São Paulo",277.69
+234,"Jardim da Saúde",36,"São Paulo",182.75
+235,"Vila Gumercindo",36,"São Paulo",136.96
+236,"Jardim Previdência",36,"São Paulo",166.18
+237,"Tamanduatei",36,"São Paulo",102.88
+238,"Orfanato",36,"São Paulo",355.10
+239,"Vila Zelina",36,"São Paulo",498.51
+240,"Linhas Corrente",36,"São Paulo",250.83
+241,"Vila Ema",36,"São Paulo",278.82
+242,"Parque São Lucas",36,"São Paulo",451.73
+243,"Parque Sta Madalena",36,"São Paulo",368.48
+244,"Jardim Colorado",36,"São Paulo",320.56
+245,"Teotêonio Vilela",36,"São Paulo",347.30
+246,"Fazenda da Juta",36,"São Paulo",329.01
+247,"São Mateus",36,"São Paulo",431.87
+248,"Cidade IV Centenário",36,"São Paulo",334.15
+249,"Rio Claro",36,"São Paulo",209.46
+250,"Cidade Satélite",36,"São Paulo",294.88
+251,"Joaquim Nabuco",36,"São Paulo",207.24
+252,"Vieira de Moraes",36,"São Paulo",163.14
+253,"Campo Belo",36,"São Paulo",139.17
+254,"Congonhas",36,"São Paulo",178.67
+255,"Jardim Aeroporto",36,"São Paulo",198.33
+256,"Vila Santa Catarina",36,"São Paulo",325.67
+257,"Jabaquara",36,"São Paulo",288.08
+258,"Cidade Vargas",36,"São Paulo",340.96
+259,"Jardim Bom Clima",36,"São Paulo",447.13
+260,"Cupecê",36,"São Paulo",415.72
+261,"Jardim Miriam",36,"São Paulo",517.10
+262,"Vila Missionária",36,"São Paulo",297.67
+263,"Jurubatuba",36,"São Paulo",486.71
+264,"Vila São Pedro",36,"São Paulo",311.95
+265,"Campo Grande",36,"São Paulo",271.00
+266,"Vila Sabará",36,"São Paulo",236.72
+267,"Mar Paulista",36,"São Paulo",549.21
+268,"Pedreira",36,"São Paulo",1264.13
+269,"Vila Socorro",36,"São Paulo",290.47
+270,"Parque Interlagos",36,"São Paulo",923.25
+271,"Jardim Represa",36,"São Paulo",787.98
+272,"Rio Bonito",36,"São Paulo",496.51
+273,"SESC Interlagos",36,"São Paulo",733.85
+274,"Jardim Presidente",36,"São Paulo",770.65
+275,"Grajaú",36,"São Paulo",956.78
+276,"Cocaia",36,"São Paulo",2351.56
+277,"Bororé",36,"São Paulo",6069.38
+278,"Jaceguava",36,"São Paulo",3510.64
+279,"Parelheiros",36,"São Paulo",11653.90
+280,"Marsilac",36,"São Paulo",20871.35
+281,"Granja Julieta",36,"São Paulo",614.62
+282,"Chácara Flora",36,"São Paulo",451.88
+283,"Santo Amaro",36,"São Paulo",257.78
+284,"Vila Miranda",36,"São Paulo",274.36
+285,"Jardim São Luis",36,"São Paulo",409.02
+286,"Centro Empresarial",36,"São Paulo",674.67
+287,"Guarapiranga",36,"São Paulo",1530.14
+288,"Jardim Capela",36,"São Paulo",2012.45
+289,"Riviera",36,"São Paulo",805.49
+290,"M' Boi Mirim",36,"São Paulo",402.35
+291,"Jardim Angela",36,"São Paulo",464.15
+292,"Capão Redondo",36,"São Paulo",322.96
+293,"Adventista",36,"São Paulo",544.55
+294,"Parque Fernanda",36,"São Paulo",511.81
+295,"Morumbi",36,"São Paulo",270.76
+296,"Joquei Clube",36,"São Paulo",332.18
+297,"Fazenda Morumbi",36,"São Paulo",319.38
+298,"Real Parque",36,"São Paulo",223.51
+299,"Paraisópolis",36,"São Paulo",331.28
+300,"Jardim Vitória Régia",36,"São Paulo",401.69
+301,"Vila Suzana",36,"São Paulo",302.65
+302,"Parque Arariba",36,"São Paulo",349.99
+303,"Jardim Mitsutani",36,"São Paulo",349.19
+304,"Pirajussara",36,"São Paulo",269.38
+305,"Jardim Umarizal",36,"São Paulo",294.12
+306,"Portal do Morumbi",36,"São Paulo",152.34
+307,"Jardim Jussara",36,"São Paulo",230.53
+308,"Vila Sonia",36,"São Paulo",348.24
+309,"Jardim Maria do Carmo",36,"São Paulo",278.36
+310,"Jardim Cambará",36,"São Paulo",480.80
+311,"Jardim João XXIII",36,"São Paulo",467.27
+312,"Raposo Tavares",36,"São Paulo",277.29
+313,"Rio Pequeno",36,"São Paulo",507.46
+314,"Jardim Adalgiza",36,"São Paulo",461.15
+315,"Parque Continental",36,"São Paulo",222.05
+316,"Jaguaré",36,"São Paulo",428.65
+317,"Cidade Universitária",36,"São Paulo",585.95
+318,"Butantã",36,"São Paulo",205.99
+319,"Jardim Caxingui",36,"São Paulo",179.47
+320,"Jardim Bonfiglioli",36,"São Paulo",318.80
+321,"Melhoramentos",4,"Caieiras",2845.89
+322,"Caieiras",4,"Caieiras",2666.33
+323,"Santa Inês",4,"Caieiras",4198.73
+324,"Cajamar",5,"Cajamar",4928.45
+325,"Jordanésia",5,"Cajamar",8260.41
+326,"Cristais",13,"Franco da Rocha",4123.40
+327,"Franco da Rocha",13,"Franco da Rocha",6288.86
+328,"Juqueri",13,"Franco da Rocha",2952.14
+329,"Sete Voltas",12,"Francisco Morato",560.09
+330,"Francisco Morato",12,"Francisco Morato",2584.60
+331,"Cascatas",12,"Francisco Morato",1746.46
+332,"Mairiporã",21,"Mairiporã",4752.15
+333,"Paiva Castro",21,"Mairiporã",6760.17
+334,"Colinas",21,"Mairiporã",5676.43
+335,"Pirucaia",21,"Mairiporã",14983.49
+336,"Guarulhos",15,"Guarulhos",544.34
+337,"Cumbica",15,"Guarulhos",687.81
+338,"Rodovia Presidente Dutra",15,"Guarulhos",638.21
+339,"Ponte Grande",15,"Guarulhos",873.32
+340,"Vila Galvão",15,"Guarulhos",602.03
+341,"Vila Rosália",15,"Guarulhos",1012.52
+342,"Jardim América",15,"Guarulhos",1468.85
+343,"Aeroporto",15,"Guarulhos",1325.24
+344,"Pimentas",15,"Guarulhos",6069.17
+345,"Picanço",15,"Guarulhos",2912.06
+346,"Morro dos Macacos",15,"Guarulhos",3609.69
+347,"Estrada de Nazaré Paulista",15,"Guarulhos",6420.04
+348,"Vasconcelândia",15,"Guarulhos",5785.41
+349,"Arujazinho",1,"Arujá",4222.62
+350,"Arujá",1,"Arujá",3182.40
+351,"Fazenda Velha",1,"Arujá",2254.04
+352,"Santa Isabel",30,"Santa Isabel",4011.78
+353,"Jaguari",30,"Santa Isabel",32405.34
+354,"Ferraz de Vasconcelos",11,"Ferraz de Vasconcelos",987.50
+355,"Paiol Velho",11,"Ferraz de Vasconcelos",1030.93
+356,"Santos Dumont",11,"Ferraz de Vasconcelos",950.14
+357,"Jardim São José",26,"Poá",416.80
+358,"Poá",26,"Poá",1338.70
+359,"Itaquaquecetuba",18,"Itaquaquecetuba",2542.43
+360,"Bonsucesso",18,"Itaquaquecetuba",3087.41
+361,"Pinheirinho",18,"Itaquaquecetuba",2653.94
+362,"Miguel Badra",37,"Suzano",3264.59
+363,"Suzano",37,"Suzano",3681.04
+364,"Guaió",37,"Suzano",8396.93
+365,"Ouro Fino",37,"Suzano",5218.66
+366,"Mogi das Cruzes",23,"Mogi das Cruzes",1356.84
+367,"Estudantes",23,"Mogi das Cruzes",996.23
+368,"Vila Oliveira",23,"Mogi das Cruzes",2915.44
+369,"Brás Cubas",23,"Mogi das Cruzes",2148.80
+370,"Jundiapeba",23,"Mogi das Cruzes",2371.30
+371,"Jardim Graziella",23,"Mogi das Cruzes",4102.79
+372,"Itapeti",23,"Mogi das Cruzes",15779.96
+373,"Sabaúna",23,"Mogi das Cruzes",4545.98
+374,"César de Souza",23,"Mogi das Cruzes",2796.07
+375,"Reservatório de Jundiaí",23,"Mogi das Cruzes",34519.13
+376,"Biritiba Mirim",3,"Biritiba-Mirim",31909.98
+377,"Salesópolis",29,"Salosópolis",42473.20
+378,"Guararema",14,"Guararema",27212.42
+379,"Boa Vista",34,"São Caetano do Sul",295.42
+380,"Vila Gerti",34,"São Caetano do Sul",742.33
+381,"Santo Antônio",34,"São Caetano do Sul",134.89
+382,"São Caetano do Sul",34,"São Caetano do Sul",369.03
+383,"Santo André",32,"Santo André",795.01
+384,"Valparaíso",32,"Santo André",540.05
+385,"Campestre",32,"Santo André",471.89
+386,"Utinga",32,"Santo André",564.09
+387,"Vila Lucinda",32,"Santo André",455.82
+388,"Parque das Nações",32,"Santo André",1101.04
+389,"Jardim do Estádio",32,"Santo André",2056.18
+390,"Parque do Pedroso",32,"Santo André",3223.34
+391,"Paranapiacaba",32,"Santo André",8275.44
+392,"Capuava",22,"Mauá",1963.16
+393,"Mauá",22,"Mauá",1132.57
+394,"Alto da Boa Vista",22,"Mauá",1840.08
+395,"Vista Alegre",22,"Mauá",1264.28
+396,"Ribeirão Pires",27,"Ribeirão Pires",5269.22
+397,"Jardim Santa Luzia",27,"Ribeirão Pires",2580.93
+398,"Ouro Fino Paulista",27,"Ribeirão Pires",2141.16
+399,"Parque Sete Pontes",28,"Rio Grande da Serra",1894.18
+400,"Rio Grande da Serra",28,"Rio Grande da Serra",1739.37
+401,"Planalto",33,"São Bernardo do Campo",1120.75
+402,"Rudge Ramos",33,"São Bernardo do Campo",1280.15
+403,"São Bernardo do Campo",33,"São Bernardo do Campo",1276.40
+404,"Demarchi",33,"São Bernardo do Campo",2102.16
+405,"Riacho Grande",33,"São Bernardo do Campo",3068.41
+406,"Caminho do Mar",33,"São Bernardo do Campo",28156.51
+407,"Reservatório Billings",33,"São Bernardo do Campo",3904.94
+408,"Diadema",8,"Diadema",1092.15
+409,"Piraporinha",8,"Diadema",1112.23
+410,"Eldorado",8,"Diadema",1002.39
+411,"Taboão",38,"Taboão da Serra",523.28
+412,"Parque Pinheiros",38,"Taboão da Serra",1513.11
+413,"Santo Eduardo",9,"Embu",2187.32
+414,"Embu",9,"Embu",1468.80
+415,"Ressaca",9,"Embu",3395.69
+416,"Itapecerica da Serra",16,"Itapecerica da Serra",7451.02
+417,"Jardim Petrópolis",16,"Itapecerica da Serra",4144.33
+418,"Embu-Mirim",16,"Itapecerica da Serra",3491.42
+419,"São Lourenço da Serra",35,"São Lourenço da Serra",18736.77
+420,"Embu Guaçu",10,"Embu-Guaçu",7647.18
+421,"Cipó",10,"Embu-Guaçu",2293.52
+422,"Santa Rita",10,"Embu-Guaçu",5587.15
+423,"Juquitiba",20,"Juquitiba",52231.39
+424,"Barueri",2,"Barueri",1471.56
+425,"Aphaville",2,"Barueri",1131.51
+426,"Tamboré",2,"Barueri",978.86
+427,"Antônio João",2,"Barueri",597.35
+428,"Vutopoca",2,"Barueri",472.41
+429,"Jardim Silveira",2,"Barueri",314.58
+430,"Jardim Belval",2,"Barueri",354.89
+431,"Pedreira",2,"Barueri",1308.89
+432,"Carapicuiba",6,"Carapicuiba",1524.33
+433,"Jardim Planalto",6,"Carapicuiba",419.78
+434,"Aldeia da Carapicuiba",6,"Carapicuiba",574.62
+435,"Vila Silvana",6,"Carapicuiba",892.79
+436,"Osasco",24,"Osasco",190.80
+437,"Bussocaba",24,"Osasco",247.86
+438,"Bussocaba City",24,"Osasco",480.13
+439,"Novo Osasco",24,"Osasco",547.49
+440,"Jardim das Flores",24,"Osasco",389.98
+441,"Jardim Veloso",24,"Osasco",1023.15
+442,"Quitaúna",24,"Osasco",557.14
+443,"Jardim Piratininga",24,"Osasco",358.25
+444,"Presidente Altino",24,"Osasco",250.61
+445,"Munhoz Junior",24,"Osasco",716.84
+446,"Mutinga",24,"Osasco",793.29
+447,"Três Montanhas",24,"Osasco",909.63
+448,"Ribeirão Itaqui",19,"Jandira",337.51
+449,"Jandira",19,"Jandira",675.99
+450,"Ribeirão das Pombas",19,"Jandira",716.59
+451,"Granja Viana",7,"Cotia",3631.74
+452,"Cotia",7,"Cotia",7998.63
+453,"Capueira",7,"Cotia",2228.25
+454,"Caucaia",7,"Cotia",10311.64
+455,"Caucaia do Alto",7,"Cotia",8355.69
+456,"Vargem Grande Paulista",39,"Vargem Grande Paulista",4221.97
+457,"Quatro Encruzilhadas",17,"Itapevi",2146.85
+458,"Itapevi",17,"Itapevi",6191.92
+459,"Santana de Parnaíba",31,"Santana de Parnaíba",18036.09
+460,"Pirapora do Bom Jesus",25,"Pirapora do Bom Jesus",10864.49

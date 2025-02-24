@@ -18,6 +18,8 @@ from temperatura import get_weather  # Importa a função get_weather do módulo
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
+from pesquisa_od import pesquisa_od_metro
+from pesquisa_pass import passageiro_estacao
 from varredura import verificacao
 from noticia import notice_transp_sao_paulo  # Importa a função notice_transp_sao_paulo do módulo noticia
 from SP_L01 import line1   # Importa a função line1 do módulo SP_L01
@@ -313,6 +315,12 @@ frame_guia_cptm = ttk.LabelFrame(root, text="Guia de Usuário - CPTM", labelanch
 frame_guia_cptm.place(relx=0.5, rely=0.01, anchor=tk.N)
 criar_botao(frame_guia_cptm, "Guia do Usuário - CPTM", guia_cptm, "black", "#CA016B", "#E75480", width=20)
 criar_botao(frame_guia_cptm, "Guia do Expresso Turístico", guia_cptm_expresso_turistico, "black", "#CA016B", "#E75480", width=20)
+
+# Frame Pesquisas
+frame_pesquisas_metro = ttk.LabelFrame(root, text="Pesquisas", labelanchor='n', padding=10)
+frame_pesquisas_metro.place(relx=0.611, rely=0.01, anchor=tk.N)
+criar_botao(frame_pesquisas_metro, "Pesquisa Origem e Destino", pesquisa_od_metro, "black", "#00c9c4", "#007875", width=26)
+criar_botao(frame_pesquisas_metro, "Entrada de Passageiro por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", width=26)
 
 # Notícias
 noticia_ico = canvas.create_text(
