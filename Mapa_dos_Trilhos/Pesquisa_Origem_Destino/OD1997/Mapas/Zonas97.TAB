@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    Zonaseq Integer Index 1 ;
+    Nome_zona Char (27) ;
+    Município Integer Index 2 ;
+    NomeMunicipio Char (30) ;
+    Área_total_ha Decimal (11, 2) ;
