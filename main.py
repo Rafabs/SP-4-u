@@ -300,7 +300,7 @@ criar_botao(frame_sistemas, "SPTRANS", sptrans, "black", "#FF2F2F", "#FF8080", w
 criar_botao(frame_sistemas, "EMTU", emtu, "black", "blue", "#5A79FF", width=20)
 
 # Frame Mapas da Rede
-frame_mapa_guia = ttk.LabelFrame(root, text="Mapa da Rede - /Out.24", labelanchor='n', padding=10)
+frame_mapa_guia = ttk.LabelFrame(root, text="Mapa da Rede - /Jan.25", labelanchor='n', padding=10)
 frame_mapa_guia.place(relx=0.3, rely=0.01, anchor=tk.N)
 criar_botao(frame_mapa_guia, "Mapa da Rede", mapa_rede, "black", "#00B352", "#5AFF7E", width=20)
 
