@@ -200,7 +200,7 @@ Observação: Certifique-se de que você possui o Node.js instalado no seu siste
 Em ambos os sistemas operacionais, a tela que deverá ser exibida é parecida com o exemplo abaixo `main.py`:
 
 <div style="display:flex; flex-direction:row;">
-        <img src="https://github.com/Rafabs/SP-4-u/blob/e604f14d346b45c89f9bb0ef83f894d7f71efe63/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(7).png" alt="Imagem 1" style="width:50%;">
+        <img src="https://github.com/Rafabs/SP-4-u/blob/f4cef17dafc25751cdec21d3de769e1851724eb4/Exibi%C3%A7%C3%A3o/P%C3%A1gina_Inicial_v1.0.10.png" alt="Imagem 1" style="width:50%;">
         <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibi%C3%A7%C3%A3o/PY_Imagens_projeto_v1.0.9%20(10).png" alt="Imagem 2" style="width:50%;" >
 </div>
 <div style="display:flex; flex-direction:row;">
