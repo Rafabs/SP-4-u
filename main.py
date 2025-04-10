@@ -273,12 +273,33 @@ ouro = "#999999"
 preto = "#000000"
 branco = "#FFFFFF"
 
-def criar_botao(parent, text, command, bg, fg, hovercolor, width=None):
-    # Criando o botão com a largura especificada
-    button = Button(parent, text=text, command=command, bg=bg, fg=fg, width=width)
-    button.pack(padx=5, pady=5)
+def verificar_modulo(caminho):
+    caminho_absoluto = os.path.abspath(caminho)
+    print(f"Verificando o caminho absoluto: {caminho_absoluto}")
+    if os.path.exists(caminho_absoluto):
+        print(f"O caminho '{caminho_absoluto}' foi encontrado.")
+        return True
+    else:
+        print(f"Erro: O caminho '{caminho_absoluto}' não existe.")
+        return False
 
-    # Adiciona comportamento de hover manual
+def criar_botao(parent, text, command, bg, fg, hovercolor, width=None, modulo=None):
+    # Criar um frame para alinhar o botão e o indicador
+    container = tk.Frame(parent, bg=parent["bg"] if "bg" in parent.keys() else "black")
+    container.pack(side=tk.TOP, padx=5, pady=5, anchor="w", fill=tk.X)
+
+    # Criar indicador de status com a cor de fundo do frame
+    if modulo:
+        canvas = tk.Canvas(container, width=20, height=20, highlightthickness=0, bg=container["bg"])
+        cor = "green" if verificar_modulo(modulo) else "red"
+        canvas.create_oval(2, 2, 18, 18, fill=cor, outline=cor)
+        canvas.pack(side=tk.LEFT, padx=5)
+
+    # Criar o botão
+    button = Button(container, text=text, command=command, bg=bg, fg=fg, width=width)
+    button.pack(side=tk.LEFT, padx=5)
+
+    # Adicionar comportamento de hover manual
     def on_enter(event):
         button['bg'] = hovercolor
 
@@ -289,38 +310,38 @@ def criar_botao(parent, text, command, bg, fg, hovercolor, width=None):
     button.bind("<Leave>", on_leave)
 
 # Frame Mapas
-frame_mapas = ttk.LabelFrame(root, text="Mapas - Capital e RMSP", labelanchor='n', padding=10)
-frame_mapas.place(relx=0.1, rely=0.01, anchor=tk.N)
-criar_botao(frame_mapas, "Acessar Mapa", mapa_global, "black", "#C0C0C0", "#A9A9A9", width=20)
+frame_mapas = ttk.LabelFrame(root, text="Mapas - Capital e RMSP", labelanchor='n', padding=2)
+frame_mapas.place(relx=0.11, rely=0.01, anchor=tk.N)
+criar_botao(frame_mapas, "Acessar Mapa", mapa_global, "black", "#C0C0C0", "#A9A9A9", width=20, modulo="mapa")
 
 # Frame Sistemas
-frame_sistemas = ttk.LabelFrame(root, text="Sistemas de Buscas de Linhas", labelanchor='n', padding=10)
-frame_sistemas.place(relx=0.2, rely=0.01, anchor=tk.N)
-criar_botao(frame_sistemas, "SPTRANS", sptrans, "black", "#FF2F2F", "#FF8080", width=20)
-criar_botao(frame_sistemas, "EMTU", emtu, "black", "blue", "#5A79FF", width=20)
+frame_sistemas = ttk.LabelFrame(root, text="Sistemas de Buscas de Linhas", labelanchor='n', padding=2)
+frame_sistemas.place(relx=0.22, rely=0.01, anchor=tk.N)
+criar_botao(frame_sistemas, "SPTRANS", sptrans, "black", "#FF2F2F", "#FF8080", width=20, modulo="gtfs_sptrans")
+criar_botao(frame_sistemas, "EMTU", emtu, "black", "blue", "#5A79FF", width=20, modulo="gtfs_emtu")
 
 # Frame Mapas da Rede
-frame_mapa_guia = ttk.LabelFrame(root, text="Mapa da Rede - /Jan.25", labelanchor='n', padding=10)
-frame_mapa_guia.place(relx=0.3, rely=0.01, anchor=tk.N)
-criar_botao(frame_mapa_guia, "Mapa da Rede", mapa_rede, "black", "#00B352", "#5AFF7E", width=20)
+frame_mapa_guia = ttk.LabelFrame(root, text="Mapa da Rede - /Abr.25", labelanchor='n', padding=2)
+frame_mapa_guia.place(relx=0.33, rely=0.01, anchor=tk.N)
+criar_botao(frame_mapa_guia, "Mapa da Rede", mapa_rede, "black", "#00B352", "#5AFF7E", width=20, modulo="mapa")
 
 # Frame Guia do Metrô
-frame_guia_metro = ttk.LabelFrame(root, text="Guia de Usuário - METRÔ", labelanchor='n', padding=10)
-frame_guia_metro.place(relx=0.4, rely=0.01, anchor=tk.N)
-criar_botao(frame_guia_metro, "Guia do Usuário - PT/BR", guia_pt_metro, "black", "blue", "#0073E6", width=20)
-criar_botao(frame_guia_metro, "Guia do Usuário - EN/US", guia_en_metro, "black", "blue", "#0073E6", width=20)
+frame_guia_metro = ttk.LabelFrame(root, text="Guia de Usuário - METRÔ", labelanchor='n', padding=2)
+frame_guia_metro.place(relx=0.44, rely=0.01, anchor=tk.N)
+criar_botao(frame_guia_metro, "Guia do Usuário - PT/BR", guia_pt_metro, "black", "blue", "#0073E6", width=20, modulo="guias")
+criar_botao(frame_guia_metro, "Guia do Usuário - EN/US", guia_en_metro, "black", "blue", "#0073E6", width=20, modulo="guias")
 
 # Frame Guia CPTM
-frame_guia_cptm = ttk.LabelFrame(root, text="Guia de Usuário - CPTM", labelanchor='n', padding=10)
-frame_guia_cptm.place(relx=0.5, rely=0.01, anchor=tk.N)
-criar_botao(frame_guia_cptm, "Guia do Usuário - CPTM", guia_cptm, "black", "#CA016B", "#E75480", width=20)
-criar_botao(frame_guia_cptm, "Guia do Expresso Turístico", guia_cptm_expresso_turistico, "black", "#CA016B", "#E75480", width=20)
+frame_guia_cptm = ttk.LabelFrame(root, text="Guia de Usuário - CPTM", labelanchor='n', padding=2)
+frame_guia_cptm.place(relx=0.55, rely=0.01, anchor=tk.N)
+criar_botao(frame_guia_cptm, "Guia do Usuário - CPTM", guia_cptm, "black", "#CA016B", "#E75480", width=20, modulo="guias")
+criar_botao(frame_guia_cptm, "Guia do Expresso Turístico", guia_cptm_expresso_turistico, "black", "#CA016B", "#E75480", width=20, modulo="guias")
 
 # Frame Pesquisas
-frame_pesquisas_metro = ttk.LabelFrame(root, text="Pesquisas", labelanchor='n', padding=10)
-frame_pesquisas_metro.place(relx=0.611, rely=0.01, anchor=tk.N)
-criar_botao(frame_pesquisas_metro, "Pesquisa Origem e Destino", pesquisa_od_metro, "black", "#00c9c4", "#007875", width=26)
-criar_botao(frame_pesquisas_metro, "Entrada de Passageiro por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", width=26)
+frame_pesquisas_metro = ttk.LabelFrame(root, text="Pesquisas", labelanchor='n', padding=2)
+frame_pesquisas_metro.place(relx=0.671, rely=0.01, anchor=tk.N)
+criar_botao(frame_pesquisas_metro, "Pesquisa Origem e Destino", pesquisa_od_metro, "black", "#00c9c4", "#007875", width=26, modulo="pesquisa_od")
+criar_botao(frame_pesquisas_metro, "Demanda por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", width=26, modulo="pesquisa_pass")
 
 # Notícias
 noticia_ico = canvas.create_text(
@@ -390,40 +411,40 @@ def execute_line1_and_command():
     line1()  # Chama a função que executa o script SP_L01.py
 
 def execute_line2_and_command():
-    line2()  # Chama a função que executa o script SP_L01.py
+    line2()  # Chama a função que executa o script SP_L02.py
 
 def execute_line3_and_command():
-    line3()  # Chama a função que executa o script SP_L01.py
+    line3()  # Chama a função que executa o script SP_L03.py
 
 def execute_line4_and_command():
-    line4()  # Chama a função que executa o script SP_L01.py
+    line4()  # Chama a função que executa o script SP_L04.py
 
 def execute_line5_and_command():
-    line5()  # Chama a função que executa o script SP_L01.py
+    line5()  # Chama a função que executa o script SP_L05.py
 
 def execute_line7_and_command():
-    line7()  # Chama a função que executa o script SP_L01.py
+    line7()  # Chama a função que executa o script SP_L07.py
 
 def execute_line8_and_command():
-    line8()  # Chama a função que executa o script SP_L01.py
+    line8()  # Chama a função que executa o script SP_L08.py
 
 def execute_line9_and_command():
-    line9()  # Chama a função que executa o script SP_L01.py
+    line9()  # Chama a função que executa o script SP_L09.py
 
 def execute_line10_and_command():
-    line10()  # Chama a função que executa o script SP_L01.py
+    line10()  # Chama a função que executa o script SP_L10.py
 
 def execute_line11_and_command():
-    line11()  # Chama a função que executa o script SP_L01.py
+    line11()  # Chama a função que executa o script SP_L11.py
 
 def execute_line12_and_command():
-    line12()  # Chama a função que executa o script SP_L01.py
+    line12()  # Chama a função que executa o script SP_L12.py
 
 def execute_line13_and_command():
-    line13()  # Chama a função que executa o script SP_L01.py
+    line13()  # Chama a função que executa o script SP_L13.py
 
 def execute_line15_and_command():
-    line15()  # Chama a função que executa o script SP_L01.py
+    line15()  # Chama a função que executa o script SP_L15.py
                                             
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
 button_l1 = tk.Button(root, text="Azul", command=execute_line1_and_command,
@@ -490,7 +511,7 @@ canvas.create_image(1630, 180, image=linha7_icon)
 canvas.create_image(1600, 180, image=linha7_rubi_icon) 
 operadora_l7 = canvas.create_text(1580, 180, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
 tp_l7 = canvas.create_text(1910, 175, text="JUNDIAÍ", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l7 = canvas.create_text(1910, 185, text="BRÁS", font="Helvetica 8", anchor="e", fill='#000000')
+ts_l7 = canvas.create_text(1910, 185, text="LUZ", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 192, 1920, 192, width=1)
 
 button_l8 = tk.Button(root, text="Diamante", command=execute_line8_and_command,
@@ -519,7 +540,7 @@ button_l10.place(x=1650, y=248)
 canvas.create_image(1630, 261, image=linha10_icon) 
 canvas.create_image(1600, 261, image=linha10_turquesa_icon) 
 operadora_l10 = canvas.create_text(1580, 261, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l10 = canvas.create_text(1910, 256, text="BRÁS", font="Helvetica 8", anchor="e", fill='#000000')
+tp_l10 = canvas.create_text(1910, 256, text="LUZ", font="Helvetica 8", anchor="e", fill='#000000')
 ts_l10 = canvas.create_text(1910, 266, text="RIO GRANDE DA SERRA", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 273, 1920, 273, width=1)
 
@@ -529,7 +550,7 @@ button_l11.place(x=1650, y=275)
 canvas.create_image(1630, 288, image=linha11_icon) 
 canvas.create_image(1600, 288, image=linha11_coral_icon) 
 operadora_l11 = canvas.create_text(1580, 288, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l11 = canvas.create_text(1910, 283, text="PALMEIRAS - BARRA FUNDA", font="Helvetica 8", anchor="e", fill='#000000')
+tp_l11 = canvas.create_text(1910, 283, text="LUZ", font="Helvetica 8", anchor="e", fill='#000000')
 ts_l11 = canvas.create_text(1910, 293, text="ESTUDANTES", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 300, 1920, 300, width=1)
 
@@ -540,7 +561,7 @@ canvas.create_image(1630, 315, image=linha12_icon)
 canvas.create_image(1600, 315, image=linha12_safira_icon) 
 operadora_l12 = canvas.create_text(1580, 315, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
 tp_l12 = canvas.create_text(1910, 310, text="BRÁS", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l12 = canvas.create_text(1910, 320, text="CALMON VIANA", font="Helvetica 8", anchor="e", fill='#000000')
+ts_l12 = canvas.create_text(1910, 320, text="SUZANO", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 327, 1920, 327, width=1)
 
 button_l13 = tk.Button(root, text="Jade", command=execute_line13_and_command,
@@ -549,7 +570,7 @@ button_l13.place(x=1650, y=329)
 canvas.create_image(1630, 342, image=linha13_icon) 
 canvas.create_image(1600, 342, image=linha13_jade_icon) 
 operadora_l13 = canvas.create_text(1580, 342, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l13 = canvas.create_text(1910, 337, text="BRÁS", font="Helvetica 8", anchor="e", fill='#000000')
+tp_l13 = canvas.create_text(1910, 337, text="PALMEIRAS - BARRA FUNDA", font="Helvetica 8", anchor="e", fill='#000000')
 ts_l13 = canvas.create_text(1910, 347, text="AEROPORTO - GUARULHOS", font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 354, 1920, 354, width=1)
 
