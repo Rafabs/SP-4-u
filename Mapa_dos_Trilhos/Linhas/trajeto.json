@@ -871,8 +871,7 @@
             },  
             {          
                 "primary": "Lapa",
-                "secondary": "",
-                "bold_secondary": false,
+                "secondary": "Senac",
                 "TAG": "LAB",
                 "free_access": false
             },  
@@ -1009,18 +1008,11 @@
                 "free_access": true
             },  
             {
-                "primary": "Cimenrita",
-                "secondary": "",
-                "bold_secondary": false,
-                "TAG": "",
-                "free_access": false
-            },  
-            {
                 "primary": "Ambuitá",
                 "secondary": "",
                 "bold_secondary": false,
                 "TAG": "AMB",
-                "free_access": false
+                "free_access": true
             },  
             {
                 "primary": "Amador Bueno",
@@ -1076,7 +1068,7 @@
             },  
             {
                 "primary": "Jurubatuba",
-                "secondary": "SENAC",
+                "secondary": "Senac",
                 "TAG": "JUR",
                 "free_access": false
             },  
@@ -1416,6 +1408,7 @@
             {
                 "primary": "Suzano",
                 "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/icons/12.png",
                 "TAG": "SUZ",
                 "free_access": false
             },    
@@ -1555,7 +1548,14 @@
                 "image": "Mapa_dos_Trilhos/icons/11.png",
                 "TAG": "CMV",
                 "free_access": false
-            }
+            },
+            {
+                "primary": "Suzano",
+                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/icons/11.png",
+                "TAG": "SUZ",
+                "free_access": false
+            }   
         ]
             },    
     "SP_L13.py": {
