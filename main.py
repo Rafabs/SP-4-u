@@ -47,7 +47,7 @@ import requests  # Para baixar as imagens da internet
 init()
 
 def log_close_time():
-    logging.info(f"========================================== PROGRAMA FECHADO ==========================================")
+    logging.info(f"=" * 30, "PROGRAMA FECHADO", "=" * 30)
 
 # Registra a função para ser chamada na saída
 atexit.register(log_close_time)
@@ -56,7 +56,7 @@ def dados_usuario():
     # Obtém a hora atual
     hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
 
-    print("========================================== INFORMAÇÕES DO USUÁRIO ==========================================")
+    print(f"=" * 30, "INFORMAÇÕES DO USUÁRIO", "=" * 30)
     print(hora_atual)
 
 
@@ -108,7 +108,7 @@ def dados_usuario():
     user_home_directory = os.path.expanduser("~")
     print('<<<Diretório do Usuário>>>', user_home_directory)
 
-    print("====================================================================================")
+    print("=" * 90)
 
 # Configuração do logger
 logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
