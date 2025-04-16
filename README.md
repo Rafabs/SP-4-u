@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-10/04/2025-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-16/04/2025-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -58,19 +58,33 @@ Alteração Tarifária:
 
 Inclusão da(s) linha(s):
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/8013/43-509E2F.svg) Morro Doce  - Term. Jd. Britania
 
 Modificação da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Lgo. Da Concórdia
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/407M/10-006341.svg) Vl. Monumento - Metrô Vl. Mariana
 
-![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/2105/21-002F6C.svg) Jd. Filhos Da Terra - Metrô Santana
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/407M/10-006341.svg) Metrô Vl. Mariana - Vl. Monumento
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/5106/31-0082BA.svg) Jd. Selma - Metrô Ana Rosa
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/5106/31-0082BA.svg) Jd. Ubirajara - Metrô Ana Rosa
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/8004/10-509E2F.svg) Sta. Mônica - Term. Lapa
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/8004/10-509E2F.svg) Hab. Turística - Term. Lapa
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/8008/10-509E2F.svg) Sta. Mônica - Term. Pirituba
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/8008/10-509E2F.svg) Hab. Turística - Term. Pirituba
+
+![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/8065/10-509E2F.svg) Vl. Clarice - Lapa
+
+![Linha](https://img.shields.io/badge/AGORA-green.svg)![Linha](https://img.shields.io/badge/8065/10-509E2F.svg) Hab. Turística - Lapa
 
 Remoção da(s) linha(s):
 
-![Linha](https://img.shields.io/badge/3766/51-DA291C.svg) Cohab Ii - Metrô Itaquera
-
-![Linha](https://img.shields.io/badge/695V/01-782F40.svg) Term. Capelinha - Metrô Ana Rosa
+- Nada para mostrar aqui.
 
 Alteração Tarifária:
 
