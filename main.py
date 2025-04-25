@@ -1,6 +1,21 @@
 import requests  # Para baixar as imagens da internet
 from io import BytesIO  # Para carregar as imagens diretamente da memória
 import json
+import sys  # Importa o módulo sys para acessar funcionalidades do sistema
+sys.path.append('Mapa_dos_Trilhos') # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
+sys.path.append('Mapa_dos_Trilhos\\Linhas') # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
+from colorama import Fore, Back, Style, init # Importa classes específicas do módulo colorama para colorir o terminal
+import logging  # Importa o módulo logging para registrar mensagens de log
+import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráficas
+from tkinter import ttk, Button, Frame, Tk # Importa classes específicas do módulo tkinter para criar interfaces gráficas
+from datetime import datetime # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
+from PIL import Image, ImageTk # Importa classes específicas do módulo PIL para manipular imagens
+import os  # Importa o módulo os para interagir com o sistema operacional
+import platform  # Importa o módulo platform para obter informações sobre a plataforma
+import tempfile  # Importa o módulo tempfile para trabalhar com arquivos temporários
+import atexit  # Importa o módulo atexit para registrar funções a serem chamadas na saída do programa
+import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegador
+import re  # Importa o módulo re para realizar operações com expressões regulares
 from Guararema import guararema  # Importa a função guararema do módulo Guararema
 from Pirapora import pirapora  # Importa a função pirapora do módulo Pirapora
 from SP_L17 import line17    # Importa a função line6 do módulo SP_L17
@@ -27,21 +42,6 @@ from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from temperatura import get_weather # Importa a função get_weather do módulo temperatura
 from guias import *  # Importa todas as funções do módulo guias
-from colorama import Fore, Back, Style, init # Importa classes específicas do módulo colorama para colorir o terminal
-import logging  # Importa o módulo logging para registrar mensagens de log
-import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráficas
-from tkinter import ttk, Button, Frame, Tk # Importa classes específicas do módulo tkinter para criar interfaces gráficas
-from datetime import datetime # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
-from PIL import Image, ImageTk # Importa classes específicas do módulo PIL para manipular imagens
-import sys  # Importa o módulo sys para acessar funcionalidades do sistema
-import os  # Importa o módulo os para interagir com o sistema operacional
-import platform  # Importa o módulo platform para obter informações sobre a plataforma
-import tempfile  # Importa o módulo tempfile para trabalhar com arquivos temporários
-import atexit  # Importa o módulo atexit para registrar funções a serem chamadas na saída do programa
-import webbrowser  # Importa o módulo webbrowser para abrir URLs em um navegador
-import re  # Importa o módulo re para realizar operações com expressões regulares
-sys.path.append('Mapa_dos_Trilhos') # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
-sys.path.append('Mapa_dos_Trilhos\\Linhas') # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
 
 # Inicializa o colorama
 init()
