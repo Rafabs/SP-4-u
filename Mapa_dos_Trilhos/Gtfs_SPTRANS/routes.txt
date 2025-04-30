@@ -429,7 +429,7 @@
 "4052-10","1","4052-10","Cptm Guaianases - Metrô Itaquera","3","FFD100","000000"
 "4053-10","1","4053-10","Guaianases - Cptm Guaianases","3","FFD100","000000"
 "4055-10","1","4055-10","Cptm Guaianases - Vl. Solange","3","FFD100","000000"
-"4056-10","1","4056-10","Pq. Boa Esperança - Term. São Mateus","3","FFD100","000000"
+"4056-10","1","4056-10","Pq. Boa Esperança - Term. São Mateus","3","DA291C","FFFFFF"
 "407A-10","1","407A-10","Shop. Aricanduva - Lgo. Da Concórdia","3","DA291C","FFFFFF"
 "407A-21","1","407A-21","Shop. Aricanduva - Metrô Belém","3","DA291C","FFFFFF"
 "407E-10","1","407E-10","Jd. São Francisco (via Jd. Sto. André) - Metrô Carrão","3","DA291C","FFFFFF"
