@@ -2,8 +2,8 @@ import requests  # Para baixar as imagens da internet
 from io import BytesIO  # Para carregar as imagens diretamente da memória
 import json
 import sys  # Importa o módulo sys para acessar funcionalidades do sistema
-sys.path.append('Mapa_dos_Trilhos') # Adiciona o diretório 'Mapa_dos_Trilhos' ao caminho de busca de módulos
-sys.path.append('Mapa_dos_Trilhos\\Linhas') # Adiciona o diretório 'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
+sys.path.append(r'Mapa_dos_Trilhos') # Adiciona o diretório r'Mapa_dos_Trilhos' ao caminho de busca de módulos
+sys.path.append(r'Mapa_dos_Trilhos\\Linhas') # Adiciona o diretório r'Mapa_dos_Trilhos\Linhas' ao caminho de busca de módulos
 from colorama import Fore, Back, Style, init # Importa classes específicas do módulo colorama para colorir o terminal
 import logging  # Importa o módulo logging para registrar mensagens de log
 import tkinter as tk  # Importa o módulo tkinter para criar interfaces gráficas
@@ -35,19 +35,23 @@ from SP_L02 import line2   # Importa a função line2 do módulo SP_L02
 from SP_L01 import line1   # Importa a função line1 do módulo SP_L01
 from noticia import notice_transp_sao_paulo # Importa a função notice_transp_sao_paulo do módulo noticia
 from varredura import verificacao
-from pesquisa_pass import passageiro_estacao
-from pesquisa_od import pesquisa_od_metro
+from Pesquisa_pass.pesquisa_pass import passageiro_estacao
+from Pesquisa_od.pesquisa_od import pesquisa_od_metro
 from mapa import mapa_global  # Importa a função mapa_global do módulo mapa
 from gtfs_emtu import emtu  # Importa a função emtu do módulo gtfs_emtu
 from gtfs_sptrans import sptrans  # Importa a função sptrans do módulo gtfs_sptrans
 from temperatura import get_weather # Importa a função get_weather do módulo temperatura
-from guias import *  # Importa todas as funções do módulo guias
+from Guias.guias import *  # Importa todas as funções do módulo guias
+from pathlib import Path
+import locale
+import difflib
+locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 # Inicializa o colorama
 init()
 
 def log_close_time():
-    logging.info(f"=" * 30, "PROGRAMA FECHADO", "=" * 30)
+    logging.info(f"{'=' * 30} PROGRAMA FECHADO {'=' * 30}")
 
 # Registra a função para ser chamada na saída
 atexit.register(log_close_time)
@@ -110,10 +114,10 @@ def dados_usuario():
     print("=" * 90)
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+logging.basicConfig(filename=r'Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-with open('Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
+with open(r'Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
 
 # Redirecionamento de sys.stdout e sys.stderr para o logger
@@ -247,14 +251,14 @@ canvas.pack()
 canvas.configure(bg='#D3D3D3')
 
 # Carrega a imagem usando o PIL
-image = Image.open('Mapa_dos_Trilhos\\Favicon\\SP4U_LOGO.ico')
+image = Image.open(r'Mapa_dos_Trilhos\\Favicon\\SP4U_LOGO.ico')
 photo = ImageTk.PhotoImage(image)
 
 # Define o ícone
 root.iconphoto(False, photo)
 
 # Carrega o logotipo do SP4U
-logo = Image.open("Mapa_dos_Trilhos\\Imgs\\SP4U_LOGO.jpg")
+logo = Image.open(r"Mapa_dos_Trilhos\\Imgs\\SP4U_LOGO.jpg")
 # Redimensiona a imagem para ajustar ao tamanho do canvas
 logo = logo.resize((70, 70))
 logo_tk = ImageTk.PhotoImage(logo)
@@ -282,44 +286,82 @@ ouro = "#999999"
 preto = "#000000"
 branco = "#FFFFFF"
 
-def verificar_modulo(caminho):
-    caminho_absoluto = os.path.abspath(caminho)
-    print(f"Verificando o caminho absoluto: {caminho_absoluto}")
-    if os.path.exists(caminho_absoluto):
-        print(f"O caminho '{caminho_absoluto}' foi encontrado.")
-        return True
-    else:
-        print(f"Erro: O caminho '{caminho_absoluto}' não existe.")
+# Verifica se um caminho relativo existe a partir do diretório do script
+def normalizar_nome(nome: str) -> str:
+    return nome.lower().replace("_", "").replace(" ", "")
+
+# Verifica se um caminho relativo existe a partir do diretório do script
+def verificar_modulo(caminho_relativo: str) -> bool:
+    base_dir = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
+    raiz = base_dir / "Mapa_dos_Trilhos"
+
+    if not raiz.exists():
+        print(f"❌ Pasta 'Mapa_dos_Trilhos' não encontrada em {base_dir}")
         return False
 
+    caminho_normalizado = normalizar_nome(caminho_relativo)
+    extensoes_validas = {".zip", ".csv", ".json", ".xlsx", ".xls", ".txt", ".png", ".jpg", ".pdf", ".parquet"}
+
+    for item in raiz.rglob('*'):
+        nome_item_normalizado = normalizar_nome(item.name)
+        if caminho_normalizado in nome_item_normalizado and item.is_dir():
+            arquivos = list(item.glob('*'))
+            if arquivos:
+                print(f"✅ Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
+                return True
+            else:
+                print(f"⚠️ Diretório '{item}' encontrado, mas está vazio.")
+                return False
+            
+    subdirs = [p for p in raiz.iterdir() if p.is_dir()]
+    nomes_normalizados = {normalizar_nome(p.name): p for p in subdirs}
+    
+    # fuzzy match com tolerância
+    correspondencias = difflib.get_close_matches(caminho_normalizado, nomes_normalizados.keys(), n=1, cutoff=0.6)
+    
+    if correspondencias:
+        match = correspondencias[0]
+        pasta = nomes_normalizados[match]
+
+        arquivos_validos = [arq for arq in pasta.glob("*") if arq.suffix.lower() in extensoes_validas]
+        if arquivos_validos:
+            print(f"✅ Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
+            return True
+        else:
+            print(f"⚠️ Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
+            return False
+
+    print(f"❌ Erro: Nenhum caminho aproximado encontrado para '{caminho_relativo}'")
+    return False
+
+# Atualiza o status do indicador visualmente (verde/vermelho)
+def atualizar_status(canva_modulo, modulo):
+    try:
+        cor = "green" if verificar_modulo(modulo) else "red"
+    except Exception as e:
+        cor = "red"
+        print(f"Erro ao verificar o módulo '{modulo}': {e}")
+
+    canva_modulo.delete("all")
+    canva_modulo.create_oval(2, 2, 18, 18, fill=cor, outline=cor)
+    canva_modulo.after(2000, atualizar_status, canva_modulo, modulo)
+
+# Cria um botão com indicador de status opcional
 def criar_botao(parent, text, command, bg, fg, hovercolor, width=None, modulo=None):
-    # Criar um frame para alinhar o botão e o indicador
-    container = tk.Frame(
-        parent, bg=parent["bg"] if "bg" in parent.keys() else "black")
+    container = tk.Frame(parent, bg=parent.cget("bg") if "bg" in parent.keys() else "black")
     container.pack(side=tk.TOP, padx=5, pady=5, anchor="w", fill=tk.X)
 
-    # Criar indicador de status com a cor de fundo do frame
     if modulo:
-        canva_modulo = tk.Canvas(
-            container, width=20, height=20, highlightthickness=0, bg=container["bg"])
-        cor = "green" if verificar_modulo(modulo) else "red"
-        canva_modulo.create_oval(2, 2, 18, 18, fill=cor, outline=cor)
+        print("🔍 DEBUG MODULO:", repr(modulo))
+        canva_modulo = tk.Canvas(container, width=20, height=20, highlightthickness=0, bg=container["bg"])
         canva_modulo.pack(side=tk.LEFT, padx=5)
+        atualizar_status(canva_modulo, modulo)
 
-    # Criar o botão
-    button = Button(container, text=text, command=command,
-                    bg=bg, fg=fg, width=width)
+    button = Button(container, text=text, command=command, bg=bg, fg=fg, width=width)
     button.pack(side=tk.LEFT, padx=5)
 
-    # Adicionar comportamento de hover manual
-    def on_enter(event):
-        button['bg'] = hovercolor
-
-    def on_leave(event):
-        button['bg'] = bg
-
-    button.bind("<Enter>", on_enter)
-    button.bind("<Leave>", on_leave)
+    button.bind("<Enter>", lambda e: button.config(bg=hovercolor))
+    button.bind("<Leave>", lambda e: button.config(bg=bg))
 
 # Frame Mapas
 frame_mapas = ttk.LabelFrame(
@@ -378,33 +420,33 @@ label_msg_noticias = tk.Label(root, text="", anchor="se")
 label_msg_noticias.place(x=10, y=500)
 
 # Definindo os caminhos das imagens para cada linha
-linha1_icon_path = "Mapa_dos_Trilhos/Icons/1.png"
-linha2_icon_path = "Mapa_dos_Trilhos/Icons/2.png"
-linha3_icon_path = "Mapa_dos_Trilhos/Icons/3.png"
-linha4_icon_path = "Mapa_dos_Trilhos/Icons/4.png"
-linha5_icon_path = "Mapa_dos_Trilhos/Icons/5.png"
-linha7_icon_path = "Mapa_dos_Trilhos/Icons/7.png"
-linha8_icon_path = "Mapa_dos_Trilhos/Icons/8.png"
-linha9_icon_path = "Mapa_dos_Trilhos/Icons/9.png"
-linha10_icon_path = "Mapa_dos_Trilhos/Icons/10.png"
-linha11_icon_path = "Mapa_dos_Trilhos/Icons/11.png"
-linha12_icon_path = "Mapa_dos_Trilhos/Icons/12.png"
-linha13_icon_path = "Mapa_dos_Trilhos/Icons/13.png"
-linha15_icon_path = "Mapa_dos_Trilhos/Icons/15.png"
+linha1_icon_path = r"Mapa_dos_Trilhos/Icons/1.png"
+linha2_icon_path = r"Mapa_dos_Trilhos/Icons/2.png"
+linha3_icon_path = r"Mapa_dos_Trilhos/Icons/3.png"
+linha4_icon_path = r"Mapa_dos_Trilhos/Icons/4.png"
+linha5_icon_path = r"Mapa_dos_Trilhos/Icons/5.png"
+linha7_icon_path = r"Mapa_dos_Trilhos/Icons/7.png"
+linha8_icon_path = r"Mapa_dos_Trilhos/Icons/8.png"
+linha9_icon_path = r"Mapa_dos_Trilhos/Icons/9.png"
+linha10_icon_path = r"Mapa_dos_Trilhos/Icons/10.png"
+linha11_icon_path = r"Mapa_dos_Trilhos/Icons/11.png"
+linha12_icon_path = r"Mapa_dos_Trilhos/Icons/12.png"
+linha13_icon_path = r"Mapa_dos_Trilhos/Icons/13.png"
+linha15_icon_path = r"Mapa_dos_Trilhos/Icons/15.png"
 
-linha1_azul_icon_path = "Mapa_dos_Trilhos/Icons/1_azul.png"
-linha2_verde_icon_path = "Mapa_dos_Trilhos/Icons/2_verde.png"
-linha3_vermelha_icon_path = "Mapa_dos_Trilhos/Icons/3_vermelha.png"
-linha4_amarela_icon_path = "Mapa_dos_Trilhos/Icons/4_amarela.png"
-linha5_lilas_icon_path = "Mapa_dos_Trilhos/Icons/5_lilas.png"
-linha7_rubi_icon_path = "Mapa_dos_Trilhos/Icons/cptm.png"
-linha8_diamante_icon_path = "Mapa_dos_Trilhos/Icons/8_diamante.png"
-linha9_esmeralda_icon_path = "Mapa_dos_Trilhos/Icons/9_esmeralda.png"
-linha10_turquesa_icon_path = "Mapa_dos_Trilhos/Icons/cptm.png"
-linha11_coral_icon_path = "Mapa_dos_Trilhos/Icons/cptm.png"
-linha12_safira_icon_path = "Mapa_dos_Trilhos/Icons/cptm.png"
-linha13_jade_icon_path = "Mapa_dos_Trilhos/Icons/cptm.png"
-linha15_prata_icon_path = "Mapa_dos_Trilhos/Icons/15_prata.png"
+linha1_azul_icon_path = r"Mapa_dos_Trilhos/Icons/1_azul.png"
+linha2_verde_icon_path = r"Mapa_dos_Trilhos/Icons/2_verde.png"
+linha3_vermelha_icon_path = r"Mapa_dos_Trilhos/Icons/3_vermelha.png"
+linha4_amarela_icon_path = r"Mapa_dos_Trilhos/Icons/4_amarela.png"
+linha5_lilas_icon_path = r"Mapa_dos_Trilhos/Icons/5_lilas.png"
+linha7_rubi_icon_path = r"Mapa_dos_Trilhos/Icons/cptm.png"
+linha8_diamante_icon_path = r"Mapa_dos_Trilhos/Icons/8_diamante.png"
+linha9_esmeralda_icon_path = r"Mapa_dos_Trilhos/Icons/9_esmeralda.png"
+linha10_turquesa_icon_path = r"Mapa_dos_Trilhos/Icons/cptm.png"
+linha11_coral_icon_path = r"Mapa_dos_Trilhos/Icons/cptm.png"
+linha12_safira_icon_path = r"Mapa_dos_Trilhos/Icons/cptm.png"
+linha13_jade_icon_path = r"Mapa_dos_Trilhos/Icons/cptm.png"
+linha15_prata_icon_path = r"Mapa_dos_Trilhos/Icons/15_prata.png"
 
 # Carregando as imagens apenas uma vez
 linha1_icon = tk.PhotoImage(file=linha1_icon_path)
