@@ -136,6 +136,7 @@
 "2031-10","1","2031-10","Cid. Kemel Ii - Term. A. E. Carvalho","3","FFD100","000000"
 "2032-10","1","2032-10","Jd. Brasil - Metrô Carandiru","3","002F6C","FFFFFF"
 "2033-10","1","2033-10","Vl. Sabrina - Shop. D","3","002F6C","FFFFFF"
+"2034-10","1","2034-10","Metrô Tietê - Centro Tea","3","002F6C","FFFFFF"
 "2058-10","1","2058-10","Term. São Miguel - Cptm Guaianases","3","FFD100","000000"
 "2059-10","1","2059-10","São Miguel - Cptm Guaianases","3","FFD100","000000"
 "2060-10","1","2060-10","Term. A. E. Carvalho - Metrô Artur Alvim","3","FFD100","000000"
