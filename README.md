@@ -58,7 +58,7 @@ Alteração Tarifária:
 
 Inclusão da(s) linha(s):
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/2034/10-002F6C.svg) Metrô Tietê - Centro Tea
 
 Modificação da(s) linha(s):
 
