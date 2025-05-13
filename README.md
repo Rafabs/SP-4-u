@@ -1,6 +1,6 @@
 # Mapas dos Trilhos/Ônibus/Ciclovias de São Paulo
 ![Version](https://img.shields.io/badge/Vers%C3%A3o-1.1.0-blue.svg)
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-07/05/2025-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-13/05/2025-green.svg)
 
 <img align="right" src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo" width="150" height="150" />
 
@@ -60,6 +60,8 @@ Inclusão da(s) linha(s):
 
 ![Linha](https://img.shields.io/badge/2034/10-002F6C.svg) Metrô Tietê - Centro Tea
 
+![Linha](https://img.shields.io/badge/3063/01-DA291C.svg) Guaianases - São Mateus
+
 Modificação da(s) linha(s):
 
 ![Linha](https://img.shields.io/badge/ANTES-red.svg)![Linha](https://img.shields.io/badge/4056/10-FFD100.svg) Pq. Boa Esperança - Term. São Mateus
@@ -68,7 +70,7 @@ Modificação da(s) linha(s):
 
 Remoção da(s) linha(s):
 
-- Nada para mostrar aqui.
+![Linha](https://img.shields.io/badge/3033/10-FFD100.svg) Guaianases - São Mateus
 
 Alteração Tarifária:
 
