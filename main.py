@@ -45,10 +45,10 @@ from Guias.guias import *  # Importa todas as funções do módulo guias
 from pathlib import Path
 import locale
 import difflib
+import csv
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
-# Inicializa o colorama
-init()
+init() # Inicializa o colorama
 
 def log_close_time():
     logging.info(f"{'=' * 30} PROGRAMA FECHADO {'=' * 30}")
@@ -265,26 +265,11 @@ logo_tk = ImageTk.PhotoImage(logo)
 logo_label = ttk.Label(root, image=logo_tk)
 logo_label.place(x=10, y=10)
 
-# Código das cores do mapa (em ordem numérica)
-azul = "#0455A1"
-verde = "#007E5E"
-vermelha = "#EE372F"
-amarela = "#FFF000"
-lilás = "#9B3894"
-laranja = "#999999"
-rubi = "#CA016B"
-diamante = "#97A098"
-esmeralda = "#01A9A7"
-turquesa = "#049FC3"
-coral = "#F68368"
-safira = "#133C8D"
-jade = "#00B352"
-prata = "#C0C0C0"
-ouro = "#999999"
-
 # Código das cores de background
 preto = "#000000"
 branco = "#FFFFFF"
+laranja = "#999999"
+ouro = "#999999"
 
 # Verifica se um caminho relativo existe a partir do diretório do script
 def normalizar_nome(nome: str) -> str:
@@ -292,7 +277,8 @@ def normalizar_nome(nome: str) -> str:
 
 # Verifica se um caminho relativo existe a partir do diretório do script
 def verificar_modulo(caminho_relativo: str) -> bool:
-    base_dir = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
+    base_dir = Path(__file__).resolve(
+    ).parent if "__file__" in globals() else Path.cwd()
     raiz = base_dir / "Mapa_dos_Trilhos"
 
     if not raiz.exists():
@@ -300,38 +286,45 @@ def verificar_modulo(caminho_relativo: str) -> bool:
         return False
 
     caminho_normalizado = normalizar_nome(caminho_relativo)
-    extensoes_validas = {".zip", ".csv", ".json", ".xlsx", ".xls", ".txt", ".png", ".jpg", ".pdf", ".parquet"}
+    extensoes_validas = {".zip", ".csv", ".json", ".xlsx",
+                         ".xls", ".txt", ".png", ".jpg", ".pdf", ".parquet"}
 
     for item in raiz.rglob('*'):
         nome_item_normalizado = normalizar_nome(item.name)
         if caminho_normalizado in nome_item_normalizado and item.is_dir():
             arquivos = list(item.glob('*'))
             if arquivos:
-                print(f"✅ Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
+                print(
+                    f"✅ Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
                 return True
             else:
                 print(f"⚠️ Diretório '{item}' encontrado, mas está vazio.")
                 return False
-            
+
     subdirs = [p for p in raiz.iterdir() if p.is_dir()]
     nomes_normalizados = {normalizar_nome(p.name): p for p in subdirs}
-    
+
     # fuzzy match com tolerância
-    correspondencias = difflib.get_close_matches(caminho_normalizado, nomes_normalizados.keys(), n=1, cutoff=0.6)
-    
+    correspondencias = difflib.get_close_matches(
+        caminho_normalizado, nomes_normalizados.keys(), n=1, cutoff=0.6)
+
     if correspondencias:
         match = correspondencias[0]
         pasta = nomes_normalizados[match]
 
-        arquivos_validos = [arq for arq in pasta.glob("*") if arq.suffix.lower() in extensoes_validas]
+        arquivos_validos = [arq for arq in pasta.glob(
+            "*") if arq.suffix.lower() in extensoes_validas]
         if arquivos_validos:
-            print(f"✅ Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
+            print(
+                f"✅ Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
             return True
         else:
-            print(f"⚠️ Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
+            print(
+                f"⚠️ Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
             return False
 
-    print(f"❌ Erro: Nenhum caminho aproximado encontrado para '{caminho_relativo}'")
+    print(
+        f"❌ Erro: Nenhum caminho aproximado encontrado para '{caminho_relativo}'")
     return False
 
 # Atualiza o status do indicador visualmente (verde/vermelho)
@@ -348,16 +341,19 @@ def atualizar_status(canva_modulo, modulo):
 
 # Cria um botão com indicador de status opcional
 def criar_botao(parent, text, command, bg, fg, hovercolor, width=None, modulo=None):
-    container = tk.Frame(parent, bg=parent.cget("bg") if "bg" in parent.keys() else "black")
+    container = tk.Frame(parent, bg=parent.cget(
+        "bg") if "bg" in parent.keys() else "black")
     container.pack(side=tk.TOP, padx=5, pady=5, anchor="w", fill=tk.X)
 
     if modulo:
         print("🔍 DEBUG MODULO:", repr(modulo))
-        canva_modulo = tk.Canvas(container, width=20, height=20, highlightthickness=0, bg=container["bg"])
+        canva_modulo = tk.Canvas(
+            container, width=20, height=20, highlightthickness=0, bg=container["bg"])
         canva_modulo.pack(side=tk.LEFT, padx=5)
         atualizar_status(canva_modulo, modulo)
 
-    button = Button(container, text=text, command=command, bg=bg, fg=fg, width=width)
+    button = Button(container, text=text, command=command,
+                    bg=bg, fg=fg, width=width)
     button.pack(side=tk.LEFT, padx=5)
 
     button.bind("<Enter>", lambda e: button.config(bg=hovercolor))
@@ -516,183 +512,257 @@ def execute_line13_and_command():
 def execute_line15_and_command():
     line15()  # Chama a função que executa o script SP_L15.py
 
+def load_routes(filepath):
+    routes = {}
+    with open(filepath, encoding='utf-8') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row) < 4:
+                continue
+            line_name = row[0].replace('"', '').strip()
+            station_str = row[3].replace('"', '').strip()
+
+            # Divide todas as partes
+            station_parts = [s.strip()
+                             for s in station_str.split(' - ') if s.strip()]
+            nparts = len(station_parts)
+
+            # Balanceamento inteligente
+            if nparts >= 2:
+                mid = nparts // 2
+                origin = " - ".join(station_parts[:mid])
+                destination = " - ".join(station_parts[mid:])
+            elif nparts == 1:
+                origin = destination = station_parts[0]
+            else:
+                origin = destination = ""
+
+            # Extrai chave (ex: L3 de METRÔ L3)
+            if 'L' in line_name:
+                key = 'L' + line_name.split('L')[-1]
+            else:
+                continue
+
+            routes[key] = {
+                "origin": origin,
+                "destination": destination
+            }
+
+    return routes
+
+# Substitua pelo caminho correto se estiver em outra pasta
+routes = load_routes("Mapa_dos_Trilhos\\Gtfs_SPTRANS\\routes.txt")
+
+# Carrega os dados do arquivo JSON
+with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
+    trajetos = json.load(file)
+
+# Variáveis para cor de fundo das linhas, código de linha extraído de trajeto.json e SP_LXX.py
+cor_linha_01 = trajetos["SP_L01.py"]["COR_LINHA"]
+cor_linha_02 = trajetos["SP_L02.py"]["COR_LINHA"]
+cor_linha_03 = trajetos["SP_L03.py"]["COR_LINHA"]
+cor_linha_04 = trajetos["SP_L04.py"]["COR_LINHA"]
+cor_linha_05 = trajetos["SP_L05.py"]["COR_LINHA"]
+cor_linha_07 = trajetos["SP_L07.py"]["COR_LINHA"]
+cor_linha_08 = trajetos["SP_L08.py"]["COR_LINHA"]
+cor_linha_09 = trajetos["SP_L09.py"]["COR_LINHA"]
+cor_linha_10 = trajetos["SP_L10.py"]["COR_LINHA"]
+cor_linha_11 = trajetos["SP_L11.py"]["COR_LINHA"]
+cor_linha_12 = trajetos["SP_L12.py"]["COR_LINHA"]
+cor_linha_13 = trajetos["SP_L13.py"]["COR_LINHA"]
+cor_linha_15 = trajetos["SP_L15.py"]["COR_LINHA"]
+
 # Botão para abrir o mapa da malha ferroviária e de corredores de ônibus
 button_l1 = tk.Button(root, text="Azul", command=execute_line1_and_command,
-                      fg="white", bg=azul, width=15)
+                      fg="white", bg=cor_linha_01, width=15)
 button_l1.place(x=1650, y=5)
 canvas.create_image(1630, 18, image=linha1_icon)
 canvas.create_image(1600, 18, image=linha1_azul_icon)
 operadora_l1 = canvas.create_text(
     1580, 18, text="METRÔ", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l1 = canvas.create_text(1910, 13, text="TUCURUVI",
-                           font="Helvetica 8", anchor="e", fill='#000000')
-ts_l1 = canvas.create_text(1910, 23, text="JABAQUARA",
-                           font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L1", {})
+tp_l1 = canvas.create_text(1910, 13, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l1 = canvas.create_text(1910, 23, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 30, 1920, 30, width=1)
 
 button_l2 = tk.Button(root, text="Verde", command=execute_line2_and_command,
-                      bg=verde, fg="white", width=15)
+                      bg=cor_linha_02, fg="white", width=15)
 button_l2.place(x=1650, y=32)
 canvas.create_image(1630, 45, image=linha2_icon)
 canvas.create_image(1600, 45, image=linha2_verde_icon)
 operadora_l2 = canvas.create_text(
     1580, 45, text="METRÔ", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l2 = canvas.create_text(
-    1910, 40, text="VILA MADALENA", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l2 = canvas.create_text(
-    1910, 50, text="VILA PRUDENTE", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L2", {})
+tp_l2 = canvas.create_text(1910, 40, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l2 = canvas.create_text(1910, 50, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 57, 1920, 57, width=1)
 
 button_l3 = tk.Button(root, text="Vermelha", command=execute_line3_and_command,
-                      bg=vermelha, fg="black", width=15)
+                      bg=cor_linha_03, fg="black", width=15)
 button_l3.place(x=1650, y=59)
 canvas.create_image(1630, 72, image=linha3_icon)
 canvas.create_image(1600, 72, image=linha3_vermelha_icon)
 operadora_l3 = canvas.create_text(
     1580, 72, text="METRÔ", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l3 = canvas.create_text(1910, 67, text="PALMEIRAS - BARRA FUNDA",
-                           font="Helvetica 8", anchor="e", fill='#000000')
-ts_l3 = canvas.create_text(1910, 77, text="CORINTHIANS - ITAQUERA",
-                           font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L3", {})
+tp_l3 = canvas.create_text(1910, 67, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l3 = canvas.create_text(1910, 77, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 84, 1920, 84, width=1)
 
 button_l4 = tk.Button(root, text="Amarela", command=execute_line4_and_command,
-                      bg=amarela, fg="black", width=15)
+                      bg=cor_linha_04, fg="black", width=15)
 button_l4.place(x=1650, y=86)
 canvas.create_image(1630, 99, image=linha4_icon)
 canvas.create_image(1600, 99, image=linha4_amarela_icon)
 operadora_l4 = canvas.create_text(
     1580, 99, text="VIAQUATRO", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l4 = canvas.create_text(1910, 94, text="VILA SÔNIA",
-                           font="Helvetica 8", anchor="e", fill='#000000')
-ts_l4 = canvas.create_text(1910, 104, text="LUZ",
-                           font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L4", {})
+tp_l4 = canvas.create_text(1910, 94, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l4 = canvas.create_text(1910, 104, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 111, 1920, 111, width=1)
 
 button_l5 = tk.Button(root, text="Lilás", command=execute_line5_and_command,
-                      bg=lilás, fg="white", width=15)
+                      bg=cor_linha_05, fg="white", width=15)
 button_l5.place(x=1650, y=113)
 canvas.create_image(1630, 126, image=linha5_icon)
 canvas.create_image(1600, 126, image=linha5_lilas_icon)
 operadora_l5 = canvas.create_text(
     1580, 126, text="VIAMOBILIDADE", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l5 = canvas.create_text(
-    1910, 121, text="CAPÃO REDONDO", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l5 = canvas.create_text(
-    1910, 131, text="CHÁCARA KLABIN", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L5", {})
+tp_l5 = canvas.create_text(1910, 121, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l5 = canvas.create_text(1910, 131, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 138, 1920, 138, width=1)
 
 button_l6 = tk.Button(root, text="Laranja", command=line6,
                       bg=laranja, fg="white", width=15)
 button_l6.place(x=1650, y=140)
-tp_l6 = canvas.create_text(
-    1910, 148, text="BRASILÂNDIA", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l6 = canvas.create_text(
-    1910, 158, text="SÃO JOAQUIM", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L6", {})
+tp_l6 = canvas.create_text(1910, 148, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l6 = canvas.create_text(1910, 158, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 165, 1920, 165, width=1)
 
 button_l7 = tk.Button(root, text="Rubi", command=execute_line7_and_command,
-                      bg=rubi, fg="white", width=15)
+                      bg=cor_linha_07, fg="white", width=15)
 button_l7.place(x=1650, y=167)
 canvas.create_image(1630, 180, image=linha7_icon)
 canvas.create_image(1600, 180, image=linha7_rubi_icon)
 operadora_l7 = canvas.create_text(
     1580, 180, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l7 = canvas.create_text(1910, 175, text="JUNDIAÍ",
-                           font="Helvetica 8", anchor="e", fill='#000000')
-ts_l7 = canvas.create_text(1910, 185, text="LUZ",
-                           font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L07", {})
+tp_l7 = canvas.create_text(1910, 175, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l7 = canvas.create_text(1910, 185, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 192, 1920, 192, width=1)
 
 button_l8 = tk.Button(root, text="Diamante", command=execute_line8_and_command,
-                      bg=diamante, fg="black", width=15)
+                      bg=cor_linha_08, fg="black", width=15)
 button_l8.place(x=1650, y=194)
 canvas.create_image(1630, 207, image=linha8_icon)
 canvas.create_image(1600, 207, image=linha8_diamante_icon)
 operadora_l8 = canvas.create_text(
     1580, 207, text="VIAMOBILIDADE", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l8 = canvas.create_text(
-    1910, 202, text="AMADOR BUENO", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l8 = canvas.create_text(
-    1910, 212, text="JÚLIO PRESTES", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L08", {})
+tp_l8 = canvas.create_text(1910, 202, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l8 = canvas.create_text(1910, 212, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 219, 1920, 219, width=1)
 
 button_l9 = tk.Button(root, text="Esmeralda",
-                      command=execute_line9_and_command, bg=esmeralda, fg="black", width=15)
+                      command=execute_line9_and_command, bg=cor_linha_09, fg="black", width=15)
 button_l9.place(x=1650, y=221)
 canvas.create_image(1630, 234, image=linha9_icon)
 canvas.create_image(1600, 234, image=linha9_esmeralda_icon)
 operadora_l9 = canvas.create_text(
     1580, 234, text="VIAMOBILIDADE", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l9 = canvas.create_text(1910, 229, text="OSASCO",
-                           font="Helvetica 8", anchor="e", fill='#000000')
-ts_l9 = canvas.create_text(1910, 239, text="VARGINHA",
-                           font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L09", {})
+tp_l9 = canvas.create_text(1910, 229, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l9 = canvas.create_text(1910, 239, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 246, 1920, 246, width=1)
 
 button_l10 = tk.Button(root, text="Turquesa",
-                       command=execute_line10_and_command, bg=turquesa, fg="black", width=15)
+                       command=execute_line10_and_command, bg=cor_linha_10, fg="black", width=15)
 button_l10.place(x=1650, y=248)
 canvas.create_image(1630, 261, image=linha10_icon)
 canvas.create_image(1600, 261, image=linha10_turquesa_icon)
 operadora_l10 = canvas.create_text(
     1580, 261, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l10 = canvas.create_text(1910, 256, text="LUZ",
-                            font="Helvetica 8", anchor="e", fill='#000000')
-ts_l10 = canvas.create_text(1910, 266, text="RIO GRANDE DA SERRA",
-                            font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L10", {})
+tp_l10 = canvas.create_text(1910, 256, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l10 = canvas.create_text(1910, 266, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 273, 1920, 273, width=1)
 
 button_l11 = tk.Button(root, text="Coral", command=execute_line11_and_command,
-                       bg=coral, fg="black", width=15)
+                       bg=cor_linha_11, fg="black", width=15)
 button_l11.place(x=1650, y=275)
 canvas.create_image(1630, 288, image=linha11_icon)
 canvas.create_image(1600, 288, image=linha11_coral_icon)
 operadora_l11 = canvas.create_text(
     1580, 288, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l11 = canvas.create_text(1910, 283, text="LUZ",
-                            font="Helvetica 8", anchor="e", fill='#000000')
-ts_l11 = canvas.create_text(
-    1910, 293, text="ESTUDANTES", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L11", {})
+tp_l11 = canvas.create_text(1910, 283, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l11 = canvas.create_text(1910, 293, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 300, 1920, 300, width=1)
 
 button_l12 = tk.Button(root, text="Safira",
-                       command=execute_line12_and_command, bg=safira, fg="white", width=15)
+                       command=execute_line12_and_command, bg=cor_linha_12, fg="white", width=15)
 button_l12.place(x=1650, y=302)
 canvas.create_image(1630, 315, image=linha12_icon)
 canvas.create_image(1600, 315, image=linha12_safira_icon)
 operadora_l12 = canvas.create_text(
     1580, 315, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l12 = canvas.create_text(1910, 310, text="BRÁS",
-                            font="Helvetica 8", anchor="e", fill='#000000')
-ts_l12 = canvas.create_text(
-    1910, 320, text="SUZANO", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L12", {})
+tp_l12 = canvas.create_text(1910, 310, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l12 = canvas.create_text(1910, 320, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 327, 1920, 327, width=1)
 
 button_l13 = tk.Button(root, text="Jade", command=execute_line13_and_command,
-                       bg=jade, fg="black", width=15)
+                       bg=cor_linha_13, fg="black", width=15)
 button_l13.place(x=1650, y=329)
 canvas.create_image(1630, 342, image=linha13_icon)
 canvas.create_image(1600, 342, image=linha13_jade_icon)
 operadora_l13 = canvas.create_text(
     1580, 342, text="CPTM", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l13 = canvas.create_text(1910, 337, text="PALMEIRAS - BARRA FUNDA",
-                            font="Helvetica 8", anchor="e", fill='#000000')
-ts_l13 = canvas.create_text(1910, 347, text="AEROPORTO - GUARULHOS",
-                            font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L13", {})
+tp_l13 = canvas.create_text(1910, 337, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l13 = canvas.create_text(1910, 347, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 354, 1920, 354, width=1)
 
 button_l15 = tk.Button(root, text="Prata", command=execute_line15_and_command,
-                       bg=prata, fg="black", width=15)
+                       bg=cor_linha_15, fg="black", width=15)
 button_l15.place(x=1650, y=356)
 canvas.create_image(1630, 369, image=linha15_icon)
 canvas.create_image(1600, 369, image=linha15_prata_icon)
 operadora_l15 = canvas.create_text(
     1580, 369, text="METRÔ", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l15 = canvas.create_text(
-    1910, 364, text="VILA PRUDENTE", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l15 = canvas.create_text(
-    1910, 374, text="JARDIM COLONIAL", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L15", {})
+tp_l15 = canvas.create_text(1910, 364, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l15 = canvas.create_text(1910, 374, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 381, 1920, 381, width=1)
 
 button_l17 = tk.Button(root, text="Ouro", command=line17,
@@ -700,10 +770,11 @@ button_l17 = tk.Button(root, text="Ouro", command=line17,
 button_l17.place(x=1650, y=383)
 operadora_l8 = canvas.create_text(
     1580, 396, text="VIAMOBILIDADE", font="Helvetica 14", anchor="e", fill='#000000')
-tp_l17 = canvas.create_text(
-    1910, 391, text="MORUMBI", font="Helvetica 8", anchor="e", fill='#000000')
-ts_l17 = canvas.create_text(
-    1910, 401, text="WASHINGTON LUÍS", font="Helvetica 8", anchor="e", fill='#000000')
+route = routes.get("L17", {})
+tp_l17 = canvas.create_text(1910, 391, text=route.get(
+    "origin", ""), font="Helvetica 8", anchor="e", fill='#000000')
+ts_l17 = canvas.create_text(1910, 401, text=route.get(
+    "destination", ""), font="Helvetica 8", anchor="e", fill='#000000')
 canvas.create_line(1425, 408, 1920, 408, width=1)
 
 button_guararema = tk.Button(
