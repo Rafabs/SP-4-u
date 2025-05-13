@@ -467,6 +467,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 706367,"R. Antônio Carlos, 196","Ref.: Rua Frei Caneca",-23.557171,-46.657021
 706371,"Ponto Provisório","Av. Nove De Julho, 2000",-23.559028,-46.654302
 706372,"Pça. D. Orione","Ref.: Rua Fortaleza",-23.560311,-46.645559
+706375,"Av. Brig. Luís Antônio, 1013","Ref.: Rua Humaitá",-23.558594,-46.641685
 809564,"R. Pe. Adelino, 1119","Ref.: Rua Uriel Gaspar",-23.543841,-46.583066
 809671,"R. Serra Da Bocaina, 320","Ref.: Rua Bebedouro",-23.546475,-46.588252
 809675,"Av. Álvaro Ramos, 779","Ref.: 778 Av Alcantara Machado",-23.544156,-46.586279
@@ -2668,14 +2669,14 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 3407120,"Parada Jornalista Roberto Marinho - B/C","Av. Eng. Luiz Carlos Berrini, 1709 Ref.: Rua James Watt/rua Michel Faraday",-23.611893,-46.695174
 3407121,"Parada Jornalista Roberto Marinho - C/B","Av. Eng. Luiz Carlos Berrini, 1877 Ref.: Rua Jean Peltier",-23.612561,-46.695570
 3407123,"Parada Baltazar Fernandes - C/B","Av. Dr. Chucri Zaidan, 296 Ref.: Avenida Morumbi",-23.616123,-46.696916
-3407124,"Terminal Água Espraiada, 400","Ref.: Av. Das Nações Unidades/av. Chucri Zaidan -- Etec -- Sentido Jabaquara",-23.613613,-46.696662
+3407124,"Plat. Lateral Terminal Água Espraiada, 400","Ref.: Av. Das Nações Unidades/av. Chucri Zaidan -- Etec -- Sentido Jabaquara",-23.613613,-46.696662
 3407125,"Parada Oswaldo Casimiro Muller - C/B","Av. Eng. Luiz Carlos Berrini, 550 Ref.: Rua Surubim",-23.601301,-46.691446
 3407126,"Parada Oswaldo Casimiro Muller B/C","Av. Eng. Luiz Carlos Berrini, 427 Ref.: Rua Maçambara/rua Rio Da Prata",-23.600797,-46.691232
 3407127,"Intermunicipal","Av. Dr. Chucri Zaidan, 246 Ref.: Rua Evandro Carlos De Andrade E Av. Morumbi",-23.616424,-46.696861
 3407130,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 2 - Pmd 4 (517j-10)",-23.613618,-46.695232
 3407145,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 2 - Pmd 3 (5701-10)",-23.613582,-46.695367
 3407147,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 1 - Pmd 1 (7245-21)",-23.613678,-46.695510
-3407148,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 4 - Pmd 7 (709a-10)",-23.613208,-46.696368
+3407148,"Plat. Lateral Terminal Água Espraiada","Plat. Lateral Term. Água Espraiada Ref.: Tap - Plat. 4 - Pmd 7 (709a-10)",-23.613208,-46.696368
 3407149,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 1 - Pmd 2 (756a-10)",-23.613726,-46.695305
 3407150,"Terminal Água Espraiada","Term. Água Espraiada Ref.: Tap - Plat. 3 - Pmd 6 (607m-10)",-23.613468,-46.695504
 3407151,"Parada Funchal","R. Gomes De Carvalho, 1765",-23.594959,-46.689626
@@ -5221,7 +5222,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 6415394,"Ponto De Virada - 8007-10","Term. Pirituba Ref.: Calçada Administrativa",-23.486231,-46.725936
 6415395,"Av. Raimundo Pereira De Magalhães, 1881","Ref.: Av. Otaviano Alves De Lima",-23.506884,-46.714197
 6415396,"Av. Inácia De Toledo, 562","",-23.468661,-46.751359
-6415397,"Av. Raimundo Pereira De Magalhães, 6900","",-23.473530,-46.727868
 6508653,"R. Dr. José Do Amaral","Ref.: Depósito De Gás - Liquigás",-23.517736,-46.496773
 6508669,"Av. Antônio Fortunato, 700","Ref.: R Conceicao Do Castelo",-23.522882,-46.487250
 6508672,"Av. Antônio Fortunato, 1119","Ref.: R Geraldo Pimentel Dias",-23.520336,-46.484045
@@ -6001,7 +6001,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7504891,"R. Forte Do Rio Branco, 781","Ref.: Rua Forte Do Triunfo",-23.603653,-46.461476
 7504894,"R. Sen. Nilo Coelho, 749","Ref.: Rua Henrique Mazzauti",-23.604998,-46.489939
 7504895,"Av. Arraias Do Araguaia, 130","Ref.: Rua Xavier Sampaio",-23.595112,-46.506688
-7504902,"R. Ursa Menor, 105","R. Ursa Menor, 105 Ref.: Rua Iaptus/rua Hiperion",-23.611073,-46.473834
 7504904,"R. Perseu, 338","Ref.: R. Luís Barbalho Bezerra / R. Sírius",-23.607941,-46.461010
 7504905,"R. Sol, 172","Ref.: Rua Titânia",-23.610778,-46.462727
 7504906,"R. Sol, 227","Ref.: Rua Calixto",-23.610317,-46.462549
@@ -6244,7 +6243,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 7704220,"Av. Dos Sertanistas, 1231","Ref.: R Jorge Goncalves Pacheco",-23.630960,-46.446450
 7704221,"Av. Dos Sertanistas, 1231","Ref.: Rua Rocha Do Campo",-23.630877,-46.446526
 7704222,"R. Bento Pires Ribeiro, 146","",-23.630687,-46.447129
-7704223,"R. Ayrton Senna, 128","Ref.: Rua Bento Pires Ribeiro / Viela",-23.630626,-46.447797
+7704223,"R. Airton Senna, 128","Ref.: Rua Bento Pires Ribeiro / Viela",-23.630626,-46.447797
 7803899,"R. Francesco USPer, 248","Ref.: Av. Arq. Vilanova Artigas",-23.609753,-46.499037
 7803952,"R. Sg. Jorge Monçores, 12","Ref.: Rua Soldado Benoni Falcão Gouveia",-23.617739,-46.495221
 7803957,"R. Sg. Hermínio Aurélio Sampaio, 713","Ref.: Rua Clenio Wanderley",-23.619671,-46.493208
@@ -8307,7 +8306,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 70016562,"Parada 2 - Getúlio Vargas C/B","Av. Nove De Julho, 2000 Ref.: R Engenheiro Monlevade/ Vdto Professor Bernardino Tranchesi",-23.559239,-46.654314
 70016563,"Parada 1 - Getúlio Vargas C/B","Av. Nove De Julho, 2130 Ref.: R Dona Adma Jafet/ Vdto Professor Bernardino Tranchesi",-23.559846,-46.654687
 70016565,"Av. Brig. Luís Antônio, 755","Ref.: Rua Conde De São Joaquim/rua Condessa De São Joaquim - Oposto A Praça Perola Byington/",-23.556643,-46.640113
-70016754,"Humaitá","Av. Brig. Luís Antônio, 1061 Ref.: R Major Diogo/ R Humaita",-23.558923,-46.642047
 70016782,"Av. Paulista, 200","Ref.: R Leoncio De Carvalho/ Pc Oswaldo Cruz",-23.570405,-46.645227
 70016834,"Av. Paulista, 500","Ref.: Av Brigadeiro Luis Antonio/ R Carlos Sampaio",-23.568023,-46.648338
 70016916,"Av. Paulista, 1374","Ref.: Al Rio Claro/ R Itapeva",-23.562931,-46.654428
@@ -12070,7 +12068,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 310008112,"Av. Miguel Achiole Da Fonseca, 717","Ref.: R Azevedo Monteiro/ R Rachid Alves",-23.556770,-46.400023
 310008113,"Av. Miguel Achiole Da Fonseca, 748","Ref.: R Raposo Da Fonseca/ R Rachid Alves",-23.557121,-46.400064
 310008114,"Av. Miguel Achiole Da Fonseca, 704","Ref.: R Furtado De Morais/ R Paulo Ramos",-23.555776,-46.400811
-310008115,"R. Feliciano De Mendonca, 11","R. Feliciano De Mendonca, 11 Ref.: Pc Nossa Senhora Da Gloria/ Av Miguel Achiole Da Fonseca",-23.554770,-46.401124
 310008116,"Av. Miguel Achiole Da Fonseca, 511","Ref.: R Gravacu/ R Feliciano De Mendonca",-23.554480,-46.401407
 310008117,"Av. Miguel Achiole Da Fonseca, 443","Ref.: R Aguanambi/ R Feliciano De Mendonca",-23.554152,-46.402459
 310008119,"Av. Miguel Achiole Da Fonseca, 220","Ref.: R Cacarema/ R Cristovao De Araujo",-23.553617,-46.404426
@@ -12318,7 +12315,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 330016010,"R. Paulo Bregaro, 481","Ref.: R Conde Vicente De Azevedo/ R Pedro Gomara",-23.585363,-46.612054
 330016011,"R. Pe. Marchetti, 235","Ref.: R Clovis Bueno De Azevedo/ R Gama Lobo",-23.588711,-46.612205
 330016012,"R. Gomes Nogueira, 426","Ref.: R Oliveira Melo/ R Professora Zoraide De Campos Helu",-23.586968,-46.614592
-330016013,"R. Br. De Loreto, 122","Ref.: R Gama Lobo/ R Paulo Bregaro",-23.587654,-46.612487
+330016013,"R. Br. De Loreto, 147","Ref.: R Gama Lobo/ R Paulo Bregaro",-23.587654,-46.612487
 330016014,"R. Maurício De Castilho, 406","R. Maurício De Castilho, 406 Ref.: R Paulo Bregaro/ Av Nazare",-23.584710,-46.611898
 330016015,"R. Paulo Bregaro, 273","Ref.: R Engenheiro Ranulfo Pinheiro De Lima/ R Pouso Alegre",-23.583633,-46.612230
 330016016,"R. Pouso Alegre, 16","Ref.: Pc Ministro Fagundes De Almeida/ Av Nazare",-23.582907,-46.611520
