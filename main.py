@@ -114,7 +114,8 @@ def dados_usuario():
     print("=" * 90)
 
 # Configuração do logger
-logging.basicConfig(filename=r'Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+init(autoreset=True)
+logging.basicConfig(filename='Mapa_dos_Trilhos\\log.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 with open(r'Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
