@@ -1,19 +1,33 @@
 import os
 import json
-import tkinter as tk
-from PIL import Image, ImageTk
+import sys
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QLabel, 
+                            QGraphicsScene, QGraphicsView, QGraphicsPixmapItem, 
+                            QVBoxLayout, QGraphicsRectItem, QGraphicsEllipseItem,
+                            QGraphicsTextItem, QGraphicsLineItem)
+from PyQt5.QtGui import QPixmap, QImage, QPainter, QColor, QFont, QTransform, QIcon
+from PyQt5.QtCore import Qt, QTimer, QRectF, QPointF
+from PIL import Image
 from datetime import datetime
 import locale
 from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
-import logging  # Importa o módulo logging para registrar mensagens de log
-    
+import logging
+
+try:
+    locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+except locale.Error:
+    try:
+        locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')
+    except locale.Error:
+        print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
+        locale.setlocale(locale.LC_ALL, '')
+
 # Configuração do logger
 logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Função para executar o script SP_L01.py
 def line11():
     try:
         logging.info(f"Abrindo Linha 11 - Coral")
@@ -21,7 +35,6 @@ def line11():
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar o script: {e}")
 
-# Define o local para o idioma português do Brasil
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
 # Carrega os dados do arquivo JSON
@@ -30,304 +43,438 @@ with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file
 
 with open('Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
-   
+    
 def get_destino_linha(script_name):
     dados = dados_linhas.get(script_name, {})
     destino = dados.get('DESTINO', 'DESTINO DESCONHECIDO')
     linha = dados.get('LINHA', '0000/00')
     trajeto = dados.get('TRAJETO', [])
-    # Obtém a cor da linha, com um padrão branco se não existir
     cor_linha = dados.get('COR_LINHA', '#000000')
-    # Obtém o caminho do logo, ou None se não existir
     logo_operador = dados.get('LOGO', None)
     operadora = dados.get('OPERADORA', None)
     return destino, linha, trajeto, cor_linha, logo_operador, operadora
 
-# Função para carregar imagens
-def load_image(image_path, x, y, width, height, canvas, images):
-    if os.path.exists(image_path):
-        img = Image.open(image_path)
-        img = img.resize((width, height), Image.LANCZOS)  # Redimensiona a imagem
-        photo = ImageTk.PhotoImage(img)
-        images.append(photo)  # Armazena a referência da imagem na lista
-        canvas.create_image(x, y, image=photo, anchor="center")  # Adiciona a imagem ao canvas
-    else:
-        print(f"Imagem não encontrada: {image_path}")
+class MapaLinhaWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Linha 11 - Coral")
+        self.setWindowIcon(QIcon('Mapa_dos_Trilhos\\Favicon\\cptm.ico'))
 
-'''
-# Função para ajustar tamanho com parâmetro
-def ajustar_tamanho(escala):
-    return
-'''
-
-# INSERIR TRECHO ABAIXO ANTES DE >>>script_name = os.path.basename(__file__)
-'''
-    # Adicionando os botões na janela
-    button_width = 5  # Largura fixa para todos os botões
-    button_height = 1  # Altura fixa para todos os botões
-    button_style = {
-        "bg": "#D3D3D3",  # Cor de fundo azul
-        "fg": "#000000",    # Cor do texto branco
-        "font": ("Arial", 10, "bold"),  # Fonte Arial, tamanho 10, negrito
-        "relief": "raised",  # Borda elevada
-        "bd": 1.5,  # Largura da borda
-    }
-
-    button_25 = tk.Button(root, text="25%", command=lambda: ajustar_tamanho(0.25), width=button_width, height=button_height, **button_style)
-    button_50 = tk.Button(root, text="50%", command=lambda: ajustar_tamanho(0.50), width=button_width, height=button_height, **button_style)
-    button_75 = tk.Button(root, text="75%", command=lambda: ajustar_tamanho(0.75), width=button_width, height=button_height, **button_style)
-    button_100 = tk.Button(root, text="100%", command=lambda: ajustar_tamanho(1), width=button_width, height=button_height, **button_style)
-
-    # Posicionando os botões
-    button_25.place(x=777, y=30)
-    button_50.place(x=822, y=30)
-    button_75.place(x=867, y=30)
-    button_100.place(x=912, y=30)
-'''
-
-def mapa_linha():
-    root = tk.Toplevel()
-    monitor = get_monitors()[0]
-    screen_width = monitor.width
-    screen_height = monitor.height
-    root.geometry(f"{screen_width}x{screen_height}")
-    root.attributes("-fullscreen", True)
-    root.overrideredirect(True)
-    root.title("Linha 11 - Coral")
-
-    def sair(event=None):
-        root.destroy()
-        logging.info(f"Fechando Linha 11 - Coral")
-
-    root.bind("<Escape>", sair)
-
-    canvas = tk.Canvas(root, width=1920, height=1080)
-    canvas.pack()
-
-    cinza = "#D3D3D3"
-    canvas.create_rectangle(0, 0, 1920, 1080, fill=cinza, outline=cinza)
-
-    script_name = os.path.basename(__file__)
-    destino_text, linha_text, trajeto_list, cor_linha, logo_operador, operadora = get_destino_linha(
-        script_name)
-
-    canvas.create_rectangle(0, 0, 1920, 60, fill="#000000", outline="#000000")
-    canvas.create_rectangle(
-        0, 60, 1920, 180, fill=cor_linha, outline=cor_linha)
-
-    def data_extenso():
+        monitor = get_monitors()[0]
+        self.setGeometry(0, 0, monitor.width, monitor.height)
+        self.setWindowState(Qt.WindowFullScreen)
+        self.screen_width = monitor.width
+        self.screen_height = monitor.height
+        
+        self.central_widget = QWidget()
+        self.setCentralWidget(self.central_widget)
+        
+        self.scene = QGraphicsScene()
+        self.view = QGraphicsView(self.scene)
+        
+        layout = QVBoxLayout(self.central_widget)
+        layout.addWidget(self.view)
+        
+        self.images = []
+        
+        self.script_name = os.path.basename(__file__)
+        self.destino_text, self.linha_text, self.trajeto_list, self.cor_linha, self.logo_operador, self.operadora = get_destino_linha(
+            self.script_name)
+        
+        self.setup_ui()
+        self.setup_timers()
+        
+    def setup_ui(self):
+        # Fundo cinza
+        self.scene.setBackgroundBrush(QColor("#D3D3D3"))
+        
+        # Cabeçalho preto
+        header = QGraphicsRectItem(0, 0, 1920, 60)
+        header.setBrush(QColor("#000000"))
+        header.setPen(QColor("#000000"))
+        self.scene.addItem(header)
+        
+        # Barra colorida
+        color_bar = QGraphicsRectItem(0, 60, 1920, 120)
+        color_bar.setBrush(QColor(self.cor_linha))
+        color_bar.setPen(QColor(self.cor_linha))
+        self.scene.addItem(color_bar)
+        
+        # Informações de temperatura e hora
+        self.temperatura = get_weather()
+        self.hora = datetime.now().strftime("%H:%M")
+        self.dia_semana = datetime.now().strftime("%A")
+        self.data_completa = self.data_extenso()
+        
+        self.linha1_text = self.scene.addText(f"| {self.hora} | São Paulo | {self.temperatura}")
+        self.linha1_text.setDefaultTextColor(QColor("#FFFFFF"))
+        self.linha1_text.setFont(QFont("Helvetica", 24))
+        self.linha1_text.setPos(50, 10)
+        
+        self.linha2_text = self.scene.addText(f"{self.dia_semana}, {self.data_completa}")
+        self.linha2_text.setDefaultTextColor(QColor("#FFFFFF"))
+        self.linha2_text.setFont(QFont("Helvetica", 24))
+        self.linha2_text.setPos(20, 50)
+        
+        # Destino e linha
+        destino_text = self.scene.addText(f"DESTINO: {self.destino_text}")
+        destino_text.setDefaultTextColor(QColor("#FFFFFF"))
+        destino_text.setFont(QFont("Helvetica", 24, QFont.Bold))
+        destino_text.setPos(20, 90)
+        
+        linha_text = self.scene.addText(f"LINHA: {self.linha_text}")
+        linha_text.setDefaultTextColor(QColor("#FFFFFF"))
+        linha_text.setFont(QFont("Helvetica", 24, QFont.Bold))
+        linha_text.setPos(20, 130)
+        
+        # Logo do operador
+        if self.logo_operador and os.path.exists(self.logo_operador):
+            self.load_image(self.logo_operador, 30, 37, 25, 25)
+        
+        # Processa os dados do subtitle.json
+        self.process_lines_data()
+        
+        # Processa o trajeto
+        self.process_trajeto()
+        
+    def data_extenso(self):
         now = datetime.now()
         return now.strftime("%d de %B de %Y")
-
-    # Inicializa as variáveis para temperatura e data/hora
-    temperatura = get_weather()
-    hora = datetime.now().strftime("%H:%M")
-    dia_semana = datetime.now().strftime("%A")
-    data_completa = data_extenso()
-
-    linha1 = canvas.create_text(
-        50, 20, text=f"| {hora} | São Paulo | {temperatura}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
-    linha2 = canvas.create_text(
-        20, 60, text=f"{dia_semana}, {data_completa}", font="Helvetica 24", anchor="nw", fill="#FFFFFF")
-    destino = canvas.create_text(
-        20, 100, text=f"DESTINO: {destino_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
-    linha = canvas.create_text(
-        20, 140, text=f"LINHA: {linha_text}", font="Helvetica 24 bold", anchor="nw", fill="#FFFFFF")
-
-    if logo_operador and os.path.exists(logo_operador):
-        images = []  # Lista para armazenar as referências de imagem
-        # Ajuste de posição e tamanho do logo
-        load_image(logo_operador, 30, 37, 25, 25, canvas, images)
-
-    # Exibir as informações do trajeto na horizontal, inclinadas em 60°
-    canvas_center_x = 960
-    total_items = len(trajeto_list)
-    item_spacing = 55
-
-    for line in lines_data["lines"]:
-        if isinstance(line, list):  # Verifica se o item é uma lista
-            for sub_item in line:  # Percorre cada sub-item da lista
-                if sub_item.get("type") == "oval":  # Verifica se o tipo é oval
-                    canvas.create_oval(
-                        sub_item["position"]["x1"], sub_item["position"]["y1"],
-                        sub_item["position"]["x2"], sub_item["position"]["y2"],
-                        fill=sub_item["fill"], outline=sub_item["outline"]
-                    )
-                elif sub_item.get("type") == "text":  # Verifica se o tipo é texto
-                    canvas.create_text(
-                        sub_item["position"]["x"], sub_item["position"]["y"],
-                        text=sub_item["text"], font=sub_item["font"],
-                        anchor=sub_item["anchor"], fill=sub_item["color"]
-                    )
-                else:
-                    print(f"Tipo inesperado: {sub_item}")
-        
-        elif "line" in line:
-            # Processamento para linhas de separação
-            canvas.create_line(
-                line["line"]["x1"], line["line"]["y1"],
-                line["line"]["x2"], line["line"]["y2"],
-                fill=line["line"]["color"], width=line["line"]["width"]
-            )
-        
-        elif "texts" in line:
-            # Processamento de textos
-            for text in line["texts"]:
-                canvas.create_text(
-                    text["position"]["x"], text["position"]["y"],
-                    text=text["text"], font=text["font"],
-                    anchor=text["anchor"], fill=text["color"]
-                )
-        
-        elif "icon" in line:
-            # Processamento de imagens
-            load_image(
-                line["icon"], line["coordinates"]["x"], line["coordinates"]["y"],
-                line["size"]["width"], line["size"]["height"], canvas, images
-            )
-        
-        else:
-            print(f"Item inesperado: {line}")
-
-    for i, trajeto in enumerate(trajeto_list):
-        x_position = canvas_center_x + (i - total_items // 2) * item_spacing
-        y_position = 420
-
-        if isinstance(trajeto, dict):
-            primary = trajeto.get("primary", "")
-            secondary = trajeto.get("secondary", "")
-            free_access = trajeto.get("free_access", False)
-            bold_secondary = trajeto.get("bold_secondary", False)
-            image_paths = [
-                trajeto.get("image"),
-                trajeto.get("image_1"),
-                trajeto.get("image_2"),
-                trajeto.get("image_3"),
-                trajeto.get("image_4"),
-                trajeto.get("image_5"),
-            ]
-
-            # Renderiza a estação com `primary` e `secondary`
-            if primary and secondary:
-                if bold_secondary:
-                    # Renderiza `secondary` maior
-                    canvas.create_text(
-                        x_position, y_position, text=secondary,
-                        font="Helvetica 20", angle=60, anchor="w"
-                    )
-                    # Renderiza `primary` menor
-                    canvas.create_text(
-                        x_position - 23, y_position, text=primary,
-                        font="Helvetica 14", angle=60, anchor="w"
-                    )
-                else:
-                    # Renderiza `primary` maior
-                    canvas.create_text(
-                        x_position, y_position, text=primary,
-                        font="Helvetica 20", angle=60, anchor="w"
-                    )
-                    # Renderiza `secondary` menor
-                    canvas.create_text(
-                        x_position + 23, y_position, text=secondary,
-                        font="Helvetica 14", angle=60, anchor="w"
-                    )
-
-            elif primary:  # Apenas `primary`
-                canvas.create_text(
-                    x_position, y_position, text=primary,
-                    font="Helvetica 20", angle=60, anchor="w"
-                )
-            elif secondary:  # Apenas `secondary`
-                canvas.create_text(
-                    x_position, y_position, text=secondary,
-                    font="Helvetica 20", angle=60, anchor="w"
-                )
-
-            # Desenha os círculos e imagens
-            rect = canvas.create_rectangle(
-                x_position - 20, y_position + 15, x_position + 40, y_position + 50,
-                fill=cor_linha, outline=cor_linha
-            )
-            # Preto se `free_access`, caso contrário Branco
-            ball_color = "#000000" if free_access else "#FFFFFF"
-            ball_color_outline = "#000000"
-            ball = canvas.create_oval(
-                x_position - 10, y_position + 20, x_position + 10, y_position + 40,
-                fill=ball_color, outline=ball_color_outline
-            )
-            canvas.lift(ball)
-            for image_path in image_paths:
-                if image_path and os.path.exists(image_path):
-                    load_image(image_path, x_position, y_position +
-                               70, 30, 30, canvas, images)
-                    y_position += 40
-        else:
-            # Renderiza itens simples
-            canvas.create_text(
-                x_position, y_position, text=trajeto,
-                font="Helvetica 20", angle=60, anchor="w"
-            )
-            rect = canvas.create_rectangle(
-                x_position - 20, y_position + 15, x_position + 40, y_position + 50,
-                fill=cor_linha, outline=cor_linha
-            )
-            ball = canvas.create_oval(
-                x_position - 10, y_position + 20, x_position + 10, y_position + 40,
-                fill="#FFFFFF", outline="#FFFFFF"
-            )
-
-    # Funções para atualizar temperatura, data e alternar imagens
-    def atualizar_temperatura():
-        global temperatura
-        temperatura = get_weather()
-        canvas.itemconfigure(
-            linha1, text=f"| {hora} | São Paulo | {temperatura}")
-        root.after(1000, atualizar_temperatura)
-
-    def atualizar_data_hora():
-        global hora, dia_semana, data_completa
-        hora = datetime.now().strftime("%H:%M")
-        dia_semana = datetime.now().strftime("%A")
-        data_completa = data_extenso()
-        canvas.itemconfigure(
-            linha1, text=f"| {hora} | São Paulo | {temperatura}")
-        canvas.itemconfigure(linha2, text=f"{dia_semana}, {data_completa}")
-        root.after(1000, atualizar_data_hora)
-
-    def alternar_imagens(index=1):
-        if index > 6:
-            index = 1
-
-        # Define o caminho da imagem com base na operadora
-        if operadora == "METRÔ":
-            image_path = f"Mapa_dos_Trilhos/Imgs/METRÔ/{index}.png"
-        elif operadora == "CPTM":
-            image_path = f"Mapa_dos_Trilhos/Imgs/CPTM/{index}.png"
-        elif operadora == "VIAQUATRO":
-            image_path = f"Mapa_dos_Trilhos/Imgs/VIAQUATRO/{index}.png"
-        elif operadora == "VIAMOBILIDADE_L5":
-            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L5/{index}.png"
-        elif operadora == "VIAMOBILIDADE_L8":
-            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L8/{index}.png"
-        elif operadora == "VIAMOBILIDADE_L9":
-            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L9/{index}.png"                                                
-        else:
-            print(f"Operadora desconhecida: {operadora}")
-            return  # Sai da função se a operadora for desconhecida
-
-        # Carrega a imagem no canvas
+    
+    def load_image(self, image_path, x, y, width, height):
         if os.path.exists(image_path):
-            load_image(image_path, 1440, 90, 960, 180, canvas, images)
+            img = Image.open(image_path)
+            img = img.resize((width, height), Image.LANCZOS)
+            
+            # Convert PIL Image to QImage
+            img = img.convert("RGBA")
+            data = img.tobytes("raw", "RGBA")
+            qimg = QImage(data, img.size[0], img.size[1], QImage.Format_RGBA8888)
+            
+            pixmap = QPixmap.fromImage(qimg)
+            pixmap_item = QGraphicsPixmapItem(pixmap)
+            pixmap_item.setPos(x - width/2, y - height/2)  # Centraliza a imagem
+            self.scene.addItem(pixmap_item)
+            self.images.append(pixmap_item)  # Mantém referência
+            
+            return pixmap_item
         else:
-            print(f"Imagem não encontrada: {image_path}")            
-        root.after(10000, alternar_imagens, index + 1)
+            print(f"Imagem não encontrada: {image_path}")
+            return None
+    
+    def process_lines_data(self):
+        for line in lines_data["lines"]:
+            if isinstance(line, list):
+                for sub_item in line:
+                    if sub_item.get("type") == "oval":
+                        ellipse = QGraphicsEllipseItem(
+                            sub_item["position"]["x1"], sub_item["position"]["y1"],
+                            sub_item["position"]["x2"] - sub_item["position"]["x1"],
+                            sub_item["position"]["y2"] - sub_item["position"]["y1"]
+                        )
+                        ellipse.setBrush(QColor(sub_item["fill"]))
+                        ellipse.setPen(QColor(sub_item["outline"]))
+                        self.scene.addItem(ellipse)
+                    
+                    elif sub_item.get("type") == "text":
+                        text = QGraphicsTextItem(sub_item["text"])
+                        text.setDefaultTextColor(QColor(sub_item["color"]))
+                        
+                        # Processa a fonte (ex: "Helvetica 12" -> QFont("Helvetica", 12))
+                        font_parts = sub_item["font"].split()
+                        font_name = font_parts[0]
+                        font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
+                        text.setFont(QFont(font_name, font_size))
+                        
+                        # Ajuste de posição com base na âncora
+                        x = sub_item["position"]["x"]
+                        y = sub_item["position"]["y"]
+                        anchor = sub_item.get("anchor", "nw")  # Padrão: northwest
+                        
+                        # Ajusta a posição baseado na âncora
+                        rect = text.boundingRect()
+                        if "center" in anchor:
+                            x -= rect.width() / 2
+                        elif "e" in anchor:
+                            x -= rect.width()
+                        if "center" in anchor:
+                            y -= rect.height() / 2
+                        elif "s" in anchor:
+                            y -= rect.height()
+                        
+                        text.setPos(x, y)
+                        self.scene.addItem(text)
+            
+            elif "line" in line:
+                line_item = QGraphicsLineItem(
+                    line["line"]["x1"], line["line"]["y1"],
+                    line["line"]["x2"], line["line"]["y2"]
+                )
+                line_item.setPen(QColor(line["line"]["color"]))
+                line_item.setZValue(1)  # Garante que a linha fique acima de outros elementos
+                self.scene.addItem(line_item)
 
-    root.after(0, atualizar_temperatura)
-    root.after(0, atualizar_data_hora)
-    root.after(0, alternar_imagens)
-    root.mainloop()
+            elif "text_blocks" in line:  # Novo tipo para blocos de texto com quebra automática
+                for block in line["text_blocks"]:
+                    text_item = QGraphicsTextItem(block["text"])
+                    text_item.setDefaultTextColor(QColor(block["color"]))
+                    
+                    font_parts = block["font"].split()
+                    font_name = font_parts[0]
+                    font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
+                    font = QFont(font_name, font_size)
+                    
+                    if "bold" in block["font"].lower():
+                        font.setBold(True)
+                    if "italic" in block["font"].lower():
+                        font.setItalic(True)
+                        
+                    text_item.setFont(font)
+                    text_item.setTextWidth(block.get("width", 400))  # Largura máxima para quebra de linha
+                    text_item.setPos(block["position"]["x"], block["position"]["y"])
+                    self.scene.addItem(text_item)
+
+            elif "texts" in line:
+                for text in line["texts"]:
+                    text_item = QGraphicsTextItem(text["text"])
+                    text_item.setDefaultTextColor(QColor(text["color"]))
+                    
+                    # Processamento da fonte
+                    font_parts = text["font"].split()
+                    font_name = font_parts[0]
+                    font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
+                    font = QFont(font_name, font_size)
+                    
+                    # Verifica se tem estilo (bold/italic)
+                    if "bold" in text["font"].lower():
+                        font.setBold(True)
+                    if "italic" in text["font"].lower():
+                        font.setItalic(True)
+                    
+                    text_item.setFont(font)
+                    
+                    # Posição base
+                    x = text["position"]["x"]
+                    y = text["position"]["y"]
+                    
+                    # Ajuste especial para operadoras (METRÔ, CPTM, etc.)
+                    if any(op in text["text"] for op in ["METRÔ", "CPTM", "EMTU", "VIAQUATRO", "VIAMOBILIDADE"]):
+                        y += -15  # Desce o texto para ficar abaixo da linha
+                    
+                    # Ajuste especial para última coluna (telefones)
+                    if x > 1800:  # Itens muito à direita
+                        x -= 0  # Move para a esquerda
+                    
+                    # No bloco de textos, adicione este caso especial:
+                    if "0800" in text["text"]:  # Detecta os textos de telefone
+                        x = text["position"]["x"] + 20  # Move significativamente para esquerda
+                        text_item.setPos(x, y)
+
+                    # Tratamento da âncora
+                    anchor = text.get("anchor", "nw")
+                    rect = text_item.boundingRect()
+                    
+                    if "center" in anchor:
+                        x -= rect.width() / 2
+                    elif "e" in anchor:  # anchor = 'e' (leste/direita)
+                        x -= rect.width()
+                    
+                    if "center" in anchor:
+                        y -= rect.height() / 2
+                    elif "s" in anchor:  # anchor = 's' (sul/baixo)
+                        y -= rect.height()
+                    
+                    text_item.setPos(x, y)
+                    self.scene.addItem(text_item)
+            
+            elif "icon" in line:
+                self.load_image(
+                    line["icon"], 
+                    line["coordinates"]["x"], 
+                    line["coordinates"]["y"],
+                    line["size"]["width"], 
+                    line["size"]["height"]
+                )
+    
+    def process_trajeto(self):
+        canvas_center_x = 960
+        total_items = len(self.trajeto_list)
+        item_spacing = 55
+        
+        for i, trajeto in enumerate(self.trajeto_list):
+            x_position = canvas_center_x + (i - total_items // 2) * item_spacing
+            y_position = 420
+            
+            if isinstance(trajeto, dict):
+                primary = trajeto.get("primary", "")
+                secondary = trajeto.get("secondary", "")
+                free_access = trajeto.get("free_access", False)
+                bold_secondary = trajeto.get("bold_secondary", False)
+                image_paths = [
+                    trajeto.get("image"),
+                    trajeto.get("image_1"),
+                    trajeto.get("image_2"),
+                    trajeto.get("image_3"),
+                    trajeto.get("image_4"),
+                    trajeto.get("image_5"),
+                ]
+                
+                # Renderiza a estação
+                if primary and secondary:
+                    if bold_secondary:
+                        # Secondary maior
+                        text = QGraphicsTextItem(secondary)
+                        text.setDefaultTextColor(QColor("#000000"))
+                        text.setFont(QFont("Helvetica", 20))
+                        text.setPos(x_position - 23, y_position - 6)
+                        transform = QTransform().rotate(-60)
+                        text.setTransform(transform)
+                        self.scene.addItem(text)
+                        
+                        # Primary menor
+                        text = QGraphicsTextItem(primary)
+                        text.setDefaultTextColor(QColor("#000000"))
+                        text.setFont(QFont("Helvetica", 14))
+                        text.setPos(x_position - 43, y_position - 6)
+                        transform = QTransform().rotate(-60)
+                        text.setTransform(transform)
+                        self.scene.addItem(text)
+                    else:
+                        # Primary maior
+                        text = QGraphicsTextItem(primary)
+                        text.setDefaultTextColor(QColor("#000000"))
+                        text.setFont(QFont("Helvetica", 20))
+                        text.setPos(x_position - 23, y_position - 6)
+                        transform = QTransform().rotate(-60)
+                        text.setTransform(transform)
+                        self.scene.addItem(text)
+                        
+                        # Secondary menor
+                        text = QGraphicsTextItem(secondary)
+                        text.setDefaultTextColor(QColor("#000000"))
+                        text.setFont(QFont("helvetica", 14))
+                        text.setPos(x_position + 8, y_position - 6)
+                        transform = QTransform().rotate(-60)
+                        text.setTransform(transform)
+                        self.scene.addItem(text)
+                
+                elif primary:
+                    text = QGraphicsTextItem(primary)
+                    text.setDefaultTextColor(QColor("#000000"))
+                    text.setFont(QFont("Helvetica", 20))
+                    text.setPos(x_position - 23, y_position - 6)
+                    transform = QTransform().rotate(-60)
+                    text.setTransform(transform)
+                    self.scene.addItem(text)
+                
+                elif secondary:
+                    text = QGraphicsTextItem(secondary)
+                    text.setDefaultTextColor(QColor("#000000"))
+                    text.setFont(QFont("Helvetica", 20))
+                    text.setPos(x_position - 23, y_position - 6)
+                    transform = QTransform().rotate(-60)
+                    text.setTransform(transform)
+                    self.scene.addItem(text)
+                
+                # Retângulo e círculo
+                rect = QGraphicsRectItem(x_position - 20, y_position + 15, 60, 35)
+                rect.setBrush(QColor(self.cor_linha))
+                rect.setPen(QColor(self.cor_linha))
+                self.scene.addItem(rect)
+                
+                ball_color = QColor("#000000") if free_access else QColor("#FFFFFF")
+                ball = QGraphicsEllipseItem(x_position - 10, y_position + 20, 20, 20)
+                ball.setBrush(ball_color)
+                ball.setPen(QColor("#000000"))
+                self.scene.addItem(ball)
+                
+                # Imagens adicionais
+                for image_path in image_paths:
+                    if image_path and os.path.exists(image_path):
+                        self.load_image(image_path, x_position, y_position + 70, 30, 30)
+                        y_position += 40
+            
+            else:
+                # Item simples
+                text = QGraphicsTextItem(trajeto)
+                text.setDefaultTextColor(QColor("#000000"))
+                text.setFont(QFont("Helvetica", 20))
+                text.setPos(x_position - 23, y_position)
+                transform = QTransform().rotate(-60)
+                text.setTransform(transform)
+                self.scene.addItem(text)
+                
+                rect = QGraphicsRectItem(x_position - 20, y_position + 15, 60, 35)
+                rect.setBrush(QColor(self.cor_linha))
+                rect.setPen(QColor(self.cor_linha))
+                self.scene.addItem(rect)
+                
+                ball = QGraphicsEllipseItem(x_position - 10, y_position + 20, 20, 20)
+                ball.setBrush(QColor("#FFFFFF"))
+                ball.setPen(QColor("#FFFFFF"))
+                self.scene.addItem(ball)
+    
+    def setup_timers(self):
+        # Timer para atualizar temperatura
+        self.temp_timer = QTimer()
+        self.temp_timer.timeout.connect(self.atualizar_temperatura)
+        self.temp_timer.start(1000)
+        
+        # Timer para atualizar data/hora
+        self.clock_timer = QTimer()
+        self.clock_timer.timeout.connect(self.atualizar_data_hora)
+        self.clock_timer.start(1000)
+        
+        # Timer para alternar imagens
+        self.image_timer = QTimer()
+        self.image_timer.timeout.connect(self.alternar_imagens)
+        self.image_timer.start(10000)
+        self.current_image_index = 1
+    
+    def atualizar_temperatura(self):
+        self.temperatura = get_weather()
+        self.linha1_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura}")
+    
+    def atualizar_data_hora(self):
+        self.hora = datetime.now().strftime("%H:%M")
+        self.dia_semana = datetime.now().strftime("%A")
+        self.data_completa = self.data_extenso()
+        self.linha1_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura}")
+        self.linha2_text.setPlainText(f"{self.dia_semana}, {self.data_completa}")
+    
+    def alternar_imagens(self):
+        self.current_image_index += 1
+        if self.current_image_index > 6:
+            self.current_image_index = 1
+        
+        if self.operadora == "METRÔ":
+            image_path = f"Mapa_dos_Trilhos/Imgs/METRÔ/{self.current_image_index}.png"
+        elif self.operadora == "CPTM":
+            image_path = f"Mapa_dos_Trilhos/Imgs/CPTM/{self.current_image_index}.png"
+        elif self.operadora == "VIAQUATRO":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAQUATRO/{self.current_image_index}.png"
+        elif self.operadora == "VIAMOBILIDADE_L5":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L5/{self.current_image_index}.png"
+        elif self.operadora == "VIAMOBILIDADE_L8":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L8/{self.current_image_index}.png"
+        elif self.operadora == "VIAMOBILIDADE_L9":
+            image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L9/{self.current_image_index}.png"                                                
+        else:
+            print(f"Operadora desconhecida: {self.operadora}")
+            return
+        
+        if os.path.exists(image_path):
+            self.load_image(image_path, 1440, 90, 960, 180)
+        else:
+            print(f"Imagem não encontrada: {image_path}")
+    
+    def keyPressEvent(self, event):
+        if event.key() == Qt.Key_Escape:
+            logging.info(f"Fechando Linha 11 - Coral")
+            self.close()
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    root.withdraw()
-    mapa_linha()
+    app = QApplication(sys.argv)
+    window = MapaLinhaWindow()
+    window.show()
+    sys.exit(app.exec_())
