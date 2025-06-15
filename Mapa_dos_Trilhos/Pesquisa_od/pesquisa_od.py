@@ -17,6 +17,7 @@ from folium.plugins import HeatMap
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 import tempfile
 from pathlib import Path
+from screeninfo import get_monitors
 
 # Configuração do logger
 logging.basicConfig(filename='Mapa_dos_Trilhos/log.txt', filemode='a', level=logging.INFO,
@@ -238,29 +239,49 @@ class AppOD(QDialog):
             ]
         }
 
-        self.abas_dados = {}      
+        # Inicialização das variáveis
+        self.abas_dados = {}
         self.dados_completos = None
         self.todos_dados = {}
 
+        # Configurações básicas da janela
         self.setWindowTitle("Pesquisa Origem-Destino - METRÔ-SP")
         self.setWindowIcon(QIcon('metro_icon.png'))
         self.setModal(True)
         
-        # Substitua setCentralWidget por um layout principal
+        # Configuração do layout principal
         self.widget_principal = QWidget()
         self.setLayout(QVBoxLayout())
         self.layout().addWidget(self.widget_principal)
         
-        # Mantenha todo o resto do seu código de inicialização...
-        self.setMinimumSize(1200, 800)
-
-        # Inicializar interface
+        # Configuração de tela cheia
+        self.configurar_tela_cheia()
+        
+        # Inicialização da interface
         self.iniciar_interface()
         
-        # Carregar dados
+        # Carregamento dos dados
         self.carregar_dados()
+
+    def configurar_tela_cheia(self):
+        """Configura a janela para abrir em tela cheia corretamente"""
+        monitor = get_monitors()[0]
         
-        self.showMaximized()
+        # Define a geometria para cobrir todo o monitor
+        self.setGeometry(0, 0, monitor.width, monitor.height)
+        
+        # Remove a decoração da janela (bordas, barra de título)
+        self.setWindowFlags(self.windowFlags() | Qt.FramelessWindowHint)
+        
+        # Garante que a janela fique sempre no topo
+        self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
+        
+        # Força o modo de tela cheia
+        self.showFullScreen()
+        
+        # Armazena as dimensões para uso posterior
+        self.screen_width = monitor.width
+        self.screen_height = monitor.height
 
     def closeEvent(self, event):
         """Garante que todas as threads sejam encerradas corretamente"""
@@ -402,6 +423,11 @@ class AppOD(QDialog):
         self.dialogo_progresso.close()
         QMessageBox.critical(self, "Erro", mensagem_erro)
         self.statusBar().showMessage("Erro ao carregar dados!")
+
+    def keyPressEvent(self, event):
+        if event.key() == Qt.Key_Escape:
+            logging.info(f"Fechando Página Pesquisa Origem e Destino")
+            self.close()
 
 def pesquisa_od_metro(parent=None):
     """Função para iniciar como janela independente"""
