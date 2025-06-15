@@ -17,6 +17,15 @@ from PIL import Image
 from colorama import Fore, Back, Style, init
 import logging
 from screeninfo import get_monitors
+import traceback
+
+def excepthook(exc_type, exc_value, exc_tb):
+    tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
+    logging.critical(f"Exceção não tratada:\n{tb}")
+    QMessageBox.critical(None, "Erro", f"Exceção não tratada:\n{str(exc_value)}")
+    QApplication.quit()
+
+sys.excepthook = excepthook
 
 # Configurações de caminho
 sys.path.extend([
@@ -30,7 +39,7 @@ sys.path.extend([
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
     QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
-    QGraphicsTextItem, QGraphicsLineItem, QSplitter
+    QGraphicsTextItem, QGraphicsLineItem, QSplitter, QMessageBox
 )
 from PyQt5.QtCore import Qt, QTimer, QDateTime
 from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
@@ -54,7 +63,6 @@ from SP_L01 import line1
 from noticia import notice_transp_sao_paulo
 from varredura import verificacao
 from Pesquisa_pass.pesquisa_pass import passageiro_estacao
-from Pesquisa_od.pesquisa_od import pesquisa_od_metro
 from mapa import mapa_global
 from gtfs_emtu import emtu
 from gtfs_sptrans import sptrans
@@ -232,6 +240,11 @@ class MainWindow(QMainWindow):
         # 🔹 Faz a varredura inicial
         fazer_varredura()
     
+    def abrir_pesquisa_od(self):
+        """Abre a janela de Pesquisa OD como diálogo modal"""
+        from Pesquisa_od.pesquisa_od import pesquisa_od_metro
+        pesquisa_od_metro(self)  # Passa self como parent
+        
     def setup_top_frames(self):
         self.left_layout.setSpacing(5)  # Maior espaçamento para melhor organização
         self.left_layout.setContentsMargins(5, 5, 5, 5)  # Margens mais visíveis
@@ -269,10 +282,10 @@ class MainWindow(QMainWindow):
         
         # Frame Pesquisas
         frame_pesquisas_metro, layout_pesquisas_metro = criar_frame("Pesquisas", 140, 250)
-        self.criar_botao(layout_pesquisas_metro, "Pesquisa Origem e Destino", pesquisa_od_metro, "black", "#00c9c4", "#007875", "pesquisa_od")
+        self.criar_botao(layout_pesquisas_metro, "Pesquisa Origem e Destino", self.abrir_pesquisa_od, "black", "#00c9c4", "#007875", "pesquisa_od")
         self.criar_botao(layout_pesquisas_metro, "Demanda por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", "pesquisa_pass")
         self.left_layout.addWidget(frame_pesquisas_metro)
-    
+        
         # Frame Mapa Qualidade do Ar
         frame_qualidade_ar, layout_qualidade_ar = criar_frame("Qualidade do Ar - São Paulo", 140, 250)
         self.criar_botao(layout_qualidade_ar, "Qualidade do Ar", mapa_qualidade_ar, "black", "#00c91b", "#00690e95", "qualidade_ar")
@@ -634,7 +647,11 @@ class MainWindow(QMainWindow):
             self.close()
             
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec_())
+    try:
+        app = QApplication(sys.argv)
+        window = MainWindow()
+        window.show()
+        sys.exit(app.exec_())
+    except Exception as e:
+        logging.critical(f"Erro não tratado: {str(e)}", exc_info=True)
+        QMessageBox.critical(None, "Erro Fatal", f"Ocorreu um erro crítico:\n{str(e)}")
