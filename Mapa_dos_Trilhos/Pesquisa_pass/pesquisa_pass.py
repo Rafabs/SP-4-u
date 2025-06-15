@@ -341,7 +341,7 @@ class ODApp(QMainWindow):
 
 def passageiro_estacao():
     """Função principal para iniciar a aplicação"""
-    logging.info("Abrindo Mapa da Pesquisa Origem e Destino")
+    logging.info("Abrindo Mapa da Pesquisa Demanda de Passageiros")
     
     app = QApplication(sys.argv)
     window = ODApp()

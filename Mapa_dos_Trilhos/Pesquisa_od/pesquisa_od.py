@@ -9,369 +9,409 @@ from matplotlib.figure import Figure
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                             QLabel, QPushButton, QComboBox, QTableWidget, QTableWidgetItem, 
                             QHeaderView, QAbstractItemView, QScrollArea, QFrame, 
-                            QSizePolicy, QTabWidget, QSplitter)
-from PyQt5.QtCore import Qt, QSize
+                            QSizePolicy, QTabWidget, QSplitter, QMessageBox, QProgressDialog, QDialog)
+from PyQt5.QtCore import Qt, QSize, QThread, pyqtSignal
 from PyQt5.QtGui import QFont, QColor, QIcon
+import folium
+from folium.plugins import HeatMap
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+import tempfile
+from pathlib import Path
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+logging.basicConfig(filename='Mapa_dos_Trilhos/log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Dicionário com os caminhos dos arquivos por ano
+# Dicionário com os caminhos dos arquivos usando Path para melhor manipulação
 arquivos_od = {
-    1997: "Mapa_dos_Trilhos\\Pesquisa_Origem_Destino\\OD1997\\Tabelas-OD1997\\Tab01_OD97.xls",
-    2007: "Mapa_dos_Trilhos\\Pesquisa_Origem_Destino\\OD2007\\Tabelas-OD2007\\Tab01_OD2007.xlsx",
-    2017: "Mapa_dos_Trilhos\\Pesquisa_Origem_Destino\\OD2017\\Tabelas-OD2017\\Tab01_OD2017.xlsx"
+    2017: {
+        "Dados Gerais": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab01_OD2017.xlsx"),
+        "População por Idade": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab02_OD2017.xlsx"),
+        "População por Instrução": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab03_OD2017.xlsx"),
+        "População por Gênero": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab04_OD2017.xlsx"),
+        "População por Renda": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab05_OD2017.xlsx"),
+        "Renda Familiar": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab06_OD2017.xlsx"),
+        "Famílias por Automóveis": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab07_OD2017.xlsx"),
+        "Vínculo Empregatício": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab08_OD2017.xlsx"),
+        "Condição de Atividade": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab09_OD2017.xlsx"),
+        "Matrículas Escolares": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab10_OD2017.xlsx"),
+        "Empregos por Setor": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab11_OD2017.xlsx"),
+        "Empregos por Classe": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab12_OD2017.xlsx"),
+        "Empregos por Vínculo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab13_OD2017.xlsx"),
+        "Empregos por Localização": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab14_OD2017.xlsx"),
+        "Empregos por Tipo Trabalho": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab15_OD2017.xlsx"),
+        "Viagens por Modo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab16_OD2017.xlsx"),
+        "Viagens por Tipo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab17_OD2017.xlsx"),
+        "Viagens por Motivo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab18_OD2017.xlsx"),
+        "Viagens a Pé": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab19_OD2017.xlsx"),
+        "Tempo Médio Viagens": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab20_OD2017.xlsx"),
+        "Viagens Atraídas por Modo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab21_OD2017.xlsx"),
+        "Viagens Atraídas por Tipo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab22_OD2017.xlsx"),
+        "Viagens Atraídas por Motivo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab23_OD2017.xlsx"),
+        "Matriz Coletivo": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab24_OD2017.xlsx"),
+        "Matriz Individual": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab25_OD2017.xlsx"),
+        "Matriz Motorizado": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab26_OD2017.xlsx"),
+        "Matriz a Pé": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab27_OD2017.xlsx"),
+        "Matriz Bicicleta": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab28_OD2017.xlsx"),
+        "Matriz Não-Motorizado": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab29_OD2017.xlsx"),
+        "Matriz Total": Path("Mapa_dos_Trilhos/Pesquisa_Origem_Destino/OD2017/Tabelas-OD2017/Tab30_OD2017.xlsx")
+    }
 }
 
+class ThreadCarregamento(QThread):
+    """Thread para carregar os dados em segundo plano"""
+    progresso_atualizado = pyqtSignal(int, str)
+    dados_carregados = pyqtSignal(dict)
+    erro_ocorrido = pyqtSignal(str)
+
+    def __init__(self, arquivos):
+        super().__init__()
+        self.arquivos = arquivos
+        self.dados = {}
+
+    def run(self):
+        try:
+            total = len(self.arquivos)
+            for i, (nome_tab, caminho) in enumerate(self.arquivos.items(), 1):
+                self.progresso_atualizado.emit(int((i/total)*100), f"Carregando {nome_tab}...")
+                
+                if not caminho.exists():
+                    logging.warning(f"Arquivo não encontrado: {caminho}")
+                    continue
+                
+                try:
+                    # Tratamento especial para matrizes
+                    if "Matriz" in nome_tab:
+                        df = pd.read_excel(caminho, header=None)
+                        if df.shape[0] > 517:
+                            df = pd.read_excel(caminho, skiprows=df.shape[0]-517, header=None)
+                        # Resetar índice para garantir índices numéricos
+                        df = df.reset_index(drop=True)
+                        # Converter cabeçalhos para strings
+                        df.columns = [str(col) for col in df.columns]
+                    else:
+                        df = pd.read_excel(caminho, skiprows=6, header=0)
+                        # Resetar índice para garantir índices numéricos
+                        df = df.reset_index(drop=True)
+                        # Converter nomes de colunas para strings
+                        df.columns = [str(col) for col in df.columns]
+                    
+                    # Processamento básico
+                    df = df.dropna(how='all').dropna(axis=1, how='all')
+                    
+                    self.dados[nome_tab] = df
+                    
+                except Exception as e:
+                    logging.warning(f"Erro ao carregar {nome_tab}: {str(e)}")
+                    self.erro_ocorrido.emit(f"Erro ao carregar {nome_tab}: {str(e)}")
+            
+            self.dados_carregados.emit(self.dados)
+            
+        except Exception as e:
+            logging.error(f"Erro crítico no carregamento: {str(e)}", exc_info=True)
+            self.erro_ocorrido.emit(f"Erro crítico: {str(e)}")
+
 class MplCanvas(FigureCanvas):
-    """Classe para integração do matplotlib com PyQt5"""
+    """Canvas para gráficos matplotlib"""
     def __init__(self, parent=None, width=5, height=4, dpi=100):
         fig = Figure(figsize=(width, height), dpi=dpi)
         self.axes = fig.add_subplot(111)
         super().__init__(fig)
         self.setParent(parent)
 
-class ODApp(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Pesquisa Origem e Destino - METRÔ-SP")
-        self.setWindowIcon(QIcon('metro_icon.png'))
+class AbaDados(QWidget):
+    """Aba para exibição de dados em tabela"""
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.layout = QVBoxLayout(self)
+
+        # Configuração da área de rolagem
+        self.area_rolagem = QScrollArea()
+        self.area_rolagem.setWidgetResizable(True)
         
-        # Configurações da janela principal
-        self.setMinimumSize(1000, 700)
-        self.current_df = None
+        # Configuração da tabela
+        self.tabela = QTableWidget()
+        self.tabela.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        self.tabela.setAlternatingRowColors(True)
+        self.tabela.verticalHeader().setVisible(False)
+        self.tabela.horizontalHeader().setSectionResizeMode(QHeaderView.Interactive)
         
-        # Widget central e layout
-        central_widget = QWidget()
-        self.setCentralWidget(central_widget)
-        self.main_layout = QVBoxLayout(central_widget)
+        self.area_rolagem.setWidget(self.tabela)
+        self.layout.addWidget(self.area_rolagem)
         
-        # Barra de controle
-        self.setup_control_bar()
-        
-        # Área principal com abas
-        self.setup_main_area()
-        
-        # Carregar estilos
-        self.setup_styles()
-        
-        # Conectar sinais
-        self.btn_carregar.clicked.connect(self.carregar_dados_selecionado)
-        self.btn_gerar_graficos.clicked.connect(self.gerar_graficos)
-        
-        # Exibir
-        self.showMaximized()
-    
-    def setup_control_bar(self):
-        """Configura a barra de controle com combobox e botões"""
-        control_frame = QFrame()
-        control_frame.setFrameShape(QFrame.StyledPanel)
-        control_layout = QHBoxLayout(control_frame)
-        
-        # Label
-        lbl_ano = QLabel("Selecione o ano dos dados:")
-        lbl_ano.setFont(QFont("Arial", 12))
-        
-        # Combobox
-        self.combobox_anos = QComboBox()
-        self.combobox_anos.setFont(QFont("Arial", 12))
-        self.combobox_anos.addItems([str(ano) for ano in arquivos_od.keys()])
-        self.combobox_anos.setFixedWidth(150)
-        
-        # Botões
-        self.btn_carregar = QPushButton("Carregar Dados")
-        self.btn_carregar.setFont(QFont("Arial", 12))
-        self.btn_carregar.setFixedSize(150, 40)
-        
-        self.btn_gerar_graficos = QPushButton("Gerar Gráficos")
-        self.btn_gerar_graficos.setFont(QFont("Arial", 12))
-        self.btn_gerar_graficos.setFixedSize(150, 40)
-        self.btn_gerar_graficos.setEnabled(False)
-        
-        # Adicionar widgets ao layout
-        control_layout.addWidget(lbl_ano)
-        control_layout.addWidget(self.combobox_anos)
-        control_layout.addWidget(self.btn_carregar)
-        control_layout.addWidget(self.btn_gerar_graficos)
-        control_layout.addStretch()
-        
-        self.main_layout.addWidget(control_frame)
-    
-    def setup_main_area(self):
-        """Configura a área principal com abas para tabela e gráficos"""
-        self.tab_widget = QTabWidget()
-        
-        # Tab 1 - Tabela de dados
-        self.tab_table = QWidget()
-        self.setup_table_tab()
-        
-        # Tab 2 - Visualização de gráficos
-        self.tab_graphs = QWidget()
-        self.setup_graphs_tab()
-        
-        self.tab_widget.addTab(self.tab_table, "Dados Tabulares")
-        self.tab_widget.addTab(self.tab_graphs, "Visualizações")
-        
-        self.main_layout.addWidget(self.tab_widget)
-    
-    def setup_table_tab(self):
-        """Configura a aba da tabela"""
-        layout = QVBoxLayout(self.tab_table)
-        
-        # Scroll Area
-        scroll_area = QScrollArea()
-        scroll_area.setWidgetResizable(True)
-        scroll_area.setFrameShape(QFrame.NoFrame)
-        
-        # Container para a tabela
-        table_container = QWidget()
-        table_container.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
-        table_layout = QVBoxLayout(table_container)
-        table_layout.setContentsMargins(0, 0, 0, 0)
-        
-        # Tabela
-        self.table = QTableWidget()
-        self.table.setEditTriggers(QAbstractItemView.NoEditTriggers)
-        self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
-        self.table.setAlternatingRowColors(True)
-        self.table.verticalHeader().setVisible(False)
-        self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Interactive)
-        
-        table_layout.addWidget(self.table)
-        scroll_area.setWidget(table_container)
-        
-        layout.addWidget(scroll_area)
-    
-    def setup_graphs_tab(self):
-        """Configura a aba de gráficos"""
-        layout = QVBoxLayout(self.tab_graphs)
-        
-        # Splitter para dividir os gráficos
-        splitter = QSplitter(Qt.Vertical)
-        
-        # Gráfico 1 - Barras
-        self.graph_frame1 = QFrame()
-        self.graph_frame1.setFrameShape(QFrame.StyledPanel)
-        graph_layout1 = QVBoxLayout(self.graph_frame1)
-        self.canvas1 = MplCanvas(self, width=8, height=4, dpi=100)
-        graph_layout1.addWidget(self.canvas1)
-        
-        # Gráfico 2 - Pizza
-        self.graph_frame2 = QFrame()
-        self.graph_frame2.setFrameShape(QFrame.StyledPanel)
-        graph_layout2 = QVBoxLayout(self.graph_frame2)
-        self.canvas2 = MplCanvas(self, width=8, height=4, dpi=100)
-        graph_layout2.addWidget(self.canvas2)
-        
-        splitter.addWidget(self.graph_frame1)
-        splitter.addWidget(self.graph_frame2)
-        
-        layout.addWidget(splitter)
-    
-    def setup_styles(self):
-        """Configura os estilos da aplicação"""
-        self.setStyleSheet("""
-            QMainWindow {
-                background-color: #f0f0f0;
-            }
-            QFrame {
-                background-color: white;
-                border-radius: 5px;
-            }
-            QLabel {
-                color: #333333;
-            }
-            QPushButton {
-                background-color: #0078d7;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                padding: 5px 10px;
-            }
-            QPushButton:hover {
-                background-color: #005fa3;
-            }
-            QPushButton:disabled {
-                background-color: #cccccc;
-            }
-            QComboBox {
-                padding: 5px;
-                border: 1px solid #cccccc;
-                border-radius: 4px;
-            }
+        # Configurar estilo
+        self.tabela.setStyleSheet("""
             QTableWidget {
-                border: none;
-                alternate-background-color: #f8f8f8;
+                gridline-color: #e0e0e0;
+                font-size: 11px;
             }
             QHeaderView::section {
                 background-color: #0078d7;
                 color: white;
-                padding: 5px;
+                padding: 4px;
                 font-weight: bold;
-            }
-            QTabWidget::pane {
                 border: none;
             }
+        """)
+    
+    def carregar_dados(self, df):
+        """Carrega dados do DataFrame na tabela"""
+        self.tabela.clear()
+        
+        if df is None or df.empty:
+            return
+        
+        # Converter os nomes das colunas para strings
+        colunas = [str(col) for col in df.columns]
+        
+        self.tabela.setColumnCount(len(colunas))
+        self.tabela.setHorizontalHeaderLabels(colunas)
+        
+        # Converter o índice para inteiros (caso seja string)
+        try:
+            linhas = [int(idx) for idx in df.index]
+            self.tabela.setRowCount(len(linhas))
+        except (ValueError, TypeError):
+            # Se não puder converter para inteiro, usar índice numérico padrão
+            self.tabela.setRowCount(len(df))
+        
+        for row_idx, row in df.iterrows():
+            # Garantir que row_idx seja inteiro
+            try:
+                row_idx_int = int(row_idx)
+            except (ValueError, TypeError):
+                # Se não puder converter, usar o índice numérico
+                row_idx_int = df.index.get_loc(row_idx)
+            
+            for col_idx, value in enumerate(row):
+                item = QTableWidgetItem()
+                item.setFlags(item.flags() & ~Qt.ItemIsEditable)
+                
+                if pd.isna(value):
+                    item.setText("N/D")
+                    item.setForeground(QColor(150, 150, 150))
+                elif isinstance(value, (int, float)):
+                    # Formatação numérica para o padrão brasileiro
+                    if abs(value) >= 1000:
+                        texto = f"{value:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".")
+                    else:
+                        texto = f"{value:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".").rstrip('0').rstrip(',')
+                    item.setText(texto)
+                    item.setTextAlignment(Qt.AlignRight | Qt.AlignVCenter)
+                else:
+                    item.setText(str(value))
+                    item.setTextAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+                
+                self.tabela.setItem(row_idx_int, col_idx, item)
+        
+        self.tabela.resizeColumnsToContents()
+
+class AppOD(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+
+        # Categorias para organização
+        self.categorias = {
+            "Dados Demográficos": [
+                "Dados Gerais", "População por Idade", "População por Instrução",
+                "População por Gênero", "População por Renda", "Renda Familiar",
+                "Famílias por Automóveis"
+            ],
+            "Dados de Emprego": [
+                "Vínculo Empregatício", "Condição de Atividade", "Empregos por Setor",
+                "Empregos por Classe", "Empregos por Vínculo", "Empregos por Localização",
+                "Empregos por Tipo Trabalho"
+            ],
+            "Dados Educacionais": [
+                "Matrículas Escolares"
+            ],
+            "Dados de Viagens": [
+                "Viagens por Modo", "Viagens por Tipo", "Viagens por Motivo",
+                "Viagens por Motivo Destino", "Viagens a Pé", "Tempo Médio Viagens",
+                "Viagens Atraídas por Modo", "Viagens Atraídas por Tipo",
+                "Viagens Atraídas por Motivo", "Viagens Atraídas por Motivo Destino"
+            ],
+            "Matrizes OD": [
+                "Matriz Coletivo", "Matriz Individual", "Matriz Motorizado",
+                "Matriz a Pé", "Matriz Bicicleta", "Matriz Não-Motorizado",
+                "Matriz Total"
+            ]
+        }
+
+        self.abas_dados = {}      
+        self.dados_completos = None
+        self.todos_dados = {}
+
+        self.setWindowTitle("Pesquisa Origem-Destino - METRÔ-SP")
+        self.setWindowIcon(QIcon('metro_icon.png'))
+        self.setModal(True)
+        
+        # Substitua setCentralWidget por um layout principal
+        self.widget_principal = QWidget()
+        self.setLayout(QVBoxLayout())
+        self.layout().addWidget(self.widget_principal)
+        
+        # Mantenha todo o resto do seu código de inicialização...
+        self.setMinimumSize(1200, 800)
+
+        # Inicializar interface
+        self.iniciar_interface()
+        
+        # Carregar dados
+        self.carregar_dados()
+        
+        self.showMaximized()
+
+    def closeEvent(self, event):
+        """Garante que todas as threads sejam encerradas corretamente"""
+        if hasattr(self, 'thread_carregamento') and self.thread_carregamento.isRunning():
+            self.thread_carregamento.quit()
+            self.thread_carregamento.wait()
+        event.accept()
+        
+    def iniciar_interface(self):
+        """Configura a interface gráfica"""
+        # Remova qualquer layout existente
+        if self.layout():
+            QWidget().setLayout(self.layout())
+        
+        # Crie um layout principal
+        self.layout_principal = QVBoxLayout()
+        self.setLayout(self.layout_principal)  # Define o layout no diálogo
+        
+        # Barra de controle
+        self.configurar_barra_controle()
+        
+        # Área principal com abas
+        self.widget_abas = QTabWidget()
+        self.configurar_abas_principais()
+        
+        self.layout_principal.addWidget(self.widget_abas)
+        
+        # Estilos
+        self.configurar_estilos()
+
+    def configurar_barra_controle(self):
+        """Configura a barra de controle superior"""
+        frame_controle = QFrame()
+        frame_controle.setFrameShape(QFrame.StyledPanel)
+        layout_controle = QHBoxLayout(frame_controle)  # Layout no frame, não no diálogo
+        
+        # Botão para atualizar dados
+        self.botao_atualizar = QPushButton("Atualizar Dados")
+        self.botao_atualizar.clicked.connect(self.carregar_dados)
+        layout_controle.addWidget(self.botao_atualizar)
+        
+        layout_controle.addStretch()
+        
+        self.layout_principal.addWidget(frame_controle)  # Adiciona o frame ao layout principal
+
+    def configurar_abas_principais(self):
+        """Cria as abas principais organizadas por categoria"""
+        for categoria, tabelas in self.categorias.items():
+            widget_abas_categoria = QTabWidget()
+            
+            # Criar sub-abas para cada tabela
+            for tabela in tabelas:
+                self.abas_dados[tabela] = AbaDados()
+                widget_abas_categoria.addTab(self.abas_dados[tabela], tabela)
+            
+            self.widget_abas.addTab(widget_abas_categoria, categoria)
+
+    def configurar_estilos(self):
+        """Define os estilos visuais da aplicação"""
+        self.setStyleSheet("""
+            QMainWindow { background-color: #f0f0f0; }
+            QFrame { 
+                background-color: white; 
+                border-radius: 5px; 
+                padding: 5px;
+            }
+            QPushButton {
+                background-color: #0078d7; 
+                color: white; 
+                border: none;
+                border-radius: 4px; 
+                padding: 5px 10px;
+                min-width: 100px;
+            }
+            QPushButton:hover { background-color: #005fa3; }
+            QPushButton:pressed { background-color: #003d7e; }
+            QTabWidget::pane {
+                border: 1px solid #d0d0d0;
+                border-radius: 4px;
+            }
             QTabBar::tab {
+                padding: 5px 10px;
                 background: #e0e0e0;
-                padding: 8px;
+                border: 1px solid #d0d0d0;
+                border-bottom: none;
                 border-top-left-radius: 4px;
                 border-top-right-radius: 4px;
+                margin-right: 2px;
             }
             QTabBar::tab:selected {
                 background: #0078d7;
                 color: white;
             }
         """)
-    
-    def carregar_dados(self, ano):
-        """Carrega os dados do arquivo correspondente ao ano selecionado"""
-        if ano not in arquivos_od:
-            logging.error(f"Erro: Ano {ano} não disponível.")
-            return
-        
-        file_path = arquivos_od[ano]
-        
-        if not os.path.exists(file_path):
-            logging.error(f"Erro: Arquivo não encontrado para {ano}: {file_path}")
-            return
-        
-        try:
-            if ano == 1977:
-                df = pd.read_excel(file_path, skiprows=3, usecols=[0, 1], names=["Município", "Nome do Município"])
-            elif ano in [1997, 2007, 2017]:
-                df = pd.read_excel(file_path, skiprows=6)
-            else:
-                df = pd.read_excel(file_path)
 
-            logging.info(f"Dados do ano {ano} carregados com sucesso.")
-            self.current_df = df
-            self.exibir_dados(df)
-            self.btn_gerar_graficos.setEnabled(True)
+    def carregar_dados(self):
+        """Inicia o carregamento dos dados"""
+        # Mostrar diálogo de progresso
+        self.dialogo_progresso = QProgressDialog("Carregando dados...", "Cancelar", 0, 100, self)
+        self.dialogo_progresso.setWindowTitle("Carregamento de Dados")
+        self.dialogo_progresso.setWindowModality(Qt.WindowModal)
+        self.dialogo_progresso.setAutoClose(True)
+        
+        # Criar e configurar thread de carregamento
+        self.thread_carregamento = ThreadCarregamento(arquivos_od[2017])
+        self.thread_carregamento.progresso_atualizado.connect(self.atualizar_progresso)
+        self.thread_carregamento.dados_carregados.connect(self.dados_carregados)
+        self.thread_carregamento.erro_ocorrido.connect(self.mostrar_erro)
+        
+        # Conectar cancelamento
+        self.dialogo_progresso.canceled.connect(self.thread_carregamento.terminate)
+        
+        # Iniciar thread
+        self.thread_carregamento.start()
+        self.dialogo_progresso.show()
 
-        except Exception as e:
-            logging.error(f"Erro ao carregar os dados do ano {ano}: {str(e)}")
-            self.btn_gerar_graficos.setEnabled(False)
-    
-    def exibir_dados(self, df):
-        """Exibe os dados na tabela formatados"""
-        self.table.clear()
-        
-        # Configurar colunas
-        self.table.setColumnCount(len(df.columns))
-        self.table.setHorizontalHeaderLabels(df.columns)
-        
-        # Configurar linhas
-        self.table.setRowCount(len(df))
-        
-        # Preencher dados
-        for row_idx, row in df.iterrows():
-            for col_idx, value in enumerate(row):
-                item = QTableWidgetItem()
-                
-                # Formatar números
-                if isinstance(value, (int, float)):
-                    text = f"{value:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".")
-                    item.setData(Qt.DisplayRole, text)
-                    item.setTextAlignment(Qt.AlignRight | Qt.AlignVCenter)
-                else:
-                    item.setText(str(value))
-                    item.setTextAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-                
-                self.table.setItem(row_idx, col_idx, item)
-        
-        # Ajustar largura das colunas
-        self.table.resizeColumnsToContents()
-        
-        # Adicionar destaque para linhas alternadas
-        for i in range(self.table.rowCount()):
-            if i % 2 == 0:
-                for j in range(self.table.columnCount()):
-                    if self.table.item(i, j):
-                        self.table.item(i, j).setBackground(QColor(240, 240, 240))
-    
-    def gerar_graficos(self):
-        """Gera visualizações gráficas dos dados carregados"""
-        if self.current_df is None:
-            return
-        
-        df = self.current_df
-        
-        try:
-            # Limpar gráficos anteriores
-            self.canvas1.axes.clear()
-            self.canvas2.axes.clear()
-            
-            # Gráfico 1 - Barras (top 10 municípios)
-            if 'Município' in df.columns and len(df.columns) > 1:
-                numeric_cols = [col for col in df.columns if pd.api.types.is_numeric_dtype(df[col])]
-                if numeric_cols:
-                    col = numeric_cols[0]  # Primeira coluna numérica
-                    top10 = df.nlargest(10, col)
-                    
-                    bars = self.canvas1.axes.barh(
-                        top10['Município'].astype(str), 
-                        top10[col],
-                        color='#0078d7'
-                    )
-                    
-                    # Adicionar valores nas barras
-                    for bar in bars:
-                        width = bar.get_width()
-                        self.canvas1.axes.text(
-                            width, bar.get_y() + bar.get_height()/2,
-                            f'{width:,.0f}'.replace(',', '.'),
-                            va='center', ha='left', color='black'
-                        )
-                    
-                    self.canvas1.axes.set_title(f'Top 10 Municípios - {col}')
-                    self.canvas1.axes.set_xlabel('Quantidade')
-                    self.canvas1.axes.grid(axis='x', linestyle='--', alpha=0.6)
-            
-            # Gráfico 2 - Pizza (distribuição percentual)
-            if len(df.columns) >= 2 and len(df) > 1:
-                numeric_cols = [col for col in df.columns if pd.api.types.is_numeric_dtype(df[col])]
-                if numeric_cols:
-                    col = numeric_cols[0]  # Primeira coluna numérica
-                    top5 = df.nlargest(5, col)
-                    outros = df[col].sum() - top5[col].sum()
-                    
-                    sizes = list(top5[col]) + [outros]
-                    labels = list(top5.iloc[:, 0].astype(str)) + ['Outros']
-                    colors = ['#0078d7', '#005fa3', '#003f72', '#7fb6e6', '#c2d9f0', '#e6e6e6']
-                    
-                    self.canvas2.axes.pie(
-                        sizes, labels=labels, colors=colors,
-                        autopct='%1.1f%%', startangle=90,
-                        wedgeprops={'edgecolor': 'white', 'linewidth': 1}
-                    )
-                    
-                    self.canvas2.axes.set_title('Distribuição Percentual')
-                    self.canvas2.axes.axis('equal')  # Garante que o gráfico fique circular
-            
-            # Atualizar os canvas
-            self.canvas1.draw()
-            self.canvas2.draw()
-            
-            # Mudar para a aba de gráficos
-            self.tab_widget.setCurrentIndex(1)
-            
-        except Exception as e:
-            logging.error(f"Erro ao gerar gráficos: {str(e)}")
-    
-    def carregar_dados_selecionado(self):
-        """Obtém o ano selecionado pelo usuário e chama carregar_dados"""
-        ano = int(self.combobox_anos.currentText())
-        self.carregar_dados(ano)
+    def atualizar_progresso(self, valor, mensagem):
+        """Atualiza a barra de progresso"""
+        self.dialogo_progresso.setValue(valor)
+        self.dialogo_progresso.setLabelText(mensagem)
+        QApplication.processEvents()
 
-def pesquisa_od_metro():
-    """Função principal para iniciar a aplicação"""
-    logging.info("Abrindo Mapa da Pesquisa Origem e Destino")
+    def dados_carregados(self, dados):
+        """Processa os dados após carregamento completo"""
+        self.todos_dados = dados
+        self.dados_completos = dados.get("Dados Gerais")
+        
+        # Verifique se o atributo existe
+        if not hasattr(self, 'abas_dados'):
+            self.abas_dados = {}
+        
+        # Atualize as abas
+        for nome_tab, df in dados.items():
+            if nome_tab in self.abas_dados:
+                self.abas_dados[nome_tab].carregar_dados(df)
+
+    def mostrar_erro(self, mensagem_erro):
+        """Exibe mensagens de erro"""
+        self.dialogo_progresso.close()
+        QMessageBox.critical(self, "Erro", mensagem_erro)
+        self.statusBar().showMessage("Erro ao carregar dados!")
+
+def pesquisa_od_metro(parent=None):
+    """Função para iniciar como janela independente"""
+    app = QApplication.instance() or QApplication(sys.argv)
+    janela = AppOD(parent)
+    janela.show()
     
-    app = QApplication(sys.argv)
-    window = ODApp()
-    sys.exit(app.exec_())
+    if not QApplication.instance():
+        app.exec_()
+    return janela
 
 if __name__ == "__main__":
     pesquisa_od_metro()

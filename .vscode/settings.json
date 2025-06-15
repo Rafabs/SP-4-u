@@ -5,7 +5,8 @@
         "./Área de Desenvolvimento/Code_Mapa dos Trilhos",
         "./Mapa_dos_Trilhos",
         "./Mapa_dos_Trilhos/Linhas",
-        "./Mapa_dos_Trilhos/Sobre"
+        "./Mapa_dos_Trilhos/Sobre",
+        "./Mapa_dos_Trilhos/Qualidade_ar"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
