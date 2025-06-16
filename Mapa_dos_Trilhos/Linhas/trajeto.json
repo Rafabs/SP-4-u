@@ -3,14 +3,14 @@
         "DESTINO": "TUCURUVI <<->> JABAQUARA",
         "LINHA": "01 - AZUL",
         "COR_LINHA": "#0455A1",
-        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/metro.png",
         "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Tucuruvi",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "TUC",
                 "free_access": false
             },       
@@ -18,7 +18,7 @@
                 "primary": "Parada Inglesa",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "PIG",
                 "free_access": false
             },       
@@ -47,8 +47,8 @@
                 "primary": "Portuguesa",
                 "secondary": "Tietê",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "TTE",
                 "free_access": false
             },       
@@ -56,7 +56,7 @@
                 "primary": "Armênia",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "PPQ",
                 "free_access": false
             },    
@@ -71,11 +71,11 @@
                 "primary": "Luz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/4.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/10.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
+                "image": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
                 "TAG": "LUZ",
                 "free_access": false
             },
@@ -90,7 +90,7 @@
                 "primary": "Sé",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
                 "TAG": "PSE",
                 "free_access": false
             }, 
@@ -119,7 +119,7 @@
                 "primary": "Paraíso",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "PSO",
                 "free_access": false
             },      
@@ -127,7 +127,7 @@
                 "primary": "Ana Rosa",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "ANR",
                 "free_access": false
             },  
@@ -142,7 +142,7 @@
                 "primary": "Santa Cruz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/5.png",
+                "image": "Mapa_dos_Trilhos/Icons/5.png",
                 "TAG": "SCZ",
                 "free_access": false
             },  
@@ -178,9 +178,9 @@
                 "primary": "Jabaquara",
                 "secondary": "Comitê Paralímpico Brasileiro",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/zoo.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
-                "image_2": "Mapa_dos_Trilhos/icons/A.png",
+                "image": "Mapa_dos_Trilhos/Icons/zoo.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/A.png",
                 "TAG": "JAB",
                 "free_access": false
             }                                     
@@ -190,14 +190,14 @@
         "DESTINO": "VILA MADALENA <<->> VILA PRUDENTE",
         "LINHA": "02 - VERDE",
         "COR_LINHA": "#007E5E",
-        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/metro.png",
         "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Vila Madalena",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "VMD",
                 "free_access": false
             },   
@@ -219,7 +219,7 @@
                 "primary": "Consolação",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/4.png",
+                "image": "Mapa_dos_Trilhos/Icons/4.png",
                 "TAG": "CNS",
                 "free_access": false
             },            
@@ -241,7 +241,7 @@
                 "primary": "Paraíso",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
                 "TAG": "PSO",
                 "free_access": false
             },   
@@ -249,7 +249,7 @@
                 "primary": "Ana Rosa",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
                 "TAG": "ANR",
                 "free_access": false
             },     
@@ -257,7 +257,7 @@
                 "primary": "Chácara Klabin",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/5.png",
+                "image": "Mapa_dos_Trilhos/Icons/5.png",
                 "TAG": "CKB",
                 "free_access": false
             },   
@@ -279,7 +279,7 @@
                 "primary": "Sacomã",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "SAC",
                 "free_access": false
             },   
@@ -287,7 +287,7 @@
                 "primary": "Tamanduateí",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/10.png",
+                "image": "Mapa_dos_Trilhos/Icons/10.png",
                 "TAG": "TTI",
                 "free_access": false
             },  
@@ -295,7 +295,7 @@
                 "primary": "Vila Prudente",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/15.png",
+                "image": "Mapa_dos_Trilhos/Icons/15.png",
                 "TAG": "VPT",
                 "free_access": false
             }  
@@ -305,19 +305,19 @@
         "DESTINO": "BARRA FUNDA <<->> ITAQUERA",
         "LINHA": "03 - VERMELHA",
         "COR_LINHA": "#EE372F",
-        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/metro.png",
         "OPERADORA": "METRÔ",
         "TRAJETO": [
             {
                 "primary": "Palmeiras",
                 "secondary": "Barra Funda",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/7.png",
-                "image_1": "Mapa_dos_Trilhos/icons/8.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "BFU",
                 "free_access": false
             },     
@@ -339,7 +339,7 @@
                 "primary": "República",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/4.png",
+                "image": "Mapa_dos_Trilhos/Icons/4.png",
                 "TAG": "REP",
                 "free_access": false
             },     
@@ -354,7 +354,7 @@
                 "primary": "Sé",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
                 "TAG": "PSE",
                 "free_access": false
             },     
@@ -369,12 +369,12 @@
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/7.png",
-                "image_1": "Mapa_dos_Trilhos/icons/10.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/12.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             },     
@@ -396,9 +396,9 @@
                 "primary": "Tatuapé",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/11.png",
-                "image_1": "Mapa_dos_Trilhos/icons/12.png",
-                "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "TAT",
                 "free_access": false
             },   
@@ -406,7 +406,7 @@
                 "primary": "Carrão",
                 "secondary": "Assaí Atacadista",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "CAR",
                 "free_access": false
             },               
@@ -414,9 +414,9 @@
                 "primary": "Penha",
                 "secondary": "Lojas Besni",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
-                "image_1": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "PEN",
                 "free_access": false
             },     
@@ -452,8 +452,8 @@
                 "primary": "Corinthians",
                 "secondary": "Itaquera",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/11.png",
-                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "ITQ",
                 "free_access": false
             }
@@ -463,18 +463,18 @@
         "DESTINO": "LUZ <<->> VILA SÔNIA",
         "LINHA": "04 - AMARELA",
         "COR_LINHA": "#FFF000",
-        "LOGO": "Mapa_dos_Trilhos/icons/4_amarela.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/4_amarela.png",
         "OPERADORA": "VIAQUATRO",
         "TRAJETO": [
             {
                 "primary": "Luz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/10.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
                 "TAG": "LUZ",
                 "free_access": false
             },                  
@@ -482,7 +482,7 @@
                 "primary": "República",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
                 "TAG": "REP",
                 "free_access": false
             },    
@@ -497,7 +497,7 @@
                 "primary": "Paulista",
                 "secondary": "Pernambucanas",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "PTA",
                 "free_access": false
             }, 
@@ -526,7 +526,7 @@
                 "primary": "Pinheiros",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/9.png",
+                "image": "Mapa_dos_Trilhos/Icons/9.png",
                 "TAG": "PIN",
                 "free_access": false
             },  
@@ -541,7 +541,7 @@
                 "primary": "São Paulo • Morumbi",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "MBI",
                 "free_access": false
             },               
@@ -549,7 +549,7 @@
                 "primary": "Vila Sônia",   
                 "secondary": "Profº Elisabeth Tenreiro",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "VSO",
                 "free_access": false
             }                                     
@@ -559,14 +559,14 @@
         "DESTINO": "CHÁCARA KLABIN <<->> CAPÃO REDONDO",
         "LINHA": "05 - LILÁS",
         "COR_LINHA": "#9B3894",
-        "LOGO": "Mapa_dos_Trilhos/icons/5_lilas.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/5_lilas.png",
         "OPERADORA": "VIAMOBILIDADE_L5",
         "TRAJETO": [
             {
                 "primary": "Chácara Klabin",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "CKB",
                 "free_access": false
             },                  
@@ -574,7 +574,7 @@
                 "primary": "Santa Cruz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
                 "TAG": "SCZ",
                 "free_access": false
             },                  
@@ -652,7 +652,7 @@
                 "primary": "Santo Amaro",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/9.png",
+                "image": "Mapa_dos_Trilhos/Icons/9.png",
                 "TAG": "STA",
                 "free_access": false
             },                  
@@ -674,7 +674,7 @@
                 "primary": "Campo Limpo", 
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "CPL",
                 "free_access": false
             },                 
@@ -682,7 +682,7 @@
                 "primary": "Capão Redondo",
                 "secondary": "",
                 "bold_secondary": false,         
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "CPR",
                 "free_access": false
             }                              
@@ -692,19 +692,19 @@
         "DESTINO": "BRÁS <<->> JUNDIAÍ",
         "LINHA": "07 - RUBI",
         "COR_LINHA": "#CA016B",
-        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
         "TRAJETO": [
             {
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/10.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/12.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             },                  
@@ -712,10 +712,10 @@
                 "primary": "Luz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
-                "image_1": "Mapa_dos_Trilhos/icons/4.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
                 "TAG": "LUZ",
                 "free_access": false
             },      
@@ -723,12 +723,12 @@
                 "primary": "Palmeiras",
                 "secondary": "Barra Funda",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/8.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "BFU",
                 "free_access": false
             },                  
@@ -790,13 +790,13 @@
             },                  
             {
                 "primary": "Caieiras",        
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "CAI",
                 "free_access": false
             },                
             {
                 "primary": "Franco da Rocha",         
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "FDR",
                 "free_access": false
             },                  
@@ -809,7 +809,7 @@
             },                  
             {
                 "primary": "Francisco Morato",          
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "FMO",
                 "free_access": false
             },                  
@@ -847,7 +847,7 @@
         "DESTINO": "JÚLIO PRESTES <<->> AMADOR BUENO",
         "LINHA": "08 - DIAMANTE",
         "COR_LINHA": "#97A098",
-        "LOGO": "Mapa_dos_Trilhos/icons/8_diamante.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/8_diamante.png",
         "OPERADORA": "VIAMOBILIDADE_L8",
         "TRAJETO": [ 
             {   "primary": "Júlio Prestes",  
@@ -860,12 +860,12 @@
                 "primary": "Palmeiras",
                 "secondary": "Barra Funda",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",                
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",                
                 "TAG": "BFU",
                 "free_access": false
             },  
@@ -893,7 +893,7 @@
                 "primary": "Presidente Altino",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/9.png",
+                "image": "Mapa_dos_Trilhos/Icons/9.png",
                 "TAG": "PAL",
                 "free_access": false
             },  
@@ -901,9 +901,9 @@
                 "primary": "Osasco",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/9.png",
-                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_2": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/9.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "OSA",
                 "free_access": false
             },  
@@ -952,7 +952,7 @@
             {
                 "primary": "Barueri",
                 "secondary": "",
-                "image": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "bold_secondary": false,
                 "TAG": "BRU",
                 "free_access": false
@@ -995,7 +995,7 @@
             {
                 "primary": "Itapevi",
                 "secondary": "",
-                "image": "Mapa_dos_Trilhos/icons/C.png",
+                "image": "Mapa_dos_Trilhos/Icons/C.png",
                 "bold_secondary": false,
                 "TAG": "IPV",
                 "free_access": false
@@ -1027,7 +1027,7 @@
         "DESTINO": "VARGINHA <<->> OSASCO",
         "LINHA": "09 - ESMERALDA",
         "COR_LINHA": "#01A9A7",
-        "LOGO": "Mapa_dos_Trilhos/icons/9_esmeralda.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/9_esmeralda.png",
         "OPERADORA": "VIAMOBILIDADE_L9",
         "TRAJETO": [
             {
@@ -1048,7 +1048,7 @@
                 "primary": "Grajaú",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "GRA",
                 "free_access": false
             },  
@@ -1083,7 +1083,7 @@
                 "primary": "Santo Amaro",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/5.png",
+                "image": "Mapa_dos_Trilhos/Icons/5.png",
                 "TAG": "SAM",
                 "free_access": false
             },  
@@ -1139,7 +1139,7 @@
                 "primary": "Pinheiros",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/4.png",
+                "image": "Mapa_dos_Trilhos/Icons/4.png",
                 "TAG": "PIN",
                 "free_access": false
             },  
@@ -1168,7 +1168,7 @@
                 "primary": "Presidente Altino",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/8.png",
+                "image": "Mapa_dos_Trilhos/Icons/8.png",
                 "TAG": "PAL",
                 "free_access": false
             },
@@ -1176,9 +1176,9 @@
                 "primary": "Osasco",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/8.png",
-                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_2": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "OSA",
                 "free_access": false
             }
@@ -1188,7 +1188,7 @@
         "DESTINO": "RIO GRANDE DA SERRA <<->> BRÁS",
         "LINHA": "10 - TURQUESA",
         "COR_LINHA": "#049FC3",
-        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
         "TRAJETO": [
             {
@@ -1201,8 +1201,8 @@
             {
                 "primary": "Ribeirão Pires",
                 "secondary": "Antônio Bespalec",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "RPI",
                 "free_access": false
             },
@@ -1238,8 +1238,8 @@
                 "primary": "Prefeito Saladino",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "PSA",
                 "free_access": false
             },
@@ -1253,8 +1253,8 @@
             {
                 "primary": "São Caetano do Sul",
                 "secondary": "Prefeito Walter Braido",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "SCT",
                 "free_access": false
             },
@@ -1262,7 +1262,7 @@
                 "primary": "Tamanduateí",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "TMD",
                 "free_access": false
             },
@@ -1284,12 +1284,12 @@
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/11.png",
-                "image_3": "Mapa_dos_Trilhos/icons/12.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             }   
@@ -1299,19 +1299,19 @@
         "DESTINO": "PALMEIRAS - BARRA FUNDA <<->> ESTUDANTES",
         "LINHA": "11 - CORAL",
         "COR_LINHA": "#F68368",
-        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
         "TRAJETO": [
             {
                 "primary": "Palmeiras",
                 "secondary": "Barra Funda",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/8.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
-                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",                
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",                
                 "TAG": "BFU",
                 "free_access": false
             }, 
@@ -1319,10 +1319,10 @@
                 "primary": "Luz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
-                "image_1": "Mapa_dos_Trilhos/icons/4.png",
-                "image_2": "Mapa_dos_Trilhos/icons/7.png",
-                "image_3": "Mapa_dos_Trilhos/icons/13.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/13.png",
                 "TAG": "LUZ",
                 "free_access": false
             },    
@@ -1330,12 +1330,12 @@
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/10.png",
-                "image_3": "Mapa_dos_Trilhos/icons/12.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             },
@@ -1343,17 +1343,17 @@
                 "primary": "Tatuapé",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/12.png",
-                "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "TAT",
                 "free_access": false
             },
             {
                 "primary": "Corinthians",
                 "secondary": "Itaquera",
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "bold_secondary": true,
                 "TAG": "ITQ",
                 "free_access": false
@@ -1374,7 +1374,7 @@
             },    
             {
                 "primary": "Guaianazes",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "GUA",
                 "free_access": false
             },    
@@ -1401,14 +1401,14 @@
             },    
             {
                 "primary": "Calmon Viana",
-                "image": "Mapa_dos_Trilhos/icons/12.png",
+                "image": "Mapa_dos_Trilhos/Icons/12.png",
                 "TAG": "CMV",
                 "free_access": false
             },                        
             {
                 "primary": "Suzano",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/12.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/12.png",
                 "TAG": "SUZ",
                 "free_access": false
             },    
@@ -1437,8 +1437,8 @@
                 "primary": "Estudantes",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/terminal_onibus.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",
                 "TAG": "EST",
                 "free_access": false
             }            
@@ -1448,19 +1448,19 @@
         "DESTINO": "BRÁS <<->> CALMON VIANA",
         "LINHA": "12 - SAFIRA",
         "COR_LINHA": "#133C8D",
-        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
         "TRAJETO": [ 
             {
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/10.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "image_4": "Mapa_dos_Trilhos/icons/13.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/13.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             },
@@ -1468,9 +1468,9 @@
                 "primary": "Tatuapé",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/11.png",
-                "image_2": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "TAT",
                 "free_access": false
             },
@@ -1478,7 +1478,7 @@
                 "primary": "Eng° Goularte",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/13.png",
+                "image": "Mapa_dos_Trilhos/Icons/13.png",
                 "TAG": "EGO",
                 "free_access": false
             },
@@ -1525,7 +1525,7 @@
             },
             {
                 "primary": "Eng° Manoel Feio",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "EMF",
                 "free_access": false
             },
@@ -1545,14 +1545,14 @@
             },
             {
                 "primary": "Calmon Viana",
-                "image": "Mapa_dos_Trilhos/icons/11.png",
+                "image": "Mapa_dos_Trilhos/Icons/11.png",
                 "TAG": "CMV",
                 "free_access": false
             },
             {
                 "primary": "Suzano",
-                "image": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_1": "Mapa_dos_Trilhos/icons/11.png",
+                "image": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/11.png",
                 "TAG": "SUZ",
                 "free_access": false
             }   
@@ -1562,19 +1562,19 @@
         "DESTINO": "BARRA FUNDA <<->> AEROPORTO - GUARULHOS",
         "LINHA": "13 - JADE",
         "COR_LINHA": "#00B352",
-        "LOGO": "Mapa_dos_Trilhos/icons/cptm.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
         "TRAJETO": [ 
             {
                 "primary": "Palmeiras",
                 "secondary": "Barra Funda",
                 "bold_secondary": true,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/8.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "image_4": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
-                "image_5": "Mapa_dos_Trilhos/icons/terminal_onibus.png",               
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/8.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",               
                 "TAG": "BFU",
                 "free_access": false
             }, 
@@ -1582,10 +1582,10 @@
                 "primary": "Luz",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/1.png",
-                "image_1": "Mapa_dos_Trilhos/icons/4.png",
-                "image_2": "Mapa_dos_Trilhos/icons/7.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
+                "image": "Mapa_dos_Trilhos/Icons/1.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/4.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
                 "TAG": "LUZ",
                 "free_access": false
             },  
@@ -1593,12 +1593,12 @@
                 "primary": "Brás",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/3.png",
-                "image_1": "Mapa_dos_Trilhos/icons/7.png",
-                "image_2": "Mapa_dos_Trilhos/icons/10.png",
-                "image_3": "Mapa_dos_Trilhos/icons/11.png",
-                "image_4": "Mapa_dos_Trilhos/icons/12.png",
-                "image_5": "Mapa_dos_Trilhos/icons/onibus_emtu.png",
+                "image": "Mapa_dos_Trilhos/Icons/3.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/7.png",
+                "image_2": "Mapa_dos_Trilhos/Icons/10.png",
+                "image_3": "Mapa_dos_Trilhos/Icons/11.png",
+                "image_4": "Mapa_dos_Trilhos/Icons/12.png",
+                "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
                 "free_access": false
             },    
@@ -1606,7 +1606,7 @@
                 "primary": "Eng° Goularte",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/12.png",
+                "image": "Mapa_dos_Trilhos/Icons/12.png",
                 "TAG": "EGO",
                 "free_access": false
             },    
@@ -1621,8 +1621,8 @@
                 "primary": "Aeroporto • Guarulhos",  
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/aeroporto_GRU.png",
-                "image_1": "Mapa_dos_Trilhos/icons/B.png",
+                "image": "Mapa_dos_Trilhos/Icons/aeroporto_GRU.png",
+                "image_1": "Mapa_dos_Trilhos/Icons/B.png",
                 "TAG": "AGU",
                 "free_access": false
             }  
@@ -1632,14 +1632,14 @@
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",
         "COR_LINHA": "#C0C0C0",
-        "LOGO": "Mapa_dos_Trilhos/icons/metro.png",
+        "LOGO": "Mapa_dos_Trilhos/Icons/metro.png",
         "OPERADORA": "METRÔ",
         "TRAJETO": [ 
             {
                 "primary": "Vila Prudente",
                 "secondary": "",
                 "bold_secondary": false,
-                "image": "Mapa_dos_Trilhos/icons/2.png",
+                "image": "Mapa_dos_Trilhos/Icons/2.png",
                 "TAG": "VPM",
                 "free_access": false
             },    

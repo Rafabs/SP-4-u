@@ -14,6 +14,7 @@ from temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
 import logging
+from pathlib import Path
 
 try:
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
@@ -25,15 +26,29 @@ except locale.Error:
         locale.setlocale(locale.LC_ALL, '')
 
 # Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
+logging.basicConfig(filename='Mapa_dos_Trilhos/log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 def line4():
     try:
-        logging.info(f"Abrindo Linha 4 - Amarela")
-        subprocess.run(["python", "Mapa_dos_Trilhos\\Linhas\\SP_L04.py"], check=True)
-    except subprocess.CalledProcessError as e:
-        print(f"Erro ao executar o script: {e}")
+        # Obtém o caminho absoluto do interpretador Python atual
+        python_exe = sys.executable
+        script_path = Path(__file__).resolve()
+        
+        print(f"Iniciando linha 4 com: {python_exe} {script_path}")
+        
+        # Verifica se o arquivo existe
+        if not script_path.exists():
+            raise FileNotFoundError(f"Arquivo da linha 4 não encontrado: {script_path}")
+        
+        # Executa o próprio script
+        import subprocess
+        subprocess.run([python_exe, str(script_path)], check=True)
+        
+    except Exception as e:
+        print(f"Erro ao abrir linha 4: {str(e)}")
+        logging.error(f"Erro em line4: {str(e)}")
+        raise
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
@@ -58,7 +73,8 @@ class MapaLinhaWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Linha 4 - Amarela")
-        self.setWindowIcon(QIcon('Mapa_dos_Trilhos\\Favicon\\4_amarela.ico'))
+        self.setWindowIcon(QIcon('Mapa_dos_Trilhos/Favicon/4_amarela.ico'))
+        self.setWindowFlags(Qt.FramelessWindowHint)
 
         monitor = get_monitors()[0]
         self.setGeometry(0, 0, monitor.width, monitor.height)

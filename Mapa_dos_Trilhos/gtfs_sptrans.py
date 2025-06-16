@@ -13,10 +13,21 @@ from typing import List, Dict, Optional, Set, Tuple
 import requests
 import json
 from threading import Thread
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent.parent
+GTFS_DIR = BASE_DIR / "Mapa_dos_Trilhos" / "Gtfs_SPTRANS"
+
+if not GTFS_DIR.exists():
+    raise FileNotFoundError(
+        f"Diretório GTFS não encontrado em: {GTFS_DIR}\n"
+        f"Por favor, verifique se a pasta 'Gtfs_SPTRANS' está em 'Mapa_dos_Trilhos'"
+    )
 
 # Configuração inicial
 init(autoreset=True)
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.log', level=logging.ERROR)
+logging.basicConfig(filename=str(BASE_DIR / 'Mapa_dos_Trilhos' / 'log.log'), level=logging.ERROR)
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
@@ -39,34 +50,51 @@ class DadosGTFS:
         self.frequencies_map = self.criar_frequencies_map()
     
     def carregar_arquivo(self, caminho: str) -> List[Dict]:
-        """Carrega um arquivo CSV do GTFS"""
+        """Carrega um arquivo CSV do GTFS com tratamento robusto de erros"""
         try:
+            caminho = str(Path(caminho))  # Garante que é um caminho válido
+            
+            if not os.path.exists(caminho):
+                raise FileNotFoundError(f"Arquivo não encontrado: {caminho}")
+                
             with open(caminho, newline='', encoding='utf-8') as arquivo:
-                return list(csv.DictReader(arquivo))
+                leitor = csv.DictReader(arquivo)
+                return list(leitor)
+                
+        except UnicodeDecodeError:
+            # Tentar com outro encoding se UTF-8 falhar
+            try:
+                with open(caminho, newline='', encoding='latin-1') as arquivo:
+                    leitor = csv.DictReader(arquivo)
+                    return list(leitor)
+            except Exception as e:
+                logging.error(f"Erro ao carregar {caminho} com latin-1: {str(e)}")
+                return []
+                
         except Exception as e:
-            logging.error(f"Erro ao carregar {caminho}: {str(e)}")
+            logging.error(f"Erro ao carregar {caminho}: {str(e)}", exc_info=True)
             return []
     
     def carregar_routes(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\routes.txt')
+        return self.carregar_arquivo(str(GTFS_DIR /'routes.txt'))
     
     def carregar_trips(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\trips.txt')
+        return self.carregar_arquivo(str(GTFS_DIR /'trips.txt'))
     
     def carregar_stop_times(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stop_times.txt')
+        return self.carregar_arquivo(str(GTFS_DIR / 'stop_times.txt'))
     
     def carregar_stops(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt')
+        return self.carregar_arquivo(str(GTFS_DIR / 'stops.txt'))
     
     def carregar_frequencies(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\frequencies.txt')
+        return self.carregar_arquivo(str(GTFS_DIR / 'frequencies.txt'))
     
     def carregar_calendar(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\calendar.txt')
+        return self.carregar_arquivo(str(GTFS_DIR / 'calendar.txt'))
     
     def carregar_fare_attributes(self) -> List[Dict]:
-        return self.carregar_arquivo('Mapa_dos_Trilhos\\Gtfs_SPTRANS\\fare_attributes.txt')
+        return self.carregar_arquivo(str(GTFS_DIR / 'fare_attributes.txt'))
     
     def criar_frequencies_map(self) -> Dict:
         """Cria mapeamento de trip_id para frequências"""
@@ -91,7 +119,8 @@ def sptrans():
     
     # Configurar ícone
     try:
-        image = Image.open('Mapa_dos_Trilhos\\Favicon\\onibus_sptrans.ico')
+        icon_path = str(BASE_DIR / 'Mapa_dos_Trilhos' / 'Favicon' / 'onibus_sptrans.ico')
+        image = Image.open(icon_path)
         photo = ImageTk.PhotoImage(image)
         root.iconphoto(False, photo)
     except Exception as e:

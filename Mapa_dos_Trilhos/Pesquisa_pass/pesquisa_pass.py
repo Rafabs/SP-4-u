@@ -1,10 +1,12 @@
 import pandas as pd
 import sys
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 import logging
 import calendar
+matplotlib.use('Qt5Agg')
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                             QLabel, QPushButton, QComboBox, QFrame, QSizePolicy, 
                             QScrollArea, QSplitter, QTabWidget)
@@ -14,6 +16,12 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import mplcursors
 from screeninfo import get_monitors
+import os
+from pathlib import Path
+
+# Obtenha o caminho absoluto do arquivo
+base_dir = Path(__file__).parent.parent  # Ajuste conforme sua estrutura
+csv_path = base_dir / "Demanda_Passageiros" / "data_passenger.csv"
 
 # Configuração do logger
 logging.basicConfig(filename="Mapa_dos_Trilhos/log.txt", filemode="a", level=logging.INFO,
@@ -36,47 +44,57 @@ class ODApp(QMainWindow):
         self.setGeometry(0, 0, monitor.width, monitor.height)
         
     def load_data(self):
-        """Carrega os dados do CSV e JSON"""
+        """Carrega os dados do CSV e JSON com tratamento robusto de erros"""
         try:
-            # Carregar CSV
-            csv_file = "Mapa_dos_Trilhos/Demanda_Passageiros/data_passenger.csv"
-            self.df = pd.read_csv(csv_file, sep=";", encoding="utf-8")
+            # Caminhos corrigidos usando pathlib
+            csv_path = Path(__file__).parent.parent / "Demanda_Passageiros" / "data_passenger.csv"
+            json_path = Path(__file__).parent.parent / "Linhas" / "trajeto.json"
             
-            # Carregar JSON
-            json_file = "Mapa_dos_Trilhos/Linhas/trajeto.json"
-            with open(json_file, "r", encoding="utf-8") as f:
+            # Verificar existência dos arquivos
+            if not csv_path.exists():
+                raise FileNotFoundError(f"Arquivo CSV não encontrado em: {csv_path}")
+            if not json_path.exists():
+                raise FileNotFoundError(f"Arquivo JSON não encontrado em: {json_path}")
+            
+            # Carregar dados
+            self.df = pd.read_csv(csv_path, sep=";", encoding="utf-8")
+            with open(json_path, "r", encoding="utf-8") as f:
                 self.data = json.load(f)
             
-            # Dicionários de mapeamento
+            # Inicializar dicionários
             self.estacoes_dict = {}
             self.linhas_dict = {}
-            
             self.mapa_linhas = {
                 "LINHA 1": "01 - AZUL",
-                "LINHA 2": "02 - VERDE",
+                "LINHA 2": "02 - VERDE", 
                 "LINHA 3": "03 - VERMELHA",
                 "LINHA 4": "04 - AMARELA",
                 "LINHA 5": "05 - LILÁS",
                 "LINHA 15": "15 - PRATA"
             }
             
+            # Popular dicionários
             for nome_arquivo, linha in self.data.items():
                 if "LINHA" in linha:
                     self.linhas_dict[linha["LINHA"]] = linha["LINHA"]
                 
                 if "TRAJETO" in linha:
                     for estacao in linha["TRAJETO"]:
-                        self.estacoes_dict[estacao["TAG"]] = estacao["primary"]
+                        if isinstance(estacao, dict) and "TAG" in estacao and "primary" in estacao:
+                            self.estacoes_dict[estacao["TAG"]] = estacao["primary"]
             
-            # Aplicar mapeamento
-            self.df["ESTACAO"] = self.df["ESTACAO"].map(self.estacoes_dict)
-            self.df.dropna(subset=["ESTACAO"], inplace=True)
-            self.df["LINHA"] = self.df["LINHA"].map(self.mapa_linhas)
-            
+            # Verificar se os dados foram carregados
+            if not self.linhas_dict:
+                raise ValueError("Nenhuma linha foi carregada no dicionário")
+                
             logging.info("Dados carregados com sucesso")
             
         except Exception as e:
             logging.error(f"Erro ao carregar dados: {str(e)}")
+            # Criar dados vazios para evitar erros
+            self.df = pd.DataFrame()
+            self.linhas_dict = {"Nenhuma linha carregada": ""}
+            self.estacoes_dict = {}
     
     def setup_ui(self):
         """Configura a interface do usuário"""
@@ -204,22 +222,38 @@ class ODApp(QMainWindow):
         self.info_label.setFont(QFont("Arial", 11))
     
     def update_estacoes(self):
-        """Atualiza as estações disponíveis para a linha selecionada"""
-        linha_selecionada = self.linha_combo.currentText()
-        
-        if not linha_selecionada:
-            return
+        """Atualiza as estações disponíveis para a linha selecionada com verificação robusta"""
+        try:
+            linha_selecionada = self.linha_combo.currentText()
             
-        estacoes_filtradas = [
-            estacao["primary"] for linha in self.data.values() if linha["LINHA"] == linha_selecionada
-            for estacao in linha.get("TRAJETO", [])
-        ]
-        
-        self.estacao_combo.clear()
-        self.estacao_combo.addItems(sorted(estacoes_filtradas))
-        
-        if estacoes_filtradas:
-            self.estacao_combo.setCurrentIndex(0)
+            if not linha_selecionada or not hasattr(self, 'data'):
+                self.estacao_combo.clear()
+                return
+                
+            estacoes_filtradas = []
+            
+            # Verificar estrutura de self.data
+            for linha_data in self.data.values():
+                if not isinstance(linha_data, dict):
+                    continue
+                    
+                if linha_data.get("LINHA") == linha_selecionada and "TRAJETO" in linha_data:
+                    for estacao in linha_data["TRAJETO"]:
+                        if isinstance(estacao, dict) and "primary" in estacao:
+                            estacoes_filtradas.append(estacao["primary"])
+            
+            self.estacao_combo.clear()
+            
+            if estacoes_filtradas:
+                self.estacao_combo.addItems(sorted(estacoes_filtradas))
+                self.estacao_combo.setCurrentIndex(0)
+            else:
+                self.estacao_combo.addItem("Nenhuma estação disponível")
+                
+        except Exception as e:
+            logging.error(f"Erro ao atualizar estações: {str(e)}")
+            self.estacao_combo.clear()
+            self.estacao_combo.addItem("Erro ao carregar estações")
     
     def update_graph(self):
         """Atualiza o gráfico com base nas seleções"""
@@ -340,12 +374,18 @@ class ODApp(QMainWindow):
             logging.error(f"Erro inesperado: {str(e)}")
 
 def passageiro_estacao():
-    """Função principal para iniciar a aplicação"""
-    logging.info("Abrindo Mapa da Pesquisa Demanda de Passageiros")
+    """Função para ser chamada externamente"""
+    app = QApplication.instance() or QApplication(sys.argv)
     
-    app = QApplication(sys.argv)
-    window = ODApp()
-    sys.exit(app.exec_())
+    try:
+        window = ODApp()
+        window.show()
+        
+        if not QApplication.startingUp():
+            return app.exec_()
+    except Exception as e:
+        print(f"Erro: {str(e)}", file=sys.stderr)
+        return 1
 
 if __name__ == "__main__":
-    passageiro_estacao()
+    sys.exit(passageiro_estacao())

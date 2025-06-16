@@ -27,12 +27,12 @@ def excepthook(exc_type, exc_value, exc_tb):
 
 sys.excepthook = excepthook
 
-# Configurações de caminho
+base_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.extend([
-    r'Mapa_dos_Trilhos',
-    r'Mapa_dos_Trilhos\\Linhas',
-    r'Mapa_dos_Trilhos\\Qualidade_ar',
-    r'Mapa_dos_Trilhos\\Sobre'
+    os.path.join(base_dir, 'Mapa_dos_Trilhos'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Linhas'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Qualidade_ar'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Sobre')
 ])
 
 # PyQt5 imports
@@ -70,14 +70,21 @@ from temperatura import get_weather
 from Guias.guias import *
 from qualidade_ar import mapa_qualidade_ar
 
+# Configuração do locale para português brasileiro
 try:
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 except locale.Error:
     try:
-        locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')
-    except locale.Error:
-        print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
-        locale.setlocale(locale.LC_ALL, '')
+        locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
+    except:
+        try:
+            locale.setlocale(locale.LC_ALL, 'pt_BR')
+        except:
+            try:
+                locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')
+            except locale.Error:
+                print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
+                locale.setlocale(locale.LC_ALL, '')
 
 init()
 
@@ -431,7 +438,7 @@ class MainWindow(QMainWindow):
     
     def setup_line_buttons(self):
         # Carrega os dados das rotas
-        self.routes = self.load_routes("Mapa_dos_Trilhos\\Gtfs_SPTRANS\\routes.txt")
+        self.routes = self.load_routes("Mapa_dos_Trilhos/Gtfs_SPTRANS/routes.txt")
         
         # Carrega os trajetos
         with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:

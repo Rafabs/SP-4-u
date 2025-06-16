@@ -381,7 +381,7 @@ class AppOD(QDialog):
         """Inicia o carregamento dos dados"""
         # Mostrar diálogo de progresso
         self.dialogo_progresso = QProgressDialog("Carregando dados...", "Cancelar", 0, 100, self)
-        self.dialogo_progresso.setWindowTitle("Carregamento de Dados")
+        self.dialogo_progresso.setWindowTitle("Aguarde...")
         self.dialogo_progresso.setWindowModality(Qt.WindowModal)
         self.dialogo_progresso.setAutoClose(True)
         

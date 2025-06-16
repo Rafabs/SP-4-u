@@ -20,24 +20,59 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import logging
 import subprocess
 from screeninfo import get_monitors
+from pathlib import Path
 
-sys.path.append(r'Mapa_dos_Trilhos')
-sys.path.append(r'Mapa_dos_Trilhos\\Linhas')
-sys.path.append(r'Mapa_dos_Trilhos\\Sobre')
-sys.path.append(r'Mapa_dos_Trilhos\\Qualidade_ar')
+# Configuração de caminhos
+BASE_DIR = Path(__file__).parent.parent
+sys.path.append(str(BASE_DIR))
 
-from config import API_TOKEN_QUALLITY_AR
+# Configuração do log
+LOG_FILE = BASE_DIR / "log.txt"
+LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+try:
+    from config import API_TOKEN_QUALLITY_AR
+except ImportError as e:
+    logging.error(f"Erro ao importar config: {e}")
+    print(f"Erro: Não foi possível importar config.py. Verifique se o arquivo existe em: {BASE_DIR}")
+    sys.exit(1)
 
 # Configuração do logger
 logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 def mapa_qualidade_ar():
+    """Executa o script de qualidade do ar de forma segura"""
     try:
-        logging.info(f"Abrindo Mapa de Qualidade do Ar")
-        subprocess.run(["python", "Mapa_dos_Trilhos\\Qualidade_ar\\qualidade_ar.py"], check=True)
+        logging.info("Abrindo Mapa de Qualidade do Ar")
+        
+        # Caminho absoluto para o script
+        script_path = Path(__file__).resolve()
+        
+        # Comando para executar - use sys.executable para garantir o Python correto
+        command = [sys.executable, str(script_path)]
+        
+        # Executar o processo
+        process = subprocess.run(command, 
+                               check=True,
+                               stdout=subprocess.PIPE,
+                               stderr=subprocess.PIPE,
+                               text=True)
+        
+        # Registrar saída
+        if process.stdout:
+            logging.info(f"Saída: {process.stdout}")
+        if process.stderr:
+            logging.warning(f"Erros: {process.stderr}")
+            
     except subprocess.CalledProcessError as e:
-        print(f"Erro ao executar o script: {e}")
+        error_msg = f"Erro ao executar o script (código {e.returncode}): {e.stderr}"
+        logging.error(error_msg)
+        print(error_msg)
+    except Exception as e:
+        error_msg = f"Erro inesperado: {str(e)}"
+        logging.error(error_msg)
+        print(error_msg)
 
 def obter_classificacao(indice):
     if indice <= 40:
