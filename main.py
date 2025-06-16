@@ -113,8 +113,20 @@ class StreamToLogger:
     def flush(self):
         pass
 
-logging.basicConfig(filename='Mapa_dos_Trilhos\\log.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# Configuração multiplataforma
+BASE_DIR = Path(__file__).parent
+LOG_DIR = BASE_DIR / "Mapa_dos_Trilhos"
+LOG_FILE = LOG_DIR / "log.log"
+
+# Cria o diretório se não existir
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+# Configuração do logger corrigida
+logging.basicConfig(
+    filename=str(LOG_FILE),  # Converte Path para string
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
 sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
@@ -170,7 +182,8 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("SAMPA 4U")
-        self.setWindowIcon(QIcon('Mapa_dos_Trilhos\\Favicon\\SP4U_LOGO.ico'))
+        icon_path = BASE_DIR / "Mapa_dos_Trilhos" / "Favicon" / "SP4U_LOGO.ico"
+        self.setWindowIcon(QIcon(str(icon_path)))
         self.setStyleSheet("background-color: #cecece;")  # Cinza escuro
 
         # Configuração da janela principal
@@ -628,9 +641,14 @@ class MainWindow(QMainWindow):
             
 if __name__ == "__main__":
     try:
-        # Set the required attribute BEFORE creating QApplication
+        # Configuração essencial antes do QApplication
+        os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"  # Necessário em alguns Linux
+        
         from PyQt5.QtCore import Qt
         from PyQt5.QtWidgets import QApplication
+        
+        # Configura atributos antes de criar o QApplication
+        QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
         QApplication.setAttribute(Qt.AA_ShareOpenGLContexts)
         
         app = QApplication(sys.argv)
