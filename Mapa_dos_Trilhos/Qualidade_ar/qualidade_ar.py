@@ -22,20 +22,16 @@ import subprocess
 from screeninfo import get_monitors
 from pathlib import Path
 
-# Configuração de caminhos
-BASE_DIR = Path(__file__).parent.parent
-sys.path.append(str(BASE_DIR))
-
-# Configuração do log
-LOG_FILE = BASE_DIR / "log.txt"
-LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+# Get the absolute path to the project root
+PROJECT_ROOT = Path(__file__).parent.parent.parent  # Go up 3 levels from qualidade_ar.py
+sys.path.append(str(PROJECT_ROOT))
 
 try:
-    from config import API_TOKEN_QUALLITY_AR
+    from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALLITY_AR
 except ImportError as e:
-    logging.error(f"Erro ao importar config: {e}")
-    print(f"Erro: Não foi possível importar config.py. Verifique se o arquivo existe em: {BASE_DIR}")
-    sys.exit(1)
+    print(f"Error: Could not import config. Full path being checked: {PROJECT_ROOT / 'Mapa_dos_Trilhos/Sobre/config.py'}")
+    print(f"Python path: {sys.path}")
+    raise
 
 # Configuração do logger
 logging.basicConfig(filename='Mapa_dos_Trilhos\\log.txt', filemode='a', level=logging.INFO,

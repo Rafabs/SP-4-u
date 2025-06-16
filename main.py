@@ -1,3 +1,4 @@
+# Regular Python imports
 import requests
 from io import BytesIO
 import json
@@ -19,56 +20,8 @@ import logging
 from screeninfo import get_monitors
 import traceback
 
-def excepthook(exc_type, exc_value, exc_tb):
-    tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
-    logging.critical(f"Exceção não tratada:\n{tb}")
-    QMessageBox.critical(None, "Erro", f"Exceção não tratada:\n{str(exc_value)}")
-    QApplication.quit()
-
-sys.excepthook = excepthook
-
-base_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.extend([
-    os.path.join(base_dir, 'Mapa_dos_Trilhos'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Linhas'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Qualidade_ar'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Sobre')
-])
-
-# PyQt5 imports
-from PyQt5.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-    QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
-    QGraphicsTextItem, QGraphicsLineItem, QSplitter, QMessageBox
-)
-from PyQt5.QtCore import Qt, QTimer, QDateTime
-from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
-
-# Módulos personalizados
-from SP_L17 import line17
-from SP_L15 import line15
-from SP_L13 import line13
-from SP_L12 import line12
-from SP_L11 import line11
-from SP_L10 import line10
-from SP_L09 import line9
-from SP_L08 import line8
-from SP_L07 import line7
-from SP_L06 import line6
-from SP_L05 import line5
-from SP_L04 import line4
-from SP_L03 import line3
-from SP_L02 import line2
-from SP_L01 import line1
-from noticia import notice_transp_sao_paulo
-from varredura import verificacao
-from Pesquisa_pass.pesquisa_pass import passageiro_estacao
-from mapa import mapa_global
-from gtfs_emtu import emtu
-from gtfs_sptrans import sptrans
-from temperatura import get_weather
-from Guias.guias import *
-from qualidade_ar import mapa_qualidade_ar
+# Initialize colorama before any Qt code
+init()
 
 # Configuração do locale para português brasileiro
 try:
@@ -86,7 +39,31 @@ except locale.Error:
                 print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
                 locale.setlocale(locale.LC_ALL, '')
 
-init()
+# Now do Qt imports
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
+    QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
+    QGraphicsTextItem, QGraphicsLineItem, QSplitter, QMessageBox
+)
+from PyQt5.QtCore import Qt, QTimer, QDateTime
+from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
+
+# Rest of your non-Qt code (functions, classes) should be here
+def excepthook(exc_type, exc_value, exc_tb):
+    tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
+    logging.critical(f"Exceção não tratada:\n{tb}")
+    QMessageBox.critical(None, "Erro", f"Exceção não tratada:\n{str(exc_value)}")
+    QApplication.quit()
+
+sys.excepthook = excepthook
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.extend([
+    os.path.join(base_dir, 'Mapa_dos_Trilhos'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Linhas'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Qualidade_ar'),
+    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Sobre')
+])
 
 def log_close_time():
     logging.info(f"{'=' * 30} PROGRAMA FECHADO {'=' * 30}")
@@ -167,10 +144,9 @@ class NewsWidget(QWidget):
         
         self.layout = QHBoxLayout(self)
         self.layout.setContentsMargins(5, 5, 5, 5)
-        self.layout.setSpacing(10)  # 🔹 Maior espaçamento entre imagem e texto
+        self.layout.setSpacing(10)
 
-        # 🔹 Título da notícia com efeito hover e ícone de link
-        self.title_label = QLabel(f"🔗 {title}")  # 🔹 Ícone indicador de link
+        self.title_label = QLabel(f"🔗 {title}")
         self.title_label.setStyleSheet("""
             QLabel {
                 color: white;
@@ -179,18 +155,15 @@ class NewsWidget(QWidget):
                 padding: 5px;
             }
             QLabel:hover {
-                color: #00BFFF;  /* 🔹 Mudança de cor ao passar o mouse */
+                color: #00BFFF;
             }
         """)
         self.title_label.setWordWrap(True)
         self.title_label.setCursor(Qt.PointingHandCursor)
         self.title_label.setAlignment(Qt.AlignVCenter)
-        self.title_label.setToolTip(link)  # 🔹 Exibe o link ao passar o mouse
+        self.title_label.setToolTip(link)
         self.title_label.mousePressEvent = lambda event: abrir_link(link)
-
-        # 🔹 Limitando altura para evitar problemas com textos longos
         self.title_label.setMaximumHeight(40)
-
         self.layout.addWidget(self.title_label, stretch=1)
 
 class MainWindow(QMainWindow):
@@ -655,7 +628,39 @@ class MainWindow(QMainWindow):
             
 if __name__ == "__main__":
     try:
+        # Set the required attribute BEFORE creating QApplication
+        from PyQt5.QtCore import Qt
+        from PyQt5.QtWidgets import QApplication
+        QApplication.setAttribute(Qt.AA_ShareOpenGLContexts)
+        
         app = QApplication(sys.argv)
+        
+        # Now import modules that might use Qt
+        from SP_L17 import line17
+        from SP_L15 import line15
+        from SP_L13 import line13
+        from SP_L12 import line12
+        from SP_L11 import line11
+        from SP_L10 import line10
+        from SP_L09 import line9
+        from SP_L08 import line8
+        from SP_L07 import line7
+        from SP_L06 import line6
+        from SP_L05 import line5
+        from SP_L04 import line4
+        from SP_L03 import line3
+        from SP_L02 import line2
+        from SP_L01 import line1
+        from noticia import notice_transp_sao_paulo
+        from varredura import verificacao
+        from Pesquisa_pass.pesquisa_pass import passageiro_estacao
+        from mapa import mapa_global
+        from gtfs_emtu import emtu
+        from gtfs_sptrans import sptrans
+        from temperatura import get_weather
+        from Guias.guias import *
+        from qualidade_ar import mapa_qualidade_ar
+        
         window = MainWindow()
         window.show()
         sys.exit(app.exec_())
