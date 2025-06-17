@@ -11,14 +11,5 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none",
-    "git.enableSmartCommit": true,
-    "git.autofetch": false,          // Reduz a frequência de fetch automático
-    "git.autorefresh": false,        // Desativa atualização constante do status
-    "git.autoRepositoryDetection": "subFolders", // Evita escanear toda a árvore de diretórios
-    "git.postCommitCommand": "sync", // Sincroniza após commit (opcional)
-    "git.confirmSync": false,        // Remove confirmação para push/pull
-    "git.pruneOnFetch": true,        // Mantém o repositório limpo
-    "git.maxFileSizeMB": 4,          // Ignora arquivos >4MB no diff
-    "git.suggestSmartCommit": false   // Evita sugestões de commit se houver muitos arquivos
+    "python.formatting.provider": "none"
 }
