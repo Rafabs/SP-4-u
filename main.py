@@ -19,6 +19,7 @@ from colorama import Fore, Back, Style, init
 import logging
 from screeninfo import get_monitors
 import traceback
+import cudf
 
 # Initialize colorama before any Qt code
 init()
