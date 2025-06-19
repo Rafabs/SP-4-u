@@ -57,12 +57,12 @@ def excepthook(exc_type, exc_value, exc_tb):
 
 sys.excepthook = excepthook
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
+base_dir = Path(__file__).resolve().parent
 sys.path.extend([
-    os.path.join(base_dir, 'Mapa_dos_Trilhos'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Linhas'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Qualidade_ar'),
-    os.path.join(base_dir, 'Mapa_dos_Trilhos', 'Sobre')
+    str(base_dir / 'Mapa_dos_Trilhos'),
+    str(base_dir / 'Mapa_dos_Trilhos' / 'Linhas'),
+    str(base_dir / 'Mapa_dos_Trilhos' / 'Qualidade_ar'),
+    str(base_dir / 'Mapa_dos_Trilhos' / 'Sobre')
 ])
 
 def log_close_time():
@@ -133,7 +133,7 @@ sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 
 dados_usuario()
 
-with open(r'Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
+with open(base_dir / 'Mapa_dos_Trilhos' / 'Linhas' / 'subtitle.json', 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
 
 def abrir_link(url):

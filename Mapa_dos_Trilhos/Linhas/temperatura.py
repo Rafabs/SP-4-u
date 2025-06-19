@@ -3,7 +3,7 @@ from datetime import datetime
 import time  # Importa o módulo time para gerenciar intervalos
 
 # Chave de API
-API_KEY = '16771021c6dc278a8a9ebdb23e682e50'
+API_KEY = 'a101ba1d7402a0f69dbed1db91558392'
 
 def get_weather():
     url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={API_KEY}&units=metric'

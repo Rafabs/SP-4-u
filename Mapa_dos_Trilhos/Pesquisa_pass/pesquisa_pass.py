@@ -23,9 +23,13 @@ from pathlib import Path
 base_dir = Path(__file__).parent.parent  # Ajuste conforme sua estrutura
 csv_path = base_dir / "Demanda_Passageiros" / "data_passenger.csv"
 
-# Configuração do logger
-logging.basicConfig(filename="Mapa_dos_Trilhos/log.txt", filemode="a", level=logging.INFO,
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+# Get the absolute path to the project root
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+from Mapa_dos_Trilhos.utils.logger_config import configurar_logger
+configurar_logger()
 
 class ODApp(QMainWindow):
     def __init__(self):

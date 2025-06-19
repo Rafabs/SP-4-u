@@ -15,6 +15,7 @@ import json
 from threading import Thread
 import os
 from pathlib import Path
+import sys
 
 BASE_DIR = Path(__file__).parent.parent
 GTFS_DIR = BASE_DIR / "Mapa_dos_Trilhos" / "Gtfs_SPTRANS"
@@ -25,9 +26,13 @@ if not GTFS_DIR.exists():
         f"Por favor, verifique se a pasta 'Gtfs_SPTRANS' está em 'Mapa_dos_Trilhos'"
     )
 
-# Configuração inicial
-init(autoreset=True)
-logging.basicConfig(filename=str(BASE_DIR / 'Mapa_dos_Trilhos' / 'log.log'), level=logging.ERROR)
+# Get the absolute path to the project root
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+from Mapa_dos_Trilhos.utils.logger_config import configurar_logger
+configurar_logger()
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")

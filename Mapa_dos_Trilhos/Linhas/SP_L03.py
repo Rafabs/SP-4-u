@@ -16,6 +16,14 @@ import subprocess
 import logging
 from pathlib import Path
 
+# Get the absolute path to the project root
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+from Mapa_dos_Trilhos.utils.logger_config import configurar_logger
+configurar_logger()
+
 try:
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 except locale.Error:
@@ -24,11 +32,7 @@ except locale.Error:
     except locale.Error:
         print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
         locale.setlocale(locale.LC_ALL, '')
-
-# Configuração do logger
-logging.basicConfig(filename='Mapa_dos_Trilhos/log.txt', filemode='a', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-
+        
 def line3():
     try:
         # Obtém o caminho absoluto do interpretador Python atual
