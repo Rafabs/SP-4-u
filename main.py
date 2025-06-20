@@ -1,4 +1,3 @@
-# Regular Python imports
 import requests
 from io import BytesIO
 import json
@@ -19,11 +18,11 @@ from colorama import Fore, Back, Style, init
 import logging
 from screeninfo import get_monitors
 import traceback
+from console_logger import ConsoleLogger, ConsoleLogHandler
+from logging.handlers import RotatingFileHandler
 
-# Initialize colorama before any Qt code
 init()
 
-# Configuração do locale para português brasileiro
 try:
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 except locale.Error:
@@ -39,7 +38,6 @@ except locale.Error:
                 print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
                 locale.setlocale(locale.LC_ALL, '')
 
-# Now do Qt imports
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
     QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
@@ -48,7 +46,6 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt, QTimer, QDateTime
 from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
 
-# Rest of your non-Qt code (functions, classes) should be here
 def excepthook(exc_type, exc_value, exc_tb):
     tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
     logging.critical(f"Exceção não tratada:\n{tb}")
@@ -97,39 +94,66 @@ class StreamToLogger:
     def __init__(self, logger, log_level=logging.INFO):
         self.logger = logger
         self.log_level = log_level
-        self.linebuf = ''
+        self.buffer = ''
 
     def write(self, buf):
-        for line in buf.rstrip().splitlines():
-            if self.log_level == logging.WARNING:
-                self.logger.warning(line.rstrip())
-            elif self.log_level == logging.DEBUG:
-                self.logger.debug(line.rstrip())
-            elif self.log_level == logging.CRITICAL:
-                self.logger.critical(line.rstrip())
-            else:
-                self.logger.info(line.rstrip())
+        try:
+            if buf and buf.strip():
+                self.buffer += buf
+                while '\n' in self.buffer:
+                    line, self.buffer = self.buffer.split('\n', 1)
+                    if line.strip():
+                        self.logger.log(self.log_level, line.strip())
+        except Exception as e:
+            sys.__stderr__.write(f"Erro no StreamToLogger: {str(e)}\n")
+            sys.__stderr__.write(f"Conteúdo do buffer: {self.buffer}\n")
 
     def flush(self):
-        pass
+        if self.buffer.strip():
+            self.logger.log(self.log_level, self.buffer.strip())
+            self.buffer = ''
 
-# Configuração multiplataforma
 BASE_DIR = Path(__file__).parent
 LOG_DIR = BASE_DIR / "Mapa_dos_Trilhos"
 LOG_FILE = LOG_DIR / "log.log"
 
-# Cria o diretório se não existir
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-# Configuração do logger corrigida
-logging.basicConfig(
-    filename=str(LOG_FILE),  # Converte Path para string
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+# Configuração completa do logging
+def setup_logging():
+    # Remove todos os handlers existentes
+    root_logger = logging.getLogger()
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+        handler.close()
+    
+    # Configura handler de arquivo
+    file_handler = RotatingFileHandler(
+        str(LOG_FILE),
+        encoding='utf-8',
+        maxBytes=5*1024*1024,
+        backupCount=3
+    )
+    file_handler.setFormatter(logging.Formatter(
+        '%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    ))
+    
+    # Configura logger principal apenas com file handler
+    root_logger.setLevel(logging.INFO)
+    root_logger.addHandler(file_handler)
+    
+    # Configura logger separado para stdout/stderr
+    std_logger = logging.getLogger('STD_OUT_ERR')
+    std_logger.setLevel(logging.INFO)
+    std_logger.propagate = False  # Evita que mensagens sejam enviadas ao root logger
+    
+    # Redireciona stdout/stderr
+    sys.stdout = StreamToLogger(std_logger, logging.INFO)
+    sys.stderr = StreamToLogger(std_logger, logging.ERROR)
 
-sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
-sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
+# Inicializa o logging
+setup_logging()
 
 dados_usuario()
 
@@ -184,102 +208,152 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("SAMPA 4U")
         icon_path = BASE_DIR / "Mapa_dos_Trilhos" / "Favicon" / "SP4U_LOGO.ico"
         self.setWindowIcon(QIcon(str(icon_path)))
-        self.setStyleSheet("background-color: #cecece;")  # Cinza escuro
-
-        # Configuração da janela principal
+        self.setStyleSheet("background-color: #cecece;")  
+        
         monitor = get_monitors()[0]
         self.setGeometry(0, 0, monitor.width, monitor.height)
         self.setWindowState(Qt.WindowFullScreen)
         self.screen_width = monitor.width
         self.screen_height = monitor.height
-
-        # Widget central e layout horizontal
+        
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
-        self.main_layout = QHBoxLayout(self.central_widget)  # 🔹 Agora temos três áreas lado a lado
-
-        # 🔹 Criando layouts antes de usá-los
-        self.left_layout = QVBoxLayout()  # 🔹 Botões de guias
-        self.center_layout = QVBoxLayout()  # 🔹 Notícias (NOVO)
-        self.right_layout = QVBoxLayout()  # 🔹 Botões de linhas
+        self.main_layout = QHBoxLayout(self.central_widget)  
         
-        # 🔹 Containers para os layouts
+        self.left_layout = QVBoxLayout()  
+        self.center_layout = QVBoxLayout()  
+        self.right_layout = QVBoxLayout()  
+                
         left_container = QWidget()
         left_container.setLayout(self.left_layout)
         center_container = QWidget()
         center_container.setLayout(self.center_layout)
         right_container = QWidget()
         right_container.setLayout(self.right_layout)
-
-        # 🔹 Adicionando ao layout principal
+        
         self.main_layout.addWidget(left_container, stretch=2)
-        self.main_layout.addWidget(center_container, stretch=3)  # 🔹 Área do meio para notícias
+        self.main_layout.addWidget(center_container, stretch=3)  
         self.main_layout.addWidget(right_container, stretch=2)
-
-        # 🔹 Configuração dos elementos
-        self.setup_top_frames()  # 🔹 Botões de guias na esquerda
-        self.setup_line_buttons()  # 🔹 Botões das linhas na direita
-        self.setup_news_area()  # 🔹 Notícias agora no meio!
-
-        # 🔹 Configuração do rodapé
+        
+        self.setup_top_frames()  
+        self.setup_line_buttons()  
+        self.setup_news_area()  
+        
         self.setup_footer()
-        
-        # 🔹 Carrega as notícias
+                
         self.exibir_noticias()
-        
-        # 🔹 Atualizações periódicas
+                
         self.setup_updates()
-        
-        # 🔹 Faz a varredura inicial
+                
         fazer_varredura()
-    
+
+        self.setup_console_logger()
+                    
+    def setup_console_logger(self):
+        """Configura o console de logs com controles"""
+        self.console_logger = ConsoleLogger()
+        
+        # Cria logger específico para a GUI
+        gui_logger = logging.getLogger('GUI_Console')
+        gui_logger.setLevel(logging.INFO)
+        gui_logger.propagate = False
+        
+        # Adiciona handler para o console gráfico
+        console_handler = ConsoleLogHandler(self.console_logger)
+        console_handler.setLevel(logging.INFO)
+        console_handler.setFormatter(logging.Formatter(
+            '%(asctime)s - %(levelname)s - %(message)s',
+            datefmt='%H:%M:%S'
+        ))
+        gui_logger.addHandler(console_handler)
+        
+        # Conecta o logger da GUI ao root logger
+        root_logger = logging.getLogger()
+        root_logger.addHandler(console_handler)
+        
+        # Painel de controle (mantenha o existente)
+        control_panel = QWidget()
+        control_layout = QHBoxLayout(control_panel)
+        control_layout.setContentsMargins(0, 0, 0, 0)
+        
+        # Botão Limpar
+        btn_clear = QPushButton("Limpar")
+        btn_clear.setStyleSheet("padding: 3px;")
+        btn_clear.clicked.connect(self.console_logger.clear)
+        
+        # Botão Copiar
+        btn_copy = QPushButton("Copiar")
+        btn_copy.setStyleSheet("padding: 3px;")
+        btn_copy.clicked.connect(self.console_logger.copy_to_clipboard)
+        
+        # Botão Auto-scroll
+        self.btn_autoscroll = QPushButton("Auto-scroll")
+        self.btn_autoscroll.setStyleSheet("padding: 3px;")
+        self.btn_autoscroll.setCheckable(True)
+        self.btn_autoscroll.setChecked(True)
+        self.btn_autoscroll.toggled.connect(
+            lambda checked: setattr(self.console_logger, 'auto_scroll', checked)
+        )
+        
+        # Adiciona botões ao painel
+        control_layout.addWidget(btn_clear)
+        control_layout.addWidget(btn_copy)
+        control_layout.addWidget(self.btn_autoscroll)
+        control_layout.addStretch()
+        
+        # Adiciona ao layout
+        separator = QFrame()
+        separator.setFrameShape(QFrame.HLine)
+        separator.setFrameShadow(QFrame.Sunken)
+        
+        self.center_layout.addWidget(separator)
+        self.center_layout.addWidget(QLabel("Console de Logs:"))
+        self.center_layout.addWidget(control_panel)
+        self.center_layout.addWidget(self.console_logger)
+        
+        logging.info("Console de logs inicializado")
+
     def abrir_pesquisa_od(self):
         """Abre a janela de Pesquisa OD como diálogo modal"""
         from Pesquisa_od.pesquisa_od import pesquisa_od_metro
-        pesquisa_od_metro(self)  # Passa self como parent
+        pesquisa_od_metro(self)  
         
     def setup_top_frames(self):
-        self.left_layout.setSpacing(5)  # Maior espaçamento para melhor organização
-        self.left_layout.setContentsMargins(5, 5, 5, 5)  # Margens mais visíveis
+        self.left_layout.setSpacing(5)  
+        self.left_layout.setContentsMargins(5, 5, 5, 5)  
         
         def criar_frame(titulo, altura_max, largura_max):
             frame = QGroupBox(titulo)
             frame.setStyleSheet("QGroupBox { font-weight: bold; padding: 8px; }")
-            frame.setMaximumHeight(altura_max)  # Limita altura
-            frame.setMaximumWidth(largura_max)  # Limita largura
+            frame.setMaximumHeight(altura_max)  
+            frame.setMaximumWidth(largura_max)  
             frame_layout = QVBoxLayout()
             frame.setLayout(frame_layout)
             return frame, frame_layout
-
-        # Frame Mapas
+        
         frame_mapas, layout_mapas = criar_frame("Mapas - Capital e RMSP", 120, 250)
         self.criar_botao(layout_mapas, "Acessar Mapa", mapa_global, "black", "#C0C0C0", "#A9A9A9", "mapa")
         self.left_layout.addWidget(frame_mapas)
-
-        # Frame Sistemas
+    
         frame_sistemas, layout_sistemas = criar_frame("Sistemas de Buscas de Linhas", 120, 250)
         self.criar_botao(layout_sistemas, "SPTRANS", sptrans, "black", "#FF2F2F", "#FF8080", "gtfs_sptrans")
         self.criar_botao(layout_sistemas, "EMTU", emtu, "black", "blue", "#5A79FF", "gtfs_emtu")
         self.left_layout.addWidget(frame_sistemas)
-        
-        # Frame Mapas da Rede
+                
         frame_mapa_guia, layout_mapa_guia = criar_frame("Mapa da Rede - /Abr.25", 120, 250)
         self.criar_botao(layout_mapa_guia, "Mapa da Rede", mapa_rede, "black", "#00B352", "#5AFF7E", "mapa")
         self.left_layout.addWidget(frame_mapa_guia)
-        
-        # Frame Guias
+                
         frame_guia_metro, layout_guia_metro = criar_frame("Guia de Usuário - METRÔ", 140, 250)
         self.criar_botao(layout_guia_metro, "Guia do Usuário - PT/BR", guia_pt_metro, "black", "blue", "#0073E6", "guias")
         self.criar_botao(layout_guia_metro, "Guia do Usuário - EN/US", guia_en_metro, "black", "blue", "#0073E6", "guias")
         self.left_layout.addWidget(frame_guia_metro)
-        
-        # Frame Pesquisas
+                
         frame_pesquisas_metro, layout_pesquisas_metro = criar_frame("Pesquisas", 140, 250)
         self.criar_botao(layout_pesquisas_metro, "Pesquisa Origem e Destino", self.abrir_pesquisa_od, "black", "#00c9c4", "#007875", "pesquisa_od")
         self.criar_botao(layout_pesquisas_metro, "Demanda por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", "pesquisa_pass")
         self.left_layout.addWidget(frame_pesquisas_metro)
-        
-        # Frame Mapa Qualidade do Ar
+                
         frame_qualidade_ar, layout_qualidade_ar = criar_frame("Qualidade do Ar - São Paulo", 140, 250)
         self.criar_botao(layout_qualidade_ar, "Qualidade do Ar", mapa_qualidade_ar, "black", "#00c91b", "#00690e95", "qualidade_ar")
         self.left_layout.addWidget(frame_qualidade_ar)
@@ -317,8 +391,7 @@ class MainWindow(QMainWindow):
         except Exception as e:
             cor = "red"
             print(f"Erro ao verificar o módulo '{modulo}': {e}")
-        
-        # Cria um pixmap com um círculo colorido
+                
         pixmap = QPixmap(20, 20)
         pixmap.fill(Qt.transparent)
         painter = QPainter(pixmap)
@@ -328,8 +401,7 @@ class MainWindow(QMainWindow):
         painter.end()
         
         label.setPixmap(pixmap)
-        
-        # Agenda a próxima atualização
+                
         QTimer.singleShot(2000, lambda: self.atualizar_status(label, modulo))
     
     def verificar_modulo(self, modulo):
@@ -340,7 +412,7 @@ class MainWindow(QMainWindow):
         raiz = base_dir / "Mapa_dos_Trilhos"
 
         if not raiz.exists():
-            print(f"❌ Pasta 'Mapa_dos_Trilhos' não encontrada em {base_dir}")
+            print(f"Pasta 'Mapa_dos_Trilhos' não encontrada em {base_dir}")
             return False
 
         caminho_normalizado = normalizar_nome(modulo)
@@ -351,10 +423,10 @@ class MainWindow(QMainWindow):
             if caminho_normalizado in nome_item_normalizado and item.is_dir():
                 arquivos = list(item.glob('*'))
                 if arquivos:
-                    print(f"✅ Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
+                    print(f"Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
                     return True
                 else:
-                    print(f"⚠️ Diretório '{item}' encontrado, mas está vazio.")
+                    print(f"Diretório '{item}' encontrado, mas está vazio.")
                     return False
 
         subdirs = [p for p in raiz.iterdir() if p.is_dir()]
@@ -368,19 +440,19 @@ class MainWindow(QMainWindow):
 
             arquivos_validos = [arq for arq in pasta.glob("*") if arq.suffix.lower() in extensoes_validas]
             if arquivos_validos:
-                print(f"✅ Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
+                print(f"Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
                 return True
             else:
-                print(f"⚠️ Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
+                print(f"Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
                 return False
 
-        print(f"❌ Erro: Nenhum caminho aproximado encontrado para '{modulo}'")
+        print(f"Erro: Nenhum caminho aproximado encontrado para '{modulo}'")
         return False
     
     def setup_news_area(self):
         news_label = QLabel("Notícias:")
         news_label.setStyleSheet("font-weight: bold;")
-        self.center_layout.addWidget(news_label)  # 🔹 Agora corretamente no meio
+        self.center_layout.addWidget(news_label)  
 
         self.scroll_area = QScrollArea()
         self.scroll_area.setWidgetResizable(True)
@@ -391,17 +463,17 @@ class MainWindow(QMainWindow):
         self.news_layout.setAlignment(Qt.AlignTop)
 
         self.scroll_area.setWidget(self.news_container)
-        self.center_layout.addWidget(self.scroll_area)  # 🔹 Movido para `center_layout`
+        self.center_layout.addWidget(self.scroll_area)  
         
         self.msg_noticias = QLabel()
         self.msg_noticias.setStyleSheet("color: red;")
-        self.center_layout.addWidget(self.msg_noticias)  # 🔹 Correto agora!
+        self.center_layout.addWidget(self.msg_noticias)  
     
     def exibir_noticias(self):
         noticias = notice_transp_sao_paulo()
         
         if noticias is not None:
-            # Limpa notícias anteriores
+            
             for i in reversed(range(self.news_layout.count())): 
                 self.news_layout.itemAt(i).widget().setParent(None)
             
@@ -412,8 +484,7 @@ class MainWindow(QMainWindow):
                 
                 news_widget = NewsWidget(title, link, image_url)
                 self.news_layout.addWidget(news_widget)
-                
-                # Adiciona linha de separação
+                            
                 separator = QFrame()
                 separator.setFrameShape(QFrame.HLine)
                 separator.setFrameShadow(QFrame.Sunken)
@@ -423,14 +494,12 @@ class MainWindow(QMainWindow):
             self.msg_noticias.setText("Nenhuma notícia encontrada.")
     
     def setup_line_buttons(self):
-        # Carrega os dados das rotas
-        self.routes = self.load_routes("Mapa_dos_Trilhos/Gtfs_SPTRANS/routes.txt")
         
-        # Carrega os trajetos
+        self.routes = self.load_routes("Mapa_dos_Trilhos/Gtfs_SPTRANS/routes.txt")
+                
         with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
             self.trajetos = json.load(file)
-        
-        # Cores das linhas
+                
         self.cor_linha_01 = self.trajetos["SP_L01.py"]["COR_LINHA"]
         self.cor_linha_02 = self.trajetos["SP_L02.py"]["COR_LINHA"]
         self.cor_linha_03 = self.trajetos["SP_L03.py"]["COR_LINHA"]
@@ -444,12 +513,10 @@ class MainWindow(QMainWindow):
         self.cor_linha_12 = self.trajetos["SP_L12.py"]["COR_LINHA"]
         self.cor_linha_13 = self.trajetos["SP_L13.py"]["COR_LINHA"]
         self.cor_linha_15 = self.trajetos["SP_L15.py"]["COR_LINHA"]
-        
-        # Cores adicionais
+                
         self.laranja = "#999999"
         self.ouro = "#999999"
-        
-        # Configura os botões das linhas
+                
         self.setup_line_button("Azul", line1, self.cor_linha_01, "white", "L1", "1.png", "1_azul.png", "METRÔ")
         self.setup_line_button("Verde", line2, self.cor_linha_02, "white", "L2", "2.png", "2_verde.png", "METRÔ")
         self.setup_line_button("Vermelha", line3, self.cor_linha_03, "black", "L3", "3.png", "3_vermelha.png", "METRÔ")
@@ -505,20 +572,17 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout(container)
         layout.setContentsMargins(1,0,1,0)
         layout.setSpacing(0)  
-
-        # 🔹 Coluna de status 
-        status_label = QLabel("Status: ⚠️ Em Implantação")  # Exemplo: Status da linha
+        
+        status_label = QLabel("Status: Em Implantação")  
         status_label.setStyleSheet("font: bold 9pt; color: #0073E6; padding: 4px;")
         status_label.setFixedWidth(350)
         layout.addWidget(status_label)
-
-        # 🔹 Criando um container horizontal para os itens
+        
         button_row = QWidget()
         row_layout = QHBoxLayout(button_row)
         row_layout.setContentsMargins(0,0,0,0)
         row_layout.setSpacing(0)
-
-        # 🔹 Ícones alinhados horizontalmente
+        
         icon_row = QHBoxLayout()
         icon_row.setContentsMargins(0, 0, 0, 0)
         icon_row.setSpacing(0)
@@ -539,14 +603,12 @@ class MainWindow(QMainWindow):
         icon_widget.setLayout(icon_row)
         icon_widget.setFixedWidth(40)
         row_layout.addWidget(icon_widget)
-
-        # 🔹 Coluna: Operador
+        
         operator_label = QLabel(operator if operator else "")
         operator_label.setStyleSheet("font: 9pt; color: #555;")
         operator_label.setFixedWidth(95)
         row_layout.addWidget(operator_label)
-
-        # 🔹 Coluna: Botão estilizado
+    
         button = QPushButton(text)
         button.setStyleSheet(f"""
             QPushButton {{
@@ -566,8 +628,7 @@ class MainWindow(QMainWindow):
         button.setFixedHeight(30)
         button.clicked.connect(command)
         row_layout.addWidget(button)
-
-        # 🔹 Origem e destino
+        
         route = self.routes.get(route_key, {})
         dest_container = QWidget()
         dest_layout = QVBoxLayout(dest_container)
@@ -594,8 +655,8 @@ class MainWindow(QMainWindow):
         separator.setFrameShadow(QFrame.Plain)  
         separator.setStyleSheet("background-color: #eee; height: 1px;") 
 
-        layout.addWidget(button_row)  # Adiciona a linha de botões ao layout vertical
-        layout.addWidget(separator)   # Adiciona a barra de separação mais discreta
+        layout.addWidget(button_row)  
+        layout.addWidget(separator)   
         
         self.right_layout.addWidget(container)
     
@@ -603,29 +664,26 @@ class MainWindow(QMainWindow):
         footer = QWidget()
         footer.setStyleSheet("background-color: #333333;")
         footer_layout = QHBoxLayout(footer)
-        
-        # Data e hora
+                
         self.datetime_label = QLabel()
         self.datetime_label.setStyleSheet("color: white; font: bold 12pt;")
         footer_layout.addWidget(self.datetime_label, alignment=Qt.AlignRight)
-        
-        # Temperatura
+                
         self.temp_label = QLabel(get_weather())
         self.temp_label.setStyleSheet("color: #00ff00; font: bold 14pt;")
         footer_layout.addWidget(self.temp_label, alignment=Qt.AlignRight)
         
         self.right_layout.addWidget(footer)
-        footer.setVisible(True)  # Garante que o rodapé está visível
+        footer.setVisible(True)  
 
-    def setup_updates(self):
-        # Atualizações periódicas
+    def setup_updates(self):        
         self.datetime_timer = QTimer(self)
         self.datetime_timer.timeout.connect(self.update_datetime)
-        self.datetime_timer.start(1000)  # Atualiza a cada segundo
+        self.datetime_timer.start(1000)  
         
         self.temp_timer = QTimer(self)
         self.temp_timer.timeout.connect(self.update_temp)
-        self.temp_timer.start(60000)  # Atualiza a cada minuto
+        self.temp_timer.start(60000)  
     
     def update_datetime(self):
         now = QDateTime.currentDateTime()
@@ -640,20 +698,16 @@ class MainWindow(QMainWindow):
             self.close()
             
 if __name__ == "__main__":
-    try:
-        # Configuração essencial antes do QApplication
-        os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"  # Necessário em alguns Linux
-        
+    try:        
+        os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"          
         from PyQt5.QtCore import Qt
         from PyQt5.QtWidgets import QApplication
-        
-        # Configura atributos antes de criar o QApplication
+                
         QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
         QApplication.setAttribute(Qt.AA_ShareOpenGLContexts)
         
         app = QApplication(sys.argv)
-        
-        # Now import modules that might use Qt
+                
         from SP_L17 import line17
         from SP_L15 import line15
         from SP_L13 import line13
