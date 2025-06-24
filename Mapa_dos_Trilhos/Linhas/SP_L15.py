@@ -32,35 +32,57 @@ except locale.Error:
     except locale.Error:
         print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
         locale.setlocale(locale.LC_ALL, '')
-        
+
 def line15():
     try:
-        # Obtém o caminho absoluto do interpretador Python atual
-        python_exe = sys.executable
+        # Obtém o caminho absoluto do script
         script_path = Path(__file__).resolve()
         
-        print(f"Iniciando linha 15: {python_exe} {script_path}")
+        # Configura o ambiente Python corretamente
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(script_path.parent.parent.parent) + os.pathsep + env.get("PYTHONPATH", "")
         
-        # Verifica se o arquivo existe
-        if not script_path.exists():
-            raise FileNotFoundError(f"Arquivo da linha 15 encontrado: {script_path}")
+        print(f"Executando linha 15: {sys.executable} {script_path}")
         
-        # Executa o próprio script
-        import subprocess
-        subprocess.run([python_exe, str(script_path)], check=True)
+        # Executa o script em um novo processo
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            check=True,
+            env=env,
+            cwd=str(script_path.parent.parent.parent),  # Executa a partir da raiz do projeto
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
         
+        print("Linha 15 executada com sucesso!")
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        error_msg = f"Erro ao executar linha 15:\n{e.stderr}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
     except Exception as e:
-        print(f"Erro ao abrir linha 15: {str(e)}")
-        logging.error(f"Erro em line15: {str(e)}")
-        raise
+        error_msg = f"Erro inesperado em line15: {str(e)}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
-# Carrega os dados do arquivo JSON
-with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Caminhos absolutos para os arquivos JSON
+trajeto_path = os.path.join(base_path, 'trajeto.json')
+subtitle_path = os.path.join(base_path, 'subtitle.json')
+
+# Carrega os dados do arquivo trajeto.json
+with open(trajeto_path, 'r', encoding='utf-8') as file:
     dados_linhas = json.load(file)
 
-with open('Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
+# Carrega os dados do arquivo subtitle.json
+with open(subtitle_path, 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
     
 def get_destino_linha(script_name):
@@ -132,18 +154,18 @@ class MapaLinhaWindow(QMainWindow):
         self.linha1_text.setPos(50, 10)
         
         self.linha2_text = self.scene.addText(f"{self.dia_semana}, {self.data_completa}")
-        self.linha2_text.setDefaultTextColor(QColor("#000000"))
+        self.linha2_text.setDefaultTextColor(QColor("#FFFFFF"))
         self.linha2_text.setFont(QFont("Helvetica", 24))
         self.linha2_text.setPos(20, 50)
         
         # Destino e linha
         destino_text = self.scene.addText(f"DESTINO: {self.destino_text}")
-        destino_text.setDefaultTextColor(QColor("#000000"))
+        destino_text.setDefaultTextColor(QColor("#FFFFFF"))
         destino_text.setFont(QFont("Helvetica", 24, QFont.Bold))
         destino_text.setPos(20, 90)
         
         linha_text = self.scene.addText(f"LINHA: {self.linha_text}")
-        linha_text.setDefaultTextColor(QColor("#000000"))
+        linha_text.setDefaultTextColor(QColor("#FFFFFF"))
         linha_text.setFont(QFont("Helvetica", 24, QFont.Bold))
         linha_text.setPos(20, 130)
         
@@ -493,8 +515,11 @@ class MapaLinhaWindow(QMainWindow):
             logging.info(f"Fechando Linha 15 - Prata")
             self.close()
 
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
     window = MapaLinhaWindow()
     window.show()
     sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()

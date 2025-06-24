@@ -32,27 +32,42 @@ except locale.Error:
     except locale.Error:
         print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
         locale.setlocale(locale.LC_ALL, '')
-        
+
 def line4():
     try:
-        # Obtém o caminho absoluto do interpretador Python atual
-        python_exe = sys.executable
+        # Obtém o caminho absoluto do script
         script_path = Path(__file__).resolve()
         
-        print(f"Iniciando linha 4 com: {python_exe} {script_path}")
+        # Configura o ambiente Python corretamente
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(script_path.parent.parent.parent) + os.pathsep + env.get("PYTHONPATH", "")
         
-        # Verifica se o arquivo existe
-        if not script_path.exists():
-            raise FileNotFoundError(f"Arquivo da linha 4 não encontrado: {script_path}")
+        print(f"Executando linha 4: {sys.executable} {script_path}")
         
-        # Executa o próprio script
-        import subprocess
-        subprocess.run([python_exe, str(script_path)], check=True)
+        # Executa o script em um novo processo
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            check=True,
+            env=env,
+            cwd=str(script_path.parent.parent.parent),  # Executa a partir da raiz do projeto
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
         
+        print("Linha 4 executada com sucesso!")
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        error_msg = f"Erro ao executar linha 4:\n{e.stderr}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
     except Exception as e:
-        print(f"Erro ao abrir linha 4: {str(e)}")
-        logging.error(f"Erro em line4: {str(e)}")
-        raise
+        error_msg = f"Erro inesperado em line4: {str(e)}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
@@ -493,8 +508,11 @@ class MapaLinhaWindow(QMainWindow):
             logging.info(f"Fechando Linha 4 - Amarela")
             self.close()
 
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
     window = MapaLinhaWindow()
     window.show()
     sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()

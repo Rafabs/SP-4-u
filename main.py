@@ -494,11 +494,20 @@ class MainWindow(QMainWindow):
             self.msg_noticias.setText("Nenhuma notícia encontrada.")
     
     def setup_line_buttons(self):
-        
-        self.routes = self.load_routes("Mapa_dos_Trilhos/Gtfs_SPTRANS/routes.txt")
-                
-        with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
-            self.trajetos = json.load(file)
+        base_path = os.path.dirname(os.path.abspath(__file__))
+        mapa_path = base_path  
+
+        routes_path = os.path.join(mapa_path, 'Mapa_dos_Trilhos', 'Gtfs_SPTRANS', 'routes.txt')
+        trajeto_path = os.path.join(mapa_path, 'Mapa_dos_Trilhos', 'Linhas', 'trajeto.json')
+
+        self.routes = self.load_routes(os.path.normpath(routes_path))
+
+        try:
+            with open(trajeto_path, 'r', encoding='utf-8') as file:
+                self.trajetos = json.load(file)
+        except FileNotFoundError:
+            print(f"[ERRO] Arquivo não encontrado: {trajeto_path}")
+            self.trajetos = {}
                 
         self.cor_linha_01 = self.trajetos["SP_L01.py"]["COR_LINHA"]
         self.cor_linha_02 = self.trajetos["SP_L02.py"]["COR_LINHA"]
@@ -535,6 +544,11 @@ class MainWindow(QMainWindow):
     
     def load_routes(self, filepath):
         routes = {}
+
+        if not os.path.exists(filepath):
+            print(f"[ERRO] routes.txt não encontrado em: {filepath}")
+            return routes
+
         with open(filepath, encoding='utf-8') as f:
             reader = csv.reader(f)
             for row in reader:

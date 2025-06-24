@@ -35,32 +35,54 @@ except locale.Error:
 
 def line1():
     try:
-        # Obtém o caminho absoluto do interpretador Python atual
-        python_exe = sys.executable
+        # Obtém o caminho absoluto do script
         script_path = Path(__file__).resolve()
         
-        print(f"Iniciando linha 1 com: {python_exe} {script_path}")
+        # Configura o ambiente Python corretamente
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(script_path.parent.parent.parent) + os.pathsep + env.get("PYTHONPATH", "")
         
-        # Verifica se o arquivo existe
-        if not script_path.exists():
-            raise FileNotFoundError(f"Arquivo da linha 1 não encontrado: {script_path}")
+        print(f"Executando linha 1: {sys.executable} {script_path}")
         
-        # Executa o próprio script
-        import subprocess
-        subprocess.run([python_exe, str(script_path)], check=True)
+        # Executa o script em um novo processo
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            check=True,
+            env=env,
+            cwd=str(script_path.parent.parent.parent),  # Executa a partir da raiz do projeto
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
         
+        print("Linha 1 executada com sucesso!")
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        error_msg = f"Erro ao executar linha 1:\n{e.stderr}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
     except Exception as e:
-        print(f"Erro ao abrir linha 1: {str(e)}")
-        logging.error(f"Erro em line1: {str(e)}")
-        raise
+        error_msg = f"Erro inesperado em line1: {str(e)}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
-# Carrega os dados do arquivo JSON
-with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Caminhos absolutos para os arquivos JSON
+trajeto_path = os.path.join(base_path, 'trajeto.json')
+subtitle_path = os.path.join(base_path, 'subtitle.json')
+
+# Carrega os dados do arquivo trajeto.json
+with open(trajeto_path, 'r', encoding='utf-8') as file:
     dados_linhas = json.load(file)
 
-with open('Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
+# Carrega os dados do arquivo subtitle.json
+with open(subtitle_path, 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
     
 def get_destino_linha(script_name):
@@ -493,8 +515,11 @@ class MapaLinhaWindow(QMainWindow):
             logging.info(f"Fechando Linha 1 - Azul")
             self.close()
 
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
     window = MapaLinhaWindow()
     window.show()
     sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()

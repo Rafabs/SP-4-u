@@ -2,12 +2,15 @@ import requests
 from datetime import datetime
 import time
 import pytz  # Adicionado para tratamento de fuso horário
+import sys
+from pathlib import Path
 
-API_KEY = '7c75a9706d664824c8a73764b3ec80dd'
+# Adiciona o diretório raiz ao PATH
+from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALLITY_AR
 
 def get_weather():
     try:
-        url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={API_KEY}&units=metric&lang=pt'
+        url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={API_TOKEN_QUALLITY_AR}&units=metric&lang=pt'
         response = requests.get(url)
         response.raise_for_status()  # Levanta exceção para erros HTTP
         weather_data = response.json()
@@ -17,9 +20,9 @@ def get_weather():
         # Obtém o horário de São Paulo
         tz = pytz.timezone('America/Sao_Paulo')
         now = datetime.now(tz).strftime("%H:%M")
-        
+        print(url)
         return f'{temperature:.1f}°C'
-    
+        
     except requests.exceptions.RequestException as e:
         print(f"Erro na requisição: {e}")
         return "Dados indisponíveis"

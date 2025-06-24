@@ -1,2 +1,67 @@
 2025-06-24 01:07:31,220 - INFO - Fechando Linha 1 - Azul
 2025-06-24 01:08:55,548 - INFO - Fechando Linha 7 - Rubi
+2025-06-24 15:24:15,757 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:17,554 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:18,545 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:19,545 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:20,538 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:21,556 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:22,547 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:23,535 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:24,536 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:25,542 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:26,579 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:27,543 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:28,549 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:29,545 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=f2eb70b865dd52272beeb0c724a8049f1fb785e6&units=metric&lang=pt
+2025-06-24 15:24:30,216 - INFO - Fechando Linha 1 - Azul
+2025-06-24 15:34:30,364 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:32,185 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:33,190 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:34,225 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:35,188 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:36,189 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:37,185 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:38,180 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:39,181 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:40,193 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:41,191 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:42,180 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:43,187 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:44,187 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:45,188 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:46,191 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:34:46,193 - INFO - Fechando Linha 1 - Azul
+2025-06-24 15:44:49,430 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:44:51,247 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:44:51,904 - INFO - Fechando Linha 1 - Azul
+2025-06-24 15:44:53,616 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:44:54,879 - INFO - Fechando Linha 2 - Verde
+2025-06-24 15:44:56,488 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:44:57,480 - INFO - Fechando Linha 3 - Vermelha
+2025-06-24 15:44:59,072 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:44:59,959 - INFO - Fechando Linha 4 - Amarela
+2025-06-24 15:45:01,555 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:02,423 - INFO - Fechando Linha 5 - Lilás
+2025-06-24 15:45:03,954 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:04,854 - INFO - Fechando Linha 7 - Rubi
+2025-06-24 15:45:06,307 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:07,256 - INFO - Fechando Linha 8 - Diamante
+2025-06-24 15:45:08,851 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:09,759 - INFO - Fechando Linha 9 - Esmeralda
+2025-06-24 15:45:19,668 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:20,655 - INFO - Fechando Linha 10 - Turquesa
+2025-06-24 15:45:22,547 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:23,439 - INFO - Fechando Linha 11 - Coral
+2025-06-24 15:45:24,723 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:25,575 - INFO - Fechando Linha 12 - Safira
+2025-06-24 15:45:27,033 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:27,904 - INFO - Fechando Linha 13 - Jade
+2025-06-24 15:45:29,638 - INFO - Erro na requisição: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:45:30,575 - INFO - Fechando Linha 15 - Prata
+2025-06-24 15:47:00,158 - INFO - http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:47:01,199 - INFO - Fechando Linha 8 - Diamante
+2025-06-24 15:47:03,863 - INFO - http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:47:04,832 - INFO - Fechando Linha 133 - Jade
+2025-06-24 15:47:06,107 - INFO - http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
+2025-06-24 15:47:07,407 - INFO - Fechando Linha 15 - Prata

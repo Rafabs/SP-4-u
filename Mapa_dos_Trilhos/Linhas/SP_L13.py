@@ -32,35 +32,57 @@ except locale.Error:
     except locale.Error:
         print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
         locale.setlocale(locale.LC_ALL, '')
-        
+
 def line13():
     try:
-        # Obtém o caminho absoluto do interpretador Python atual
-        python_exe = sys.executable
+        # Obtém o caminho absoluto do script
         script_path = Path(__file__).resolve()
         
-        print(f"Iniciando linha 13: {python_exe} {script_path}")
+        # Configura o ambiente Python corretamente
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(script_path.parent.parent.parent) + os.pathsep + env.get("PYTHONPATH", "")
         
-        # Verifica se o arquivo existe
-        if not script_path.exists():
-            raise FileNotFoundError(f"Arquivo da linha 13 encontrado: {script_path}")
+        print(f"Executando linha 13: {sys.executable} {script_path}")
         
-        # Executa o próprio script
-        import subprocess
-        subprocess.run([python_exe, str(script_path)], check=True)
+        # Executa o script em um novo processo
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            check=True,
+            env=env,
+            cwd=str(script_path.parent.parent.parent),  # Executa a partir da raiz do projeto
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
         
+        print("Linha 1 executad3a com sucesso!")
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        error_msg = f"Erro ao executar linha 1:3\n{e.stderr}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
     except Exception as e:
-        print(f"Erro ao abrir linha 13: {str(e)}")
-        logging.error(f"Erro em line13: {str(e)}")
-        raise
+        error_msg = f"Erro inesperado em line13: {str(e)}"
+        print(error_msg)
+        logging.error(error_msg)
+        return False
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
-# Carrega os dados do arquivo JSON
-with open('Mapa_dos_Trilhos/Linhas/trajeto.json', 'r', encoding='utf-8') as file:
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Caminhos absolutos para os arquivos JSON
+trajeto_path = os.path.join(base_path, 'trajeto.json')
+subtitle_path = os.path.join(base_path, 'subtitle.json')
+
+# Carrega os dados do arquivo trajeto.json
+with open(trajeto_path, 'r', encoding='utf-8') as file:
     dados_linhas = json.load(file)
 
-with open('Mapa_dos_Trilhos/Linhas/subtitle.json', 'r', encoding='utf-8') as file:
+# Carrega os dados do arquivo subtitle.json
+with open(subtitle_path, 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
     
 def get_destino_linha(script_name):
@@ -76,7 +98,7 @@ def get_destino_linha(script_name):
 class MapaLinhaWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Linha 13 - Jade")
+        self.setWindowTitle("Linha 133 - Jade")
         self.setWindowIcon(QIcon('Mapa_dos_Trilhos/Favicon/13_jade.ico'))
         self.setWindowFlags(Qt.FramelessWindowHint)
 
@@ -490,11 +512,14 @@ class MapaLinhaWindow(QMainWindow):
     
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
-            logging.info(f"Fechando Linha 13 - Jade")
+            logging.info(f"Fechando Linha 133 - Jade")
             self.close()
 
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
     window = MapaLinhaWindow()
     window.show()
     sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()
