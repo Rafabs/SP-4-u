@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.0-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-13/05/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.1-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-24/06/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -58,10 +58,9 @@ Desenvolvido com:
 ### 🚌 SPTrans
 | Tipo | Linha | Rota | 
 |------|-------|------|
-| 🆕 Inclusão | ![2034/10](https://img.shields.io/badge/2034/10-002F6C.svg) | Metrô Tietê - Centro Tea | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
-| 🆕 Inclusão | ![3063/01](https://img.shields.io/badge/3063/01-DA291C.svg) | Guaianases - São Mateus | ![#DA291C](https://via.placeholder.com/15/DA291C/000000?text=+) |
-| ✏️ Modificação | ![4056/10](https://img.shields.io/badge/4056/10-DA291C.svg) | Pq. Boa Esperança - Term. São Mateus <br>**Antes:** ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) | ![#DA291C](https://via.placeholder.com/15/DA291C/000000?text=+) |
-| ❌ Remoção | ![3033/10](https://img.shields.io/badge/3033/10-FFD100.svg) | Guaianases - São Mateus | ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
+| 🆕 Inclusão | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
+| ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) |**Atual:** Cachoeirinha - Jd. Sta. Cruz <br>**Antes:** ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) Term. Cachoeirinha - Jd. Sta. Cruz |
+| ❌ Remoção | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce  - Term. Jd. Britania | ![#509E2F](https://via.placeholder.com/15/509E2F/000000?text=+) |
 
 ### 🚍 EMTU
 - Sem alterações recentes
@@ -71,16 +70,21 @@ Desenvolvido com:
 
 | Data       | Tipo        | Linha | Rota |
 |------------|-------------|-------|------|
-| 20/06/2025 | 🆕 Inclusão | ![2034/10](https://img.shields.io/badge/2034/10-002F6C.svg) | Metrô Tietê → Centro Tea | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
-| 20/06/2025 | 🆕 Inclusão | ![3063/01](https://img.shields.io/badge/3063/01-DA291C.svg) | Guaianases → São Mateus | ![#DA291C](https://via.placeholder.com/15/DA291C/000000?text=+) |
-| 20/06/2025 | ✏️ Modificação | ![4056/10](https://img.shields.io/badge/4056/10-DA291C.svg) | Pq. Boa Esperança → Term. São Mateus | **Antes:** ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
-| 20/06/2025 | ❌ Remoção | ![3033/10](https://img.shields.io/badge/3033/10-FFD100.svg) | Guaianases → São Mateus | ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
+| 23/06/2025 |🆕 Inclusão | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
+| 23/06/2025 |✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) |**Atual:** Cachoeirinha - Jd. Sta. Cruz <br>**Antes:** ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) Term. Cachoeirinha - Jd. Sta. Cruz |
+| 23/06/2025 |❌ Remoção | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce  - Term. Jd. Britania | ![#509E2F](https://via.placeholder.com/15/509E2F/000000?text=+) |
+| 20/06/2025 |🆕 Inclusão | ![2034/10](https://img.shields.io/badge/2034/10-002F6C.svg) | Metrô Tietê → Centro Tea | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
+| 20/06/2025 |🆕 Inclusão | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | Guaianases → São Mateus | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
+| 20/06/2025 |✏️ Modificação | ![4056/10](https://img.shields.io/badge/4056/10-DA291C.svg) | Pq. Boa Esperança → Term. São Mateus | **Antes:** ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
+| 20/06/2025 |❌ Remoção | ![3033/10](https://img.shields.io/badge/3033/10-FFD100.svg) | Guaianases → São Mateus | ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
 
 </details> 
 
 ## 🛠️ Tecnologias Utilizadas
 
-### 📚 Bibliotecas Python
+<details>
+<summary>📚 Bibliotecas Python </summary>
+
 ```bash
 pip install tk
 pip install customtkinter
@@ -103,13 +107,19 @@ pip install googlenews
 pip install re
 ```
 
-### 📦 Pacotes Node.js
+</details>
+
+<details>
+<summary>📦 Pacotes Node.js </summary>
+
 ```bash
 npm install express 
 npm install axios 
 npm install jsdom 
 npm install cors
 ```
+
+</details>
 
 ### 🖥️ IDEs Recomendadas
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white)
@@ -149,24 +159,25 @@ node server.js
 ## 📌 Roadmap de Desenvolvimento
 
 🔧 Refatoração e Estrutura
-- [ ] 🔄 Refatorar main.py em múltiplos arquivos 🚧`>>> EM DESENVOLVIMENTO`🚧
+- [ ] 🔄 Refatorar main.py em múltiplos arquivos 
 - [ ] 🧼 Comentar e aprimorar os códigos com docstrings
-- [ ] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção
+- [ ] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção 🚧`>>> EM DESENVOLVIMENTO`🚧
 - [ ] ✅ Confirmação para encerrar o programa principal
+- [ ] 🧠🗺️ Ajustar Diagrama
+- [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
 - [ ] ✍️ Ajustar estrutura e seções dos .md
 
 🌐 Funcionalidades Web
 - [ ] 🌍 Voltar a ler status das linhas via web scraping
-- [ ]  🌡️ Inserir mais dados e itens relacionados à temperatura
+- [ ] 🌡️ Inserir mais dados e itens relacionados à temperatura
 
 🛠️ Logs e Validações
 - [ ] 🪵 Validar os logs (necessários)
 
 🖼️ Interface
 - [ ] 🎨 Criar interface visual com Qt Designer
-
 <details>
 <summary>📚 Ver histórico completo </summary>
 

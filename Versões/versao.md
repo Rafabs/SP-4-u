@@ -1,5 +1,9 @@
 ## Histórico das versões
 
+### Versão ![Version](https://img.shields.io/badge/1.1.1-yellow.svg)
+
+- 24/06/2025 - Atualização dos dados GTFS SPtrans
+
 ### Versão ![Version](https://img.shields.io/badge/1.1.0-yellow.svg)
 
 - Inserção de demanda de passageiros nas L1, L2, L3, L5 e L15 (Dados da L5 até 2018, antes da concessão) - Fonte: https://transparencia.metrosp.com.br/dataset/demanda

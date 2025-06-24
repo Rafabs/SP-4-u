@@ -1,28 +1,37 @@
 import os
 from pathlib import Path
+import logging
 
 def verificacao():
+    resultados = {
+        'pastas_nao_encontradas': [],
+        'arquivos_encontrados': [],
+        'arquivos_nao_encontrados': []
+    }
+
     def verificar_arquivos(pastas, lista_arquivos):
         for pasta in pastas:
-            # Normaliza o caminho da pasta
             pasta_path = Path(pasta.replace('\\', '/'))
-            print(f"\nVerificando arquivos em {pasta_path}:")
             
             if not pasta_path.exists():
-                print(f"- PASTA NÃO ENCONTRADA: {pasta_path}")
+                resultados['pastas_nao_encontradas'].append(str(pasta_path))
                 continue
                 
             for arquivo in lista_arquivos:
-                # Remove duplicação de caminho se existir
                 arquivo_nome = os.path.basename(arquivo)
                 caminho_arquivo = pasta_path / arquivo_nome
                 
                 if caminho_arquivo.exists():
-                    print(f"- {arquivo_nome} encontrado")
+                    resultados['arquivos_encontrados'].append({
+                        'arquivo': arquivo_nome,
+                        'pasta': str(pasta_path)
+                    })
                 else:
-                    print(f"- {arquivo_nome} não encontrado")
+                    resultados['arquivos_nao_encontrados'].append({
+                        'arquivo': arquivo_nome,
+                        'pasta': str(pasta_path)
+                    })
 
-    # Lista de pastas a serem verificadas (usando Path)
     pastas_verificadas = [
         "Mapa_dos_Trilhos",
         "Mapa_dos_Trilhos/Sobre",
@@ -32,7 +41,6 @@ def verificacao():
         "Mapa_dos_Trilhos/Linhas"
     ]
 
-    # Lista de arquivos a serem verificados (apenas nomes, sem caminho)
     lista_arquivos_verificados = [
         "caminho_icones.json", 
         "dados_estacoes_medicoes.json", 
@@ -104,8 +112,16 @@ def verificacao():
         "styles.css"
     ]
 
-    # Chama a função para verificar os arquivos
     verificar_arquivos(pastas_verificadas, lista_arquivos_verificados)
+    return resultados
 
-    # Retorna um dicionário com os resultados (opcional)
-    return {"status": "Verificação concluída", "pastas": pastas_verificadas}
+def fazer_varredura():
+    resultados = verificacao()
+    
+    # Log dos resultados
+    logging.info("Resultado da varredura de arquivos:")
+    logging.info(f"Pastas não encontradas: {len(resultados['pastas_nao_encontradas'])}")
+    logging.info(f"Arquivos encontrados: {len(resultados['arquivos_encontrados'])}")
+    logging.info(f"Arquivos não encontrados: {len(resultados['arquivos_nao_encontrados'])}")
+    
+    return resultados
