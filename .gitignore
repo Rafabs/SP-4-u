@@ -1,34 +1,27 @@
-
-Mapa_dos_Trilhos/mapa_global.html
+# Arquivos sensíveis genéricos
 *.pyc
-Mapa_dos_Trilhos/__pycache__/Metrô_SP_L1.cpython-311.pyc
-Mapa_dos_Trilhos/__pycache__/guias.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L7.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L8.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L10.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L11.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L12.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/CPTM_SP_L13.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Guararema.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L1.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L2.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L3.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L4.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L5.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Metrô_SP_L15.cpython-311.pyc
-Mapa_dos_Trilhos/Linhas/__pycache__/Pirapora.cpython-311.pyc
-Mapa_dos_Trilhos/Sobre/Imgs/Mapa em Power-Point.pptx
+*.log
+*.txt
+*.pptx
+*.xlsx
+config.py
+temperatura.py
+
+# Pastas de cache Python
+__pycache__/
+*.py[cod]
+
+# Arquivos específicos do projeto
+Mapa_dos_Trilhos/mapa_global.html
 Mapa_dos_Trilhos/node.txt
-Mapa_dos_Trilhos/Fontes
-Área_de_Desenvolvimento/Code_Mapa_dos_Trilhos/config.py
-Mapa_dos_Trilhos/config.py
-Área_de_Desenvolvimento/--Historic_Code--/config.py.txt
-Mapa_dos_Trilhos/Sobre/config.py
+Mapa_dos_Trilhos/Fontes/
 release_control.xlsx
-Mapa_dos_Trilhos/log.log
-Mapa_dos_Trilhos/log.txt
-Mapa_dos_Trilhos\log.txt
-Mapa_dos_Trilhos/Linhas/temperatura.py
+
+# Pastas de desenvolvimento
+Área_de_Desenvolvimento/Code_Mapa_dos_Trilhos/config.py
+Área_de_Desenvolvimento/--Historic_Code--/config.py.txt
 core/config.py
-Mapa_dos_Trilhos/Linhas/temperatura.py
-Mapa_dos_Trilhos/Linhas/temperatura.py
+
+# Logs
+Mapa_dos_Trilhos/*.log
+Mapa_dos_Trilhos/log.txt
