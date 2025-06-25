@@ -25,3 +25,4 @@ core/config.py
 # Logs
 Mapa_dos_Trilhos/*.log
 Mapa_dos_Trilhos/log.txt
+Mapa_dos_Trilhos/Mapa_dos_Trilhos/log.log

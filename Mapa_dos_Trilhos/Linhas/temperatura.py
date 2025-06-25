@@ -20,7 +20,6 @@ def get_weather():
         # Obtém o horário de São Paulo
         tz = pytz.timezone('America/Sao_Paulo')
         now = datetime.now(tz).strftime("%H:%M")
-        print(url)
         return f'{temperature:.1f}°C'
         
     except requests.exceptions.RequestException as e:
