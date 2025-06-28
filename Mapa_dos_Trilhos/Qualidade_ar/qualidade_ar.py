@@ -1,3 +1,22 @@
+# -*- coding: utf-8 -*-
+
+"""
+SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+
+METADADOS:
+__author__      = "Rafael Barbosa"
+__copyright__   = "Desenvolvimento independente"
+__license__     = "MIT"
+__version__     = "1.1.2"
+__maintainer__  = "https://github.com/Rafabs"
+__modified__    = "28/06/2025 16:11"
+
+DESCRITIVO:
+    MÃ³dulo de funcionalidades especÃ­ficas
+
+ARQUITETURA:
+    Mapa_dos_Trilhos/Qualidade_ar/qualidade_ar.py
+"""
 from PyQt5 import QtWidgets, QtWebEngineWidgets, QtCore
 from PyQt5.QtWidgets import (QLabel, QPushButton, QTextEdit, QVBoxLayout, 
                             QWidget, QApplication, QHBoxLayout, QFrame)
@@ -27,7 +46,7 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent  # Go up 3 levels from qualid
 sys.path.append(str(PROJECT_ROOT))
 
 try:
-    from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALLITY_AR
+    from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALITY_AR
 except ImportError as e:
     print(f"Error: Could not import config. Full path being checked: {PROJECT_ROOT / 'Mapa_dos_Trilhos/Sobre/config.py'}")
     print(f"Python path: {sys.path}")
@@ -210,7 +229,7 @@ class QualidadeArApp(QWidget):
                 endereco = info['endereco']
 
                 response = requests.get(
-                    f"https://api.waqi.info/feed/geo:{lat};{lon}/?token={API_TOKEN_QUALLITY_AR}",
+                    f"https://api.waqi.info/feed/geo:{lat};{lon}/?token={API_TOKEN_QUALITY_AR}",
                     verify=certifi.where()
                 )
                 air_quality_data = response.json()

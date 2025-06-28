@@ -1,3 +1,22 @@
+# -*- coding: utf-8 -*-
+
+"""
+SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+
+METADADOS:
+__author__      = "Rafael Barbosa"
+__copyright__   = "Desenvolvimento independente"
+__license__     = "MIT"
+__version__     = "1.1.2"
+__maintainer__  = "https://github.com/Rafabs"
+__modified__    = "28/06/2025 16:07"
+
+DESCRITIVO:
+    MÃ³dulo de funcionalidades especÃ­ficas
+
+ARQUITETURA:
+    Mapa_dos_Trilhos/Linhas/SP_L06.py
+"""
 import tkinter as tk  # Importa a biblioteca Tkinter para criar a interface gráfica
 from tkinter import *  # Importa todas as classes e funções do módulo tkinter
 from PIL import Image, ImageTk  # Importa classes para manipular imagens

@@ -1,3 +1,31 @@
+# -*- coding: utf-8 -*-
+
+"""
+SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+
+METADADOS:
+__author__      = "Rafael Barbosa"
+__copyright__   = "Desenvolvimento independente"
+__license__     = "MIT"
+__version__     = "1.1.2"
+__maintainer__  = "https://github.com/Rafabs"
+__modified__    = "28/06/2025 16:11"
+
+DESCRITIVO:
+    MÃ³dulo de processamento de dados GTFS (General Transit Feed Specification):
+- Implementa parser completo do formato GTFS
+- Carrega e processa arquivos: routes.txt, trips.txt, stop_times.txt, stops.txt
+- Calcula itinerÃ¡rios e conexÃµes entre linhas
+- Interface grÃ¡fica com Tkinter para consulta
+- VisualizaÃ§Ã£o de mapas com Folium
+- IntegraÃ§Ã£o com API Olho Vivo (tempo real)
+- ExportaÃ§Ã£o para CSV/Excel/JSON
+- Algoritmo de roteamento (Dijkstra)
+- Suporte a mÃºltiplos encodings (UTF-8, Latin-1)
+
+ARQUITETURA:
+    Mapa_dos_Trilhos/gtfs_sptrans.py
+"""
 import csv
 import webbrowser
 import tkinter as tk

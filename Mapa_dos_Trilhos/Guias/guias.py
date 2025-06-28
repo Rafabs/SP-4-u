@@ -1,3 +1,22 @@
+# -*- coding: utf-8 -*-
+
+"""
+SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+
+METADADOS:
+__author__      = "Rafael Barbosa"
+__copyright__   = "Desenvolvimento independente"
+__license__     = "MIT"
+__version__     = "1.1.2"
+__maintainer__  = "https://github.com/Rafabs"
+__modified__    = "28/06/2025 16:09"
+
+DESCRITIVO:
+    MÃ³dulo de funcionalidades especÃ­ficas
+
+ARQUITETURA:
+    Mapa_dos_Trilhos/Guias/guias.py
+"""
 import fitz # Importa fitz para trabalhar com arquivos PDF
 from PIL import Image, ImageTk # Importa Image e ImageTk do PIL para manipular imagens
 from colorama import Fore, Back, Style, init # Importa as cores do módulo colorama para colorir o texto no console

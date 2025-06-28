@@ -6,11 +6,11 @@ import sys
 from pathlib import Path
 
 # Adiciona o diretório raiz ao PATH
-from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALLITY_AR
+from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALITY_AR
 
 def get_weather():
     try:
-        url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={API_TOKEN_QUALLITY_AR}&units=metric&lang=pt'
+        url = f'http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid={API_TOKEN_QUALITY_AR}&units=metric&lang=pt'
         response = requests.get(url)
         response.raise_for_status()  # Levanta exceção para erros HTTP
         weather_data = response.json()

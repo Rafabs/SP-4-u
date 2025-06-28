@@ -1,3 +1,29 @@
+# -*- coding: utf-8 -*-
+
+"""
+SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+
+METADADOS:
+__author__      = "Rafael Barbosa"
+__copyright__   = "Desenvolvimento independente"
+__license__     = "MIT"
+__version__     = "1.1.2"
+__maintainer__  = "https://github.com/Rafabs"
+__modified__    = "28/06/2025 16:00"
+
+DESCRITIVO:
+Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
+- Monitoramento em tempo real das linhas de metrÃ´/trem de SP
+- VisualizaÃ§Ã£o de mapas e rotas interativas
+- NotÃ­cias atualizadas sobre transporte
+- Pesquisas de origem-destino (OD)
+- Qualidade do ar e condiÃ§Ãµes climÃ¡ticas
+- Console de logs integrado
+- Interface responsiva para mÃºltiplos monitores
+ARQUITETURA:
+    main.py
+"""
+
 import requests
 from io import BytesIO
 import json

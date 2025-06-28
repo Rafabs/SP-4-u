@@ -1,5 +1,9 @@
 ## Histórico das versões
 
+### Versão ![Version](https://img.shields.io/badge/1.1.2-yellow.svg)
+
+- 28/06/2025 - Atualização para criação dos cabeçalhos nos arquivos Python para facilitar manutenção, mediante execução de update_headers.ps1.
+
 ### Versão ![Version](https://img.shields.io/badge/1.1.1-yellow.svg)
 
 - 24/06/2025 - Atualização dos dados GTFS SPtrans

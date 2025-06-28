@@ -154,15 +154,14 @@ node server.js
 <div align="center"> <h3>Versão Desktop (Python)</h3> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/aqi.png" width="45%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/line.png" width="45%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/main.png" width="45%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/od.png" width="45%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/sptrans_api.png" width="45%"/> <h3>Versões Anteriores</h3> <img src="https://github.com/Rafabs/SP-4-u/blob/f4cef17dafc25751cdec21d3de769e1851724eb4/Exibição/Página_Inicial_v1.0.10.png" width="45%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibição/PY_Imagens_projeto_v1.0.9%20(10).png" width="45%"/> <h3>Versão Web</h3> <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/web.png" width="90%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/e604f14d346b45c89f9bb0ef83f894d7f71efe63/Exibição/WEB_%20(3).png" width="30%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibição/WEB_%20(1).png" width="30%"/> <img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibição/WEB_%20(2).png" width="30%"/> </div>
 
 ## 📈 Diagrama da Arquitetura (v1.1.0)
-![Diagrama](https://github.com/Rafabs/SP-4-u/blob/main/Diagrama/Diagrama_v1.1.0.png)
+![Diagrama](https://github.com/Rafabs/SP-4-u/blob/main/docs/diagrams/Diagrama_v1.1.0.png)
 
 ## 📌 Roadmap de Desenvolvimento
 
 🔧 Refatoração e Estrutura
 - [ ] 🔄 Refatorar main.py em múltiplos arquivos 
 - [ ] 🧼 Comentar e aprimorar os códigos com docstrings
-- [ ] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção 🚧`>>> EM DESENVOLVIMENTO`🚧
-- [ ] ✅ Confirmação para encerrar o programa principal
+- [ ] ✅ Confirmação para encerrar o programa principal 🚧`>>> EM DESENVOLVIMENTO`🚧
 - [ ] 🧠🗺️ Ajustar Diagrama
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
@@ -182,7 +181,8 @@ node server.js
 <summary>📚 Ver histórico completo </summary>
 
 📚 Documentação (readme)
-- [x] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025` 
+- [X] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção  `Concluído em 28/06/2025` 
+- [X] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025` 
 
 </details> 
 
