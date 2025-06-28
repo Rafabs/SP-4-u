@@ -16,6 +16,7 @@ Mapa_dos_Trilhos/mapa_global.html
 Mapa_dos_Trilhos/node.txt
 Mapa_dos_Trilhos/Fontes/
 release_control.xlsx
+Mapa_dos_Trilhos/mapa_qualidade_ar.html
 
 # Pastas de desenvolvimento
 Área_de_Desenvolvimento/Code_Mapa_dos_Trilhos/config.py
@@ -26,4 +27,3 @@ core/config.py
 Mapa_dos_Trilhos/*.log
 Mapa_dos_Trilhos/log.txt
 Mapa_dos_Trilhos/Mapa_dos_Trilhos/log.log
-Mapa_dos_Trilhos/mapa_qualidade_ar.html
