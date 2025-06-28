@@ -29,7 +29,7 @@ from PyQt5.QtCore import Qt, QTimer, QRectF, QPointF
 from PIL import Image
 from datetime import datetime
 import locale
-from temperatura import get_weather
+from Mapa_dos_Trilhos.temperatura import get_weather
 from screeninfo import get_monitors
 import subprocess
 import logging

@@ -65,3 +65,7 @@
 2025-06-24 15:47:04,832 - INFO - Fechando Linha 133 - Jade
 2025-06-24 15:47:06,107 - INFO - http://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=42e0cab986c069a6bb13c768d65c7933&units=metric&lang=pt
 2025-06-24 15:47:07,407 - INFO - Fechando Linha 15 - Prata
+2025-06-28 16:34:36,293 - INFO - Fechando Mapa de Qualidade do Ar
+2025-06-28 16:54:24,646 - INFO - Fechando Linha 1 - Azul
+2025-06-28 16:55:37,581 - INFO - Fechando Linha 5 - Lilás
+2025-06-28 16:56:05,885 - INFO - Fechando Mapa de Qualidade do Ar
