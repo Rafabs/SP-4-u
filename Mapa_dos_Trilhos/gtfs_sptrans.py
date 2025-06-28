@@ -9,10 +9,10 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:11"
+__modified__    = "28/06/2025 16:12"
 
 DESCRITIVO:
-    MÃ³dulo de processamento de dados GTFS (General Transit Feed Specification):
+MÃ³dulo de processamento de dados GTFS (General Transit Feed Specification):
 - Implementa parser completo do formato GTFS
 - Carrega e processa arquivos: routes.txt, trips.txt, stop_times.txt, stops.txt
 - Calcula itinerÃ¡rios e conexÃµes entre linhas
@@ -22,7 +22,6 @@ DESCRITIVO:
 - ExportaÃ§Ã£o para CSV/Excel/JSON
 - Algoritmo de roteamento (Dijkstra)
 - Suporte a mÃºltiplos encodings (UTF-8, Latin-1)
-
 ARQUITETURA:
     Mapa_dos_Trilhos/gtfs_sptrans.py
 """

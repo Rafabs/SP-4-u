@@ -9,10 +9,10 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:11"
+__modified__    = "28/06/2025 16:12"
 
 DESCRITIVO:
-    MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
+MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
 - VisualizaÃ§Ã£o interativa de dados de origem-destino (OD)
 - Interface grÃ¡fica com PyQt5 e matplotlib
 - GrÃ¡ficos dinÃ¢micos com tooltips informativos
@@ -21,7 +21,6 @@ DESCRITIVO:
 - Tratamento robusto de dados faltantes
 - ExportaÃ§Ã£o de resultados
 - IntegraÃ§Ã£o com dados GTFS
-
 ARQUITETURA:
     Mapa_dos_Trilhos/Pesquisa_pass/pesquisa_pass.py
 """

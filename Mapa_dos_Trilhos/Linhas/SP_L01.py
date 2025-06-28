@@ -9,11 +9,10 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:06"
+__modified__    = "28/06/2025 16:54"
 
 DESCRITIVO:
-    MÃ³dulo de funcionalidades especÃ­ficas
-
+MÃ³dulo de funcionalidades especÃ­ficas
 ARQUITETURA:
     Mapa_dos_Trilhos/Linhas/SP_L01.py
 """

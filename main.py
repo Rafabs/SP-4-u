@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:00"
+__modified__    = "28/06/2025 16:54"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
