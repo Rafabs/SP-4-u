@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:54"
+__modified__    = "30/06/2025 00:36"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
@@ -20,6 +20,7 @@ Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolid
 - Qualidade do ar e condiÃ§Ãµes climÃ¡ticas
 - Console de logs integrado
 - Interface responsiva para mÃºltiplos monitores
+- ConfirmaÃ§Ã£o de encerramento de janela GUI
 ARQUITETURA:
     main.py
 """
@@ -734,8 +735,19 @@ class MainWindow(QMainWindow):
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
-            logging.info(f"Fechando Página Principal")
-            self.close()
+            # Cria uma caixa de diálogo de confirmação
+            reply = QMessageBox.question(
+                self, 
+                'Confirmação', 
+                'Tem certeza que deseja sair?', 
+                QMessageBox.Yes | QMessageBox.No, 
+                QMessageBox.No
+            )
+            
+            # Se o usuário confirmar, fecha a aplicação
+            if reply == QMessageBox.Yes:
+                logging.info(f"Fechando Página Principal")
+                self.close()
             
 if __name__ == "__main__":
     try:        

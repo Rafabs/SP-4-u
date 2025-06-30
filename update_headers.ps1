@@ -19,7 +19,7 @@ METADADOS:
 __author__      = "Rafael Barbosa"
 __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
-__version__     = "1.1.2"
+__version__     = "1.1.3"
 __maintainer__  = "https://github.com/Rafabs"
 __modified__    = "$formattedDate"
 
@@ -44,6 +44,7 @@ Ponto de entrada principal do sistema SAMPA 4U - Aplicação Qt que consolida:
 - Qualidade do ar e condições climáticas
 - Console de logs integrado
 - Interface responsiva para múltiplos monitores
+- Confirmação de encerramento de janela GUI
 "@
 
     "linhas/*.py" = @"

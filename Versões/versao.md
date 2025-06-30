@@ -1,5 +1,10 @@
 ## Histórico das versões
 
+### Versão ![Version](https://img.shields.io/badge/1.1.3-yellow.svg)
+
+- 30/06/2025 - Incrementação da função para exibir um pop-up de confirmação para encerrar a página inicial no modo Python.
+             - Atualização GTFS de 25/06/2025.
+
 ### Versão ![Version](https://img.shields.io/badge/1.1.2-yellow.svg)
 
 - 28/06/2025 - Atualização para criação dos cabeçalhos nos arquivos Python para facilitar manutenção, mediante execução de update_headers.ps1.

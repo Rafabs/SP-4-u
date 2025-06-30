@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.1-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-24/06/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.3-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-30/06/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -161,12 +161,11 @@ node server.js
 🔧 Refatoração e Estrutura
 - [ ] 🔄 Refatorar main.py em múltiplos arquivos 
 - [ ] 🧼 Comentar e aprimorar os códigos com docstrings
-- [ ] ✅ Confirmação para encerrar o programa principal 🚧`>>> EM DESENVOLVIMENTO`🚧
 - [ ] 🧠🗺️ Ajustar Diagrama
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
-- [ ] ✍️ Ajustar estrutura e seções dos .md
+- [ ] ✍️ Ajustar estrutura e seções dos .md 🚧`>>> EM DESENVOLVIMENTO`🚧
 
 🌐 Funcionalidades Web
 - [ ] 🌍 Voltar a ler status das linhas via web scraping
@@ -181,7 +180,8 @@ node server.js
 <summary>📚 Ver histórico completo </summary>
 
 📚 Documentação (readme)
-- [X] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção  `Concluído em 28/06/2025` 
+- [X] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025` 
+- [X] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025` 
 - [X] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025` 
 
 </details> 

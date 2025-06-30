@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:12"
+__modified__    = "30/06/2025 00:38"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -29,7 +29,7 @@ import requests  # Importa o módulo requests para fazer requisições HTTP
 from datetime import datetime, timedelta  # Importa novamente a classe datetime e a classe timedelta para manipulação de datas
 from colorama import Fore, Back, Style, init  # Importa algumas funcionalidades para manipulação de cores no terminal
 import certifi  # Importa o módulo certifi para lidar com certificados SSL
-from config import API_TOKEN_QUALITY_AR  # Importa o token da API do arquivo de configuração
+from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALITY_AR  # Importa o token da API do arquivo de configuração
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
