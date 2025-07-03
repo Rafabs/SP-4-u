@@ -1,5 +1,9 @@
 ## Histórico das versões
 
+### Versão ![Version](https://img.shields.io/badge/1.1.4-yellow.svg)
+
+- 03/07/2025 - Incrementação do layout da página principal da aplicação utilizando o QTDesigner.
+
 ### Versão ![Version](https://img.shields.io/badge/1.1.3-yellow.svg)
 
 - 30/06/2025 - Incrementação da função para exibir um pop-up de confirmação para encerrar a página inicial no modo Python.
