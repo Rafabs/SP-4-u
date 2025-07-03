@@ -175,11 +175,13 @@ node server.js
 - [ ] 🪵 Validar os logs (necessários)
 
 🖼️ Interface
-- [ ] 🎨 Criar interface visual com Qt Designer
+- Sem modificações futuras.
+
 <details>
 <summary>📚 Ver histórico completo </summary>
 
 📚 Documentação (readme)
+- [X] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025` 
 - [X] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025` 
 - [X] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025` 
 - [X] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025` 
