@@ -173,7 +173,7 @@ node server.js
 - [ ] 🌡️ Inserir mais dados e itens relacionados à temperatura
 
 🛠️ Logs e Validações
-- [ ] 🪵 Validar os logs (necessários)
+- Sem modificações futuras.
 
 🖼️ Interface
 - Sem modificações futuras.
@@ -181,6 +181,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
+- [X] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025` 
 - [X] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025` 
 - [X] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025` 
 - [X] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025` 

@@ -2,6 +2,7 @@
 
 ### Versão ![Version](https://img.shields.io/badge/1.1.4-yellow.svg)
 
+- 08/07/2025 - Ajustado validação dos logs, sendo exibidos somente logs necessário para utilizaçao do projeto.
 - 03/07/2025 - Incrementação do layout da página principal da aplicação utilizando o QTDesigner.
 
 ### Versão ![Version](https://img.shields.io/badge/1.1.3-yellow.svg)

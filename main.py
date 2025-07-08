@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "30/06/2025 00:36"
+__modified__    = "08/07/2025 01:10"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
@@ -191,9 +191,6 @@ def abrir_link(url):
     url = re.sub(r'/[^/]*$', '', url)
     webbrowser.open_new(url)
 
-def fazer_varredura():
-    itens_arquivos = verificacao()
-
 class NewsWidget(QWidget):
     def __init__(self, title, link, image_url=None, parent=None):
         super().__init__(parent)
@@ -272,8 +269,6 @@ class MainWindow(QMainWindow):
                 
         self.setup_updates()
                 
-        fazer_varredura()
-
         self.setup_console_logger()
                     
     def setup_console_logger(self):
@@ -776,7 +771,6 @@ if __name__ == "__main__":
         from SP_L02 import line2
         from SP_L01 import line1
         from noticia import notice_transp_sao_paulo
-        from varredura import verificacao
         from Pesquisa_pass.pesquisa_pass import passageiro_estacao
         from mapa import mapa_global
         from gtfs_emtu import emtu

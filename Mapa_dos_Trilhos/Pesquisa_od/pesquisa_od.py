@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:56"
+__modified__    = "08/07/2025 01:38"
 
 DESCRITIVO:
 MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
@@ -44,6 +44,7 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 import tempfile
 from pathlib import Path
 from screeninfo import get_monitors
+from datetime import datetime
 
 # Get the absolute path to the project root
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -456,7 +457,8 @@ class AppOD(QDialog):
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
-            logging.info(f"Fechando Página Pesquisa Origem e Destino")
+            with open('Mapa_dos_Trilhos/log.log', 'a', encoding='utf-8') as f:
+                f.write(f"{datetime.now()} - Fechando Página Pesquisa Origem e Destino\n")
             self.close()
 
 def pesquisa_od_metro(parent=None):

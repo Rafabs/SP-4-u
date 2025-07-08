@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "28/06/2025 16:56"
+__modified__    = "08/07/2025 01:35"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -530,7 +530,8 @@ class MapaLinhaWindow(QMainWindow):
     
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
-            logging.info(f"Fechando Linha 8 - Diamante")
+            with open('Mapa_dos_Trilhos/log.log', 'a', encoding='utf-8') as f:
+                f.write(f"{datetime.now()} - Fechando Linha 8 - Diamante\n")
             self.close()
 
 def main():
