@@ -4,7 +4,7 @@
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
   ![Version](https://img.shields.io/badge/Versão-1.1.4-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-03/07/2025-brightgreen?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-08/07/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -166,11 +166,11 @@ node server.js
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
-- [ ] ✍️ Ajustar estrutura e seções dos .md 🚧`>>> EM DESENVOLVIMENTO`🚧
+- Sem modificações futuras.
 
 🌐 Funcionalidades Web
 - [ ] 🌍 Voltar a ler status das linhas via web scraping
-- [ ] 🌡️ Inserir mais dados e itens relacionados à temperatura
+- [ ] 🌡️ Inserir mais dados e itens relacionados à temperatura 🚧`>>> EM DESENVOLVIMENTO`🚧
 
 🛠️ Logs e Validações
 - Sem modificações futuras.
@@ -181,6 +181,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
+- [X] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025` 
 - [X] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025` 
 - [X] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025` 
 - [X] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025` 

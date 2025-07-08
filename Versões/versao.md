@@ -1,66 +1,66 @@
-## Histórico das versões
+# 📜 Histórico de Versões
 
-### Versão ![Version](https://img.shields.io/badge/1.1.4-yellow.svg)
+Um registro das evoluções e melhorias do projeto, versão por versão.
 
-- 08/07/2025 - Ajustado validação dos logs, sendo exibidos somente logs necessário para utilizaçao do projeto.
-- 03/07/2025 - Incrementação do layout da página principal da aplicação utilizando o QTDesigner.
+---
 
-### Versão ![Version](https://img.shields.io/badge/1.1.3-yellow.svg)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.4-yellow.svg) (08/07/2025)
 
-- 30/06/2025 - Incrementação da função para exibir um pop-up de confirmação para encerrar a página inicial no modo Python.
-             - Atualização GTFS de 25/06/2025.
+✨ **Melhorias e Correções:**
+- 📚 **Documentação (readme)**: Ajustada a estrutura e seções dos .md de versões
+- ✅ **Ajuste de logs**: Validação aprimorada para exibir apenas logs relevantes ao projeto.
+- 🎨 **Layout**: Incrementação do design da página principal usando QTDesigner.
 
-### Versão ![Version](https://img.shields.io/badge/1.1.2-yellow.svg)
+---
 
-- 28/06/2025 - Atualização para criação dos cabeçalhos nos arquivos Python para facilitar manutenção, mediante execução de update_headers.ps1.
+## 📌 Versões Anteriores
 
-### Versão ![Version](https://img.shields.io/badge/1.1.1-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.1.3-yellow.svg) (30/06/2025)
+- 🖱️ **Novo recurso**: Pop-up de confirmação para encerrar a página inicial (modo Python).
+- 🔄 **Atualização**: Dados GTFS de 25/06/2025 integrados.
 
-- 24/06/2025 - Atualização dos dados GTFS SPtrans
+### ![Version](https://img.shields.io/badge/1.1.2-yellow.svg) (28/06/2025)
+- 📜 **Padronização**: Criação de cabeçalhos em arquivos Python via `update_headers.ps1` para melhor manutenção.
 
-### Versão ![Version](https://img.shields.io/badge/1.1.0-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.1.1-yellow.svg) (24/06/2025)
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 
-- Inserção de demanda de passageiros nas L1, L2, L3, L5 e L15 (Dados da L5 até 2018, antes da concessão) - Fonte: https://transparencia.metrosp.com.br/dataset/demanda
-- Inserção de imagens e melhorias nos mapas exibidos por Python
-- Atualizado mapa da rede do metropolitano em Abril/2025, fonte: https://www.metro.sp.gov.br/sua-viagem/mapa-da-rede/
-- Inserção de naming right na estação Lapa da L8 e inserção da estação Ambuitá da L8
+### ![Version](https://img.shields.io/badge/1.1.0-yellow.svg) 
+- 📊 **Novos dados**: Demanda de passageiros (L1, L2, L3, L5, L15) com fontes oficiais.
+- 🗺️ **Mapas**: Imagens aprimoradas e atualização do mapa da rede (Abril/2025).
+- 🏷️ **Naming rights**: Estação Lapa (L8) e inclusão da estação Ambuitá (L8).
 
-### Versão ![Version](https://img.shields.io/badge/1.0.9-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.9-yellow.svg)
+- 🔍 **Otimização**: Varredura de arquivos (Web/Python) e adição de imagens ao `README.md`.
 
-- Inserção de varredura de arquivos nas pastas na versão Web e Python e imagens de exibição no README.md
+### ![Version](https://img.shields.io/badge/1.0.8-yellow.svg)
+- 📰 **Web**: Notícias e status das linhas em tempo real na página inicial.
 
-### Versão ![Version](https://img.shields.io/badge/1.0.8-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.7-yellow.svg)
+- 🎨 **Design**: Inclusão do Figma no escopo e expansão de dados (versão web).
 
-- Inserção das notícias na página principal do Projeto Web, além de informação de status das linhas na versão web.
+### ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
+- 📢 **Notícias**: Exibição na versão Python e Web + status das linhas (Web).
 
-### Versão ![Version](https://img.shields.io/badge/1.0.7-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
+- 🌍 **Mapa global**: Unificação de todas as camadas e ferramentas em um único mapa.
 
-- Inserção do Figma ao escopo do projeto e dados na versão web.
-  
-### Versão ![Version](https://img.shields.io/badge/1.0.6-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.4-yellow.svg)
+- 🚴 **Mobilidade**: Adição de ciclovias, bicicletários e dados de Origem/Destino (2007/2017).
 
-- Inserção das notícias na página principal do Projeto Python e do Projeto Web, além de informação de status das linhas na versão web.
+### ![Version](https://img.shields.io/badge/1.0.3-yellow.svg)
+- 💅 **UI/UX**: Refinamento do design da tela inicial.
 
-### Versão ![Version](https://img.shields.io/badge/1.0.5-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.2-yellow.svg)
+- � **Integração**: Sistema GTFS (SPTrans) incorporado ao projeto.
 
-- Inserção do mapa global, sendo um único mapa com todas as informações, câmadas e demais ferramentas.
+### ![Version](https://img.shields.io/badge/1.0.1-yellow.svg)
+- 🗺️ **Acesso rápido**: Botão para mapa ferroviário e corredores de ônibus.
 
-### Versão ![Version](https://img.shields.io/badge/1.0.4-yellow.svg)
+### ![Version](https://img.shields.io/badge/1.0.0-yellow.svg)
+- 🎉 **Lançamento inicial**: Descrição das linhas em todos os mapas.
 
-- Inserção da malha de ciclovias, bicicletários públicos e dados de Origem e Destino 2007 e 2017.
-  
-### Versão ![Version](https://img.shields.io/badge/1.0.3-yellow.svg)
+---
 
-- Melhorias no design da tela inicial.
-
-### Versão ![Version](https://img.shields.io/badge/1.0.2-yellow.svg)
-
-- Inserção do sistema de GFTS dos ônibus da SPTrans com o restante do projeto.
-
-### Versão ![Version](https://img.shields.io/badge/1.0.1-yellow.svg)
-
-- Inserção do botão para acesso ao mapa da rede ferroviária e corredores de ônibus.
- 
-### Versão ![Version](https://img.shields.io/badge/1.0.0-yellow.svg)
-
-- Descrição das linhas existentes ao lado em todos os mapas.
+📌 *Atualizado em 08/07/2025*  
+⚡ *Dúvidas? Consulte o [README](README.md) ou abra uma issue!*
