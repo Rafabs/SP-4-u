@@ -4,16 +4,19 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.4-yellow.svg) (08/07/2025)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.5-yellow.svg) (14/07/2025)
 
 ✨ **Melhorias e Correções:**
-- 📚 **Documentação (readme)**: Ajustada a estrutura e seções dos .md de versões
-- ✅ **Ajuste de logs**: Validação aprimorada para exibir apenas logs relevantes ao projeto.
-- 🎨 **Layout**: Incrementação do design da página principal usando QTDesigner.
-
+- 🌐 **Funcionalidades Web** Realizado ampliação de dados relacionados à temperatura na página inicial
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 ---
 
 ## 📌 Versões Anteriores
+
+### ![Version](https://img.shields.io/badge/1.1.4-yellow.svg) (08/07/2025)
+- 📚 **Documentação (readme)**: Ajustada a estrutura e seções dos .md de versões
+- ✅ **Ajuste de logs**: Validação aprimorada para exibir apenas logs relevantes ao projeto.
+- 🎨 **Layout**: Incrementação do design da página principal usando QTDesigner.
 
 ### ![Version](https://img.shields.io/badge/1.1.3-yellow.svg) (30/06/2025)
 - 🖱️ **Novo recurso**: Pop-up de confirmação para encerrar a página inicial (modo Python).

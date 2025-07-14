@@ -19,7 +19,7 @@ METADADOS:
 __author__      = "Rafael Barbosa"
 __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
-__version__     = "1.1.4"
+__version__     = "1.1.5"
 __maintainer__  = "https://github.com/Rafabs"
 __modified__    = "$formattedDate"
 
@@ -41,7 +41,7 @@ Ponto de entrada principal do sistema SAMPA 4U - Aplicação Qt que consolida:
 - Visualização de mapas e rotas interativas
 - Notícias atualizadas sobre transporte
 - Pesquisas de origem-destino (OD)
-- Qualidade do ar e condições climáticas
+- Qualidade do ar e condições climáticas com diversos dados
 - Console de logs integrado
 - Interface responsiva para múltiplos monitores
 - Confirmação de encerramento de janela GUI

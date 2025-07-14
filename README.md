@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.4-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-08/07/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.5-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-14/07/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -132,6 +132,7 @@ npm install cors
 - 🌫️ [World's Air Pollution](https://waqi.info/) - Qualidade do ar
 - 📰 [News API](https://newsapi.org/) - Notícias em tempo real
 - 🚲 [CET](https://www.cetsp.com.br/consultas/bicicleta/mapa-de-infraestrutura-cicloviaria.aspx) - Mapa da Infraestrutura Cicloviária implantada na cidade de São Paulo
+- 🌡 [OpenWeatehrMap](https://openweathermap.org/) - API de clima
 
 ## 🚀 Como Executar
 
@@ -169,8 +170,7 @@ node server.js
 - Sem modificações futuras.
 
 🌐 Funcionalidades Web
-- [ ] 🌍 Voltar a ler status das linhas via web scraping
-- [ ] 🌡️ Inserir mais dados e itens relacionados à temperatura 🚧`>>> EM DESENVOLVIMENTO`🚧
+- [ ] 🌍 Voltar a ler status das linhas via web scraping 🚧`>>> EM DESENVOLVIMENTO`🚧
 
 🛠️ Logs e Validações
 - Sem modificações futuras.
@@ -181,6 +181,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
+- [X] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025` 
 - [X] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025` 
 - [X] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025` 
 - [X] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025` 

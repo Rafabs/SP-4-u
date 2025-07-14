@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "08/07/2025 01:10"
+__modified__    = "12/07/2025 02:28"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
@@ -17,7 +17,7 @@ Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolid
 - VisualizaÃ§Ã£o de mapas e rotas interativas
 - NotÃ­cias atualizadas sobre transporte
 - Pesquisas de origem-destino (OD)
-- Qualidade do ar e condiÃ§Ãµes climÃ¡ticas
+- Qualidade do ar e condiÃ§Ãµes climÃ¡ticas com diversos dados
 - Console de logs integrado
 - Interface responsiva para mÃºltiplos monitores
 - ConfirmaÃ§Ã£o de encerramento de janela GUI
@@ -704,13 +704,90 @@ class MainWindow(QMainWindow):
         self.datetime_label = QLabel()
         self.datetime_label.setStyleSheet("color: white; font: bold 12pt;")
         footer_layout.addWidget(self.datetime_label, alignment=Qt.AlignRight)
-                
-        self.temp_label = QLabel(get_weather())
-        self.temp_label.setStyleSheet("color: #00ff00; font: bold 14pt;")
-        footer_layout.addWidget(self.temp_label, alignment=Qt.AlignRight)
+
+        # Obtem texto e ícone
+        weather_data = get_weather()
         
+        # Verifica se a resposta é válida (pode ser string em caso de erro)
+        if isinstance(weather_data, tuple) and len(weather_data) == 2:
+            weather_text, weather_icon = weather_data
+        else:
+            weather_text = weather_data if isinstance(weather_data, str) else "Dados indisponíveis"
+            weather_icon = QPixmap()  # Ícone vazio
+
+        # Layout horizontal para ícone + texto
+        weather_layout = QHBoxLayout()
+
+        # QLabel do ícone (agora como atributo da classe)
+        self.icon_label = QLabel()
+        self.icon_label.setPixmap(weather_icon.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        self.icon_label.setFixedSize(40, 40)
+        self.icon_label.setStyleSheet("margin-right: 6px;")
+
+        # QLabel do texto
+        self.temp_label = QLabel(weather_text)
+        self.temp_label.setAlignment(Qt.AlignVCenter | Qt.AlignLeft)
+        self.temp_label.setWordWrap(True)
+        self.temp_label.setStyleSheet("""
+            QLabel {
+                color: white;
+                font-size: 12pt; 
+                font-weight: 600;
+                font-family: "Segoe UI", "Arial", sans-serif;
+                padding: 4px 8px;
+                border-radius: 8px;
+                background-color: rgba(255, 255, 255, 0.04);
+            }
+        """)
+
+        # Adiciona ao layout
+        weather_layout.addWidget(self.icon_label)
+        weather_layout.addWidget(self.temp_label)
+        weather_layout.addStretch()
+
+        # Configuração do label de data/hora
+        self.datetime_label = QLabel()
+        self.datetime_label.setStyleSheet("""
+            QLabel {
+                color: white;
+                font-size: 11pt;
+                font-weight: 500;
+                font-family: "Segoe UI", "Arial", sans-serif;
+                padding: 4px 8px;
+                border-radius: 8px;
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+        """)
+        self.datetime_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+
+        self.update_datetime()
+
+        # Adiciona ao footer_layout principal
+        footer_layout.addLayout(weather_layout)
+        footer_layout.addWidget(self.datetime_label, alignment=Qt.AlignLeft)  # Alinhado à esquerda
+
         self.right_layout.addWidget(footer)
-        footer.setVisible(True)  
+        footer.setVisible(True)
+
+    def update_temp(self):
+        try:
+            weather_data = get_weather()
+            
+            # Verifica se a resposta é válida
+            if isinstance(weather_data, tuple) and len(weather_data) == 2:
+                weather_text, weather_icon = weather_data
+                self.temp_label.setText(weather_text)
+                self.icon_label.setPixmap(
+                    weather_icon.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+                )
+            else:
+                error_msg = weather_data if isinstance(weather_data, str) else "Dados indisponíveis"
+                self.temp_label.setText(error_msg)
+                self.icon_label.clear()  # Limpa o ícone
+        except Exception as e:
+            print(f"Erro ao atualizar temperatura: {e}")
+            self.temp_label.setText("Erro na atualização")
+            self.icon_label.clear()
 
     def setup_updates(self):        
         self.datetime_timer = QTimer(self)
@@ -723,11 +800,9 @@ class MainWindow(QMainWindow):
     
     def update_datetime(self):
         now = QDateTime.currentDateTime()
-        self.datetime_label.setText(now.toString("dd/MM/yyyy HH:mm"))
+        formatted_datetime = f"📅 {now.toString('dd/MM/yyyy')}\n🕒 {now.toString('HH:mm')}"
+        self.datetime_label.setText(formatted_datetime)
     
-    def update_temp(self):
-        self.temp_label.setText(get_weather())
-
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
             # Cria uma caixa de diálogo de confirmação

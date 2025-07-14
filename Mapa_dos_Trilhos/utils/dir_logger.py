@@ -9,11 +9,10 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.4"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "08/07/2025 01:29"
+__modified__    = "08/07/2025 01:41"
 
 DESCRITIVO:
-    MÃ³dulo de funcionalidades especÃ­ficas
-
+MÃ³dulo de funcionalidades especÃ­ficas
 ARQUITETURA:
     Mapa_dos_Trilhos/utils/dir_logger.py
 """

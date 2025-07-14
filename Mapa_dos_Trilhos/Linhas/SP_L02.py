@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "08/07/2025 01:33"
+__modified__    = "12/07/2025 02:32"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -492,9 +492,21 @@ class MapaLinhaWindow(QMainWindow):
         self.current_image_index = 1
     
     def atualizar_temperatura(self):
-        self.temperatura = get_weather()
+        # Obtém os dados completos
+        weather_data = get_weather()
+        
+        # Extrai apenas a temperatura (assumindo que o formato é "🌡 25.3°C | ...")
+        if isinstance(weather_data, tuple) and len(weather_data) > 0:
+            full_text = weather_data[0]  # Pega o texto completo
+            # Extrai apenas o valor numérico da temperatura
+            temp_part = full_text.split('|')[0]  # Pega a parte antes do primeiro |
+            temperatura = temp_part.replace('🌡', '').strip()  # Remove o emoji e espaços
+        else:
+            temperatura = "N/D"  # Caso de falha
+        
+        self.temperatura = temperatura
         self.linha1_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura}")
-    
+
     def atualizar_data_hora(self):
         self.hora = datetime.now().strftime("%H:%M")
         self.dia_semana = datetime.now().strftime("%A")
