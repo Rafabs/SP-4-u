@@ -168,7 +168,7 @@ node server.js
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/od.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/sptrans_api.png" width="45%"/> 
 <h3>Versões Anteriores</h3> <img src="https://github.com/Rafabs/SP-4-u/blob/f4cef17dafc25751cdec21d3de769e1851724eb4/Exibição/Página_Inicial_v1.0.10.png" width="45%"/> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/main_1.1.4.png" width="45%"/> 
+<img src="Exibição/Versões_Antigas/main_1.1.4.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibição/PY_Imagens_projeto_v1.0.9%20(10).png" width="45%"/> <h3>Versão Web</h3> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/web.png" width="90%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/e604f14d346b45c89f9bb0ef83f894d7f71efe63/Exibição/WEB_%20(3).png" width="30%"/> 
