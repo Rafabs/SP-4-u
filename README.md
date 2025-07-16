@@ -58,11 +58,11 @@ Desenvolvido com:
 
 ### 🚌 SPTrans
 
-| Tipo           | Linha                                                       | Rota                                                                                                                                                  |
-| -------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                                                                                    | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+) |
-| ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz <br>**Antes:** ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) Term. Cachoeirinha - Jd. Sta. Cruz |
-| ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                                                                                       | ![#509E2F](https://via.placeholder.com/15/509E2F/000000?text=+) |
+| Tipo           | Linha                                                       | Rota                                                                                   |
+| -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
+| ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz<br>**Antes:** Term. Cachoeirinha - Jd. Sta. Cruz |
+| ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                        |
 
 ### 🚍 EMTU
 
@@ -71,15 +71,15 @@ Desenvolvido com:
 <details>
 <summary>📚 Ver histórico completo </summary>
 
-| Data       | Tipo           | Linha                                                       | Rota                                                                                                                                                  |
-| ---------- | -------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 23/06/2025 | 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                                                                                    | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+)            |
-| 23/06/2025 | ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz <br>**Antes:** ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) Term. Cachoeirinha - Jd. Sta. Cruz |
-| 23/06/2025 | ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                                                                                       | ![#509E2F](https://via.placeholder.com/15/509E2F/000000?text=+)            |
-| 20/06/2025 | 🆕 Inclusão    | ![2034/10](https://img.shields.io/badge/2034/10-002F6C.svg) | Metrô Tietê → Centro Tea                                                                                                                              | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+)            |
-| 20/06/2025 | 🆕 Inclusão    | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | Guaianases → São Mateus                                                                                                                               | ![#002F6C](https://via.placeholder.com/15/002F6C/000000?text=+)            |
-| 20/06/2025 | ✏️ Modificação | ![4056/10](https://img.shields.io/badge/4056/10-DA291C.svg) | Pq. Boa Esperança → Term. São Mateus                                                                                                                  | **Antes:** ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+) |
-| 20/06/2025 | ❌ Remoção     | ![3033/10](https://img.shields.io/badge/3033/10-FFD100.svg) | Guaianases → São Mateus                                                                                                                               | ![#FFD100](https://via.placeholder.com/15/FFD100/000000?text=+)            |
+| Data       | Tipo           | Linha                                                       | Rota                                                                                   |
+| ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 23/06/2025 | 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
+| 23/06/2025 | ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz<br>**Antes:** Term. Cachoeirinha - Jd. Sta. Cruz |
+| 23/06/2025 | ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                        |
+| 20/06/2025 | 🆕 Inclusão    | ![2034/10](https://img.shields.io/badge/2034/10-002F6C.svg) | Metrô Tietê → Centro Tea                                                              |
+| 20/06/2025 | 🆕 Inclusão    | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | Guaianases → São Mateus                                                               |
+| 20/06/2025 | ✏️ Modificação | ![4056/10](https://img.shields.io/badge/4056/10-DA291C.svg) | **Atual:** Pq. Boa Esperança → Term. São Mateus<br>**Antes:** (Cor anterior: Amarelo) |
+| 20/06/2025 | ❌ Remoção     | ![3033/10](https://img.shields.io/badge/3033/10-FFD100.svg) | Guaianases → São Mateus                                                               |
 
 </details>
 
