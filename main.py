@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "12/07/2025 02:28"
+__modified__    = "16/07/2025 01:47"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
@@ -25,6 +25,13 @@ ARQUITETURA:
     main.py
 """
 
+from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
+from PyQt5.QtCore import Qt, QTimer, QDateTime
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
+    QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
+    QGraphicsTextItem, QGraphicsLineItem, QSplitter, QMessageBox
+)
 import requests
 from io import BytesIO
 import json
@@ -47,6 +54,8 @@ from screeninfo import get_monitors
 import traceback
 from console_logger import ConsoleLogger, ConsoleLogHandler
 from logging.handlers import RotatingFileHandler
+from cmsp import get_metro_status
+from cptm import get_cptm_status
 
 init()
 
@@ -65,19 +74,14 @@ except locale.Error:
                 print("Não foi possível configurar o locale para português brasileiro. Usando padrão do sistema.")
                 locale.setlocale(locale.LC_ALL, '')
 
-from PyQt5.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-    QLabel, QPushButton, QScrollArea, QFrame, QGroupBox, QGraphicsEllipseItem,
-    QGraphicsTextItem, QGraphicsLineItem, QSplitter, QMessageBox
-)
-from PyQt5.QtCore import Qt, QTimer, QDateTime
-from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor, QPainter, QImage
 
 def excepthook(exc_type, exc_value, exc_tb):
     tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
     logging.critical(f"Exceção não tratada:\n{tb}")
-    QMessageBox.critical(None, "Erro", f"Exceção não tratada:\n{str(exc_value)}")
+    QMessageBox.critical(
+        None, "Erro", f"Exceção não tratada:\n{str(exc_value)}")
     QApplication.quit()
+
 
 sys.excepthook = excepthook
 
@@ -89,17 +93,20 @@ sys.path.extend([
     str(base_dir / 'Mapa_dos_Trilhos' / 'Sobre')
 ])
 
+
 def log_close_time():
     logging.info(f"{'=' * 30} PROGRAMA FECHADO {'=' * 30}")
 
+
 atexit.register(log_close_time)
+
 
 def dados_usuario():
     """Coleta e exibe informações do sistema"""
     hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
     print(f"=" * 30, "INFORMAÇÕES DO USUÁRIO", "=" * 30)
     print(hora_atual)
-    
+
     info = {
         'Sistema Operacional': (os.name, platform.system()),
         'Diretório Atual': os.getcwd(),
@@ -111,11 +118,12 @@ def dados_usuario():
         'Temp Dir': tempfile.gettempdir(),
         'Home Dir': os.path.expanduser("~")
     }
-    
+
     for key, value in info.items():
         print(f'<<<{key}>>> {value}')
-    
+
     print("=" * 90)
+
 
 class StreamToLogger:
     def __init__(self, logger, log_level=logging.INFO):
@@ -140,6 +148,7 @@ class StreamToLogger:
             self.logger.log(self.log_level, self.buffer.strip())
             self.buffer = ''
 
+
 BASE_DIR = Path(__file__).parent
 LOG_DIR = BASE_DIR / "Mapa_dos_Trilhos"
 LOG_FILE = LOG_DIR / "log.log"
@@ -147,13 +156,15 @@ LOG_FILE = LOG_DIR / "log.log"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 # Configuração completa do logging
+
+
 def setup_logging():
     # Remove todos os handlers existentes
     root_logger = logging.getLogger()
     for handler in root_logger.handlers[:]:
         root_logger.removeHandler(handler)
         handler.close()
-    
+
     # Configura handler de arquivo
     file_handler = RotatingFileHandler(
         str(LOG_FILE),
@@ -165,19 +176,20 @@ def setup_logging():
         '%(asctime)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     ))
-    
+
     # Configura logger principal apenas com file handler
     root_logger.setLevel(logging.INFO)
     root_logger.addHandler(file_handler)
-    
+
     # Configura logger separado para stdout/stderr
     std_logger = logging.getLogger('STD_OUT_ERR')
     std_logger.setLevel(logging.INFO)
     std_logger.propagate = False  # Evita que mensagens sejam enviadas ao root logger
-    
+
     # Redireciona stdout/stderr
     sys.stdout = StreamToLogger(std_logger, logging.INFO)
     sys.stderr = StreamToLogger(std_logger, logging.ERROR)
+
 
 # Inicializa o logging
 setup_logging()
@@ -187,9 +199,11 @@ dados_usuario()
 with open(base_dir / 'Mapa_dos_Trilhos' / 'Linhas' / 'subtitle.json', 'r', encoding='utf-8') as file:
     lines_data = json.load(file)
 
+
 def abrir_link(url):
     url = re.sub(r'/[^/]*$', '', url)
     webbrowser.open_new(url)
+
 
 class NewsWidget(QWidget):
     def __init__(self, title, link, image_url=None, parent=None):
@@ -201,7 +215,7 @@ class NewsWidget(QWidget):
                 padding: 5px;
             }
         """)
-        
+
         self.layout = QHBoxLayout(self)
         self.layout.setContentsMargins(5, 5, 5, 5)
         self.layout.setSpacing(10)
@@ -226,60 +240,61 @@ class NewsWidget(QWidget):
         self.title_label.setMaximumHeight(40)
         self.layout.addWidget(self.title_label, stretch=1)
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("SAMPA 4U")
         icon_path = BASE_DIR / "Mapa_dos_Trilhos" / "Favicon" / "SP4U_LOGO.ico"
         self.setWindowIcon(QIcon(str(icon_path)))
-        self.setStyleSheet("background-color: #cecece;")  
-        
+        self.setStyleSheet("background-color: #cecece;")
+
         monitor = get_monitors()[0]
         self.setGeometry(0, 0, monitor.width, monitor.height)
         self.setWindowState(Qt.WindowFullScreen)
         self.screen_width = monitor.width
         self.screen_height = monitor.height
-        
+
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
-        self.main_layout = QHBoxLayout(self.central_widget)  
-        
-        self.left_layout = QVBoxLayout()  
-        self.center_layout = QVBoxLayout()  
-        self.right_layout = QVBoxLayout()  
-                
+        self.main_layout = QHBoxLayout(self.central_widget)
+
+        self.left_layout = QVBoxLayout()
+        self.center_layout = QVBoxLayout()
+        self.right_layout = QVBoxLayout()
+
         left_container = QWidget()
         left_container.setLayout(self.left_layout)
         center_container = QWidget()
         center_container.setLayout(self.center_layout)
         right_container = QWidget()
         right_container.setLayout(self.right_layout)
-        
+
         self.main_layout.addWidget(left_container, stretch=2)
-        self.main_layout.addWidget(center_container, stretch=3)  
+        self.main_layout.addWidget(center_container, stretch=3)
         self.main_layout.addWidget(right_container, stretch=2)
-        
-        self.setup_top_frames()  
-        self.setup_line_buttons()  
-        self.setup_news_area()  
-        
+
+        self.setup_top_frames()
+        self.setup_line_buttons()
+        self.setup_news_area()
+
         self.setup_footer()
-                
+
         self.exibir_noticias()
-                
+
         self.setup_updates()
-                
+
         self.setup_console_logger()
-                    
+
     def setup_console_logger(self):
         """Configura o console de logs com controles"""
         self.console_logger = ConsoleLogger()
-        
+
         # Cria logger específico para a GUI
         gui_logger = logging.getLogger('GUI_Console')
         gui_logger.setLevel(logging.INFO)
         gui_logger.propagate = False
-        
+
         # Adiciona handler para o console gráfico
         console_handler = ConsoleLogHandler(self.console_logger)
         console_handler.setLevel(logging.INFO)
@@ -288,108 +303,170 @@ class MainWindow(QMainWindow):
             datefmt='%H:%M:%S'
         ))
         gui_logger.addHandler(console_handler)
-        
+
         # Conecta o logger da GUI ao root logger
         root_logger = logging.getLogger()
         root_logger.addHandler(console_handler)
-        
+
         # Painel de controle (mantenha o existente)
         control_panel = QWidget()
         control_layout = QHBoxLayout(control_panel)
         control_layout.setContentsMargins(0, 0, 0, 0)
-        
+
         # Botão Limpar
         btn_clear = QPushButton("Limpar")
         btn_clear.setStyleSheet("padding: 3px;")
         btn_clear.clicked.connect(self.console_logger.clear)
-        
+
         # Botão Copiar
         btn_copy = QPushButton("Copiar")
         btn_copy.setStyleSheet("padding: 3px;")
         btn_copy.clicked.connect(self.console_logger.copy_to_clipboard)
-        
+
         # Botão Auto-scroll
         self.btn_autoscroll = QPushButton("Auto-scroll")
         self.btn_autoscroll.setStyleSheet("padding: 3px;")
         self.btn_autoscroll.setCheckable(True)
         self.btn_autoscroll.setChecked(True)
         self.btn_autoscroll.toggled.connect(
-            lambda checked: setattr(self.console_logger, 'auto_scroll', checked)
+            lambda checked: setattr(
+                self.console_logger, 'auto_scroll', checked)
         )
-        
+
         # Adiciona botões ao painel
         control_layout.addWidget(btn_clear)
         control_layout.addWidget(btn_copy)
         control_layout.addWidget(self.btn_autoscroll)
         control_layout.addStretch()
-        
+
         # Adiciona ao layout
         separator = QFrame()
         separator.setFrameShape(QFrame.HLine)
         separator.setFrameShadow(QFrame.Sunken)
-        
+
         self.center_layout.addWidget(separator)
         self.center_layout.addWidget(QLabel("Console de Logs:"))
         self.center_layout.addWidget(control_panel)
         self.center_layout.addWidget(self.console_logger)
-        
+
         logging.info("Console de logs inicializado")
 
     def abrir_pesquisa_od(self):
         """Abre a janela de Pesquisa OD como diálogo modal"""
         from Pesquisa_od.pesquisa_od import pesquisa_od_metro
-        pesquisa_od_metro(self)  
-        
+        pesquisa_od_metro(self)
+
     def setup_top_frames(self):
-        self.left_layout.setSpacing(5)  
-        self.left_layout.setContentsMargins(5, 5, 5, 5)  
-        
+        self.left_layout.setSpacing(5)
+        self.left_layout.setContentsMargins(5, 5, 5, 5)
+
         def criar_frame(titulo, altura_max, largura_max):
             frame = QGroupBox(titulo)
-            frame.setStyleSheet("QGroupBox { font-weight: bold; padding: 8px; }")
-            frame.setMaximumHeight(altura_max)  
-            frame.setMaximumWidth(largura_max)  
+            frame.setStyleSheet(
+                "QGroupBox { font-weight: bold; padding: 8px; }")
+            frame.setMaximumHeight(altura_max)
+            frame.setMaximumWidth(largura_max)
             frame_layout = QVBoxLayout()
             frame.setLayout(frame_layout)
             return frame, frame_layout
-        
-        frame_mapas, layout_mapas = criar_frame("Mapas - Capital e RMSP", 120, 250)
-        self.criar_botao(layout_mapas, "Acessar Mapa", mapa_global, "black", "#C0C0C0", "#A9A9A9", "mapa")
+
+        frame_mapas, layout_mapas = criar_frame(
+            "Mapas - Capital e RMSP", 120, 250)
+        self.criar_botao(layout_mapas, "Acessar Mapa",
+                         mapa_global, "black", "#C0C0C0", "#A9A9A9", "mapa")
         self.left_layout.addWidget(frame_mapas)
-    
-        frame_sistemas, layout_sistemas = criar_frame("Sistemas de Buscas de Linhas", 120, 250)
-        self.criar_botao(layout_sistemas, "SPTRANS", sptrans, "black", "#FF2F2F", "#FF8080", "gtfs_sptrans")
-        self.criar_botao(layout_sistemas, "EMTU", emtu, "black", "blue", "#5A79FF", "gtfs_emtu")
+
+        frame_sistemas, layout_sistemas = criar_frame(
+            "Sistemas de Buscas de Linhas", 120, 250)
+        self.criar_botao(layout_sistemas, "SPTRANS", sptrans,
+                         "black", "#FF2F2F", "#FF8080", "gtfs_sptrans")
+        self.criar_botao(layout_sistemas, "EMTU", emtu,
+                         "black", "blue", "#5A79FF", "gtfs_emtu")
         self.left_layout.addWidget(frame_sistemas)
-                
-        frame_mapa_guia, layout_mapa_guia = criar_frame("Mapa da Rede - /Abr.25", 120, 250)
-        self.criar_botao(layout_mapa_guia, "Mapa da Rede", mapa_rede, "black", "#00B352", "#5AFF7E", "mapa")
+
+        frame_mapa_guia, layout_mapa_guia = criar_frame(
+            "Mapa da Rede - /Abr.25", 120, 250)
+        self.criar_botao(layout_mapa_guia, "Mapa da Rede",
+                         mapa_rede, "black", "#00B352", "#5AFF7E", "mapa")
         self.left_layout.addWidget(frame_mapa_guia)
-                
-        frame_guia_metro, layout_guia_metro = criar_frame("Guia de Usuário - METRÔ", 140, 250)
-        self.criar_botao(layout_guia_metro, "Guia do Usuário - PT/BR", guia_pt_metro, "black", "blue", "#0073E6", "guias")
-        self.criar_botao(layout_guia_metro, "Guia do Usuário - EN/US", guia_en_metro, "black", "blue", "#0073E6", "guias")
+
+        frame_guia_metro, layout_guia_metro = criar_frame(
+            "Guia de Usuário - METRÔ", 140, 250)
+        self.criar_botao(layout_guia_metro, "Guia do Usuário - PT/BR",
+                         guia_pt_metro, "black", "blue", "#0073E6", "guias")
+        self.criar_botao(layout_guia_metro, "Guia do Usuário - EN/US",
+                         guia_en_metro, "black", "blue", "#0073E6", "guias")
         self.left_layout.addWidget(frame_guia_metro)
-                
-        frame_pesquisas_metro, layout_pesquisas_metro = criar_frame("Pesquisas", 140, 250)
-        self.criar_botao(layout_pesquisas_metro, "Pesquisa Origem e Destino", self.abrir_pesquisa_od, "black", "#00c9c4", "#007875", "pesquisa_od")
-        self.criar_botao(layout_pesquisas_metro, "Demanda por Estação", passageiro_estacao, "black", "#00c9c4", "#007875", "pesquisa_pass")
+
+        frame_pesquisas_metro, layout_pesquisas_metro = criar_frame(
+            "Pesquisas", 140, 250)
+        self.criar_botao(layout_pesquisas_metro, "Pesquisa Origem e Destino",
+                         self.abrir_pesquisa_od, "black", "#00c9c4", "#007875", "pesquisa_od")
+        self.criar_botao(layout_pesquisas_metro, "Demanda por Estação",
+                         passageiro_estacao, "black", "#00c9c4", "#007875", "pesquisa_pass")
         self.left_layout.addWidget(frame_pesquisas_metro)
-                
-        frame_qualidade_ar, layout_qualidade_ar = criar_frame("Qualidade do Ar - São Paulo", 140, 250)
-        self.criar_botao(layout_qualidade_ar, "Qualidade do Ar", mapa_qualidade_ar, "black", "#00c91b", "#00690e95", "qualidade_ar")
+
+        frame_qualidade_ar, layout_qualidade_ar = criar_frame(
+            "Qualidade do Ar - São Paulo", 140, 250)
+        self.criar_botao(layout_qualidade_ar, "Qualidade do Ar",
+                         mapa_qualidade_ar, "black", "#00c91b", "#00690e95", "qualidade_ar")
         self.left_layout.addWidget(frame_qualidade_ar)
+
+    def get_line_status(self, line_name):
+        """Obtém o status da linha a partir do web scraping"""
+        # Mapeamento de nomes para os sistemas
+        metro_lines = {
+            "Azul": "1",
+            "Verde": "2",
+            "Vermelha": "3",
+            "Amarela": "4",
+            "Lilás": "5",
+            "Prata": "15"
+        }
+
+        cptm_lines = {
+            "Rubi": "7",
+            "Turquesa": "10",
+            "Coral": "11",
+            "Safira": "12",
+            "Jade": "13",
+            "Diamante": "8",
+            "Esmeralda": "9"
+        }
+
+        # Verifica se é uma linha do Metrô
+        if line_name in metro_lines:
+            status_data = get_metro_status()
+            if 'erro' in status_data:
+                return "Dados indisponíveis"
+
+            for linha in status_data['linhas']:
+                if linha['numero'] == metro_lines[line_name]:
+                    return linha['status']
+
+        # Verifica se é uma linha da CPTM/ViaMobilidade
+        elif line_name in cptm_lines:
+            status_data = get_cptm_status()
+            if 'erro' in status_data:
+                return "Dados indisponíveis"
+
+            for linha in status_data['linhas']:
+                if linha['nome'] == line_name:
+                    return linha['status']
+
+        # Para linhas em implantação
+        return "Em implantação"
 
     def criar_botao(self, parent, text, command, bg, fg, hovercolor, modulo=None):
         container = QWidget()
         container_layout = QHBoxLayout(container)
-        
+
         if modulo:
             status_label = QLabel()
             status_label.setFixedSize(20, 20)
             self.atualizar_status(status_label, modulo)
             container_layout.addWidget(status_label)
-        
+
         button = QPushButton(text)
         button.setStyleSheet(f"""
             QPushButton {{
@@ -406,14 +483,14 @@ class MainWindow(QMainWindow):
         button.clicked.connect(command)
         container_layout.addWidget(button)
         parent.addWidget(container)
-    
+
     def atualizar_status(self, label, modulo):
         try:
             cor = "green" if self.verificar_modulo(modulo) else "red"
         except Exception as e:
             cor = "red"
             print(f"Erro ao verificar o módulo '{modulo}': {e}")
-                
+
         pixmap = QPixmap(20, 20)
         pixmap.fill(Qt.transparent)
         painter = QPainter(pixmap)
@@ -421,16 +498,17 @@ class MainWindow(QMainWindow):
         painter.setPen(QColor(cor))
         painter.drawEllipse(2, 2, 16, 16)
         painter.end()
-        
+
         label.setPixmap(pixmap)
-                
+
         QTimer.singleShot(2000, lambda: self.atualizar_status(label, modulo))
-    
+
     def verificar_modulo(self, modulo):
         def normalizar_nome(nome: str) -> str:
             return nome.lower().replace("_", "").replace(" ", "")
 
-        base_dir = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
+        base_dir = Path(__file__).resolve(
+        ).parent if "__file__" in globals() else Path.cwd()
         raiz = base_dir / "Mapa_dos_Trilhos"
 
         if not raiz.exists():
@@ -438,14 +516,16 @@ class MainWindow(QMainWindow):
             return False
 
         caminho_normalizado = normalizar_nome(modulo)
-        extensoes_validas = {".zip", ".csv", ".json", ".xlsx", ".xls", ".txt", ".png", ".jpg", ".pdf", ".parquet"}
+        extensoes_validas = {".zip", ".csv", ".json", ".xlsx",
+                             ".xls", ".txt", ".png", ".jpg", ".pdf", ".parquet"}
 
         for item in raiz.rglob('*'):
             nome_item_normalizado = normalizar_nome(item.name)
             if caminho_normalizado in nome_item_normalizado and item.is_dir():
                 arquivos = list(item.glob('*'))
                 if arquivos:
-                    print(f"Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
+                    print(
+                        f"Diretório '{item}' existe e contém {len(arquivos)} arquivo(s).")
                     return True
                 else:
                     print(f"Diretório '{item}' encontrado, mas está vazio.")
@@ -454,59 +534,64 @@ class MainWindow(QMainWindow):
         subdirs = [p for p in raiz.iterdir() if p.is_dir()]
         nomes_normalizados = {normalizar_nome(p.name): p for p in subdirs}
 
-        correspondencias = difflib.get_close_matches(caminho_normalizado, nomes_normalizados.keys(), n=1, cutoff=0.6)
+        correspondencias = difflib.get_close_matches(
+            caminho_normalizado, nomes_normalizados.keys(), n=1, cutoff=0.6)
 
         if correspondencias:
             match = correspondencias[0]
             pasta = nomes_normalizados[match]
 
-            arquivos_validos = [arq for arq in pasta.glob("*") if arq.suffix.lower() in extensoes_validas]
+            arquivos_validos = [arq for arq in pasta.glob(
+                "*") if arq.suffix.lower() in extensoes_validas]
             if arquivos_validos:
-                print(f"Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
+                print(
+                    f"Diretório '{pasta}' contém arquivos válidos: {[a.name for a in arquivos_validos]}")
                 return True
             else:
-                print(f"Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
+                print(
+                    f"Diretório '{pasta}' encontrado, mas sem arquivos úteis.")
                 return False
 
         print(f"Erro: Nenhum caminho aproximado encontrado para '{modulo}'")
         return False
-    
+
     def setup_news_area(self):
         news_label = QLabel("Notícias:")
         news_label.setStyleSheet("font-weight: bold;")
-        self.center_layout.addWidget(news_label)  
+        self.center_layout.addWidget(news_label)
 
         self.scroll_area = QScrollArea()
         self.scroll_area.setWidgetResizable(True)
-        self.scroll_area.setStyleSheet("background-color: #333333; border: none;")
+        self.scroll_area.setStyleSheet(
+            "background-color: #333333; border: none;")
 
         self.news_container = QWidget()
         self.news_layout = QVBoxLayout(self.news_container)
         self.news_layout.setAlignment(Qt.AlignTop)
 
         self.scroll_area.setWidget(self.news_container)
-        self.center_layout.addWidget(self.scroll_area)  
-        
+        self.center_layout.addWidget(self.scroll_area)
+
         self.msg_noticias = QLabel()
         self.msg_noticias.setStyleSheet("color: red;")
-        self.center_layout.addWidget(self.msg_noticias)  
-    
+        self.center_layout.addWidget(self.msg_noticias)
+
     def exibir_noticias(self):
         noticias = notice_transp_sao_paulo()
-        
+
         if noticias is not None:
-            
-            for i in reversed(range(self.news_layout.count())): 
+
+            for i in reversed(range(self.news_layout.count())):
                 self.news_layout.itemAt(i).widget().setParent(None)
-            
+
             for index, row in noticias.iterrows():
                 title = row['title']
                 link = row['link']
                 image_url = row.get('image_url')
-                
+
                 news_widget = NewsWidget(title, link, image_url)
                 self.news_layout.addWidget(news_widget)
-                            
+
                 separator = QFrame()
                 separator.setFrameShape(QFrame.HLine)
                 separator.setFrameShadow(QFrame.Sunken)
@@ -514,13 +599,15 @@ class MainWindow(QMainWindow):
                 self.news_layout.addWidget(separator)
         else:
             self.msg_noticias.setText("Nenhuma notícia encontrada.")
-    
+
     def setup_line_buttons(self):
         base_path = os.path.dirname(os.path.abspath(__file__))
-        mapa_path = base_path  
+        mapa_path = base_path
 
-        routes_path = os.path.join(mapa_path, 'Mapa_dos_Trilhos', 'Gtfs_SPTRANS', 'routes.txt')
-        trajeto_path = os.path.join(mapa_path, 'Mapa_dos_Trilhos', 'Linhas', 'trajeto.json')
+        routes_path = os.path.join(
+            mapa_path, 'Mapa_dos_Trilhos', 'Gtfs_SPTRANS', 'routes.txt')
+        trajeto_path = os.path.join(
+            mapa_path, 'Mapa_dos_Trilhos', 'Linhas', 'trajeto.json')
 
         self.routes = self.load_routes(os.path.normpath(routes_path))
 
@@ -530,7 +617,7 @@ class MainWindow(QMainWindow):
         except FileNotFoundError:
             print(f"[ERRO] Arquivo não encontrado: {trajeto_path}")
             self.trajetos = {}
-                
+
         self.cor_linha_01 = self.trajetos["SP_L01.py"]["COR_LINHA"]
         self.cor_linha_02 = self.trajetos["SP_L02.py"]["COR_LINHA"]
         self.cor_linha_03 = self.trajetos["SP_L03.py"]["COR_LINHA"]
@@ -544,26 +631,41 @@ class MainWindow(QMainWindow):
         self.cor_linha_12 = self.trajetos["SP_L12.py"]["COR_LINHA"]
         self.cor_linha_13 = self.trajetos["SP_L13.py"]["COR_LINHA"]
         self.cor_linha_15 = self.trajetos["SP_L15.py"]["COR_LINHA"]
-                
+
         self.laranja = "#999999"
         self.ouro = "#999999"
-                
-        self.setup_line_button("Azul", line1, self.cor_linha_01, "white", "L1", "1.png", "1_azul.png", "METRÔ")
-        self.setup_line_button("Verde", line2, self.cor_linha_02, "white", "L2", "2.png", "2_verde.png", "METRÔ")
-        self.setup_line_button("Vermelha", line3, self.cor_linha_03, "black", "L3", "3.png", "3_vermelha.png", "METRÔ")
-        self.setup_line_button("Amarela", line4, self.cor_linha_04, "black", "L4", "4.png", "4_amarela.png", "VIAQUATRO")
-        self.setup_line_button("Lilás", line5, self.cor_linha_05, "white", "L5", "5.png", "5_lilas.png", "VIAMOBILIDADE")
-        self.setup_line_button("Laranja", line6, self.laranja, "white", "L6", None, None, None)
-        self.setup_line_button("Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "cptm.png", "CPTM")
-        self.setup_line_button("Diamante", line8, self.cor_linha_08, "black", "L08", "8.png", "8_diamante.png", "VIAMOBILIDADE")
-        self.setup_line_button("Esmeralda", line9, self.cor_linha_09, "black", "L09", "9.png", "9_esmeralda.png", "VIAMOBILIDADE")
-        self.setup_line_button("Turquesa", line10, self.cor_linha_10, "black", "L10", "10.png", "cptm.png", "CPTM")
-        self.setup_line_button("Coral", line11, self.cor_linha_11, "black", "L11", "11.png", "cptm.png", "CPTM")
-        self.setup_line_button("Safira", line12, self.cor_linha_12, "white", "L12", "12.png", "cptm.png", "CPTM")
-        self.setup_line_button("Jade", line13, self.cor_linha_13, "black", "L13", "13.png", "cptm.png", "CPTM")
-        self.setup_line_button("Prata", line15, self.cor_linha_15, "black", "L15", "15.png", "15_prata.png", "METRÔ")
-        self.setup_line_button("Ouro", line17, self.ouro, "white", "L17", None, None, "VIAMOBILIDADE")
-    
+
+        self.setup_line_button(
+            "Azul", line1, self.cor_linha_01, "white", "L1", "1.png", "1_azul.png", "METRÔ")
+        self.setup_line_button("Verde", line2, self.cor_linha_02,
+                               "white", "L2", "2.png", "2_verde.png", "METRÔ")
+        self.setup_line_button("Vermelha", line3, self.cor_linha_03,
+                               "black", "L3", "3.png", "3_vermelha.png", "METRÔ")
+        self.setup_line_button("Amarela", line4, self.cor_linha_04,
+                               "black", "L4", "4.png", "4_amarela.png", "VIAQUATRO")
+        self.setup_line_button("Lilás", line5, self.cor_linha_05,
+                               "white", "L5", "5.png", "5_lilas.png", "VIAMOBILIDADE")
+        self.setup_line_button(
+            "Laranja", line6, self.laranja, "white", "L6", None, None, None)
+        self.setup_line_button(
+            "Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "cptm.png", "CPTM")
+        self.setup_line_button("Diamante", line8, self.cor_linha_08,
+                               "black", "L08", "8.png", "8_diamante.png", "VIAMOBILIDADE")
+        self.setup_line_button("Esmeralda", line9, self.cor_linha_09,
+                               "black", "L09", "9.png", "9_esmeralda.png", "VIAMOBILIDADE")
+        self.setup_line_button("Turquesa", line10, self.cor_linha_10,
+                               "black", "L10", "10.png", "cptm.png", "CPTM")
+        self.setup_line_button(
+            "Coral", line11, self.cor_linha_11, "black", "L11", "11.png", "cptm.png", "CPTM")
+        self.setup_line_button("Safira", line12, self.cor_linha_12,
+                               "white", "L12", "12.png", "cptm.png", "CPTM")
+        self.setup_line_button(
+            "Jade", line13, self.cor_linha_13, "black", "L13", "13.png", "cptm.png", "CPTM")
+        self.setup_line_button("Prata", line15, self.cor_linha_15,
+                               "black", "L15", "15.png", "15_prata.png", "METRÔ")
+        self.setup_line_button("Ouro", line17, self.ouro,
+                               "white", "L17", None, None, "VIAMOBILIDADE")
+
     def load_routes(self, filepath):
         routes = {}
 
@@ -579,7 +681,8 @@ class MainWindow(QMainWindow):
                 line_name = row[0].replace('"', '').strip()
                 station_str = row[3].replace('"', '').strip()
 
-                station_parts = [s.strip() for s in station_str.split(' - ') if s.strip()]
+                station_parts = [s.strip()
+                                 for s in station_str.split(' - ') if s.strip()]
                 nparts = len(station_parts)
 
                 if nparts >= 2:
@@ -601,24 +704,53 @@ class MainWindow(QMainWindow):
                     "destination": destination
                 }
         return routes
-    
+
     def setup_line_button(self, text, command, bg, fg, route_key, colored_icon_path=None, icon_path=None, operator=None):
         container = QWidget()
         container.setStyleSheet("background-color: transparent;")
         layout = QVBoxLayout(container)
-        layout.setContentsMargins(1,0,1,0)
-        layout.setSpacing(0)  
+        layout.setContentsMargins(1, 0, 1, 0)
+        layout.setSpacing(0)
+
+        # Obtém o status real da linha
+        line_status = self.get_line_status(text)
+
+        # Cria o label de status com bordas arredondadas
+        status_label = QLabel(f" {line_status} ")  # Espaços para melhor visualização
+        status_label.setAlignment(Qt.AlignCenter)
         
-        status_label = QLabel("Status: Em Implantação")  
-        status_label.setStyleSheet("font: bold 9pt; color: #0073E6; padding: 4px;")
-        status_label.setFixedWidth(350)
+        # Define a cor de fundo baseada no status
+        if "Operação Normal" in line_status:
+            bg_color = "#00AA00"  # Verde
+        elif any(word in line_status for word in ["Paralisada", "Interrompida"]):
+            bg_color = "#FF0000"  # Vermelho
+        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
+            bg_color = "#FFA500"  # Laranja
+        elif any(word in line_status for word in ["Dados Indisponíveis", "Em implantação", "Encerrada"]):
+            bg_color = "#949494"  # Cinza
+        else:
+            bg_color = "#0073E6"  # Azul padrão
+
+        # Aplica o estilo minimalista
+        status_label.setStyleSheet(f"""
+            QLabel {{
+                background-color: {bg_color};
+                color: white;
+                font: bold 9pt;
+                padding: 2px 8px;
+                border-radius: 8px;
+                min-width: 120px;
+            }}
+        """)
+        
         layout.addWidget(status_label)
-        
+
+        # Restante do método permanece igual...
         button_row = QWidget()
         row_layout = QHBoxLayout(button_row)
-        row_layout.setContentsMargins(0,0,0,0)
+        row_layout.setContentsMargins(0, 0, 0, 0)
         row_layout.setSpacing(0)
-        
+
         icon_row = QHBoxLayout()
         icon_row.setContentsMargins(0, 0, 0, 0)
         icon_row.setSpacing(0)
@@ -639,12 +771,12 @@ class MainWindow(QMainWindow):
         icon_widget.setLayout(icon_row)
         icon_widget.setFixedWidth(40)
         row_layout.addWidget(icon_widget)
-        
+
         operator_label = QLabel(operator if operator else "")
         operator_label.setStyleSheet("font: 9pt; color: #555;")
         operator_label.setFixedWidth(95)
         row_layout.addWidget(operator_label)
-    
+
         button = QPushButton(text)
         button.setStyleSheet(f"""
             QPushButton {{
@@ -664,7 +796,7 @@ class MainWindow(QMainWindow):
         button.setFixedHeight(30)
         button.clicked.connect(command)
         row_layout.addWidget(button)
-        
+
         route = self.routes.get(route_key, {})
         dest_container = QWidget()
         dest_layout = QVBoxLayout(dest_container)
@@ -688,26 +820,26 @@ class MainWindow(QMainWindow):
 
         separator = QFrame()
         separator.setFrameShape(QFrame.HLine)
-        separator.setFrameShadow(QFrame.Plain)  
-        separator.setStyleSheet("background-color: #eee; height: 1px;") 
+        separator.setFrameShadow(QFrame.Plain)
+        separator.setStyleSheet("background-color: #eee; height: 1px;")
 
-        layout.addWidget(button_row)  
-        layout.addWidget(separator)   
-        
+        layout.addWidget(button_row)
+        layout.addWidget(separator)
+
         self.right_layout.addWidget(container)
-    
+
     def setup_footer(self):
         footer = QWidget()
         footer.setStyleSheet("background-color: #333333;")
         footer_layout = QHBoxLayout(footer)
-                
+
         self.datetime_label = QLabel()
         self.datetime_label.setStyleSheet("color: white; font: bold 12pt;")
         footer_layout.addWidget(self.datetime_label, alignment=Qt.AlignRight)
 
         # Obtem texto e ícone
         weather_data = get_weather()
-        
+
         # Verifica se a resposta é válida (pode ser string em caso de erro)
         if isinstance(weather_data, tuple) and len(weather_data) == 2:
             weather_text, weather_icon = weather_data
@@ -772,14 +904,13 @@ class MainWindow(QMainWindow):
     def update_temp(self):
         try:
             weather_data = get_weather()
-            
+
             # Verifica se a resposta é válida
             if isinstance(weather_data, tuple) and len(weather_data) == 2:
                 weather_text, weather_icon = weather_data
                 self.temp_label.setText(weather_text)
                 self.icon_label.setPixmap(
-                    weather_icon.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                )
+                    weather_icon.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation))
             else:
                 error_msg = weather_data if isinstance(weather_data, str) else "Dados indisponíveis"
                 self.temp_label.setText(error_msg)
@@ -789,47 +920,85 @@ class MainWindow(QMainWindow):
             self.temp_label.setText("Erro na atualização")
             self.icon_label.clear()
 
-    def setup_updates(self):        
+    def setup_updates(self):
         self.datetime_timer = QTimer(self)
         self.datetime_timer.timeout.connect(self.update_datetime)
-        self.datetime_timer.start(1000)  
-        
+        self.datetime_timer.start(1000)
+
         self.temp_timer = QTimer(self)
         self.temp_timer.timeout.connect(self.update_temp)
-        self.temp_timer.start(60000)  
-    
+        self.temp_timer.start(60000)
+
+        # Timer para atualizar os status das linhas a cada 5 minutos
+        self.status_timer = QTimer(self)
+        self.status_timer.timeout.connect(self.update_line_statuses)
+        self.status_timer.start(300000)  # 5 minutos em milissegundos
+        self.update_line_statuses()  # Atualiza imediatamente
+
+    def update_line_statuses(self):
+        """Atualiza os status de todas as linhas"""
+        logging.info("Atualizando status das linhas...")
+        # Percorre todos os widgets no right_layout para atualizar os status
+        for i in range(self.right_layout.count()):
+            widget = self.right_layout.itemAt(i).widget()
+            if widget:
+                # Encontra o label de status (primeiro widget no layout vertical)
+                status_label = widget.layout().itemAt(0).widget()
+                if isinstance(status_label, QLabel) and status_label.text().startswith("Status:"):
+                    # Extrai o nome da linha do botão (segundo widget no layout vertical)
+                    button_row = widget.layout().itemAt(1).widget()
+                    button = button_row.layout().itemAt(2).widget()  # O botão está na posição 2
+                    if isinstance(button, QPushButton):
+                        line_name = button.text()
+                        line_status = self.get_line_status(line_name)
+
+                        # Atualiza a cor com base no status
+                        status_color = "#0073E6"  # Azul padrão
+                        if "Operação Normal" in line_status:
+                            status_color = "#00AA00"  # Verde
+                        elif any(word in line_status for word in ["Paralisada", "Interrompida"]):
+                            status_color = "#FF0000"  # Vermelho
+                        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
+                            status_color = "#FFA500"  # Laranja
+                        elif any(word in line_status for word in ["Dados Indisponíveis", "Em implantação", "Encerrada"]):
+                            status_color = "#949494"  # Cinza
+
+                        status_label.setText(f"{line_status}")
+                        status_label.setStyleSheet(
+                            f"font: bold 9pt; color: {status_color}; padding: 4px;")
+
     def update_datetime(self):
         now = QDateTime.currentDateTime()
         formatted_datetime = f"📅 {now.toString('dd/MM/yyyy')}\n🕒 {now.toString('HH:mm')}"
         self.datetime_label.setText(formatted_datetime)
-    
+
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
             # Cria uma caixa de diálogo de confirmação
             reply = QMessageBox.question(
-                self, 
-                'Confirmação', 
-                'Tem certeza que deseja sair?', 
-                QMessageBox.Yes | QMessageBox.No, 
+                self,
+                'Confirmação',
+                'Tem certeza que deseja sair?',
+                QMessageBox.Yes | QMessageBox.No,
                 QMessageBox.No
             )
-            
+
             # Se o usuário confirmar, fecha a aplicação
             if reply == QMessageBox.Yes:
                 logging.info(f"Fechando Página Principal")
                 self.close()
-            
+
 if __name__ == "__main__":
-    try:        
-        os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"          
+    try:
+        os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"
         from PyQt5.QtCore import Qt
         from PyQt5.QtWidgets import QApplication
-                
+
         QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
         QApplication.setAttribute(Qt.AA_ShareOpenGLContexts)
-        
+
         app = QApplication(sys.argv)
-                
+
         from SP_L17 import line17
         from SP_L15 import line15
         from SP_L13 import line13
@@ -853,7 +1022,7 @@ if __name__ == "__main__":
         from temperatura import get_weather
         from Guias.guias import *
         from qualidade_ar import mapa_qualidade_ar
-        
+
         window = MainWindow()
         window.show()
         sys.exit(app.exec_())

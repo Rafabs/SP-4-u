@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "12/07/2025 02:33"
+__modified__    = "16/07/2025 01:54"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -33,6 +33,7 @@ from screeninfo import get_monitors
 import subprocess
 import logging
 from pathlib import Path
+from Mapa_dos_Trilhos.utils.status_manager import StatusManager
 
 # Get the absolute path to the project root
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -67,7 +68,7 @@ def line9():
             [sys.executable, str(script_path)],
             check=True,
             env=env,
-            cwd=str(script_path.parent.parent.parent),  # Executa a partir da raiz do projeto
+            cwd=str(script_path.parent.parent.parent),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
@@ -82,7 +83,7 @@ def line9():
         logging.error(error_msg)
         return False
     except Exception as e:
-        error_msg = f"Erro inesperado em line9: {str(e)}"
+        error_msg = f"Erro inesperado em line1: {str(e)}"
         print(error_msg)
         logging.error(error_msg)
         return False
@@ -116,8 +117,9 @@ def get_destino_linha(script_name):
 class MapaLinhaWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.status_manager = StatusManager()
         self.setWindowTitle("Linha 9 - Esmeralda")
-        self.setWindowIcon(QIcon('Mapa_dos_Trilhos/Favicon/9_esmeralda.ico'))
+        self.setWindowIcon(QIcon('Mapa_dos_Trilhos/Favicon/1_azul.ico'))
         self.setWindowFlags(Qt.FramelessWindowHint)
 
         monitor = get_monitors()[0]
@@ -160,21 +162,15 @@ class MapaLinhaWindow(QMainWindow):
         color_bar.setPen(QColor(self.cor_linha))
         self.scene.addItem(color_bar)
         
-        # Informações de temperatura e hora
+        # Informações de temperatura, hora e status
         self.temperatura = get_weather()
         self.hora = datetime.now().strftime("%H:%M")
         self.dia_semana = datetime.now().strftime("%A")
         self.data_completa = self.data_extenso()
+        self.status_linha = self.status_manager.get_line_status("Linha 9 - Esmeralda")
         
-        self.linha1_text = self.scene.addText(f"| {self.hora} | São Paulo | {self.temperatura}")
-        self.linha1_text.setDefaultTextColor(QColor("#FFFFFF"))
-        self.linha1_text.setFont(QFont("Helvetica", 24))
-        self.linha1_text.setPos(50, 10)
-        
-        self.linha2_text = self.scene.addText(f"{self.dia_semana}, {self.data_completa}")
-        self.linha2_text.setDefaultTextColor(QColor("#FFFFFF"))
-        self.linha2_text.setFont(QFont("Helvetica", 24))
-        self.linha2_text.setPos(20, 50)
+        # Cria os elementos de texto
+        self.create_header_texts()
         
         # Destino e linha
         destino_text = self.scene.addText(f"DESTINO: {self.destino_text}")
@@ -196,7 +192,50 @@ class MapaLinhaWindow(QMainWindow):
         
         # Processa o trajeto
         self.process_trajeto()
+
+    def create_header_texts(self):
+        """Cria os textos do cabeçalho com formatação condicional"""
+        # Texto de hora e localização
+        # Obtém os dados completos
+        weather_data = get_weather()
         
+        if isinstance(weather_data, tuple) and len(weather_data) > 0:
+            full_text = weather_data[0]  # Pega o texto completo
+            # Extrai apenas o valor numérico da temperatura
+            temp_part = full_text.split('|')[0]  # Pega a parte antes do primeiro |
+            temperatura = temp_part.replace('🌡', '').strip()  # Remove o emoji e espaços
+        else:
+            temperatura = "N/D"  # Caso de falha
+        
+        self.temperatura = temperatura        
+        self.time_text = self.scene.addText(f"| {self.hora} | São Paulo | {self.temperatura} | ")
+        self.time_text.setDefaultTextColor(QColor("#FFFFFF"))
+        self.time_text.setFont(QFont("Helvetica", 24))
+        self.time_text.setPos(50, 10)
+        
+        # Texto de status com cor condicional
+        self.status_text = self.scene.addText(f"{self.status_linha}")
+        self.status_text.setDefaultTextColor(self._get_status_color(self.status_linha))
+        self.status_text.setFont(QFont("Helvetica", 24, QFont.Bold))
+        status_x = 50 + self.time_text.boundingRect().width()
+        self.status_text.setPos(status_x, 10)
+        
+        # Data completa
+        self.date_text = self.scene.addText(f"{self.dia_semana}, {self.data_completa}")
+        self.date_text.setDefaultTextColor(QColor("#FFFFFF"))
+        self.date_text.setFont(QFont("Helvetica", 24))
+        self.date_text.setPos(20, 50)
+    
+    def _get_status_color(self, status):
+        """Retorna a cor apropriada para o status"""
+        if "Operação Normal" in status:
+            return QColor("#00AA00")  # Verde
+        elif any(word in status for word in ["Paralisada", "Interrompida", "Encerrada"]):
+            return QColor("#FF0000")  # Vermelho
+        elif any(word in status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
+            return QColor("#FFA500")  # Laranja
+        return QColor("#FFFFFF")  # Branco (padrão)
+    
     def data_extenso(self):
         now = datetime.now()
         return now.strftime("%d de %B de %Y")
@@ -206,147 +245,32 @@ class MapaLinhaWindow(QMainWindow):
             img = Image.open(image_path)
             img = img.resize((width, height), Image.LANCZOS)
             
-            # Convert PIL Image to QImage
             img = img.convert("RGBA")
             data = img.tobytes("raw", "RGBA")
             qimg = QImage(data, img.size[0], img.size[1], QImage.Format_RGBA8888)
             
             pixmap = QPixmap.fromImage(qimg)
             pixmap_item = QGraphicsPixmapItem(pixmap)
-            pixmap_item.setPos(x - width/2, y - height/2)  # Centraliza a imagem
+            pixmap_item.setPos(x - width/2, y - height/2)
             self.scene.addItem(pixmap_item)
-            self.images.append(pixmap_item)  # Mantém referência
+            self.images.append(pixmap_item)
             
             return pixmap_item
-        else:
-            print(f"Imagem não encontrada: {image_path}")
-            return None
+        return None
     
     def process_lines_data(self):
         for line in lines_data["lines"]:
             if isinstance(line, list):
                 for sub_item in line:
-                    if sub_item.get("type") == "oval":
-                        ellipse = QGraphicsEllipseItem(
-                            sub_item["position"]["x1"], sub_item["position"]["y1"],
-                            sub_item["position"]["x2"] - sub_item["position"]["x1"],
-                            sub_item["position"]["y2"] - sub_item["position"]["y1"]
-                        )
-                        ellipse.setBrush(QColor(sub_item["fill"]))
-                        ellipse.setPen(QColor(sub_item["outline"]))
-                        self.scene.addItem(ellipse)
-                    
-                    elif sub_item.get("type") == "text":
-                        text = QGraphicsTextItem(sub_item["text"])
-                        text.setDefaultTextColor(QColor(sub_item["color"]))
-                        
-                        # Processa a fonte (ex: "Helvetica 12" -> QFont("Helvetica", 12))
-                        font_parts = sub_item["font"].split()
-                        font_name = font_parts[0]
-                        font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
-                        text.setFont(QFont(font_name, font_size))
-                        
-                        # Ajuste de posição com base na âncora
-                        x = sub_item["position"]["x"]
-                        y = sub_item["position"]["y"]
-                        anchor = sub_item.get("anchor", "nw")  # Padrão: northwest
-                        
-                        # Ajusta a posição baseado na âncora
-                        rect = text.boundingRect()
-                        if "center" in anchor:
-                            x -= rect.width() / 2
-                        elif "e" in anchor:
-                            x -= rect.width()
-                        if "center" in anchor:
-                            y -= rect.height() / 2
-                        elif "s" in anchor:
-                            y -= rect.height()
-                        
-                        text.setPos(x, y)
-                        self.scene.addItem(text)
-            
+                    self.process_line_item(sub_item)
             elif "line" in line:
-                line_item = QGraphicsLineItem(
-                    line["line"]["x1"], line["line"]["y1"],
-                    line["line"]["x2"], line["line"]["y2"]
-                )
-                line_item.setPen(QColor(line["line"]["color"]))
-                line_item.setZValue(1)  # Garante que a linha fique acima de outros elementos
-                self.scene.addItem(line_item)
-
-            elif "text_blocks" in line:  # Novo tipo para blocos de texto com quebra automática
+                self.create_line_item(line["line"])
+            elif "text_blocks" in line:
                 for block in line["text_blocks"]:
-                    text_item = QGraphicsTextItem(block["text"])
-                    text_item.setDefaultTextColor(QColor(block["color"]))
-                    
-                    font_parts = block["font"].split()
-                    font_name = font_parts[0]
-                    font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
-                    font = QFont(font_name, font_size)
-                    
-                    if "bold" in block["font"].lower():
-                        font.setBold(True)
-                    if "italic" in block["font"].lower():
-                        font.setItalic(True)
-                        
-                    text_item.setFont(font)
-                    text_item.setTextWidth(block.get("width", 400))  # Largura máxima para quebra de linha
-                    text_item.setPos(block["position"]["x"], block["position"]["y"])
-                    self.scene.addItem(text_item)
-
+                    self.create_text_block(block)
             elif "texts" in line:
                 for text in line["texts"]:
-                    text_item = QGraphicsTextItem(text["text"])
-                    text_item.setDefaultTextColor(QColor(text["color"]))
-                    
-                    # Processamento da fonte
-                    font_parts = text["font"].split()
-                    font_name = font_parts[0]
-                    font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
-                    font = QFont(font_name, font_size)
-                    
-                    # Verifica se tem estilo (bold/italic)
-                    if "bold" in text["font"].lower():
-                        font.setBold(True)
-                    if "italic" in text["font"].lower():
-                        font.setItalic(True)
-                    
-                    text_item.setFont(font)
-                    
-                    # Posição base
-                    x = text["position"]["x"]
-                    y = text["position"]["y"]
-                    
-                    # Ajuste especial para operadoras (METRÔ, CPTM, etc.)
-                    if any(op in text["text"] for op in ["METRÔ", "CPTM", "EMTU", "VIAQUATRO", "VIAMOBILIDADE"]):
-                        y += -15  # Desce o texto para ficar abaixo da linha
-                    
-                    # Ajuste especial para última coluna (telefones)
-                    if x > 1800:  # Itens muito à direita
-                        x -= 0  # Move para a esquerda
-                    
-                    # No bloco de textos, adicione este caso especial:
-                    if "0800" in text["text"]:  # Detecta os textos de telefone
-                        x = text["position"]["x"] + 20  # Move significativamente para esquerda
-                        text_item.setPos(x, y)
-
-                    # Tratamento da âncora
-                    anchor = text.get("anchor", "nw")
-                    rect = text_item.boundingRect()
-                    
-                    if "center" in anchor:
-                        x -= rect.width() / 2
-                    elif "e" in anchor:  # anchor = 'e' (leste/direita)
-                        x -= rect.width()
-                    
-                    if "center" in anchor:
-                        y -= rect.height() / 2
-                    elif "s" in anchor:  # anchor = 's' (sul/baixo)
-                        y -= rect.height()
-                    
-                    text_item.setPos(x, y)
-                    self.scene.addItem(text_item)
-            
+                    self.create_text_item(text)
             elif "icon" in line:
                 self.load_image(
                     line["icon"], 
@@ -355,6 +279,94 @@ class MapaLinhaWindow(QMainWindow):
                     line["size"]["width"], 
                     line["size"]["height"]
                 )
+    
+    def process_line_item(self, item):
+        if item.get("type") == "oval":
+            self.create_oval_item(item)
+        elif item.get("type") == "text":
+            self.create_text_item(item)
+    
+    def create_oval_item(self, item):
+        ellipse = QGraphicsEllipseItem(
+            item["position"]["x1"], item["position"]["y1"],
+            item["position"]["x2"] - item["position"]["x1"],
+            item["position"]["y2"] - item["position"]["y1"]
+        )
+        ellipse.setBrush(QColor(item["fill"]))
+        ellipse.setPen(QColor(item["outline"]))
+        self.scene.addItem(ellipse)
+    
+    def create_line_item(self, line):
+        line_item = QGraphicsLineItem(
+            line["x1"], line["y1"],
+            line["x2"], line["y2"]
+        )
+        line_item.setPen(QColor(line["color"]))
+        line_item.setZValue(1)
+        self.scene.addItem(line_item)
+    
+    def create_text_block(self, block):
+        text_item = QGraphicsTextItem(block["text"])
+        text_item.setDefaultTextColor(QColor(block["color"]))
+        
+        font_parts = block["font"].split()
+        font_name = font_parts[0]
+        font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
+        font = QFont(font_name, font_size)
+        
+        if "bold" in block["font"].lower():
+            font.setBold(True)
+        if "italic" in block["font"].lower():
+            font.setItalic(True)
+            
+        text_item.setFont(font)
+        text_item.setTextWidth(block.get("width", 400))
+        text_item.setPos(block["position"]["x"], block["position"]["y"])
+        self.scene.addItem(text_item)
+    
+    def create_text_item(self, text):
+        text_item = QGraphicsTextItem(text["text"])
+        text_item.setDefaultTextColor(QColor(text["color"]))
+        
+        font_parts = text["font"].split()
+        font_name = font_parts[0]
+        font_size = int(font_parts[1]) if len(font_parts) > 1 else 12
+        font = QFont(font_name, font_size)
+        
+        if "bold" in text["font"].lower():
+            font.setBold(True)
+        if "italic" in text["font"].lower():
+            font.setItalic(True)
+        
+        text_item.setFont(font)
+        
+        x = text["position"]["x"]
+        y = text["position"]["y"]
+        
+        if any(op in text["text"] for op in ["METRÔ", "CPTM", "EMTU", "VIAQUATRO", "VIAMOBILIDADE"]):
+            y += -15
+        
+        if x > 1800:
+            x -= 0
+        
+        if "0800" in text["text"]:
+            x = text["position"]["x"] + 20
+
+        anchor = text.get("anchor", "nw")
+        rect = text_item.boundingRect()
+        
+        if "center" in anchor:
+            x -= rect.width() / 2
+        elif "e" in anchor:
+            x -= rect.width()
+        
+        if "center" in anchor:
+            y -= rect.height() / 2
+        elif "s" in anchor:
+            y -= rect.height()
+        
+        text_item.setPos(x, y)
+        self.scene.addItem(text_item)
     
     def process_trajeto(self):
         canvas_center_x = 960
@@ -366,124 +378,81 @@ class MapaLinhaWindow(QMainWindow):
             y_position = 420
             
             if isinstance(trajeto, dict):
-                primary = trajeto.get("primary", "")
-                secondary = trajeto.get("secondary", "")
-                free_access = trajeto.get("free_access", False)
-                bold_secondary = trajeto.get("bold_secondary", False)
-                image_paths = [
-                    trajeto.get("image"),
-                    trajeto.get("image_1"),
-                    trajeto.get("image_2"),
-                    trajeto.get("image_3"),
-                    trajeto.get("image_4"),
-                    trajeto.get("image_5"),
-                ]
-                
-                # Renderiza a estação
-                if primary and secondary:
-                    if bold_secondary:
-                        # Secondary maior
-                        text = QGraphicsTextItem(secondary)
-                        text.setDefaultTextColor(QColor("#000000"))
-                        text.setFont(QFont("Helvetica", 20))
-                        text.setPos(x_position - 23, y_position - 6)
-                        transform = QTransform().rotate(-60)
-                        text.setTransform(transform)
-                        self.scene.addItem(text)
-                        
-                        # Primary menor
-                        text = QGraphicsTextItem(primary)
-                        text.setDefaultTextColor(QColor("#000000"))
-                        text.setFont(QFont("Helvetica", 14))
-                        text.setPos(x_position - 43, y_position - 6)
-                        transform = QTransform().rotate(-60)
-                        text.setTransform(transform)
-                        self.scene.addItem(text)
-                    else:
-                        # Primary maior
-                        text = QGraphicsTextItem(primary)
-                        text.setDefaultTextColor(QColor("#000000"))
-                        text.setFont(QFont("Helvetica", 20))
-                        text.setPos(x_position - 23, y_position - 6)
-                        transform = QTransform().rotate(-60)
-                        text.setTransform(transform)
-                        self.scene.addItem(text)
-                        
-                        # Secondary menor
-                        text = QGraphicsTextItem(secondary)
-                        text.setDefaultTextColor(QColor("#000000"))
-                        text.setFont(QFont("helvetica", 14))
-                        text.setPos(x_position + 8, y_position - 6)
-                        transform = QTransform().rotate(-60)
-                        text.setTransform(transform)
-                        self.scene.addItem(text)
-                
-                elif primary:
-                    text = QGraphicsTextItem(primary)
-                    text.setDefaultTextColor(QColor("#000000"))
-                    text.setFont(QFont("Helvetica", 20))
-                    text.setPos(x_position - 23, y_position - 6)
-                    transform = QTransform().rotate(-60)
-                    text.setTransform(transform)
-                    self.scene.addItem(text)
-                
-                elif secondary:
-                    text = QGraphicsTextItem(secondary)
-                    text.setDefaultTextColor(QColor("#000000"))
-                    text.setFont(QFont("Helvetica", 20))
-                    text.setPos(x_position - 23, y_position - 6)
-                    transform = QTransform().rotate(-60)
-                    text.setTransform(transform)
-                    self.scene.addItem(text)
-                
-                # Retângulo e círculo
-                rect = QGraphicsRectItem(x_position - 20, y_position + 15, 60, 35)
-                rect.setBrush(QColor(self.cor_linha))
-                rect.setPen(QColor(self.cor_linha))
-                self.scene.addItem(rect)
-                
-                ball_color = QColor("#000000") if free_access else QColor("#FFFFFF")
-                ball = QGraphicsEllipseItem(x_position - 10, y_position + 20, 20, 20)
-                ball.setBrush(ball_color)
-                ball.setPen(QColor("#000000"))
-                self.scene.addItem(ball)
-                
-                # Imagens adicionais
-                for image_path in image_paths:
-                    if image_path and os.path.exists(image_path):
-                        self.load_image(image_path, x_position, y_position + 70, 30, 30)
-                        y_position += 40
-            
+                self.create_station_item(trajeto, x_position, y_position)
             else:
-                # Item simples
-                text = QGraphicsTextItem(trajeto)
-                text.setDefaultTextColor(QColor("#000000"))
-                text.setFont(QFont("Helvetica", 20))
-                text.setPos(x_position - 23, y_position)
-                transform = QTransform().rotate(-60)
-                text.setTransform(transform)
-                self.scene.addItem(text)
-                
-                rect = QGraphicsRectItem(x_position - 20, y_position + 15, 60, 35)
-                rect.setBrush(QColor(self.cor_linha))
-                rect.setPen(QColor(self.cor_linha))
-                self.scene.addItem(rect)
-                
-                ball = QGraphicsEllipseItem(x_position - 10, y_position + 20, 20, 20)
-                ball.setBrush(QColor("#FFFFFF"))
-                ball.setPen(QColor("#FFFFFF"))
-                self.scene.addItem(ball)
+                self.create_simple_item(trajeto, x_position, y_position)
+    
+    def create_station_item(self, trajeto, x, y):
+        primary = trajeto.get("primary", "")
+        secondary = trajeto.get("secondary", "")
+        free_access = trajeto.get("free_access", False)
+        bold_secondary = trajeto.get("bold_secondary", False)
+        image_paths = [
+            trajeto.get("image"),
+            trajeto.get("image_1"),
+            trajeto.get("image_2"),
+            trajeto.get("image_3"),
+            trajeto.get("image_4"),
+            trajeto.get("image_5"),
+        ]
+        
+        if primary and secondary:
+            if bold_secondary:
+                self.create_rotated_text(secondary, x - 23, y - 6, 20)
+                self.create_rotated_text(primary, x - 43, y - 6, 14)
+            else:
+                self.create_rotated_text(primary, x - 23, y - 6, 20)
+                self.create_rotated_text(secondary, x + 8, y - 6, 14)
+        elif primary:
+            self.create_rotated_text(primary, x - 23, y - 6, 20)
+        elif secondary:
+            self.create_rotated_text(secondary, x - 23, y - 6, 20)
+        
+        # Retângulo e círculo
+        rect = QGraphicsRectItem(x - 20, y + 15, 60, 35)
+        rect.setBrush(QColor(self.cor_linha))
+        rect.setPen(QColor(self.cor_linha))
+        self.scene.addItem(rect)
+        
+        ball_color = QColor("#000000") if free_access else QColor("#FFFFFF")
+        ball = QGraphicsEllipseItem(x - 10, y + 20, 20, 20)
+        ball.setBrush(ball_color)
+        ball.setPen(QColor("#000000"))
+        self.scene.addItem(ball)
+        
+        # Imagens adicionais
+        for image_path in image_paths:
+            if image_path and os.path.exists(image_path):
+                self.load_image(image_path, x, y + 70, 30, 30)
+                y += 40
+    
+    def create_rotated_text(self, text, x, y, size):
+        text_item = QGraphicsTextItem(text)
+        text_item.setDefaultTextColor(QColor("#000000"))
+        text_item.setFont(QFont("Helvetica", size))
+        text_item.setPos(x, y)
+        transform = QTransform().rotate(-60)
+        text_item.setTransform(transform)
+        self.scene.addItem(text_item)
+    
+    def create_simple_item(self, text, x, y):
+        self.create_rotated_text(text, x - 23, y, 20)
+        
+        rect = QGraphicsRectItem(x - 20, y + 15, 60, 35)
+        rect.setBrush(QColor(self.cor_linha))
+        rect.setPen(QColor(self.cor_linha))
+        self.scene.addItem(rect)
+        
+        ball = QGraphicsEllipseItem(x - 10, y + 20, 20, 20)
+        ball.setBrush(QColor("#FFFFFF"))
+        ball.setPen(QColor("#FFFFFF"))
+        self.scene.addItem(ball)
     
     def setup_timers(self):
-        # Timer para atualizar temperatura
-        self.temp_timer = QTimer()
-        self.temp_timer.timeout.connect(self.atualizar_temperatura)
-        self.temp_timer.start(1000)
-        
-        # Timer para atualizar data/hora
-        self.clock_timer = QTimer()
-        self.clock_timer.timeout.connect(self.atualizar_data_hora)
-        self.clock_timer.start(1000)
+        # Timer para atualizar informações
+        self.update_timer = QTimer()
+        self.update_timer.timeout.connect(self.update_display)
+        self.update_timer.start(60000)  # Atualiza a cada minuto
         
         # Timer para alternar imagens
         self.image_timer = QTimer()
@@ -491,28 +460,26 @@ class MapaLinhaWindow(QMainWindow):
         self.image_timer.start(10000)
         self.current_image_index = 1
     
-    def atualizar_temperatura(self):
-        # Obtém os dados completos
-        weather_data = get_weather()
+    def update_display(self):
+        """Atualiza todas as informações dinâmicas"""
+        # Atualiza temperatura e status
+        self.temperatura = get_weather()
+        self.status_linha = self.status_manager.get_line_status("Linha 9 - Esmeralda")
         
-        # Extrai apenas a temperatura (assumindo que o formato é "🌡 25.3°C | ...")
-        if isinstance(weather_data, tuple) and len(weather_data) > 0:
-            full_text = weather_data[0]  # Pega o texto completo
-            # Extrai apenas o valor numérico da temperatura
-            temp_part = full_text.split('|')[0]  # Pega a parte antes do primeiro |
-            temperatura = temp_part.replace('🌡', '').strip()  # Remove o emoji e espaços
-        else:
-            temperatura = "N/D"  # Caso de falha
-        
-        self.temperatura = temperatura
-        self.linha1_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura}")
-
-    def atualizar_data_hora(self):
+        # Atualiza hora e data
         self.hora = datetime.now().strftime("%H:%M")
         self.dia_semana = datetime.now().strftime("%A")
         self.data_completa = self.data_extenso()
-        self.linha1_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura}")
-        self.linha2_text.setPlainText(f"{self.dia_semana}, {self.data_completa}")
+        
+        # Atualiza os textos
+        self.time_text.setPlainText(f"| {self.hora} | São Paulo | {self.temperatura} | ")
+        self.status_text.setPlainText(f"{self.status_linha}")
+        self.status_text.setDefaultTextColor(self._get_status_color(self.status_linha))
+        self.date_text.setPlainText(f"{self.dia_semana}, {self.data_completa}")
+        
+        # Reposiciona o status_text caso o tamanho do time_text tenha mudado
+        status_x = 50 + self.time_text.boundingRect().width()
+        self.status_text.setPos(status_x, 10)
     
     def alternar_imagens(self):
         self.current_image_index += 1
@@ -532,13 +499,10 @@ class MapaLinhaWindow(QMainWindow):
         elif self.operadora == "VIAMOBILIDADE_L9":
             image_path = f"Mapa_dos_Trilhos/Imgs/VIAMOBILIDADE_L9/{self.current_image_index}.png"                                                
         else:
-            print(f"Operadora desconhecida: {self.operadora}")
             return
         
         if os.path.exists(image_path):
             self.load_image(image_path, 1440, 90, 960, 180)
-        else:
-            print(f"Imagem não encontrada: {image_path}")
     
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:

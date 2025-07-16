@@ -162,12 +162,14 @@ node server.js
 ## 📸 Screenshots
 
 <div align="center"> <h3>Versão Desktop (Python)</h3> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/main_1.1.5.png" width="45%"/> 
+<img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/main_1.1.6.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/aqi.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/line.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/od.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/sptrans_api.png" width="45%"/> 
 <h3>Versões Anteriores</h3> <img src="https://github.com/Rafabs/SP-4-u/blob/f4cef17dafc25751cdec21d3de769e1851724eb4/Exibição/Página_Inicial_v1.0.10.png" width="45%"/> 
+<img src="Exibição/Versões_Antigas/main_1.1.5.png" width="45%"/> 
+<img src="Exibição/Versões_Antigas/line.png" width="45%"/> 
 <img src="Exibição/Versões_Antigas/main_1.1.4.png" width="45%"/> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibição/PY_Imagens_projeto_v1.0.9%20(10).png" width="45%"/> <h3>Versão Web</h3> 
 <img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/web.png" width="90%"/> 
@@ -185,7 +187,7 @@ node server.js
 
 - [ ] 🔄 Refatorar main.py em múltiplos arquivos
 - [ ] 🧼 Comentar e aprimorar os códigos com docstrings
-- [ ] 🧠🗺️ Ajustar Diagrama
+- [ ] 🧠🗺️ Ajustar Diagrama 🚧`>>> EM DESENVOLVIMENTO`🚧
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
@@ -194,7 +196,7 @@ node server.js
 
 🌐 Funcionalidades Web
 
-- [ ] 🌍 Voltar a ler status das linhas via web scraping 🚧`>>> EM DESENVOLVIMENTO`🚧
+- Sem modificações futuras.
 
 🛠️ Logs e Validações
 
@@ -207,6 +209,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
+- [X] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025` 
 - [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`
 - [x] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025`
 - [x] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025`

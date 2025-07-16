@@ -4,14 +4,17 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.5-yellow.svg) (14/07/2025)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.6-yellow.svg) (16/07/2025)
 
 ✨ **Melhorias e Correções:**
-- 🌐 **Funcionalidades Web** Realizado ampliação de dados relacionados à temperatura na página inicial
-- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
+- 🌐 **Funcionalidades Web** Aplicação realiza webscraping para exibição de status das linhas.
 ---
 
 ## 📌 Versões Anteriores
+
+### ![Version](https://img.shields.io/badge/1.1.5-yellow.svg) (14/07/2025)
+- 🌐 **Funcionalidades Web** Realizado ampliação de dados relacionados à temperatura na página inicial
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 
 ### ![Version](https://img.shields.io/badge/1.1.4-yellow.svg) (08/07/2025)
 - 📚 **Documentação (readme)**: Ajustada a estrutura e seções dos .md de versões

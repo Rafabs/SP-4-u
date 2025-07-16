@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.4"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "08/07/2025 01:41"
+__modified__    = "14/07/2025 18:02"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas

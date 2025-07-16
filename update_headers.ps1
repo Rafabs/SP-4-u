@@ -19,7 +19,7 @@ METADADOS:
 __author__      = "Rafael Barbosa"
 __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
-__version__     = "1.1.5"
+__version__     = "1.1.6"
 __maintainer__  = "https://github.com/Rafabs"
 __modified__    = "$formattedDate"
 
@@ -52,7 +52,7 @@ Módulo de visualização das linhas de metrô/trem de São Paulo:
 - Interface gráfica com Tkinter
 - Exibe mapas interativos das estações
 - Mostra conexões entre linhas
-- Inclui informações em tempo real
+- Monitoramento em tempo real das linhas de metrô/trem de SP
 - Design responsivo (1920x1080)
 - Ícones personalizados para cada linha
 - Código de cores padrão do metrô
