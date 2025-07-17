@@ -185,9 +185,9 @@ node server.js
 
 🔧 Refatoração e Estrutura
 
-- [ ] 🔄 Refatorar main.py em múltiplos arquivos
-- [ ] 🧼 Comentar e aprimorar os códigos com docstrings
-- [ ] 🧠🗺️ Ajustar Diagrama 🚧`>>> EM DESENVOLVIMENTO`🚧
+- [ ] 🔄 Refatorar main.py em múltiplos arquivos 🚧`>>> EM DESENVOLVIMENTO`🚧
+- [ ] 🧼 Comentar e aprimorar os códigos com docstrings 
+- [ ] 🧠🗺️ Ajustar Diagrama 
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
@@ -209,7 +209,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
-- [X] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025` 
+- [x] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025` 
 - [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`
 - [x] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025`
 - [x] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025`
