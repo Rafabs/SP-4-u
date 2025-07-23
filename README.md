@@ -196,39 +196,34 @@ python3 main.py
 
 ## 📌 Roadmap de Desenvolvimento
 
-🔧 Refatoração e Estrutura
+🔧 Refatoração e Estrutura  
+- [ ] 🧠🗺️ Ajustar Diagrama 🚧`>>> EM DESENVOLVIMENTO`🚧  
+- [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa  
 
-- [ ] 🧠🗺️ Ajustar Diagrama 🚧`>>> EM DESENVOLVIMENTO`🚧
-- [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
+📚 Documentação (readme)  
+- Sem modificações futuras.  
 
-📚 Documentação (readme)
+🌐 Funcionalidades Web  
+- Sem modificações futuras.  
 
-- Sem modificações futuras.
+🛠️ Logs e Validações  
+- Sem modificações futuras.  
 
-🌐 Funcionalidades Web
-
-- Sem modificações futuras.
-
-🛠️ Logs e Validações
-
-- Sem modificações futuras.
-
-🖼️ Interface
-
-- Sem modificações futuras.
+🖼️ Interface  
+- Sem modificações futuras.  
 
 <details>
-<summary>📚 Ver histórico completo </summary>
+<summary>📚 Ver histórico completo</summary>
 
-- [x] 🧼 Comentar e aprimorar os códigos com docstrings `Concluído em 23/07/2025` 
-- [x] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025` 
-- [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`
-- [x] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025`
-- [x] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025`
-- [x] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025`
-- [x] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025`
-- [x] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025`
-- [x] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025`
+- [x] 🧼 Comentar e aprimorar os códigos com docstrings `Concluído em 23/07/2025`  
+- [x] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025`  
+- [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`  
+- [x] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025`  
+- [x] 🪵 Validar os logs (necessários) `Concluído em 08/07/2025`  
+- [x] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025`  
+- [x] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025`  
+- [x] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025`  
+- [x] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025`  
 
 </details>
 
