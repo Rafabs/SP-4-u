@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.6-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-16/07/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.7-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-23/07/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -26,8 +26,10 @@ Bem-vindo ao **Sampa 4U** - seu guia digital completo para o transporte público
 
 📰 Notícias relevantes sobre transporte público
 
-Desenvolvido com:  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+Desenvolvido em:  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 ## 🎨 Paleta de Cores do Transporte Sobre Trilhos
 
@@ -86,40 +88,65 @@ Desenvolvido com:
 ## 🛠️ Tecnologias Utilizadas
 
 <details>
-<summary>📚 Bibliotecas Python </summary>
+<summary>📚 Bibliotecas Python Necessárias</summary>
 
 ```bash
-pip install tk
-pip install customtkinter
+# Pacotes básicos e utilitários
 pip install requests
 pip install beautifulsoup4
 pip install pillow
+pip install colorama
+pip install pytz
+pip install pandas
+pip install numpy
+pip install python-dotenv
+pip install certifi
+pip install screeninfo
+pip install pyproj
+pip install logging
+pip install atexit
+pip install python-dateutil
+pip install tzlocal
+
+# Interface gráfica
+pip install PyQt5
+pip install pyqtwebengine
+pip install tk
+pip install customtkinter
+
+# Mapeamento e geolocalização
 pip install folium
 pip install geopandas
-pip install json
+pip install shapely
+pip install fiona
+pip install geopy
+
+# Manipulação de documentos
+pip install pymupdf
+pip install fitz
+pip install reportlab
+
+# Web scraping e notícias
+pip install googlenews
+pip install selenium
+
+# Visualização de dados
+pip install matplotlib
+pip install seaborn
+pip install mplcursors
+
+# Outros utilitários
 pip install webbrowser
 pip install datetime
 pip install threading
-pip install pyproj
-pip install pymupdf
-pip install selenium
-pip install colorama
-pip install logging
-pip install atexit
-pip install googlenews
 pip install re
-```
-
-</details>
-
-<details>
-<summary>📦 Pacotes Node.js </summary>
-
-```bash
-npm install express
-npm install axios
-npm install jsdom
-npm install cors
+pip install json
+pip install csv
+pip install locale
+pip install difflib
+pip install tempfile
+pip install subprocess
+pip install typing
 ```
 
 </details>
@@ -141,8 +168,6 @@ npm install cors
 
 ## 🚀 Como Executar
 
-### Versão Python
-
 ```bash
 # Windows
 python main.py
@@ -150,14 +175,6 @@ python main.py
 # Linux/Mac
 python3 main.py
 ```
-
-### Versão Web
-
-```bash
-node server.js
-```
-
-> Acesse: `http://localhost:3000`
 
 ## 📸 Screenshots
 
@@ -171,11 +188,7 @@ node server.js
 <img src="Exibição/Versões_Antigas/main_1.1.5.png" width="45%"/> 
 <img src="Exibição/Versões_Antigas/line.png" width="45%"/> 
 <img src="Exibição/Versões_Antigas/main_1.1.4.png" width="45%"/> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibição/PY_Imagens_projeto_v1.0.9%20(10).png" width="45%"/> <h3>Versão Web</h3> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/main/Exibição/web.png" width="90%"/> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/e604f14d346b45c89f9bb0ef83f894d7f71efe63/Exibição/WEB_%20(3).png" width="30%"/> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibição/WEB_%20(1).png" width="30%"/> 
-<img src="https://github.com/Rafabs/SP-4-u/blob/8a92f6e914bf0c9be75ef931ae443d67f6134441/Exibição/WEB_%20(2).png" width="30%"/> </div>
+<img src="https://github.com/Rafabs/SP-4-u/blob/21c85e8f6c6a4d3466f9e92edb99bb4a4657c848/Exibição/PY_Imagens_projeto_v1.0.9%20(10).png" width="45%"/>
 
 ## 📈 Diagrama da Arquitetura (v1.1.0)
 
@@ -185,9 +198,7 @@ node server.js
 
 🔧 Refatoração e Estrutura
 
-- [ ] 🔄 Refatorar main.py em múltiplos arquivos 🚧`>>> EM DESENVOLVIMENTO`🚧
-- [ ] 🧼 Comentar e aprimorar os códigos com docstrings 
-- [ ] 🧠🗺️ Ajustar Diagrama 
+- [ ] 🧠🗺️ Ajustar Diagrama 🚧`>>> EM DESENVOLVIMENTO`🚧
 - [ ] 🧠🗺️ Criar microdiagramas sobre algumas funções vitais do programa
 
 📚 Documentação (readme)
@@ -209,6 +220,7 @@ node server.js
 <details>
 <summary>📚 Ver histórico completo </summary>
 
+- [x] 🧼 Comentar e aprimorar os códigos com docstrings `Concluído em 23/07/2025` 
 - [x] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025` 
 - [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`
 - [x] ✍️ Ajustar estrutura e seções dos .md `Concluído em 08/07/2025`

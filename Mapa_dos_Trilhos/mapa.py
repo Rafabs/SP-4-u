@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,33 +9,45 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "14/07/2025 18:02"
+__modified__    = "22/07/2025 17:06"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
 ARQUITETURA:
     Mapa_dos_Trilhos/mapa.py
 """
-import webbrowser  # Importa o módulo webbrowser para abrir páginas da web
-import folium  # Importa o módulo folium para criar mapas interativos
-import geopandas as gpd  # Importa o módulo geopandas para trabalhar com dados geoespaciais
-import json  # Importa o módulo json para trabalhar com dados no formato JSON
-from folium.plugins import MarkerCluster, Draw, MousePosition  # Importa algumas funcionalidades específicas do folium
-from datetime import datetime  # Importa a classe datetime do módulo datetime para trabalhar com datas e horas
-import csv  # Importa o módulo csv para trabalhar com arquivos CSV (Comma Separated Values)
-from pyproj import Transformer  # Importa a classe Transformer do módulo pyproj para realizar transformações de coordenadas
-import os  # Importa o módulo os para interagir com o sistema operacional
-import requests  # Importa o módulo requests para fazer requisições HTTP
-from datetime import datetime, timedelta  # Importa novamente a classe datetime e a classe timedelta para manipulação de datas
-from colorama import Fore, Back, Style, init  # Importa algumas funcionalidades para manipulação de cores no terminal
-import certifi  # Importa o módulo certifi para lidar com certificados SSL
-from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALITY_AR  # Importa o token da API do arquivo de configuração
+import webbrowser 
+import folium 
+import geopandas as gpd 
+import json 
+from folium.plugins import MarkerCluster, Draw, MousePosition 
+from datetime import datetime 
+import csv 
+from pyproj import Transformer 
+import os 
+import requests 
+from datetime import datetime, timedelta 
+from colorama import Fore, Back, Style, init 
+import certifi 
+from Mapa_dos_Trilhos.Sobre.config import API_TOKEN_QUALITY_AR 
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def mapa_global():
-
+    """
+    Cria e exibe um mapa global interativo com diversas camadas de informações sobre transporte público,
+    bicicletários, ciclovias, qualidade do ar e dados de origem e destino na região metropolitana de São Paulo.
+    
+    O mapa inclui:
+    - Linhas e estações de transporte público
+    - Paradas de ônibus (SPTrans e EMTU)
+    - Bicicletários e ciclovias
+    - Qualidade do ar em estações de medição
+    - Dados de origem e destino (1987, 1997, 2007, 2017)
+    
+    O mapa é salvo como HTML e aberto no navegador padrão.
+    """
     # Imprime o texto formatado
     print(f"{Style.BRIGHT}{Fore.WHITE}Mapa iniciado às {Fore.GREEN}{hora_atual}{Fore.WHITE}, aguarde{Style.RESET_ALL}")
     
@@ -43,15 +55,46 @@ def mapa_global():
     latitude = -23.550520
     longitude = -46.633308
 
-    # Função para carregar dados de um arquivo JSON
     def carregar_dados_arquivo(caminho):
+        """
+        Carrega dados de um arquivo JSON.
+        
+        Args:
+            caminho (str): Caminho para o arquivo JSON a ser carregado.
+            
+        Returns:
+            dict: Dados carregados do arquivo JSON.
+        """
         with open(caminho, 'r', encoding='utf-8') as arquivo:
             return json.load(arquivo)
 
     def criar_mapa(latitude, longitude, zoom):
+        """
+        Cria um mapa folium com as coordenadas e zoom especificados.
+        
+        Args:
+            latitude (float): Latitude do centro do mapa.
+            longitude (float): Longitude do centro do mapa.
+            zoom (int): Nível de zoom inicial do mapa.
+            
+        Returns:
+            folium.Map: Objeto de mapa folium.
+        """
         return folium.Map(location=[latitude, longitude], zoom_start=zoom)
 
     def adicionar_linha_no_mapa(geom, construcao, linha, abertura, system, cores_linhas, mapa):
+        """
+        Adiciona uma linha de transporte público ao mapa.
+        
+        Args:
+            geom (shapely.geometry): Geometria da linha.
+            construcao (str): Ano de construção da linha.
+            linha (str): Nome da linha.
+            abertura (str): Data de abertura da linha.
+            system (str): Sistema de transporte (Metroferroviário/Metrorrodoviário).
+            cores_linhas (dict): Dicionário com as cores das linhas.
+            mapa (folium.Map): Mapa onde a linha será adicionada.
+        """
         cor = None
         for linha_info in cores_linhas:
             if linha_info['name'] == linha:
@@ -74,6 +117,19 @@ def mapa_global():
         ).add_to(mapa)
 
     def iterate_geojson(geom, construcao, linha, abertura, system, cores_linhas, mapa, grupos):
+        """
+        Itera sobre geometrias GeoJSON, adicionando linhas ao mapa conforme o tipo de geometria.
+        
+        Args:
+            geom (shapely.geometry): Geometria a ser processada.
+            construcao (str): Ano de construção.
+            linha (str): Nome da linha.
+            abertura (str): Data de abertura.
+            system (str): Sistema de transporte.
+            cores_linhas (dict): Dicionário com as cores das linhas.
+            mapa (folium.Map): Mapa onde os elementos serão adicionados.
+            grupos (dict): Grupos de camadas do mapa.
+        """
         if geom.geom_type == 'LineString':
             adicionar_linha_no_mapa(geom, construcao, linha, abertura, system, cores_linhas, mapa)
         elif geom.geom_type == 'GeometryCollection':
@@ -81,6 +137,14 @@ def mapa_global():
                 iterate_geojson(geometry, construcao, linha, abertura, system, cores_linhas, mapa, grupos)
 
     def adicionar_secoes_no_mapa(gdf_sections, cores_linhas, mapa_trilhos_group):
+        """
+        Adiciona seções de linhas de transporte ao mapa a partir de um GeoDataFrame.
+        
+        Args:
+            gdf_sections (geopandas.GeoDataFrame): GeoDataFrame com as seções das linhas.
+            cores_linhas (dict): Dicionário com as cores das linhas.
+            mapa_trilhos_group (folium.FeatureGroup): Grupo de camadas para as linhas de transporte.
+        """
         for idx, row in gdf_sections.iterrows():
             lines = row.get('lines', '')
             construcao = row.get('buildstart', '')
@@ -94,6 +158,14 @@ def mapa_global():
                 adicionar_linha_no_mapa(geometry, construcao, linha_info, abertura, system, cores_linhas, mapa_trilhos_group)
 
     def adicionar_estacoes_no_mapa(gdf_stations, caminho_icones, mapa_trilhos_group):
+        """
+        Adiciona estações de transporte ao mapa a partir de um GeoDataFrame.
+        
+        Args:
+            gdf_stations (geopandas.GeoDataFrame): GeoDataFrame com as estações.
+            caminho_icones (dict): Dicionário com os caminhos dos ícones para cada linha.
+            mapa_trilhos_group (folium.FeatureGroup): Grupo de camadas para as estações.
+        """
         for idx, row in gdf_stations.iterrows():
             lines_info = json.loads(row.get('lines', '')) if 'lines' in row else []
 
@@ -116,6 +188,13 @@ def mapa_global():
             ).add_to(mapa_trilhos_group)
 
     def adicionar_shapes_sptrans(mapa, grupo):
+        """
+        Adiciona shapes (rotas) da SPTrans ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os shapes serão adicionados.
+            grupo (folium.FeatureGroup): Grupo de camadas para os shapes da SPTrans.
+        """
         shapes = {}
         caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\shapes.txt"
 
@@ -137,6 +216,13 @@ def mapa_global():
             folium.PolyLine(coordenadas, color='red').add_to(grupo)
 
     def adicionar_shapes_emtu(mapa, grupo_emtu):
+        """
+        Adiciona shapes (rotas) da EMTU ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os shapes serão adicionados.
+            grupo_emtu (folium.FeatureGroup): Grupo de camadas para os shapes da EMTU.
+        """
         shapes = {}
         caminho_arquivo_shapes = "Mapa_dos_Trilhos\\Gtfs_EMTU\\shapes.txt"
 
@@ -158,6 +244,13 @@ def mapa_global():
             folium.PolyLine(coordenadas, color='blue').add_to(grupo_emtu)
 
     def adicionar_pontos_emtu(mapa, paradas_emtu_group):
+        """
+        Adiciona pontos de parada da EMTU ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os pontos serão adicionados.
+            paradas_emtu_group (folium.FeatureGroup): Grupo de camadas para as paradas da EMTU.
+        """
         caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_EMTU\\stops.txt"
         dados_paradas = []
 
@@ -190,6 +283,13 @@ def mapa_global():
                 ).add_to(paradas_emtu_group)
 
     def adicionar_pontos_sptrans(mapa, paradas_sptrans_group):
+        """
+        Adiciona pontos de parada da SPTrans ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os pontos serão adicionados.
+            paradas_sptrans_group (folium.FeatureGroup): Grupo de camadas para as paradas da SPTrans.
+        """
         caminho_arquivo_stops = "Mapa_dos_Trilhos\\Gtfs_SPTRANS\\stops.txt"
         dados_paradas = []
 
@@ -222,7 +322,14 @@ def mapa_global():
                 ).add_to(paradas_sptrans_group)
 
     def adicionar_bicicletarios_no_mapa(mapa, bicicletarios_group):
-        bicicletarios_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
+        """
+        Adiciona bicicletários ao mapa a partir de um arquivo GeoJSON.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os bicicletários serão adicionados.
+            bicicletarios_group (folium.FeatureGroup): Grupo de camadas para os bicicletários.
+        """
+        bicicletarios_geojson = 'Mapa_dos_Trilhos\\Dados\\LL_WGS84_KMZ_bicicletarioparaciclo.geojson'
         with open(bicicletarios_geojson, 'r', encoding='utf-8') as f:
             bicicletarios_data = json.load(f)
             for feature in bicicletarios_data['features']:
@@ -241,7 +348,14 @@ def mapa_global():
                 ).add_to(bicicletarios_group)
 
     def adicionar_ciclovias_no_mapa(mapa, ciclovias_group):
-        ciclovias_geojson = 'Mapa_dos_Trilhos\\Data\\LL_WGS84_KMZ_redecicloviaria.json'
+        """
+        Adiciona ciclovias ao mapa a partir de um arquivo GeoJSON.
+        
+        Args:
+            mapa (folium.Map): Mapa onde as ciclovias serão adicionadas.
+            ciclovias_group (folium.FeatureGroup): Grupo de camadas para as ciclovias.
+        """
+        ciclovias_geojson = 'Mapa_dos_Trilhos\\Dados\\LL_WGS84_KMZ_redecicloviaria.json'
 
         with open(ciclovias_geojson, 'r', encoding='utf-8') as f:
             ciclovias_data = json.load(f)
@@ -267,6 +381,13 @@ def mapa_global():
                 ).add_to(ciclovias_group)
 
     def adicionar_qualidade_ar(mapa, ar_group):
+        """
+        Adiciona dados de qualidade do ar ao mapa usando a API da World Air Quality Index.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os dados serão adicionados.
+            ar_group (folium.FeatureGroup): Grupo de camadas para os dados de qualidade do ar.
+        """
         # Mapeamento de ícones
         icone_mapping = {
             "N1": "Mapa_dos_Trilhos\\Icons\\N1 - Boa.png",
@@ -286,7 +407,7 @@ def mapa_global():
         }
 
         # Carrega o arquivo JSON
-        with open('Mapa_dos_Trilhos\\Data\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
+        with open('Mapa_dos_Trilhos\\Dados\\dados_estacoes_medicoes.json', 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         # Cria um mapa
@@ -306,8 +427,16 @@ def mapa_global():
                                     verify=certifi.where())
             air_quality_data = response.json()
 
-            # Função para obter a classificação com base no índice
             def obter_classificacao(indice):
+                """
+                Retorna a classificação da qualidade do ar com base no índice.
+                
+                Args:
+                    indice (int): Índice de qualidade do ar.
+                    
+                Returns:
+                    str: Classificação da qualidade do ar (N1 a N5).
+                """
                 if indice <= 40:
                     return "N1"
                 elif 41 <= indice <= 80:
@@ -341,8 +470,15 @@ def mapa_global():
             ).add_to(ar_group)
 
     def od1987(mapa, od1987_group):
+        """
+        Adiciona dados de origem e destino de 1987 ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os dados serão adicionados.
+            od1987_group (folium.FeatureGroup): Grupo de camadas para os dados de 1987.
+        """
         # Carrega o arquivo JSON
-        with open('Mapa_dos_Trilhos\\Data\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Dados\\ZonasOD87_region.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -378,8 +514,15 @@ def mapa_global():
                 ).add_to(od1987_group)
 
     def od1997(mapa, od1997_group):
+        """
+        Adiciona dados de origem e destino de 1997 ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os dados serão adicionados.
+            od1997_group (folium.FeatureGroup): Grupo de camadas para os dados de 1997.
+        """
         # Carrega o arquivo JSON
-        with open('Mapa_dos_Trilhos\\Data\\zonas97_region.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Dados\\zonas97_region.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -445,8 +588,15 @@ def mapa_global():
                 ).add_to(od1997_group)
 
     def od2007(mapa, od2007_group):
+        """
+        Adiciona dados de origem e destino de 2007 ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os dados serão adicionados.
+            od2007_group (folium.FeatureGroup): Grupo de camadas para os dados de 2007.
+        """
         # Carrega o arquivo JSON
-        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Dados\\SIRGAS_SHP_origemdestino_2007.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -486,8 +636,15 @@ def mapa_global():
                 ).add_to(od2007_group)
 
     def od2017(mapa, od2017_group):
+        """
+        Adiciona dados de origem e destino de 2017 ao mapa.
+        
+        Args:
+            mapa (folium.Map): Mapa onde os dados serão adicionados.
+            od2017_group (folium.FeatureGroup): Grupo de camadas para os dados de 2017.
+        """
         # Carrega o arquivo JSON
-        with open('Mapa_dos_Trilhos\\Data\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
+        with open('Mapa_dos_Trilhos\\Dados\\SIRGAS_SHP_origemdestino_2017.json', 'r', encoding='utf-8') as f:
             seus_dados = json.load(f)
 
         # Define o transformer para converter de UTM para WGS84
@@ -527,9 +684,22 @@ def mapa_global():
                 ).add_to(od2017_group)
                 
     def salvar_mapa_como_html(mapa, nome_arquivo):
+        """
+        Salva o mapa como um arquivo HTML.
+        
+        Args:
+            mapa (folium.Map): Mapa a ser salvo.
+            nome_arquivo (str): Caminho do arquivo HTML de saída.
+        """
         mapa.save(nome_arquivo)
 
     def abrir_mapa_no_navegador(nome_arquivo):
+        """
+        Abre o arquivo HTML do mapa no navegador padrão.
+        
+        Args:
+            nome_arquivo (str): Caminho do arquivo HTML a ser aberto.
+        """
         webbrowser.open(nome_arquivo)
 
     # Cria um mapa
@@ -554,15 +724,15 @@ def mapa_global():
     paradas_emtu_group = MarkerCluster(name='Paradas de Ônibus - EMTU', show=False).add_to(m)
 
     # Carrega os dados necessários
-    cores_linhas = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\sao-paulo_lines_systems_and_modes.json')
-    caminho_icones = carregar_dados_arquivo('Mapa_dos_Trilhos\\Data\\caminho_icones.json')
+    cores_linhas = carregar_dados_arquivo('Mapa_dos_Trilhos\\Dados\\sao-paulo_lines_systems_and_modes.json')
+    caminho_icones = carregar_dados_arquivo('Mapa_dos_Trilhos\\Dados\\caminho_icones.json')
 
     # Carrega o arquivo GeoJSON com as seções
-    geojson_file_sections = 'Mapa_dos_Trilhos\\Data\\sao-paulo_sections.geojson'
+    geojson_file_sections = 'Mapa_dos_Trilhos\\Dados\\sao-paulo_sections.geojson'
     gdf_sections = gpd.read_file(geojson_file_sections)
 
     # Carrega o arquivo GeoJSON com as estações
-    geojson_file_stations = 'Mapa_dos_Trilhos\\Data\\sao-paulo_stations.geojson'
+    geojson_file_stations = 'Mapa_dos_Trilhos\\Dados\\sao-paulo_stations.geojson'
     gdf_stations = gpd.read_file(geojson_file_stations)
 
     # Adiciona as seções ao mapa

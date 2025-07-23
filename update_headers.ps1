@@ -19,7 +19,7 @@ METADADOS:
 __author__      = "Rafael Barbosa"
 __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
-__version__     = "1.1.6"
+__version__     = "1.1.7"
 __maintainer__  = "https://github.com/Rafabs"
 __modified__    = "$formattedDate"
 

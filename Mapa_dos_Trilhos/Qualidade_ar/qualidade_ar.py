@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,13 +9,14 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "14/07/2025 18:02"
+__modified__    = "22/07/2025 17:24"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
 ARQUITETURA:
     Mapa_dos_Trilhos/Qualidade_ar/qualidade_ar.py
 """
+
 from PyQt5 import QtWidgets, QtWebEngineWidgets, QtCore
 from PyQt5.QtWidgets import (QLabel, QPushButton, QTextEdit, QVBoxLayout, 
                             QWidget, QApplication, QHBoxLayout, QFrame)
@@ -60,7 +61,18 @@ from Mapa_dos_Trilhos.utils.logger_config import configurar_logger
 configurar_logger()
 
 def mapa_qualidade_ar():
-    """Executa o script de qualidade do ar de forma segura"""
+    """Executa o script de qualidade do ar de forma segura como um subprocesso.
+    
+    Esta função:
+    - Inicia o logging da operação
+    - Executa o script atual como um subprocesso
+    - Captura e registra a saída e erros
+    - Trata possíveis erros de execução
+    
+    Raises:
+        subprocess.CalledProcessError: Se o subprocesso retornar código de erro
+        Exception: Para erros inesperados durante a execução
+    """
     try:
         logging.info("Abrindo Mapa de Qualidade do Ar")
         
@@ -93,6 +105,21 @@ def mapa_qualidade_ar():
         print(error_msg)
 
 def obter_classificacao(indice):
+    """Classifica a qualidade do ar com base no índice AQI.
+    
+    Args:
+        indice (int): Valor do índice de qualidade do ar (AQI)
+        
+    Returns:
+        str: Classificação da qualidade do ar (N1 a N5)
+        
+    Escala:
+        N1 (0-40): Boa
+        N2 (41-80): Moderada
+        N3 (81-120): Ruim
+        N4 (121-200): Muito Ruim
+        N5 (>200): Péssima
+    """
     if indice <= 40:
         return "N1"
     elif 41 <= indice <= 80:
@@ -105,7 +132,19 @@ def obter_classificacao(indice):
         return "N5"
 
 class QualidadeArApp(QWidget):
+    """Aplicação principal para monitoramento da qualidade do ar.
+    
+    Atributos:
+        timer (QTimer): Temporizador para atualizações periódicas
+        webview (QWebEngineView): Visualizador do mapa Folium
+        resultado_text (QTextEdit): Área de log de operações
+        status_label (QLabel): Exibição do status da última atualização
+        figure (matplotlib.figure): Figura para o gráfico de distribuição
+        canvas (FigureCanvas): Canvas para renderizar o gráfico
+    """
+    
     def __init__(self):
+        """Inicializa a aplicação com configuração de interface e componentes."""
         super().__init__()
         self.setWindowTitle("Qualidade do Ar - São Paulo")
         monitor = get_monitors()[0]
@@ -160,7 +199,17 @@ class QualidadeArApp(QWidget):
         self.timer.start(300000)
 
     def criar_legenda(self):
-        """Cria e retorna um widget com a legenda dos níveis de qualidade"""
+        """Cria e retorna um widget com a legenda dos níveis de qualidade do ar.
+        
+        Returns:
+            QFrame: Widget contendo a legenda com ícones e descrições
+            
+        A legenda inclui:
+            - Ícones representando cada nível
+            - Descrição textual do nível
+            - Faixa de valores do índice AQI
+            - Cores indicativas
+        """
         legenda_frame = QFrame()
         legenda_frame.setFrameShape(QFrame.StyledPanel)
         legenda_layout = QHBoxLayout(legenda_frame)
@@ -198,6 +247,19 @@ class QualidadeArApp(QWidget):
         return legenda_frame
 
     def gerar_mapa_qualidade_ar(self):
+        """Atualiza o mapa e gráficos com os dados mais recentes da qualidade do ar.
+        
+        Esta função:
+        1. Carrega os dados das estações de medição
+        2. Consulta a API de qualidade do ar para cada estação
+        3. Atualiza o mapa interativo com marcadores coloridos
+        4. Gera gráfico de distribuição dos níveis de qualidade
+        5. Atualiza a interface com os resultados
+        
+        Tratamento de erros:
+            - Registra falhas no log de texto
+            - Atualiza o status_label em caso de erro
+        """
         icone_mapping = {
             "N1": "Mapa_dos_Trilhos/Icons/N1 - Boa.png",
             "N2": "Mapa_dos_Trilhos/Icons/N2 - Moderada.png",
@@ -274,6 +336,14 @@ class QualidadeArApp(QWidget):
             self.status_label.setText("Erro ao atualizar o mapa.")
 
     def keyPressEvent(self, event):
+        """Manipula eventos de teclado.
+        
+        Args:
+            event (QKeyEvent): Evento de teclado
+            
+        Comportamento:
+            - Tecla ESC: Fecha a aplicação e registra no log
+        """
         if event.key() == Qt.Key_Escape:
             with open('Mapa_dos_Trilhos/log.log', 'a', encoding='utf-8') as f:
                 f.write(f"{datetime.now()} - Fechando Mapa de Qualidade do Ar\n")

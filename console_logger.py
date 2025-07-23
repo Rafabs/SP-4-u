@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-$128/06/2025 15:56"
+__modified__    = "22/07/2025 01:55"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -24,18 +24,41 @@ from datetime import datetime
 import sys
 
 class ConsoleSignals(QObject):
-    """Sinais para comunicação thread-safe"""
+    """Classe de sinais para comunicação thread-safe entre threads e o widget de console.
+    
+    Attributes:
+        log_received (pyqtSignal): Sinal emitido quando uma nova mensagem de log é recebida.
+            Parâmetros:
+                str: Nível do log (INFO, WARNING, ERROR, etc.)
+                str: Mensagem de log formatada
+    """
     log_received = pyqtSignal(str, str)  # level, message
 
 class ConsoleLogHandler(logging.Handler):
-    """Handler personalizado para enviar logs ao widget de console"""
+    """Handler personalizado para enviar logs ao widget de console de forma thread-safe.
+    
+    Attributes:
+        console_widget (ConsoleLogger): Referência ao widget de console que receberá os logs.
+    """
+    
     def __init__(self, console_widget):
+        """Inicializa o handler com referência ao widget de console.
+        
+        Args:
+            console_widget (ConsoleLogger): Widget que exibirá os logs.
+        """
         super().__init__()
         self.console_widget = console_widget
         self.setFormatter(logging.Formatter('%(message)s'))
         
     def emit(self, record):
-        """Envia a mensagem de log para o widget de console"""
+        """Processa e envia a mensagem de log para o widget de console.
+        
+        Implementação do método abstrato da classe logging.Handler.
+        
+        Args:
+            record (logging.LogRecord): Objeto contendo informações do log.
+        """
         try:
             msg = self.format(record)
             self.console_widget.append_log(record.levelname, msg)
@@ -43,8 +66,33 @@ class ConsoleLogHandler(logging.Handler):
             sys.__stderr__.write(f"Erro no ConsoleLogHandler: {str(e)}\n")
 
 class ConsoleLogger(QPlainTextEdit):
-    """Widget de console com cores diferenciadas para timestamp, nível e mensagem"""
+    """Widget de console personalizado para exibição de logs com formatação diferenciada.
+    
+    Implementa um console de logs com as seguintes características:
+    - Cores diferentes para timestamp, nível de log e mensagem
+    - Bufferização para melhor performance
+    - Auto-scroll configurável
+    - Thread-safe para operações concorrentes
+    
+    Attributes:
+        signals (ConsoleSignals): Objeto de sinais para comunicação thread-safe
+        base_format (QTextCharFormat): Formatação base para o texto do console
+        timestamp_format (QTextCharFormat): Formatação para timestamps
+        level_formats (dict): Mapeamento de formatos por nível de log
+        message_format (QTextCharFormat): Formatação para mensagens de log
+        log_buffer (list): Buffer de mensagens para exibição
+        auto_scroll (bool): Flag para controle de auto-scroll
+        user_scrolled (bool): Flag indicando se usuário fez scroll manual
+        scroll_bar (QScrollBar): Barra de rolagem do widget
+        buffer_timer (QTimer): Timer para exibição do buffer
+    """
+    
     def __init__(self, parent=None):
+        """Inicializa o widget de console.
+        
+        Args:
+            parent (QWidget, optional): Widget pai. Defaults to None.
+        """
         super().__init__(parent)
         self.signals = ConsoleSignals()
         self._setup_format_palette()  # Configura paleta de cores
@@ -53,7 +101,13 @@ class ConsoleLogger(QPlainTextEdit):
         self._setup_auto_scroll()
         
     def _setup_format_palette(self):
-        """Configura as cores para cada parte do log"""
+        """Configura as formatações de texto para cada parte do log.
+        
+        Define cores e estilos para:
+        - Timestamp
+        - Níveis de log (INFO, WARNING, ERROR, etc.)
+        - Mensagens
+        """
         # Formato base (comum a todas as partes)
         self.base_format = QTextCharFormat()
         self.base_format.setFontFamily("Consolas")
@@ -77,7 +131,15 @@ class ConsoleLogger(QPlainTextEdit):
         self.message_format.setForeground(QColor('#DDDDDD'))  # Branco acinzentado
         
     def _create_level_format(self, color, bold=False):
-        """Cria formatação para o nível do log"""
+        """Cria uma formatação de texto para um nível de log específico.
+        
+        Args:
+            color (str): Código hexadecimal da cor
+            bold (bool, optional): Se o texto deve ser em negrito. Defaults to False.
+            
+        Returns:
+            QTextCharFormat: Objeto de formatação configurado
+        """
         fmt = QTextCharFormat(self.base_format)
         fmt.setForeground(QColor(color))
         if bold:
@@ -85,7 +147,7 @@ class ConsoleLogger(QPlainTextEdit):
         return fmt
         
     def _initialize_ui(self):
-        """Configura a aparência do widget"""
+        """Configura a aparência e propriedades básicas do widget."""
         self.setReadOnly(True)
         self.setLineWrapMode(QPlainTextEdit.NoWrap)
         self.setStyleSheet("""
@@ -99,14 +161,18 @@ class ConsoleLogger(QPlainTextEdit):
         self.log_buffer = []
         
     def _initialize_logging(self):
-        """Configura o handler de logging"""
+        """Configura o handler de logging e conecta os sinais."""
         console_handler = ConsoleLogHandler(self)
         console_handler.setLevel(logging.INFO)
         logging.getLogger().addHandler(console_handler)
         self.signals.log_received.connect(self._append_log_threadsafe)
 
     def _setup_auto_scroll(self):
-        """Configura o sistema de auto-scroll"""
+        """Configura o sistema de auto-scroll e bufferização de mensagens.
+        
+        Cria um timer para exibição periódica do buffer e conecta sinais
+        para controle do comportamento de scroll.
+        """
         self.auto_scroll = True
         self.user_scrolled = False
         self.scroll_bar = self.verticalScrollBar()
@@ -116,7 +182,12 @@ class ConsoleLogger(QPlainTextEdit):
         self.buffer_timer.start(100)
 
     def _append_log_threadsafe(self, level, message):
-        """Adiciona log ao buffer de forma thread-safe"""
+        """Adiciona uma mensagem de log ao buffer de forma thread-safe.
+        
+        Args:
+            level (str): Nível do log (INFO, WARNING, etc.)
+            message (str): Mensagem de log
+        """
         try:
             safe_msg = self._process_message(message)
             timestamp = datetime.now().strftime("%H:%M:%S")
@@ -129,7 +200,14 @@ class ConsoleLogger(QPlainTextEdit):
             self.log_buffer.append(('ERROR', datetime.now().strftime("%H:%M:%S"), error_msg))
 
     def _process_message(self, message):
-        """Processa a mensagem para exibição segura"""
+        """Processa a mensagem para garantir exibição segura no console.
+        
+        Args:
+            message (str): Mensagem original
+            
+        Returns:
+            str: Mensagem processada e sanitizada
+        """
         if not isinstance(message, str):
             try:
                 message = str(message)
@@ -138,7 +216,7 @@ class ConsoleLogger(QPlainTextEdit):
         return ' '.join(message.split())
 
     def _flush_buffer(self):
-        """Exibe os logs do buffer com formatação diferenciada"""
+        """Exibe as mensagens acumuladas no buffer com formatação diferenciada."""
         if not self.log_buffer:
             return
             
@@ -164,20 +242,29 @@ class ConsoleLogger(QPlainTextEdit):
             self.ensureCursorVisible()
         
     def _check_scroll_position(self, value):
-        """Verifica se o usuário está rolando manualmente"""
+        """Verifica a posição do scroll para determinar se foi ação do usuário.
+        
+        Args:
+            value (int): Posição atual da barra de scroll
+        """
         max_scroll = self.scroll_bar.maximum()
         self.user_scrolled = value < max_scroll - 10
 
     def append_log(self, level, message):
-        """Interface pública para adicionar logs"""
+        """Interface pública para adicionar logs ao console.
+        
+        Args:
+            level (str): Nível do log (INFO, WARNING, etc.)
+            message (str): Mensagem de log
+        """
         self.signals.log_received.emit(level, message)
 
     def copy_to_clipboard(self):
-        """Copia todo o conteúdo do console para a área de transferência"""
+        """Copia todo o conteúdo do console para a área de transferência."""
         clipboard = QApplication.clipboard()
         clipboard.setText(self.toPlainText())
 
     def clear(self):
-        """Limpa todo o conteúdo do console"""
+        """Limpa todo o conteúdo do console e o buffer de mensagens."""
         super().clear()
         self.log_buffer.clear()

@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "16/07/2025 01:48"
+__modified__    = "22/07/2025 16:40"
 
 DESCRITIVO:
 MÃ³dulo de funcionalidades especÃ­ficas
@@ -232,8 +232,8 @@ class MapaLinhaWindow(QMainWindow):
             return QColor("#00AA00")  # Verde
         elif any(word in status for word in ["Paralisada", "Interrompida", "Encerrada"]):
             return QColor("#FF0000")  # Vermelho
-        elif any(word in status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
-            return QColor("#FFA500")  # Laranja
+        elif any(word in status for word in ["Velocidade reduzida", "Operação parcial", "Operação com Impacto Pontual", "Atividade Programada"]):
+            return QColor("#E5FF00")  # Amarelo
         return QColor("#FFFFFF")  # Branco (padrão)
     
     def data_extenso(self):

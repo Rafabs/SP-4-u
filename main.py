@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "16/07/2025 01:47"
+__modified__    = "22/07/2025 16:40"
 
 DESCRITIVO:
 Ponto de entrada principal do sistema SAMPA 4U - AplicaÃ§Ã£o Qt que consolida:
@@ -76,6 +76,13 @@ except locale.Error:
 
 
 def excepthook(exc_type, exc_value, exc_tb):
+    """Hook para tratamento de exceções não capturadas.
+    
+    Args:
+        exc_type: Tipo da exceção
+        exc_value: Valor da exceção
+        exc_tb: Traceback da exceção
+    """
     tb = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
     logging.critical(f"Exceção não tratada:\n{tb}")
     QMessageBox.critical(
@@ -95,6 +102,7 @@ sys.path.extend([
 
 
 def log_close_time():
+    """Registra o horário de fechamento do programa no log."""
     logging.info(f"{'=' * 30} PROGRAMA FECHADO {'=' * 30}")
 
 
@@ -102,7 +110,11 @@ atexit.register(log_close_time)
 
 
 def dados_usuario():
-    """Coleta e exibe informações do sistema"""
+    """Coleta e exibe informações do sistema do usuário.
+    
+    Mostra informações como sistema operacional, diretório atual, versão do Python,
+    processador e outros dados relevantes para diagnóstico.
+    """
     hora_atual = datetime.now().strftime("%d/%m/%Y | %H:%M:%S")
     print(f"=" * 30, "INFORMAÇÕES DO USUÁRIO", "=" * 30)
     print(hora_atual)
@@ -126,12 +138,31 @@ def dados_usuario():
 
 
 class StreamToLogger:
+    """Classe para redirecionar stdout/stderr para o sistema de logging.
+    
+    Attributes:
+        logger (logging.Logger): Instância do logger para redirecionamento
+        log_level (int): Nível de log (INFO, ERROR, etc.)
+        buffer (str): Buffer para armazenamento temporário de mensagens
+    """
+
     def __init__(self, logger, log_level=logging.INFO):
+        """Inicializa o StreamToLogger.
+        
+        Args:
+            logger: Instância do logger
+            log_level: Nível de log padrão (default: logging.INFO)
+        """
         self.logger = logger
         self.log_level = log_level
         self.buffer = ''
 
     def write(self, buf):
+        """Escreve no buffer e envia para o logger quando houver quebra de linha.
+        
+        Args:
+            buf: Mensagem a ser escrita no buffer
+        """
         try:
             if buf and buf.strip():
                 self.buffer += buf
@@ -144,6 +175,7 @@ class StreamToLogger:
             sys.__stderr__.write(f"Conteúdo do buffer: {self.buffer}\n")
 
     def flush(self):
+        """Força o envio do buffer restante para o logger."""
         if self.buffer.strip():
             self.logger.log(self.log_level, self.buffer.strip())
             self.buffer = ''
@@ -155,10 +187,13 @@ LOG_FILE = LOG_DIR / "log.log"
 
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-# Configuração completa do logging
-
 
 def setup_logging():
+    """Configura o sistema de logging da aplicação.
+    
+    Cria handlers para arquivo de log e redirecionamento de stdout/stderr.
+    Configura rotação de logs com tamanho máximo de 5MB e 3 backups.
+    """
     # Remove todos os handlers existentes
     root_logger = logging.getLogger()
     for handler in root_logger.handlers[:]:
@@ -201,12 +236,32 @@ with open(base_dir / 'Mapa_dos_Trilhos' / 'Linhas' / 'subtitle.json', 'r', encod
 
 
 def abrir_link(url):
+    """Abre um URL no navegador padrão do sistema.
+    
+    Args:
+        url: URL a ser aberto
+    """
     url = re.sub(r'/[^/]*$', '', url)
     webbrowser.open_new(url)
 
 
 class NewsWidget(QWidget):
+    """Widget para exibição de notícias sobre transporte público.
+    
+    Attributes:
+        layout (QHBoxLayout): Layout principal do widget
+        title_label (QLabel): Label com título da notícia
+    """
+
     def __init__(self, title, link, image_url=None, parent=None):
+        """Inicializa o NewsWidget.
+        
+        Args:
+            title: Título da notícia
+            link: URL da notícia
+            image_url: URL da imagem (opcional)
+            parent: Widget pai (opcional)
+        """
         super().__init__(parent)
         self.setStyleSheet("""
             QWidget {
@@ -242,7 +297,21 @@ class NewsWidget(QWidget):
 
 
 class MainWindow(QMainWindow):
+    """Classe principal da janela da aplicação SAMPA 4U.
+    
+    Attributes:
+        central_widget (QWidget): Widget central da janela
+        main_layout (QHBoxLayout): Layout principal
+        left_layout (QVBoxLayout): Layout do painel esquerdo
+        center_layout (QVBoxLayout): Layout do painel central
+        right_layout (QVBoxLayout): Layout do painel direito
+        screen_width (int): Largura da tela
+        screen_height (int): Altura da tela
+        console_logger (ConsoleLogger): Logger para console integrado
+    """
+
     def __init__(self):
+        """Inicializa a janela principal com todos os componentes."""
         super().__init__()
         self.setWindowTitle("SAMPA 4U")
         icon_path = BASE_DIR / "Mapa_dos_Trilhos" / "Favicon" / "SP4U_LOGO.ico"
@@ -287,7 +356,11 @@ class MainWindow(QMainWindow):
         self.setup_console_logger()
 
     def setup_console_logger(self):
-        """Configura o console de logs com controles"""
+        """Configura o console de logs integrado na interface.
+        
+        Cria um painel de logs com controles para limpar, copiar e ativar/desativar
+        auto-scroll. Conecta o logger da GUI ao root logger do Python.
+        """
         self.console_logger = ConsoleLogger()
 
         # Cria logger específico para a GUI
@@ -352,15 +425,30 @@ class MainWindow(QMainWindow):
         logging.info("Console de logs inicializado")
 
     def abrir_pesquisa_od(self):
-        """Abre a janela de Pesquisa OD como diálogo modal"""
+        """Abre a janela de Pesquisa Origem-Destino (OD) como diálogo modal."""
         from Pesquisa_od.pesquisa_od import pesquisa_od_metro
         pesquisa_od_metro(self)
 
     def setup_top_frames(self):
+        """Configura os frames superiores do painel esquerdo.
+        
+        Cria grupos de botões para mapas, sistemas de busca, guias do usuário,
+        pesquisas e qualidade do ar.
+        """
         self.left_layout.setSpacing(5)
         self.left_layout.setContentsMargins(5, 5, 5, 5)
 
         def criar_frame(titulo, altura_max, largura_max):
+            """Função auxiliar para criar frames com estilo consistente.
+            
+            Args:
+                titulo: Título do frame
+                altura_max: Altura máxima do frame
+                largura_max: Largura máxima do frame
+                
+            Returns:
+                Tuple: (frame, layout) criados
+            """
             frame = QGroupBox(titulo)
             frame.setStyleSheet(
                 "QGroupBox { font-weight: bold; padding: 8px; }")
@@ -413,7 +501,16 @@ class MainWindow(QMainWindow):
         self.left_layout.addWidget(frame_qualidade_ar)
 
     def get_line_status(self, line_name):
-        """Obtém o status da linha a partir do web scraping"""
+        """Obtém o status atual de uma linha de transporte.
+        
+        Realiza web scraping para obter o status em tempo real das linhas do metrô e CPTM.
+        
+        Args:
+            line_name: Nome da linha (ex: "Azul", "Rubi")
+            
+        Returns:
+            str: Status da linha ou "Em implantação" para linhas não encontradas
+        """
         # Mapeamento de nomes para os sistemas
         metro_lines = {
             "Azul": "1",
@@ -458,6 +555,17 @@ class MainWindow(QMainWindow):
         return "Em implantação"
 
     def criar_botao(self, parent, text, command, bg, fg, hovercolor, modulo=None):
+        """Cria um botão personalizado com status de módulo opcional.
+        
+        Args:
+            parent: Layout pai onde o botão será adicionado
+            text: Texto do botão
+            command: Função a ser chamada no clique
+            bg: Cor de fundo do botão
+            fg: Cor do texto do botão
+            hovercolor: Cor quando o mouse está sobre o botão
+            modulo: Nome do módulo para verificação de status (opcional)
+        """
         container = QWidget()
         container_layout = QHBoxLayout(container)
 
@@ -485,6 +593,12 @@ class MainWindow(QMainWindow):
         parent.addWidget(container)
 
     def atualizar_status(self, label, modulo):
+        """Atualiza o status de um módulo exibido como um indicador circular.
+        
+        Args:
+            label: QLabel onde o status será exibido
+            modulo: Nome do módulo a ser verificado
+        """
         try:
             cor = "green" if self.verificar_modulo(modulo) else "red"
         except Exception as e:
@@ -504,6 +618,14 @@ class MainWindow(QMainWindow):
         QTimer.singleShot(2000, lambda: self.atualizar_status(label, modulo))
 
     def verificar_modulo(self, modulo):
+        """Verifica se um módulo existe e contém arquivos válidos.
+        
+        Args:
+            modulo: Nome do módulo/diretório a ser verificado
+            
+        Returns:
+            bool: True se o módulo existe e contém arquivos válidos, False caso contrário
+        """
         def normalizar_nome(nome: str) -> str:
             return nome.lower().replace("_", "").replace(" ", "")
 
@@ -556,6 +678,10 @@ class MainWindow(QMainWindow):
         return False
 
     def setup_news_area(self):
+        """Configura a área de notícias na interface.
+        
+        Cria um scroll area para exibição de notícias sobre transporte público.
+        """
         news_label = QLabel("Notícias:")
         news_label.setStyleSheet("font-weight: bold;")
         self.center_layout.addWidget(news_label)
@@ -577,6 +703,11 @@ class MainWindow(QMainWindow):
         self.center_layout.addWidget(self.msg_noticias)
 
     def exibir_noticias(self):
+        """Exibe notícias sobre transporte público na área designada.
+        
+        Obtém notícias da função notice_transp_sao_paulo() e as exibe em widgets
+        individuais com links clicáveis.
+        """
         noticias = notice_transp_sao_paulo()
 
         if noticias is not None:
@@ -601,6 +732,10 @@ class MainWindow(QMainWindow):
             self.msg_noticias.setText("Nenhuma notícia encontrada.")
 
     def setup_line_buttons(self):
+        """Configura os botões das linhas de transporte no painel direito.
+        
+        Carrega dados das linhas e cria botões coloridos para cada linha do metrô e trem.
+        """
         base_path = os.path.dirname(os.path.abspath(__file__))
         mapa_path = base_path
 
@@ -667,6 +802,14 @@ class MainWindow(QMainWindow):
                                "white", "L17", None, None, "VIAMOBILIDADE")
 
     def load_routes(self, filepath):
+        """Carrega dados das rotas a partir de um arquivo routes.txt.
+        
+        Args:
+            filepath: Caminho para o arquivo routes.txt
+            
+        Returns:
+            dict: Dicionário com informações das rotas (origem e destino)
+        """
         routes = {}
 
         if not os.path.exists(filepath):
@@ -706,6 +849,18 @@ class MainWindow(QMainWindow):
         return routes
 
     def setup_line_button(self, text, command, bg, fg, route_key, colored_icon_path=None, icon_path=None, operator=None):
+        """Configura um botão de linha de transporte com informações detalhadas.
+        
+        Args:
+            text: Nome da linha
+            command: Função a ser chamada no clique
+            bg: Cor de fundo do botão
+            fg: Cor do texto do botão
+            route_key: Chave para buscar informações da rota
+            colored_icon_path: Caminho para ícone colorido (opcional)
+            icon_path: Caminho para ícone padrão (opcional)
+            operator: Operadora da linha (opcional)
+        """
         container = QWidget()
         container.setStyleSheet("background-color: transparent;")
         layout = QVBoxLayout(container)
@@ -724,8 +879,8 @@ class MainWindow(QMainWindow):
             bg_color = "#00AA00"  # Verde
         elif any(word in line_status for word in ["Paralisada", "Interrompida"]):
             bg_color = "#FF0000"  # Vermelho
-        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
-            bg_color = "#FFA500"  # Laranja
+        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Operação com Impacto Pontual", "Atividade Programada"]):
+            bg_color = "#E5FF00" # Amarelo
         elif any(word in line_status for word in ["Dados Indisponíveis", "Em implantação", "Encerrada"]):
             bg_color = "#949494"  # Cinza
         else:
@@ -735,7 +890,7 @@ class MainWindow(QMainWindow):
         status_label.setStyleSheet(f"""
             QLabel {{
                 background-color: {bg_color};
-                color: white;
+                color: black;
                 font: bold 9pt;
                 padding: 2px 8px;
                 border-radius: 8px;
@@ -745,7 +900,6 @@ class MainWindow(QMainWindow):
         
         layout.addWidget(status_label)
 
-        # Restante do método permanece igual...
         button_row = QWidget()
         row_layout = QHBoxLayout(button_row)
         row_layout.setContentsMargins(0, 0, 0, 0)
@@ -829,6 +983,10 @@ class MainWindow(QMainWindow):
         self.right_layout.addWidget(container)
 
     def setup_footer(self):
+        """Configura o rodapé da janela principal.
+        
+        Adiciona informações de data/hora e condições climáticas atualizadas em tempo real.
+        """
         footer = QWidget()
         footer.setStyleSheet("background-color: #333333;")
         footer_layout = QHBoxLayout(footer)
@@ -902,6 +1060,7 @@ class MainWindow(QMainWindow):
         footer.setVisible(True)
 
     def update_temp(self):
+        """Atualiza as informações de temperatura e clima no rodapé."""
         try:
             weather_data = get_weather()
 
@@ -921,6 +1080,13 @@ class MainWindow(QMainWindow):
             self.icon_label.clear()
 
     def setup_updates(self):
+        """Configura os timers para atualizações automáticas.
+        
+        Inicializa timers para atualização de:
+        - Data e hora
+        - Temperatura e clima
+        - Status das linhas de transporte
+        """
         self.datetime_timer = QTimer(self)
         self.datetime_timer.timeout.connect(self.update_datetime)
         self.datetime_timer.start(1000)
@@ -936,7 +1102,11 @@ class MainWindow(QMainWindow):
         self.update_line_statuses()  # Atualiza imediatamente
 
     def update_line_statuses(self):
-        """Atualiza os status de todas as linhas"""
+        """Atualiza os status de todas as linhas de transporte.
+        
+        Percorre todos os widgets no painel direito para atualizar os status
+        das linhas com base nos dados obtidos em tempo real.
+        """
         logging.info("Atualizando status das linhas...")
         # Percorre todos os widgets no right_layout para atualizar os status
         for i in range(self.right_layout.count()):
@@ -958,8 +1128,8 @@ class MainWindow(QMainWindow):
                             status_color = "#00AA00"  # Verde
                         elif any(word in line_status for word in ["Paralisada", "Interrompida"]):
                             status_color = "#FF0000"  # Vermelho
-                        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Atividade Programada"]):
-                            status_color = "#FFA500"  # Laranja
+                        elif any(word in line_status for word in ["Velocidade reduzida", "Operação parcial", "Operação com Impacto Pontual", "Atividade Programada"]):
+                            status_color = "#E5FF00"  # Laranja
                         elif any(word in line_status for word in ["Dados Indisponíveis", "Em implantação", "Encerrada"]):
                             status_color = "#949494"  # Cinza
 
@@ -968,11 +1138,17 @@ class MainWindow(QMainWindow):
                             f"font: bold 9pt; color: {status_color}; padding: 4px;")
 
     def update_datetime(self):
+        """Atualiza a exibição de data e hora no rodapé."""
         now = QDateTime.currentDateTime()
         formatted_datetime = f"📅 {now.toString('dd/MM/yyyy')}\n🕒 {now.toString('HH:mm')}"
         self.datetime_label.setText(formatted_datetime)
 
     def keyPressEvent(self, event):
+        """Trata eventos de teclado, especialmente o ESC para fechar a aplicação.
+        
+        Args:
+            event: Evento de tecla pressionada
+        """
         if event.key() == Qt.Key_Escape:
             # Cria uma caixa de diálogo de confirmação
             reply = QMessageBox.question(

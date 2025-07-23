@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "14/07/2025 18:02"
+__modified__    = "22/07/2025 17:40"
 
 DESCRITIVO:
 MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
@@ -24,6 +24,7 @@ MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
 ARQUITETURA:
     Mapa_dos_Trilhos/Pesquisa_pass/pesquisa_pass.py
 """
+
 import pandas as pd
 import sys
 import matplotlib
@@ -58,7 +59,18 @@ from Mapa_dos_Trilhos.utils.logger_config import configurar_logger
 configurar_logger()
 
 class ODApp(QMainWindow):
+    """Aplicação principal para análise de demanda de passageiros.
+    
+    Atributos:
+        df (DataFrame): Dados de demanda de passageiros
+        data (dict): Dados de linhas e estações em formato JSON
+        linhas_dict (dict): Mapeamento de linhas disponíveis
+        estacoes_dict (dict): Mapeamento de estações disponíveis
+        mapa_linhas (dict): Mapeamento entre nomes de linhas e códigos
+    """
+    
     def __init__(self):
+        """Inicializa a aplicação com configuração de interface e carregamento de dados."""
         super().__init__()
         self.setWindowTitle("Demanda de Passageiros - METRÔ-SP")
         self.setWindowIcon(QIcon('metro_icon.png'))
@@ -74,7 +86,12 @@ class ODApp(QMainWindow):
         self.setGeometry(0, 0, monitor.width, monitor.height)
         
     def load_data(self):
-        """Carrega os dados do CSV e JSON com tratamento robusto de erros"""
+        """Carrega os dados do CSV e JSON com tratamento robusto de erros.
+        
+        Raises:
+            FileNotFoundError: Se os arquivos de dados não forem encontrados
+            ValueError: Se os dados carregados estiverem vazios ou inválidos
+        """
         try:
             # Caminhos corrigidos usando pathlib
             csv_path = Path(__file__).parent.parent / "Demanda_Passageiros" / "data_passenger.csv"
@@ -127,7 +144,7 @@ class ODApp(QMainWindow):
             self.estacoes_dict = {}
     
     def setup_ui(self):
-        """Configura a interface do usuário"""
+        """Configura a interface do usuário com todos os componentes visuais."""
         # Widget central
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -147,7 +164,11 @@ class ODApp(QMainWindow):
         self.setup_styles()
     
     def setup_control_bar(self, parent_layout):
-        """Configura a barra de controle com comboboxes"""
+        """Configura a barra de controle superior com comboboxes e botões.
+        
+        Args:
+            parent_layout (QLayout): Layout pai onde a barra será adicionada
+        """
         control_frame = QFrame()
         control_frame.setFrameShape(QFrame.StyledPanel)
         control_layout = QHBoxLayout(control_frame)
@@ -181,7 +202,11 @@ class ODApp(QMainWindow):
         self.update_btn.clicked.connect(self.update_graph)
     
     def setup_visualization_area(self, parent_layout):
-        """Configura a área de visualização do gráfico"""
+        """Configura a área principal de visualização com gráfico e informações.
+        
+        Args:
+            parent_layout (QLayout): Layout pai onde a área será adicionada
+        """
         # Splitter para gráfico e dados
         splitter = QSplitter(Qt.Vertical)
         
@@ -212,7 +237,7 @@ class ODApp(QMainWindow):
         parent_layout.addWidget(splitter)
     
     def setup_styles(self):
-        """Configura os estilos da aplicação"""
+        """Configura os estilos visuais da aplicação usando QSS."""
         self.setStyleSheet("""
             QMainWindow {
                 background-color: #f5f5f5;
@@ -252,7 +277,10 @@ class ODApp(QMainWindow):
         self.info_label.setFont(QFont("Arial", 11))
     
     def update_estacoes(self):
-        """Atualiza as estações disponíveis para a linha selecionada com verificação robusta"""
+        """Atualiza dinamicamente as estações disponíveis com base na linha selecionada.
+        
+        Este método é acionado automaticamente quando o usuário seleciona uma linha diferente.
+        """
         try:
             linha_selecionada = self.linha_combo.currentText()
             
@@ -286,7 +314,14 @@ class ODApp(QMainWindow):
             self.estacao_combo.addItem("Erro ao carregar estações")
     
     def update_graph(self):
-        """Atualiza o gráfico com base nas seleções"""
+        """Atualiza o gráfico com base nas seleções atuais de linha e estação.
+        
+        Este método:
+        - Filtra os dados conforme seleção
+        - Processa e transforma os dados para visualização
+        - Gera gráfico de linhas com pontos interativos
+        - Exibe informações resumidas na área inferior
+        """
         linha_selecionada = self.linha_combo.currentText()
         estacao_selecionada = self.estacao_combo.currentText()
         
@@ -404,7 +439,13 @@ class ODApp(QMainWindow):
             logging.error(f"Erro inesperado: {str(e)}")
 
 def passageiro_estacao():
-    """Função para ser chamada externamente"""
+    """Função principal para inicialização da aplicação.
+    
+    Returns:
+        int: Código de status da execução (0 para sucesso)
+        
+    Esta função deve ser chamada para iniciar a aplicação, seja como módulo ou script principal.
+    """
     app = QApplication.instance() or QApplication(sys.argv)
     
     try:

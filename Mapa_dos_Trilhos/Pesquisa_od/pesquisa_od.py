@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "14/07/2025 18:02"
+__modified__    = "22/07/2025 18:02"
 
 DESCRITIVO:
 MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
@@ -24,6 +24,7 @@ MÃ³dulo de anÃ¡lise de demanda de passageiros do metrÃ´:
 ARQUITETURA:
     Mapa_dos_Trilhos/Pesquisa_od/pesquisa_od.py
 """
+
 import pandas as pd
 import logging
 import os
@@ -91,7 +92,17 @@ arquivos_od = {
 }
 
 class ThreadCarregamento(QThread):
-    """Thread para carregar os dados em segundo plano"""
+    """Thread para carregamento assíncrono dos dados da pesquisa OD.
+    
+    Signals:
+        progresso_atualizado (int, str): Emite o progresso atual e mensagem
+        dados_carregados (dict): Emite os dados quando carregamento completo
+        erro_ocorrido (str): Emite mensagens de erro
+    
+    Args:
+        arquivos (dict): Dicionário com os arquivos a serem carregados
+    """
+    
     progresso_atualizado = pyqtSignal(int, str)
     dados_carregados = pyqtSignal(dict)
     erro_ocorrido = pyqtSignal(str)
@@ -102,6 +113,7 @@ class ThreadCarregamento(QThread):
         self.dados = {}
 
     def run(self):
+        """Método principal que executa o carregamento dos dados."""
         try:
             total = len(self.arquivos)
             for i, (nome_tab, caminho) in enumerate(self.arquivos.items(), 1):
@@ -144,7 +156,15 @@ class ThreadCarregamento(QThread):
             self.erro_ocorrido.emit(f"Erro crítico: {str(e)}")
 
 class MplCanvas(FigureCanvas):
-    """Canvas para gráficos matplotlib"""
+    """Canvas personalizado para exibição de gráficos matplotlib.
+    
+    Args:
+        parent (QWidget): Widget pai
+        width (int): Largura da figura em polegadas
+        height (int): Altura da figura em polegadas
+        dpi (int): Resolução da figura
+    """
+    
     def __init__(self, parent=None, width=5, height=4, dpi=100):
         fig = Figure(figsize=(width, height), dpi=dpi)
         self.axes = fig.add_subplot(111)
@@ -152,7 +172,12 @@ class MplCanvas(FigureCanvas):
         self.setParent(parent)
 
 class AbaDados(QWidget):
-    """Aba para exibição de dados em tabela"""
+    """Widget para exibição de dados tabulares em formato de tabela.
+    
+    Args:
+        parent (QWidget): Widget pai
+    """
+    
     def __init__(self, parent=None):
         super().__init__(parent)
         self.layout = QVBoxLayout(self)
@@ -187,7 +212,11 @@ class AbaDados(QWidget):
         """)
     
     def carregar_dados(self, df):
-        """Carrega dados do DataFrame na tabela"""
+        """Carrega um DataFrame na tabela.
+        
+        Args:
+            df (DataFrame): Dados a serem exibidos na tabela
+        """
         self.tabela.clear()
         
         if df is None or df.empty:
@@ -239,6 +268,12 @@ class AbaDados(QWidget):
         self.tabela.resizeColumnsToContents()
 
 class AppOD(QDialog):
+    """Aplicação principal para visualização de dados de Origem-Destino.
+    
+    Args:
+        parent (QWidget): Widget pai
+    """
+    
     def __init__(self, parent=None):
         super().__init__(parent)
 
@@ -295,7 +330,7 @@ class AppOD(QDialog):
         self.carregar_dados()
 
     def configurar_tela_cheia(self):
-        """Configura a janela para abrir em tela cheia corretamente"""
+        """Configura a janela para abrir em tela cheia corretamente."""
         monitor = get_monitors()[0]
         
         # Define a geometria para cobrir todo o monitor
@@ -315,14 +350,14 @@ class AppOD(QDialog):
         self.screen_height = monitor.height
 
     def closeEvent(self, event):
-        """Garante que todas as threads sejam encerradas corretamente"""
+        """Garante que todas as threads sejam encerradas corretamente ao fechar."""
         if hasattr(self, 'thread_carregamento') and self.thread_carregamento.isRunning():
             self.thread_carregamento.quit()
             self.thread_carregamento.wait()
         event.accept()
         
     def iniciar_interface(self):
-        """Configura a interface gráfica"""
+        """Configura todos os componentes da interface gráfica."""
         # Remova qualquer layout existente
         if self.layout():
             QWidget().setLayout(self.layout())
@@ -344,7 +379,7 @@ class AppOD(QDialog):
         self.configurar_estilos()
 
     def configurar_barra_controle(self):
-        """Configura a barra de controle superior"""
+        """Configura a barra de controle superior com botões e controles."""
         frame_controle = QFrame()
         frame_controle.setFrameShape(QFrame.StyledPanel)
         layout_controle = QHBoxLayout(frame_controle)  # Layout no frame, não no diálogo
@@ -359,7 +394,7 @@ class AppOD(QDialog):
         self.layout_principal.addWidget(frame_controle)  # Adiciona o frame ao layout principal
 
     def configurar_abas_principais(self):
-        """Cria as abas principais organizadas por categoria"""
+        """Cria as abas principais organizadas por categoria de dados."""
         for categoria, tabelas in self.categorias.items():
             widget_abas_categoria = QTabWidget()
             
@@ -371,7 +406,7 @@ class AppOD(QDialog):
             self.widget_abas.addTab(widget_abas_categoria, categoria)
 
     def configurar_estilos(self):
-        """Define os estilos visuais da aplicação"""
+        """Define os estilos visuais da aplicação usando QSS."""
         self.setStyleSheet("""
             QMainWindow { background-color: #f0f0f0; }
             QFrame { 
@@ -409,7 +444,7 @@ class AppOD(QDialog):
         """)
 
     def carregar_dados(self):
-        """Inicia o carregamento dos dados"""
+        """Inicia o carregamento assíncrono dos dados da pesquisa."""
         # Mostrar diálogo de progresso
         self.dialogo_progresso = QProgressDialog("Carregando dados...", "Cancelar", 0, 100, self)
         self.dialogo_progresso.setWindowTitle("Aguarde...")
@@ -430,13 +465,22 @@ class AppOD(QDialog):
         self.dialogo_progresso.show()
 
     def atualizar_progresso(self, valor, mensagem):
-        """Atualiza a barra de progresso"""
+        """Atualiza a barra de progresso durante o carregamento.
+        
+        Args:
+            valor (int): Percentual de progresso (0-100)
+            mensagem (str): Mensagem descritiva do progresso
+        """
         self.dialogo_progresso.setValue(valor)
         self.dialogo_progresso.setLabelText(mensagem)
         QApplication.processEvents()
 
     def dados_carregados(self, dados):
-        """Processa os dados após carregamento completo"""
+        """Processa os dados após carregamento completo.
+        
+        Args:
+            dados (dict): Dicionário com todos os dados carregados
+        """
         self.todos_dados = dados
         self.dados_completos = dados.get("Dados Gerais")
         
@@ -450,19 +494,35 @@ class AppOD(QDialog):
                 self.abas_dados[nome_tab].carregar_dados(df)
 
     def mostrar_erro(self, mensagem_erro):
-        """Exibe mensagens de erro"""
+        """Exibe mensagens de erro durante o carregamento.
+        
+        Args:
+            mensagem_erro (str): Mensagem de erro a ser exibida
+        """
         self.dialogo_progresso.close()
         QMessageBox.critical(self, "Erro", mensagem_erro)
         self.statusBar().showMessage("Erro ao carregar dados!")
 
     def keyPressEvent(self, event):
+        """Trata eventos de teclado.
+        
+        Args:
+            event (QKeyEvent): Evento de tecla pressionada
+        """
         if event.key() == Qt.Key_Escape:
             with open('Mapa_dos_Trilhos/log.log', 'a', encoding='utf-8') as f:
                 f.write(f"{datetime.now()} - Fechando Página Pesquisa Origem e Destino\n")
             self.close()
 
 def pesquisa_od_metro(parent=None):
-    """Função para iniciar como janela independente"""
+    """Função principal para iniciar a aplicação como janela independente.
+    
+    Args:
+        parent (QWidget): Widget pai (opcional)
+    
+    Returns:
+        AppOD: Instância da aplicação
+    """
     app = QApplication.instance() or QApplication(sys.argv)
     janela = AppOD(parent)
     janela.show()

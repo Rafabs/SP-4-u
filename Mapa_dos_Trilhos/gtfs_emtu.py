@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-SAMPA 4U - Projeto simples de dados abertos sobre transporte pÃºblico Metropolitano do Estado de SÃ£o Paulo.
+SAMPA 4U - Projeto simples de dados abertos sobre transporte público Metropolitano do Estado de São Paulo.
 
 METADADOS:
 __author__      = "Rafael Barbosa"
@@ -9,7 +9,7 @@ __copyright__   = "Desenvolvimento independente"
 __license__     = "MIT"
 __version__     = "1.1.2"
 __maintainer__  = "https://github.com/Rafabs"
-__modified__    = "14/07/2025 18:02"
+__modified__    = "22/07/2025 17:14"
 
 DESCRITIVO:
 MÃ³dulo de processamento de dados GTFS (General Transit Feed Specification):
@@ -25,21 +25,37 @@ MÃ³dulo de processamento de dados GTFS (General Transit Feed Specification):
 ARQUITETURA:
     Mapa_dos_Trilhos/gtfs_emtu.py
 """
-import csv # Importa o módulo csv para trabalhar com arquivos CSV
-import webbrowser # Importa o módulo webbrowser para abrir páginas da web
-import tkinter as tk # Importa o módulo tkinter para criar interfaces gráficas
-from tkinter import ttk, PhotoImage # Importa ttk do tkinter para estilos de widgets
-from tkinter.scrolledtext import ScrolledText # Importa ScrolledText do tkinter para uma caixa de texto com rolagem
-import folium # Importa folium para criar mapas interativos
-from folium.plugins import MarkerCluster # Importa MarkerCluster de folium.plugins para agrupar marcadores em clusters
-from PIL import Image, ImageTk # Importa Image e ImageTk do PIL para manipulação de imagens
-from colorama import Fore, Back, Style, init # Importa as cores do módulo colorama para colorir o texto no console
-from datetime import datetime # Importa datetime do módulo datetime para obter a hora atual
+import csv
+import webbrowser
+import tkinter as tk
+from tkinter import ttk, PhotoImage
+from tkinter.scrolledtext import ScrolledText
+import folium
+from folium.plugins import MarkerCluster
+from PIL import Image, ImageTk
+from colorama import Fore, Back, Style, init
+from datetime import datetime
 
 # Obtém a hora atual
 hora_atual = datetime.now().strftime("%H:%M:%S")
 
 def emtu():
+    """
+    Função principal que cria a interface gráfica para consulta de rotas da EMTU.
+    
+    Esta função:
+    - Cria a janela principal da aplicação
+    - Configura elementos da interface (botões, campos de texto, tabelas)
+    - Carrega e exibe dados GTFS da EMTU
+    - Implementa funcionalidades de visualização de mapas
+    - Permite pesquisa e filtragem de linhas
+    
+    A interface inclui:
+    - Listagem de todas as rotas
+    - Tabela de tarifas
+    - Visualização de mapas com shapes e paradas
+    - Campo de pesquisa para filtrar linhas
+    """
     # Imprime o texto formatado indicando o início do processo
     print(f"{Style.BRIGHT}{Fore.WHITE}GTFS da EMTU iniciado às {Fore.GREEN}{hora_atual}{Style.RESET_ALL}")
     
@@ -55,8 +71,13 @@ def emtu():
     # Define o ícone da janela
     root.iconphoto(False, photo)
 
-    # Função para exibir as rotas da EMTU
     def exibir_rotas():
+        """
+        Carrega e exibe as rotas disponíveis a partir do arquivo routes.txt.
+        
+        Returns:
+            list: Lista de strings contendo todas as rotas no formato "Número - Nome"
+        """
         try:
             with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\routes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
@@ -69,8 +90,12 @@ def emtu():
                 tk.END, "Arquivo 'routes.txt' não encontrado.")
             return []
 
-    # Função para exibir as tarifas das linhas da EMTU
     def exibir_tarifas():
+        """
+        Carrega e exibe as tarifas das linhas a partir do arquivo fare_attributes.txt.
+        
+        Os dados são exibidos em uma tabela ordenada alfabeticamente pelo nome da linha.
+        """
         try:
             with open('Mapa_dos_Trilhos\\Gtfs_EMTU\\fare_attributes.txt', newline='', encoding='utf-8') as arquivo:
                 leitor = csv.reader(arquivo)
@@ -92,8 +117,13 @@ def emtu():
             tabela_tarifas.insert("", "end", values=(
                 "Arquivo 'fare_attributes.txt' não encontrado.", ""))
 
-    # Função para carregar e exibir o mapa das rotas da EMTU
     def carregar_mapa():
+        """
+        Carrega e exibe um mapa interativo com as shapes (rotas) da EMTU.
+        
+        O mapa é gerado usando Folium e exibe todas as rotas encontradas no arquivo shapes.txt.
+        O mapa é salvo como HTML e aberto no navegador padrão.
+        """
         m = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
 
         shapes = {}
@@ -119,8 +149,13 @@ def emtu():
         m.save("Mapa_dos_Trilhos\\mapa_shapes.html")
         webbrowser.open("Mapa_dos_Trilhos\\mapa_shapes.html")
 
-    # Função para exibir os pontos de parada das rotas da EMTU
     def pontos():
+        """
+        Carrega e exibe um mapa interativo com os pontos de parada da EMTU.
+        
+        Os pontos são agrupados em clusters para melhor visualização quando há muitos marcadores próximos.
+        O mapa é salvo como HTML e aberto no navegador padrão.
+        """
         n = folium.Map(location=[-23.5505, -46.6333], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(n)
 
@@ -149,8 +184,12 @@ def emtu():
         n.save("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
         webbrowser.open("Mapa_dos_Trilhos\\mapa_paradas_cluster.html")
 
-    # Função para filtrar as linhas com base no termo de pesquisa
     def filtrar_linhas():
+        """
+        Filtra as linhas exibidas com base no termo digitado no campo de pesquisa.
+        
+        A filtragem é feita em tempo real enquanto o usuário digita.
+        """
         termo = campo_pesquisa.get().lower()
         linhas_filtradas = [linha for linha in rotas if termo in linha.lower()]
         resultado_text.delete(1.0, tk.END)
