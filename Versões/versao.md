@@ -4,14 +4,20 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.7-yellow.svg) (23/07/2025)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.8-yellow.svg) (06/08/2025)
+
+✨ **Melhorias e Correções:**
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
+
+---
+
+## 📌 Versões Anteriores
+
+### ![Version](https://img.shields.io/badge/1.1.7-yellow.svg) (23/07/2025)
 
 ✨ **Melhorias e Correções:**
 - 🔧 **Refatoração e Estrutura** 🧼 Comentado e aprimorado os códigos com docstrings 
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
----
-
-## 📌 Versões Anteriores
 
 ### ![Version](https://img.shields.io/badge/1.1.6-yellow.svg) (16/07/2025)
 - 🌐 **Funcionalidades Web** Aplicação realiza webscraping para exibição de status das linhas.

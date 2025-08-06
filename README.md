@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.7-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-23/07/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.8-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-06/08/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -62,9 +62,10 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
-| ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz<br>**Antes:** Term. Cachoeirinha - Jd. Sta. Cruz |
-| ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                        |
+| ✏️ Modificação | ![502J/21](https://img.shields.io/badge/502J/21-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
+| ✏️ Modificação | ![502J/22](https://img.shields.io/badge/502J/22-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
+| ❌ Remoção     | ![6960/21](https://img.shields.io/badge/6960/21-0082BA.svg) | Term. Varginha - E.t. Vitor Manzini                                                    |
+| ❌ Remoção     | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
 
 ### 🚍 EMTU
 
@@ -75,6 +76,10 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 06/08/2025 | ✏️ Modificação | ![502J/21](https://img.shields.io/badge/502J/21-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
+| 06/08/2025 | ✏️ Modificação | ![502J/22](https://img.shields.io/badge/502J/22-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
+| 06/08/2025 | ❌ Remoção     | ![6960/21](https://img.shields.io/badge/6960/21-0082BA.svg) | Term. Varginha - E.t. Vitor Manzini                                                    |
+| 06/08/2025 | ❌ Remoção     | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
 | 23/06/2025 | 🆕 Inclusão    | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
 | 23/06/2025 | ✏️ Modificação | ![9166/10](https://img.shields.io/badge/9166/10-002F6C.svg) | **Atual:** Cachoeirinha - Jd. Sta. Cruz<br>**Antes:** Term. Cachoeirinha - Jd. Sta. Cruz |
 | 23/06/2025 | ❌ Remoção     | ![8013/43](https://img.shields.io/badge/8013/43-509E2F.svg) | Morro Doce - Term. Jd. Britania                                                        |
@@ -163,7 +168,6 @@ pip install typing
 - 🚉 [CPTM](https://www.cptm.sp.gov.br/) - Informações ferroviárias
 - 🌫️ [World's Air Pollution](https://waqi.info/) - Qualidade do ar
 - 📰 [News API](https://newsapi.org/) - Notícias em tempo real
-- 🚲 [CET](https://www.cetsp.com.br/consultas/bicicleta/mapa-de-infraestrutura-cicloviaria.aspx) - Mapa da Infraestrutura Cicloviária implantada na cidade de São Paulo
 - 🌡 [OpenWeatehrMap](https://openweathermap.org/) - API de clima
 
 ## 🚀 Como Executar
@@ -210,7 +214,10 @@ python3 main.py
 - Sem modificações futuras.  
 
 🖼️ Interface  
-- Sem modificações futuras.  
+- [ ] 🚇 Atualização de nome estação com naming right: Berrini - Casas Bahia (Linha 9 - Esmeralda)
+- [ ] 🚇 Atualização de nome estação com naming right: Adolfo Pinheiro - Unisa (Linha 5 - Lilás)
+- [ ] 🚇 Atualização de nome estação com naming right: Vergueiro - Sebrae (Linha 1 - Azul)
+- [ ] 🚲 Atualização de Mapa Ciclovia
 
 <details>
 <summary>📚 Ver histórico completo</summary>
@@ -223,7 +230,7 @@ python3 main.py
 - [x] 🎨 Criar interface visual com Qt Designer `Concluído em 03/07/2025`  
 - [x] ✅ Confirmação para encerrar o programa principal `Concluído em 30/06/2025`  
 - [x] 🏷️ Adicionar cabeçalhos nos arquivos Python para facilitar manutenção `Concluído em 28/06/2025`  
-- [x] 📝 Atualizar bibliotecas no `README.md` `Concluído em 20/06/2025`  
+- [x] 📝 Atualização bibliotecas no `README.md` `Concluído em 20/06/2025`  
 
 </details>
 
