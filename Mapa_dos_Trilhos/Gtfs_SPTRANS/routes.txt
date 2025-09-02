@@ -481,7 +481,7 @@
 "4706-10","1","4706-10","Jd. Maria Estela Ii - Metrô Vl. Mariana","3","006341","FFFFFF"
 "4708-10","1","4708-10","Jd. Clímax - Metrô Vl. Mariana","3","006341","FFFFFF"
 "4709-10","1","4709-10","Jd. São Savério - Metrô Vl. Mariana","3","006341","FFFFFF"
-"4716-10","1","4716-10","Sacomã - Metrô Sta. Cruz","3","006341","FFFFFF"
+"4716-10","1","4716-10","Metrô Tamanduateí - Metrô Sta. Cruz","3","006341","FFFFFF"
 "4717-10","1","4717-10","Jd. Maria Estela - Metrô Saúde","3","006341","FFFFFF"
 "4718-10","1","4718-10","Jd. Celeste - Metrô Sta. Cruz","3","006341","FFFFFF"
 "4721-10","1","4721-10","Shop. Plaza Sul - Metrô Jabaquara","3","006341","FFFFFF"

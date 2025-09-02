@@ -191,21 +191,21 @@
       "texts": [
         {"text": "Corredor São Mateus-Jabaquara", "position": {"x": 905, "y": 743}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
         {"text": "São Mateus-Jabaquara Corridor", "position": {"x": 905, "y": 758}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-        {"text": "EMTU", "position": {"x": 1260, "y": 760}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+        {"text": "ARTESP", "position": {"x": 1260, "y": 745}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     },       
     {
       "texts": [
         {"text": "Corredor Guarulhos-SP", "position": {"x": 905, "y": 783}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
         {"text": "Guarulhos-SP Corridor", "position": {"x": 905, "y": 798}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-        {"text": "EMTU", "position": {"x": 1260, "y": 800}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+        {"text": "ARTESP", "position": {"x": 1260, "y": 785}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     },            
     {
       "texts": [
           {"text": "Corredor Itapevi-SP", "position": {"x": 905, "y": 823}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
           {"text": "Itapevi-SP Corridor", "position": {"x": 905, "y": 838}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-          {"text": "EMTU", "position": {"x": 1260, "y": 840}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+          {"text": "ARTESP", "position": {"x": 1260, "y": 825}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     },    
     {
@@ -224,14 +224,14 @@
       "texts": [
           {"text": "Ponte Orca ao Zoológico", "position": {"x": 905, "y": 943}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
           {"text": "Orca Shuttle to the Zoo", "position": {"x": 905, "y": 958}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-          {"text": "EMTU", "position": {"x": 1260, "y": 960}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+          {"text": "ARTESP", "position": {"x": 1260, "y": 945}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     },     
     {
       "texts": [
           {"text": "Terminal de Ônibus Integrado", "position": {"x": 905, "y": 983}, "font": "Helvetica 13 bold", "anchor": "nw", "color": "#000000"},
           {"text": "Integrated Bus Terminal", "position": {"x": 905, "y": 998}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-          {"text": "EMTU", "position": {"x": 1260, "y": 1000}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+          {"text": "ARTESP", "position": {"x": 1260, "y": 985}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     }, 
     {
@@ -243,9 +243,9 @@
     },    
     {
       "texts": [
-          {"text": "EMTU", "position": {"x": 1300, "y": 839}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
-          {"text": "www.emtu.sp.gov.br", "position": {"x": 1470, "y": 823}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
-          {"text": "0800 724 0555", "position": {"x": 1850, "y": 823}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+          {"text": "ARTESP", "position": {"x": 1300, "y": 824}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.artesp.sp.gov.br", "position": {"x": 1470, "y": 823}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 727 8377", "position": {"x": 1850, "y": 823}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
       ]
     },  
     {
@@ -366,7 +366,7 @@
       "size": {"width": 25, "height": 25}
     },     
     {
-      "icon": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
+      "icon": "Mapa_dos_Trilhos/Icons/onibus_EMTU.png",
       "coordinates": {"x": 880, "y": 1000},
       "size": {"width": 25, "height": 25}
     },      

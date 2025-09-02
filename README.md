@@ -62,10 +62,7 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| ✏️ Modificação | ![502J/21](https://img.shields.io/badge/502J/21-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
-| ✏️ Modificação | ![502J/22](https://img.shields.io/badge/502J/22-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
-| ❌ Remoção     | ![6960/21](https://img.shields.io/badge/6960/21-0082BA.svg) | Term. Varginha - E.t. Vitor Manzini                                                    |
-| ❌ Remoção     | ![879A/10](https://img.shields.io/badge/879A/10-002F6C.svg) | Metrô Barra Funda - São João / Ctn                                                     |
+| ✏️ Modificação | ![4716/10](https://img.shields.io/badge/4716/10-006341.svg) | **Atual:** Metrô Tamanduateí - Metrô Sta. Cruz<br>**Antes:** Sacomã - Metrô Sta. Cruz |
 
 ### 🚍 EMTU
 
@@ -76,6 +73,7 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 02/09/2025 | ✏️ Modificação | ![4716/10](https://img.shields.io/badge/4716/10-006341.svg) | **Atual:** Metrô Tamanduateí - Metrô Sta. Cruz<br>**Antes:** Sacomã - Metrô Sta. Cruz |
 | 06/08/2025 | ✏️ Modificação | ![502J/21](https://img.shields.io/badge/502J/21-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
 | 06/08/2025 | ✏️ Modificação | ![502J/22](https://img.shields.io/badge/502J/22-0082BA.svg) | **Atual:** Est. Autódromo - Vl. Sta. Catarina<br>**Antes:** Est. Autódromo - Vl. Joaniza |
 | 06/08/2025 | ❌ Remoção     | ![6960/21](https://img.shields.io/badge/6960/21-0082BA.svg) | Term. Varginha - E.t. Vitor Manzini                                                    |
@@ -222,6 +220,8 @@ python3 main.py
 <details>
 <summary>📚 Ver histórico completo</summary>
 
+- [x] 🚇 Atualização das estações e linhas que iniciam e terminam em BFU (Palmeiras - Barra Funda) `Concluído em 02/09/2025`  
+- [x] 🗺️ Atualização do Mapa do Metropolitano (Ago./25) `Concluído em 02/09/2025`  
 - [x] 🧼 Comentar e aprimorar os códigos com docstrings `Concluído em 23/07/2025`  
 - [x] 🌍 Voltar a ler status das linhas via web scraping `Concluído em 16/07/2025`  
 - [x] 🌡️ Inserir mais dados e itens relacionados à temperatura `Concluído em 14/07/2025`  

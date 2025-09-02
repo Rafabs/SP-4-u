@@ -473,7 +473,7 @@ class MainWindow(QMainWindow):
         self.left_layout.addWidget(frame_sistemas)
 
         frame_mapa_guia, layout_mapa_guia = criar_frame(
-            "Mapa da Rede - /Abr.25", 120, 250)
+            "Mapa da Rede - /Ago.25", 120, 250)
         self.criar_botao(layout_mapa_guia, "Mapa da Rede",
                          mapa_rede, "black", "#00B352", "#5AFF7E", "mapa")
         self.left_layout.addWidget(frame_mapa_guia)
