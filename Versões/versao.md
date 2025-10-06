@@ -4,15 +4,18 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9-yellow.svg) (02/09/2025)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9.1-yellow.svg) (06/10/2025)
 
 ✨ **Melhorias e Correções:**
-- 🖼️ **Interface:** Atualização das estações e linhas que iniciam e terminam em BFU (Palmeiras - Barra Funda)
-- 🖼️ **Interface:** Atualização do Mapa do Metropolitano (Ago./25)
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 ---
 
 ## 📌 Versões Anteriores
+
+### ![Version](https://img.shields.io/badge/1.1.9-yellow.svg) (02/09/2025)
+- 🖼️ **Interface:** Atualização das estações e linhas que iniciam e terminam em BFU (Palmeiras - Barra Funda)
+- 🖼️ **Interface:** Atualização do Mapa do Metropolitano (Ago./25)
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 
 ### ![Version](https://img.shields.io/badge/1.1.8-yellow.svg) (06/08/2025)
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
