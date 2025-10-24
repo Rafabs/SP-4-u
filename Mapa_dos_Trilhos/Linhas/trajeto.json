@@ -1567,6 +1567,14 @@
         "COR_LINHA": "#00B352",
         "LOGO": "Mapa_dos_Trilhos/Icons/cptm.png",
         "OPERADORA": "CPTM",
+        "SERVICOS": {
+            "expresso": [
+                "BFU", "LUZ", "BAS", "GCE", "AGU"
+            ],
+            "comum": [
+                "EGO", "GCE", "AGU"
+            ]
+        },
         "TRAJETO": [ 
             {
                 "primary": "Palmeiras",
@@ -1580,7 +1588,8 @@
                 "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "image_6": "Mapa_dos_Trilhos/Icons/terminal_onibus.png",               
                 "TAG": "BFU",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["expresso"]
             }, 
             {
                 "primary": "Luz",
@@ -1591,7 +1600,8 @@
                 "image_2": "Mapa_dos_Trilhos/Icons/7.png",
                 "image_3": "Mapa_dos_Trilhos/Icons/11.png",
                 "TAG": "LUZ",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["expresso"]
             },  
             {
                 "primary": "Brás",
@@ -1604,7 +1614,8 @@
                 "image_4": "Mapa_dos_Trilhos/Icons/12.png",
                 "image_5": "Mapa_dos_Trilhos/Icons/onibus_emtu.png",
                 "TAG": "BAS",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["expresso"]
             },    
             {
                 "primary": "Eng° Goularte",
@@ -1612,14 +1623,16 @@
                 "bold_secondary": false,
                 "image": "Mapa_dos_Trilhos/Icons/12.png",
                 "TAG": "EGO",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["comum"]
             },    
             {      
                 "primary": "Guarulhos • CECAP",
                 "secondary": "",
                 "bold_secondary": false,
                 "TAG": "GCE",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["expresso", "comum"]
             },    
             {
                 "primary": "Aeroporto • Guarulhos",  
@@ -1628,10 +1641,11 @@
                 "image": "Mapa_dos_Trilhos/Icons/aeroporto_GRU.png",
                 "image_1": "Mapa_dos_Trilhos/Icons/B.png",
                 "TAG": "AGU",
-                "free_access": false
+                "free_access": false,
+                "servicos": ["expresso", "comum"]
             }  
         ]
-            }, 
+    },
     "SP_L15.py": {
         "DESTINO": "VILA PRUDENTE <<->> JARDIM COLONIAL",
         "LINHA": "15 - PRATA",

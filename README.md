@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.9.2-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-23/10/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.9.3-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-24/10/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -225,6 +225,7 @@ python3 main.py
 <details>
 <summary>📚 Ver histórico completo</summary>
 
+- [x] 🚇 Atualização de inclusão do Expresso Aeroporto em conjunto com a Linha 13 - Jade `Concluído em 24/10/2025`  
 - [x] 🚇 Atualização das estações e linhas que iniciam e terminam em BFU (Palmeiras - Barra Funda) `Concluído em 02/09/2025`  
 - [x] 🗺️ Atualização do Mapa do Metropolitano (Ago./25) `Concluído em 02/09/2025`  
 - [x] 🧼 Comentar e aprimorar os códigos com docstrings `Concluído em 23/07/2025`  

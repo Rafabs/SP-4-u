@@ -112,7 +112,8 @@ def get_destino_linha(script_name):
     cor_linha = dados.get('COR_LINHA', '#000000')
     logo_operador = dados.get('LOGO', None)
     operadora = dados.get('OPERADORA', None)
-    return destino, linha, trajeto, cor_linha, logo_operador, operadora
+    servicos = dados.get('SERVICOS', {})  # Novo
+    return destino, linha, trajeto, cor_linha, logo_operador, operadora, servicos
 
 class MapaLinhaWindow(QMainWindow):
     def __init__(self):
@@ -138,13 +139,71 @@ class MapaLinhaWindow(QMainWindow):
         layout.addWidget(self.view)
         
         self.images = []
+        self.trajeto_items = []  # Lista para armazenar itens do trajeto
         
         self.script_name = os.path.basename(__file__)
-        self.destino_text, self.linha_text, self.trajeto_list, self.cor_linha, self.logo_operador, self.operadora = get_destino_linha(
+        self.destino_text, self.linha_text, self.trajeto_list, self.cor_linha, self.logo_operador, self.operadora, self.servicos = get_destino_linha(
             self.script_name)
+        
+        # Novo: controle de serviços
+        self.servico_atual = "expresso"  # ou "comum"
+        self.servico_text_item = None  # Referência ao texto do serviço
         
         self.setup_ui()
         self.setup_timers()
+        self.setup_servico_timer()
+        
+    def setup_servico_timer(self):
+        """Timer para alternar entre serviços a cada 30 segundos"""
+        self.alternar_servico_timer = QTimer()
+        self.alternar_servico_timer.timeout.connect(self.alternar_servico)
+        self.alternar_servico_timer.start(30000)  # 30 segundos
+    
+    def alternar_servico(self):
+        """Alterna entre serviço expresso e comum"""
+        if self.servico_atual == "expresso":
+            self.servico_atual = "comum"
+        else:
+            self.servico_atual = "expresso"
+        
+        # Recria o trajeto com o serviço atual
+        self.recriar_trajeto()
+    
+    def recriar_trajeto(self):
+        """Recria o trajeto baseado no serviço atual"""
+        # Remove todos os itens do trajeto anterior
+        self.remover_trajeto_anterior()
+        
+        # Recria o trajeto
+        self.process_trajeto()
+    
+    def remover_trajeto_anterior(self):
+        """Remove todos os itens do trajeto anterior"""
+        # Remove o texto do serviço anterior se existir
+        if self.servico_text_item:
+            self.scene.removeItem(self.servico_text_item)
+            self.servico_text_item = None
+        
+        # Remove o texto secundário do serviço se existir
+        if hasattr(self, 'servico_secundario_item') and self.servico_secundario_item:
+            self.scene.removeItem(self.servico_secundario_item)
+            self.servico_secundario_item = None
+        
+        # Remove todos os itens do trajeto
+        for item in self.trajeto_items:
+            self.scene.removeItem(item)
+        
+        # Limpa a lista
+        self.trajeto_items.clear()
+    
+    def get_trajeto_filtrado(self):
+        """Retorna apenas as estações do serviço atual"""
+        trajeto_filtrado = []
+        for trajeto in self.trajeto_list:
+            servicos = trajeto.get("servicos", ["expresso", "comum"])
+            if self.servico_atual in servicos:
+                trajeto_filtrado.append(trajeto)
+        return trajeto_filtrado
         
     def setup_ui(self):
         # Fundo cinza
@@ -370,10 +429,52 @@ class MapaLinhaWindow(QMainWindow):
     
     def process_trajeto(self):
         canvas_center_x = 960
-        total_items = len(self.trajeto_list)
+        trajeto_filtrado = self.get_trajeto_filtrado()
+        total_items = len(trajeto_filtrado)
         item_spacing = 55
         
-        for i, trajeto in enumerate(self.trajeto_list):
+        # Adiciona label do serviço com formatação melhorada
+        if self.servico_atual == "expresso":
+            servico_principal = "Expresso Aeroporto"
+            servico_secundario = "Airport Express"
+        else:
+            servico_principal = "Linha 13 - Jade"
+            servico_secundario = "Line 13 - Jade"
+        
+        # Texto principal do serviço
+        self.servico_text_item = self.scene.addText(servico_principal)
+        self.servico_text_item.setDefaultTextColor(QColor("#000000"))
+        self.servico_text_item.setFont(QFont("Helvetica", 20, QFont.Bold))
+        self.servico_text_item.setPos(20, 370)
+        self.trajeto_items.append(self.servico_text_item)
+        
+        # Texto secundário em itálico (inglês)
+        self.servico_secundario_item = self.scene.addText(servico_secundario)
+        self.servico_secundario_item.setDefaultTextColor(QColor("#666666"))  # Cinza mais suave
+        font_secundaria = QFont("Helvetica", 16)
+        font_secundaria.setItalic(True)
+        self.servico_secundario_item.setFont(font_secundaria)
+        
+        # Posiciona o texto secundário abaixo do principal
+        servico_principal_rect = self.servico_text_item.boundingRect()
+        self.servico_secundario_item.setPos(20, 370 + servico_principal_rect.height() + 2)
+        self.trajeto_items.append(self.servico_secundario_item)
+        
+        for i, trajeto in enumerate(trajeto_filtrado):
+            x_position = canvas_center_x + (i - total_items // 2) * item_spacing
+            y_position = 420
+            
+            if isinstance(trajeto, dict):
+                self.create_station_item(trajeto, x_position, y_position)
+            else:
+                self.create_simple_item(trajeto, x_position, y_position)
+
+        canvas_center_x = 960
+        trajeto_filtrado = self.get_trajeto_filtrado()
+        total_items = len(trajeto_filtrado)
+        item_spacing = 55
+        
+        for i, trajeto in enumerate(trajeto_filtrado):
             x_position = canvas_center_x + (i - total_items // 2) * item_spacing
             y_position = 420
             
@@ -396,34 +497,40 @@ class MapaLinhaWindow(QMainWindow):
             trajeto.get("image_5"),
         ]
         
+        # Cria textos
         if primary and secondary:
             if bold_secondary:
-                self.create_rotated_text(secondary, x - 23, y - 6, 20)
-                self.create_rotated_text(primary, x - 43, y - 6, 14)
+                primary_text = self.create_rotated_text(secondary, x - 23, y - 6, 20)
+                secondary_text = self.create_rotated_text(primary, x - 43, y - 6, 14)
             else:
-                self.create_rotated_text(primary, x - 23, y - 6, 20)
-                self.create_rotated_text(secondary, x + 8, y - 6, 14)
+                primary_text = self.create_rotated_text(primary, x - 23, y - 6, 20)
+                secondary_text = self.create_rotated_text(secondary, x + 8, y - 6, 14)
         elif primary:
-            self.create_rotated_text(primary, x - 23, y - 6, 20)
+            primary_text = self.create_rotated_text(primary, x - 23, y - 6, 20)
         elif secondary:
-            self.create_rotated_text(secondary, x - 23, y - 6, 20)
+            primary_text = self.create_rotated_text(secondary, x - 23, y - 6, 20)
         
-        # Retângulo e círculo
+        # Retângulo
         rect = QGraphicsRectItem(x - 20, y + 15, 60, 35)
         rect.setBrush(QColor(self.cor_linha))
         rect.setPen(QColor(self.cor_linha))
         self.scene.addItem(rect)
+        self.trajeto_items.append(rect)
         
+        # Círculo
         ball_color = QColor("#000000") if free_access else QColor("#FFFFFF")
         ball = QGraphicsEllipseItem(x - 10, y + 20, 20, 20)
         ball.setBrush(ball_color)
         ball.setPen(QColor("#000000"))
         self.scene.addItem(ball)
+        self.trajeto_items.append(ball)
         
         # Imagens adicionais
         for image_path in image_paths:
             if image_path and os.path.exists(image_path):
-                self.load_image(image_path, x, y + 70, 30, 30)
+                img_item = self.load_image(image_path, x, y + 70, 30, 30)
+                if img_item:
+                    self.trajeto_items.append(img_item)
                 y += 40
     
     def create_rotated_text(self, text, x, y, size):
@@ -434,19 +541,23 @@ class MapaLinhaWindow(QMainWindow):
         transform = QTransform().rotate(-60)
         text_item.setTransform(transform)
         self.scene.addItem(text_item)
+        self.trajeto_items.append(text_item)
+        return text_item
     
     def create_simple_item(self, text, x, y):
-        self.create_rotated_text(text, x - 23, y, 20)
+        text_item = self.create_rotated_text(text, x - 23, y, 20)
         
         rect = QGraphicsRectItem(x - 20, y + 15, 60, 35)
         rect.setBrush(QColor(self.cor_linha))
         rect.setPen(QColor(self.cor_linha))
         self.scene.addItem(rect)
+        self.trajeto_items.append(rect)
         
         ball = QGraphicsEllipseItem(x - 10, y + 20, 20, 20)
         ball.setBrush(QColor("#FFFFFF"))
         ball.setPen(QColor("#FFFFFF"))
         self.scene.addItem(ball)
+        self.trajeto_items.append(ball)
     
     def setup_timers(self):
         # Timer para atualizar informações
