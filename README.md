@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.9.1-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-06/10/2025-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.9.2-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-23/10/2025-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -62,10 +62,7 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 🆕 Inclusão    | ![4491/21](https://img.shields.io/badge/4491/21-006341.svg) | Vl. Liviero - Metrô Santos Imigrantes                                                  |
-| 🆕 Inclusão    | ![920P/10](https://img.shields.io/badge/920P/10-002F6C.svg) | Term. Pq. D. Pedro Ii - Pinacoteca                                                     |    
-| 🆕 Inclusão    | ![955P/10](https://img.shields.io/badge/955P/10-006341.svg) | Museu Ipiranga  - Pq. Ibirapuera                                                       |   
-| 🆕 Inclusão    | ![965A/10](https://img.shields.io/badge/965A/10-0082BA.svg) | Paraíso - Pacaembu                                                                     |
+| ✏️ Modificação | ![575C/10](https://img.shields.io/badge/575C/10-006341.svg) | **Atual:** Term. Vl. Prudente - Vl. Matias<br>**Antes:** Ipiranga - Vl Matias |
 
 ### 🚍 EMTU
 
@@ -76,6 +73,7 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 23/10/2025 | ✏️ Modificação | ![575C/10](https://img.shields.io/badge/575C/10-006341.svg) | **Atual:** Term. Vl. Prudente - Vl. Matias<br>**Antes:** Ipiranga - Vl Matias |
 | 04/10/2025 | 🆕 Inclusão    | ![4491/21](https://img.shields.io/badge/4491/21-006341.svg) | Vl. Liviero - Metrô Santos Imigrantes                                                  |
 | 04/10/2025 | 🆕 Inclusão    | ![920P/10](https://img.shields.io/badge/920P/10-002F6C.svg) | Term. Pq. D. Pedro Ii - Pinacoteca                                                     |    
 | 04/10/2025 | 🆕 Inclusão    | ![955P/10](https://img.shields.io/badge/955P/10-006341.svg) | Museu Ipiranga  - Pq. Ibirapuera                                                       |   

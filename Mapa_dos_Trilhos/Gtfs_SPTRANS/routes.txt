@@ -643,7 +643,7 @@
 "5759-10","1","5759-10","Pq. Primavera - Metrô Conceição","3","0082BA","FFFFFF"
 "5759-31","1","5759-31","Pq. Primavera - Metrô Conceição","3","0082BA","FFFFFF"
 "575A-10","1","575A-10","Div. São Caetano - Shop. Metrô Tatuapé","3","006341","FFFFFF"
-"575C-10","1","575C-10","Ipiranga - Vl Matias","3","006341","FFFFFF"
+"575C-10","1","575C-10","Term. Vl. Prudente - Vl. Matias","3","006341","FFFFFF"
 "576C-10","1","576C-10","Metrô Jabaquara - Term. Sto. Amaro","3","0082BA","FFFFFF"
 "576M-10","1","576M-10","Vl. Clara - Pinheiros","3","0082BA","FFFFFF"
 "577T-10","1","577T-10","Jd. Miriam - Metrô Ana Rosa","3","0082BA","FFFFFF"
