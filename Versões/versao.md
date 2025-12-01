@@ -4,14 +4,16 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9.3-yellow.svg) (24/10/2025)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9.4-yellow.svg) (01/12/2025)
 
 ✨ **Melhorias e Correções:**
-- 🖼️ **Interface:** Atualização de inclusão do Expresso Aeroporto em conjunto com a Linha 13 - Jade
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 ---
 
 ## 📌 Versões Anteriores
 
+### ![Version](https://img.shields.io/badge/1.1.9.3-yellow.svg) (24/10/2025)
+- 🖼️ **Interface:** Atualização de inclusão do Expresso Aeroporto em conjunto com a Linha 13 - Jade
 
 ### ![Version](https://img.shields.io/badge/1.1.9.2-yellow.svg) (23/10/2025)
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
