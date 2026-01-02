@@ -23,7 +23,10 @@
     },          
     {
       "line": {"x1": 1300, "y1": 980, "x2": 1910, "y2": 980, "color": "#000000", "width": 1}
-    },    
+    },  
+    {
+      "line": {"x1": 1300, "y1": 1020, "x2": 1910, "y2": 1020, "color": "#000000", "width": 1}
+    },         
     {
       "line": {"x1": 0, "y1": 780, "x2": 400, "y2": 780, "color": "#000000", "width": 1}
     },
@@ -135,7 +138,7 @@
       "texts": [
         {"text": "Linha 7 • Rubi", "position": {"x": 45, "y": 943}, "font": "Helvetica 12 bold", "anchor": "nw", "color": "#000000"},
         {"text": "Line 7-Ruby", "position": {"x": 45, "y": 958}, "font": "Helvetica 10 italic bold", "anchor": "nw", "color": "#686868"},
-        {"text": "CPTM", "position": {"x": 400, "y": 960}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
+        {"text": "TIC TRENS", "position": {"x": 400, "y": 945}, "font": "Helvetica 13", "anchor": "e", "color": "#000000"}
       ]
     },   
     {
@@ -269,7 +272,21 @@
           {"text": "0800 770 7106", "position": {"x": 1850, "y": 943}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
       ]
     },   
-                                  
+    {
+      "texts": [
+          {"text": "TIC TRENS", "position": {"x": 1300, "y": 984}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.tictrens.com.br", "position": {"x": 1470, "y": 983}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "0800 007 0670", "position": {"x": 1850, "y": 983}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },  
+    {
+      "texts": [
+          {"text": "SPTRANS", "position": {"x": 1300, "y": 1024}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "www.sptrans.com.br", "position": {"x": 1470, "y": 1023}, "font": "Helvetica 14", "anchor": "nw", "color": "#000000"},
+          {"text": "156", "position": {"x": 1870, "y": 1023}, "font": "Helvetica 14 bold", "anchor": "e", "color": "#000000"}
+      ]
+    },  
+
     {
       "icon": "Mapa_dos_Trilhos/Icons/1.png",
       "coordinates": {"x": 20, "y": 760},
@@ -382,30 +399,22 @@
     {
       "icon": "Mapa_dos_Trilhos/Icons/Cptm_logo_completo.png",
       "coordinates": {"x": 1367, "y": 1000},
-      "size": {"width": 106, "height": 31}
+      "size": {"width": 1, "height": 1}
     },   
     {
       "icon": "Mapa_dos_Trilhos/Icons/EMTU_logo.png",
       "coordinates": {"x": 1590, "y": 1000},
-      "size": {"width": 106, "height": 31}
+      "size": {"width": 1, "height": 1}
     },  
     {
       "icon": "Mapa_dos_Trilhos/Icons/Sao_Paulo_Metro_Logo.png",
       "coordinates": {"x": 1790, "y": 1000},
-      "size": {"width": 126, "height": 41}
+      "size": {"width": 1, "height": 1}
     },  
     {
       "icon": "Mapa_dos_Trilhos/Icons/qr_code.png",
       "coordinates": {"x": 1327, "y": 1040},
-      "size": {"width": 40, "height": 40}
-    },
-    {
-      "texts": [
-        {"text": "Utilize o código ao lado para obter a versão mais atual deste mapa. Consulte nos sites das empresas", "position": {"x": 1365, "y": 1017}, "font": "Helvetica 7 bold", "anchor": "nw", "color": "#000000"},
-        {"text": "os horários de funcionamento das estações e transferências entre linhas e outros conteúdos.", "position": {"x": 1365, "y": 1027}, "font": "Helvetica 7 bold", "anchor": "nw", "color": "#000000"},
-        {"text": "Please use the QR Code to get the latest version of this map. Address the websites of the metropolitan", "position": {"x": 1365, "y": 1037}, "font": "Helvetica 7 italic bold", "anchor": "nw", "color": "#686868"},
-        {"text": "transport companies for stations service hours, line interchange information and other contents.", "position": {"x": 1365, "y": 1047}, "font": "Helvetica 7 italic bold", "anchor": "nw", "color": "#686868"}
-      ]
-    }                                         
+      "size": {"width": 1, "height": 1}
+    }                                       
   ]
 }  

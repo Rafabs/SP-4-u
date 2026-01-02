@@ -110,7 +110,7 @@
             },      
             {
                 "primary": "Vergueiro",
-                "secondary": "",
+                "secondary": "Sebrae",
                 "bold_secondary": false,
                 "TAG": "VGO",
                 "free_access": false
@@ -637,7 +637,7 @@
             },                  
             {
                 "primary": "Adolfo Pinheiro",
-                "secondary": "",
+                "secondary": "Unisa",
                 "bold_secondary": false,
                 "TAG": "APN",
                 "free_access": false
@@ -945,7 +945,7 @@
             },  
             {
                 "primary": "Jardim Silveira",
-                "secondary": "",
+                "secondary": "Leo Madeiras",
                 "bold_secondary": false,
                 "TAG": "JSI",
                 "free_access": false
@@ -1088,7 +1088,7 @@
             },  
             {
                 "primary": "Berrini",
-                "secondary": "",
+                "secondary": "Casas Bahia",
                 "bold_secondary": false,
                 "TAG": "BRR",
                 "free_access": false

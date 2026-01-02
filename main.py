@@ -473,7 +473,7 @@ class MainWindow(QMainWindow):
         self.left_layout.addWidget(frame_sistemas)
 
         frame_mapa_guia, layout_mapa_guia = criar_frame(
-            "Mapa da Rede - /Ago.25", 120, 250)
+            "Mapa da Rede - /Dez.25", 120, 250)
         self.criar_botao(layout_mapa_guia, "Mapa da Rede",
                          mapa_rede, "black", "#00B352", "#5AFF7E", "mapa")
         self.left_layout.addWidget(frame_mapa_guia)
@@ -783,7 +783,7 @@ class MainWindow(QMainWindow):
         self.setup_line_button(
             "Laranja", line6, self.laranja, "white", "L6", None, None, None)
         self.setup_line_button(
-            "Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "cptm.png", "CPTM")
+            "Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "default.png", "TIC TRENS")
         self.setup_line_button("Diamante", line8, self.cor_linha_08,
                                "black", "L08", "8.png", "8_diamante.png", "VIAMOBILIDADE")
         self.setup_line_button("Esmeralda", line9, self.cor_linha_09,
