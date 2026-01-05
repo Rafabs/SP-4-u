@@ -9,6 +9,7 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 ✨ **Melhorias e Correções:**
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 - 🖼️ **Interface:** Atualização do Mapa do Metropolitano (Dez./25)
+- 🖼️ **Interface:** Atualização de tarifa do Sistema sobre Trilhos e SPTrans.
 - 🖼️ **Interface:** Atualização do Naming Rights das estações: VGO[L1]/APN[L5]/JSI[L8]/BRR[L9] e dos subtítulos
 ---
 

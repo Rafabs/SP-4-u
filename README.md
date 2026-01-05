@@ -56,9 +56,12 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 - 🆕 **Inclusões**: Nada para mostrar
 - ✏️ **Modificações**: Nada para mostrar
 - ❌ **Remoções**: Nada para mostrar
-- 💰 **Tarifas**: Sem alterações
+- 💰 **Tarifas**: Reajuste de R$ 5,20 para R$ 5,40 em 06/01/2026
 
 ### 🚌 SPTrans
+
+- 💰 **Tarifas**: Reajuste de R$ 5,00 para R$ 5,30 em 06/01/2026
+
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |                                                                                               
@@ -292,14 +295,15 @@ python3 main.py
 - Sem modificações futuras.  
 
 🖼️ Interface  
-- [ ] 🚇 Atualização de nome estação com naming right: Berrini - Casas Bahia (Linha 9 - Esmeralda)
-- [ ] 🚇 Atualização de nome estação com naming right: Adolfo Pinheiro - Unisa (Linha 5 - Lilás)
-- [ ] 🚇 Atualização de nome estação com naming right: Vergueiro - Sebrae (Linha 1 - Azul)
+
 - [ ] 🚲 Atualização de Mapa Ciclovia
 
 <details>
 <summary>📚 Ver histórico completo</summary>
 
+- [x] 🚇 Atualização de nome estação com naming right: Berrini - Casas Bahia (Linha 9 - Esmeralda) `Concluído em 02/01/2026`  
+- [x] 🚇 Atualização de nome estação com naming right: Adolfo Pinheiro - Unisa (Linha 5 - Lilás) `Concluído em 02/01/2026`  
+- [x] 🚇 Atualização de nome estação com naming right: Vergueiro - Sebrae (Linha 1 - Azul) `Concluído em 02/01/2026`  
 - [x] 🚇 Atualização de inclusão do Expresso Aeroporto em conjunto com a Linha 13 - Jade `Concluído em 24/10/2025`  
 - [x] 🚇 Atualização das estações e linhas que iniciam e terminam em BFU (Palmeiras - Barra Funda) `Concluído em 02/09/2025`  
 - [x] 🗺️ Atualização do Mapa do Metropolitano (Ago./25) `Concluído em 02/09/2025`  
