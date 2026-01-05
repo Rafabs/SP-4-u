@@ -783,7 +783,7 @@ class MainWindow(QMainWindow):
         self.setup_line_button(
             "Laranja", line6, self.laranja, "white", "L6", None, None, None)
         self.setup_line_button(
-            "Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "default.png", "TIC TRENS")
+            "Rubi", line7, self.cor_linha_07, "white", "L07", "7.png", "tictrens.png", "TIC TRENS")
         self.setup_line_button("Diamante", line8, self.cor_linha_08,
                                "black", "L08", "8.png", "8_diamante.png", "VIAMOBILIDADE")
         self.setup_line_button("Esmeralda", line9, self.cor_linha_09,
