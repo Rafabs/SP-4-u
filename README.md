@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.9.5-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-02/01/2026-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.9.6-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-02/02/2026-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -56,49 +56,24 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 - 🆕 **Inclusões**: Nada para mostrar
 - ✏️ **Modificações**: Nada para mostrar
 - ❌ **Remoções**: Nada para mostrar
-- 💰 **Tarifas**: Reajuste de R$ 5,20 para R$ 5,40 em 06/01/2026
+- 💰 **Tarifas**: Nada para mostrar
 
 ### 🚌 SPTrans
 
-- 💰 **Tarifas**: Reajuste de R$ 5,00 para R$ 5,30 em 06/01/2026
+- 💰 **Tarifas**: Nada para mostrar
 
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
-| -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |                                                                                               
-| ❌ Remoção    | ![219P/60](https://img.shields.io/badge/219P/60-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/61](https://img.shields.io/badge/219P/61-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/62](https://img.shields.io/badge/219P/62-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/63](https://img.shields.io/badge/219P/63-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/64](https://img.shields.io/badge/219P/64-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/65](https://img.shields.io/badge/219P/65-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/66](https://img.shields.io/badge/219P/66-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/67](https://img.shields.io/badge/219P/67-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/68](https://img.shields.io/badge/219P/68-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/69](https://img.shields.io/badge/219P/69-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/70](https://img.shields.io/badge/219P/70-782F40.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/71](https://img.shields.io/badge/219P/71-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![219P/72](https://img.shields.io/badge/219P/72-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
-| ❌ Remoção    | ![339A/60](https://img.shields.io/badge/339A/60-FFD100.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/61](https://img.shields.io/badge/339A/61-FFD100.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/62](https://img.shields.io/badge/339A/62-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/63](https://img.shields.io/badge/339A/63-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/64](https://img.shields.io/badge/339A/64-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/65](https://img.shields.io/badge/339A/65-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/66](https://img.shields.io/badge/339A/66-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/67](https://img.shields.io/badge/339A/67-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/68](https://img.shields.io/badge/339A/68-0082BA.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/69](https://img.shields.io/badge/339A/69-0082BA.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/70](https://img.shields.io/badge/339A/70-FF671F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/71](https://img.shields.io/badge/339A/71-509E2F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![339A/72](https://img.shields.io/badge/339A/72-FF671F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
-| ❌ Remoção    | ![669I/60](https://img.shields.io/badge/669I/60-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/61](https://img.shields.io/badge/669I/61-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/62](https://img.shields.io/badge/669I/62-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/63](https://img.shields.io/badge/669I/63-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/64](https://img.shields.io/badge/669I/64-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/65](https://img.shields.io/badge/669I/65-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/66](https://img.shields.io/badge/669I/66-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
-| ❌ Remoção    | ![669I/67](https://img.shields.io/badge/669I/67-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |                                                                                             
+| -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |                                                                                       
+| ✏️ Modificação | ![1772/10](https://img.shields.io/badge/1772/10-002F6C.svg) | **Atual:** Jd. Filhos Da Terra - Metrô Tucuruvi<br>**Antes:** Recanto Verde - Metrô Tucuruvi |     
+| ✏️ Modificação | ![3025/10](https://img.shields.io/badge/3025/10-DA291C.svg) | **Atual:** Jd. Wilma Flor - Cptm Guaianases<br>**Antes:** Sítio Conceição - Cptm Guaianases | 
+| ✏️ Modificação | ![342N/10](https://img.shields.io/badge/342N/10-DA291C.svg) | **Atual:** Cohab Pres. Juscelino Kubitscheck - E.t. Itaquera<br>**Antes:** Cohab Juscelino - Cptm Guaianases | 
+| ❌ Remoção    | ![3789/10](https://img.shields.io/badge/3789/10-DA291C.svg) | Metalúrgicos - Circular | 
+| ❌ Remoção    | ![6400/10](https://img.shields.io/badge/6400/10-782F40.svg) | Term. João Dias - Term. Bandeira | 
+| 🆕 Inclusão   | ![6820/21](https://img.shields.io/badge/6820/21-782F40.svg) | Jd. Amália - Term. Capelinha |   
+| 🆕 Inclusão   | ![695V/1](https://img.shields.io/badge/695V/1-782F40.svg) | Term. Capelinha - Metrô Ana Rosa |   
+| ❌ Remoção    | ![8019/10](https://img.shields.io/badge/8019/10-FF671F.svg) | Pq. Continental - Metrô Butantã | 
+                                                                            
 
 ### 🚍 EMTU
 
@@ -109,6 +84,41 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 02/02/2025 | ❌ Remoção    | ![219P/60](https://img.shields.io/badge/219P/60-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/61](https://img.shields.io/badge/219P/61-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/62](https://img.shields.io/badge/219P/62-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/63](https://img.shields.io/badge/219P/63-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/64](https://img.shields.io/badge/219P/64-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/65](https://img.shields.io/badge/219P/65-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/66](https://img.shields.io/badge/219P/66-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/67](https://img.shields.io/badge/219P/67-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/68](https://img.shields.io/badge/219P/68-509E2F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/69](https://img.shields.io/badge/219P/69-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/70](https://img.shields.io/badge/219P/70-782F40.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/71](https://img.shields.io/badge/219P/71-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![219P/72](https://img.shields.io/badge/219P/72-FF671F.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
+| 02/02/2025 | ❌ Remoção    | ![339A/60](https://img.shields.io/badge/339A/60-FFD100.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/61](https://img.shields.io/badge/339A/61-FFD100.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/62](https://img.shields.io/badge/339A/62-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/63](https://img.shields.io/badge/339A/63-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/64](https://img.shields.io/badge/339A/64-DA291C.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/65](https://img.shields.io/badge/339A/65-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/66](https://img.shields.io/badge/339A/66-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/67](https://img.shields.io/badge/339A/67-006341.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/68](https://img.shields.io/badge/339A/68-0082BA.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/69](https://img.shields.io/badge/339A/69-0082BA.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/70](https://img.shields.io/badge/339A/70-FF671F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/71](https://img.shields.io/badge/339A/71-509E2F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![339A/72](https://img.shields.io/badge/339A/72-FF671F.svg) | Alvinópolis (metro Vl. Matilde) - Ônibus Do Passeio Iluminado                               |
+| 02/02/2025 | ❌ Remoção    | ![669I/60](https://img.shields.io/badge/669I/60-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/61](https://img.shields.io/badge/669I/61-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/62](https://img.shields.io/badge/669I/62-0082BA.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/63](https://img.shields.io/badge/669I/63-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/64](https://img.shields.io/badge/669I/64-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/65](https://img.shields.io/badge/669I/65-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/66](https://img.shields.io/badge/669I/66-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |
+| 02/02/2025 | ❌ Remoção    | ![669I/67](https://img.shields.io/badge/669I/67-782F40.svg) | Interlagos - Ônibus Do Passeio Iluminado                              |        
+| 02/02/2025 | ❌ Remoção     | ![2002/31](https://img.shields.io/badge/2002/31-DA291C.svg) | Term. Pq. D. Pedro II - Natal Iluminado                              |
 | 01/12/2025 | 🆕 Inclusão    | ![2002/31](https://img.shields.io/badge/2002/31-DA291C.svg) | Term. Pq. D. Pedro II - Natal Iluminado                                                 |
 | 01/12/2025 | ❌ Remoção     | ![2101/41](https://img.shields.io/badge/2101/41-DA291C.svg) | Pça. Silvio Romero - Term. Vl. Prudente                                                   |
 | 01/12/2025 | 🆕 Inclusão    | ![219P/60](https://img.shields.io/badge/219P/60-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
