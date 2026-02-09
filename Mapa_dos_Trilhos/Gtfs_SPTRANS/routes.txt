@@ -551,6 +551,7 @@
 "5106-31","1","5106-31","Jd. Ubirajara - Metrô Ana Rosa","3","0082BA","FFFFFF"
 "5107-10","1","5107-10","Term. Sacomã - Pça. Do Correio","3","006341","FFFFFF"
 "5108-10","1","5108-10","Jd. Celeste - Term. Pq. D. Pedro Ii","3","006341","FFFFFF"
+"5108-21","1","5108-21","Jd. Celeste - Metrô Alto Do Ipiranga","3","006341","FFFFFF"
 "5109-10","1","5109-10","Term. Vl. Prudente - Term. Mercado","3","006341","FFFFFF"
 "5110-10","1","5110-10","Term. São Mateus - Term. Mercado","3","006341","FFFFFF"
 "5110-21","1","5110-21","São Mateus - Term. Mercado","3","006341","FFFFFF"

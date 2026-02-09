@@ -4,13 +4,16 @@ Um registro das evoluções e melhorias do projeto, versão por versão.
 
 ---
 
-## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9.6-yellow.svg) (02/02/2026)
+## 🚀 Versão Atual: ![Version](https://img.shields.io/badge/1.1.9.6-yellow.svg) (09/02/2026)
 
 ✨ **Melhorias e Correções:**
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 ---
 
 ## 📌 Versões Anteriores
+
+### ![Version](https://img.shields.io/badge/1.1.9.6-yellow.svg) (09/02/2026)
+- 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.
 
 ### ![Version](https://img.shields.io/badge/1.1.9.5-yellow.svg) (02/01/2025)
 - 🚌 **Dados atualizados**: GTFS da SPTrans sincronizado.

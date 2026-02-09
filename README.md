@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://github.com/Rafabs/SP-4-u/blob/main/Mapa_dos_Trilhos/Icons/SP4U.gif" alt="Logo SP4U" width="200"/>
   
-  ![Version](https://img.shields.io/badge/Versão-1.1.9.6-blue?style=for-the-badge)
-  ![Atualização](https://img.shields.io/badge/Atualização-02/02/2026-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Versão-1.1.9.7-blue?style=for-the-badge)
+  ![Atualização](https://img.shields.io/badge/Atualização-09/02/2026-brightgreen?style=for-the-badge)
   ![Licença](https://img.shields.io/badge/Licença-MIT-orange?style=for-the-badge)
 </div>
 
@@ -65,15 +65,7 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Tipo           | Linha                                                       | Rota                                                                                   |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |                                                                                       
-| ✏️ Modificação | ![1772/10](https://img.shields.io/badge/1772/10-002F6C.svg) | **Atual:** Jd. Filhos Da Terra - Metrô Tucuruvi<br>**Antes:** Recanto Verde - Metrô Tucuruvi |     
-| ✏️ Modificação | ![3025/10](https://img.shields.io/badge/3025/10-DA291C.svg) | **Atual:** Jd. Wilma Flor - Cptm Guaianases<br>**Antes:** Sítio Conceição - Cptm Guaianases | 
-| ✏️ Modificação | ![342N/10](https://img.shields.io/badge/342N/10-DA291C.svg) | **Atual:** Cohab Pres. Juscelino Kubitscheck - E.t. Itaquera<br>**Antes:** Cohab Juscelino - Cptm Guaianases | 
-| ❌ Remoção    | ![3789/10](https://img.shields.io/badge/3789/10-DA291C.svg) | Metalúrgicos - Circular | 
-| ❌ Remoção    | ![6400/10](https://img.shields.io/badge/6400/10-782F40.svg) | Term. João Dias - Term. Bandeira | 
-| 🆕 Inclusão   | ![6820/21](https://img.shields.io/badge/6820/21-782F40.svg) | Jd. Amália - Term. Capelinha |   
-| 🆕 Inclusão   | ![695V/1](https://img.shields.io/badge/695V/1-782F40.svg) | Term. Capelinha - Metrô Ana Rosa |   
-| ❌ Remoção    | ![8019/10](https://img.shields.io/badge/8019/10-FF671F.svg) | Pq. Continental - Metrô Butantã | 
-                                                                            
+|  🆕 Inclusão   | ![5108/21](https://img.shields.io/badge/5108/21-006341.svg) | Jd. Celeste - Metrô Alto Do Ipiranga |                                                                             
 
 ### 🚍 EMTU
 
@@ -84,6 +76,14 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 02/02/2025 | ✏️ Modificação | ![1772/10](https://img.shields.io/badge/1772/10-002F6C.svg) | **Atual:** Jd. Filhos Da Terra - Metrô Tucuruvi<br>**Antes:** Recanto Verde - Metrô Tucuruvi |     
+| 02/02/2025 | ✏️ Modificação | ![3025/10](https://img.shields.io/badge/3025/10-DA291C.svg) | **Atual:** Jd. Wilma Flor - Cptm Guaianases<br>**Antes:** Sítio Conceição - Cptm Guaianases | 
+| 02/02/2025 | ✏️ Modificação | ![342N/10](https://img.shields.io/badge/342N/10-DA291C.svg) | **Atual:** Cohab Pres. Juscelino Kubitscheck - E.t. Itaquera<br>**Antes:** Cohab Juscelino - Cptm Guaianases | 
+| 02/02/2025 | ❌ Remoção    | ![3789/10](https://img.shields.io/badge/3789/10-DA291C.svg) | Metalúrgicos - Circular | 
+| 02/02/2025 | ❌ Remoção    | ![6400/10](https://img.shields.io/badge/6400/10-782F40.svg) | Term. João Dias - Term. Bandeira | 
+| 02/02/2025 | 🆕 Inclusão   | ![6820/21](https://img.shields.io/badge/6820/21-782F40.svg) | Jd. Amália - Term. Capelinha |   
+| 02/02/2025 | 🆕 Inclusão   | ![695V/1](https://img.shields.io/badge/695V/1-782F40.svg) | Term. Capelinha - Metrô Ana Rosa |   
+| 02/02/2025 | ❌ Remoção    | ![8019/10](https://img.shields.io/badge/8019/10-FF671F.svg) | Pq. Continental - Metrô Butantã | 
 | 02/02/2025 | ❌ Remoção    | ![219P/60](https://img.shields.io/badge/219P/60-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
 | 02/02/2025 | ❌ Remoção    | ![219P/61](https://img.shields.io/badge/219P/61-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
 | 02/02/2025 | ❌ Remoção    | ![219P/62](https://img.shields.io/badge/219P/62-002F6C.svg) | Parada Inglesa - Ônibus Do Passeio Iluminado                                                |
