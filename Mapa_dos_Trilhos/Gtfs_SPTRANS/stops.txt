@@ -1,5 +1,4 @@
 stop_id,"stop_name","stop_desc",stop_lat,stop_lon
-18846,"Capelinha - Tcp","Term. Capelinha Ref.: Estrada De Itapecerica, 3.222 - Parque Fernanda",-23.654995,-46.761768
 18848,"Clínicas","",-23.554022,-46.671108
 18849,"Vila Madalena","",-23.546498,-46.691141
 18850,"Consolação","",-23.558094,-46.660205
@@ -444,8 +443,9 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 614549,"Comendador Martinelli - B/C","Av. Com. Martinelli, 277",-23.512773,-46.690585
 614550,"Pedro Corazza - Plataforma 5","Av. Com. Martinelli, 70 Ref.: R. Ado Benatti",-23.514265,-46.690676
 614552,"Av. Nicolas Bôer, 510","",-23.516248,-46.679261
-614560,"Parada Extra C/B","Av. Com. Martinelli",-23.506404,-46.689026
+614560,"Parada Extra C/B","Av. Com. Martinelli Ref.: Extra Supermercado",-23.506404,-46.689026
 614563,"Av. Mário De Andrade","Ref.: Rua Wilfredes Alves De Lima Sentindo Av. Pacaembu E Para Av.francisco Matarazzo",-23.526610,-46.666127
+614564,"Intermunicipal","Av. Mário De Andrade Ref.: Próx. Ao Terminal De Ônibus Barra Funda",-23.526625,-46.665785
 614566,"R. Dr. Bento Teobaldo Ferraz","Ref.: Passagem Sob O Vd Antártica / Av. Jorn.aloysio Biondi",-23.524505,-46.670378
 614567,"R. Dr. Edgard Theotonio Santana, 423","Ref.: Ao Lado Da Empresa 'teleperformance'",-23.515934,-46.676078
 614568,"Av. Mário De Andrade","Ref.: Av. Antártica / R. Prof. Abrahão Berezin",-23.525749,-46.671321
@@ -596,7 +596,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1114276,"R. Paramirim, 1116","Ref.: R. João Honório",-23.466262,-46.689342
 1114277,"R. Rodolfo Pereira Lima, 215","",-23.458033,-46.697546
 1114278,"R. Paulo Limoeiro, 8","",-23.457423,-46.696345
-1114279,"R. Luís José Junqueira Freire","R. Luís José Junqueira Freire Ref.: Av. Padre Orlando Garcia Da Silveira",-23.472566,-46.683246
+1114279,"R. Luís José Junqueira Freire","R. Luís José Junqueira Freire Ref.: Av. Padre Orlando Garcia Da Silveira - Próximo A Av. João Paulo ",-23.472566,-46.683246
 1114283,"R. Manoel Aquilino Dos Santos, 1000","",-23.455884,-46.678386
 1114285,"R. Classicismo","Ref.: R. Cap. Pena De Oliveira / Av. João Paulo I",-23.477905,-46.685878
 1114286,"R. Rosa Alboni, 57","Ref.: Pas. René Saman / Pas. Renato Brogi",-23.456760,-46.684917
@@ -856,6 +856,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 1506206,"R. Constantino De Souza, 1025","Ref.: Rua João De Sousa Dias / Rua Édison",-23.620596,-46.676643
 1506207,"Av. Washington Luiz, 5955","Ref.: R. Braz Arzão / R. Pe. Leonardo",-23.629078,-46.666178
 1506209,"Pça. Cte. Lineu Gomes","",-23.626479,-46.659882
+1506210,"Av. Washington Luiz, 6542","Ref.: Pça. Cte. Lineu Gomes",-23.626498,-46.661354
 1602565,"R. Eng. Domicio De L. Pacheco E Silva, 209","Ref.: R Moacir Bonatti",-23.681761,-46.680848
 1602573,"Av. Nsa. Sra. Do Sabará, 2946","Ref.: R Alessandro Manzoni",-23.680393,-46.684025
 1602574,"Av. Nsa. Sra. Do Sabará, 2909","Ref.: Av Interlagos",-23.679709,-46.684320
@@ -4193,6 +4194,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4614927,"Av. Paulo Gracindo, 150","Ref.: Rua Chubey Takagashi",-23.567645,-46.425991
 4614928,"R. Chubei Takagashi, 289","Ref.: Conjunto Habitacional José Belarmino",-23.567979,-46.425685
 4614929,"R. Chubei Takagashi, 289","Ref.: Condominio Residencial José Belarmino",-23.568105,-46.425623
+4614930,"Av. Nagib Farah Maluf, 108","",-23.553232,-46.436993
 4707576,"Estr. Do Lageado Velho, 1561","Ref.: Cemiterio Do Lageado",-23.533797,-46.394781
 4707577,"Estr. Do Lageado Velho, 1575","Ref.: R Lopes De Cascais",-23.533831,-46.394648
 4707581,"R. Dr. José Gravonski, 1308","R. Dr. José Gravonski, 1308 Ref.: Lojas Marabráz",-23.533890,-46.399598
@@ -4403,6 +4405,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 4814660,"R. Marina Ciufuli Zanfelice, 176","",-23.513006,-46.705418
 4814661,"R. Joaquim Machado, 99","R. Joaquim Machado, 99 Ref.: Rua Trajano/rua Catão",-23.521706,-46.701392
 4814662,"R. Faustolo, 1817","Ref.: R. Monteiro De Melo",-23.523791,-46.703105
+4814663,"R. Cerro Cora, 1100","Ref.: R. Aecri",-23.538587,-46.707852
 4900415,"Parada Scuvero","R. Do Lavapés, 544 Ref.: R Scuvero",-23.561681,-46.627488
 4905666,"R. Antônio Tavares, 207","Ref.: Av Lacerda Franco",-23.571370,-46.624548
 4906338,"R. Tamandaré, 734","Ref.: Rua Prof.antonio Prudente",-23.564581,-46.635567
@@ -4796,6 +4799,8 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 5614817,"Av. Jaceguava, 1816","Ref.: Travessa Das Dileniais",-23.771432,-46.735187
 5614818,"Av. Prof. Hermann Von Ihering, 36","Ref.: Av. Jaceguava",-23.773533,-46.740753
 5614820,"R. Dos Coqueiros, 114","R. Dos Coqueiros, 114 Ref.: Tp 6093-10",-23.860294,-46.705077
+5614821,"Estr. Do Cipó, 330","Ref.: Rua Joelma",-23.854620,-46.758777
+5614822,"Estr. Do Cipó, 330","Ref.: Rua Joelma",-23.854620,-46.758777
 5709858,"R. Paraíba, 276","",-23.532082,-46.615884
 5709859,"R. Paraíba, 56","",-23.533647,-46.617145
 5710500,"R. Itaqui, 268","Ref.: Av. Vauthier",-23.528910,-46.619914
@@ -6902,6 +6907,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 8313669,"R. Ushikichi Kamiya, 723","Ref.: R. Um (tre)",-23.441037,-46.588083
 8313670,"R. Ushikichi Kamiya, 60","Ref.: R. Dina / R. Alberto Soares Da Silva",-23.442976,-46.593953
 8313671,"R. Filhos Da Terra","Ref.: Tr. Palmares Do Norte",-23.450221,-46.584783
+8313672,"R. Filhos Da Terra, 908","Ref.: Oposto A Tr. Palmares Do Norte",-23.450116,-46.584740
 8412399,"Av. Luís Dumont Vilares, 0","Ref.: Metrô Parada Inglesa",-23.486415,-46.608446
 8412470,"R. Borges, 923","Ref.: R Barra Da Jangada",-23.483852,-46.600804
 8412475,"Av. Álvaro Machado Pedrosa, 780","Ref.: Av Tucuruvi",-23.482053,-46.603521
@@ -8520,9 +8526,12 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 60016794,"Av. Mário De Andrade, 0","Ref.: Oposto Ao Memorial Da América Latina- Portal 10a",-23.527197,-46.663946
 60016795,"Av. Mário De Andrade, 564","Ref.: R Fuad Naufel/ R Wilfrides Alves De Lima",-23.527127,-46.663316
 60016796,"Av. Mário De Andrade, 0","Ref.: Próximo A Passarela",-23.526884,-46.664490
+60016797,"Transporte Coletivo Privado","Av. Mário De Andrade Ref.: R Fuad Naufel/ R Wilfrides Alves De Lima",-23.526606,-46.665976
+60016798,"Transporte Coletivo Privado","Av. Mário De Andrade Ref.: R Fuad Naufel/ R Wilfrides Alves De Lima",-23.526869,-46.666141
 60016801,"Av. Mário De Andrade, 0","Ref.: R Deputado Salvador Julianeli/ R Pedro Machado",-23.526709,-46.667510
 60016823,"Av. Mário De Andrade, 0","Ref.: Próx. Vd. Antártica",-23.525547,-46.671195
 60016824,"Av. Mário De Andrade, 1350","Ref.: Av Francisco Matarazzo/ Vdto Antartica -- Ed. Cgd",-23.525392,-46.674758
+60016832,"Transporte Coletivo Privado","Av. Mário De Andrade Ref.: R Fuad Naufel/ R Wilfrides Alves De Lima",-23.526653,-46.665655
 60016884,"Industrial - B/C","Av. Mq. De São Vicente, 1619 Ref.: Av Nicolas Boer/ R Josef Kryss",-23.519101,-46.675735
 60016885,"Industrial - C/B","Av. Mq. De São Vicente, 1620 Ref.: Av Nicolas Boer/ R Josef Kryss",-23.518887,-46.676100
 60016887,"Ordem E Progresso - B/C","Av. Mq. De São Vicente, 1139 Ref.: R Tenente Alberto Spicciati/ R Achilles Orlando Curtolo",-23.520232,-46.671651
@@ -12740,7 +12749,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 340015469,"Av. Pres. Juscelino Kubitschek","Ref.: R Doutor Chafik Juvenal Chede/ R Doutor Eduardo De Souza Aranha - Extra Supermercado",-23.588574,-46.676052
 340015470,"Av. Pres. Juscelino Kubitschek, 1118","Ref.: R Comandatuba/ R Professor Atilio Inocenti",-23.590017,-46.680068
 340015471,"Av. Pres. Juscelino Kubitschek, 1600","Ref.: R Ramos Batista/ Tunel Presidente Janio Quadros",-23.591316,-46.684987
-340015475,"Av. Henrique Chamma","Ref.: Av Presidente Juscelino Kubitschek/ R Professor Geraldo Ataliba",-23.589998,-46.688281
+340015475,"Av. Henrique Chamma, 590","Ref.: Av Presidente Juscelino Kubitschek/ R Professor Geraldo Ataliba",-23.589998,-46.688281
 340015479,"Av. Henrique Chamma","Av. Henrique Chamma Ref.: R. Prof. Geraldo Ataliba",-23.589227,-46.688020
 340015482,"Av. Horácio Lafer, 440","Ref.: R Jusseape/ R Lopes Neto",-23.587919,-46.683560
 340015483,"Av. Horácio Lafer, 225","Ref.: R Professor Atilio Inocenti/ Av Brigadeiro Faria Lima",-23.587347,-46.681518
@@ -14840,7 +14849,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 460008317,"Av. Nagib Farah Maluf, 539","Ref.: R Virginia Ferni/ R Professor Leoncio Gurgel",-23.548669,-46.436143
 460008318,"Av. Nagib Farah Maluf","Ref.: Av Professor Joao Batista Conti/ R Angelo Bini",-23.550724,-46.436508
 460008319,"Av. Nagib Farah Maluf, 375","Ref.: Av Professor Joao Batista Conti/ R Angelo Bini",-23.550944,-46.436555
-460008320,"Av. Nagib Farah Maluf, 155","Ref.: R Giulio Ferro/ Av Professor Joao Batista Conti",-23.552761,-46.436881
 460008321,"Av. Nagib Farah Maluf, 391","Ref.: Av Professor Joao Batista Conti/ R Angelo Bini",-23.550795,-46.436288
 460008322,"Av. Nagib Farah Maluf","Ref.: Av Professor Osvaldo De Oliveira/ R Cecilia Porto",-23.545454,-46.435354
 460008323,"Av. Nagib Farah Maluf, 1098","Ref.: R Cecilia Porto/ R Alfredo Ricci",-23.543683,-46.434541
@@ -15079,7 +15087,6 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 480014731,"R. Aurélia, 150","R. Aurélia, 150 Ref.: R Roma/ R Faustolo",-23.523110,-46.697678
 480014742,"R. Cerro Cora, 670","Ref.: R Sebastiao Caleiro/ R Pedro De Sousa Campos Filho",-23.540270,-46.703564
 480014745,"R. Cerro Cora, 985","Ref.: R Aecri/ R Tonelero",-23.539022,-46.706323
-480014746,"R. Cerro Cora, 1080","Ref.: R Aecri/ R Tonelero",-23.538674,-46.707220
 480014748,"R. Cerro Cora, 1604","Ref.: R Pepiguari/ R Butirapoa",-23.535710,-46.710411
 480014750,"R. Cerro Cora, 1851","Ref.: R Japuanga/ Av Sao Gualter",-23.535305,-46.712438
 480014781,"R. Barbalha, 365","Ref.: R Maria Augusta Thomaz/ Tr Barbalha",-23.532942,-46.719537
@@ -16412,7 +16419,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 590013813,"Av. Das Garoupas, 134","Ref.: R Dos Pirajis/ R Dos Caris",-23.699708,-46.648530
 590013814,"Av. Das Garoupas, 561","Ref.: R Dos Mandubis/ R Dos Acarapevas",-23.701120,-46.650025
 590013815,"Av. Das Garoupas, 522","Av. Das Garoupas, 522 Ref.: R Dos Mandubis/ R Dos Acarapevas",-23.702582,-46.650179
-590013816,"Av. Das Garoupas","Ref.: R Dos Robalos/ R Davide Perez",-23.704304,-46.649950
+590013816,"Av. Das Garoupas, 737","Ref.: R Dos Robalos/ R Davide Perez",-23.704304,-46.649950
 590013817,"R. Salvador Dali, 55","Ref.: Rua Davide Perez - Sentido Centro",-23.709148,-46.656261
 590013818,"R. Salvador Dali, 185","Ref.: Rua Eng. Caio Dias Batista - Sentido Centro",-23.709390,-46.655302
 590013819,"R. Salvador Dali, 250","Ref.: Rua Lúcio Dias Da Fonseca - Sentido Bairro",-23.709213,-46.654836
@@ -17073,7 +17080,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 640000161,"Av. Agenor Couto De Magalhães, 1470","Ref.: R Francisco Ursaia/ R Gen. Alexandre Lima",-23.473484,-46.741924
 640000162,"Av. Agenor Couto De Magalhães, 1515","Ref.: R Sebastiao De Pina/ R Angelo Preto",-23.473173,-46.742124
 640000163,"Av. Agenor Couto De Magalhães, 1174","Ref.: R Sem Nome/ Rod Dos Bandeirantes",-23.474951,-46.739918
-640000164,"Av. Agenor Couto De Magalhães, 1196","Ref.: R Sem Nome/ R Sem Nome",-23.474900,-46.739865
+640000164,"Av. Agenor Couto De Magalhães, 1236","Ref.: R Sem Nome/ R Sem Nome",-23.474900,-46.739865
 640000165,"Av. Agenor Couto De Magalhães, 1053","Ref.: R Stefano Mauser/ R Sem Nome",-23.475991,-46.739575
 640000166,"Av. Agenor Couto De Magalhães, 972","Ref.: R Sem Nome/ Rod Dos Bandeirantes",-23.476578,-46.739873
 640000167,"Av. Agenor Couto De Magalhães, 595","Ref.: R Antonio Augusto Tavares Sebilha/ Rod Dos Bandeirantes",-23.479875,-46.740821
@@ -18240,6 +18247,7 @@ stop_id,"stop_name","stop_desc",stop_lat,stop_lon
 710000958,"R. Voluntários Da Pátria, 1332","Ref.: R Forca Publica/ Av Gen. Ataliba Leonel",-23.508752,-46.626145
 710000959,"R. Voluntários Da Pátria, 1166","Ref.: R Paulo Setubal/ R Forca Publica",-23.510225,-46.626113
 710000960,"R. Voluntários Da Pátria, 1099","Ref.: R Maj. Caetano Da Costa/ R Francisco Peruche",-23.510939,-46.626272
+710000961,"Intermunicipal","R. Voluntários Da Pátria, 848 Ref.: R Pe. Ildefonso/ R Cerqueira Leite",-23.513107,-46.626195
 710000963,"Intermunicipal","R. Mal. Odylio Dennys, 141 Ref.: Av Cruzeiro Do Sul/ R Voluntarios Da Patria",-23.516436,-46.625582
 710000964,"Intermunicipal","R. Mal. Odylio Dennys, 141 Ref.: Av Cruzeiro Do Sul/ R Voluntarios Da Patria",-23.516471,-46.625529
 710000965,"R. Voluntários Da Pátria, 410","Ref.: Av Morvan Dias De Figueiredo/ R. Mal. Odylio Dennys ( Uni Sant'anna)",-23.516935,-46.627524
