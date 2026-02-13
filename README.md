@@ -78,7 +78,6 @@ Consulte a versão web: ![SP-4-u-Web](https://github.com/Rafabs/SP-4-u-Web)
 | Data       | Tipo           | Linha                                                       | Rota                                                                                   |
 | ---------- | -------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | 02/02/2025 | 🆕 Inclusão   | ![5108/21](https://img.shields.io/badge/5108/21-006341.svg) | Jd. Celeste - Metrô Alto Do Ipiranga | 
-
 | 02/02/2025 | ✏️ Modificação | ![1772/10](https://img.shields.io/badge/1772/10-002F6C.svg) | **Atual:** Jd. Filhos Da Terra - Metrô Tucuruvi<br>**Antes:** Recanto Verde - Metrô Tucuruvi |     
 | 02/02/2025 | ✏️ Modificação | ![3025/10](https://img.shields.io/badge/3025/10-DA291C.svg) | **Atual:** Jd. Wilma Flor - Cptm Guaianases<br>**Antes:** Sítio Conceição - Cptm Guaianases | 
 | 02/02/2025 | ✏️ Modificação | ![342N/10](https://img.shields.io/badge/342N/10-DA291C.svg) | **Atual:** Cohab Pres. Juscelino Kubitscheck - E.t. Itaquera<br>**Antes:** Cohab Juscelino - Cptm Guaianases | 
